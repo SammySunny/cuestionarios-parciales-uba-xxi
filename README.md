@@ -1,6 +1,6 @@
 # Cuestionarios Parciales UBA XXI
 
-App web instalable (PWA) para practicar con parciales reales de UBA XXI. Elegís materia, examen y tema; respondés cada ejercicio, ves si acertaste y una explicación de por qué la correcta lo es y en qué fallan las otras. Al final, la nota sobre 10.
+App web instalable (PWA) para practicar con parciales reales de UBA XXI. Elegís materia, parcial, examen y tema; respondés cada ejercicio, ves si acertaste y una explicación de por qué la correcta lo es y en qué fallan las otras. Al final, la nota sobre 10.
 
 - Sin dependencias, sin build y sin backend: HTML, CSS y JavaScript a mano.
 - Funciona sin internet una vez abierta (service worker) y se instala en Android.
@@ -33,7 +33,7 @@ registrarMateria({
   id: "filosofia", nombre: "Filosofía", detalle: "…",
   notas: { "heidegger-tecnica": `explicación…` },      // una por consigna
   examenes: [
-    { id: "2c2019-p2", nombre: "2º parcial · 2C 2019", detalle: "…", temas: [
+    { id: "2c2019-p2", parcial: 2, nombre: "2º parcial · 2C 2019", detalle: "…", temas: [
       { id: "t1", n: "Tema 1", aviso: "…", qs: [
         // opción simple
         { k: "heidegger-tecnica", e: "1", u: "Unidad 3", p: `enunciado`, o: [`…`, `…`, `…`, `…`], c: 2, pts: 1 },
@@ -48,13 +48,37 @@ registrarMateria({
 ```
 
 - `c` es el índice de la correcta empezando en 0 (0 = A). La letra se calcula al mostrarla.
+- `aceptadas: [2, 3]` permite varias respuestas válidas cuando el material las autoriza; debe incluir la respuesta principal `c`.
+- `pista` agrega una ayuda desplegable antes de responder.
 - `k` apunta a la explicación en `notas`. Si la misma consigna aparece en varios temas, usa la misma `k` y se explica una sola vez. Por eso las explicaciones no nombran letras.
+- `notaEspecifica: true` identifica una explicación importada ligada al orden fijo de las opciones de esa pregunta. Puede mencionar sus letras o números; no se debe reutilizar con opciones reordenadas.
 - `d: 1` marca una clave dudosa y muestra un aviso. También puede ser un texto con un aviso propio.
 - `aviso` del tema explica de dónde salió la clave (marcas del parcial o deducción).
 - La materia puede incluir `sigla` para abreviar el nombre en los botones de regreso sin acortar el título del catálogo.
 - `formato: "numeros"` conserva las opciones numeradas (1, 2, 3…) de un parcial. En una parte, `formato: "texto"` permite respuestas como Sí/No, sin un prefijo de letra o número. Si no se indica formato, se usan letras.
 - `contextoTitulo` permite nombrar el bloque `ctx`, por ejemplo «Caso de referencia · ejercicio 1». Los ejercicios que remiten a otro deben traer el caso y las opciones que necesitan para poder responder sin volver atrás.
-- Los textos van entre comillas invertidas `` ` `` para no tener que escapar comillas.
+- Los textos pueden escribirse entre comillas invertidas `` ` `` o como cadenas JSON con sus comillas escapadas.
+
+## Selección de parcial y primeros parciales
+
+En IPC e ICSE se elige primero **1er parcial** o **2do parcial**. Cada examen declara `parcial: 1` o `parcial: 2`; si no se indica, se considera segundo parcial, para compatibilidad con el contenido anterior. Las materias con un solo tipo disponible, como Filosofía, abren directamente sus exámenes.
+
+Los nuevos listados usan las rutas `#/ipc/parcial/1`, `#/ipc/parcial/2` y las equivalentes de ICSE. Los enlaces a ejercicios y las claves de almacenamiento de los segundos parciales se conservan.
+
+Se agregaron **55 temas y 898 preguntas**, importados de los HTML de `materias_uba_xxi/<materia>/1º parciales/`:
+
+| Materia y año | Organización | Temas | Preguntas |
+| --- | --- | ---: | ---: |
+| IPC 2025 | Buacar 11 y 14/04; Gimeno 15/04 | 8 | 100 |
+| IPC 2026 | Buacar 16 y 17/04; Gimeno 14/04 | 7 | 80 |
+| ICSE 2025 | Abril y septiembre | 27 | 484 |
+| ICSE 2026 | 1C y Tema 9 de 2C | 13 | 234 |
+
+Se mantienen los números de tema originales. IPC conserva explicaciones, pistas y formatos de opciones; la pregunta 1 del Tema 9 de Buacar del 14/04/2025 admite las dos respuestas autorizadas por la aclaración del material. ICSE 2026 reutiliza sus explicaciones; para ICSE 2025 se reutilizaron explicaciones pertinentes y se completaron las que faltaban.
+
+El **Tema 13 oral de septiembre de ICSE 2025** conserva sus 16 preguntas de 0,50, total original 8 puntos. Declara `totalEsperado: 8` y muestra claramente una nota normalizada sobre 10 junto al puntaje original. El verificador respeta esa excepción.
+
+La **pregunta 11 del Tema 14 de abril de ICSE 2025** se corrigió de E a G (B y C): democracia procedimental y mínima. La corrección y la clave de origen quedan registradas. Otras erratas cronológicas y una repetición de dos distractores en el HTML se conservaron con avisos; el verificador solo permite esa repetición documentada cuando no duplica la respuesta correcta.
 
 ## IPC — Introducción al Pensamiento Científico
 
@@ -112,9 +136,9 @@ No cambiar los `id` de materias, exámenes ni temas: con ellos se guarda el prog
 - ids únicos;
 - que ninguna respuesta apunte a una opción que no existe;
 - que toda clave tenga su explicación y no sobren explicaciones;
-- que los puntajes de cada tema sumen 10;
+- que los puntajes de cada tema sumen 10, o el `totalEsperado` documentado para un formato especial;
 - consistencia cruzada: misma consigna con las mismas opciones implica la misma correcta en todos los temas;
-- que las explicaciones no nombren letras;
+- que las explicaciones compartidas no nombren letras (las notas específicas importadas conservan sus referencias originales);
 - que no haya URLs remotas;
 - que existan todos los archivos que guarda el service worker.
 

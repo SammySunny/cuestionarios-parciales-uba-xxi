@@ -1,19 +1,15 @@
-/* ICSE — UBA XXI · Cátedra A, Fernando Pedrosa · 2º parcial.
-   Fuente principal: ICSE_2025_C.pdf (compilado). Los archivos individuales
-   se cotejaron con el compilado y no se duplican en la aplicación.
-   Tema 11 (04/11/2025) omitido: repite íntegramente el Tema 8.
-   Numeración consecutiva: temas 1 a 10; 176 preguntas; todos suman 10.
-   Tema 10: se respeta el valor de 1,50 impreso en las preguntas 15 y 16.
-   Las claves provienen de las grillas; las explicaciones son de elaboración
-   propia. Las discrepancias detectadas se indican con el campo d.
-   Las opciones combinadas se seleccionan como una sola respuesta, tal
-   como en el examen; se conservan las letras para no romper referencias.
-   No cambiar ids: identifican el progreso guardado en cada dispositivo. */
+/* Cuestionarios UBA XXI. Datos separados de la interfaz.
+   parcial: 1 o 2 organiza la selección sin modificar los ids guardados.
+   Los primeros parciales se importaron de los HTML de la carpeta de la materia.
+   fuente conserva el archivo original; d indica una revisión o aclaración.
+   aceptadas permite las respuestas alternativas autorizadas por la fuente.
+   totalEsperado conserva el puntaje de formatos especiales, como el oral.
+   No cambiar ids: identifican el progreso de cada persona. */
 registrarMateria({
   "id": "icse",
   "sigla": "ICSE",
   "nombre": "ICSE · Introducción al Conocimiento de la Sociedad y el Estado",
-  "detalle": "2º parcial · Cátedra A, Fernando Pedrosa. Diez temas únicos, sin cuestionarios duplicados.",
+  "detalle": "Primeros y segundos parciales, organizados por fecha, cátedra y tema.",
   "notas": {
     "icse-sorteo-atenas": "Linares recuerda que en la Atenas clásica el sorteo era una institución central de la democracia: se utilizaba para seleccionar integrantes de órganos de gobierno y jurados. No todo se resolvía mediante elecciones. Las referencias a parlamentarios y a una corte suprema trasladan instituciones modernas a la Antigüedad; la exclusión de esclavos es un límite histórico de la ciudadanía ateniense, pero no vuelve falsa la afirmación sobre el uso del sorteo.",
     "icse-woke-religion": "La pregunta pide reconstruir la crítica de Quintana Paz, no adoptar una definición neutral de todos los movimientos que se llaman woke. Según su interpretación, esa cultura retoma elementos morales como la compasión por la víctima, pero transforma su sentido y reemplaza el perdón por la humillación pública. Por eso no es correcto decir que simplemente conserva la tradición judeocristiana, que carece de toda moral reconocible o que se basa exclusivamente en evidencias científicas.",
@@ -82,9 +78,11650 @@ registrarMateria({
     "icse-menem-giro": "El giro inicial de Menem se expresó en un discurso de apertura y rechazo del estatismo y en la designación de un directivo de Bunge y Born al frente de Economía. No fue una reafirmación de la ortodoxia peronista ni una estrategia de medidas populistas contra el establishment. Las versiones de cuatro opciones pueden seleccionar el giro discursivo; las de ocho requieren también el nombramiento económico.",
     "icse-woke-nombres": "En el vocabulario crítico del video de Quintana Paz, woke e ideología invisible nombran la propuesta cultural examinada; una variante del parcial incluye también teoría crítica de la raza. Es importante leer exactamente el término: teoría crítica de la razón no es lo mismo que teoría crítica de la raza. Socialismo del siglo XXI no es uno de los nombres admitidos por la clave de esta consigna. Las diferencias entre combinaciones obedecen al texto específico de cada opción.",
     "icse-pandemia-infoesfera": "Pimentel describe la aceleración de prácticas digitales: autoría en diálogo con copyleft y producción colectiva, mercados de bienes digitales únicos y criptomonedas, y una infoesfera intervenida por algoritmos. Eso no significa que exista una base científica para negar las vacunas o la forma de la Tierra. La respuesta combina las tres transformaciones digitales y deja afuera ese distractor sobre negacionismo.",
-    "icse-convertibilidad-refuerzos": "Romero vincula el refuerzo de la convertibilidad con la reducción de aranceles y la apertura económica, que facilitaron la entrada de bienes y la competencia importada. No se trata del fin de un cepo cambiario con el sentido que adquirió mucho después, ni de una reducción de IVA y Ganancias como las dos medidas identificadas. Las combinaciones que incluyen esos distractores no corresponden al par señalado en el texto."
+    "icse-convertibilidad-refuerzos": "Romero vincula el refuerzo de la convertibilidad con la reducción de aranceles y la apertura económica, que facilitaron la entrada de bienes y la competencia importada. No se trata del fin de un cepo cambiario con el sentido que adquirió mucho después, ni de una reducción de IVA y Ganancias como las dos medidas identificadas. Las combinaciones que incluyen esos distractores no corresponden al par señalado en el texto.",
+    "icse-p1-rodrigazo": "El Rodrigazo (junio de 1975, ministro Celestino Rodrigo) fue un salto devaluatorio y tarifario que disparó corridas al dólar, inflación galopante e indexación. No fue un default ni una protesta rural, y en 1975 gobernaba Isabel Perón: los militares llegan en marzo de 1976.",
+    "icse-p1-proceso-poder": "Lo oscuro era dónde estaba el poder: la Junta de los tres comandantes controlaba y limitaba la autoridad del presidente, y el reparto se hacía por tercios entre las tres armas. Además, el Estado terrorista fue clandestino, no visible ni público.",
+    "icse-p1-campora-lastiri": "La renuncia de Cámpora y Solano Lima, en julio de 1973, abrió una salida dentro del propio peronismo para que Perón pudiera presentarse a la presidencia. Lastiri asumió provisionalmente siguiendo la sucesión constitucional. No se trató de un golpe militar ni de un paso a un régimen parlamentario: cambiar al presidente dentro de las reglas constitucionales no equivale a cambiar el régimen.",
+    "icse-p1-duros-blandos": "En una transición, los blandos son sectores del régimen autoritario que aceptan negociar una salida democrática al advertir su desgaste; los duros buscan prolongar la dictadura. La distinción no separa automáticamente a militares de civiles ni a quienes siempre fueron demócratas de quienes nunca lo fueron: ambos grupos pueden haber sostenido inicialmente al régimen que se retira.",
+    "icse-p1-dictadura-definicion": "En el sentido contemporáneo del texto, la dictadura es un subtipo autoritario caracterizado por la concentración del control estatal en una persona o grupo, sin los límites y controles democráticos efectivos. No debe confundirse con la magistratura temporal de la Roma antigua ni con un gobierno que conserva una auténtica división de poderes y competencia electoral.",
+    "icse-p1-electos-control": "La poliarquía exige que las decisiones gubernamentales dependan de autoridades elegidas y que los funcionarios no electos estén subordinados a ellas. Esto no excluye los controles constitucionales: excluye que un grupo sin representación popular se arrogue la facultad de decidir por encima de los representantes. El conocimiento técnico o la fuerza no sustituyen por sí mismos la legitimidad electoral.",
+    "icse-p1-subtipos-regimen": "La poliarquía es un subtipo más concreto que la gran categoría democracia: identifica un conjunto verificable de instituciones y requisitos. En una clasificación, reducir la abstracción agrega características y permite distinguir casos más específicos. No es lo mismo un régimen político, una forma de Estado o un sistema económico.",
+    "icse-p1-seis-golpes": "Los seis golpes de Estado triunfantes del siglo XX argentino ocurrieron en 1930, 1943, 1955, 1962, 1966 y 1976. Una opción puede pedir solo algunos de ellos. Los cambios presidenciales constitucionales, las elecciones y las sucesiones internas de una dictadura no son nuevos golpes por el solo hecho de cambiar la autoridad.",
+    "icse-p1-transiciones-conflictos": "El material distingue transiciones posteriores a una derrota total, salidas tras una humillación militar que no destruye por completo al régimen y democratizaciones durante conflictos todavía activos. El Salvador, Filipinas y Colombia ilustran que el conflicto armado no siempre termina antes de que cambien las instituciones políticas. Por eso es incorrecto presentar la paz previa como una condición universal.",
+    "icse-p1-montoneros-cerco": "Con Perón ya en el país su discurso se volvió inequívocamente ortodoxo, lejos de cualquier lectura socialista. Montoneros respondió con la teoría del cerco o del entorno: el líder no estaría conociendo la verdadera voluntad de su pueblo.",
+    "icse-p1-fin-tablita": "La anticipación del fin de la tablita cambiaria produjo fuga de capitales y fuertes devaluaciones, en un contexto de inflación renovada. La crisis financiera derivó también en mecanismos por los que el Estado asumió obligaciones externas privadas. No fue un tránsito a una moneda estable sin costos ni una eliminación de la deuda: el endeudamiento público aumentó.",
+    "icse-p1-reconstruccion-capitalismo": "El Programa de Reconstrucción y Liberación Nacional buscaba superar límites del crecimiento manteniendo los rasgos básicos del capitalismo argentino. No implicaba una ruptura socialista ni un ataque directo generalizado a los intereses establecidos. Intervención estatal y redistribución no equivalen, por sí solas, a abandonar el sistema económico.",
+    "icse-p1-terror-estatal": "En el terrorismo de Estado la violencia ilegal no es un episodio transitorio: integra una política sistemática organizada desde las máximas autoridades. Conviven una estructura estatal visible y otra clandestina. El monopolio legal de la fuerza no autoriza prácticas terroristas ni implica que el Estado sea incapaz de realizarlas. Las leyes no convierten en lícita la persecución clandestina de la población.",
+    "icse-p1-condiciones-golpe": "La muerte cotidiana y las acciones espectaculares de la guerrilla (con sus fracasos en el Gran Buenos Aires y en Formosa), junto al terror de la Triple A, crearon el clima que hizo aceptable un golpe que prometía restablecer el orden.",
+    "icse-p1-divorcio-87": "La ley de divorcio de 1987 avanzaba en la modernización de las relaciones familiares, terreno en el que la Argentina estaba atrasada respecto del mundo, y encontró la resistencia de los sectores más tradicionales de la Iglesia, que llegaron a sacar a la calle a la Virgen de Luján.",
+    "icse-p1-estado-gobierno": "El Estado es una estructura permanente que puede cambiar de formas; el gobierno es transitorio y sus miembros tienen mandato por tiempo determinado. Las opciones falsas invierten exactamente los dos términos.",
+    "icse-p1-alfonsin-1985": "Gerchunoff presenta 1985 como un punto alto por la coincidencia del Juicio a las Juntas, el éxito inicial del Plan Austral y la victoria radical en las elecciones legislativas. Son dimensiones políticas, institucionales y económicas del respaldo a la joven democracia. No debe confundirse ese momento con la crisis de Semana Santa o la derrota electoral de 1987.",
+    "icse-p1-alfonsin-legado": "Alfonsín distinguía el juicio a los culpables del juzgamiento a la institución militar, que es parte del Estado, y proponía concentrar el castigo en las cúpulas aplicando al resto el criterio de obediencia debida. Esas distinciones chocaban con el reclamo de juicio y castigo a todos los responsables.",
+    "icse-p1-hobbes": "El estado de naturaleza es una construcción teórica para explicar la necesidad de un poder común que limite la guerra, la inseguridad y la disgregación. El Estado fija reglas y brinda protección de la vida y los bienes. No supone simplemente que todos cooperen espontáneamente ni que la aparición del Estado elimine toda desigualdad. Tampoco debe leerse ese modelo como una descripción arqueológica de todas las sociedades sin Estado.",
+    "icse-p1-deich-golpe-ruptura": "El golpe busca derribar un gobierno constitucional tomando el poder por una vía que la sociedad no acordó, y es una acción ilegal cualquiera sea el argumento con que se presente. Las causas sociales pueden explicarlo, pero no lo legalizan.",
+    "icse-p1-sociedad-conflicto": "La sociedad reúne actores heterogéneos que persiguen intereses y disputan poder: el avance de un grupo puede limitar a otro. Por eso Estado y sociedad no son idénticos ni se relacionan siempre de manera natural y armoniosa. La construcción y transformación de instituciones es parte de esa tensión, no una prueba de ausencia de conflictos.",
+    "icse-p1-povse-regimenes-fluidos": "Los regímenes políticos son fluidos: pueden pasar de una categoría a otra en la medida en que quienes ejercen el poder modifiquen sus propias políticas. Por eso, después de definirlos, hay que fijar el umbral en que se pasa de un tipo al otro.",
+    "icse-p1-populismo-mayoria": "La descripción de Petrino enfatiza la legitimidad mayoritaria y la pretensión del líder de encarnar al pueblo, no un pluralismo que reconozca del mismo modo a todas las minorías. Las coaliciones populistas pueden reunir sectores diversos. Por eso no debe confundirse un discurso de mayoría con una coalición necesariamente homogénea, estricta o excluyente de toda heterogeneidad social.",
+    "icse-p1-terror-concepto": "El término terrorismo tiene una historia y usos políticos cambiantes; no mantuvo una definición inalterable. En las clasificaciones del texto se distingue la violencia de organizaciones no estatales del caso especial del terrorismo de Estado. Reconocer esa diferencia de actores no vuelve imposible el segundo ni elimina las controversias sobre la definición general.",
+    "icse-p1-bienestar-1945": "La expansión del Estado de bienestar occidental de posguerra respondió a la reconstrucción económica y social y a la búsqueda de estabilidad ante el atractivo del comunismo. Combinó crecimiento, protección social e intervención pública. No fue simplemente la retirada del Estado de la economía ni una experiencia exclusiva del bloque soviético.",
+    "icse-p1-concertacion-83": "La concertación fracasó porque la CGT se movilizó por razones sindicales y políticas, siendo la columna vertebral de la oposición peronista, y los empresarios cuestionaron el gasto y la intervención estatal, salvo en las políticas que los beneficiaban directamente.",
+    "icse-p1-intelectuales-83": "Alfonsín incorporó intelectuales como asesores y funcionarios técnicos, y su discurso tradujo en clave política lo que ellos elaboraban; también dirigentes peronistas recurrieron a ellos. Las listas siguieron dominadas por políticos tradicionales.",
+    "icse-p1-la-tablada": "El aval que recibió la represión militar tras La Tablada fue el primer indicio del cambio de prioridades y valores en la opinión pública, y permitía anticipar que la cuestión militar terminaría en el olvido de los crímenes de la guerra sucia y en el entierro de las ilusiones de la civilidad de 1983.",
+    "icse-p1-derrota-exterior": "Los ejemplos del video incluyen la derrota de la Alemania nazi y del Japón imperial por los Aliados en 1945, y la caída del gobierno talibán tras la intervención de 2001. Se trata de procesos iniciados por derrotas militares frente a fuerzas externas, distintos de una negociación interna o de un conflicto todavía activo. El ejemplo afgano describe una etapa histórica: no afirma una democracia irreversible, como mostró el retorno talibán en 2021.",
+    "icse-p1-democracia-polisemia": "Batlle señala la diversidad de significados de democracia tanto en la teoría como en el lenguaje público. Las diferencias entre definiciones mínimas, sustantivas o ideales dificultan comparar casos si no se aclaran los criterios. No existe una única fórmula usada de forma idéntica por investigadores, medios y ciudadanía; esa diversidad explica la búsqueda de conceptos operativos como poliarquía.",
+    "icse-p1-cordobazo": "El Cordobazo combinó una fuerte agitación sindical previa en el cordón automotriz de Córdoba con una ola de protestas estudiantiles duramente reprimidas. La multitud que controló la ciudad no tenía consignas precisas ni una conducción que coordinara las acciones.",
+    "icse-p1-alfonsin-poder-grande-escaso": "El triunfo de 1983 fue plebiscitario, comparable a los de Yrigoyen o Perón, pero el poder era escaso: la UCR era una fuerza poco homogénea que en ocasiones obstaculizó al propio presidente. En Diputados sí tuvo mayoría; lo que no controló fue el Senado.",
+    "icse-p1-militares-1982": "Después de Malvinas los militares vieron que hasta sus antiguos aliados —empresarios, la Iglesia, Estados Unidos— se pasaban a la nueva fe democrática, y que los jueces antes disciplinados empezaban a procesar oficiales acusados de corrupción.",
+    "icse-p1-sudafrica-restaurativa": "La Comisión de Verdad y Reconciliación sudafricana se orientó a reconstruir la verdad y facilitar el reencuentro entre víctimas, victimarios y comunidad. La participación colectiva, la catarsis y el conocimiento público de lo ocurrido eran centrales en su enfoque restaurativo. No nació de la caída del comunismo, sino del fin del apartheid, ni su rasgo distintivo fue una cadena de condenas penales ejemplares.",
+    "icse-p1-fascismo-control": "El modelo fascista descrito busca una intervención y un control amplios sobre la sociedad, incluida la educación, la cultura y la comunicación. No limita su poder precisamente a esos tres ámbitos ni reconoce una autonomía social equivalente a la liberal. Hablar de una pretensión total de control no significa que todos los casos históricos funcionaran de manera idéntica.",
+    "icse-p1-regimen-hibrido": "Un régimen híbrido combina indicadores democráticos y autoritarios: puede conservar competencia electoral y al mismo tiempo inclinar recursos, reglas o accesos en favor del oficialismo. No es suficiente observar elecciones para clasificarlo como democracia plena, ni debe confundirse el híbrido con un tipo puro que cumpla todas las condiciones de una sola categoría.",
+    "icse-p1-dahl-ideal": "Dahl distingue la democracia como ideal exigente de la poliarquía como aproximación institucional realmente observable. La clave apunta a que el ideal no se realiza de modo perfecto en la práctica. No significa que carezca de valor como orientación, que las sociedades deban renunciar a mejorar sus instituciones ni que toda poliarquía sea autoritaria.",
+    "icse-p1-transicion-argentina": "En sentido amplio, la transición argentina comprende la caída del gobierno militar tras Malvinas y un proceso de reducción del riesgo de regresión autoritaria que el texto extiende hasta la derrota del levantamiento carapintada de diciembre de 1990. No debe confundirse ese criterio de consolidación con el inicio del gobierno democrático en diciembre de 1983.",
+    "icse-p1-petrino-lideres": "Entre las particularidades del liderazgo populista están la relación directa con los seguidores, sin mediaciones institucionales, y las coaliciones sostenidas en la obediencia y la lealtad total. El populista se presenta como ruptura con el poder tradicional, no como su continuidad, y sus coaliciones son heterogéneas, no homogéneas.",
+    "icse-p1-weber-legitimidad": "Weber distingue tres tipos de dominación legítima: la tradicional (la autoridad del eterno ayer), la carismática y la legal-racional (la de las leyes). La legitimidad del futuro o la económica no forman parte de la clasificación.",
+    "icse-p1-guerrilla-vanguardia": "Romero encuentra en distintas organizaciones armadas una lógica común de vanguardia y de eliminación del enemigo, pese a sus diferencias ideológicas. Pretendían representar la movilización popular mediante la acción violenta. No equivalía a un acuerdo pluralista sobre adversarios legítimos ni a una simple participación electoral dentro de reglas compartidas.",
+    "icse-p1-ucede": "La UCeDé creció porque las ideas liberales tenían gran predicamento en el mundo, en el contexto de las crisis del bloque soviético y del Estado de bienestar, y porque sus dirigentes buscaron aprovechar el debilitamiento de la bipolaridad entre radicales y peronistas. Nunca superó en votos al partido gobernante.",
+    "icse-p1-cambios-presidentes": "Cambiar de presidente no es cambiar de régimen: el paso de Onganía a Levingston en 1970 ocurrió dentro de la misma dictadura, y el de Lastiri a Perón en 1973, dentro del mismo gobierno constitucional. De Bignone a Alfonsín, en cambio, sí cambió el régimen: de dictadura a democracia.",
+    "icse-p1-convencion-1948": "La Convención de 1948 define el genocidio como la intención de destruir total o parcialmente a un grupo nacional, étnico, racial o religioso. Los grupos políticos e ideológicos quedaron deliberadamente fuera del texto. Conviene distinguir dos hitos: la resolución 96 (I) de la Asamblea General de la ONU reconoció el genocidio como delito en 1946; la Convención que fija la definición jurídica citada fue aprobada en 1948.",
+    "icse-p1-peronismo-renovador": "La renovación peronista buscó insertarse en la civilidad democrática y aceptar la competencia y la alternancia entre partidos. Eso no implicaba disolverse detrás de Alfonsín ni aprovechar Semana Santa para sustituirlo. Tampoco su definición en este pasaje es un programa neoliberal de reforma estatal: la cuestión central es la incorporación al juego democrático.",
+    "icse-p1-estado-clandestino-visible": "La distinción no se sostuvo: el Estado ilegal terminó corroyendo y corrompiendo al conjunto de las instituciones y a su propia organización jurídica. A eso se sumó que, al crearse la Junta Militar, sus atribuciones y las del presidente nunca quedaron del todo deslindadas.",
+    "icse-p1-movilizacion-1973": "En la descripción de Romero, los partidos estaban debilitados para representar la movilización de 1973, y organizaciones armadas ocuparon ese vacío imponiendo estructuras verticales y una lógica de guerra. La intensidad de la participación no garantizaba por sí misma pluralismo o democracia. La movilización y sus formas de organización deben analizarse por separado.",
+    "icse-p1-corporaciones-alfonsin": "Alfonsín enfrentó a las corporaciones militar y sindical y denunció durante la campaña un pacto de impunidad entre ambas. La CGT realizó trece paros generales y combinó negociación con presión política. Por eso la recuperación democrática no significó que esos actores perdieran toda capacidad de veto o respaldaran sin condiciones al gobierno.",
+    "icse-p1-modernizacion-1960": "El crecimiento agropecuario se relacionó con mecanización y semillas híbridas, mientras que la expansión industrial incrementó el empleo y permitió recuperación de ingresos. No corresponde describir todo el período como un estancamiento absoluto ni atribuir la modernización a una única medida. El crecimiento podía coexistir con conflictos distributivos y límites de inversión.",
+    "icse-p1-terror-motivaciones": "La clasificación de Etchevest contempla motivaciones políticas, religiosas e ideológicas en organizaciones que recurren a la violencia terrorista. No se restringe a una sola religión ni se define por el lucro económico. Identificar motivaciones no legitima los actos ni supone una definición internacional uniforme de terrorismo.",
+    "icse-p1-sudafrica-verdad": "El enfoque sudafricano privilegió el acceso a la verdad, con mecanismos de amnistía condicionada y reconciliación que suscitaron objeciones sobre justicia penal y reparación. Por eso el video no lo presenta como el modelo que más lejos llegó en condenas ejemplares. Reconocer sus objetivos restaurativos no equivale a afirmar que todas las víctimas quedaron satisfechas.",
+    "icse-p1-elite-transicion": "Simone habla de una élite política que conduce y negocia la instalación democrática. Élite y casta no son sinónimos: la segunda expresión sugiere un cierre hereditario o rígido que no define automáticamente a quienes participan del proceso. El carácter restringido de las negociaciones tampoco elimina el papel de la sociedad civil.",
+    "icse-p1-indulto-menem": "El Juicio a las Juntas ocurrió bajo Alfonsín y los comandantes permanecían presos cuando terminó su mandato. Los indultos fueron dictados por Menem. Confundir los indultos con las leyes de Punto Final y Obediencia Debida mezcla decisiones distintas y atribuye a Alfonsín una medida que correspondió al gobierno siguiente.",
+    "icse-p1-liberal-derechos": "La tradición liberal invoca derechos individuales anteriores al contrato político, especialmente libertad, igualdad jurídica y propiedad. Su defensa sirve para limitar el poder estatal. No los presenta como una concesión revocable del gobernante ni como derechos que solo existirían después de la organización de la sociedad.",
+    "icse-p1-povse-regimen": "Cambiar de gobierno no es cambiar de régimen. El régimen es el conjunto de reglas que organizan el acceso y el ejercicio del poder: puede seguir siendo el mismo aunque cambien las autoridades. Un cambio de régimen implica cambiar esas reglas (por ejemplo, de democracia a dictadura).",
+    "icse-p1-economia-pre1975": "Romero describe una evolución relativamente satisfactoria hasta 1975, con crecimiento pampeano y nuevas oportunidades de exportación de granos y aceites, incluso a países socialistas. Las necesidades alimentarias internacionales se transformaban en demanda efectiva. Eso cuestiona una caracterización de fracaso económico absoluto, aunque no niega tensiones y desequilibrios internos.",
+    "icse-p1-populismo-liderazgo": "Petrino estudia el populismo atendiendo al modo de construir y ejercer el liderazgo, a la apelación al pueblo y a la confrontación con actores tradicionales. No se agota en una política económica específica ni en un origen nacional único. Comparar esos rasgos con otros liderazgos permite precisar el concepto.",
+    "icse-p1-iglesia-dictadura": "Desde 1979 las preocupaciones de la Iglesia por lo moral y la familia se extendieron hacia los derechos individuales y la política. Al mismo tiempo, revisando posiciones anteriores, se propuso renunciar a la injerencia directa en lo social y político para evangelizar a una sociedad que juzgaba excesivamente secularizada.",
+    "icse-p1-hobbes-orden": "El Estado importa porque concentra un poder común, fija reglas y organiza relaciones sociales, a la vez que genera o reproduce diferencias entre habitantes. El estado de naturaleza funciona como contraste teórico de una vida sin ese poder común. No debe confundirse la protección que se espera del Estado con la eliminación automática de conflictos o desigualdades.",
+    "icse-p1-malvinas-legitimidad": "La conducción militar esperaba que una victoria en Malvinas unificara a las Fuerzas Armadas y recuperara legitimidad frente al descontento social y económico. Eran objetivos políticos internos, no una garantía de éxito diplomático. El cálculo resultó errado al subestimar la reacción británica y sus respaldos externos.",
+    "icse-p1-cambios-regimen": "Los pasos de Lanusse a Cámpora en 1973 y de Bignone a Alfonsín en 1983 modificaron las reglas de acceso al poder al pasar de dictaduras a gobiernos constitucionales electos. No todo cambio de presidente tiene ese alcance: las sucesiones dentro de una misma dictadura o de un orden constitucional pueden mantener el régimen.",
+    "icse-p1-alfonsin-reinsercion": "La reinserción internacional se apoyó en democracia, paz y derechos humanos. Incluyó encarar las controversias con Chile por el Beagle y con el Reino Unido por Malvinas y cooperar con democracias de la región ante los conflictos centroamericanos, en especial Nicaragua. No significó resolver militarmente los diferendos ni asumir una política de aislamiento.",
+    "icse-p1-isabel-sindicatos": "Tras la muerte de Perón, Isabel buscó construir una base propia con un grupo de fieles, mientras en la CGT ganaron lugar los partidarios de una negociación dura de tradición vandorista. La tregua inicial no resolvió las disputas de poder. No hubo una armonía estable que hiciera desaparecer la puja distributiva.",
+    "icse-p1-peron-proyecto": "El proyecto de 1973 articuló acuerdo democrático con otras fuerzas, pacto social con las corporaciones y una conducción más centralizada del movimiento peronista. Eran bases políticas complementarias. No equivalía a mantener indefinidamente la dispersión interna ni a reemplazar la negociación con partidos y sindicatos por una sola organización armada.",
+    "icse-p1-transicion-sin-pacto": "La movilización social y la debilidad y división de las Fuerzas Armadas dificultaron una salida negociada que clausurara sin conflicto la revisión del pasado. Esa combinación limitó la capacidad militar de imponer condiciones. No basta analizar únicamente lo que algunos dirigentes habrían aceptado: también importaban los actores movilizados y la correlación de fuerzas.",
+    "icse-p1-violencia-aceptada": "La violencia estatal resulta efectiva porque viene acompañada de una explicación que la legitima y de una legalidad que la regula y la controla. Sin esa aceptación social no hay dominación posible.",
+    "icse-p1-sociedad-transicion": "La sociedad civil contribuye a la transición incorporando demandas y asuntos a la agenda pública que luego los partidos deben canalizar. No se reduce a observar pasivamente las negociaciones de las élites, aunque tampoco sustituye por sí sola a los partidos y a las instituciones representativas.",
+    "icse-p1-terror-actores": "En la definición inicial utilizada por el texto, acto terrorista se refiere a violencia de organizaciones no estatales con fines políticos, religiosos o ideológicos. El terrorismo de Estado aparece como una categoría especial que exige analizar la violencia sistemática del propio aparato público. Distinguir ambas categorías evita atribuir a la definición de una los rasgos de la otra.",
+    "icse-p1-fascismos-variantes": "Los fascismos históricos comparten rasgos autoritarios relevantes, pero mantienen diferencias nacionales. Por eso se puede construir un concepto comparativo sin afirmar que todos los casos sean idénticos. La opción correcta rechaza la ausencia de diferencias, no la posibilidad de encontrar características comunes.",
+    "icse-p1-simone-minima": "Los especialistas en transiciones emplean una definición procedimental y mínima: reglas que permiten expresarse libremente y elegir a los gobernantes. No presupone que ya se hayan satisfecho todas las demandas sociales ni que se haya alcanzado un programa maximalista o socialista. En la pregunta corregida del Tema 14 de abril, las afirmaciones pertinentes son las de reglas democráticas y versión mínima.",
+    "icse-p1-dictadura-legitimidad": "La coerción puede sostener inicialmente una dictadura, pero su continuidad también requiere alguna legitimación, por ejemplo la apelación a un supuesto interés público. Duración y legitimidad están relacionadas. Esto no vuelve democrático al régimen ni transforma el consenso invocado en un plazo constitucional de finalización.",
+    "icse-p1-sociologia-orden": "La sociología moderna se desarrolla ante las transformaciones europeas del siglo XIX, la organización obrera y los cuestionamientos comunistas y anarquistas al orden liberal. Una pregunta central es qué mantiene unidos a los individuos y hace posible el orden social. No se trata de una disciplina nacida en un contexto sin conflictos ni cambios políticos.",
+    "icse-p1-cgt-alfonsin": "La CGT no rehusó participar de las instancias de concertación que abrió el gobierno, pero lo hizo con el estilo que le había resultado exitoso entre 1955 y 1973: negociar y golpear. Moyano es una figura sindical de los años 2000, no de esa etapa.",
+    "icse-p1-tendencia-campora": "El triunfo de Cámpora y la marginación sindical en las listas favorecieron el avance de militantes de la Tendencia hacia espacios estatales en 1973. Eso no significó que el conflicto entre izquierda peronista, burocracia sindical y conducción de Perón hubiese desaparecido. El acceso a cargos se inscribe en esa disputa interna.",
+    "icse-p1-civilidad-1983": "La civilidad fue una identidad amplia fundada en valores éticos y en la recuperación democrática, potente para movilizar pero de capacidad organizativa todavía incierta. La expectativa de que la democracia resolvería todos los problemas chocó con la resistencia de actores que parecían derrotados. No era un apoyo uniforme ni un poder ilimitado del nuevo gobierno.",
+    "icse-p1-anio-87": "1987 fue el año bisagra: con deterioro económico e inflación creciente el oficialismo perdió las elecciones legislativas, y Alfonsín perdió la exclusividad del liderazgo sobre la civilidad. El indulto a las Juntas fue de Menem, entre 1989 y 1990.",
+    "icse-p1-grinspun": "Plan dirigista clásico: control estatal del crédito, del mercado de cambios y de los precios, completado con medidas de acción social; muy parecido a lo aplicado entre 1963 y 1966, ideas que el radicalismo compartía con el peronismo histórico. Empresarios y sindicalistas no lo apoyaron, lo hicieron fracasar.",
+    "icse-p1-frondizi-guido": "Frondizi fue desplazado bajo presión militar y lo sucedió José María Guido, una autoridad civil de la línea constitucional, no el vicepresidente ni un oficial de las Fuerzas Armadas. Esa combinación explica la complejidad del caso para la clasificación del texto. Hay una errata cronológica en el enunciado de origen: el reemplazo ocurrió en marzo de 1962, no en 1963.",
+    "icse-p1-concepto": "Un concepto no es simplemente una palabra: encierra una definición y, a la vez, una perspectiva desde la cual se mira e interpreta una realidad. No se trata de una opinión personal ni de una idea adjetivada.",
+    "icse-p1-instituciones-formales": "Las instituciones formales están codificadas; las informales son reglas y prácticas que no dependen de esa escritura legal. Ambas pueden funcionar simultáneamente e interactuar, por lo que no son categorías alternativamente excluyentes. Informal no equivale necesariamente a inexistente o carente de eficacia social.",
+    "icse-p1-estado-totalidad": "El Estado no representa a la sociedad entera: la sociedad es heterogénea y conflictiva, y esa variedad repercute en la propia conformación del Estado, que no está por encima de los conflictos ni puede ser un árbitro neutral.",
+    "icse-p1-secularizacion": "La secularización del Estado liberal redujo el monopolio de la Iglesia sobre educación y cultura y diferenció ámbitos religiosos y estatales. No supone la desaparición de toda creencia ni que el Estado deba asumir una religión oficial. La cuestión es el cambio en la autoridad institucional y en la organización de la vida social.",
+    "icse-p1-interrupcion-institucional": "En la distinción empleada por Deich, una interrupción institucional puede desplazar a un presidente sin sustituir las reglas básicas del régimen, a diferencia del golpe que busca una ruptura de ese orden. Tras la Guerra Fría disminuyeron los golpes militares clásicos, pero persistieron crisis y salidas presidenciales anticipadas. No todo reemplazo de autoridades representa un régimen nuevo.",
+    "icse-p1-poliarquia-competencia": "La poliarquía requiere competencia efectiva entre partidos con programas diferentes y posibilidades reales de acceder al gobierno. No basta con que existan varias etiquetas partidarias si se impide la alternancia o se excluyen opciones relevantes. La pluralidad de propuestas y la igualdad de oportunidades electorales son condiciones institucionales.",
+    "icse-p1-iglesia-laicidad": "La hostilidad de sectores eclesiásticos al gobierno radical se vinculó con el tono laico de la política cultural y con su aspiración de mayor injerencia en educación privada. Era parte de una disputa más amplia sobre modernización social. No debe confundirse esa tensión con una oposición de la Iglesia a toda enseñanza privada o con una adhesión plena a la secularización gubernamental.",
+    "icse-p1-luder-1983": "Romero destaca los costos de una campaña peronista que retomó el lenguaje de liberación y dependencia y aspectos intimidatorios de su folclore. Ítalo Luder no despejó la desconfianza de sectores sociales. No se describe una campaña renovada que resolviera las dudas sobre el pasado o garantizara la victoria electoral.",
+    "icse-p1-bombero-piromaniaco": "La metáfora describe a Perón alentando la presión social contra sus adversarios y presentándose a la vez como el único capaz de contenerla. Agregaba combustible y administraba la válvula de escape para obtener poder de negociación. No supone una política exclusivamente pacificadora ni un apoyo incondicional a cada objetivo de las organizaciones armadas.",
+    "icse-p1-semana-santa": "La sublevación carapintada de Semana Santa de 1987 reclamaba el fin de los juicios a los oficiales de la represión. No fue sofocada militarmente sino negociada, y fue el punto de inflexión que desembocó en la Ley de Obediencia Debida.",
+    "icse-p1-senores-guerra": "La estricta división del poder entre las tres fuerzas y el reparto territorial de la represión impidieron que existiera una instancia superior capaz de dirimir los conflictos. Así aparecieron jefes que casi no reconocían autoridad por encima de sí.",
+    "icse-p1-expansion-1973": "Hacia 1973 la economía rozaba el límite de la capacidad instalada porque la inversión privada no había crecido de manera sustancial, porque el Estado —pese al liberalismo declamado de los sectores propietarios— conservaba desde 1955 sus atributos y su capacidad de fijar las reglas del juego, y porque ya no quedaba margen para la redistribución fácil de la fórmula peronista clásica.",
+    "icse-p1-cordobazo-simbolo": "La fuerza del Cordobazo no se limita a sus resultados inmediatos: su valor simbólico fue interpretado de maneras distintas por movilizados, gobierno, sindicatos y partidos. Que esas lecturas fueran diversas no elimina su magnitud como acción de masas. No hay una enseñanza única compartida automáticamente por todos los actores.",
+    "icse-p1-juicio-decreto": "En la lectura de Gerchunoff, la decisión inicial de enviar a las juntas al Consejo Supremo de las Fuerzas Armadas fue parte del camino institucional que desembocó en el juicio de la justicia civil. Reconocer ese paso no significa que el tribunal militar realizara finalmente el histórico Juicio a las Juntas ni que Alfonsín dictara los indultos posteriores.",
+    "icse-p1-galtieri-1981": "Galtieri se presentó como una conducción vigorosa que salvaría al Proceso, alentado por contactos con la administración Reagan y por la búsqueda de apoyos políticos propios. Ese acercamiento estadounidense no garantizaba respaldo a una guerra contra el Reino Unido. La construcción de liderazgo precede a la decisión sobre Malvinas.",
+    "icse-p1-sociedad-civil": "La sociedad civil es el entramado institucional generado desde la ciudadanía, no desde el Estado ni desde los partidos, y su objetivo principal es ponerle un freno al Estado, no tomar su control.",
+    "icse-p1-elecciones-1983": "La elección de 1983 volvió al colegio electoral presidencial y dejó atrás el esquema de segunda vuelta y elección directa de senadores aplicado en 1973. También se modificó la composición de las cámaras. La consigna compara reglas concretas, no afirma que todo el sistema de 1973 se hubiese conservado sin cambios.",
+    "icse-p1-crisis-1975": "Los problemas de balanza de pagos, la aceleración inflacionaria y la intensa puja distributiva llevaron al agotamiento del pacto social. No describen una situación de estabilidad fiscal y salarial. Las medidas drásticas de 1975 se insertaron en ese conflicto y profundizaron la crisis en lugar de clausurarla.",
+    "icse-p1-nacion-estado": "Nación y Estado son conceptos distintos: una comunidad nacional puede servir de base a una construcción estatal, pero no es idéntica a su aparato institucional. Existen Estados multinacionales y naciones sin Estado propio. Por eso la relación no se reduce a un territorio y tampoco autoriza a tratarlos siempre como sinónimos.",
+    "icse-p1-instituciones-cambio": "Las instituciones combinan estabilidad con transformación: estructuran expectativas y conductas, pero se reestructuran frente a conflictos y cambios sociales. Permanencia no significa inmovilidad, y cambio no implica que hayan dejado de existir. La tensión entre ambas dimensiones es constitutiva del análisis institucional.",
+    "icse-p1-liberalismo-politico": "Liberal no designa únicamente libertad de mercado: incluye una filosofía política que cuestiona el poder absoluto y defiende libertad, razón y límites al gobierno. Identificarlo solo con la asignación económica de recursos omite ese sentido histórico más amplio. La dimensión económica es parte de la tradición, no su definición completa.",
+    "icse-p1-populismo-siglo21": "Petrino relaciona la oleada regional de comienzos del siglo XXI con un contexto favorable de precios de petróleo, minería y productos agropecuarios. Esa renta amplió recursos para coaliciones y políticas. No implica que el populismo dependa de una única materia prima o que todos esos gobiernos tengan idéntica trayectoria.",
+    "icse-p1-genocidio-practicas": "Hermo analiza prácticas genocidas en distintos momentos de la historia argentina como parte de estrategias de dominación. La presencia de una guerra no excluye automáticamente el genocidio: importan la población perseguida y la intencionalidad destructiva. Tampoco todo hecho violento queda definido como genocidio solo por su cantidad de víctimas.",
+    "icse-p1-cambios-autoridades": "La muerte de Perón y su reemplazo por la vicepresidenta, la alternancia Alfonsín-Menem y la sucesión Levingston-Lanusse cambiaron autoridades sin constituir por sí mismas un nuevo régimen. En cambio, Lanusse-Cámpora implicó el paso a un gobierno constitucional electo. Hay que comparar reglas de acceso y ejercicio, no solamente nombres o pertenencias partidarias.",
+    "icse-p1-represion-pre76": "La represión ilegal empezó antes del golpe: desde febrero de 1975 el Ejército, convocado por el gobierno de Isabel Perón, asumió la tarea de aniquilar a la guerrilla en Tucumán. Tras la muerte de Perón las organizaciones armadas pasaron a la clandestinidad y potenciaron la violencia.",
+    "icse-p1-preparacion-golpe": "Romero describe la preparación del reemplazo de Isabel: Videla evitó dar respaldo político, puso plazos y esperó que la suma de crisis económica y política profundizara el deterioro gubernamental. No fue una decisión improvisada sin preparación. Esa estrategia de los mandos se distingue de un apoyo firme al gobierno constitucional.",
+    "icse-p1-plan-austral": "El Austral (1985) fue un programa de shock: buscaba cortar la inflación atacando las expectativas que la impulsaban, estabilizar la economía en el corto plazo y crear las condiciones para transformaciones más profundas. Lo contrario de aumentar emisión y gasto.",
+    "icse-p1-aldo-rico": "Los carapintadas de Semana Santa no cuestionaban el orden constitucional ni buscaban tomar el poder: reclamaban una solución al problema judicial de los oficiales procesados. Por eso no fue un golpe clásico como los del siglo XX.",
+    "icse-p1-alfonsin-economia": "La inflación acelerada desde 1982, el déficit fiscal y una deuda externa creciente limitaban al gobierno radical desde el inicio. La prioridad política de la transición no significaba que la economía estuviera saneada. Las alternativas sobre superávit o sobre una deuda ya cancelada invierten la situación descrita.",
+    "icse-p1-resistencias-achicar-estado": "La reforma no llegó a fondo por resistencias internas: empresarios con un liberalismo declarativo que igual reclamaban protección y subsidios para sí mismos, y militares nacionalistas y dirigistas o interesados en sumarse al reparto estatal.",
+    "icse-p1-malvinas-juego-grande": "El gobierno militar supuso que la ocupación terminaría en una negociación y la reacción británica lo tomó por sorpresa. Tampoco tenía respaldos internacionales consistentes: Europa acompañó al Reino Unido.",
+    "icse-p1-lanusse-apertura": "Con Lanusse en 1971 hubo una apertura de actividad partidaria y un intento de salida electoral condicionada mediante el Gran Acuerdo Nacional. Por eso la sucesión no dejó completamente intacta la situación política. Seguía siendo una dictadura: abrir la negociación de una salida no equivale a que la democracia ya estuviera consolidada.",
+    "icse-p1-populismo-adjetivos": "La aplicación de populista a líderes y movimientos muy diversos puede volver borroso el concepto cuando no se explicitan criterios. La adjetivación abundante no sustituye una definición: dificulta comparar casos si cada uso refiere a algo distinto. No implica que estudiar el fenómeno sea imposible, sino que se requiere precisión conceptual.",
+    "icse-p1-independencia-judicial": "La diferencia está en las reglas de designación y remoción y en las garantías de independencia, no en una voluntad discrecional del dictador. En Argentina, el juicio político de integrantes de la Corte Suprema tiene acusación de Diputados y juzgamiento del Senado. Invertir esos papeles o afirmar que el gobernante puede removerlos libremente cambia el procedimiento constitucional.",
+    "icse-p1-tipos-aproximaciones": "Las tipologías son herramientas para interpretar realidades más complejas y no casilleros que todos los países cumplan de forma exacta. Pueden existir regímenes híbridos y variaciones internas. La necesidad de conceptos precisos no permite concluir que cada caso real sea una copia perfecta de un tipo teórico.",
+    "icse-p1-bienestar-petroleo": "El encarecimiento energético de los setenta agravó tensiones económicas y fiscales del Estado de bienestar y alimentó cuestionamientos a su funcionamiento. No fueron sus años dorados ni un fenómeno sin impacto sobre las cuentas públicas. La explicación del parcial se refiere a esas presiones sobre gastos e ingresos, no a una causa única de todas las crisis.",
+    "icse-p1-alfonsin-prioridades": "El gobierno priorizó consolidar una democracia frágil y evitar decisiones que fracturaran a la civilidad. Además, el radicalismo compartía una visión de obligaciones sociales del Estado que no hacía evidente una reforma de fondo. La política dirigista de Grinspun se vinculaba con esa tradición, no con un programa inmediato de retirada estatal.",
+    "icse-p1-nacionalismo-belico": "El nacionalismo militar apelaba a supuestos despojos históricos y a fantasías de patria grande para alimentar expectativas de recuperación territorial. No se explica por una influencia sindical peronista o por el concepto económico de patria contratista. Reconstruir esas ideas no implica aceptar su diagnóstico ni la decisión de ir a la guerra.",
+    "icse-p1-pacto-social": "La disputa interna estaba implícita en las relaciones equívocas entre Perón y la tendencia revolucionaria (Montoneros y la Juventud Peronista): los había usado para hostigar a quienes lo derrocaron en 1955 y a la vez se presentaba como el único capaz de contenerlos. La Triple A era parapolicial, no estudiantil, y López Rega la manejaba desde el gobierno.",
+    "icse-p1-militares-corporacion": "Tras 1983 las Fuerzas Armadas perdieron legitimidad, pero recompusieron solidaridad corporativa en torno a lo que reivindicaban como victoria contra la subversión. También apelaron a la complacencia social previa con su actuación. No se trataba de un éxito económico indiscutido ni de que conservaran intacta toda su autoridad política.",
+    "icse-p1-poliarquia-sufragio": "El sufragio universal requiere que puedan votar los ciudadanos habilitados por las reglas constitucionales y que sus votos tengan igual valor. No equivale a ausencia de requisitos de ciudadanía o edad ni a permitir que algunos ciudadanos dispongan de más votos. La consigna trata garantías de participación electoral, no define por sí sola si el voto es obligatorio o voluntario.",
+    "icse-p1-populismo-global": "El fenómeno populista no está limitado a las condiciones latinoamericanas: también aparece en países centrales con democracias institucionalizadas. Los ejemplos de una región no prueban exclusividad causal. Para estudiarlo hay que identificar rasgos políticos del liderazgo y la representación, además del contexto económico y social.",
+    "icse-p1-democracia-limites": "Un régimen democrático limita el acceso al poder mediante reglas electorales y su ejercicio mediante el Estado de derecho. Elección y límites constitucionales son dimensiones complementarias. El poder ilimitado no se vuelve democrático por haber ganado una elección ni por invocar a la mayoría.",
+    "icse-p1-individuacion": "La individuación puede acompañarse de un repliegue a la esfera privada cuando las personas perciben poca capacidad para influir sobre lo público. No es lo mismo que una expansión automática de participación colectiva. La explicación se refiere a la experiencia de injerencia política, no a que desaparezcan todos los vínculos sociales.",
+    "icse-p1-bienestar-arbitro": "El Estado de bienestar interviene entre capital y trabajo, promoviendo acuerdos y protección social con un papel activo en la economía. No consiste en abstenerse de toda regulación ni en eliminar necesariamente a empresarios o sindicatos. El arbitraje es parte del modelo histórico, no una garantía de neutralidad absoluta en cada conflicto.",
+    "icse-p1-totalitarismo-movilizacion": "En el modelo totalitario la sociedad civil pierde autonomía y se exige movilización activa y adhesión pública al líder y al régimen. No se trata solo de una ciudadanía pasiva que el gobierno deja en paz, ni de participación libre y plural. La coerción y la organización de eventos colectivos sirven para demostrar y reproducir la adhesión.",
+    "icse-p1-golpes-caracterizacion": "Para comparar golpes de Estado se analizan causas, actores, desarrollo y consecuencias. La consigna selecciona algunos de esos aspectos, en este caso causas y modo de ejecución. No basta con un nombre propio o una fecha: se buscan dimensiones que expliquen diferencias entre procesos históricos.",
+    "icse-p1-sacerdotes-3mundo": "Los Sacerdotes del Tercer Mundo asumieron la solidaridad y el compromiso con los pobres y, con ellos, el peronismo; su lenguaje evangélico se volvió rápidamente político. Lejos de rechazar a los jóvenes de colegios religiosos, fueron una vía de entrada a la militancia.",
+    "icse-p1-salida-militar": "Desde 1980 la conducción de la dictadura discutía una salida en un contexto de crisis económica, aislamiento internacional y conflictos internos. Esos problemas debilitaban su capacidad para acordar e imponer condiciones. No debe atribuirse toda la discusión exclusivamente a la derrota de Malvinas, que ocurrió después.",
+    "icse-p1-fragilidad-democratica": "Durante el gobierno de Alfonsín persistieron riesgos de regresión autoritaria por la debilidad de pactos entre fuerzas democráticas, los desacuerdos económicos y la falta de una posición común sobre los represores. Ganar elecciones no garantizaba por sí solo esa consolidación. Las divergencias entre civiles también condicionaban su capacidad para enfrentar presiones militares.",
+    "icse-p1-ciudadania-arendt": "Para Arendt la ciudadanía es el derecho a tener derechos, y eso no es un dato jurídico fijo ni un terreno de consenso: los derechos se conquistan en procesos históricos conflictivos, atravesados por la violencia y por intereses opuestos.",
+    "icse-p1-dem-representativa": "Verdadero: en la democracia representativa el pueblo no decide directamente, elige a otros para que gobiernen en su nombre expresando la voluntad de la mayoría. La opción que describe a los ciudadanos tomando ellos mismos las grandes decisiones corresponde a la democracia directa.",
+    "icse-p1-populismo": "Falso: el populismo no es un fenómeno exclusivamente europeo. Los casos clásicos son latinoamericanos, como Getúlio Vargas en Brasil o Perón en Argentina.",
+    "icse-p1-prog-reconstruccion": "El programa era fuertemente intervencionista y, en menor medida, nacionalista y distribucionista; nada en él apuntaba al socialismo nacional del discurso de la juventud peronista. Reducir el gasto y el empleo público no formaba parte del plan.",
+    "icse-p1-nacion-actores": "El Estado remite a las instituciones políticas; la nación obliga a mirar a la sociedad y a la ciudadanía, es decir, a la identidad compartida y a quienes la integran.",
+    "icse-p1-estado-liberal": "El Estado liberal se constituye con gobierno representativo, división de poderes y liberalismo económico. Las Fuerzas Armadas no son un elemento constitutivo distintivo: existen en cualquier tipo de Estado.",
+    "icse-p1-federales-4": "Los cuatro Estados federales de América Latina son Argentina, Brasil, México y Venezuela. Chile, Uruguay y Paraguay son unitarios.",
+    "icse-p1-montero-ddhh": "Falso: la plena aceptación internacional llega con la Segunda Guerra Mundial y la Declaración Universal de 1948, no con la caída del Muro. Hasta entonces predominaba la idea de que cada Estado decidía libremente qué derechos reconocía a sus ciudadanos.",
+    "icse-p1-terrorismo": "No hay definición homogénea ni listado internacional vinculante: un mismo grupo armado puede ser declarado terrorista en un país y no en otro, según el interés político de cada Estado.",
+    "icse-p1-dictaduras-duracion": "Las dictaduras no tienen plazo legal de duración. Su continuidad depende de la capacidad que muestren para ejercer el control y construir formas de legitimidad, no de una norma que fije su inicio y su final.",
+    "icse-p1-malvinas-transicion": "La derrota de 1982 derrumbó al Proceso de Reorganización Nacional y abrió la transición; en sentido estricto la democracia se alcanza con la asunción de Alfonsín, en diciembre de 1983.",
+    "icse-p1-poliarquia-dahl": "Dahl llamó poliarquía a la versión mínima o realmente existente de la democracia: un conjunto de requisitos observables que traza un límite claro entre autoritarismo y democracia. Mínima no significa que conserve rasgos autoritarios.",
+    "icse-p1-alfonsin-desafio": "En los primeros años el eje fue político: el legado de la dictadura (derechos humanos, militares) y una oposición peronista fuerte que dominaba el Senado. Lo económico pasa al centro después, con el Plan Austral y la hiperinflación.",
+    "icse-p1-deich-golpes-clasif": "Los golpes se clasifican según quién los encabeza: clásicamente los militares, y también el propio gobierno cuando cierra las instituciones, en lo que se conoce como autogolpe. Iglesia y prensa pueden apoyarlos, pero no constituyen una categoría de liderazgo.",
+    "icse-p1-abstraccion-alto": "Alto grado de abstracción: más general y abarcador, se aplica a muchos casos, pero describe cada uno con poca precisión o detalle. Es el trade-off clásico entre alcance y precisión.",
+    "icse-p1-responsabilidades-estado": "Crear el Estado obligaba a financiarlo, lo que suponía nuevos gastos para la comunidad, y a ponerle límites para que no abusara de su poder contra aquellos a quienes debía proteger. No es un árbitro neutral por encima de los conflictos ni se confunde con la sociedad civil.",
+    "icse-p1-estado-socialista": "El Estado socialista soviético se define por un proceso de ingeniería política, económica y social conducido por un partido único férreamente jerarquizado, y por subordinar los objetivos democráticos a las metas económicas y sociales, rechazando el reformismo. No hubo democracia directa ni vocación nacionalista.",
+    "icse-p1-malvinas-aislamiento": "Cada vez más aislada, la dictadura buscó aliados impensados: el Tercer Mundo, la Unión Soviética y hasta Cuba. En el exterior se señalaba que un triunfo militar argentino equivaldría a convalidar todo su desempeño previo en materia de derechos humanos.",
+    "icse-p1-ministro-economia": "Martínez de Hoz se sostuvo cinco años por el respaldo casi personal del sector más concentrado del establishment local y de los organismos internacionales y los bancos extranjeros. El conjunto de los militares nunca lo apoyó en bloque, y menos la CGT.",
+    "icse-p1-cgt-peron3": "Los sindicalistas carecían de tradición, instrumentos y objetivos para cogobernar, y la movilización de los trabajadores los ponía en jaque, quitándoles libertad para negociar. El 1º de mayo de 1974 la ruptura fue entre Perón y la juventud, no con la burocracia sindical.",
+    "icse-p1-montoneros-tradiciones": "La respuesta es una sola opción: los sectores católicos más integristas y nacionalistas, de donde venían buena parte de sus cuadros y su formación. Montoneros nunca fue una expresión juvenil de la CGT ni de los gremios tradicionales, y las dos opciones sobre el movimiento obrero y los sectores marginales no forman parte de la clave.",
+    "icse-p1-valdez-nacion-autores": "Gellner, Anderson y Hobsbawm coinciden en que la nación no es algo dado ni natural sino una construcción histórica, y en que hay una relación estrecha entre nación y territorio, es decir, una conexión necesaria entre nación y Estado.",
+    "icse-p1-federalismo-fragmentacion": "El federalismo es una forma específica de fragmentación territorial del poder. Junto con las confederaciones, las uniones y los Estados unitarios, define la organización interna de los Estados. Municipios y comunas son otro nivel, no formas de organización del conjunto.",
+    "icse-p1-comunidad-sociedad": "No son lo mismo: la comunidad supone un sentimiento de pertenencia y solidaridad mucho más próximo y definido, mientras que la sociedad es más amplia, impersonal y regida por vínculos de otro tipo.",
+    "icse-p1-poliarquia-atributo": "El primer atributo de la poliarquía es el sufragio universal en sus dos caras: derecho a elegir representantes y derecho a ser elegido. Esa garantía constitucional es la clave del paso del Antiguo Régimen al orden político moderno.",
+    "icse-p1-bouza-brey": "Las cinco formas preestatales que ordena Bouza-Brey van de la más simple a la más compleja y arrancan con la sociedad acéfala, sin autoridad diferenciada, y la sociedad segmentada. Sociedad anónima y sociedad de los poetas muertos son distractores.",
+    "icse-p1-abstraccion-bajo": "Bajo grado de abstracción: más específico y concreto y, por eso mismo, menos general y abarcador. Describe con detalle pero se aplica a pocos casos.",
+    "icse-p1-nacionalistas-italia-alemania": "Se apeló a elementos ya existentes y verificables: la lengua común, instituciones preexistentes como el Sacro Imperio Romano Germánico y tradiciones y cultura popular, como los cuentos recopilados por los hermanos Grimm. Cuidado con la variante que reemplaza la lengua por las perspectivas de un futuro compartido: esa no cuenta, porque el argumento nacionalista se apoyaba en un pasado común, no en un proyecto a futuro.",
+    "icse-p1-socialismos-montero": "Para Montero los socialismos reales terminaron en penurias económicas que precipitaron su caída, dejando millones de pobres y exiliados, y en asesinatos masivos y campos donde se pretendía reeducar. Todavía existen gobiernos que se dicen comunistas y los países nórdicos nunca tuvieron dictaduras comunistas.",
+    "icse-p1-persona-ciudadano": "No son sinónimos: ser ciudadano implica tener una batería de derechos que cada Estado otorga y garantiza. Se puede ser persona en un territorio sin ser ciudadano de ese Estado y, por lo tanto, sin ese conjunto de derechos.",
+    "icse-p1-elecciones-oferta": "En clave de poliarquía la transparencia electoral no se juega solo en el recuento de votos: también exige que la oferta de candidatos exprese las distintas miradas de la sociedad y no esté recortada por el poder del Estado.",
+    "icse-p1-estados-unitarios": "En el Estado unitario el poder se concentra en una administración central que designa delegados regionales o ejerce directamente el poder local. Es la forma opuesta a la federal, y no depende de que el régimen sea o no democrático.",
+    "icse-p1-lemkin-genocidio": "El rasgo distintivo aparece con la Modernidad: el uso instrumental y planificado de la violencia, con aparato estatal y burocrático, para eliminar poblaciones enteras. No equivale a las matanzas del Antiguo Régimen ni empieza después de 1945.",
+    "icse-p1-dictadura-antiguedad": "En Roma la dictadura era una magistratura excepcional prevista por las normas, con un plazo de finalización acordado de antemano. Esa es justamente la diferencia con las dictaduras contemporáneas, que no tienen plazo.",
+    "icse-p1-terrorismo-material": "Falso: el efecto del terrorismo excede con creces el daño material. Lo central es el impacto psicológico y comunicativo, el miedo que instala en una sociedad entera.",
+    "icse-p1-autogolpe": "Es el autogolpe: un presidente llegado por vía democrática somete o cierra las demás instituciones y se perpetúa más allá de lo permitido. En la Argentina los golpes fueron de tipo militar; el caso clásico de autogolpe en la región es Fujimori en Perú.",
+    "icse-p1-lesa-humanidad": "Los crímenes de lesa humanidad son imprescriptibles y pueden juzgarse en cualquier jurisdicción, y suponen una acción sistemática contra la población civil. No exigen un tribunal designado por la ONU ni se juzgan solo en el país donde ocurrieron.",
+    "icse-p1-cultura-espontanea": "Esa cultura espontánea fue moldeada por los activistas formados en las matrices del peronismo, del catolicismo o de la izquierda, y derivó en la lógica de la guerra. Montoneros, lejos de darle un sesgo democrático, sometió la movilización a una organización rígida y a una conducción verticalista.",
+    "icse-p1-declive-dictadura": "El declive era anterior a Malvinas: en 1979 la Comisión Interamericana de Derechos Humanos de la OEA visitó el país y denunció graves violaciones, y la economía empeoraba año a año. La Tablada fue en 1989, ya en democracia.",
+    "icse-p1-anio-87-corporaciones": "Tras la derrota electoral de 1987 Alfonsín renunció al propósito de controlar desde el Estado a los poderes corporativos e incorporó al gobierno a dirigentes de los sindicatos más importantes y a grandes empresarios. La convertibilidad y el indulto son de Menem.",
+    "icse-p1-bouza-brey-2": "Las formas preestatales que ordena Bouza-Brey van de las más simples (sociedad acéfala, sociedad segmentada) a las más complejas: la ciudad-Estado y el imperio burocrático, a las que Sribman suma el feudalismo. Sociedades secretas, masónicas o \"pluralistas\" son distractores.",
+    "icse-p1-reformas-1977": "Entre las reformas que alteraron las reglas vigentes desde 1930 están la reforma financiera de 1977, que eliminó la regulación estatal de la tasa de interés y multiplicó bancos y entidades, y la tabla de devaluación mensual, pensada para dar previsibilidad cambiaria y bajar la inflación paso a paso. Los créditos subsidiados eran lo propio del esquema anterior.",
+    "icse-p1-mdh-militares": "La relación fue tensa: los militares aceptaban el control de los sindicatos y la caída de los ingresos laborales, pero exigían mantener un nivel elevado de empleo, con lo que la receta recesiva clásica quedaba descartada, y defendieron por distintos motivos la pervivencia de las empresas del Estado.",
+    "icse-p1-isabel-peron": "Isabel continuó la política de los últimos años de Perón con cambios solo discursivos, mientras parodiaba sus fórmulas, y buscó homogeneizar el gobierno colocando a amigos e incondicionales en los puestos clave.",
+    "icse-p1-populismo-enfoques": "El populismo se ha estudiado desde ángulos muy distintos: como un tipo de régimen político, como un estilo de liderazgo y como una forma de gobierno.",
+    "icse-p1-decir-hacer": "No hay tal rechazo: en muchos discursos que se repiten en el espacio público parecería que decir es lo mismo que hacer, como si nombrar una realidad alcanzara para transformarla. Esa confusión entre la palabra y la acción es justamente lo que los autores señalan.",
+    "icse-p1-senadores-proporcional": "En la cámara alta de un sistema federal cada unidad vale lo mismo: todas las provincias tienen igual número de bancas sin importar su población. Eso es lo opuesto a una lógica proporcional y sobrerrepresenta a las provincias más chicas.",
+    "icse-p1-alfonsin-internacional": "El problema internacional pendiente era el diferendo con Chile por el Beagle, con un laudo papal que los militares no habían aceptado y que Alfonsín llevó a plebiscito. Las papeleras con Uruguay son de los 2000 y en Malvinas el apoyo internacional no se revirtió a favor de la Argentina.",
+    "icse-p1-pacto-social-73": "El pacto social apostaba a la concertación, mecanismo habitual en Europa y compatible con la idea peronista de comunidad organizada, y buscaba disciplinar a los actores económicos combinando persuasión y autoridad. La idea era frenar la puja distributiva, no estimularla.",
+    "icse-p1-iglesia-alfonsin": "El sector dominante de la Iglesia asumió el papel de censor social y presentó a la democracia como el compendio de los males del siglo: droga, terrorismo, pornografía, aborto. Eso se alineaba con la batalla cultural que impulsaba el Vaticano, terreno en el que el gobierno de Alfonsín era particularmente activo.",
+    "icse-p1-populismo-argentina": "Las figuras paradigmáticas del populismo en la historia argentina son Hipólito Yrigoyen y Juan Domingo Perón. Alfonsín y Cámpora no entran en esa caracterización.",
+    "icse-p1-simone-fuerza-grupos": "Si un grupo se impone por la fuerza sobre lo que deciden los representantes elegidos, no se cumple la poliarquía. Por eso ésta se apoya en instituciones que aplican las políticas públicas de manera impersonal y profesional, y no en corporaciones ni en saberes técnicos que reemplacen la decisión política.",
+    "icse-p1-sociedad-estado-tension": "La tensión nace con el Estado mismo: la sociedad lo crea para organizarse mejor, pero él no se subordina dócilmente y, por el poder y los recursos que concentra, tiende a autonomizarse de ella.",
+    "icse-p1-nacion-europa-xviii": "La idea de nación no encajaba en el mapa europeo: había imperios multinacionales como el otomano o el ruso, con muchas identidades conviviendo bajo un Estado imperial, y pueblos con lengua y cultura compartidas pero sin Estado propio, como italianos y alemanes.",
+    "icse-p1-estado-liberal-xix": "Al Estado liberal del siglo XIX se le van sumando los avances científico-tecnológicos de la Revolución Industrial, el imperialismo y las crisis cíclicas del capitalismo industrial. Los medios masivos de comunicación son posteriores.",
+    "icse-p1-weber-violencia": "Las cuatro afirmaciones valen: dentro de su territorio solo el Estado tiene derecho a usar la violencia, esa violencia es legítima porque está regulada y respaldada por las leyes del país, su legitimidad se apoya además en que quienes dictan esas leyes son elegidos por la población, y no admite competencia de ningún otro actor por el control de la violencia.",
+    "icse-p1-montero-jerarquia-ddhh": "Todos los derechos humanos tienen la misma jerarquía normativa, así que los gobiernos no pueden elegir cuáles respetar ni en qué orden: deben hacer su mejor esfuerzo por satisfacerlos todos a la vez. La única salvedad son los derechos de bienestar, sujetos a una cláusula de realización progresiva.",
+    "icse-p1-dictadura-proletariado": "El término dictadura tiene usos distintos según quién lo emplee y no siempre nombra a un gobierno no democrático. En la tradición marxista, la dictadura del proletariado designa el dominio de una clase, no un régimen político en el sentido de la Ciencia Política.",
+    "icse-p1-reglas-electorales": "Tanto en 1973 como en 1983 los civiles conservaron las reglas electorales que dejaban los militares: la élite política acordó reglas de juego mínimas de procedimiento democrático sin encarar cambios estructurales.",
+    "icse-p1-povse-democracia-autoritarismo": "La gran línea divisoria al clasificar regímenes políticos es democracia / autoritarismo. El populismo no es una categoría equivalente ni funciona como sinónimo de no democracia.",
+    "icse-p1-feudalismo": "El feudalismo fue la forma preestatal que predominó en Europa durante la Edad Media, no a principios del siglo XX ni en la etapa clásica de Grecia y Roma.",
+    "icse-p1-gellner-voluntad-cultura": "Para Gellner hace falta un elemento cultural compartido que una a las personas, y las naciones no son entidades dadas: se construyen y, una vez construidas, influyen sobre quienes las integran. No hay transmisión natural ni elemento coactivo.",
+    "icse-p1-peron-simbolico": "La figura simbólica de Perón era muchas a la vez: para los peronistas de siempre, sindicalistas y políticos, el líder de 1945 que traería la vieja bonanza distribuida por el Estado protector; para otros, el anticomunista que descabezaría a la subversión. Las opciones que dicen que Perón expresaba un giro a la izquierda invierten la idea: no era él quien lo expresaba, sino los sectores que lo leían así.",
+    "icse-p1-interrupciones-institucionales": "Ojo con esta: la consigna no apunta a los golpes militares clásicos sino a las salidas anticipadas de presidentes civiles. Las correctas son el final del gobierno de Cámpora en 1973 y el de De la Rúa en 2001; 1966 y 1976 fueron golpes de Estado, otra categoría dentro del texto de Deich.",
+    "icse-p1-statello-elementos": "Para Statello un acto violento es terrorista cuando combina violencia física, repetición potencial (la amenaza de que vuelva a ocurrir) y dimensión comunicativa: el ataque funciona como mensaje. La amoralidad no es un criterio definitorio.",
+    "icse-p1-achicar-estado-resultados": "El resultado fue el contrario del buscado: el Estado premió a quienes conseguían prebendas y, pese al objetivo de equilibrio presupuestario, el gasto público creció sostenidamente, financiado con emisión y con endeudamiento externo. Ni siquiera mejoró en lo que le era propio, la recaudación y asignación de recursos fiscales.",
+    "icse-p1-fascista-socialista": "Fascismo y socialismo son opuestos ideológicos, pero comparten rasgos de forma: los valores sagrados, el verticalismo, la fuerte intervención pública y el partido único. Por eso no son el opuesto exacto, ni tampoco etapas distintas de un mismo régimen.",
+    "icse-p1-valdez-1880-identidad": "Hacia 1880, con la inmigración masiva, el temor a la disolución de la sociedad y de la nacionalidad cobró una importancia inusitada, y el Estado asumió la construcción de la identidad nacional con escuela pública, servicio militar y símbolos patrios. El INCAA y el Pacto de Mayo son anacronismos.",
+    "icse-p1-poliarquia-origen": "El concepto de poliarquía es de la segunda posguerra y sirvió para definir y disputar el significado de la democracia frente al bloque oriental soviético, no frente al Eje, que para entonces ya había sido derrotado.",
+    "icse-p1-federal-arquitectura": "En un Estado federal cada provincia tiene su propia arquitectura de gobierno, con Ejecutivo, Legislativo y Judicial separados e independientes del gobierno central. Que la competencia política ocurra en más de un nivel es justamente lo propio del federalismo.",
+    "icse-p1-acciones-sociales-weber": "Weber distingue cuatro tipos de acción social: la tradicional, la afectiva, la racional con arreglo a fines y la racional con arreglo a valores. \"Con arreglo a tácticas\" no existe en la clasificación."
   },
   "examenes": [
+    {
+      "id": "pedrosa-2026-2c-p1",
+      "parcial": 1,
+      "nombre": "1er parcial · 2C 2026",
+      "catedra": "A · Fernando Pedrosa",
+      "detalle": "Cátedra A · Pedrosa. 18 preguntas; 16 de 0,50 y 2 de 1 punto.",
+      "temas": [
+        {
+          "id": "t9",
+          "n": "Tema 9",
+          "fuente": "icse-parcial-offline.html",
+          "aviso": "Preguntas, claves y explicaciones importadas del cuestionario HTML de 2026.",
+          "qs": [
+            {
+              "p": "Max Povse afirma que los regímenes políticos son fluidos y pueden cambiar.",
+              "o": [
+                "Es verdadero, porque eso ocurre cuando los que ejercen el poder modifican sus propias políticas.",
+                "Es falso, porque los regímenes políticos son dicotómicos, democráticos o no democráticos y por lo tanto no pueden cambiar de uno a otro.",
+                "Es verdadero, porque el régimen político es un concepto informal que depende de las conductas y actitudes del líder.",
+                "Es falso, porque el régimen es un concepto monosémico vinculado exclusivamente a los regímenes autoritarios."
+              ],
+              "c": 0,
+              "k": "icse-p1-povse-regimenes-fluidos",
+              "e": "1",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Ariel Sribman Mittelman, el Estado fascista es el opuesto exacto del Estado socialista o comunista y no comparte ninguna característica con estos últimos.",
+              "o": [
+                "Es falso, porque comparte características como los valores sagrados, el verticalismo, la intervención pública y el partido único.",
+                "Es verdadero, porque los Estados socialistas representaban –con aciertos y errores– a los obreros y trabajadores y el Estado fascista solo buscaba la dominación de su sociedad.",
+                "Es falso, porque el Estado fascista y el socialista fueron diferentes etapas históricas de un mismo régimen no democrático.",
+                "Es verdadero, porque el fascismo siempre se opone al socialismo en cualquiera de sus variantes, sus formas o sus características."
+              ],
+              "c": 0,
+              "k": "icse-p1-fascista-socialista",
+              "e": "2",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Patricio Gómez Talavera, para ser efectiva, la violencia ejercida por el Estado para dominar debe ser aceptada por los ciudadanos.",
+              "o": [
+                "Es falso, porque en general los ciudadanos rechazan la violencia venga de donde venga.",
+                "Es verdadero, porque los ciudadanos apoyan la lucha contra la delincuencia sin importar el grado o el tipo de violencia que se utiliza.",
+                "Es falso, porque no hay explicación legítima para la violencia, sea o no estatal.",
+                "Es verdadero, porque la violencia estatal tiene una explicación que la legitima y una legalidad que la controla."
+              ],
+              "c": 3,
+              "k": "icse-p1-violencia-aceptada",
+              "e": "3",
+              "pts": 0.5
+            },
+            {
+              "p": "María José Valdéz explica que, para 1880, se consideraba que quien tenía la principal responsabilidad en el fortalecimiento de los aspectos culturales de la identidad nacional era el Estado a través de un conjunto de instituciones y de intervenciones directas.",
+              "o": [
+                "Es falso, porque hasta 1912 con la sanción de la Ley Sáenz Peña el Estado argentino no estuvo consolidado.",
+                "Es verdadero, porque instituciones como el Instituto Nacional de Cine y Artes Audiovisuales (INCAA) y la firma del Pacto de Mayo resultaron claves en la construcción de la argentinidad y su reconocimiento internacional.",
+                "Es verdadero, porque el temor a la disolución de la sociedad y de la nacionalidad cobraron entonces inusitada importancia.",
+                "Es falso, porque la construcción de la nación se basó exclusivamente en la homogeneización económica y no tenía que ver con cuestiones identitarias que no eran un problema para los argentinos."
+              ],
+              "c": 2,
+              "k": "icse-p1-valdez-1880-identidad",
+              "e": "4",
+              "pts": 0.5
+            },
+            {
+              "p": "Alejandro Lamarque afirma que el concepto genocidio refiere a un fenómeno moderno.",
+              "o": [
+                "Es verdadero, porque refiere a un uso instrumental y planificado de la violencia para eliminar grupos enteros de poblaciones.",
+                "Es falso, porque se encuentran genocidios en todas las épocas de la humanidad donde existían Estados.",
+                "Es falso, porque el genocidio está ligado en forma inmodificable a la existencia del sistema capitalista.",
+                "Es verdadero, porque el genocidio está ligado al problema de la sobrepoblación."
+              ],
+              "c": 0,
+              "k": "icse-p1-lemkin-genocidio",
+              "e": "5",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nicolás Simone, el concepto de poliarquía se desarrolló en los años posteriores a la Segunda Guerra Mundial como una forma de definir y disputar el significado de la democracia frente al eje que lideraban Hitler y Mussolini.",
+              "o": [
+                "Es falso, porque el concepto se desarrolló en los años anteriores a la Segunda Guerra Mundial.",
+                "Es falso, porque el concepto se desarrolló como una forma de definir y disputar el significado de la democracia frente al bloque oriental soviético.",
+                "Es verdadero, porque la expansión nazi fascista amenazaba con cambiar todos los regímenes liberales europeos.",
+                "Es verdadero, porque el Estado liberal y su principal herramienta política —la poliarquía— nacieron para enfrentar la expansión del Eje fascista."
+              ],
+              "c": 1,
+              "k": "icse-p1-poliarquia-origen",
+              "e": "6",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Sofía Pirsch, en un Estado federal cada una de las unidades territoriales que constituyen el Estado nacional tiene una arquitectura de gobierno específica.",
+              "o": [
+                "Es verdadero, porque cuentan con poderes Ejecutivo, Legislativo y Judicial separados e independientes del gobierno central.",
+                "Es verdadero, porque el tipo de arquitectura de gobierno en las provincias se desprende del tipo de gobierno nacional.",
+                "Es falso, porque nunca en un sistema federal los poderes provinciales están separados o son independientes del gobierno central.",
+                "Es falso, porque eso implicaría que la competencia política sucede a más de un nivel, lo cual es políticamente imposible."
+              ],
+              "c": 0,
+              "k": "icse-p1-federal-arquitectura",
+              "e": "7",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Laura Petrino, los líderes populistas poseen cinco particularidades que los definen y diferencian de otros tipos de liderazgo. Entre ellas se encuentran:",
+              "o": [
+                "Mostrarse inicialmente como una continuidad del poder tradicional.",
+                "Mantener una relación directa con los seguidores.",
+                "Sostenerse en coaliciones donde se exige la obediencia y la lealtad total de sus seguidores.",
+                "Tejer coaliciones homogéneas entre sectores dispares.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-petrino-lideres",
+              "e": "8",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Luis A. Romero, el impulso civil y democrático que representaba el entonces presidente Raúl Alfonsín había experimentado un temprano y fuerte contraste ante el poder sindical reconstituido. Esto se vio en que:",
+              "o": [
+                "Los sindicalistas de la CGT no lograron expresar de manera unificada el descontento social, se enfrentaron también con los empresarios, la Iglesia y los grupos de izquierda.",
+                "El secretario general de la CGT, Hugo Moyano, proveniente de un sindicato clave en el entramado económico del país, fue la figura característica de esta etapa.",
+                "El Gobierno de Alfonsín prefirió enfrentar a los sindicatos y nunca abrió espacios para el diálogo y la concertación con sus representantes.",
+                "La CGT no rehusó participar en las instancias de concertación que abrió el Gobierno, pero lo hizo con el estilo que había desplegado exitosamente entre 1955 y 1973: negociar y golpear.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 3,
+              "k": "icse-p1-cgt-alfonsin",
+              "e": "9",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, el año 1987 fue decisivo para el Gobierno del entonces presidente radical Alfonsín. Eso fue así porque:",
+              "o": [
+                "En un clima de deterioro económico agudizado y de inflación creciente, el oficialismo fue derrotado en las elecciones legislativas.",
+                "Alfonsín anunció el proyecto de reforma constitucional que desembocaría en su reelección.",
+                "Alfonsín perdió la exclusividad del liderazgo sobre la civilidad.",
+                "Jaqueado por los militares llamados \"carapintadas\", decretó el indulto a los miembros de las Juntas militares de la última dictadura.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-anio-87",
+              "e": "10",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero relata que la ley del divorcio de 1987 se aprobó durante el gobierno de Alfonsín luego de una breve, pero muy intensa discusión. Esta intensidad estuvo relacionada con que:",
+              "o": [
+                "Los sectores más tradicionales del partido radical intentaron oponerse bloqueando su tratamiento en el Congreso.",
+                "Fue el momento en que se formalizó la ruptura de relaciones diplomáticas entre Argentina y el Vaticano.",
+                "Los sectores tradicionales de la Iglesia católica se opusieron apelando a mecanismos habituales de presión y a otros más novedosos.",
+                "Fue el punto culminante de la modernización cultural iniciada en 1983.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-divorcio-87",
+              "e": "11",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, a partir de 1983 creció el partido Unión del Centro Democrático (UCeDé), fundado por Álvaro Alsogaray, el mentor de las ideas liberales en la Argentina de la segunda mitad del siglo XX. Esto ocurrió porque:",
+              "o": [
+                "Esas ideas tenían un gran predicamento en el mundo, en el contexto de las crisis del bloque soviético y del Estado de bienestar.",
+                "Sus dirigentes intentaron aprovechar el debilitamiento de la bipolaridad que representaban radicales y peronistas.",
+                "Su discurso estaba ligado a la derecha militar que aún tenía muchos adeptos y se sostenía en la necesidad de mayor seguridad para amplios sectores urbanos que no veían respuesta ante la creciente amenaza de la delincuencia.",
+                "Se opuso con éxito al alfonsinismo en la educación de la civilidad, y hasta superó en votantes al propio partido gobernante.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-ucede",
+              "e": "12",
+              "pts": 0.5
+            },
+            {
+              "p": "Entre mediados y fines del siglo XX hubo en Argentina numerosos cambios de presidentes sin que cambie el régimen político. Algunos ejemplos fueron:",
+              "o": [
+                "El paso de la presidencia de Reynaldo Bignone a Raúl Alfonsín en 1983.",
+                "El paso del Gobierno de Héctor Cámpora a Carlos Menem en 1973.",
+                "El paso del gobierno de Juan Carlos Onganía al de Roberto Marcelo Levingston en junio de 1970.",
+                "El paso del gobierno de Raúl Lastiri a Juan D. Perón que iniciaba su tercer mandato presidencial en 1973.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-cambios-presidentes",
+              "e": "13",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, hacia 1973, la expansión económica en Argentina ya se acercaba a los límites de la capacidad instalada. Esto fue así porque:",
+              "o": [
+                "Por falta de una importante inversión privada no había crecido sustancialmente.",
+                "Por falta de una importante inversión pública no había crecido sustancialmente.",
+                "Pese al declamado liberalismo de los sectores propietarios, desde 1955 no habían disminuido ni los atributos del Estado ni su capacidad para definir las reglas del juego.",
+                "La fuerte conflictividad social no podría ser satisfecha con una fácil redistribución, según la fórmula histórica del peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-expansion-1973",
+              "e": "14",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, desde 1968, los religiosos que se reunieron en el Movimiento de Sacerdotes del Tercer Mundo, y los laicos que los acompañaban, militaron en las zonas más pobres. Esto derivó en que:",
+              "o": [
+                "Predicaban que la violencia de abajo no se legitimaba por la injusticia social por lo cual no adherían al discurso de las organizaciones guerrilleras de la época.",
+                "Rechazaran la incorporación a la política y a la militancia de jóvenes educados en los colegios religiosos.",
+                "Su lenguaje evangélico fue haciéndose rápidamente político.",
+                "Asumieron la solidaridad y el compromiso con los pobres, y también el peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-sacerdotes-3mundo",
+              "e": "15",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, en el llamado \"Cordobazo\" de 1969, la movilización social se expresó de maneras diversas. Por ejemplo, en que:",
+              "o": [
+                "Los inmigrantes fueron actores centrales de las protestas, buscando inserción en el mundo laboral y facilitar la nacionalización.",
+                "El estallido fue precedido de una ola de protestas estudiantiles en diversas universidades, algunas de ellas fuertemente reprimidas.",
+                "Antes del estallido hubo una fuerte agitación sindical en Córdoba, donde se concentraban las principales fábricas de automotores.",
+                "La multitud, que controló varias horas la ciudad, tenía consignas precisas y líderes que coordinaban las acciones.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-cordobazo",
+              "e": "16",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que, entre 1975 y principios de 1976, diversos factores fueron creando las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Entre ellos se puede mencionar:",
+              "o": [
+                "La acción espectacular de las organizaciones guerrilleras, que habían fracasado en dos grandes operativos contra unidades militares en el Gran Buenos Aires y en Formosa.",
+                "El terror sembrado por la Alianza Anticomunista Argentina (Triple A).",
+                "La presencia constante y pública en el país del Partido Comunista soviético a través de financiamiento, propaganda y una nutrida militancia que hacían suponer la pronta apertura de un frente revolucionario.",
+                "El terror sembrado por diversas bandas del crimen organizado, la mayoría de ellas vinculadas al narcotráfico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-condiciones-golpe",
+              "e": "17",
+              "pts": 1
+            },
+            {
+              "p": "En el texto de Nadia Yannuzzi, y citando a Max Weber, se identifican cuatro tipos de acciones que pueden considerarse acciones sociales. Entre ellas:",
+              "o": [
+                "La tradicional.",
+                "La afectiva.",
+                "La racional con arreglo a tácticas.",
+                "La racional con arreglo a fines.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-acciones-sociales-weber",
+              "e": "18",
+              "pts": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pedrosa-2026-1c-p1",
+      "parcial": 1,
+      "nombre": "1er parcial · 1C 2026",
+      "catedra": "A · Fernando Pedrosa",
+      "detalle": "Cátedra A · Pedrosa. 18 preguntas; 16 de 0,50 y 2 de 1 punto.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "icse-parcial-offline.html",
+          "aviso": "Preguntas, claves y explicaciones importadas del cuestionario HTML de 2026.",
+          "qs": [
+            {
+              "p": "Max Povse afirma que es muy importante entender que es lo mismo un cambio de gobierno que un cambio de régimen político.",
+              "o": [
+                "Es verdadero, porque no puede haber un mismo gobierno que transite regímenes políticos diferentes.",
+                "Es verdadero, porque cuando cambia el presidente necesariamente cambia el régimen.",
+                "Es falso, porque un régimen puede mantenerse, aunque cambie el gobierno.",
+                "Es falso, porque para que haya un cambio de régimen no debe cambiar el gobierno."
+              ],
+              "c": 2,
+              "k": "icse-p1-povse-regimen",
+              "e": "1",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Patricio Gómez Talavera es necesario observar una distinción importante entre Estado y gobierno.",
+              "o": [
+                "Es falso, porque los miembros del gobierno no tienen un mandato temporalmente determinado, a diferencia de los encargados de administrar la estructura burocrática del Estado que asumen con un mandato fijo de una cierta cantidad de años.",
+                "Es verdadero, porque el Estado es una estructura de existencia permanente, aunque puede cambiar en sus formas.",
+                "Es verdadero, porque el gobierno es una estructura de existencia permanente, aunque puede cambiar en sus formas.",
+                "Es falso, porque los miembros del Estado tienen un mandato temporalmente determinado, tras el cual deberán dejar sus puestos a nuevos encargados de administrar la estructura burocrática del gobierno."
+              ],
+              "c": 1,
+              "k": "icse-p1-estado-gobierno",
+              "e": "2",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nadia Yannuzzi, siguiendo a Hannah Arendt, hay otra forma de entender la ciudadanía abordándola desde una perspectiva conceptual.",
+              "o": [
+                "Es falso, porque la ciudadanía solo es posible entenderla desde una perspectiva jurídica entre el Estado y la sociedad.",
+                "Es falso, porque la ciudadanía es el derecho a tener derechos, lo que implica que es un área de fuertes consensos.",
+                "Es verdadero, porque los derechos se obtienen a través de complejos procesos económicos signados por la lucha de clases y por la redistribución del ingreso.",
+                "Es verdadero, porque los derechos se obtienen a través de complejos procesos históricos signados por la violencia, los intereses diversos y opuestos."
+              ],
+              "c": 3,
+              "k": "icse-p1-ciudadania-arendt",
+              "e": "3",
+              "pts": 0.5
+            },
+            {
+              "p": "Nicolás Simone afirma que la democracia representativa se alcanza cuando los ciudadanos eligen a un pequeño grupo de personas para que tomen decisiones en su nombre.",
+              "o": [
+                "Es falso, porque la democracia representativa busca oponerse al poder de pequeños grupos sobre el pueblo.",
+                "Es falso, porque la democracia representativa se alcanza cuando los ciudadanos toman en su poder las grandes decisiones del Estado.",
+                "Es verdadero, porque la democracia representativa se alcanza cuando los ciudadanos eligen a otros para que diseñen un gobierno que exprese la voluntad de la mayoría.",
+                "Es verdadero, porque la democracia representativa se alcanza cuando un grupo de personas a partir de la democracia directa diseñan un gobierno que exprese la voluntad de la mayoría."
+              ],
+              "c": 2,
+              "k": "icse-p1-dem-representativa",
+              "e": "4",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Laura Petrino el populismo resulta ser una expresión política intrínsecamente ligada a la historia y el presente europeo.",
+              "o": [
+                "Es verdadero, porque la democracia se origina en Grecia y Roma, que están ubicadas en Europa.",
+                "Es falso, porque ejemplos de esta forma de entender el poder son figuras que han marcado nuestra geografía, como el brasileño Getúlio Vargas o Juan Domingo Perón.",
+                "Es verdadero, porque ejemplos de esta forma de entender el poder son figuras que han marcado la geografía europea, como Benito Mussolini o Adolf Hitler.",
+                "Es falso, porque el populismo no reconoce fronteras a la hora de explicar sus orígenes."
+              ],
+              "c": 1,
+              "k": "icse-p1-populismo",
+              "e": "5",
+              "pts": 0.5
+            },
+            {
+              "p": "Luis A. Romero sostiene que para 1975 el gobierno peronista se encaminaba hacia su final. El Rodrigazo —denominado así por el apellido del ministro de Economía del gobierno peronista, Celestino Rodrigo— desató una crisis económica que resultó imposible de controlar.",
+              "o": [
+                "Es verdadero, porque el Rodrigazo implicó \"corridas\" hacia el dólar, inflación galopante y la aparición de los mecanismos de indexación.",
+                "Es verdadero, porque fue el primer default (suspensión del pago de la deuda externa) y el inicio de un aislamiento internacional del país y fuertes costos judiciales en el exterior.",
+                "Es falso, porque el Rodrigazo fue un movimiento de protesta social surgido en la provincia de Santa Fe basado en los productores agrícolas.",
+                "Es falso, porque en 1975 ya estaban gobernando los militares de la mano del Gral. Jorge R. Videla."
+              ],
+              "c": 0,
+              "k": "icse-p1-rodrigazo",
+              "e": "6",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la primera cuestión oscura que abría el llamado \"Proceso de Reorganización Nacional\", comenzado en marzo de 1976, era dónde residía realmente el poder.",
+              "o": [
+                "Es falso, porque el poder residía en la Junta de comandantes que centralizaba las funciones ejecutivas, legislativas y judiciales a lo largo de todo el país.",
+                "Es verdadero, porque el \"Proceso de Reorganización Nacional\" supuso la existencia de un Estado terrorista, visible y público, encargado tanto de la represión como de las políticas sociales, culturales y hasta económicas.",
+                "Es verdadero, porque la autoridad del presidente –al principio el primero entre sus pares, y luego ni siquiera eso– resultó controlada y limitada por los jefes de las tres armas.",
+                "Es falso, porque la tradición política del país era fuertemente presidencialista, y además la unidad de mando fue siempre uno de los principios de las Fuerzas Armadas, por eso la autoridad del presidente nunca fue discutida ni revisada por sus pares militares."
+              ],
+              "c": 2,
+              "k": "icse-p1-proceso-poder",
+              "e": "7",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, el Programa de Reconstrucción y Liberación Nacional (presentado por Perón durante su tercera presidencia), tenía objetivos acordes con los cambios ya consolidados en la estructura económica del país, esto implicó que:",
+              "o": [
+                "A pesar de los relatos predominantes en el peronismo, no había nada en el programa económico de Perón que indicara una orientación hacia el \"socialismo nacional\".",
+                "Fueran medidas fuertemente intervencionistas y, en menor medida, nacionalistas y distribucionistas.",
+                "El Estado se propuso una gran reducción de gastos, especialmente en el número de empleados públicos y empresas del Estado para reducir el déficit creciente.",
+                "Hubo en ese programa una clara orientación hacia el \"socialismo nacional\" que era el discurso predominante en el peronismo y especialmente en su juventud.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-prog-reconstruccion",
+              "e": "8",
+              "pts": 0.5
+            },
+            {
+              "p": "Según María José Valdez, hablar del Estado implica centrarse en las instituciones políticas, pero cuando nos referimos a la nación, el enfoque cambia y hay que atender otros actores como:",
+              "o": [
+                "La sociedad.",
+                "Las universidades públicas.",
+                "La ciudadanía.",
+                "Los sindicatos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-nacion-actores",
+              "e": "9",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la guerrilla peronista Montoneros era muy hábil en traducir las palabras de Perón cuando estaba exiliado en Madrid, pero debieron enfrentarse con el problema que implicó la vuelta del líder al país. Esto se vio en que:",
+              "o": [
+                "Los Montoneros elaboraron la teoría del \"cerco\" o del \"entorno\" que supuestamente impedía a Perón conocer la verdadera voluntad de su pueblo.",
+                "Perón empezaba a hablar inequívocamente recordando la \"ortodoxia peronista\", que poco tenía que ver con la \"socialista\".",
+                "Perón empezaba a hablar inequívocamente recordando sus orígenes socialistas que poco tenían que ver con la \"ortodoxia peronista\".",
+                "Perón comenzó a abandonar su discurso de derecha tradicional denunciando a los \"apresurados\" e infiltrados de la Triple A.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-montoneros-cerco",
+              "e": "10",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, en el llamado \"Cordobazo\" de 1969, la movilización social se expresó de maneras diversas, por ejemplo, en que:",
+              "o": [
+                "Los inmigrantes fueron actores centrales de las protestas, buscando inserción en el mundo laboral y facilitar la nacionalización.",
+                "La multitud, que controló varias horas la ciudad, tenía consignas precisas y líderes que coordinaban las acciones.",
+                "Antes del estallido hubo una fuerte agitación sindical en Córdoba, donde se concentraban las principales fábricas de automotores.",
+                "El estallido fue precedido de una ola de protestas estudiantiles en diversas universidades, algunas de ellas fuertemente reprimidas.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-cordobazo",
+              "e": "11",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la Iglesia Católica modificó su comportamiento hacia la dictadura a medida que el régimen militar asumido en 1976 empezaba a dar muestras de debilidad. Esto se vio en que:",
+              "o": [
+                "Desde 1979 las preocupaciones de la Iglesia por las cuestiones morales o por la familia se extendieron hacia los derechos individuales y la política.",
+                "La Iglesia mantuvo desde 1983 una actitud fuertemente opositora liderada por el entonces joven y popular cura Jorge Bergoglio.",
+                "Revisando sus anteriores posiciones, la Iglesia se propuso renunciar a la injerencia directa en las cuestiones sociales o políticas y consagrarse a la evangelización de una sociedad excesivamente secularizada.",
+                "Revisando sus anteriores posiciones, la Iglesia se propuso renunciar a la injerencia directa en las cuestiones sociales o políticas y consagrarse a la evangelización de una sociedad que juzgaba excesivamente volcada hacia la izquierda.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-iglesia-dictadura",
+              "e": "12",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero señala que, durante el primer año del gobierno radical iniciado en 1983, la política económica del ministro Bernardo Grinspun se ajustó a las fórmulas dirigistas y redistributivas clásicas. Esto se observa en que:",
+              "o": [
+                "Incluía el control estatal del crédito, el mercado de cambios y los precios, y se completaba con medidas de acción social.",
+                "Empresarios y sindicalistas convergieron en el apoyo a esta política siguiendo el modelo establecido con el famoso Plan Gelbard, implementado en los años 70.",
+                "Eran medidas similares a las aplicadas entre 1963 y 1966, ideas que el radicalismo compartía con el peronismo histórico.",
+                "Eran medidas similares a las aplicadas entre 1955 y 1958, ya que el radicalismo se oponía a lo que planteaba el peronismo histórico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-grinspun",
+              "e": "13",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que, entre 1975 y principios de 1976, diversos factores fueron creando las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Entre ellos se puede mencionar:",
+              "o": [
+                "La muerte presente cotidianamente, la acción espectacular de las organizaciones guerrilleras -que habían fracasado en dos grandes operativos contra unidades militares en el Gran Buenos Aires y en Formosa-.",
+                "El terror sembrado por la Alianza Anticomunista Argentina (Triple A).",
+                "La presencia constante y pública en el país del Partido Comunista soviético a través de financiamiento, propaganda y una nutrida militancia que hacían suponer la pronta apertura de un frente revolucionario.",
+                "El terror sembrado por diversas bandas del crimen organizado, la mayoría de ellas vinculadas al narcotráfico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-condiciones-golpe",
+              "e": "14",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que en 1983 cuando Raúl Alfonsín asumió el Gobierno, además de volver a la vida académica, los intelectuales se incorporaron a la política, y la política se intelectualizó. Esto se vio en que:",
+              "o": [
+                "Alfonsín recurrió a ellos, como asesores o funcionarios técnicos, y su discurso, que traducía en clave política lo que los académicos elaboraban, resultó moderno, complejo y profundo.",
+                "El peronismo logró rápidamente el control de la vida institucional y política en las universidades nacionales que ya mantenían desde los años 70.",
+                "Dirigentes peronistas también recurrieron a ellos y la discusión política luego de finalizada la dictadura adquirió brillo y, en menor medida, profundidad.",
+                "Las listas de concejales, diputados y senadores se repletaron de académicos e intelectuales dejando de lado a políticos tradicionales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 6,
+              "k": "icse-p1-intelectuales-83",
+              "e": "15",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, algunos de los acontecimientos más importantes de la transición en Argentina fueron los ocurridos en la Semana Santa de 1987, cuando un levantamiento militar puso a prueba la estabilidad democrática. Eso fue así porque:",
+              "o": [
+                "Fue una sublevación de sectores militares que exigían el fin de los juicios contra los oficiales involucrados en la represión durante la dictadura militar que había terminado algunos años antes.",
+                "El levantamiento fue sofocado inmediatamente con una intervención militar ordenada por el presidente Alfonsín, sin necesidad de mayores negociaciones.",
+                "Fue un intento de golpe de Estado exitoso que obligó a Raúl Alfonsín a renunciar antes de completar su mandato.",
+                "Fue un punto de inflexión en la relación entre el Gobierno y los militares, desembocando luego en la sanción de la Ley de Obediencia Debida.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-semana-santa",
+              "e": "16",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Ariel Sribman, algunos de los elementos constitutivos del Estado liberal en sus inicios son:",
+              "o": [
+                "El gobierno representativo.",
+                "La división de poderes.",
+                "El liberalismo económico.",
+                "Las Fuerzas Armadas.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 7,
+              "k": "icse-p1-estado-liberal",
+              "e": "17",
+              "pts": 1
+            },
+            {
+              "p": "Según Sofía Pirsch, en América Latina, solo hay cuatro países con sistemas federales, entre ellos se encuentran:",
+              "o": [
+                "Chile.",
+                "Uruguay.",
+                "México.",
+                "Venezuela.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-federales-4",
+              "e": "18",
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "id": "t2",
+          "n": "Tema 2",
+          "fuente": "icse-parcial-offline.html",
+          "aviso": "Preguntas, claves y explicaciones importadas del cuestionario HTML de 2026.",
+          "qs": [
+            {
+              "p": "Según Nadia Yannuzzi, siguiendo a Hannah Arendt, hay otra forma de entender la ciudadanía abordándola desde una perspectiva conceptual.",
+              "o": [
+                "Es verdadero, porque los derechos se obtienen a través de complejos procesos económicos signados por la lucha de clases y por la redistribución del ingreso.",
+                "Es falso, porque la ciudadanía solo es posible entenderla desde una perspectiva jurídica entre el Estado y la sociedad.",
+                "Es verdadero, porque los derechos se obtienen a través de complejos procesos históricos signados por la violencia, los intereses diversos y opuestos.",
+                "Es falso, porque la ciudadanía es el derecho a tener derechos, lo que implica que es un área de fuertes consensos."
+              ],
+              "c": 2,
+              "k": "icse-p1-ciudadania-arendt",
+              "e": "1",
+              "pts": 0.5
+            },
+            {
+              "p": "Luis A. Romero sostiene que para 1975 el gobierno peronista se encaminaba hacia su final. El Rodrigazo —denominado así por el ministro de Economía del gobierno peronista, Celestino Rodrigo— desató una crisis económica que resultó imposible de controlar.",
+              "o": [
+                "Es falso, porque el Rodrigazo fue un movimiento de protesta social surgido en la provincia de Santa Fe basado en los productores agrícolas.",
+                "Es verdadero, porque el Rodrigazo implicó \"corridas\" hacia el dólar, inflación galopante y la aparición de los mecanismos de indexación.",
+                "Es verdadero, porque fue el primer default (suspensión del pago de la deuda externa) y el inicio de un aislamiento internacional del país y fuertes costos judiciales en el exterior.",
+                "Es falso, porque en 1975 ya estaban gobernando los militares de la mano del Gral. Jorge R. Videla."
+              ],
+              "c": 1,
+              "k": "icse-p1-rodrigazo",
+              "e": "2",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la primera cuestión oscura que abría el llamado \"Proceso de Reorganización nacional\", comenzado en marzo de 1976, era dónde residía realmente el poder.",
+              "o": [
+                "Es verdadero, porque la autoridad del presidente –al principio el primero entre sus pares, y luego ni siquiera eso– resultó controlada y limitada por los jefes de las tres armas.",
+                "Es falso, porque el poder residía en la Junta de comandantes que centralizaba las funciones ejecutivas, legislativas y judiciales a lo largo de todo el país.",
+                "Es verdadero, porque el \"Proceso de Reorganización Nacional\" supuso la existencia de un Estado terrorista, visible y público, encargado tanto de la represión como de las políticas económicas.",
+                "Es falso, porque la tradición política del país era fuertemente presidencialista, y además la unidad de mando fue siempre uno de los principios de las Fuerzas Armadas, por eso la autoridad del presidente nunca fue discutida ni revisada por sus pares militares."
+              ],
+              "c": 0,
+              "k": "icse-p1-proceso-poder",
+              "e": "3",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Patricio Gómez Talavera, es necesario observar una importante distinción entre Estado y gobierno.",
+              "o": [
+                "Es verdadero, porque el gobierno es una estructura de existencia permanente, aunque puede cambiar en sus formas.",
+                "Es falso, porque los miembros del gobierno no tienen un mandato temporalmente determinado, a diferencia de los encargados de administrar la estructura burocrática del Estado que asumen con un mandato fijo de una cierta cantidad de años.",
+                "Es verdadero, porque el Estado es una estructura de existencia permanente, aunque puede cambiar en sus formas.",
+                "Es falso, porque los miembros del Estado tienen un mandato temporalmente determinado, tras el cual deberán dejar sus puestos a nuevos encargados de administrar la estructura burocrática del gobierno."
+              ],
+              "c": 2,
+              "k": "icse-p1-estado-gobierno",
+              "e": "4",
+              "pts": 0.5
+            },
+            {
+              "p": "Max Povse afirma que es muy importante entender que es lo mismo un cambio de gobierno que un cambio de régimen político.",
+              "o": [
+                "Es falso, porque para que haya un cambio de régimen no debe cambiar el gobierno.",
+                "Es verdadero, porque no puede haber un mismo gobierno que transite regímenes políticos diferentes.",
+                "Es verdadero, porque cuando cambia el presidente necesariamente cambia el régimen.",
+                "Es falso, porque un régimen puede mantenerse, aunque cambie el gobierno."
+              ],
+              "c": 3,
+              "k": "icse-p1-povse-regimen",
+              "e": "5",
+              "pts": 0.5
+            },
+            {
+              "p": "Nicolás Simone afirma que la democracia representativa se alcanza cuando los ciudadanos eligen a un pequeño grupo de personas para que tomen decisiones en su nombre.",
+              "o": [
+                "Es verdadero, porque la democracia representativa se alcanza cuando los ciudadanos eligen personas para que diseñen un gobierno que exprese la voluntad de la mayoría.",
+                "Es falso, porque la democracia representativa se alcanza cuando los ciudadanos toman en su poder las grandes decisiones del Estado.",
+                "Es verdadero, porque la democracia representativa se alcanza cuando un grupo de personas a partir de la democracia directa diseñan un gobierno que exprese la voluntad de la mayoría.",
+                "Es falso, porque la democracia representativa busca oponerse al poder de pequeños grupos sobre el pueblo."
+              ],
+              "c": 0,
+              "k": "icse-p1-dem-representativa",
+              "e": "6",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Laura Petrino el populismo resulta ser una expresión política intrínsecamente ligada a la historia y el presente europeo.",
+              "o": [
+                "Es verdadero, porque ejemplos de esta forma de entender el poder son figuras que han marcado la geografía europea, como Benito Mussolini o Adolf Hitler.",
+                "Es falso, porque el populismo no reconoce fronteras a la hora de explicar sus orígenes.",
+                "Es falso, porque ejemplos de esta forma de entender el poder son figuras que han marcado nuestra geografía, como el brasileño Getúlio Vargas o Juan Domingo Perón.",
+                "Es verdadero, porque la democracia se origina en Grecia y Roma, que están ubicados en Europa."
+              ],
+              "c": 2,
+              "k": "icse-p1-populismo",
+              "e": "7",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, uno de los acontecimientos más importantes de la transición en Argentina fueron los ocurridos en la Semana Santa de 1987, cuando un levantamiento militar puso a prueba la estabilidad democrática. Eso fue así porque:",
+              "o": [
+                "Fue una sublevación de sectores militares que exigían el fin de los juicios contra los oficiales involucrados en la represión durante la dictadura militar que había terminado algunos años antes.",
+                "Fue un punto de inflexión en la relación entre el Gobierno y los militares, desembocando luego en la sanción de la Ley de Obediencia Debida.",
+                "Fue un intento de golpe de Estado exitoso que obligó a Raúl Alfonsín a renunciar antes de completar su mandato.",
+                "El levantamiento fue sofocado inmediatamente con una intervención militar ordenada por Alfonsín, sin necesidad de negociaciones.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-semana-santa",
+              "e": "8",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que, en 1983, cuando Raúl Alfonsín asumió el Gobierno, además de volver a la vida académica, los intelectuales se incorporaron a la política, y la política se intelectualizó. Esto se vio en que:",
+              "o": [
+                "Las listas de concejales, diputados y senadores se repletaron de académicos e intelectuales dejando de lado a políticos tradicionales.",
+                "El peronismo logró rápidamente el control de la vida institucional y política en las universidades nacionales que ya mantenían desde los años 70.",
+                "Dirigentes peronistas también recurrieron a ellos y la discusión política luego de finalizada la dictadura adquirió brillo y, en menor medida, profundidad.",
+                "Alfonsín recurrió a ellos, como asesores o funcionarios técnicos, y su discurso, que traducía en clave política lo que los académicos elaboraban, resultó moderno, complejo y profundo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 5,
+              "k": "icse-p1-intelectuales-83",
+              "e": "9",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, el Programa de Reconstrucción y Liberación Nacional (presentado por Perón durante su tercera presidencia), tenía objetivos acordes con los cambios ya consolidados en la estructura económica del país, esto implicó que:",
+              "o": [
+                "El Estado se propusiera una gran reducción de gastos, especialmente en el número de empleados públicos y empresas del Estado para reducir el déficit creciente.",
+                "Hubo en ese programa una clara orientación hacia el \"socialismo nacional\" que era el discurso predominante en el peronismo y especialmente en su juventud.",
+                "A pesar de los relatos predominantes en el peronismo, no había en el programa económico de Perón nada que indicara una orientación hacia el \"socialismo nacional\".",
+                "Fueran medidas fuertemente intervencionistas y, en menor medida, nacionalistas y distribucionistas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-prog-reconstruccion",
+              "e": "10",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero señala que, durante el primer año del gobierno radical iniciado en 1983, la política económica del ministro Bernardo Grinspun se ajustó a las fórmulas dirigistas y redistributivas clásicas. Esto se observa en que:",
+              "o": [
+                "Empresarios y sindicalistas convergieron en el apoyo a esta política siguiendo el modelo establecido con el famoso Plan Gelbard, implementado en los años 70.",
+                "Incluía el control estatal del crédito, el mercado de cambios y los precios, y se completaba con medidas de acción social.",
+                "Eran medidas similares a las aplicadas entre 1963 y 1966, ideas que el radicalismo compartía con el peronismo histórico.",
+                "Eran medidas similares a las aplicadas entre 1955 y 1958, ya que el radicalismo se oponía a lo que planteaba el peronismo histórico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-grinspun",
+              "e": "11",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la guerrilla peronista Montoneros era muy hábil en traducir las palabras de Perón cuando estaba exiliado en Madrid, pero debieron enfrentarse con el problema que implicó la vuelta del líder al país. Esto se vio en que:",
+              "o": [
+                "Los Montoneros elaboraron la teoría del \"cerco\" o del \"entorno\" que supuestamente impedía a Perón conocer la verdadera voluntad de su pueblo.",
+                "Perón empezaba a hablar inequívocamente recordando la \"ortodoxia peronista\", que poco tenía que ver con la \"socialista\".",
+                "Perón empezaba a hablar inequívocamente recordando sus orígenes socialistas que poco tenían que ver con la \"ortodoxia peronista\".",
+                "Perón comenzó a abandonar su discurso de derecha tradicional denunciando a los \"apresurados\" e infiltrados de la Triple A.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-montoneros-cerco",
+              "e": "12",
+              "pts": 0.5
+            },
+            {
+              "p": "Según María José Valdez, hablar del Estado implica centrarse en las instituciones políticas, pero cuando nos referimos a la nación, el enfoque cambia y hay que atender otros actores como:",
+              "o": [
+                "La sociedad.",
+                "La ciudadanía.",
+                "Las Pymes (pequeñas y medianas empresas).",
+                "Las redes sociales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-nacion-actores",
+              "e": "13",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, en el llamado \"Cordobazo\" de 1969, la movilización social se expresó de maneras diversas, por ejemplo, en que:",
+              "o": [
+                "Los inmigrantes fueron actores centrales de las protestas, buscando inserción en el mundo laboral y facilitar la nacionalización.",
+                "Antes del estallido hubo una fuerte agitación sindical en Córdoba, donde se concentraban las principales fábricas de automotores.",
+                "La multitud, que controló varias horas la ciudad, tenía consignas precisas y líderes que coordinaban las acciones.",
+                "El estallido fue precedido de una ola de protestas estudiantiles en diversas universidades, algunas de ellas fuertemente reprimidas.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-cordobazo",
+              "e": "14",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la Iglesia Católica modificó su comportamiento hacia la dictadura a medida que el régimen militar asumido en 1976 empezaba a dar muestras de debilidad. Esto se vio en que:",
+              "o": [
+                "Desde 1979 las preocupaciones de la iglesia por las cuestiones morales o por la familia se extendieron hacia los derechos individuales y la política.",
+                "La Iglesia mantuvo desde 1983 una actitud fuertemente opositora liderada por el entonces joven y popular cura Jorge Bergoglio.",
+                "Revisando sus anteriores posiciones, la Iglesia se propuso renunciar a la injerencia directa en las cuestiones sociales o políticas y consagrarse a la evangelización de una sociedad excesivamente secularizada.",
+                "Revisando sus anteriores posiciones, la Iglesia se propuso renunciar a la injerencia directa en las cuestiones sociales o políticas y consagrarse a la evangelización de una sociedad excesivamente volcada hacia la izquierda.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-iglesia-dictadura",
+              "e": "15",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que, entre 1975 y principios de 1976, diversos factores fueron creando las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Entre ellos se puede mencionar:",
+              "o": [
+                "La muerte presente cotidianamente, la acción espectacular de las organizaciones guerrilleras -que habían fracasado en dos grandes operativos contra unidades militares en el Gran Buenos Aires y en Formosa-.",
+                "El terror sembrado por la Alianza Anticomunista Argentina (Triple A).",
+                "La presencia constante y pública en el país del Partido Comunista soviético a través de financiamiento, propaganda y una nutrida militancia que hacían suponer la pronta apertura de un frente revolucionario.",
+                "El terror sembrado por diversas bandas del crimen organizado, la mayoría de ellas vinculadas al narcotráfico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-condiciones-golpe",
+              "e": "16",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Sofía Pirsch, en América Latina, solo hay cuatro países con sistemas federales, entre ellos se encuentran:",
+              "o": [
+                "Chile.",
+                "Uruguay.",
+                "México.",
+                "Venezuela.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-federales-4",
+              "e": "17",
+              "pts": 1
+            },
+            {
+              "p": "Según Ariel Sribman algunos de los elementos constitutivos del Estado liberal en sus inicios son:",
+              "o": [
+                "El gobierno representativo.",
+                "La división de poderes.",
+                "El liberalismo económico.",
+                "Las Fuerzas Armadas.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 7,
+              "k": "icse-p1-estado-liberal",
+              "e": "18",
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "icse-parcial-offline.html",
+          "aviso": "Preguntas, claves y explicaciones importadas del cuestionario HTML de 2026.",
+          "qs": [
+            {
+              "p": "Julio Montero afirma que más allá de su larga trayectoria filosófica y de su influencia sobre varias constituciones occidentales de los siglos XVIII y XIX, la noción de derechos humanos recién alcanzó plena aceptación internacional a partir de la caída del Muro de Berlín.",
+              "o": [
+                "Es falso, porque la noción de derechos humanos recién alcanzó plena aceptación internacional durante la Segunda Guerra Mundial.",
+                "Es verdadero, porque hasta ese momento, había predominado la idea de que cada Estado tenía total libertad para decidir qué derechos les reconocía a sus ciudadanos.",
+                "Es verdadero, porque hasta ese momento, había predominado la idea de que cada Estado tenía total libertad para fijar su propio marco legal.",
+                "Es falso, porque la noción de derechos humanos recién alcanzó plena aceptación internacional durante la Primera Guerra Mundial."
+              ],
+              "c": 0,
+              "k": "icse-p1-montero-ddhh",
+              "e": "1",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Mariano Statello, la definición de terrorismo en cada país mantiene una forma homogénea, ya que se sostiene en lo previsto por los organismos internacionales a la hora de incluir o excluir a un determinado grupo de dicha categoría.",
+              "o": [
+                "Es verdadero, porque el terrorismo es considerado un delito internacional y no un asunto nacional.",
+                "Es verdadero, porque es INTERPOL –dependiente de la ONU- la agencia internacional que elabora lista de organizaciones consideradas como terroristas.",
+                "Es falso, porque en la realidad un mismo grupo armado puede ser declarado como terrorista en un país y no en otro.",
+                "Es falso, porque el terrorismo es considerado un delito que se castiga a nivel nacional y no un asunto internacional."
+              ],
+              "c": 2,
+              "k": "icse-p1-terrorismo",
+              "e": "2",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Verónica Beyreuther, las dictaduras tienen una duración determinada legalmente.",
+              "o": [
+                "Es verdadero, porque al ser encabezadas por las Fuerzas Armadas como institución, deben obedecer las normas y leyes que las regulan.",
+                "Es verdadero, porque las dictaduras en general están muy apegadas a las burocracias y a crear normas para su funcionamiento, entre ellas, sobre su propio inicio y final.",
+                "Es falso, porque los regímenes autoritarios pueden sostenerse sólo por la represión y no necesitan construir normas que justifiquen su permanencia.",
+                "Es falso, porque su continuidad depende de la capacidad que muestren para ejercer el control y construir formas de legitimidad."
+              ],
+              "c": 3,
+              "k": "icse-p1-dictaduras-duracion",
+              "e": "3",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nicolás Simone, el fin de la guerra de Malvinas marcó el inicio de la transición a la democracia, que, en sentido estricto, se alcanzó cuando asumió Raúl Alfonsín.",
+              "o": [
+                "Es falso, porque Malvinas es una causa nacional y popular que excedía la política.",
+                "Es verdadero, porque el \"Proceso de reorganización nacional\" se derrumba luego de la derrota dando paso a la salida democrática.",
+                "Es verdadero, porque la alianza entre los militares y los radicales liderados por Alfonsín permitió darle una salida consensuada al fin de la dictadura iniciada en 1976.",
+                "Es falso, porque a pesar de la derrota en la guerra de Malvinas en 1982, el gobierno militar mantuvo cuotas de apoyo y solo se vio obligado a llamar a elecciones democráticas presionado por la cuestión de los derechos humanos."
+              ],
+              "c": 1,
+              "k": "icse-p1-malvinas-transicion",
+              "e": "4",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nicolás Simone, la democracia tiene muchas formas de definirse, por lo cual Dahl conceptualizó una de estas formas como la poliarquía, versión mínima de la democracia.",
+              "o": [
+                "Es falso, porque la poliarquía no tiene nada que ver con la democracia sino con el sistema político de un país.",
+                "Es verdadero, porque por mínima se entiende que es un sistema que mantiene características autoritarias.",
+                "Es verdadero, porque la poliarquía definió un límite claro entre el autoritarismo y la democracia.",
+                "Es falso, porque no existen versiones mínimas de la democracia: se es democrático o no se es."
+              ],
+              "c": 2,
+              "k": "icse-p1-poliarquia-dahl",
+              "e": "5",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Sofía Pirsch, en América Latina, sólo existen cuatro países con sistemas federales.",
+              "o": [
+                "Es falso, porque son tres los Estados federales en América Latina: Chile, Uruguay y Argentina.",
+                "Es falso, porque son solo dos los Estados federales en América Latina: Estados Unidos y Argentina.",
+                "Es verdadero, porque los cuatro Estados federales en América Latina son Brasil, México, Venezuela y Argentina.",
+                "Es verdadero, porque los cuatro Estados federales en América Latina son: Brasil, México, Paraguay y Argentina."
+              ],
+              "c": 2,
+              "k": "icse-p1-federales-4",
+              "e": "6",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Luis A. Romero, durante los primeros años del gobierno de Raúl Alfonsín (1983-1989) los problemas económicos constituyeron el desafío central y principal que enfrentó el gobierno radical.",
+              "o": [
+                "Es verdadero, porque la primera convertibilidad (1984) no había resultado y debió implementar medidas heterodoxas para combatir la inflación.",
+                "Es falso, porque en los primeros años, Alfonsín tuvo que dedicarse centralmente a afrontar los problemas políticos que el país arrastraba de la dictadura previa.",
+                "Es verdadero, porque el Estado intentó diversas estrategias (algunas más exitosas que otras) para salir de la crisis emitiendo dinero, lo que si bien mejoró la recaudación fiscal también disparó la inflación.",
+                "Es falso, porque Alfonsín se benefició del arreglo de la deuda externa que había hecho apenas asumió en 1983. Esto le permitió contar con capitales frescos para apostar al crecimiento y eludir por un tiempo al fantasma de la inflación y la recesión."
+              ],
+              "c": 1,
+              "k": "icse-p1-alfonsin-desafio",
+              "e": "7",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Florencia Deich, los golpes de Estado pueden clasificarse según sus características. Algunas de ellas son:",
+              "o": [
+                "Pueden ser liderados por los militares.",
+                "Pueden ser liderados por el propio gobierno en lo que se conoce como autogolpe.",
+                "Pueden ser liderados por los miembros de la Iglesia Católica.",
+                "Pueden ser liderados por la prensa.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 4,
+              "k": "icse-p1-deich-golpes-clasif",
+              "e": "8",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Fernando Pedrosa, Florencia Deich y Nadia Yannuzzi, un concepto es una construcción abstracta, una forma condensada de una idea compleja que posee diversas características, entre ellas:",
+              "o": [
+                "Que un concepto no es simplemente una palabra: encierra una definición.",
+                "Que un concepto no es simplemente una palabra, incorpora una idea adjetivada sobre alguna cuestión.",
+                "Que un concepto no es simplemente una palabra, incorpora una idea subjetiva y personal sobre alguna cuestión.",
+                "Que un concepto no es simplemente una palabra: encierra una perspectiva desde la cual miramos e interpretamos una realidad determinada.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-concepto",
+              "e": "9",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Max Povse, para analizar un concepto, luego de definirlo, se debe determinar en qué grado de abstracción se encuentra. Por ejemplo, un alto grado de abstracción tiene ventajas y desventajas, por ejemplo:",
+              "o": [
+                "Que se puede aplicar a muchos casos.",
+                "Que describe cada caso con poca precisión o detalle.",
+                "Que es menos general y abarcador.",
+                "Que se puede aplicar a pocos casos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 4,
+              "k": "icse-p1-abstraccion-alto",
+              "e": "10",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Patricio Gómez Talavera, la creación del Estado también implicaba nuevas responsabilidades para quienes emprendían esa tarea. Estas responsabilidades eran:",
+              "o": [
+                "Financiarlo, lo que suponía nuevos gastos para la comunidad.",
+                "Ponerle límites, para evitar que abusara de su poder y sometiera a aquellos a quienes debía proteger.",
+                "Garantizar que funcione como un árbitro neutral y objetivo, situado por encima de los conflictos entre los distintos sectores sociales.",
+                "Asegurar que la sociedad civil y el Estado sean esferas idénticas, eliminando cualquier tipo de relación de dominación entre gobernantes y gobernados.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-responsabilidades-estado",
+              "e": "11",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Ariel Sribman Mittelman, el Estado socialista (cuyo paradigma fue la Unión Soviética) presenta características específicas en su conformación y objetivos. Entre ellas:",
+              "o": [
+                "Imponer un complejo sistema de democracia directa que busca evitar la burocratización de las decisiones políticas más importantes.",
+                "Que poseía una vocación nacionalista basada en la unión de los trabajadores del país como objeto único del accionar socialista.",
+                "Subordinar los objetivos democráticos a la urgencia de alcanzar metas económicas y sociales, rechazando cualquier tipo de reformismo.",
+                "Un proceso de \"ingeniería\" política, económica y social bajo el mando de un partido férreamente organizado y jerarquizado.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-estado-socialista",
+              "e": "12",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, el entonces presidente Alfonsín, al asumir la presidencia, proponía algunas distinciones lógicas sobre el legado militar, pero a la vez estas eran difíciles de ser admitidas por la sociedad movilizada, y en particular por las organizaciones de derechos humanos. Esto fue así porque:",
+              "o": [
+                "Alfonsín pensaba que había que separar el juicio a los culpables del juzgamiento a la institución, que era parte del Estado.",
+                "Alfonsín pensaba que se debía concentrar el castigo en las cúpulas y aplicar al resto el criterio de la obediencia debida.",
+                "Alfonsín no había condenado las violaciones a los derechos humanos en la dictadura y continuó esa línea durante su gobierno.",
+                "Alfonsín pensaba que había que evitar el juicio a los militares porque implicaba atacar a toda la institución que era parte del Estado.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 4,
+              "k": "icse-p1-alfonsin-legado",
+              "e": "13",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que, con la toma militar de las Malvinas en 1982, el Gobierno argentino fue víctima de un aislamiento diplomático creciente, agravado por los antiguos reclamos sobre violaciones a los derechos humanos. Esto se vio en que:",
+              "o": [
+                "Se envió al exterior, para explicar la posición argentina, empresarios, sindicalistas y políticos, quienes utilizaron la tribuna para defender al Gobierno militar, lo que tuvo un impacto leve y en países menores.",
+                "Cada vez más solo, el gobierno argentino buscó aliados imposibles como los países del Tercer Mundo, la Unión Soviética y hasta Cuba.",
+                "En el exterior se argumentó que el triunfo militar argentino significaría convalidar todo su desempeño anterior en referencia al tema de los derechos humanos.",
+                "La causa argentina no tuvo mayor apoyo fuera de América Latina, donde el acompañamiento fue total.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 5,
+              "k": "icse-p1-malvinas-aislamiento",
+              "e": "14",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que el ministro de Economía del gobierno militar asumido en 1976 y su grupo permanecieron al frente del manejo de la economía durante 5 años. Esto fue así porque:",
+              "o": [
+                "El ministro de Economía contó inicialmente con un fuerte apoyo, casi personal, de la Confederación General del Trabajo (CGT).",
+                "El ministro de Economía contó inicialmente con un fuerte apoyo, casi personal, del sector más concentrado del establishment local.",
+                "El ministro de Economía contó inicialmente con un fuerte apoyo, casi personal, del conjunto de los militares que estaban en el gobierno.",
+                "El ministro de Economía contó inicialmente con un fuerte apoyo, casi personal, de los organismos internacionales y los bancos extranjeros.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-ministro-economia",
+              "e": "15",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, en el tercer y último gobierno de Perón, la CGT no se hallaba cómoda y a gusto con un gobierno peronista con el cual no servía su táctica clásica de golpear y negociar sin comprometerse, la única que sabían manejar cabalmente. Esto se vio en que:",
+              "o": [
+                "La CGT formó un sólido frente con Montoneros para oponerse al entorno de Perón, personalizado en el ministro López Rega.",
+                "Los sindicalistas carecían de tradición, instrumentos y objetivos para cogobernar.",
+                "El 1º de mayo de 1974, se llegó a la ruptura: al abandonar una Plaza de donde el propio Perón expulsaba a la burocracia sindical, por primera vez desde 1945 ya no podían hablar en nombre del Movimiento.",
+                "La movilización de los trabajadores, que los ponía en jaque, les impedía negociar con libertad.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-cgt-peron3",
+              "e": "16",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la guerrilla peronista Montoneros estaba sostenida por tradiciones ideológicas, sociales y políticas de diversa índole. Entre ellas:",
+              "o": [
+                "Una expresión juvenil de la CGT y vinculada a los gremios más tradicionales en la historia del peronismo.",
+                "Sectores católicos más integristas y nacionalistas.",
+                "Dentro del peronismo, Montoneros eran, por su formación y tradición, los más orientados y propensos a buscar sus apoyos y legitimación en el movimiento obrero.",
+                "Dentro del peronismo, Montoneros era los que menos buscaban apoyos y legitimación entre sectores marginales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 1,
+              "k": "icse-p1-montoneros-tradiciones",
+              "e": "17",
+              "pts": 1
+            },
+            {
+              "p": "Según María José Valdez, en su artículo sobre la relación entre la Nación y el Estado, a pesar de sus diferencias, las ideas de Gellner, Anderson y Hobsbawm comparten varios puntos en común. Los tres coinciden en que:",
+              "o": [
+                "La nación es un producto de la Modernidad, por lo que su existencia es relativamente reciente.",
+                "Existe una relación estrecha entre la nación y el territorio, es decir, una conexión necesaria entre la nación y el Estado.",
+                "La nación es una entidad natural y eterna que preexiste a cualquier forma de unidad política o institucional.",
+                "La nación no es algo dado ni natural, sino que se construye históricamente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-valdez-nacion-autores",
+              "e": "18",
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "id": "t4",
+          "n": "Tema 4",
+          "fuente": "icse-parcial-offline.html",
+          "aviso": "Preguntas, claves y explicaciones importadas del cuestionario HTML de 2026.",
+          "qs": [
+            {
+              "p": "Según Luis A. Romero, durante los primeros años del gobierno de Raúl Alfonsín (1983-1989) los problemas económicos constituyeron el desafío central que enfrentó el gobierno radical.",
+              "o": [
+                "Es falso, porque en los primeros años, Alfonsín tuvo que dedicarse centralmente a afrontar los problemas políticos que el país arrastraba de la dictadura previa.",
+                "Es verdadero, porque el Estado intentó diversas estrategias (algunas más exitosas que otras) para salir de la crisis emitiendo dinero, lo que si bien mejoró la recaudación fiscal también disparó la inflación.",
+                "Es verdadero, porque la primera convertibilidad (1984) no había resultado y debió implementar medidas heterodoxas para combatir la inflación.",
+                "Es falso, porque Alfonsín se benefició del arreglo de la deuda externa que había hecho apenas asumió en 1983. Esto le permitió contar con capitales frescos para apostar al crecimiento y eludir por un tiempo al fantasma de la inflación y la recesión."
+              ],
+              "c": 0,
+              "k": "icse-p1-alfonsin-desafio",
+              "e": "1",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nicolás Simone, la democracia tiene muchas formas de definirse, por lo cual Dahl conceptualizó una de estas formas como la poliarquía, versión mínima de la democracia.",
+              "o": [
+                "Es falso, porque no existen versiones mínimas de la democracia: se es democrático o no se es.",
+                "Es verdadero, porque por mínima se entiende que es un sistema que mantiene características autoritarias.",
+                "Es falso, porque la poliarquía no tiene nada que ver con la democracia sino con el sistema político de un país.",
+                "Es verdadero, porque la poliarquía definió un límite claro entre el autoritarismo y la democracia."
+              ],
+              "c": 3,
+              "k": "icse-p1-poliarquia-dahl",
+              "e": "2",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Sofía Pirsch, en América Latina, sólo existen cuatro países con sistemas federales.",
+              "o": [
+                "Es falso, porque son solo dos los Estados federales en América Latina: Estados Unidos y Argentina.",
+                "Es verdadero, porque los cuatro Estados federales en América Latina son Brasil, México, Venezuela y Argentina.",
+                "Es verdadero, porque los cuatro Estados federales en América Latina son: Brasil, México, Paraguay y Argentina.",
+                "Es falso, porque son tres los Estados federales en América Latina: Chile, Uruguay y Argentina."
+              ],
+              "c": 1,
+              "k": "icse-p1-federales-4",
+              "e": "3",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nicolás Simone, el fin de la guerra de Malvinas marcó el inicio de la transición a la democracia, que, en sentido estricto, se alcanzó cuando asumió Raúl Alfonsín.",
+              "o": [
+                "Es verdadero, porque el \"Proceso de reorganización nacional\" se derrumba luego de la derrota dando paso a la salida democrática.",
+                "Es verdadero, porque la alianza entre los militares y los radicales liderados por Alfonsín permitió darle una salida consensuada al fin de la dictadura iniciada en 1976.",
+                "Es falso, porque a pesar de la derrota en la guerra de Malvinas en 1982, el gobierno militar mantuvo cuotas de apoyo y solo se vio obligado a llamar a elecciones democráticas presionado por la cuestión de los derechos humanos.",
+                "Es falso, porque Malvinas es una causa nacional y popular que excedía la política."
+              ],
+              "c": 0,
+              "k": "icse-p1-malvinas-transicion",
+              "e": "4",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Verónica Beyreuther, las dictaduras tienen una duración determinada legalmente.",
+              "o": [
+                "Es falso, porque los regímenes autoritarios pueden sostenerse sólo por la represión y no necesitan construir normas que justifiquen su permanencia.",
+                "Es verdadero, porque al ser encabezadas por las Fuerzas Armadas como institución, deben obedecer las normas y leyes que las regulan.",
+                "Es falso, porque su continuidad depende de la capacidad que muestren para ejercer el control y construir formas de legitimidad.",
+                "Es verdadero, porque las dictaduras en general están muy apegadas a las burocracias y a crear normas para su funcionamiento, entre ellas, sobre su propio inicio y final."
+              ],
+              "c": 2,
+              "k": "icse-p1-dictaduras-duracion",
+              "e": "5",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Mariano Statello la definición de terrorismo en cada país mantiene una forma homogénea, ya que se sostiene en lo previsto por los organismos internacionales a la hora de incluir o excluir a un determinado grupo de dicha categoría.",
+              "o": [
+                "Es verdadero, porque es INTERPOL –dependiente de la ONU- la agencia internacional que elabora lista de organizaciones consideradas como terroristas.",
+                "Es falso, porque en la realidad un mismo grupo armado puede ser declarado como terrorista en un país y no en otro.",
+                "Es verdadero, porque el terrorismo es considerado un delito internacional y no un asunto nacional.",
+                "Es falso, porque el terrorismo es considerado un delito que se castiga a nivel nacional y no un asunto internacional."
+              ],
+              "c": 1,
+              "k": "icse-p1-terrorismo",
+              "e": "6",
+              "pts": 0.5
+            },
+            {
+              "p": "Julio Montero afirma que más allá de su larga trayectoria filosófica y de su influencia sobre varias constituciones occidentales de los siglos XVIII y XIX, la noción de derechos humanos recién alcanzó plena aceptación internacional a partir de la caída del Muro de Berlín.",
+              "o": [
+                "Es falso, porque la noción de derechos humanos recién alcanzó plena aceptación internacional durante la Primera Guerra Mundial.",
+                "Es falso, porque la noción de derechos humanos recién alcanzó plena aceptación internacional durante la Segunda Guerra Mundial.",
+                "Es verdadero, porque hasta ese momento, había predominado la idea de que cada Estado tenía total libertad para decidir qué derechos les reconocía a sus ciudadanos.",
+                "Es verdadero, porque hasta ese momento, había predominado la idea de que cada Estado tenía total libertad para fijar su propio marco legal."
+              ],
+              "c": 1,
+              "k": "icse-p1-montero-ddhh",
+              "e": "7",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, el entonces presidente Alfonsín, al asumir la presidencia, proponía algunas distinciones lógicas sobre el legado militar, pero a la vez estas eran difíciles de ser admitidas por la sociedad movilizada, y en particular por las organizaciones de derechos humanos. Esto fue así porque:",
+              "o": [
+                "Alfonsín pensaba que había que separar el juicio a los culpables del juzgamiento a la institución, que era parte del Estado.",
+                "Alfonsín pensaba que había que evitar el juicio a los militares porque implicaba atacar a toda la institución que era parte del Estado.",
+                "Alfonsín se opuso al juicio, pero este se realizó igual por la presión de la comisión investigadora (conocida como CONADEP por sus siglas) integrada por figuras muy populares de la sociedad civil argentina.",
+                "Alfonsín pensaba que se debía concentrar el castigo en las cúpulas y aplicar al resto el criterio de la obediencia debida.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 7,
+              "k": "icse-p1-alfonsin-legado",
+              "e": "8",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que el ministro de Economía del gobierno militar asumido en 1976 y su grupo permanecieron al frente del manejo de la economía durante 5 años. Esto fue así porque:",
+              "o": [
+                "El ministro de Economía contó inicialmente con un fuerte apoyo, casi personal, de los organismos internacionales y los bancos extranjeros.",
+                "El ministro de Economía contó inicialmente con un fuerte apoyo, casi personal, del sector más concentrado del establishment local.",
+                "El ministro de Economía contó inicialmente con un fuerte apoyo, casi personal, del conjunto de los militares que estaban en el gobierno.",
+                "El ministro de Economía contó inicialmente con un fuerte apoyo, casi personal, de la Confederación General del Trabajo (CGT).",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-ministro-economia",
+              "e": "9",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que, con la toma militar de las Malvinas en 1982, el Gobierno argentino fue víctima de un aislamiento diplomático creciente, agravado por los antiguos reclamos sobre violaciones a los derechos humanos. Esto se vio en que:",
+              "o": [
+                "En el exterior se argumentó que el triunfo militar argentino significaría convalidar todo su desempeño anterior en referencia al tema de los derechos humanos.",
+                "Cada vez más solo, el gobierno argentino buscó aliados imposibles como los países del Tercer Mundo, la Unión Soviética y hasta Cuba.",
+                "Se envió al exterior, para explicar la posición argentina, a empresarios, sindicalistas y políticos, quienes utilizaron la tribuna para defender al Gobierno militar, lo que tuvo un gran impacto en países importantes de Europa.",
+                "La causa argentina no tuvo mayor apoyo fuera de América Latina, donde el acompañamiento fue total.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-malvinas-aislamiento",
+              "e": "10",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, en el tercer y último gobierno de Perón, la CGT no se hallaba cómoda y a gusto con un gobierno peronista con el cual no servía su táctica clásica de golpear y negociar sin comprometerse, la única que sabían manejar cabalmente. Esto se vio en que:",
+              "o": [
+                "La CGT formó un sólido frente con Montoneros para oponerse al entorno de Perón, personalizado en el ministro López Rega.",
+                "Los sindicalistas carecían de tradición, instrumentos y objetivos para cogobernar.",
+                "El 1º de mayo de 1974, se llegó a la ruptura: al abandonar una Plaza de donde el propio Perón expulsaba a la burocracia sindical, por primera vez desde 1945 ya no podían hablar en nombre del Movimiento.",
+                "La movilización de los trabajadores, que los ponía en jaque, les impedía negociar con libertad.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-cgt-peron3",
+              "e": "11",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Ariel Sribman Mittelman, el Estado socialista (cuyo paradigma fue la Unión Soviética) presenta características específicas en su conformación y objetivos. Entre ellas:",
+              "o": [
+                "Imponer un complejo sistema de democracia directa que busca evitar la burocratización de las decisiones políticas más importantes.",
+                "Un proceso de \"ingeniería\" política, económica y social bajo el mando de un partido férreamente organizado y jerarquizado.",
+                "Subordinar los objetivos democráticos a la urgencia de alcanzar metas económicas y sociales, rechazando cualquier tipo de reformismo.",
+                "Que poseía una vocación nacionalista basada en la unión de los trabajadores del país como objeto único del accionar socialista.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-estado-socialista",
+              "e": "12",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Max Povse, para analizar un concepto, luego de definirlo, se debe determinar en qué grado de abstracción se encuentra. Por ejemplo, un alto grado de abstracción tiene ventajas y desventajas, por ejemplo:",
+              "o": [
+                "Que es menos general y abarcador.",
+                "Que se puede aplicar a pocos casos.",
+                "Que se puede aplicar a muchos casos.",
+                "Que describe cada caso con poca precisión o detalle.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-abstraccion-alto",
+              "e": "13",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Patricio Gómez Talavera, la creación del Estado también implicaba nuevas responsabilidades para quienes emprendían esa tarea. Estas responsabilidades eran:",
+              "o": [
+                "Garantizar que funcione como un árbitro neutral y objetivo, situado por encima de los conflictos entre los distintos sectores sociales.",
+                "Ponerle límites, para evitar que abusara de su poder y sometiera a aquellos a quienes debía proteger.",
+                "Financiarlo, lo que suponía nuevos gastos para la comunidad.",
+                "Asegurar que la sociedad civil y el Estado sean esferas idénticas, eliminando cualquier tipo de relación de dominación entre gobernantes y gobernados.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-responsabilidades-estado",
+              "e": "14",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Fernando Pedrosa, Florencia Deich y Nadia Yannuzzi un concepto es una construcción abstracta, una forma condensada de una idea compleja que posee diversas características, entre ellas:",
+              "o": [
+                "Que un concepto no es simplemente una palabra: encierra una definición.",
+                "Que un concepto no es simplemente una palabra: encierra una perspectiva desde la cual miramos e interpretamos una realidad determinada.",
+                "Que un concepto no es simplemente una palabra, incorpora una idea subjetiva y personal sobre alguna cuestión.",
+                "Que un concepto no es simplemente una palabra, incorpora una idea adjetivada sobre alguna cuestión.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-concepto",
+              "e": "15",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Florencia Deich, los golpes de Estado pueden clasificarse según sus características. Algunas de ellas son:",
+              "o": [
+                "Pueden ser liderados por los miembros de la Iglesia Católica.",
+                "Pueden ser liderados por el propio gobierno en lo que se conoce como autogolpe.",
+                "Pueden ser liderados por los militares.",
+                "Pueden ser liderados por la prensa.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 5,
+              "k": "icse-p1-deich-golpes-clasif",
+              "e": "16",
+              "pts": 0.5
+            },
+            {
+              "p": "Según María José Valdez en su artículo sobre la relación entre la Nación y el Estado, a pesar de sus diferencias, las ideas de Gellner, Anderson y Hobsbawm comparten varios puntos en común. Los tres coinciden en que:",
+              "o": [
+                "La nación es un producto de la Edad Media, por lo que su existencia es muy antigua.",
+                "Existe una relación estrecha entre la nación y el territorio, es decir, una conexión necesaria entre la nación y el Estado.",
+                "La nación es una entidad natural y eterna que preexiste a cualquier forma de unidad política o institucional.",
+                "La nación no es algo dado ni natural, sino que se construye históricamente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-valdez-nacion-autores",
+              "e": "17",
+              "pts": 1
+            },
+            {
+              "p": "Según Romero, la guerrilla peronista Montoneros estaba sostenida por tradiciones ideológicas, sociales y políticas de diversa índole. Entre ellas:",
+              "o": [
+                "Dentro del peronismo, Montoneros eran, por su formación y tradición, los más orientados y propensos a buscar sus apoyos y legitimación en el movimiento obrero.",
+                "Dentro del peronismo, Montoneros era los que menos buscaban apoyos y legitimación entre sectores marginales.",
+                "Una expresión juvenil de la CGT y vinculada a los gremios más tradicionales en la historia del peronismo.",
+                "Sectores católicos más integristas y nacionalistas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 3,
+              "k": "icse-p1-montoneros-tradiciones",
+              "e": "18",
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "id": "t5",
+          "n": "Tema 5",
+          "fuente": "icse-parcial-offline.html",
+          "aviso": "Preguntas, claves y explicaciones importadas del cuestionario HTML de 2026.",
+          "qs": [
+            {
+              "p": "Según Luis A. Romero, durante los primeros años del gobierno de Raúl Alfonsín (1983-1989) los problemas políticos constituyeron el desafío central que enfrentó el gobierno radical.",
+              "o": [
+                "Es verdadero, porque en los primeros años, Alfonsín tuvo que dedicarse centralmente a afrontar los problemas políticos que el país heredaba de la dictadura previa y los embates de la oposición peronista que dominaba el senado nacional.",
+                "Es verdadero, porque el gobierno intentó diversas estrategias (algunas más exitosas que otras) para enfrentar el desafío que representaban las guerrillas que aún continuaban operativas, sobre todo en la provincia de Tucumán.",
+                "Es falso, porque Alfonsín intentó apenas asumió implementar políticas de ajuste y para enfrentar la hiperinflación legada por la dictadura militar.",
+                "Es falso, porque Alfonsín acababa de iniciar negociaciones internacionales para levantar el default de la deuda externa declarado por los militares que lo habían antecedido en el gobierno."
+              ],
+              "c": 0,
+              "k": "icse-p1-alfonsin-desafio",
+              "e": "1",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Patricio Gómez Talavera el Estado representa a la totalidad de la sociedad.",
+              "o": [
+                "Es falso, porque el Estado es una institución que se sitúa por encima de cualquier tipo de conflicto social.",
+                "Es verdadero, porque el Estado no puede intervenir en las diferencias y conflictos de sus habitantes ya que debe ser imparcial.",
+                "Es falso, porque la sociedad es heterogénea y conflictiva y esa variedad repercute también en la misma conformación del Estado.",
+                "Es verdadero, el Estado es el pueblo organizado y su función es velar por sus intereses."
+              ],
+              "c": 2,
+              "k": "icse-p1-estado-totalidad",
+              "e": "2",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Sofía Pirsch, el federalismo refiere a una forma específica de fragmentación del poder político.",
+              "o": [
+                "Es falso, porque el federalismo es una forma de organizar un conjunto y a la vez eludir la fragmentación territorial.",
+                "Es verdadero, porque junto con otras, como las confederaciones, las uniones o los Estados unitarios, permiten la organización interna de los Estados.",
+                "Es verdadero, porque junto con otras, como los ayuntamientos, municipalidades, comunas, concejos, alcaldías, cabildos o consistorios, permiten la organización interna de los Estados.",
+                "Es falso, porque el federalismo es una forma de cooperación entre Estados provinciales."
+              ],
+              "c": 1,
+              "k": "icse-p1-federalismo-fragmentacion",
+              "e": "3",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nadia Yannuzzi \"comunidad\" y \"sociedad\" son dos conceptos que refieren a lo mismo.",
+              "o": [
+                "Es verdadero, porque la comunidad es una versión más reducida de la sociedad.",
+                "Es verdadero, porque pueden existir muchas sociedades dentro de una comunidad.",
+                "Es falso, porque sociedad implica un sentimiento de pertenencia y solidaridad entre sus miembros mucho más definido y próximo.",
+                "Es falso, porque la comunidad implica un sentimiento de pertenencia y solidaridad entre sus miembros mucho más definido y próximo."
+              ],
+              "c": 3,
+              "k": "icse-p1-comunidad-sociedad",
+              "e": "4",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Verónica Beyreuther, las dictaduras no tienen una duración determinada legalmente.",
+              "o": [
+                "Es falso, porque los regímenes autoritarios no pueden sostenerse solo por la represión y necesitan sancionar normas que organicen su permanencia en el poder.",
+                "Es verdadero, porque al ser encabezadas por las Fuerzas Armadas como institución, no deben obedecer normas ni leyes ya que pueden apelar a la violencia.",
+                "Es verdadero, porque su continuidad depende de la capacidad que muestren para ejercer el control y construir formas de legitimidad.",
+                "Es falso, porque las dictaduras en general son muy apegadas a las burocracias y a crear normas para su funcionamiento, entre ellas, las que regulan sobre su propio inicio y final."
+              ],
+              "c": 2,
+              "k": "icse-p1-dictaduras-duracion",
+              "e": "5",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nicolás Simone, el primer atributo de la poliarquía es que garantiza que todas las personas adultas con ciudadanía en un Estado nacional (demos) pueden ejercer dos derechos a la vez: el de votar representantes y el de ser votados como tales.",
+              "o": [
+                "Es verdadero, porque esta garantía constitucional fue la clave del cambio desde el Antiguo Régimen al moderno.",
+                "Es falso, porque eso es una garantía esencialmente democrática y donde la poliarquía no tiene nada que ver.",
+                "Es verdadero, porque esta garantía constitucional fue la clave del cambio desde la segunda guerra mundial hasta la actualidad.",
+                "Es falso, porque ser votado no es un derecho, a diferencia del derecho a votar, que sí lo es."
+              ],
+              "c": 0,
+              "k": "icse-p1-poliarquia-atributo",
+              "e": "6",
+              "pts": 0.5
+            },
+            {
+              "p": "Julio Montero afirma que más allá de su larga trayectoria filosófica y de la influencia que tuvo sobre varias constituciones occidentales de los siglos XVIII y XIX, la noción de derechos humanos recién alcanzó plena aceptación internacional a partir de la caída del Muro de Berlín.",
+              "o": [
+                "Es falso, porque la noción de derechos humanos recién alcanzó plena aceptación internacional durante la Primera Guerra Mundial.",
+                "Es falso, porque la noción de derechos humanos recién alcanzó plena aceptación internacional durante la Segunda Guerra Mundial.",
+                "Es verdadero, porque hasta ese momento, había predominado la idea de que cada Estado tenía total libertad para decidir qué derechos les reconocía a sus ciudadanos.",
+                "Es verdadero, porque hasta ese momento, había predominado la idea de que cada Estado tenía total libertad para fijar su propio marco legal."
+              ],
+              "c": 1,
+              "k": "icse-p1-montero-ddhh",
+              "e": "7",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, desde 1968, los religiosos que se reunieron en el Movimiento de Sacerdotes del Tercer Mundo, y los laicos que lo acompañaban, militaron en las zonas más pobres. Esto derivó en que:",
+              "o": [
+                "Predicaban que la violencia de abajo no se legitimaba por la injusticia social, por lo cual no adherían al discurso de las organizaciones guerrilleras de la época.",
+                "Rechazaran la incorporación a la política y a la militancia de jóvenes, educados en los colegios religiosos.",
+                "Su lenguaje evangélico fue haciéndose rápidamente político.",
+                "Asumieron la solidaridad y el compromiso con los pobres, y también el peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-sacerdotes-3mundo",
+              "e": "8",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Ariel Sribman Mittelman, Bouza-Brey propone cinco formas de organización política preestatal, ordenadas de la más simple a la más compleja, algunas de ellas son:",
+              "o": [
+                "La sociedad acéfala.",
+                "La sociedad segmentada.",
+                "La sociedad de los poetas muertos.",
+                "La sociedad anónima.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-bouza-brey",
+              "e": "9",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero relata que la ley del divorcio de 1987 se aprobó durante el Gobierno del radical Raúl Alfonsín luego de una breve, pero muy intensa discusión. Esta intensidad estuvo relacionada con que:",
+              "o": [
+                "Los sectores más tradicionales del partido radical intentaron oponerse bloqueando su tratamiento en el Congreso.",
+                "Fue el momento en que se formalizó la ruptura de relaciones diplomáticas entre Argentina y el Vaticano.",
+                "Los sectores más tradicionales de la Iglesia católica intentaron oponerse con manifestaciones en las que hasta la Virgen de Luján fue sacada a la calle.",
+                "Avanzaba en el proyecto de modernización de las relaciones familiares, campo en el que la Argentina estaba sensiblemente atrasada respecto de las tendencias mundiales.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-divorcio-87",
+              "e": "10",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, el año 1987 fue decisivo para el Gobierno del entonces presidente radical Raúl Alfonsín. Eso fue así porque:",
+              "o": [
+                "En un clima de deterioro económico agudizado y de inflación creciente, el oficialismo fue derrotado en las elecciones legislativas.",
+                "Alfonsín anunció el proyecto de reforma constitucional que desembocaría en su reelección.",
+                "Alfonsín perdió la exclusividad del liderazgo sobre la civilidad.",
+                "Jaqueado por los militares llamados \"carapintadas\", decretó el indulto a los miembros de las Juntas militares de la última dictadura.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-anio-87",
+              "e": "11",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Florencia Deich, un golpe de Estado siempre se propone producir una ruptura del régimen político existente hasta ese momento, esto implica que:",
+              "o": [
+                "Se busca derribar un gobierno constitucional con el objetivo explícito de tomar el poder por una vía que no es la que la sociedad acordó y consensuó.",
+                "Deben analizarse las causas sociales que lo originan o justifican antes de definirlo como una acción inconstitucional.",
+                "El contrato constitucional queda abolido porque la sociedad ya no cree en las soluciones legales y el interés del pueblo está siempre por encima de acuerdos y normativas.",
+                "Es una acción ilegal no importa cómo se presente o se argumente.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-deich-golpe-ruptura",
+              "e": "12",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Max Povse, para analizar un concepto, luego de definirlo, se debe determinar en qué grado de abstracción se encuentra. Por ejemplo, aplicar un bajo grado de abstracción tiene ventajas y desventajas, por ejemplo:",
+              "o": [
+                "Que es menos general y abarcador.",
+                "Que es más específico y concreto.",
+                "Que se puede aplicar a muchos casos.",
+                "Que describe cada caso con poca precisión o detalle.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-abstraccion-bajo",
+              "e": "13",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, en los años del tercer Gobierno de Perón, la lucha en torno del pacto social fue paralela a la que se libró en el seno del peronismo, involucrando al Gobierno y hasta al mismo Estado. Esto se vio en que:",
+              "o": [
+                "Perón debió enfrentar a los grupos estudiantiles de la llamada \"triple A\" y a su líder e inesperado competidor por el poder interno: José López Rega.",
+                "Su estrategia de enfrentamiento con quienes lo expulsaron del poder en 1955 consistía en utilizar a los jóvenes, y a los sectores populares que ellos movilizaban, para hostigar a sus rivales y a la vez para presentarse como el único capaz de contenerlos.",
+                "Los militares le impusieron a Perón a su propia esposa como vicepresidente para garantizar la continuidad del proyecto frente al apoyo que el mismo Perón le había dado públicamente a Cámpora.",
+                "Esa lucha estaba implícita en las equívocas relaciones entre Perón y quienes, alrededor de Montoneros y la Juventud Peronista, constituían la llamada \"tendencia revolucionaria\" del peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-pacto-social",
+              "e": "14",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, el Gobierno de la transición iniciada en 1983 debió enfrentarse a un importante obstáculo: empresarios y sindicalistas coincidieron en hacer fracasar la política de concertación sectorial a la que habían apostado el entonces presidente Alfonsín y su equipo económico. Esto ocurrió cuando:",
+              "o": [
+                "Los empresarios nacionales se opusieron a la apertura total de las importaciones que planteaba el ministro de Economía de Alfonsín.",
+                "Los sindicalistas encontraron en la movilización piquetera una inesperada aliada para suplantar la falta de entusiasmo de los propios.",
+                "La CGT se movilizó tanto por razones sindicales como políticas, pues era la columna vertebral de la oposición peronista.",
+                "Los empresarios cuestionaron el gasto y la intervención estatal, aunque con la salvedad de las políticas que los beneficiaban directamente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-concertacion-83",
+              "e": "15",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, los inicios de la represión ilegal de las Fuerzas Armadas no fueron con el golpe militar de 1976, sino que ya se observaban en el Gobierno peronista que encabezó Isabel Perón entre 1974 y 1976.",
+              "o": [
+                "Desde febrero de 1975, el Ejército, convocado por Isabel Perón, asumió la tarea de reprimir a la guerrilla en Tucumán.",
+                "Con la muerte de Perón, los grupos guerrilleros optaron por pasar a la clandestinidad y potenciar la violencia política.",
+                "Las guerrillas vinculadas al Partido Radical y a su líder, Raúl Alfonsín, se hicieron fuertes en el interior de la Provincia de Buenos Aires.",
+                "La represión en el sur del país en 1975, conocida como la \"Patagonia Rebelde\", fue el primer acto en que las Fuerzas Armadas aplicaron la represión ilegal para aniquilar a las guerrillas de izquierda.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-represion-pre76",
+              "e": "16",
+              "pts": 0.5
+            },
+            {
+              "p": "Según María José Valdez, los nacionalistas impulsaron la idea de que italianos y alemanes, cada uno por su parte, formaban una nación y que, por lo tanto, debían estar unidos en un mismo Estado. Para justificar esta idea, se apeló a los siguientes elementos:",
+              "o": [
+                "Una lengua común.",
+                "Un pasado en disputa, como la cuestión de América con el antiguo Imperio romano.",
+                "Instituciones preexistentes, como la referencia al Sacro Imperio Romano Germánico en el caso alemán.",
+                "Tradiciones y cultura popular, como los cuentos recopilados por los hermanos Grimm, que reforzaban la identidad alemana.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-nacionalistas-italia-alemania",
+              "e": "17",
+              "pts": 1
+            },
+            {
+              "p": "Según Julio Montero, y a pesar de los discursos sobre la preocupación por los que menos tienen, y que los recursos y las oportunidades estuvieran distribuidos de una manera más justa, los regímenes socialistas raramente cumplieron con sus promesas. Esto resultó en que:",
+              "o": [
+                "Los experimentos socialistas conocidos hasta ahora culminaron en graves penurias económicas que tarde o temprano precipitaron su caída, dejando millones de pobres y exiliados.",
+                "Los socialismos reales asesinaron a millones de seres humanos y enviaron a muchos otros a campos de concentración donde se esperaba \"reeducarlos\".",
+                "Hoy ya no existen gobiernos que se consideren comunistas o socialistas marxistas.",
+                "En los países nórdicos, en especial Finlandia y Suecia, las dictaduras comunistas sembraron el terror en la primera mitad del siglo XX.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-socialismos-montero",
+              "e": "18",
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "id": "t6",
+          "n": "Tema 6",
+          "fuente": "icse-parcial-offline.html",
+          "aviso": "Preguntas, claves y explicaciones importadas del cuestionario HTML de 2026.",
+          "qs": [
+            {
+              "p": "Según Nicolás Simone el primer atributo de la poliarquía es que garantiza que todas las personas adultas con ciudadanía en un Estado nacional (demos) pueden ejercer dos derechos a la vez: el de votar representantes y el de ser votados como tales.",
+              "o": [
+                "Es falso, porque ser votado no es un derecho, a diferencia del derecho a votar, que sí lo es.",
+                "Es verdadero, porque esta garantía constitucional fue la clave del cambio desde el Antiguo Régimen al moderno.",
+                "Es falso, porque eso es una garantía esencialmente democrática y donde la poliarquía no tiene nada que ver.",
+                "Es verdadero, porque esta garantía constitucional fue la clave del cambio desde la Segunda Guerra Mundial hasta la actualidad."
+              ],
+              "c": 1,
+              "k": "icse-p1-poliarquia-atributo",
+              "e": "1",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Patricio Gómez Talavera el Estado representa a la totalidad de la sociedad.",
+              "o": [
+                "Es verdadero, el Estado es el pueblo organizado y su función es velar por sus intereses.",
+                "Es falso, porque el Estado es una institución que se sitúa por encima de cualquier tipo de conflicto social.",
+                "Es verdadero, porque el Estado no puede intervenir en las diferencias y conflictos de sus habitantes ya que debe mantenerse imparcial.",
+                "Es falso, porque la sociedad es heterogénea y conflictiva y esa variedad repercute también en la misma conformación del Estado."
+              ],
+              "c": 3,
+              "k": "icse-p1-estado-totalidad",
+              "e": "2",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Verónica Beyreuther, las dictaduras no tienen una duración determinada legalmente.",
+              "o": [
+                "Es verdadero, porque su continuidad depende de la capacidad que muestren para ejercer el control y construir formas de legitimidad.",
+                "Es verdadero, porque al ser encabezadas por las Fuerzas Armadas como institución, no deben obedecer normas ni leyes ya que pueden apelar a la violencia.",
+                "Es falso, porque las dictaduras en general son muy apegadas a las burocracias y a crear normas para su funcionamiento, entre ellas, las que regulan sobre su propio inicio y final.",
+                "Es falso, porque los regímenes autoritarios no pueden sostenerse solo por la represión y necesitan sancionar normas que organicen su permanencia en el poder."
+              ],
+              "c": 0,
+              "k": "icse-p1-dictaduras-duracion",
+              "e": "3",
+              "pts": 0.5
+            },
+            {
+              "p": "Julio Montero afirma que más allá de su larga trayectoria filosófica y de la influencia que tuvo sobre varias constituciones occidentales de los siglos XVIII y XIX, la noción de derechos humanos recién alcanzó plena aceptación internacional a partir de la caída del Muro de Berlín.",
+              "o": [
+                "Es falso, porque la noción de derechos humanos recién alcanzó plena aceptación internacional durante la Segunda Guerra Mundial.",
+                "Es verdadero, porque hasta ese momento, había predominado la idea de que cada Estado tenía total libertad para fijar su propio marco legal.",
+                "Es verdadero, porque hasta ese momento, había predominado la idea de que cada Estado tenía total libertad para decidir qué derechos les reconocía a sus ciudadanos.",
+                "Es falso, porque la noción de derechos humanos recién alcanzó plena aceptación internacional durante la Primera Guerra Mundial."
+              ],
+              "c": 0,
+              "k": "icse-p1-montero-ddhh",
+              "e": "4",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nadia Yannuzzi \"comunidad\" y \"sociedad\" son dos conceptos que refieren a lo mismo.",
+              "o": [
+                "Es falso, porque sociedad implica un sentimiento de pertenencia y solidaridad entre sus miembros mucho más definido y próximo.",
+                "Es falso, porque la comunidad implica un sentimiento de pertenencia y solidaridad entre sus miembros mucho más definido y próximo.",
+                "Es verdadero, porque pueden existir muchas sociedades dentro de una comunidad.",
+                "Es verdadero, porque la comunidad es una versión más reducida de la sociedad."
+              ],
+              "c": 1,
+              "k": "icse-p1-comunidad-sociedad",
+              "e": "5",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Sofía Pirsch, el federalismo refiere a una forma específica de fragmentación del poder político.",
+              "o": [
+                "Es verdadero, porque junto con otras, como los ayuntamientos, municipalidades, comunas, concejos, alcaldías, cabildos o consistorios, permiten la organización interna de los Estados.",
+                "Es falso, porque el federalismo es una forma de cooperación entre Estados provinciales.",
+                "Es verdadero, porque junto con otras, como las confederaciones, las uniones o los Estados unitarios, permiten la organización interna de los Estados.",
+                "Es falso, porque el federalismo es una forma de organizar un conjunto y a la vez eludir la fragmentación territorial."
+              ],
+              "c": 2,
+              "k": "icse-p1-federalismo-fragmentacion",
+              "e": "6",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Luis A. Romero, durante los primeros años del gobierno de Raúl Alfonsín (1983-1989) los problemas políticos constituyeron el desafío central que enfrentó el gobierno radical.",
+              "o": [
+                "Es falso, porque Alfonsín acababa de iniciar negociaciones internacionales para levantar el default de la deuda externa declarado por los militares que lo habían antecedido en el gobierno.",
+                "Es falso, porque Alfonsín intentó apenas asumió implementar políticas de ajuste y para enfrentar la hiperinflación legada por la dictadura militar.",
+                "Es verdadero, porque en los primeros años, Alfonsín tuvo que dedicarse centralmente a afrontar los problemas políticos que el país heredaba de la dictadura previa y los embates de la oposición peronista que dominaba el senado nacional.",
+                "Es verdadero, porque el gobierno intentó diversas estrategias (algunas más exitosas que otras) para enfrentar el desafío que representaban las guerrillas que aún continuaban operativas, sobre todo en la provincia de Tucumán."
+              ],
+              "c": 2,
+              "k": "icse-p1-alfonsin-desafio",
+              "e": "7",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, el Gobierno de la transición iniciada en 1983 debió enfrentarse a un importante obstáculo: empresarios y sindicalistas coincidieron en hacer fracasar la política de concertación sectorial a la que habían apostado el entonces presidente Alfonsín y su equipo económico. Esto ocurrió cuando:",
+              "o": [
+                "Los empresarios cuestionaron el gasto y la intervención estatal, aunque con la salvedad de las políticas que los beneficiaban directamente.",
+                "La CGT se movilizó tanto por razones sindicales como políticas, pues era la columna vertebral de la oposición peronista.",
+                "Los sindicalistas encontraron en la movilización piquetera una inesperada aliada para suplantar la falta de entusiasmo de los propios.",
+                "Los empresarios nacionales se opusieron a la apertura total de las importaciones que planteaba el ministro de Economía de Alfonsín.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-concertacion-83",
+              "e": "8",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, los inicios de la represión ilegal de las Fuerzas Armadas no fueron con el golpe militar de 1976, sino que ya se observaban en el Gobierno peronista que encabezó Isabel Perón entre 1974 y 1976.",
+              "o": [
+                "Las guerrillas vinculadas al Partido Radical y a su líder, Raúl Alfonsín, se hicieron fuertes en el interior de la Provincia de Buenos Aires.",
+                "La represión en el sur del país en 1975, conocida como la \"Patagonia Rebelde\", fue el primer acto en que las Fuerzas Armadas aplicaron la represión ilegal para aniquilar a las guerrillas de izquierda.",
+                "Desde febrero de 1975, el Ejército, convocado por Isabel Perón, asumió la tarea de reprimir a la guerrilla en Tucumán.",
+                "Con la muerte de Perón, los grupos guerrilleros optaron por pasar a la clandestinidad y potenciar la violencia política.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-represion-pre76",
+              "e": "9",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Max Povse para analizar un concepto, luego de definirlo, se debe determinar en qué grado de abstracción se encuentra. Por ejemplo, aplicar un bajo grado de abstracción tiene ventajas y desventajas, por ejemplo:",
+              "o": [
+                "Que es menos general y abarcador.",
+                "Que es más específico y concreto.",
+                "Que se puede aplicar a muchos casos.",
+                "Que describe cada caso con poca precisión o detalle.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-abstraccion-bajo",
+              "e": "10",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero relata que la ley del divorcio de 1987 se aprobó durante el Gobierno del radical Raúl Alfonsín luego de una breve, pero muy intensa discusión. Esta intensidad estuvo relacionada con que:",
+              "o": [
+                "Avanzaba en el proyecto de modernización de las relaciones familiares, campo en el que la Argentina estaba sensiblemente atrasada respecto de las tendencias mundiales.",
+                "Los sectores más tradicionales de la Iglesia católica intentaron oponerse con manifestaciones en las que hasta la Virgen de Luján fue sacada a la calle.",
+                "Fue el momento en que se formalizó la ruptura de relaciones diplomáticas entre Argentina y el Vaticano.",
+                "Los sectores más tradicionales del partido radical intentaron oponerse bloqueando su tratamiento en el Congreso.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-divorcio-87",
+              "e": "11",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Florencia Deich, un golpe de Estado siempre se propone producir una ruptura del régimen político existente hasta ese momento, esto implica que:",
+              "o": [
+                "Se busca derribar un gobierno constitucional con el objetivo explícito de tomar el poder por una vía que no es la que la sociedad acordó y consensuó.",
+                "Deben analizarse las causas sociales que lo originan o justifican antes de definirlo como una acción inconstitucional.",
+                "Es una acción ilegal no importa cómo se presente o se argumente.",
+                "El contrato constitucional queda abolido porque la sociedad ya no cree en las soluciones legales y el interés del pueblo está siempre por encima de acuerdos y normativas.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-deich-golpe-ruptura",
+              "e": "12",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, el año 1987 fue decisivo para el Gobierno del entonces presidente radical Raúl Alfonsín. Eso fue así porque:",
+              "o": [
+                "Jaqueado por los militares llamados \"carapintadas\", decretó el indulto a los miembros de las Juntas militares de la última dictadura.",
+                "Alfonsín anunció el proyecto de reforma constitucional que desembocaría en su reelección.",
+                "Alfonsín perdió la exclusividad del liderazgo sobre la civilidad.",
+                "En un clima de deterioro económico agudizado y de inflación creciente, el oficialismo fue derrotado en las elecciones legislativas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-anio-87",
+              "e": "13",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Ariel Sribman Mittelman, Bouza-Brey propone cinco formas de organización política preestatal, ordenadas de la más simple a la más compleja, algunas de ellas son:",
+              "o": [
+                "La sociedad anónima.",
+                "La sociedad segmentada.",
+                "La sociedad acéfala.",
+                "La sociedad de los poetas muertos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-bouza-brey",
+              "e": "14",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, desde 1968, los religiosos que se reunieron en el Movimiento de Sacerdotes del Tercer Mundo, y los laicos que lo acompañaban, militaron en las zonas más pobres. Esto derivó en que:",
+              "o": [
+                "Su lenguaje evangélico fue haciéndose rápidamente político.",
+                "Rechazaran la incorporación a la política y a la militancia de jóvenes, educados en los colegios religiosos.",
+                "Predicaban que la violencia de abajo no se legitimaba por la injusticia social, por lo cual no adherían al discurso de las organizaciones guerrilleras de la época.",
+                "Asumieron la solidaridad y el compromiso con los pobres, y también el peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-sacerdotes-3mundo",
+              "e": "15",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, en los años del tercer Gobierno de Perón, la lucha en torno del pacto social fue paralela a la que se libró en el seno del peronismo, involucrando al Gobierno y hasta al mismo Estado. Esto se vio en que:",
+              "o": [
+                "Perón debió enfrentar a los grupos estudiantiles de la llamada \"triple A\" y a su líder e inesperado competidor por el poder interno: José López Rega.",
+                "Los militares le impusieron a Perón a su propia esposa como vicepresidente para garantizar la continuidad del proyecto frente al apoyo que el mismo Perón le había dado públicamente a Cámpora.",
+                "Su estrategia de enfrentamiento con quienes lo expulsaron del poder en 1955 consistía en utilizar a los jóvenes, y a los sectores populares que ellos movilizaban, para hostigar a sus rivales y a la vez para presentarse como el único capaz de contenerlos.",
+                "Esa lucha estaba implícita en las equívocas relaciones entre Perón y quienes, alrededor de Montoneros y la Juventud Peronista, constituían la llamada \"tendencia revolucionaria\" del peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-pacto-social",
+              "e": "16",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Julio Montero, y a pesar de los discursos sobre la preocupación por los que menos tienen, y que los recursos y las oportunidades estuvieran distribuidos de una manera más justa, los regímenes socialistas raramente cumplieron con sus promesas. Esto resultó en que:",
+              "o": [
+                "Hoy ya no existen gobiernos que se consideren comunistas o socialistas marxistas.",
+                "Los socialismos reales asesinaron a millones de seres humanos y enviaron a muchos otros a campos de concentración donde se esperaba \"reeducarlos\".",
+                "Los experimentos socialistas conocidos hasta ahora culminaron en graves penurias económicas que tarde o temprano precipitaron su caída, dejando millones de pobres y exiliados.",
+                "En los países nórdicos, en especial Finlandia y Suecia, las dictaduras comunistas sembraron el terror en la primera mitad del siglo XX.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-socialismos-montero",
+              "e": "17",
+              "pts": 1
+            },
+            {
+              "p": "Según María José Valdez los nacionalistas impulsaron la idea de que italianos y alemanes, cada uno por su parte, formaban una nación y que, por lo tanto, debían estar unidos en un mismo Estado. Para justificar esta idea, se apeló a los siguientes elementos:",
+              "o": [
+                "Perspectivas de un futuro compartido y común.",
+                "Un pasado en disputa, como la cuestión de América con el antiguo Imperio romano.",
+                "Instituciones preexistentes, como la referencia al Sacro Imperio Romano Germánico en el caso alemán.",
+                "Tradiciones y cultura popular, como los cuentos recopilados por los hermanos Grimm, que reforzaban la identidad alemana.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-nacionalistas-italia-alemania",
+              "e": "18",
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "id": "t7",
+          "n": "Tema 7",
+          "fuente": "icse-parcial-offline.html",
+          "aviso": "Preguntas, claves y explicaciones importadas del cuestionario HTML de 2026.",
+          "qs": [
+            {
+              "p": "Según Nadia Yannuzzi la misma complejidad social que se genera entre los colectivos humanos demanda que no se distingue entre persona y ciudadano, puesto que son sinónimos.",
+              "o": [
+                "Es falso, porque ser ciudadano implica tener una batería de derechos que cada Estado otorga y garantiza.",
+                "Es verdadero, porque los ciudadanos son personas más allá de sus derechos u obligaciones.",
+                "Es falso, porque ser ciudadano implica tener una batería de obligaciones que cada Estado demanda y certifica.",
+                "Es verdadero, porque la no discriminación es una garantía constitucional en casi todos los países del mundo."
+              ],
+              "c": 0,
+              "k": "icse-p1-persona-ciudadano",
+              "e": "1",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nicolás Simone, las elecciones en clave de poliarquía suceden cuando la oferta electoral –es decir, las opciones entre las cuales los ciudadanos pueden elegir– expresa las distintas miradas de una sociedad y no está limitada por el poder del Estado.",
+              "o": [
+                "Es verdadero, porque el Estado es el pueblo organizado y su función es conseguir una representación de toda la sociedad a través de las elecciones.",
+                "Es falso, porque el Estado no debe intervenir en las conductas sociales mientras sean legales.",
+                "Es verdadero, porque la transparencia en una elección no solo se garantiza a través del resultado, sino también desde la oferta de candidatos.",
+                "Es falso, porque la transparencia en una elección sólo se garantiza a través de resultados transparentes más que interviniendo en la oferta de candidatos."
+              ],
+              "c": 2,
+              "k": "icse-p1-elecciones-oferta",
+              "e": "2",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Sofía Pirsch, en los Estados unitarios existe una unificación vertical en la toma de decisiones, es decir, una concentración del poder en una administración central.",
+              "o": [
+                "Es verdadero, porque esa administración central designa delegados regionales o bien ejerce directamente el poder local.",
+                "Es verdadero, porque los sistemas unitarios son las versiones constitucionales de los regímenes no democráticos.",
+                "Es falso, porque el sistema federal no tiene nada que ver con las características del régimen político autoritario.",
+                "Es falso, porque la verticalidad de la toma de decisiones es una cuestión de la poliarquía, no del federalismo."
+              ],
+              "c": 0,
+              "k": "icse-p1-estados-unitarios",
+              "e": "3",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Alejandro Lamarque, los elementos centrales de la conceptualización de Lemkin sobre el genocidio se refieren a un rasgo distintivo presente tanto en la Edad Media como en el Antiguo Régimen.",
+              "o": [
+                "Es falso, porque los elementos centrales de la conceptualización de Lemkin sobre el genocidio se refieren a un rasgo distintivo que se presenta solo después de la Segunda Guerra Mundial.",
+                "Es falso, porque el rasgo distintivo se presenta con las Modernidades y un uso instrumental y planificado de la violencia para eliminar grupos enteros de poblaciones.",
+                "Es verdadero, porque el genocidio como herramienta criminal se remonta a los orígenes de la humanidad.",
+                "Es verdadero, porque el rasgo distintivo que se presenta desde el Antiguo Régimen es el uso instrumental y planificado de la violencia para eliminar grupos enteros de grupos religiosos."
+              ],
+              "c": 1,
+              "k": "icse-p1-lemkin-genocidio",
+              "e": "4",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Verónica Beyreuther en la Antigüedad, la dictadura era un régimen establecido por normas consensuadas.",
+              "o": [
+                "Es falso, porque la dictadura es un régimen político que comenzó a denominarse así en el siglo XX con la aparición de los fascismos europeos (Mussolini, Franco y Hitler).",
+                "Es falso, porque nunca una dictadura fue producto de normas consensuadas.",
+                "Es verdadero, porque, a diferencia de las versiones contemporáneas, había acuerdo en respetar un plazo de finalización que estaba previamente determinado.",
+                "Es verdadero, porque los griegos de la antigüedad clásica fueron los inventores de la dictadura en tanto régimen político tal como lo conocemos."
+              ],
+              "c": 2,
+              "k": "icse-p1-dictadura-antiguedad",
+              "e": "5",
+              "pts": 0.5
+            },
+            {
+              "p": "Mariano Statello retoma una definición de terrorismo que pone el énfasis en el impacto material que provoca su accionar en una sociedad o en algún segmento de la misma, antes que en cuestiones más psicológicas como la ansiedad o el miedo.",
+              "o": [
+                "Es falso, porque el terrorismo excede con creces sus consecuencias materiales.",
+                "Es falso, porque el terrorismo se basa, sobre todas las cosas, en la espectacularidad de sus ataques materiales, antes que en su impacto psíquico.",
+                "Es verdadero, porque la violencia material sin sentido es el único objetivo de los grupos terroristas.",
+                "Es verdadero, porque lo más temido del terrorismo son los daños físicos concretos ocasionados intencionadamente a personas o cosas."
+              ],
+              "c": 0,
+              "k": "icse-p1-terrorismo-material",
+              "e": "6",
+              "pts": 0.5
+            },
+            {
+              "p": "Florencia Deich afirma que existe un tipo de golpe de Estado que ocurre cuando un gobierno originalmente democrático se perpetúa en el poder más allá de lo legalmente permitido.",
+              "o": [
+                "Es falso, porque nunca un gobierno democrático puede convertirse en golpista.",
+                "Es verdadero, porque en Argentina se han producido numerosos golpes de Estado de este tipo, impulsados por gobernantes civiles que buscaban mantenerse en el poder más tiempo del previsto constitucionalmente.",
+                "Es verdadero, porque se trata de un autogolpe de Estado: un presidente que había sido elegido por la vía democrática se convierte en un dictador.",
+                "Es falso, porque Deich reserva el concepto de golpe de Estado exclusivamente para las acciones lideradas por militares o por grupos económicos."
+              ],
+              "c": 2,
+              "k": "icse-p1-autogolpe",
+              "e": "7",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Julio Montero, los crímenes de lesa humanidad tienen un tratamiento especial. Esto es así porque:",
+              "o": [
+                "Son delitos imprescriptibles que pueden juzgarse en cualquier jurisdicción.",
+                "Se producen cuando hay una acción sistemática contra la población civil por parte del Gobierno.",
+                "Siempre se juzgan exclusivamente en el país donde ocurrieron los hechos.",
+                "Son delitos que solo pueden ser juzgados por tribunales designados por la ONU.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la B.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-lesa-humanidad",
+              "e": "8",
+              "pts": 0.5
+            },
+            {
+              "p": "En enero de 1989, un grupo terrorista asaltó el cuartel de La Tablada en el Gran Buenos Aires y el Ejército aprovechó la ocasión para realizar una aplastante demostración de fuerza que culminó con el aniquilamiento de los asaltantes. Según Luis A. Romero, esto implicó que:",
+              "o": [
+                "El reconocimiento de la represión militar fue el primer indicio del cambio de prioridades y valores en la opinión pública.",
+                "Podía anticiparse que, finalmente, la cuestión militar abierta llevaría al olvido de los crímenes de la \"guerra sucia\" y al entierro de las ilusiones de la civilidad de 1983.",
+                "El recuerdo del pasado de la represión ilegal volvió a la opinión pública, que repudió sin fisuras el hecho, y eso le dio aire político al gobierno de Alfonsín, que había logrado juzgar a las juntas militares.",
+                "El rechazo que la represión militar registró en su acción fue un nuevo indicio del cambio de época que había comenzado en 1983.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-la-tablada",
+              "e": "9",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la ola de movilización, que llevó el enfrentamiento social a un punto extremo en los años 70, poseía elementos de una cultura política espontánea (por los largos años de autoritarismo y de democracia fingida) que identificaba el poder con el enemigo. Esto se vio en que:",
+              "o": [
+                "Los Montoneros, en particular, tuvieron una enorme capacidad para potenciar lo espontáneo de la movilización, ya que introdujeron un sesgo democrático en el movimiento popular, evitando someterlo a una organización rígida y a líderes autoritarios.",
+                "Los activistas formados en las matrices del radicalismo y del partido conservador tendieron a acentuar y dar forma a esta cultura espontánea, lo que derivó en la lógica de la guerra.",
+                "Los activistas formados en las matrices del peronismo, del catolicismo o de la izquierda tendieron a acentuar y dar forma a esta cultura espontánea, lo que derivó en la lógica de la guerra.",
+                "Los partidos políticos de izquierda tenían el apoyo y la fuerza de convicción para hacerse oír entre los distintos grupos mediante estrategias violentas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 2,
+              "k": "icse-p1-cultura-espontanea",
+              "e": "10",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que la dictadura iniciada en 1976 supuso la coexistencia de un Estado terrorista clandestino, encargado de la represión, y otro visible, sujeto a normas establecidas por las propias autoridades, pero que sometía sus acciones a cierta juridicidad. Esto implicó que:",
+              "o": [
+                "En la práctica, esta distinción no se mantuvo y el Estado ilegal fue corroyendo y corrompiendo el conjunto de las instituciones del Estado y su propia organización jurídica.",
+                "En la práctica, esta distinción fue muy evidente y el Estado legal fue aumentando poco a poco su importancia en el rol de juzgar y condenar a los autores de la violencia política ilegal.",
+                "Al crearse la Junta Militar, con atribuciones para designar al presidente y controlar una parte importante de sus actos, las atribuciones respectivas de una y otro no quedaron totalmente deslindadas.",
+                "El Estatuto del Proceso y las actas institucionales complementarias que suprimieron el Congreso, no pudieron evitar que la Constitución nacional (la ley máxima del país) siguiera guiando y protegiendo la actividad judicial y política.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-estado-clandestino-visible",
+              "e": "11",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nicolás Simone, si bien la derrota en el conflicto bélico contra Gran Bretaña por las Islas Malvinas certificó el final de la dictadura, su declive había comenzado antes. Esto se vio en que:",
+              "o": [
+                "En 1979, la Comisión Interamericana de Derechos Humanos de la Organización de Estados Americanos visitó el país y denunció que se habían cometido graves violaciones a los derechos humanos.",
+                "Las guerrillas de izquierda se mostraban desenfrenadas, sobre todo después de la toma del cuartel de La Tablada durante la Semana Santa de 1987.",
+                "La situación económica bajo el gobierno militar era cada vez peor.",
+                "La delincuencia y la inseguridad ante el delito eran impunes sobre todo en el conurbano de la Provincia de Buenos Aires.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-declive-dictadura",
+              "e": "12",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, el año 1987 fue decisivo para el Gobierno del entonces presidente radical Raúl Alfonsín. Eso fue así porque:",
+              "o": [
+                "Jaqueado por los grupos violentos de izquierda, decretó el indulto a los líderes de las guerrillas.",
+                "Alfonsín anunció la ley de convertibilidad que terminaría con la inflación y desembocaría en su reelección.",
+                "Alfonsín renunció al propósito de controlar, desde el Estado, los poderes corporativos que había caracterizado la primera parte de su gobierno.",
+                "Cuando la conflictividad social volvió a agudizarse, el gobierno decidió incorporar a hombres de los sindicatos más importantes y a grandes empresarios.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-anio-87-corporaciones",
+              "e": "13",
+              "pts": 0.5
+            },
+            {
+              "p": "Ariel Sribman Mittelman, citando a Bouza-Brey, propone cinco formas de organización política preestatal, ordenadas de la más simple a la más compleja; algunas de ellas son:",
+              "o": [
+                "Las sociedades secretas.",
+                "La sociedad pluralista.",
+                "La ciudad-Estado.",
+                "El feudalismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-bouza-brey-2",
+              "e": "14",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, desde mediados de 1977 –y a medida que la conducción del nuevo gobierno militar se afirmaba– comenzaron a plantearse reformas que modificaron las normas básicas vigentes desde 1930. Entre ellas:",
+              "o": [
+                "La reforma financiera que eliminó la regulación estatal de la tasa de interés y permitió la proliferación de bancos e instituciones financieras.",
+                "Una tabla de devaluación mensual del peso para fortalecer la previsibilidad cambiaria y así reducir, paso a paso, la inflación.",
+                "La propuesta de eliminar el Banco Central, que terminó con la posibilidad de emitir billetes de forma indiscriminada, característica del país desde 1912.",
+                "El Estado dispuso de una avalancha de créditos subsidiados para asignar según sus prioridades.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-reformas-1977",
+              "e": "15",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la relación del ministro Alfredo Martínez de Hoz con los militares fue compleja, en parte por el peso que tenían muchas ideas y concepciones más tradicionales entre los uniformados, con las que el ministro tuvo que encontrar algún punto de acuerdo. Esto se vio en:",
+              "o": [
+                "Los militares juzgaban que la privatización de todas las empresas en manos del Estado era imprescindible para equilibrar el gasto público y evitar las protestas sociales.",
+                "Los militares juzgaban que el control de los sindicatos y la fuerte reducción de los ingresos laborales debían equilibrarse con el mantenimiento de un nivel elevado de empleo, de modo que la receta recesiva más clásica quedaba descartada.",
+                "Los militares juzgaban que el control de los sindicatos y la fuerte reducción de los ingresos laborales eran imprescindibles para equilibrar el gasto fiscal y evitar las protestas sociales.",
+                "Los militares defendieron, por diversos motivos, la pervivencia de las empresas estatales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-mdh-militares",
+              "e": "16",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, cuando Isabel Perón asumió la presidencia, se dedicó a parodiar las fórmulas y los gestos del líder fallecido para capitalizar su herencia simbólica. Esto resultó en que:",
+              "o": [
+                "Continuó la política realizada por Perón en sus últimos años, pero con cambios solo discursivos, para mostrar su propio liderazgo.",
+                "Su política se apartó por completo de la que había trazado Perón en sus últimos años.",
+                "Isabel se propuso homogeneizar el Gobierno colocando a amigos e incondicionales en los puestos clave.",
+                "Isabel se propuso homogeneizar el Gobierno rompiendo una a una las alianzas que había tejido Perón.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-isabel-peron",
+              "e": "17",
+              "pts": 1
+            },
+            {
+              "p": "Según Laura Petrino a partir del ascenso global del populismo, se han multiplicado sus estudios y se han formulado definiciones que abordan la problemática desde diferentes y variados ángulos. En esta gran diversidad, al populismo se lo ha estudiado como:",
+              "o": [
+                "Un tipo de régimen político.",
+                "Un estilo de liderazgo.",
+                "Una forma de gobierno.",
+                "Un rasgo patológico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-populismo-enfoques",
+              "e": "18",
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "id": "t8",
+          "n": "Tema 8",
+          "fuente": "icse-parcial-offline.html",
+          "aviso": "Preguntas, claves y explicaciones importadas del cuestionario HTML de 2026.",
+          "qs": [
+            {
+              "p": "Según Alejandro Lamarque, los elementos centrales de la conceptualización de Lemkin sobre el genocidio se refieren a un rasgo distintivo presente tanto en la Edad Media como en el Antiguo Régimen.",
+              "o": [
+                "Es falso, porque los elementos centrales de la conceptualización de Lemkin sobre el genocidio se refieren a un rasgo distintivo que se presenta solo después de la Segunda Guerra Mundial.",
+                "Es falso, porque el rasgo distintivo se presenta con las Modernidades y es un uso instrumental y planificado de la violencia para eliminar grupos enteros de poblaciones.",
+                "Es verdadero, porque el genocidio como herramienta criminal se remonta a los orígenes de la humanidad.",
+                "Es verdadero, porque el rasgo distintivo que se presenta desde el Antiguo Régimen es el uso instrumental y planificado de la violencia para eliminar grupos enteros de grupos religiosos."
+              ],
+              "c": 1,
+              "k": "icse-p1-lemkin-genocidio",
+              "e": "1",
+              "pts": 0.5
+            },
+            {
+              "p": "Florencia Deich afirma que existe un tipo de golpe de Estado que ocurre cuando un gobierno originalmente democrático se perpetúa en el poder más allá de lo legalmente permitido.",
+              "o": [
+                "Es falso, porque Deich reserva el concepto de golpe de Estado exclusivamente para las acciones lideradas por militares o grupos económicos.",
+                "Es falso, porque nunca un gobierno democrático puede convertirse en golpista.",
+                "Es verdadero, porque en Argentina se han producido numerosos golpes de Estado de este tipo, impulsados por gobernantes civiles que buscaban mantenerse en el poder más tiempo del previsto constitucionalmente.",
+                "Es verdadero, porque se trata de un autogolpe de Estado: un presidente que había sido elegido por la vía democrática se convierte en un dictador."
+              ],
+              "c": 3,
+              "k": "icse-p1-autogolpe",
+              "e": "2",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nicolás Simone, las elecciones en clave de poliarquía suceden cuando la oferta electoral –es decir, las opciones entre las cuales los ciudadanos pueden elegir– expresa las distintas miradas de una sociedad y no está limitada por el poder del Estado.",
+              "o": [
+                "Es falso, porque el Estado no debe intervenir en las conductas sociales mientras sean legales.",
+                "Es verdadero, porque la transparencia en una elección no solo se garantiza a través del resultado, sino también desde la oferta de candidatos.",
+                "Es falso, porque la transparencia en una elección solo se garantiza a través de resultados transparentes más que interviniendo en la oferta de candidatos.",
+                "Es verdadero, porque el Estado es el pueblo organizado y su función es conseguir una representación de toda la sociedad a través de las elecciones."
+              ],
+              "c": 1,
+              "k": "icse-p1-elecciones-oferta",
+              "e": "3",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Sofía Pirsch, en los Estados unitarios existe una unificación vertical en la toma de decisiones, es decir, la concentración del poder en una administración central.",
+              "o": [
+                "Es verdadero, porque los sistemas unitarios son las versiones constitucionales de los regímenes no democráticos.",
+                "Es falso, porque el sistema federal no tiene nada que ver con las características del régimen político autoritario.",
+                "Es falso, porque la verticalidad de la toma de decisiones es una cuestión de la poliarquía y no del federalismo.",
+                "Es verdadero, porque esa administración central designa delegados regionales o bien ejerce directamente el poder local."
+              ],
+              "c": 3,
+              "k": "icse-p1-estados-unitarios",
+              "e": "4",
+              "pts": 0.5
+            },
+            {
+              "p": "Mariano Statello retoma una definición de terrorismo que pone el énfasis en el impacto material que provoca su accionar en una sociedad o en algún segmento de la misma antes que en cuestiones más psicológicas como ansiedad o miedo.",
+              "o": [
+                "Es verdadero, porque la violencia material sin sentido es el único objetivo de los grupos terroristas.",
+                "Es verdadero, porque lo más temido del terrorismo son los daños físicos concretos ocasionados intencionadamente a personas o cosas.",
+                "Es falso, porque el terrorismo excede con creces sus consecuencias materiales.",
+                "Es falso, porque el terrorismo se basa en la espectacularidad de sus ataques materiales más que en el impacto psíquico."
+              ],
+              "c": 2,
+              "k": "icse-p1-terrorismo-material",
+              "e": "5",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Verónica Beyreuther, en la Antigüedad, la dictadura era un régimen establecido por normas consensuadas.",
+              "o": [
+                "Es verdadero, porque, a diferencia de las versiones contemporáneas, había acuerdo en respetar un plazo de finalización que estaba previamente determinado.",
+                "Es falso, porque la dictadura es un régimen político que comenzó a denominarse así en el siglo XX con la aparición de los fascismos europeos (Mussolini, Franco y Hitler).",
+                "Es verdadero, porque los griegos de la Antigüedad clásica fueron los inventores de la dictadura en tanto régimen político tal como lo conocemos.",
+                "Es falso, porque nunca una dictadura fue producto de normas consensuadas."
+              ],
+              "c": 0,
+              "k": "icse-p1-dictadura-antiguedad",
+              "e": "6",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nadia Yannuzzi, la misma complejidad social que se genera entre los colectivos humanos exige que no se distingue entre persona y ciudadano, pues son sinónimos.",
+              "o": [
+                "Es verdadero, porque la no discriminación es una garantía constitucional en casi todos los países del mundo.",
+                "Es falso, porque ser ciudadano implica tener una batería de obligaciones que cada Estado demanda y certifica.",
+                "Es verdadero, porque los ciudadanos son personas más allá de sus derechos u obligaciones.",
+                "Es falso, porque ser ciudadano implica tener una batería de derechos que cada Estado otorga y garantiza."
+              ],
+              "c": 3,
+              "k": "icse-p1-persona-ciudadano",
+              "e": "7",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Julio Montero, los crímenes de lesa humanidad tienen un tratamiento especial. Esto es así porque:",
+              "o": [
+                "Siempre se juzgan exclusivamente en el país donde ocurrieron los hechos.",
+                "Se producen cuando hay una acción sistemática contra la población civil por parte del Gobierno.",
+                "Son delitos imprescriptibles que pueden juzgarse en cualquier jurisdicción.",
+                "Son delitos que sólo pueden ser juzgados por tribunales designados por la ONU.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-lesa-humanidad",
+              "e": "8",
+              "pts": 0.5
+            },
+            {
+              "p": "En enero de 1989, un grupo terrorista asaltó el cuartel de La Tablada en el Gran Buenos Aires y el Ejército aprovechó la ocasión para realizar una aplastante demostración de fuerza que culminó con el aniquilamiento de los asaltantes. Según Luis A. Romero, esto implicó que:",
+              "o": [
+                "El recuerdo del pasado de la represión ilegal volvió a la opinión pública, que repudió sin fisuras el hecho, y eso le dio aire político al gobierno de Alfonsín, que había logrado juzgar a las juntas militares.",
+                "Podía anticiparse que, finalmente, la cuestión militar abierta llevaría al olvido de los crímenes de la \"guerra sucia\" y al entierro de las ilusiones de la civilidad de 1983.",
+                "El reconocimiento de la represión militar fue el primer indicio del cambio de prioridades y valores en la opinión pública.",
+                "El rechazo que la represión militar registró en su acción fue un nuevo indicio del cambio de época que había comenzado en 1983.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-la-tablada",
+              "e": "9",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la ola de movilización, que llevó el enfrentamiento social a un punto extremo en los años 70, poseía elementos de una cultura política espontánea (por los largos años de autoritarismo y de democracia fingida) que identificaba el poder con el enemigo. Esto se vio en que:",
+              "o": [
+                "Los activistas formados en las matrices del peronismo, del catolicismo o de la izquierda tendieron a acentuar y dar forma a esta cultura espontánea, lo que derivó en la lógica de la guerra.",
+                "Los Montoneros, en particular, tuvieron una enorme capacidad para potenciar lo espontáneo de la movilización, ya que introdujeron un sesgo democrático en el movimiento popular, evitando someterlo a una organización rígida y a líderes autoritarios.",
+                "Los partidos políticos de izquierda tenían el apoyo y la fuerza de convicción para hacerse oír entre los distintos grupos mediante estrategias violentas.",
+                "Los activistas formados en las matrices del radicalismo y del partido conservador tendieron a acentuar y dar forma a esta cultura espontánea que derivó en la lógica de la guerra.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 0,
+              "k": "icse-p1-cultura-espontanea",
+              "e": "10",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que la dictadura iniciada en 1976 supuso la coexistencia de un Estado terrorista clandestino, encargado de la represión, y otro visible, sujeto a normas establecidas por las propias autoridades, pero que sometía sus acciones a cierta juridicidad. Esto implicó:",
+              "o": [
+                "En la práctica, esta distinción fue muy evidente y el Estado legal fue aumentando poco a poco su importancia en el rol de juzgar y condenar a los autores de la violencia política ilegal.",
+                "En la práctica, esta distinción no se mantuvo y el Estado ilegal fue corroyendo y corrompiendo el conjunto de las instituciones del Estado y su propia organización jurídica.",
+                "El Estatuto del Proceso y las actas institucionales complementarias que suprimieron el Congreso no pudieron evitar que la Constitución nacional (la ley máxima del país) siguiera guiando y protegiendo la actividad judicial y política.",
+                "Al crearse la Junta Militar, con atribuciones para designar al presidente y controlar una parte importante de sus actos, las atribuciones respectivas de una y otro no quedaron totalmente deslindadas.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-estado-clandestino-visible",
+              "e": "11",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nicolás Simone, si bien la derrota en el conflicto bélico contra Gran Bretaña por las Islas Malvinas certificó el final de la dictadura, su declive había comenzado antes. Esto se vio en que:",
+              "o": [
+                "En 1979, la Comisión Interamericana de Derechos Humanos de la Organización de Estados Americanos visitó el país y denunció que se habían cometido graves violaciones a los derechos humanos.",
+                "La situación económica bajo el gobierno militar era cada vez peor.",
+                "Las guerrillas de izquierda se mostraban desenfrenadas, sobre todo después de la toma del cuartel de La Tablada durante la Semana Santa de 1987.",
+                "La delincuencia y la inseguridad ante el delito eran impunes sobre todo en el conurbano de la Provincia de Buenos Aires.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-declive-dictadura",
+              "e": "12",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, el año 1987 fue decisivo para el Gobierno del entonces presidente radical Raúl Alfonsín. Eso fue así porque:",
+              "o": [
+                "Alfonsín renunció al propósito de controlar, desde el Estado, los poderes corporativos que había caracterizado la primera parte de su gobierno.",
+                "Alfonsín anunció la ley de convertibilidad que terminaría con la inflación y desembocaría en su reelección.",
+                "Jaqueado por los grupos violentos de izquierda, decretó el indulto a los líderes de las guerrillas.",
+                "Cuando la conflictividad social volvió a agudizarse, el gobierno decidió incorporar a hombres de los sindicatos más importantes y a grandes empresarios.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-anio-87-corporaciones",
+              "e": "13",
+              "pts": 0.5
+            },
+            {
+              "p": "Ariel Sribman Mittelman, citando a Bouza-Brey, propone cinco formas de organización política preestatal, ordenadas de la más simple a la más compleja; algunas de ellas son:",
+              "o": [
+                "Las sociedades masónicas.",
+                "El imperio burocrático.",
+                "La ciudad-Estado.",
+                "La sociedad pluralista.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-bouza-brey-2",
+              "e": "14",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, desde mediados de 1977 y a medida que la conducción del nuevo gobierno militar se afirmaba, comenzaron a plantearse reformas que modificaron las normas básicas vigentes desde 1930. Entre ellas:",
+              "o": [
+                "La reforma financiera que eliminó la regulación estatal de la tasa de interés y permitió la proliferación de bancos e instituciones financieras.",
+                "La propuesta de eliminar el Banco Central, que acabó con la posibilidad de emitir billetes de forma indiscriminada, una característica del país desde 1912.",
+                "Una tabla de devaluación mensual del peso para fortalecer la previsibilidad cambiaria y así reducir, paso a paso, la inflación.",
+                "El Estado dispuso de una avalancha de créditos subsidiados para asignar según sus prioridades.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-reformas-1977",
+              "e": "15",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la relación del ministro Alfredo Martínez de Hoz con los militares fue compleja, en parte por el peso que tenían muchas ideas y concepciones más tradicionales entre los uniformados, con las que el ministro tuvo que encontrar algún punto de acuerdo. Esto se vio en que:",
+              "o": [
+                "Los militares juzgaban que el control de los sindicatos y la fuerte reducción de los ingresos laborales debían equilibrarse con el mantenimiento de un nivel elevado de empleo, de modo que la receta recesiva más clásica quedaba descartada.",
+                "Los militares juzgaban que la privatización de todas las empresas en manos del Estado era imprescindible para equilibrar el gasto fiscal y evitar las protestas sociales.",
+                "Los militares defendieron, por diversos motivos, la pervivencia de las empresas estatales.",
+                "Los militares juzgaban que el control de los sindicatos y la fuerte reducción de los ingresos laborales eran imprescindibles para equilibrar el gasto fiscal y evitar las protestas sociales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-mdh-militares",
+              "e": "16",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Laura Petrino, a partir del ascenso global del populismo, se han multiplicado los estudios y se han formulado definiciones que abordan la problemática desde distintos ángulos. En esta gran diversidad, al populismo se lo ha estudiado como:",
+              "o": [
+                "Un tipo de régimen político.",
+                "Un estilo de liderazgo.",
+                "Una forma de gobierno.",
+                "Un rasgo patológico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la B, la C y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-populismo-enfoques",
+              "e": "17",
+              "pts": 1
+            },
+            {
+              "p": "Según Romero, cuando Isabel Perón asumió la presidencia, se dedicó a parodiar las fórmulas y los gestos del líder fallecido para capitalizar su herencia simbólica. Esto resultó en que:",
+              "o": [
+                "Su política se apartó por completo de la que había trazado Perón en sus últimos años.",
+                "Continuó la política de Perón en sus últimos años, pero con cambios solo discursivos, para mostrar su propio liderazgo.",
+                "Isabel se propuso homogeneizar el Gobierno colocando a amigos e incondicionales en los puestos clave.",
+                "Isabel se propuso homogeneizar el Gobierno rompiendo una a una las alianzas que había tejido Perón.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-isabel-peron",
+              "e": "18",
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "id": "t9",
+          "n": "Tema 9",
+          "fuente": "icse-parcial-offline.html",
+          "aviso": "Preguntas, claves y explicaciones importadas del cuestionario HTML de 2026.",
+          "qs": [
+            {
+              "p": "Según afirman Fernando Pedrosa, Florencia Deich y Nadia Yannuzzi, gran parte de los actores políticos e intelectuales rechazan que el uso de las palabras reemplace a la realidad, o incluso que la cree.",
+              "o": [
+                "Es falso, porque en muchos discursos que se repiten en el espacio público parecería que \"decir\" es lo mismo que \"hacer\".",
+                "Es falso, porque el decir tiene efectos reales y muchas veces \"decir\" y \"hacer\" hasta se vinculan directamente, por eso ambas son acciones notablemente similares.",
+                "Es verdadero, porque hoy en día nombrar algo en la esfera pública o en las redes sociales lo hace real.",
+                "Es verdadero, porque esa lógica bien intencionada, promueve una forma de pensamiento democrático y horizontal."
+              ],
+              "c": 0,
+              "k": "icse-p1-decir-hacer",
+              "e": "1",
+              "pts": 0.5
+            },
+            {
+              "p": "Max Povse afirma que, para analizar los regímenes políticos, luego de definir qué son y cuáles son sus diferentes características, se debe evaluar cuándo se pasa de una categoría a la otra.",
+              "o": [
+                "Es falso, porque no existen métodos cerrados o metodológicamente rígidos en las Ciencias Sociales.",
+                "Es falso, porque los regímenes políticos no cambian fluidamente de un tipo a otro, solo se agotan y son reemplazados por otros.",
+                "Es verdadero, porque indica que los regímenes políticos son fluidos y pueden cambiar, en la medida en que quienes ejercen el poder modifiquen sus propias políticas.",
+                "Es verdadero, porque se denomina \"socialización\" al proceso mediante el cual un régimen político cambia de una categoría a otra."
+              ],
+              "c": 2,
+              "k": "icse-p1-povse-regimenes-fluidos",
+              "e": "2",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Luis A. Romero la relación del ministro de economía de la última dictadura, Alfredo Martínez de Hoz, con los militares fue compleja y disputada a la hora de implementar el programa de gobierno en lo económico y financiero.",
+              "o": [
+                "Es verdadero porque los militares juzgaban que el control de los sindicatos y la fuerte reducción de los ingresos laborales debían equilibrarse con el mantenimiento de un nivel elevado de empleo, de modo que la receta económica recesiva más clásica quedaba descartada.",
+                "Es verdadero, porque los militares criticaban el alineamiento directo de Martínez de Hoz con los Estados Unidos y buscaban mayor autonomía en las relaciones internacionales.",
+                "Es falso, porque los militares defendieron, lógicamente, todas las medidas que su propio gobierno implementaba en el plano de la economía.",
+                "Es falso, porque los militares y el ministro coincidían en que el control de los sindicatos y una fuerte reducción de los ingresos laborales eran imprescindibles para equilibrar el gasto fiscal y, al mismo tiempo, evitar las protestas sociales."
+              ],
+              "c": 0,
+              "k": "icse-p1-mdh-militares",
+              "e": "3",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Sofía Pirsch, en los sistemas federales la elección de representantes en la cámara alta (senadores) responde en general a una lógica estrictamente proporcional.",
+              "o": [
+                "Es falso, porque para representar en el plano nacional a todas las unidades (provincias) que componen ese Estado federal, se las considera iguales entre sí. Por eso, todas tienen el mismo número de bancas que es lo opuesto a lo proporcional.",
+                "Es verdadero, porque su objetivo es representar en el plano nacional a todas las unidades (provincias) que componen a ese Estado federal, y estas unidades son consideradas diferentes entre sí, sobre todo, en la cantidad de gente que las habita.",
+                "Es falso, porque un patrón que se repite a lo largo y a lo ancho de las federaciones mundiales es que las unidades (provincias) más grandes se encuentran sobrerrepresentadas en las cámaras altas.",
+                "Es verdadero, porque un patrón que se repite a lo largo y a lo ancho de las federaciones mundiales es que las unidades (provincias) más pequeñas se encuentran subrepresentadas en las cámaras altas."
+              ],
+              "c": 0,
+              "k": "icse-p1-senadores-proporcional",
+              "e": "4",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, con la toma de las Islas Malvinas en 1982 el gobierno militar se lanzó al juego grande del Primer Mundo (la política entre grandes potencias) sin respaldos consistentes e ignorando sus reglas.",
+              "o": [
+                "Es verdadero, porque suponían que la cuestión se resolvería por una negociación, de modo que la reacción inglesa resultó inesperada.",
+                "Es falso, porque el gobierno se fortaleció invocando el derecho internacional sobre el conflicto.",
+                "Es verdadero, porque el gobierno confió en el apoyo del bloque soviético, sin intentar sumar otros apoyos.",
+                "Es falso, porque la mayoría de los países europeos –sobre todo, los de la Unión Europea– apoyaron la causa argentina."
+              ],
+              "c": 0,
+              "k": "icse-p1-malvinas-juego-grande",
+              "e": "5",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, en 1987 un grupo de oficiales encabezado por el teniente coronel Aldo Rico se acuarteló en Campo de Mayo, en un intento clásico de golpe de Estado como los que habían sido frecuentes en la Argentina del siglo XX.",
+              "o": [
+                "Es verdadero, porque los militares consideraban que el gobierno de Alfonsín los perseguía con medidas como el juicio a las juntas.",
+                "Es falso, porque buscaban cambiar la política del gobierno radical hacia las Malvinas, que consideraban \"entreguista\".",
+                "Es verdadero, porque contaban con el respaldo de sectores civiles, que normalmente eran los motores de los golpes.",
+                "Es falso, porque los militares no cuestionaban el orden constitucional, sino que reclamaban soluciones al problema judicial de un grupo de oficiales."
+              ],
+              "c": 3,
+              "k": "icse-p1-aldo-rico",
+              "e": "6",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, con la represión en la última dictadura surgieron en el propio Ejército verdaderos señores de la guerra, que casi no reconocían ninguna autoridad sobre sí.",
+              "o": [
+                "Es verdadero, porque en torno a la Marina, en especial con el Brigadier Agosti a la cabeza, se constituyó la facción interna más fuerte, pero que distaba de ser hegemónica.",
+                "Es falso, porque aun con diferencias, la verticalidad típica de la estructura militar se mantuvo incluso en el final de la dictadura.",
+                "Es falso, porque las tendencias centrífugas y la anarquía que se derivaban de la división del poder entre las tres fuerzas, finalizaron al crearse una instancia superior a todas ellas que resolvía los conflictos: el consejo superior de las Fuerzas Armadas.",
+                "Es verdadero, porque las tendencias centrífugas y la anarquía que se derivaban de la estricta división del poder entre las tres fuerzas, impidieron la existencia de una instancia superior a ellas que dirimiera los conflictos."
+              ],
+              "c": 3,
+              "k": "icse-p1-senores-guerra",
+              "e": "7",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, apenas asumió el presidente Alfonsín, se dedicó —además de a la política interna— a resolver problemas pendientes en el tablero internacional. Entre ellos:",
+              "o": [
+                "Los desacuerdos que restaban con Chile por un diferendo en el Canal del Beagle y que tenían un arbitraje del Papa finalizado que los militares argentinos no habían aceptado.",
+                "Con Uruguay, por el destino de unas papeleras a construirse en la costa del río Uruguay, cerca de la ciudad uruguaya de Fray Bentos y de la argentina Gualeguaychú.",
+                "Con Brasil y Paraguay por la triple frontera y el comercio ilegal, el contrabando y el terrorismo islámico que abundaban en ese lugar.",
+                "Respecto a las Malvinas, con la nueva gestión radical, los apoyos internacionales fueron cada vez más favorables e incluyeron a las Naciones Unidas y a las principales potencias occidentales, que lograron aislar al gobierno británico en este tema.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 0,
+              "k": "icse-p1-alfonsin-internacional",
+              "e": "8",
+              "pts": 0.5
+            },
+            {
+              "p": "En 1985, el entonces presidente Raúl Alfonsín propuso un plan económico llamado \"Austral\". Según Romero, sus medidas apuntaban a:",
+              "o": [
+                "Crear las condiciones económicas para poder proyectar transformaciones más profundas.",
+                "Superar la coyuntura adversa y estabilizar la economía en el corto plazo a través de un programa de reformas por shock.",
+                "Aumentar la emisión monetaria y los gastos del Estado para reactivar el consumo y con esto a la economía.",
+                "Detener la inflación, el objetivo central, reduciendo las expectativas que la impulsaban.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-plan-austral",
+              "e": "9",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la clave del programa económico presentado por Perón en mayo de 1973 residía en el pacto social con el que procuraba solucionar el problema clásico de la economía: la capacidad de los distintos sectores, empeñados en la pelea por los recursos, para frenarse mutuamente. Para eso intentó:",
+              "o": [
+                "Apostar a la concertación, un mecanismo muy común en la tradición europea pero además muy fácil de incluir en su propia concepción de la comunidad organizada.",
+                "Obtener más poder personal y apelar a la autoridad como un mecanismo muy común en la tradición argentina y más en la peronista.",
+                "Disciplinar a los actores socio económicos combinando persuasión y autoridad.",
+                "Aumentar la capacidad del Estado para estimular la puja distributiva en que estaban involucrados los distintos sectores sociales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-pacto-social-73",
+              "e": "10",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, un sector de la Iglesia Católica, que de a poco empezaba a ser dominante internamente, comenzó a enfrentarse de manera creciente con el gobierno de Alfonsín y a asumir el papel de censor social con un discurso de combate. Esto fue así porque:",
+              "o": [
+                "Afirmaban que el gobierno de Alfonsín vulneraba la democracia al no renovar su compromiso con los desposeídos.",
+                "Las máximas autoridades del Vaticano habían decidido dar una batalla por la integridad de la comunidad católica global que tenía su centro en las reformas religiosas propuestas por el Papa, punto en el cual el gobierno de Alfonsín era particularmente activo.",
+                "Afirmaban que la democracia resultaba ser el compendio de los males del siglo: la droga, el terrorismo, la pornografía o el aborto.",
+                "Las máximas autoridades del Vaticano habían decidido dar una batalla por la integridad de la comunidad católica global que tenía su centro en lo cultural, punto en el cual, el gobierno de Alfonsín era particularmente activo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-iglesia-alfonsin",
+              "e": "11",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que Martínez de Hoz, ministro de Economía del gobierno militar asumido en 1976, y su grupo de colaboradores permanecieron al frente del manejo de la economía argentina durante cinco años. El efecto se manifestó de inmediato después de su salida, cuando sus sucesores fracasaron en el intento de cambiar algo del rumbo. Esto fue así porque:",
+              "o": [
+                "Martínez de Hoz había contado con un fuerte apoyo, casi personal, de sindicalistas y piqueteros.",
+                "Martínez de Hoz había contado con un fuerte apoyo, casi personal, del sector más concentrado del establishment (la élite del poder económico) local.",
+                "Martínez de Hoz había contado con un fuerte apoyo, casi personal, del conjunto de los militares que estaban en el gobierno.",
+                "Martínez de Hoz había contado con un fuerte apoyo, casi personal, de los organismos internacionales y los bancos extranjeros.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-ministro-economia",
+              "e": "12",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Laura Petrino, la historia argentina encuentra entre sus presidentes algunas figuras paradigmáticas del populismo. Estas son:",
+              "o": [
+                "El radical Raúl Alfonsín.",
+                "Juan Domingo Perón.",
+                "El radical Hipólito Yrigoyen.",
+                "El peronista Héctor Cámpora.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-populismo-argentina",
+              "e": "13",
+              "pts": 0.5
+            },
+            {
+              "p": "Nicolás Simone afirma que, para que haya verdadera democracia, ningún grupo puede imponerse por la fuerza sobre las decisiones de los representantes elegidos democráticamente. Esto es así porque:",
+              "o": [
+                "Es fundamental que los gobernantes elegidos puedan ejercer su función sin interferencias de sectores que no dominen saberes técnicos de la complejidad que requiere el manejo estatal.",
+                "Cuando un grupo se impone sobre las decisiones de quienes fueron elegidos legítimamente no se cumple con la poliarquía.",
+                "Para garantizar la aplicación de las políticas públicas definidas en elecciones, la poliarquía se concreta en instituciones que garantizan de manera impersonal y profesional la aplicación de esas políticas.",
+                "Si un gobierno es elegido en condiciones óptimas de poliarquía, sólo puede ser interferido en la gestación de políticas públicas por alguna corporación especializada en el tema tratado, como las de empresarios, sindicatos o intelectuales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-simone-fuerza-grupos",
+              "e": "14",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nadia Yannuzzi, la sociedad y el Estado son dos espacios distintos que se necesitan mutuamente, pero esta necesidad no está exenta de conflictos. Esto es así porque:",
+              "o": [
+                "Existe una tensión desde el mismo momento en que un Estado se crea. Esa sociedad lo diseña para obtener los beneficios de una mejor organización, pero el Estado no acepta con docilidad subordinarse a la sociedad.",
+                "El Estado no busca generar y concretar objetivos propios, ya que estos son los mismos de la sociedad que lo creó, sino que actúa bajo la premisa de que puede implementarlos con mayor eficacia ya que representa a toda la sociedad en su conjunto.",
+                "La sociedad —por la heterogeneidad que hay en su seno y los intereses contrapuestos que contiene— intenta autonomizarse del Estado y seguir con sus propias reglas, sin obedecer la posible coacción estatal.",
+                "El Estado –por el poder que concentra y por los recursos que posee– intenta autonomizarse de la sociedad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-sociedad-estado-tension",
+              "e": "15",
+              "pts": 0.5
+            },
+            {
+              "p": "Según María José Valdez, en Europa la idea de nación no coincidía del todo con los cambios que comenzaron a finales del siglo XVIII. Esto fue así porque:",
+              "o": [
+                "La revolución rusa y la llegada del comunismo con la creación de la Unión Soviética habían cambiado todos los criterios con los que se organizaban los grandes imperios.",
+                "Existían imperios multinacionales como el otomano o el ruso, donde convivían múltiples identidades nacionales y sus habitantes se sentían parte de un Estado imperial más amplio.",
+                "Los catalanes y vascos buscaban independizarse de la corona española desde el siglo XIV.",
+                "Había pueblos que compartían una identidad cultural y lingüística, pero que no tenían un Estado propio, como los italianos y los alemanes cuyos territorios estaban divididos en varias entidades políticas diferentes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-nacion-europa-xviii",
+              "e": "16",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Ariel Sribman, el Estado liberal se comprende como reacción frente al Estado absoluto, es decir, al Estado propio del Antiguo Régimen, en el que los monarcas tenían poder absoluto sobre los súbditos. Pero durante el siglo XIX se irán incorporando al Estado liberal otros elementos, entre ellos:",
+              "o": [
+                "Los avances científico-tecnológicos propios de la Revolución Industrial.",
+                "El imperialismo (entendido como la política de expansión territorial de los países más poderosos hacia otros continentes).",
+                "Las crisis cíclicas asociadas al capitalismo industrial.",
+                "La aparición de los medios masivos de comunicación que cambiaran la relación del Estado y los ciudadanos.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la B, la C y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-estado-liberal-xix",
+              "e": "17",
+              "pts": 1
+            },
+            {
+              "p": "Patricio Gómez Talavera, siguiendo la definición de Weber, afirma que el monopolio del uso de la violencia legítima dentro de un territorio es una de las cuestiones que definen al Estado y lo distinguen de otras organizaciones humanas. Esto significa que:",
+              "o": [
+                "Dentro del territorio que controla, el Estado es el único que tiene el derecho de usar la violencia.",
+                "Esta violencia es legítima porque está regulada, organizada y respaldada por las leyes del país.",
+                "Su legitimidad también proviene del hecho de que las personas que crean las leyes, que definen cómo y cuándo se puede usar esta violencia, son elegidas por la población para representarla.",
+                "No puede haber una competencia de ninguna clase por parte de ningún otro actor por el control de la violencia en ese territorio.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-weber-violencia",
+              "e": "18",
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "id": "t10",
+          "n": "Tema 10",
+          "fuente": "icse-parcial-offline.html",
+          "aviso": "Preguntas, claves y explicaciones importadas del cuestionario HTML de 2026.",
+          "qs": [
+            {
+              "p": "Según Romero, en 1987 un grupo de oficiales encabezado por el teniente coronel Aldo Rico se acuarteló en Campo de Mayo, en un intento clásico de golpe de Estado como los que habían sido frecuentes en la Argentina del siglo XX.",
+              "o": [
+                "Es falso, porque los militares acuartelados no cuestionaban el orden constitucional, sino que reclamaban soluciones al problema judicial de un grupo de oficiales.",
+                "Es verdadero, porque los militares consideraban que el gobierno de Alfonsín los perseguía con medidas como el juicio a las juntas.",
+                "Es falso, porque buscaban cambiar la política del gobierno radical hacia las Malvinas, que consideraban \"entreguista\".",
+                "Es verdadero, porque contaban con el respaldo de sectores civiles, que normalmente eran los motores de los golpes."
+              ],
+              "c": 0,
+              "k": "icse-p1-aldo-rico",
+              "e": "1",
+              "pts": 0.5
+            },
+            {
+              "p": "Según afirman Fernando Pedrosa, Florencia Deich y Nadia Yannuzzi, gran parte de los actores políticos e intelectuales rechazan que el uso de las palabras reemplace a la realidad, o incluso que la cree.",
+              "o": [
+                "Es verdadero, porque esa lógica bien intencionada, promueve una forma de pensamiento democrático y horizontal.",
+                "Es falso, porque en muchos discursos que se repiten en el espacio público parecería que \"decir\" es lo mismo que \"hacer\".",
+                "Es falso, porque el decir tiene efectos reales y muchas veces \"decir\" y \"hacer\" hasta se vinculan directamente, por eso ambas son acciones notablemente similares.",
+                "Es verdadero, porque hoy en día nombrar algo en la esfera pública o en las redes sociales lo hace real."
+              ],
+              "c": 1,
+              "k": "icse-p1-decir-hacer",
+              "e": "2",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, con la represión en la última dictadura surgieron en el propio Ejército verdaderos señores de la guerra, que casi no reconocían ninguna autoridad sobre sí.",
+              "o": [
+                "Es verdadero, porque las tendencias centrífugas y la anarquía que se derivaban de la estricta división del poder entre las tres fuerzas, impidieron la existencia de una instancia superior a ellas que dirimiera los conflictos.",
+                "Es verdadero, porque en torno a la Marina, en especial con el Brigadier Agosti a la cabeza, se constituyó la facción interna más fuerte, pero que distaba de ser hegemónica.",
+                "Es falso, porque aun con diferencias, la verticalidad típica de la estructura militar se mantuvo incluso en el final de la dictadura.",
+                "Es falso, porque las tendencias centrífugas y la anarquía que se derivaban de la división del poder entre las tres fuerzas, finalizaron al crearse una instancia superior a todas ellas que resolvía los conflictos: el consejo superior de las Fuerzas Armadas."
+              ],
+              "c": 0,
+              "k": "icse-p1-senores-guerra",
+              "e": "3",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero la relación del ministro de economía de la última dictadura, Alfredo Martínez de Hoz, con los militares fue compleja y disputada a la hora de implementar el programa de gobierno en lo económico y financiero.",
+              "o": [
+                "Es falso, porque los militares y el ministro coincidían en que el control de los sindicatos y una fuerte reducción de los ingresos laborales eran imprescindibles para equilibrar el gasto fiscal y, al mismo tiempo, evitar las protestas sociales.",
+                "Es falso, porque los militares defendieron, lógicamente, todas las medidas que su propio gobierno implementaba en el plano de la economía.",
+                "Es verdadero porque los militares juzgaban que el control de los sindicatos y la fuerte reducción de los ingresos laborales debían equilibrarse con el mantenimiento de un nivel elevado de empleo, de modo que la receta económica más clásica quedaba descartada.",
+                "Es verdadero, porque los militares criticaban el alineamiento directo de Martínez de Hoz con los Estados Unidos y buscaban mayor autonomía en las relaciones internacionales."
+              ],
+              "c": 2,
+              "k": "icse-p1-mdh-militares",
+              "e": "4",
+              "pts": 0.5
+            },
+            {
+              "p": "Max Povse afirma que, para analizar los regímenes políticos, luego de definir qué son y cuáles son sus diferentes características, se debe evaluar cuándo se pasa de una categoría a la otra.",
+              "o": [
+                "Es falso, porque los regímenes políticos no cambian fluidamente de un tipo a otro, solo se agotan y son reemplazados por otros.",
+                "Es verdadero, porque se denomina \"socialización\" al proceso mediante el cual un régimen político cambia de una categoría a otra.",
+                "Es falso, porque no existen métodos cerrados o metodológicamente rígidos en las Ciencias Sociales.",
+                "Es verdadero, porque indica que los regímenes políticos son fluidos y pueden cambiar, en la medida en que quienes ejercen el poder modifiquen sus propias políticas."
+              ],
+              "c": 3,
+              "k": "icse-p1-povse-regimenes-fluidos",
+              "e": "5",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Sofía Pirsch, en los sistemas federales la elección de representantes en la cámara alta (senadores) responde en general a una lógica estrictamente proporcional.",
+              "o": [
+                "Es verdadero, porque un patrón que se repite a lo largo y a lo ancho de las federaciones mundiales es que las unidades (provincias) más pequeñas se encuentran subrepresentadas en las cámaras altas.",
+                "Es falso, porque un patrón que se repite a lo largo y a lo ancho de las federaciones mundiales es que las unidades (provincias) más grandes se encuentran sobrerrepresentadas en las cámaras altas.",
+                "Es falso, porque para representar en el plano nacional a todas las unidades (provincias) que componen ese Estado federal, se las considera iguales entre sí. Por eso, todas tienen el mismo número de bancas que es lo opuesto a lo proporcional.",
+                "Es verdadero, porque su objetivo es representar en el plano nacional a todas las unidades (provincias) que componen a ese Estado federal, y estas unidades son consideradas diferentes entre sí, sobre todo, en la cantidad de gente que las habita."
+              ],
+              "c": 2,
+              "k": "icse-p1-senadores-proporcional",
+              "e": "6",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, con la toma de las Islas Malvinas en 1982 el gobierno militar se lanzó al juego grande del Primer Mundo (la política entre grandes potencias) sin respaldos consistentes e ignorando sus reglas.",
+              "o": [
+                "Es falso, porque la mayoría de los países europeos –sobre todo, los de la Unión Europea– apoyaron la causa argentina.",
+                "Es verdadero, porque suponían que la cuestión se resolvería por una negociación, de modo que la reacción inglesa resultó inesperada.",
+                "Es falso, porque el gobierno se fortaleció invocando el derecho internacional sobre el conflicto.",
+                "Es verdadero, porque el gobierno confió en el apoyo del bloque soviético, sin intentar sumar otros apoyos."
+              ],
+              "c": 1,
+              "k": "icse-p1-malvinas-juego-grande",
+              "e": "7",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Nadia Yannuzzi, la sociedad y el Estado son dos espacios distintos que se necesitan mutuamente, pero esta necesidad no está exenta de conflictos. Esto es así porque:",
+              "o": [
+                "Existe una tensión desde el mismo momento en que un Estado se crea. Esa sociedad lo diseña para obtener los beneficios de una mejor organización, pero el Estado no acepta con docilidad subordinarse a la sociedad.",
+                "El Estado no busca generar y concretar objetivos propios, ya que estos son los mismos de la sociedad que lo creó, sino que actúa bajo la premisa de que puede implementarlos con mayor eficacia ya que representa a toda la sociedad en su conjunto.",
+                "La sociedad —por la heterogeneidad que hay en su seno y los intereses contrapuestos que contiene— intenta autonomizarse del Estado y seguir con sus propias reglas, sin obedecer la posible coacción estatal.",
+                "El Estado –por el poder que concentra al detentar para sí el monopolio de la violencia y por los recursos que posee– intenta autonomizarse de la sociedad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-sociedad-estado-tension",
+              "e": "8",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, apenas asumió el presidente Raúl Alfonsín, se dedicó —además de a la política interna— a resolver problemas pendientes en el tablero internacional. Entre ellos:",
+              "o": [
+                "Con Brasil y Paraguay por la triple frontera y el comercio ilegal, el contrabando y el terrorismo islámico que abundaban en ese lugar.",
+                "Con Uruguay, por el destino de unas papeleras a construirse en la costa del río Uruguay, cerca de la ciudad uruguaya de Fray Bentos y de la argentina Gualeguaychú.",
+                "Los desacuerdos que restaban con Chile por un diferendo en el Canal del Beagle y que tenían un arbitraje del Papa finalizado que los militares argentinos no habían aceptado.",
+                "Respecto a las Malvinas, con la nueva gestión radical, los apoyos internacionales fueron cada vez más favorables e incluyeron a las Naciones Unidas y a las principales potencias occidentales, que lograron aislar al gobierno británico en este tema.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 2,
+              "k": "icse-p1-alfonsin-internacional",
+              "e": "9",
+              "pts": 0.5
+            },
+            {
+              "p": "Nicolás Simone afirma que, para que haya verdadera democracia, ningún grupo puede imponerse por la fuerza sobre las decisiones de los representantes elegidos democráticamente. Esto es así porque:",
+              "o": [
+                "Para garantizar la aplicación de las políticas públicas definidas en elecciones, la poliarquía se concreta en instituciones que garantizan de manera impersonal y profesional la aplicación de esas políticas.",
+                "Cuando un grupo se impone sobre las decisiones de quienes fueron elegidos legítimamente no se cumple con la poliarquía.",
+                "Es fundamental que los gobernantes elegidos puedan ejercer su función sin interferencias de sectores que no dominen saberes técnicos de la complejidad que requiere el manejo estatal.",
+                "Si un gobierno es elegido en condiciones óptimas de poliarquía, sólo puede ser interferido en la gestación de políticas públicas por alguna corporación especializada en el tema tratado, como las de empresarios, sindicatos o intelectuales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-simone-fuerza-grupos",
+              "e": "10",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que Martínez de Hoz, ministro de Economía del gobierno militar asumido en 1976, y su grupo de colaboradores permanecieron al frente del manejo de la economía argentina durante cinco años. El efecto se manifestó de inmediato después de su salida, cuando sus sucesores fracasaron en el intento de cambiar algo del rumbo. Esto fue así porque:",
+              "o": [
+                "Martínez de Hoz había contado con un fuerte apoyo, casi personal, del sector más concentrado del establishment (la élite del poder económico) local.",
+                "Martínez de Hoz había contado con un fuerte apoyo, casi personal, de sindicalistas y piqueteros.",
+                "Martínez de Hoz había contado con un fuerte apoyo, casi personal, de los organismos internacionales y los bancos extranjeros.",
+                "Martínez de Hoz había contado con un fuerte apoyo, casi personal, del conjunto de los militares que estaban en el gobierno.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-ministro-economia",
+              "e": "11",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la clave del programa económico presentado por Perón en mayo de 1973 residía en el pacto social con el que se procuraba solucionar el problema clásico de la economía: la capacidad de los distintos sectores, empeñados en la pelea por los recursos, para frenarse mutuamente. Para eso intentó:",
+              "o": [
+                "Apostar a la concertación, un mecanismo muy común en la tradición europea pero además muy fácil de incluir en su propia concepción de la comunidad organizada.",
+                "Obtener más poder personal y apelar a la autoridad como un mecanismo muy común en la tradición argentina y más en la peronista.",
+                "Aumentar la capacidad del Estado para estimular la puja distributiva en que estaban involucrados los distintos sectores sociales.",
+                "Disciplinar a los actores socio económicos combinando persuasión y autoridad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-pacto-social-73",
+              "e": "12",
+              "pts": 0.5
+            },
+            {
+              "p": "En 1985, el entonces presidente Raúl Alfonsín propuso un plan económico llamado \"Austral\". Según Romero sus medidas apuntaban a:",
+              "o": [
+                "Crear las condiciones económicas para poder proyectar transformaciones más profundas.",
+                "Superar la coyuntura adversa y estabilizar la economía en el corto plazo a través de un programa de reformas por shock.",
+                "Aumentar la emisión monetaria y los gastos del Estado para reactivar el consumo y con esto a la economía.",
+                "Detener la inflación, el objetivo central, reduciendo las expectativas que la impulsaban.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-plan-austral",
+              "e": "13",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Laura Petrino, la historia argentina encuentra entre sus presidentes algunas figuras paradigmáticas del populismo. Estas son:",
+              "o": [
+                "El radical Raúl Alfonsín.",
+                "El peronista Héctor Cámpora.",
+                "El radical Hipólito Yrigoyen.",
+                "Juan Domingo Perón.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-populismo-argentina",
+              "e": "14",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, un sector de la Iglesia Católica, que de a poco empezaba a ser dominante internamente, comenzó a enfrentarse de manera creciente con el gobierno de Alfonsín y a asumir el papel de censor social con un discurso de combate. Esto fue así porque:",
+              "o": [
+                "Las máximas autoridades del Vaticano habían decidido dar una batalla por la integridad de la comunidad católica global que tenía su centro en las reformas religiosas propuestas por el Papa, punto en el cual el gobierno de Alfonsín era particularmente activo.",
+                "Las máximas autoridades del Vaticano habían decidido dar una batalla por la integridad de la comunidad católica global que tenía su centro en lo cultural, punto en el cual, el gobierno de Alfonsín era particularmente activo.",
+                "Afirmaban que la democracia resultaba ser el compendio de los males del siglo: la droga, el terrorismo, la pornografía o el aborto.",
+                "Afirmaban que el gobierno de Alfonsín vulneraba la democracia al no renovar su compromiso con los desposeídos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-iglesia-alfonsin",
+              "e": "15",
+              "pts": 0.5
+            },
+            {
+              "p": "Según María José Valdez, en Europa la idea de nación no coincidía del todo con los cambios que comenzaron a finales del siglo XVIII. Esto fue así porque:",
+              "o": [
+                "Había pueblos que compartían una identidad cultural y lingüística, pero que no tenían un Estado propio, como los italianos y los alemanes cuyos territorios estaban divididos en varias entidades políticas diferentes.",
+                "Existían imperios multinacionales como el otomano o el ruso, donde convivían múltiples identidades nacionales y sus habitantes se sentían parte de un Estado imperial más amplio.",
+                "Los catalanes y vascos buscaban independizarse de la corona española desde el siglo XIV.",
+                "La revolución rusa y la llegada del comunismo con la creación de la Unión Soviética había cambiado todos los criterios con los que se organizaban los grandes imperios.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-nacion-europa-xviii",
+              "e": "16",
+              "pts": 0.5
+            },
+            {
+              "p": "Patricio Gómez Talavera, siguiendo la definición de Weber, afirma que el monopolio del uso de la violencia legítima dentro de un territorio es una de las cuestiones que definen al Estado y lo distinguen de otras organizaciones humanas. Esto significa que:",
+              "o": [
+                "Dentro del territorio que controla, el Estado es el único que tiene el derecho de usar la violencia.",
+                "Esta violencia es legítima porque está regulada, organizada y respaldada por las leyes del país.",
+                "Su legitimidad también proviene del hecho de que las personas que crean las leyes, que definen cómo y cuándo se puede usar esta violencia, son elegidas por la población para representarla.",
+                "No puede haber una competencia de ninguna clase por parte de ningún otro actor por el control de la violencia en ese territorio.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-weber-violencia",
+              "e": "17",
+              "pts": 1
+            },
+            {
+              "p": "Según Ariel Sribman, el Estado liberal se comprende como reacción frente al Estado absoluto, es decir, al Estado propio del Antiguo Régimen, en el que los monarcas tenían poder absoluto sobre los súbditos. Pero durante el siglo XIX se irán incorporando al Estado liberal otros elementos, entre ellos:",
+              "o": [
+                "Los avances científico-tecnológicos propios de la Revolución Industrial.",
+                "El imperialismo (entendido como la política de expansión territorial de los países más poderosos hacia otros continentes).",
+                "Las crisis cíclicas asociadas al capitalismo industrial.",
+                "La aparición de los medios masivos de comunicación que cambiaran la relación del Estado y los ciudadanos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B, la C y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 7,
+              "k": "icse-p1-estado-liberal-xix",
+              "e": "18",
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "id": "t11",
+          "n": "Tema 11",
+          "fuente": "icse-parcial-offline.html",
+          "aviso": "Preguntas, claves y explicaciones importadas del cuestionario HTML de 2026.",
+          "qs": [
+            {
+              "p": "Según Julio Montero, la doctrina de los derechos humanos sostiene que todos ellos poseen la misma jerarquía normativa. En términos prácticos, esto implica que los gobiernos tienen la facultad de elegir qué derechos van a respetar y en qué orden van a hacerlo.",
+              "o": [
+                "Es falso, porque la doctrina de los DDHH dice que los gobiernos deben hacer su mejor esfuerzo por satisfacerlos todos a la vez. La única salvedad es que los derechos de bienestar están sujetos a una cláusula de realización progresiva.",
+                "Es verdadero, porque todos los derechos humanos –excepto los referidos a bienestar socio económico– son de aplicación gradual y sujeta al consenso interno de cada país.",
+                "Es falso, porque los DDHH son divisibles y dependientes, lo que quiere decir que su cumplimiento efectivo depende del acuerdo y cooperación de una compleja red de organizaciones nacionales e internacionales.",
+                "Es verdadero, porque la doctrina de los DDHH dice que los gobiernos solo deben hacer su mejor esfuerzo ya que la realidad material y política de muchos países no siempre es proclive a hacer respetar los derechos humanos."
+              ],
+              "c": 0,
+              "k": "icse-p1-montero-jerarquia-ddhh",
+              "e": "1",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Fernando Pedrosa, Florencia Deich y Nadia Yannuzzi, en algunos discursos que se reiteran en el espacio público, parecería que \"decir\" es lo mismo que \"hacer\".",
+              "o": [
+                "Es verdadero, porque esa lógica bien intencionada, promueve una forma de pensamiento democrático y horizontal.",
+                "Es verdadero, porque entre actores políticos e intelectuales se pretende que el uso de las palabras reemplace a la realidad.",
+                "Es falso, porque entre actores políticos e intelectuales se pretende que el uso de las redes sociales reemplace a la realidad.",
+                "Es falso, porque nunca en los discursos públicos se confunde el decir con el hacer."
+              ],
+              "c": 1,
+              "k": "icse-p1-decir-hacer",
+              "e": "2",
+              "pts": 0.5
+            },
+            {
+              "p": "Verónica Beyreuther destaca que un uso extendido del término «dictadura» en la Ciencia Política, desde los orígenes de la teoría marxista, es el de \"dictadura del proletariado\".",
+              "o": [
+                "Es verdadero, porque hace referencia al gobierno de los trabajadores en el marco del triunfo del sistema socialista.",
+                "Es verdadero, porque \"dictadura\" tiene diferentes significados y definiciones según quien lo utilice y no siempre se refiere a la existencia de un gobierno no democrático.",
+                "Es falso, porque la dictadura es un régimen político concreto que no tiene que ver con la teoría marxista ni con cuestiones ideológicas.",
+                "Es falso, porque \"dictadura del proletariado\" no es un concepto trabajado por la Teoría política y menos por la Ciencia Política."
+              ],
+              "c": 1,
+              "k": "icse-p1-dictadura-proletariado",
+              "e": "3",
+              "pts": 0.5
+            },
+            {
+              "p": "De acuerdo con Nicolás Simone, tanto en 1973 como en 1983, los militares que abandonaban el poder establecieron gran parte de las reglas electorales posteriores. Lo llamativo es que, tras asumir el mando, los civiles optaron por no modificarlas.",
+              "o": [
+                "Es falso, porque los militares en retirada en ambas ocasiones no pudieron imponer nada a los civiles que los sucedieron.",
+                "Es falso, porque los militares nunca se preocuparon por influir en las reglas electorales ya que no les importaba la cuestión.",
+                "Es verdadero, porque la élite política logró acordar reglas de juego mínimas de procedimiento democrático sin necesidad de realizar cambios estructurales.",
+                "Es verdadero, porque los militares hicieron todo lo posible para que el partido que ellos mismos crearon (llamado Partido del Proceso) ganara las elecciones de 1983."
+              ],
+              "c": 2,
+              "k": "icse-p1-reglas-electorales",
+              "e": "4",
+              "pts": 0.5
+            },
+            {
+              "p": "Max Povse afirma que la diferenciación más importante que se hace al analizar los regímenes políticos es entre democracia o populismo.",
+              "o": [
+                "Es falso, porque la diferenciación más importante que se hace al analizar los regímenes políticos es entre democracia y autoritarismo.",
+                "Es verdadero, porque \"populismo\" se puede usar, a fines prácticos, como concepto semejante al de \"no democracia\".",
+                "Es falso, porque la diferenciación más importante que se hace al analizar los regímenes políticos es entre democracia o neoliberalismo.",
+                "Es verdadero, porque el populismo es hoy el verdadero enemigo de la democracia."
+              ],
+              "c": 0,
+              "k": "icse-p1-povse-democracia-autoritarismo",
+              "e": "5",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Sofía Pirsch, en los sistemas federales la elección de representantes en la cámara alta (senadores) no responde a una lógica proporcional.",
+              "o": [
+                "Es verdadero, porque un patrón que se repite en el mapa de los federalismos en el mundo es que las unidades (provincias) más pequeñas se encuentran subrepresentadas en las cámaras altas.",
+                "Es falso, porque un patrón que se repite en el mapa de los federalismos en el mundo es que las unidades (provincias) más grandes se encuentran sobrerrepresentadas en las cámaras altas.",
+                "Es verdadero, porque para representar en el plano nacional a todas las unidades (provincias) que componen ese Estado federal, se las considera iguales entre sí. Por eso, todas tienen el mismo número de bancas más allá de la población que posean.",
+                "Es falso, porque su objetivo es representar en el plano nacional a todas las unidades (provincias) que componen a ese Estado federal, y estas unidades siempre son consideradas diferentes entre sí. Por eso, nunca poseen una cantidad fija o escalonada de bancas."
+              ],
+              "c": 2,
+              "k": "icse-p1-senadores-proporcional",
+              "e": "6",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Ariel Sribman Mittelman una de las formas preestatales fue el feudalismo, un sistema social y político que predominó en Europa a principios del siglo XX.",
+              "o": [
+                "Es falso, porque el feudalismo fue un sistema social y político que predominó en Europa durante la Edad Media.",
+                "Es verdadero, porque el feudalismo fue el sistema de base rural y antidemocrática que desembocó en la Segunda Guerra Mundial.",
+                "Es falso, porque el feudalismo fue un sistema social y político que predominó en la etapa clásica de Grecia y Roma.",
+                "Es verdadero, porque el feudalismo introduce la idea de una sociedad heterogénea integrada por diferentes clases sociales."
+              ],
+              "c": 0,
+              "k": "icse-p1-feudalismo",
+              "e": "7",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Patricio Gómez Talavera, el sociólogo alemán Max Weber, propuso una clasificación que permite pensar la legitimidad de la dominación estatal, a partir de algunos elementos que la definen, entre ellos:",
+              "o": [
+                "La legitimidad del futuro.",
+                "La legitimidad económica.",
+                "La legitimidad de las leyes.",
+                "La legitimidad del eterno ayer.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-weber-legitimidad",
+              "e": "8",
+              "pts": 0.5
+            },
+            {
+              "p": "María José Valdez cita a Ernest Gellner cuando sostiene que la nación surge de la combinación entre voluntad y cultura. Esto implicaría que:",
+              "o": [
+                "Para que las personas se sientan parte de una misma identidad debe existir un elemento cultural que las una.",
+                "Las naciones no son entidades dadas, sino que se construyen y, a partir de esa construcción, influyen en quienes las integran.",
+                "El sentimiento nacional no es construido artificialmente, sino que viene transmitido por las familias y la escuela.",
+                "Para que las personas se sientan parte de una misma identidad debe existir un elemento coactivo que las una.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-gellner-voluntad-cultura",
+              "e": "9",
+              "pts": 0.5
+            },
+            {
+              "p": "Nadia Yannuzzi sostiene que las instituciones de la sociedad civil son instituciones formales, no creadas por el Estado. Esto es así porque:",
+              "o": [
+                "El principal objetivo de la sociedad civil es poner un freno al Estado.",
+                "El principal objetivo de la sociedad civil es tomar el control del Estado.",
+                "La sociedad civil es el entramado institucional generado desde los partidos políticos para impulsar diversos temas de agenda.",
+                "La sociedad civil es, entonces, el entramado institucional generado desde la ciudadanía para impulsar diversos temas de agenda.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-sociedad-civil",
+              "e": "10",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la figura simbólica de Perón en 1973, una y muchas a la vez, había llegado a reemplazar a su figura real. Esto se vio en que:",
+              "o": [
+                "Perón expresaba un sentimiento dominante en la dirigencia sindical: un giro drástico a la izquierda, incluso, hacia la violencia política.",
+                "Perón expresaba un sentimiento dominante de la juventud peronista por un giro drástico a la izquierda, incluso, hacia la violencia política.",
+                "Para algunos -peronistas de siempre, sindicalistas y políticos- se encarnaba en el líder histórico, que, como en 1945, traería la antigua bonanza, distribuida por el Estado protector.",
+                "Para algunos, encarnando el ancestral anticomunismo del movimiento, veían en Perón a quien descabezaría con toda la energía necesaria el monstruo de la subversión social.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-peron-simbolico",
+              "e": "11",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que, al asumir la presidencia en 1983, el poder que administraba el presidente Alfonsín era a la vez grande y escaso. Esto se observaba en varias características del recién electo gobierno radical, entre ellas:",
+              "o": [
+                "Que por el impactante número de votos que había alcanzado en las elecciones de 1983, los seguidores del presidente Alfonsín controlaban la mayoría del Senado por primera vez desde 1928.",
+                "Que el radicalismo no tenía mayoría en la Cámara de Diputados, pero había triunfado en el interior tradicional.",
+                "Si bien el liderazgo de Alfonsín en su partido era fuerte, la Unión Cívica Radical constituía una fuerza poco homogénea que, en ocasiones, incluso llegó a obstaculizar la tarea del presidente en la transición.",
+                "Que el radicalismo había alcanzado en 1983 una proporción de votos solo comparable con los grandes triunfos plebiscitarios de Yrigoyen o Perón.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la C, la D y la A."
+              ],
+              "c": 6,
+              "k": "icse-p1-alfonsin-poder-grande-escaso",
+              "e": "12",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, a mediados de 1982, los militares debían enfrentarse con la evidencia de su fracaso como administradores de un país desquiciado y como conductores de una guerra absurda. Esto fue así porque:",
+              "o": [
+                "Debían contemplar a sus antiguos aliados –los empresarios, la Iglesia, Estados Unidos–, ganados por la nueva fe democrática.",
+                "Debían contemplar a sus antiguos aliados, como los otrora disciplinados jueces, llevando a juicio a oficiales acusados de corrupción.",
+                "La Junta militar se dio cuenta que el triunfo del peronismo era inevitable, como efectivamente ocurrió en 1983.",
+                "Los Montoneros habían sobrevivido sin mayores daños en su estructura política, financiera e, incluso, armada.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-militares-1982",
+              "e": "13",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero explica que el programa económico de 1976 buscó reducir las funciones del Estado en sintonía con las tendencias del mundo capitalista de la época, pero ese intento de reforma estructural encontró fuertes resistencias que le impidieron llegar a fondo. Entre ellas:",
+              "o": [
+                "Muchos empresarios que lo acompañaban combinaban un genérico liberalismo declarativo con la convicción de que el Estado debía proteger y subvencionar a cada uno de ellos.",
+                "El peronismo y el radicalismo convocaron una serie de actos públicos para rechazar el paquete económico que tuvieron gran impacto.",
+                "Entre los militares, había muchos que adherían a las ideas nacionalistas y dirigistas, y otros que aspiraban, más simplemente, a sumarse a los beneficiarios del reparto estatal.",
+                "Las encuestas preelectorales y la cercanía del acto electoral potenciaron el rechazo popular a las medidas económicas del gobierno y generaron una fuerte reacción de los militares para que el ministro de Economía suspendiera el plan de ajuste.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-resistencias-achicar-estado",
+              "e": "14",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Alejandro Lamarque, la Convención de 1948 entendía por genocidio las acciones realizadas con la intención de:",
+              "o": [
+                "Destruir, total o parcialmente, a un grupo nacional como tal.",
+                "Destruir, total o parcialmente, a un grupo político o ideológico como tal.",
+                "Destruir, total o parcialmente, a un grupo racial como tal.",
+                "Destruir, total o parcialmente, a un grupo religioso como tal.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B, la C y la D.",
+                "Las opciones correctas son la A, la C, y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-convencion-1948",
+              "e": "15",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Florencia Deich, en cuanto a las interrupciones institucionales del régimen democrático, en la Argentina se produjeron varias, entre ellas:",
+              "o": [
+                "Con el fin del gobierno de Héctor Cámpora en 1974.",
+                "Con el fin del gobierno de Fernando de la Rúa en 2001.",
+                "Con el fin del gobierno de Arturo Illia en 1966.",
+                "Con el fin del gobierno de Isabel Perón en 1976.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-interrupciones-institucionales",
+              "e": "16",
+              "pts": 0.5,
+              "d": "Errata cronológica: la renuncia de Cámpora ocurrió en julio de 1973, no en 1974 como figura en una de las opciones del HTML. Se conserva la clave del material y se aclara el año en la explicación."
+            },
+            {
+              "p": "Mariano Statello propone una definición cuyos elementos permiten definir un acto violento como terrorista. Esa definición incluye:",
+              "o": [
+                "Que debe incluir violencia física.",
+                "Que debe tener una repetición potencial.",
+                "Que debe ser un acto amoral.",
+                "Que debe tener una dimensión comunicativa.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-statello-elementos",
+              "e": "17",
+              "pts": 1
+            },
+            {
+              "p": "Romero afirma que, si los objetivos del plan económico de la última dictadura apuntaban a achicar el Estado, los resultados fueron los contrarios. Esto fue así porque:",
+              "o": [
+                "Antes que estimular la eficiencia, el Estado premió a los que sabían obtener distintos tipos de prebendas, por mecanismos no demasiado diferentes de los que se había criticado.",
+                "Solo se mejoró la eficiencia del Estado en el campo que le era intrínseco e intransferible: la recaudación y asignación de recursos fiscales.",
+                "Pese al objetivo de equilibrio presupuestario para frenar la inflación, el gasto público creció sostenidamente, financiado por emisión.",
+                "Pese al objetivo de equilibrio presupuestario para frenar la inflación, el gasto público creció sostenidamente, financiado por endeudamiento externo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-achicar-estado-resultados",
+              "e": "18",
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "id": "t12",
+          "n": "Tema 12",
+          "fuente": "icse-parcial-offline.html",
+          "aviso": "Preguntas, claves y explicaciones importadas del cuestionario HTML de 2026.",
+          "qs": [
+            {
+              "p": "Max Povse afirma que la diferenciación más importante que se hace al analizar los regímenes políticos es entre democracia o populismo.",
+              "o": [
+                "Es verdadero, porque el populismo es hoy el verdadero enemigo de la democracia.",
+                "Es falso, porque la diferenciación más importante que se hace al analizar los regímenes políticos es entre democracia y autoritarismo.",
+                "Es verdadero, porque \"populismo\" se puede usar, a fines prácticos, como concepto semejante al de \"no democracia\".",
+                "Es falso, porque la diferenciación más importante que se hace al analizar los regímenes políticos es entre democracia o neoliberalismo."
+              ],
+              "c": 1,
+              "k": "icse-p1-povse-democracia-autoritarismo",
+              "e": "1",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Ariel Sribman Mittelman una de las formas preestatales fue el feudalismo, un sistema social y político que predominó en Europa a principios del siglo XX.",
+              "o": [
+                "Es falso, porque el feudalismo fue un sistema social y político que predominó en la etapa clásica de Grecia y Roma.",
+                "Es verdadero, porque el feudalismo introduce la idea de una sociedad heterogénea integrada por diferentes clases sociales.",
+                "Es falso, porque el feudalismo fue un sistema social y político que predominó en Europa durante la Edad Media.",
+                "Es verdadero, porque el feudalismo fue el sistema de base rural y antidemocrática que desembocó en la Segunda Guerra Mundial."
+              ],
+              "c": 2,
+              "k": "icse-p1-feudalismo",
+              "e": "2",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Sofía Pirsch, en los sistemas federales la elección de representantes en la cámara alta (senadores) no responde a una lógica proporcional.",
+              "o": [
+                "Es falso, porque un patrón que se repite en el mapa de los federalismos en el mundo es que las unidades (provincias) más grandes se encuentran sobrerrepresentadas en las cámaras altas.",
+                "Es verdadero, porque un patrón que se repite en el mapa de los federalismos en el mundo es que las unidades (provincias) más pequeñas se encuentran subrepresentadas en las cámaras altas.",
+                "Es falso, porque su objetivo es representar en el plano nacional a todas las unidades (provincias) que componen a ese Estado federal, y estas unidades siempre son consideradas diferentes entre sí. Por eso, nunca poseen una cantidad fija o escalonada de bancas.",
+                "Es verdadero, porque para representar en el plano nacional a todas las unidades (provincias) que componen ese Estado federal, se las considera iguales entre sí. Por eso, todas tienen el mismo número de bancas más allá de la población que posean."
+              ],
+              "c": 3,
+              "k": "icse-p1-senadores-proporcional",
+              "e": "3",
+              "pts": 0.5
+            },
+            {
+              "p": "Verónica Beyreuther destaca que un uso extendido del término «dictadura» en la Ciencia Política, desde los orígenes de la teoría marxista, es el de \"dictadura del proletariado\".",
+              "o": [
+                "Es falso, porque \"dictadura del proletariado\" no es un concepto trabajado por la Teoría política y menos por la Ciencia Política.",
+                "Es verdadero, porque hace referencia al gobierno de los trabajadores en el marco del triunfo del sistema socialista.",
+                "Es verdadero, porque \"dictadura\" tiene diferentes significados y definiciones según quien lo utilice y no siempre se refiere a la existencia de un gobierno no democrático.",
+                "Es falso, porque la dictadura es un régimen político concreto que no tiene que ver con la teoría marxista ni con cuestiones ideológicas."
+              ],
+              "c": 2,
+              "k": "icse-p1-dictadura-proletariado",
+              "e": "4",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Fernando Pedrosa, Florencia Deich y Nadia Yannuzzi, en algunos discursos que se reiteran en el espacio público, parecería que \"decir\" es lo mismo que \"hacer\".",
+              "o": [
+                "Es verdadero, porque entre actores políticos e intelectuales se pretende que el uso de las palabras reemplace a la realidad.",
+                "Es falso, porque entre actores políticos e intelectuales se pretende que el uso de las redes sociales reemplace a la realidad.",
+                "Es falso, porque nunca en los discursos públicos se confunde el decir con el hacer.",
+                "Es verdadero, porque esa lógica bien intencionada, promueve una forma de pensamiento democrático y horizontal."
+              ],
+              "c": 0,
+              "k": "icse-p1-decir-hacer",
+              "e": "5",
+              "pts": 0.5
+            },
+            {
+              "p": "De acuerdo con Nicolás Simone, tanto en 1973 como en 1983, los militares que abandonaban el poder establecieron gran parte de las reglas electorales posteriores. Lo llamativo es que, tras asumir el mando, los civiles optaron por no modificarlas.",
+              "o": [
+                "Es verdadero, porque la élite política logró acordar reglas de juego mínimas de procedimiento democrático sin realizar cambios estructurales.",
+                "Es falso, porque los militares nunca se preocuparon por influir en las reglas electorales ya que no les importaba la cuestión.",
+                "Es falso, porque los militares en retirada en ambas ocasiones no pudieron imponer nada a los civiles que los sucedieron.",
+                "Es verdadero, porque los militares hicieron todo lo posible para que el partido que ellos mismos crearon (llamado Partido del Proceso) ganara las elecciones de 1983."
+              ],
+              "c": 0,
+              "k": "icse-p1-reglas-electorales",
+              "e": "6",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Julio Montero, la doctrina de los derechos humanos sostiene que todos ellos poseen la misma jerarquía normativa. En términos prácticos, esto implica que los gobiernos tienen la facultad de elegir qué derechos van a respetar y en qué orden van a hacerlo.",
+              "o": [
+                "Es falso, porque los DDHH son divisibles y dependientes, lo que quiere decir que su cumplimiento efectivo depende del acuerdo y cooperación de una compleja red de organizaciones nacionales e internacionales.",
+                "Es verdadero, porque la doctrina de los DDHH dice que los gobiernos solo deben hacer su mejor esfuerzo ya que la realidad material y política de muchos países no siempre es proclive a hacer respetar los derechos humanos.",
+                "Es falso, porque la doctrina de los DDHH dice que los gobiernos deben hacer su mejor esfuerzo por satisfacerlos todos a la vez. La única salvedad es que los derechos de bienestar están sujetos a una cláusula de realización progresiva.",
+                "Es verdadero, porque todos los derechos humanos –excepto los referidos a bienestar socio económico– son de aplicación gradual y sujeta al consenso interno de cada país."
+              ],
+              "c": 2,
+              "k": "icse-p1-montero-jerarquia-ddhh",
+              "e": "7",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Patricio Gómez Talavera, el sociólogo alemán Max Weber propuso una clasificación que permite pensar la legitimidad de la dominación estatal, a partir de algunos elementos que la definen, entre ellos:",
+              "o": [
+                "La legitimidad del futuro.",
+                "La legitimidad del eterno ayer.",
+                "La legitimidad de las leyes.",
+                "La legitimidad económica.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-weber-legitimidad",
+              "e": "8",
+              "pts": 0.5
+            },
+            {
+              "p": "María José Valdez cita a Ernest Gellner cuando sostiene que la nación surge de la combinación entre voluntad y cultura. Esto implicaría que:",
+              "o": [
+                "El sentimiento nacional no es construido artificialmente, sino que viene transmitido por las familias y la escuela.",
+                "Las naciones no son entidades dadas, sino que se construyen y, a partir de esa construcción, influyen en quienes las integran.",
+                "Para que las personas se sientan parte de una misma identidad debe existir un elemento cultural que las una.",
+                "Para que las personas se sientan parte de una misma identidad debe existir un elemento coactivo que las una.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-gellner-voluntad-cultura",
+              "e": "9",
+              "pts": 0.5
+            },
+            {
+              "p": "Nadia Yannuzzi sostiene que las instituciones de la sociedad civil son instituciones formales, no creadas por el Estado. Esto es así porque:",
+              "o": [
+                "La sociedad civil es, entonces, el entramado institucional generado desde la ciudadanía para impulsar diversos temas de agenda.",
+                "El principal objetivo de la sociedad civil es tomar el control del Estado antes que el Estado la controle a ella.",
+                "La sociedad civil es el entramado institucional generado desde los partidos políticos para impulsar diversos temas de agenda.",
+                "El principal objetivo de la sociedad civil es poner un freno al Estado.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-sociedad-civil",
+              "e": "10",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, la figura simbólica de Perón en 1973, una y muchas a la vez, había llegado a reemplazar a su figura real. Esto se vio en que:",
+              "o": [
+                "Perón expresaba un sentimiento dominante en la dirigencia sindical: un giro drástico a la izquierda, incluso, hacia la violencia política.",
+                "Para algunos -peronistas de siempre, sindicalistas y políticos- se encarnaba en el líder histórico, que, como en 1945, traería la antigua bonanza, distribuida por el Estado protector.",
+                "Perón expresaba un sentimiento dominante de la juventud peronista por un giro drástico a la izquierda, incluso, hacia la violencia política.",
+                "Para algunos, encarnando el ancestral anticomunismo del movimiento, veían en Perón a quien descabezaría con toda la energía necesaria el monstruo de la subversión social.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-peron-simbolico",
+              "e": "11",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero afirma que, al asumir la presidencia en 1983, el poder que administraba el presidente Alfonsín era a la vez grande y escaso. Esto se observaba en varias características del recién electo gobierno radical, entre ellas:",
+              "o": [
+                "Que por el impactante número de votos que había alcanzado en las elecciones de 1983, los seguidores del presidente Alfonsín controlaban la mayoría del Senado por primera vez desde 1928.",
+                "Que el radicalismo había alcanzado en 1983 una proporción de votos solo comparable con los grandes triunfos plebiscitarios de Yrigoyen o Perón.",
+                "Que, si bien el liderazgo de Alfonsín en su partido era fuerte, la Unión Cívica Radical constituía una fuerza no demasiado homogénea que incluso, en ocasiones, llegó a obstaculizar la tarea del presidente en la transición.",
+                "Que el radicalismo no tenía mayoría en la Cámara de Diputados, pero había triunfado en el interior tradicional.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la C, la D y la A."
+              ],
+              "c": 5,
+              "k": "icse-p1-alfonsin-poder-grande-escaso",
+              "e": "12",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Romero, a mediados de 1982, los militares debían enfrentarse con la evidencia de su fracaso como administradores de un país desquiciado y como conductores de una guerra absurda. Esto fue así porque:",
+              "o": [
+                "Debían contemplar a sus antiguos aliados, como los otrora disciplinados jueces, llevando a juicio a oficiales acusados de corrupción.",
+                "Debían contemplar a sus antiguos aliados –los empresarios, la Iglesia, Estados Unidos–, ganados por la nueva fe democrática.",
+                "Los Montoneros habían sobrevivido sin mayores daños en su estructura política, financiera e, incluso, armada.",
+                "La Junta militar se dio cuenta que el triunfo del peronismo era inevitable, como efectivamente ocurrió en 1983.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "k": "icse-p1-militares-1982",
+              "e": "13",
+              "pts": 0.5
+            },
+            {
+              "p": "Romero explica que el programa económico de 1976 buscó reducir las funciones del Estado en sintonía con las tendencias del mundo capitalista de la época, pero ese intento de reforma estructural encontró fuertes resistencias que le impidieron llegar a fondo. Entre ellas:",
+              "o": [
+                "El peronismo y el radicalismo convocaron una serie de actos públicos para rechazar el paquete económico que tuvieron gran impacto.",
+                "Muchos empresarios que lo acompañaban combinaban un genérico liberalismo declarativo con la convicción de que el Estado debía proteger y subvencionar a cada uno de ellos.",
+                "Entre los militares, había muchos que adherían a las ideas nacionalistas y dirigistas, y otros que aspiraban, más simplemente, a sumarse a los beneficiarios del reparto estatal.",
+                "Las encuestas preelectorales y la cercanía del acto electoral potenciaron el rechazo popular a las medidas económicas del gobierno y generaron una fuerte reacción de los militares para que el ministro de Economía suspendiera el plan de ajuste.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-resistencias-achicar-estado",
+              "e": "14",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Alejandro Lamarque, la Convención de 1948 entendía por genocidio las acciones realizadas con la intención de:",
+              "o": [
+                "Destruir, total o parcialmente, a un grupo ideológico como tal.",
+                "Destruir, total o parcialmente, a un grupo nacional como tal.",
+                "Destruir, total o parcialmente, a un grupo racial como tal.",
+                "Destruir, total o parcialmente, a un grupo político como tal.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C, y la D."
+              ],
+              "c": 6,
+              "k": "icse-p1-convencion-1948",
+              "e": "15",
+              "pts": 0.5
+            },
+            {
+              "p": "Según Florencia Deich, en cuanto a las interrupciones institucionales del régimen democrático, en la Argentina se produjeron varias. Entre ellas:",
+              "o": [
+                "Con el fin del gobierno de Héctor Cámpora en 1974.",
+                "Con el fin del gobierno de Arturo Illia en 1966.",
+                "Con el fin del gobierno de Fernando de la Rúa en 2001.",
+                "Con el fin del gobierno de Isabel Perón en 1976.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "k": "icse-p1-interrupciones-institucionales",
+              "e": "16",
+              "pts": 0.5,
+              "d": "Errata cronológica: la renuncia de Cámpora ocurrió en julio de 1973, no en 1974 como figura en una de las opciones del HTML. Se conserva la clave del material y se aclara el año en la explicación."
+            },
+            {
+              "p": "Mariano Statello propone una definición cuyos elementos permiten definir un acto violento como terrorista. Entre ellos:",
+              "o": [
+                "Que debe incluir violencia física.",
+                "Que debe tener una repetición potencial.",
+                "Que debe ser un acto amoral.",
+                "Que debe tener una dimensión comunicativa.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-statello-elementos",
+              "e": "17",
+              "pts": 1
+            },
+            {
+              "p": "Romero afirma que, si los objetivos del plan económico de la última dictadura apuntaban a achicar el Estado, los resultados fueron los contrarios. Esto fue así porque:",
+              "o": [
+                "Antes que estimular la eficiencia, el Estado premió a los que sabían obtener distintos tipos de prebendas, por mecanismos no demasiado diferentes de los que se había criticado.",
+                "Solo se mejoró la eficiencia del Estado en el campo que le era intrínseco e intransferible: la recaudación y asignación de recursos fiscales.",
+                "Pese al objetivo de equilibrio presupuestario para frenar la inflación, el gasto público creció sostenidamente, financiado por emisión.",
+                "Pese al objetivo de equilibrio presupuestario para frenar la inflación, el gasto público creció sostenidamente, financiado por endeudamiento externo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 7,
+              "k": "icse-p1-achicar-estado-resultados",
+              "e": "18",
+              "pts": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pedrosa-2025-09-p1",
+      "parcial": 1,
+      "nombre": "1er parcial · 18 y 19/09/2025",
+      "fecha": "2025-09",
+      "catedra": "A · Fernando Pedrosa",
+      "detalle": "Cátedra A · Pedrosa. 18 preguntas por tema; 16 de 0,50 y 2 de 1 punto. Incluye un tema de práctica oral.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "En el video en el que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff sobre la figura de Raúl Alfonsín, Gerchunoff destaca que fue fundamental el decreto del Gobierno radical que habilitó al Consejo Supremo de las Fuerzas Armadas para juzgar a las juntas militares.",
+              "o": [
+                "Es falso, porque los militares argentinos recién comenzaron a ser juzgados durante el gobierno de Néstor Kirchner en 2003.",
+                "Es falso, porque hubo un solo juicio a las Juntas militares y no fue el del Consejo Supremo de las Fuerzas Armadas.",
+                "Es verdadero, porque el decreto mencionado por el entrevistado les permitió a los militares ser absueltos en primera instancia y por ello acceder luego al indulto posterior que el mismo Alfonsín se viera obligado a dictar.",
+                "Es verdadero, porque si Alfonsín no hubiera firmado el decreto que enviaba a las juntas militares a ser juzgados primero por sus propios pares, no hubiera existido el famoso juicio posterior."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-juicio-decreto"
+            },
+            {
+              "e": "2",
+              "p": "Según Nicolás Simone, la transición es un lapso de tiempo que comienza cuando un régimen no democrático de un país comienza a retirarse y termina cuando un régimen democrático se impone, ya sin riesgo de ser derrocado.",
+              "o": [
+                "Es verdadero, porque la transición es como la poliarquía, formas en que se menciona y se describe al sistema democrático.",
+                "Es falso, porque la transición no puede preverse exactamente, al ser un periodo donde la incertidumbre es la norma.",
+                "Es verdadero, porque la transición, en sentido amplio, se consuma cuando no existe peligro de regresión autoritaria.",
+                "Es falso, porque nunca una democracia se impone sin riesgo. Mientras haya militares existirá siempre la posibilidad de golpes de Estado."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-transicion-argentina"
+            },
+            {
+              "e": "3",
+              "p": "Según Max Povse, para ser híbrido, un régimen debe tener indicadores con valores tanto democráticos como autoritarios.",
+              "o": [
+                "Es verdadero, porque los regímenes políticos son pluralistas y ofrecen todo tipo de posibilidades ideológicas en su interior.",
+                "Es falso, porque la democracia no tiene nada que ver con los sistemas autoritarios. Es uno o el otro.",
+                "Es falso, porque eso no es híbrido, sino una poliarquía.",
+                "Es verdadero, porque son casos donde hay elecciones libres, pero existe también, una “cancha inclinada” en favor del partido de gobierno."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-regimen-hibrido"
+            },
+            {
+              "e": "4",
+              "p": "Según Margarita Batlle, Robert Dahl entendía que la democracia es un sistema inalcanzable e imposible de adoptar en la práctica.",
+              "o": [
+                "Es falso, porque numerosos países han vivido en democracia en este siglo y en los anteriores.",
+                "Es verdadero, porque significa que la democracia es un orden utópico e ideal al que no puede aspirar la sociedad.",
+                "Es falso, porque no existen cuestiones utópicas para que los seres humanos organicen sus sociedades.",
+                "Es verdadero, porque la única democracia verdadera es la que se registra en asambleas donde participan todos los ciudadanos."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-dahl-ideal"
+            },
+            {
+              "e": "5",
+              "p": "Según Enrique García, el Estado fascista no se evidenciaba en todas las esferas de la sociedad, pero lo hacía sin control en la educación, la cultura y los medios de comunicación.",
+              "o": [
+                "Es falso, porque el poder del Estado fascista no poseía límites y su control sobre la sociedad era total.",
+                "Es verdadero, porque el Estado fascista ponía énfasis solo en lo que tuviera que ver con el control total de los valores y los discursos.",
+                "Es falso, porque el Estado fascista se evidenciaba sobre todo en la economía.",
+                "Es verdadero, porque los fascistas pensaban que desde esos espacios podían controlar a toda la sociedad."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-fascismo-control"
+            },
+            {
+              "e": "6",
+              "p": "Según explica Florencia Deich, cuando la intervención militar o de otro grupo logra reemplazar a un presidente –pero no llega a cambiar el régimen político– se denomina interrupción institucional, y es una característica actual de los países latinoamericanos.",
+              "o": [
+                "Es falso, porque los militares siguen gozando del prestigio y el poder de antes, como alternativa a las democracias.",
+                "Es falso, porque los regímenes democráticos son estables y los presidentes democráticos no sufren desafíos a su propia continuidad.",
+                "Es verdadero, porque los militares hoy usan los elementos desestabilizadores que tienen a su disposición, como amenazar a los políticos que conducen el Estado.",
+                "Es verdadero, porque con el fin de la Guerra Fría y la caída del comunismo, los golpes de Estado militares ya no fueron habituales, pero tampoco hubo una estabilidad permanente."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-interrupcion-institucional"
+            },
+            {
+              "e": "7",
+              "p": "Según Laura Petrino, nadie puede intermediar en la relación directa y personal del líder populista con su pueblo.",
+              "o": [
+                "Es falso, porque el líder populista siempre tiene alguna organización que se ocupa de la administración cotidiana y el clientelismo.",
+                "Es verdadero, porque el populista no cree en instituciones formales ni partidos políticos.",
+                "Es falso, porque los populistas esconden sus pretensiones políticas en el funcionamiento del Estado y las instituciones de la democracia.",
+                "Es verdadero, porque el líder populista no confía en nadie."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-petrino-lideres"
+            },
+            {
+              "e": "8",
+              "p": "¿Por qué las personas obedecen al Estado? Según Patricio Gómez Talavera, Weber estudió las sociedades humanas a través del tiempo y observó que existían diferentes justificaciones a la aceptación del poder de dominación del Estado. Entre ellas estaban:",
+              "o": [
+                "La identidad nacional.",
+                "La legalidad.",
+                "La moneda nacional.",
+                "La costumbre.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-weber-legitimidad"
+            },
+            {
+              "e": "9",
+              "p": "Según Luis A. Romero, entre las organizaciones guerrilleras de los años 70 había grandes diferencias teóricas y políticas, pero, a la vez, primaba un espíritu común. Esto se vinculaba a:",
+              "o": [
+                "Que en todas ellas la lógica de la exclusión era llevada hasta sus últimas consecuencias: el enemigo debía ser aniquilado.",
+                "Que todas ellas estaban integradas por jóvenes idealistas que buscaban un mundo mejor a través del socialismo.",
+                "Que todas ellas estaban integradas por jóvenes idealistas que buscaban terminar la pobreza y la desigualdad de la sociedad argentina.",
+                "Que se consideraban la vanguardia de la movilización popular, cuya representación consistía en la acción violenta.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-guerrilla-vanguardia"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, a partir de 1983 creció el partido Unión del Centro Democrático, (UCeDé), fundado por Álvaro Alsogaray, el mentor de las ideas liberales en la Argentina de la segunda mitad del siglo XX. Esto ocurrió porque:",
+              "o": [
+                "Se opuso con éxito al alfonsinismo en la educación de la civilidad, y hasta superó en votantes al propio partido gobernante.",
+                "Su discurso estaba ligado a la derecha militar que aún tenía muchos adeptos y se sostenía en la necesidad de mayor seguridad para amplios sectores urbanos que no veían respuesta ante la creciente amenaza de la delincuencia.",
+                "Sus dirigentes intentaron aprovechar el debilitamiento de la bipolaridad que representaban radicales y peronistas.",
+                "Esas ideas tenían un gran predicamento en el mundo, en el contexto de las crisis del bloque soviético y del Estado de bienestar.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-ucede"
+            },
+            {
+              "e": "11",
+              "p": "Nicolás Simone afirma que los estudios sobre las transiciones fueron impulsados por expertos en ciencias sociales para analizar procesos de los que eran testigos y mejorar la calidad de las democracias que entonces nacían. ¿A qué democracia se referían esos especialistas?",
+              "o": [
+                "A una democracia entendida como un sistema de reglas en el que los ciudadanos se expresan libremente y eligen a sus gobernantes.",
+                "A una democracia que se limita a todo aquello que no puede dejar de tener, es decir, una versión mínima.",
+                "A una democracia sustantiva, es decir, que respondía a todas las demandas sociales, sobre todo, a las de los sectores más populares.",
+                "A una democracia entendida como una versión maximalista, es decir, relacionada con la lucha de clases y los avances socialistas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-simone-minima"
+            },
+            {
+              "e": "12",
+              "p": "Según Javier Hermo, en el año 1946 las Naciones Unidas generaron una definición de genocidio que sirve para caracterizar situaciones en las que se pone en riesgo la continuidad vital (a través de la destrucción total o parcial) de grupos sociales que tienen características comunes, como ser:",
+              "o": [
+                "Características nacionales y raciales comunes.",
+                "Características étnicas y religiosas comunes.",
+                "Características políticas o ideológicas comunes.",
+                "Características económicas y sociales comunes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-convencion-1948"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, el peronismo renovador –que entre sus principales figuras tenía a Antonio Cafiero y al gobernador de La Rioja y futuro presidente, Carlos Menem– se proponía adecuar el peronismo al nuevo contexto democrático abierto en 1983. Esto resultó en que:",
+              "o": [
+                "Se proponía insertar el peronismo en el discurso de la civilidad que predominaba en la sociedad de la época.",
+                "Buscaron constantemente seguir y unirse al liderazgo de Alfonsín, quien era el político más popular del momento y no era tan distinto a la tradición peronista.",
+                "Cuando se produjo la crisis militar de Semana Santa de 1987, los dirigentes renovadores aprovecharon para usar el conflicto en su beneficio y reemplazar a Alfonsín, quien ya se encontraba muy desgastado por la crisis económica, pero sin cambiar el régimen político.",
+                "No solo inscribían al peronismo en el juego democrático, además parecían sostener su principal condición: la posible alternancia entre partidos competidores y copartícipes.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-peronismo-renovador"
+            },
+            {
+              "e": "14",
+              "p": "Romero afirma que en 1981 el Gral.Galtieri se presentó como el salvador del Proceso militar iniciado en 1976. Por eso se mostraba como el dirigente vigoroso capaz de conducirlo a un final victorioso. Esto se veía en que:",
+              "o": [
+                "Galtieri había sido asiduamente promovido por miembros de la administración del presidente norteamericano Ronald Reagan.",
+                "Galtieri se manifestó dispuesto a alinear al país con la Unión Soviética y a apoyarla en la guerra encubierta que libraba en América Central.",
+                "Galtieri prometió ante quien quisiera escucharlo que en su presidencia recuperaría las islas Malvinas.",
+                "Galtieri se lanzara a la política activa intentando armar un movimiento en el que los \"amigos políticos\" sustentaran su propio liderazgo.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-galtieri-1981"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, en 1973, la escena política argentina presentaba desafíos para la democracia, con partidos debilitados y una movilización social influida por dinámicas autoritarias y confrontativas. Esto fue así porque:",
+              "o": [
+                "Los partidos políticos estaban anquilosados y sin capacidad real de representar los intereses sociales.",
+                "La democracia estaba firmemente consolidada y los partidos políticos tenían un rol central en la negociación del poder.",
+                "Las organizaciones armadas, como Montoneros, llenaron el vacío dejado por los partidos, estructurando la movilización social dentro de una lógica de guerra.",
+                "El movimiento popular se desarrolló de manera totalmente espontánea, sin intervención de estructuras políticas o ideológicas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-movilizacion-1973"
+            },
+            {
+              "e": "16",
+              "p": "Romero señala que, en la cultura y las relaciones exteriores, el Gobierno de Raúl Alfonsín avanzó con facilidad, pero no fue así con dos poderosas corporaciones: la militar y la sindical. Esto se debió a que:",
+              "o": [
+                "En la campaña electoral, Alfonsín denunció un pacto de impunidad entre los militares de la dictadura que abandonaban el poder y los sindicalistas peronistas.",
+                "A pesar de las denuncias realizadas durante la campaña, el Gobierno radical ofreció una amnistía a las ex Juntas Militares, pero esta fue rechazada porque los militares exigían la exoneración judicial de todos los miembros de las Fuerzas Armadas.",
+                "A causa del pacto que habían sellado militares y sindicalistas, el Gobierno no abrió espacios para el diálogo y la concertación con la CGT a quien pretendió ilegalizar.",
+                "La CGT organizó trece paros generales contra el Gobierno, lo que contrastaba con su escasa actividad en tiempos del anterior Gobierno militar.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-corporaciones-alfonsin"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, durante las décadas de 1960 y 1970, la economía argentina experimentó un crecimiento en sectores clave como la industria y el agro, impulsado por la modernización y la expansión del mercado. Esto implicó que:",
+              "o": [
+                "La mecanización del agro y el uso de semillas híbridas contribuyeron al crecimiento del sector agropecuario pampeano.",
+                "Aunque la industria creció, el empleo industrial disminuyó debido a la automatización y la reducción de la demanda interna.",
+                "La expansión del sector agropecuario se debió exclusivamente al apoyo del Estado, sin participación del mercado ni del avance tecnológico.",
+                "La expansión industrial estuvo acompañada por un aumento del empleo y una recuperación en los ingresos de los asalariados.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-modernizacion-1960"
+            },
+            {
+              "e": "18",
+              "p": "Romero afirma que, en 1983, cuando Raúl Alfonsín asumió el gobierno, además de volver a la vida académica, los intelectuales se incorporaron a la política, y la política se intelectualizó. Esto se vio en que:",
+              "o": [
+                "Las listas de concejales, diputados y senadores se repletaron de académicos e intelectuales, dejando de lado a los políticos tradicionales.",
+                "El peronismo logró rápidamente el control de la política y la vida institucional en las universidades nacionales.",
+                "La discusión política adquirió brillo y, en menor medida, profundidad.",
+                "Alfonsín recurrió a intelectuales como asesores o funcionarios técnicos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-intelectuales-83"
+            }
+          ]
+        },
+        {
+          "id": "t2",
+          "n": "Tema 2",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Laura Petrino, nadie puede intermediar en la relación directa y personal del líder populista con su pueblo.",
+              "o": [
+                "Es verdadero, porque el líder populista no confía en nadie.",
+                "Es falso, porque el líder populista siempre tiene alguna organización que se ocupa de la administración cotidiana y el clientelismo.",
+                "Es falso, porque los populistas esconden sus pretensiones políticas en el funcionamiento del Estado y las instituciones de la democracia.",
+                "Es verdadero, porque el populista no cree en instituciones formales ni partidos políticos."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-petrino-lideres"
+            },
+            {
+              "e": "2",
+              "p": "Según Enrique García, el Estado fascista no se evidenciaba en todas las esferas de la sociedad, pero lo hacía sin control en la educación, la cultura y los medios de comunicación.",
+              "o": [
+                "Es verdadero, porque los fascistas pensaban que desde esos espacios podían controlar a toda la sociedad.",
+                "Es verdadero, porque el Estado fascista ponía énfasis solo en lo que tuviera que ver con el control total de los valores y los discursos.",
+                "Es falso, porque el poder del Estado fascista no poseía límites y su control sobre la sociedad era total.",
+                "Es falso, porque el Estado fascista se evidenciaba sobre todo en la economía."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-fascismo-control"
+            },
+            {
+              "e": "3",
+              "p": "Según explica Florencia Deich, cuando la intervención militar o de otro grupo logra reemplazar a un presidente –pero no llega a cambiar el régimen político– se denomina interrupción institucional, y es una característica actual de los países latinoamericanos.",
+              "o": [
+                "Es falso, porque los militares siguen gozando del prestigio y el poder de antes, como alternativa a las democracias.",
+                "Es falso, porque los regímenes democráticos son estables y los presidentes democráticos no sufren desafíos a su propia continuidad.",
+                "Es verdadero, porque los militares hoy usan los elementos desestabilizadores que tienen a su disposición, como amenazar a los políticos que conducen el Estado.",
+                "Es verdadero, porque con el fin de la Guerra Fría y la caída del comunismo, los golpes de Estado militares ya no fueron habituales, pero tampoco hubo una estabilidad permanente."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-interrupcion-institucional"
+            },
+            {
+              "e": "4",
+              "p": "Según Margarita Batlle, Robert Dahl entendía que la democracia es un sistema inalcanzable e imposible de adoptar en la práctica.",
+              "o": [
+                "Es verdadero, porque significa que la democracia es un orden utópico e ideal al que no puede aspirar la sociedad.",
+                "Es falso, porque no existen cuestiones utópicas para que los seres humanos organicen sus sociedades.",
+                "Es falso, porque numerosos países han vivido en democracia en este siglo y en los anteriores.",
+                "Es verdadero, porque la única democracia verdadera es la que se registra en asambleas donde participan todos los ciudadanos."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-dahl-ideal"
+            },
+            {
+              "e": "5",
+              "p": "Según Max Povse, para ser híbrido, un régimen debe tener indicadores con valores tanto democráticos como autoritarios.",
+              "o": [
+                "Es falso, porque la democracia no tiene nada que ver con los sistemas autoritarios. Es uno o el otro.",
+                "Es verdadero, porque puede haber elecciones libres, pero también existir una “cancha inclinada” a favor del partido de gobierno.",
+                "Es falso, porque eso no es híbrido, sino una poliarquía.",
+                "Es verdadero, porque los regímenes políticos son pluralistas y ofrecen todo tipo de posibilidades ideológicas en su interior."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-regimen-hibrido"
+            },
+            {
+              "e": "6",
+              "p": "En el video en el que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff sobre la figura de Raúl Alfonsín, Gerchunoff destaca que fue fundamental el decreto del Gobierno radical que habilitó al Consejo Supremo de las Fuerzas Armadas para juzgar a las Juntas militares.",
+              "o": [
+                "Es falso, porque hubo un solo juicio a las Juntas militares, y no fue el del Consejo Supremo de las Fuerzas Armadas.",
+                "Es verdadero, porque les permitió a los militares ser absueltos en primera instancia y así acceder luego al indulto posterior de Alfonsín.",
+                "Es verdadero, porque si Alfonsín no hubiera firmado el decreto que enviaba a las Juntas militares a ser juzgadas primero por sus propios pares, no hubiera existido el famoso juicio posterior.",
+                "Es falso, porque los militares argentinos recién comenzaron a ser juzgados durante el Gobierno de Néstor Kirchner en 2003."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-juicio-decreto"
+            },
+            {
+              "e": "7",
+              "p": "Nadia Yannuzzi explica que la lucha por el poder genera conflictos en la sociedad y en su relación con el Estado.",
+              "o": [
+                "Es falso, porque la lucha por el poder se produce fuera del Estado.",
+                "Es verdadero, porque cuando un grupo determinado busca aumentar su poder, también implica que algún otro sector lo puede perder.",
+                "Es falso, porque las instituciones son permanentes y las luchas por el poder tienen que ver con el rumbo del Gobierno.",
+                "Es verdadero, porque la lucha por el poder solo involucra a los políticos y sus organizaciones."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-sociedad-conflicto"
+            },
+            {
+              "e": "8",
+              "p": "Según Romero, en 1973 la escena política argentina presentaba desafíos para la democracia, con partidos debilitados y una movilización social influida por dinámicas autoritarias y confrontativas. Esto fue así porque:",
+              "o": [
+                "El movimiento popular se desarrolló de manera totalmente espontánea, sin intervención de estructuras políticas o ideológicas.",
+                "La democracia estaba firmemente consolidada y los partidos políticos tenían un rol central en la negociación del poder.",
+                "Las organizaciones armadas, como Montoneros, llenaron el vacío dejado por los partidos, estructurando la movilización social dentro de una lógica de guerra.",
+                "Los partidos políticos estaban anquilosados y sin capacidad real de representar los intereses sociales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-movilizacion-1973"
+            },
+            {
+              "e": "9",
+              "p": "Nicolás Simone afirma que los estudios sobre las transiciones fueron impulsados por expertos en ciencias sociales para analizar procesos de los que eran testigos, y así mejorar la calidad de las democracias que entonces nacían. ¿A qué democracia se referían esos especialistas?",
+              "o": [
+                "A una democracia entendida como un sistema de reglas en el que los ciudadanos se expresan libremente y eligen a sus gobernantes.",
+                "A una democracia que se limita a todo aquello que no puede dejar de tener, es decir, una versión mínima.",
+                "A una democracia sustantiva, es decir, que respondía a todas las demandas sociales, sobre todo, a las de los sectores más populares.",
+                "A una democracia entendida como una versión maximalista, es decir, relacionada con la lucha de clases y los avances socialistas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-simone-minima"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, a partir de 1983 creció el partido Unión del Centro Democrático (UCeDé), fundado por Álvaro Alsogaray, el mentor de las ideas liberales en la Argentina de la segunda mitad del siglo XX. Esto ocurrió porque:",
+              "o": [
+                "Esas ideas tenían un gran predicamento en el mundo, en el contexto de las crisis del bloque soviético y del Estado de bienestar.",
+                "Sus dirigentes intentaron aprovechar el debilitamiento de la bipolaridad que representaban radicales y peronistas.",
+                "Su discurso estaba ligado a la derecha militar que aún tenía muchos adeptos y se sostenía en la necesidad de mayor seguridad para amplios sectores urbanos, que no veían respuesta ante la creciente amenaza de la delincuencia.",
+                "Se opuso con éxito al alfonsinismo en la educación de la civilidad, y hasta superó en votantes al propio partido gobernante.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-ucede"
+            },
+            {
+              "e": "11",
+              "p": "Romero afirma que en 1981 el Gral.Galtieri se presentó como el salvador del Proceso militar iniciado en 1976. Por eso se mostraba como el dirigente vigoroso capaz de conducirlo a un final victorioso. Esto se veía en que:",
+              "o": [
+                "Galtieri se manifestó dispuesto a alinear al país con la Unión Soviética y a apoyarla en la guerra encubierta que libraba en América Central.",
+                "Galtieri había sido asiduamente promovido por miembros de la administración del presidente norteamericano Ronald Reagan.",
+                "Galtieri se lanzara a la política activa intentando armar un movimiento en el que los \"amigos políticos\" sustentaran su propio liderazgo.",
+                "Galtieri prometió ante quien quisiera escucharlo que en su presidencia recuperaría las islas Malvinas.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-galtieri-1981"
+            },
+            {
+              "e": "12",
+              "p": "Romero señala que, en la cultura y las relaciones exteriores, el Gobierno de Raúl Alfonsín avanzó con facilidad, pero no fue así con dos poderosas corporaciones, la militar y la sindical, esto se debió a que:",
+              "o": [
+                "A causa del pacto que habían sellado militares y sindicalistas, el Gobierno no abrió espacios para el diálogo y la concertación con la CGT, a la que pretendió ilegalizar.",
+                "A pesar de las denuncias realizadas durante la campaña, el Gobierno radical ofreció una amnistía a las ex Juntas Militares, pero esta fue rechazada porque los militares exigían la exoneración judicial de todos los miembros de las Fuerzas Armadas.",
+                "En la campaña electoral Alfonsín denunció un pacto de impunidad entre los militares de la dictadura que abandonaba el poder y los sindicalistas peronistas.",
+                "La CGT organizó trece paros generales contra el Gobierno, lo que contrastaba con su escasa actividad en tiempos del anterior Gobierno militar.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-corporaciones-alfonsin"
+            },
+            {
+              "e": "13",
+              "p": "Según Nicolás Simone, en Argentina hubo seis golpes de Estado que lograron imponerse en el siglo XX. Algunos de ellos ocurrieron en:",
+              "o": [
+                "1943",
+                "1958",
+                "1955",
+                "1989",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-seis-golpes"
+            },
+            {
+              "e": "14",
+              "p": "Según Javier Hermo, las Naciones Unidas en el año 1946 generaron una definición de genocidio que sirve para caracterizar situaciones en las que se pone en riesgo la continuidad vital (a través de la destrucción total o parcial) de grupos sociales que tienen características comunes, como ser:",
+              "o": [
+                "Características económicas y sociales comunes.",
+                "Características étnicas y religiosas comunes.",
+                "Características políticas o ideológicas comunes.",
+                "Características nacionales y raciales comunes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-convencion-1948"
+            },
+            {
+              "e": "15",
+              "p": "¿Por qué las personas obedecen al Estado? Según Patricio Gómez Talavera, Weber estudió las sociedades humanas a través del tiempo y observó que existían diferentes justificaciones a la aceptación del poder de dominación del Estado. Entre ellas estaban:",
+              "o": [
+                "La costumbre.",
+                "La legalidad.",
+                "La moneda nacional.",
+                "La identidad nacional.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-weber-legitimidad"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, entre las organizaciones guerrilleras de los años 70 había grandes diferencias teóricas y políticas, pero, a la vez, primaba un espíritu común. Esto se vinculaba a:",
+              "o": [
+                "Que todas ellas estaban integradas por jóvenes idealistas que buscaban terminar con la pobreza y la desigualdad en la sociedad argentina.",
+                "Que todas ellas estaban integradas por jóvenes idealistas que buscaban un mundo mejor a través del socialismo.",
+                "Que en todas ellas la lógica de la exclusión era llevada hasta sus últimas consecuencias: el enemigo debía ser aniquilado.",
+                "Que se consideraban la vanguardia de la movilización popular, cuya representación consistía en la acción violenta.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-guerrilla-vanguardia"
+            },
+            {
+              "e": "17",
+              "p": "Romero afirma que, en 1983, cuando Raúl Alfonsín asumió el gobierno, además de volver a la vida académica, los intelectuales se incorporaron a la política, y la política se intelectualizó. Esto se vio en que:",
+              "o": [
+                "Alfonsín recurrió a intelectuales como asesores o funcionarios técnicos.",
+                "El peronismo logró rápidamente el control de la política y la vida institucional en las universidades nacionales.",
+                "La discusión política adquirió brillo y, en menor medida, profundidad.",
+                "Las listas de concejales, diputados y senadores se repletaron de académicos e intelectuales, dejando de lado a los políticos tradicionales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-intelectuales-83"
+            },
+            {
+              "e": "18",
+              "p": "Según Romero, durante las décadas de 1960 y 1970, la economía argentina experimentó un crecimiento en sectores clave como la industria y el agro, impulsado por la modernización y la expansión del mercado. Esto implicó que:",
+              "o": [
+                "La mecanización del agro y el uso de semillas híbridas contribuyeron al crecimiento del sector agropecuario pampeano.",
+                "Aunque la industria creció, el empleo industrial disminuyó debido a la automatización y la reducción de la demanda interna.",
+                "La expansión industrial estuvo acompañada por un aumento del empleo y una recuperación en los ingresos de los asalariados.",
+                "La expansión del sector agropecuario se debió exclusivamente al apoyo del Estado, sin participación del mercado ni del avance tecnológico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 1,
+              "k": "icse-p1-modernizacion-1960"
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "En la introducción de Herramientas para el análisis de la Sociedad y el Estado, se afirma que los conceptos son construcciones abstractas que sirven para describir o explicar situaciones y hechos sociales.",
+              "o": [
+                "Es falso, porque los conceptos son herramientas abstractas que no tienen ninguna relación con hechos concretos.",
+                "Es falso, porque los conceptos son herramientas que parten de situaciones y hechos sociales, y sirven para describir o explicar cuestiones abstractas.",
+                "Es verdadero, porque los conceptos se elaboran a partir de elementos concretos que requieren alguna explicación o análisis.",
+                "Es verdadero, porque los conceptos son construcciones ideológicas que parten de las teorías políticas clásicas."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-concepto"
+            },
+            {
+              "e": "2",
+              "p": "En el video de la entrevista a Pablo Gerchunoff, este señala que, aunque Raúl Alfonsín no resolvió la cuestión militar durante su presidencia y dictó el indulto, visto en perspectiva, haber encarcelado a los comandantes por dos años fue un logro de la joven democracia argentina.",
+              "o": [
+                "Es verdadero, porque la sanción de las leyes de Punto Final y Obediencia Debida les permitió a los militares ser liberados luego de la condena en el famoso juicio de 1985 y por ello acceder luego al indulto posterior.",
+                "Es falso, porque Alfonsín dejó la presidencia en 1989 con los comandantes presos y estos recién fueron indultados poco después por el presidente peronista Carlos Menem.",
+                "Es falso, porque los militares argentinos recién comenzaron a ser juzgados durante el gobierno de Néstor Kirchner en 2003.",
+                "Es verdadero, porque, debido a los levantamientos militares “carapintadas” y a la sanción de las leyes de Punto Final y Obediencia Debida en 1987, los miembros de las juntas condenados en 1985 fueron liberados al final del mandato del presidente Alfonsín."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-indulto-menem"
+            },
+            {
+              "e": "3",
+              "p": "Según Nadia Yannuzzi, las instituciones de la sociedad civil son instituciones formales que pertenecen al Estado.",
+              "o": [
+                "Es falso, porque las instituciones de la sociedad civil son instituciones formales que no pertenecen al Estado.",
+                "Es verdadero, porque el Estado es el pueblo organizado y su función básica es atender todas las instituciones sin diferencias.",
+                "Es verdadero, porque el Estado es producto de una relación de cooperación horizontal entre las instituciones y la sociedad civil.",
+                "Es falso, porque la sociedad civil existe autónomamente cuando no hay Estado."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-sociedad-civil"
+            },
+            {
+              "e": "4",
+              "p": "En el artículo de Enrique García se afirma que el Estado liberal profundizó un proceso de secularización social.",
+              "o": [
+                "Es falso, porque la secularización fue promovida por los Estados medievales previos al liberal.",
+                "Es verdadero, porque la Iglesia dejó de tener el monopolio de la educación y la cultura.",
+                "Es verdadero, porque la Iglesia dejó de tener el monopolio de la vida económica y financiera.",
+                "Es falso, porque el liberalismo consolida la dependencia de los ciudadanos en cuestiones religiosas y sociales."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-secularizacion"
+            },
+            {
+              "e": "5",
+              "p": "Según Florencia Deich, el concepto de cambio de régimen político es clave para el análisis de los golpes de Estado.",
+              "o": [
+                "Es verdadero, porque los regímenes políticos solo cambian por medio de golpes de Estado militares.",
+                "Es falso, porque son dos conceptos que no guardan ninguna relación en la vida social.",
+                "Es falso, porque los golpes de Estado se hacen para evitar que haya regímenes políticos.",
+                "Es verdadero, porque un golpe de Estado siempre se propone producir una ruptura del régimen político existente hasta ese momento."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-deich-golpe-ruptura"
+            },
+            {
+              "e": "6",
+              "p": "Según Max Povse, en la ciencia política el concepto “régimen político” hace referencia al conjunto de reglamentaciones que definen si un sistema político es presidencial o parlamentario.",
+              "o": [
+                "Es falso, porque se entiende por “régimen político” solo a aquellos que son dictaduras.",
+                "Es verdadero, porque el régimen político es la forma académica de denominar a las leyes electorales.",
+                "Es falso, porque se entiende por “régimen político” a las reglas que determinan cómo se accede y se ejerce el poder.",
+                "Es verdadero, porque es aquello que regula cómo miembros de la sociedad se convierten en líderes, y qué límites tiene ese liderazgo."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimen"
+            },
+            {
+              "e": "7",
+              "p": "Según Laura Petrino, los líderes populistas se constituyen como una alternativa que busca cambiar el sistema político vigente.",
+              "o": [
+                "Es verdadero, porque se enfrentan duramente a los actores tradicionales, a los que acusa por el estancamiento que sufre el país.",
+                "Es verdadero, porque intentan superar la “herencia recibida” con el desarrollo desde las instituciones políticas de planes de gobierno muy consensuados.",
+                "Es falso, porque en las democracias populistas se agota la capacidad de control de unas instituciones sobre otras, y se tensiona el Estado de Derecho.",
+                "Es falso, porque el populismo se relaciona con la conceptualización del Estado neoliberal desarrollada por Enrique García."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-petrino-lideres"
+            },
+            {
+              "e": "8",
+              "p": "Según Luis A. Romero, el día que Raúl Alfonsín asumió la presidencia, la multitud que se volcó a las calles sentía que, finalmente, la civilidad había alcanzado el poder. Sin embargo, era el comienzo de una etapa compleja porque:",
+              "o": [
+                "La campaña había puesto énfasis, sobre todo, en los graves problemas económicos que preocupaban a la mayor parte de la población.",
+                "Existía la convicción –alimentada por el candidato triunfante– de que el retorno a la democracia suponía la solución de todos los problemas.",
+                "No eran tantas las demandas que la sociedad acumulaba, lo que exigía respuestas muy concretas de parte del flamante Gobierno radical.",
+                "Pronto se puso de relieve la capacidad de resistencia de los enemigos que se creían vencidos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-civilidad-1983"
+            },
+            {
+              "e": "9",
+              "p": "Según señala Margarita Batlle, la poliarquía se caracteriza porque:",
+              "o": [
+                "Hay partidos diferentes con iguales posibilidades de llegar al poder.",
+                "Hay partidos diferentes que, a su vez, representan programas e ideas distintas.",
+                "Los partidos no son los protagonistas de la competencia y del ejercicio del poder en la poliarquía, sino los ciudadanos organizados.",
+                "Los partidos no son los protagonistas de la competencia y del ejercicio del poder en la poliarquía, sino los grupos corporativos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-poliarquia-competencia"
+            },
+            {
+              "e": "10",
+              "p": "Según Nicolás Simone, las reglas con las que fueron los partidos a las elecciones de 1983 se basaron en los acuerdos previos de 1973. Esto implicó que:",
+              "o": [
+                "Se volviera al sistema de colegio electoral y se eliminaran la segunda vuelta y la elección directa de senador.",
+                "Se eliminaran el sistema del colegio electoral, la segunda vuelta y las elecciones directas de senador.",
+                "Se aplicaran todas las medidas tomadas – y firmadas- en 1973 por el acuerdo de Perón con el líder radical Ricardo Balbín.",
+                "Se redujera la cantidad de senadores, pero se aumentara la de diputados.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-elecciones-1983"
+            },
+            {
+              "e": "11",
+              "p": "Romero afirma que el peronismo pagó altos costos por encarar su campaña electoral en 1983 con mucho del viejo estilo. Esto se vio en que:",
+              "o": [
+                "Ante el inevitable triunfo de Alfonsín, los gobernadores peronistas apoyaron al radical para salvar el poder territorial que aún les quedaba.",
+                "En 1983 el peronismo fue dividido en la elección presidencial y por ello perdió contra sus rivales radicales.",
+                "Los peronistas hicieron la campaña electoral convocando a la liberación contra la dependencia y apelando a lo peor de su folclore político.",
+                "El candidato a presidente –Ítalo Luder–no disipó la desconfianza que el peronismo generaba en sectores importantes de la sociedad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-luder-1983"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, en los años 70, Perón buscaba enfrentar a quienes lo derrocaron en 1955 con la estrategia del \"bombero piromaníaco\". Esto significaba que:",
+              "o": [
+                "Ante unos y otros, Perón se presentaba como quien podía canalizar la efervescencia social, si lograba para ello el poder necesario.",
+                "Perón –metafóricamente– agregaba combustible a la caldera, hasta el límite de su estallido, y al mismo tiempo controlaba la válvula de escape.",
+                "Perón deseaba incendiar todo –metafóricamente– creando así la excusa para encaminar al país hacia un socialismo.",
+                "La metáfora del fuego servía para atraer a los jóvenes revolucionarios de Montoneros y la Juventud Peronista, y servirse de su espectacular crecimiento luego de 1973.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-bombero-piromaniaco"
+            },
+            {
+              "e": "13",
+              "p": "El video sobre Transición a la Democracia afirma que las transiciones en conflictos armados no internacionales pueden darse incluso cuando el conflicto aún no ha finalizado. Esto es así porque:",
+              "o": [
+                "En los casos de El Salvador y Filipinas hubo transiciones políticas mientras los conflictos armados seguían activos.",
+                "La transición solo puede ocurrir después de que un conflicto armado haya terminado por completo.",
+                "En el caso de Colombia, los Gobiernos democráticos han tenido que negociar con grupos armados activos.",
+                "Los conflictos armados internos siempre terminan antes de que haya una transición política.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-transiciones-conflictos"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, la mayoría de la dirigencia política posiblemente habría aceptado un acuerdo para dejar atrás el pasado y facilitar una transición no traumática del régimen militar iniciado en 1976 a un gobierno civil. Pero eso no ocurrió por:",
+              "o": [
+                "El peronismo, aliado a las Madres y Abuelas de plaza de mayo, se oponía a cualquier acuerdo con la dictadura saliente.",
+                "La propia debilidad de las Fuerzas Armadas, corroídas por sus conflictos internos.",
+                "La movilización cada vez más intensa de la sociedad.",
+                "El radicalismo con Alfonsín a la cabeza aceptaba las políticas de olvido de los militares, pero nadie suponía que pudieran ganar las elecciones de 1983.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-transicion-sin-pacto"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, en el llamado “Cordobazo” de 1969, la movilización social se expresó de maneras diversas. Por ejemplo, en que:",
+              "o": [
+                "Los inmigrantes fueron actores centrales de las protestas, buscando inserción en el mundo laboral y facilitar la nacionalización.",
+                "El estallido fue precedido de una ola de protestas estudiantiles en diversas universidades, algunas de ellas fuertemente reprimidas.",
+                "Antes del estallido hubo una fuerte agitación sindical en Córdoba, donde se concentraban las principales fábricas de automotores.",
+                "La multitud, que controló varias horas la ciudad, tenía consignas precisas y líderes que coordinaban las acciones.",
+                "Las opciones correctas son la A y la C",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-cordobazo"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, con la represión de la última dictadura surgieron en el propio Ejército verdaderos señores de la guerra que casi no reconocían ninguna autoridad sobre sí.",
+              "o": [
+                "En torno a la Marina, en especial con el Almirante Massera, se constituyó la facción interna más fuerte, pero que distaba de ser dominante.",
+                "Las tendencias centrífugas y la anarquía se derivaban de la escrupulosa división del poder entre las tres fuerzas, al punto de no existir una instancia superior a ellas que dirimiera los conflictos.",
+                "Las tendencias centrífugas y la anarquía se derivaban de la escrupulosa división del poder entre las tres fuerzas, al punto de existir solo una instancia superior a ellas que dirimiera los conflictos, pero estaba en el Vaticano.",
+                "En torno a los generales Videla y Viola se constituyó la facción más débil, pero que podía dialogar e intermediar con las demás.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-senores-guerra"
+            },
+            {
+              "e": "17",
+              "p": "El video sobre la Transición a la Democracia que se dedica al caso de Sudáfrica, se refiere a la Comisión de Verdad y Reconciliación que se diferencia de otras comisiones semejantes en América Latina y África. ¿Cuáles son estas diferencias?",
+              "o": [
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, basada en el principio de satisfacción mutua.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a las organizaciones no gubernamentales.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a los distintos partidos políticos como organismos de representación social.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, dando un papel preponderante a la Iglesia Católica como herramienta de reconciliación común.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "icse-p1-sudafrica-restaurativa"
+            },
+            {
+              "e": "18",
+              "p": "Según Romero, hacia 1973, la expansión económica en Argentina ya se acercaba a los límites de la capacidad instalada. Esto fue así porque:",
+              "o": [
+                "Había un importante faltante de inversión privada, que no había crecido sustancialmente.",
+                "La fuerte conflictividad social no podría ser satisfecha con una fácil redistribución, según la fórmula histórica del peronismo.",
+                "Pese al declamado liberalismo de los sectores propietarios, desde 1955 no habían disminuido ni los atributos del Estado ni su capacidad para definir las reglas del juego.",
+                "Había un importante faltante de inversión pública, que no había crecido sustancialmente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-expansion-1973"
+            }
+          ]
+        },
+        {
+          "id": "t4",
+          "n": "Tema 4",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "En el video de la entrevista a Pablo Gerchunoff, este señala que, aunque Raúl Alfonsín no resolvió la cuestión militar durante su presidencia y dictó el indulto, visto en perspectiva, haber encarcelado a los comandantes por dos años fue un logro de la joven democracia argentina.",
+              "o": [
+                "Es verdadero, porque la sanción de las leyes de Punto Final y Obediencia Debida le permitió a los militares ser liberados luego de la condena en el famoso juicio de 1985 y por ello acceder luego al indulto posterior.",
+                "Es falso, porque Alfonsín dejó la presidencia en 1989 con los comandantes presos y estos recién fueron indultados poco después por el presidente peronista Carlos Menem.",
+                "Es falso, porque los militares argentinos recién comenzaron a ser juzgados durante el gobierno de Néstor Kirchner en 2003.",
+                "Es verdadero, porque, debido a los levantamientos militares “carapintadas” y a la sanción de las leyes de Punto Final y Obediencia Debida en 1987, los miembros de las juntas condenados en 1985 fueron liberados al final del mandato del presidente Alfonsín."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-indulto-menem"
+            },
+            {
+              "e": "2",
+              "p": "Según Max Povse, en la ciencia política el concepto “régimen político” hace referencia al conjunto de reglamentaciones que definen si un sistema político es presidencial o parlamentario.",
+              "o": [
+                "Es falso, porque se entiende por “régimen político” solo a aquellos que son dictaduras.",
+                "Es verdadero, porque el régimen político es la forma académica de denominar a las leyes electorales.",
+                "Es falso, porque se entiende por “régimen político” a las reglas que determinan cómo se accede y se ejerce el poder.",
+                "Es verdadero, porque es aquello que regula cómo miembros de la sociedad se convierten en líderes, y qué límites tiene ese liderazgo."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimen"
+            },
+            {
+              "e": "3",
+              "p": "En la introducción de Herramientas para el análisis de la Sociedad y el Estado, se afirma que los conceptos son construcciones abstractas que sirven para describir o explicar situaciones y hechos sociales.",
+              "o": [
+                "Es falso, porque los conceptos son herramientas abstractas que no tienen ninguna relación con hechos concretos.",
+                "Es verdadero, porque los conceptos se elaboran a partir de elementos concretos que requieren alguna explicación o análisis.",
+                "Es falso, porque los conceptos son herramientas que parten de hechos sociales, y que sirven para describir o explicar cuestiones abstractas.",
+                "Es verdadero, porque los conceptos son construcciones ideológicas que parten de las teorías políticas clásicas."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-concepto"
+            },
+            {
+              "e": "4",
+              "p": "Según Florencia Deich, el concepto de cambio de régimen político es clave para el análisis de los golpes de Estado.",
+              "o": [
+                "Es verdadero, porque los regímenes políticos solo cambian por medio de golpes de Estado militares.",
+                "Es falso, porque son dos conceptos que no guardan ninguna relación en la vida social.",
+                "Es falso, porque los golpes de Estado se hacen para evitar que haya regímenes políticos.",
+                "Es verdadero, porque un golpe de Estado siempre se propone producir una ruptura del régimen político existente hasta ese momento."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-deich-golpe-ruptura"
+            },
+            {
+              "e": "5",
+              "p": "Según Laura Petrino, los líderes populistas se constituyen como una alternativa que busca cambiar el sistema político vigente.",
+              "o": [
+                "Es verdadero, porque intentan superar la “herencia recibida” con el desarrollo de planes de gobierno muy consensuados.",
+                "Es verdadero, porque se enfrentan duramente a los actores tradicionales, a los que acusa por el estancamiento que sufre el país.",
+                "Es falso, porque en las democracias populistas se agota la capacidad de control de unas instituciones sobre otras, y se tensiona el Estado de Derecho.",
+                "Es falso, porque el populismo se relaciona con la conceptualización del Estado neoliberal desarrollada por Enrique García."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-petrino-lideres"
+            },
+            {
+              "e": "6",
+              "p": "En el artículo de Enrique García se afirma que el Estado liberal profundizó un proceso de secularización social.",
+              "o": [
+                "Es verdadero, porque la Iglesia dejó de tener el monopolio de la educación y la cultura.",
+                "Es falso, porque la secularización fue promovida por los Estados medievales previos al liberal.",
+                "Es verdadero, porque la Iglesia dejó de tener el monopolio de la vida económica y financiera.",
+                "Es falso, porque el liberalismo consolida la dependencia de los ciudadanos en cuestiones religiosas y sociales."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-secularizacion"
+            },
+            {
+              "e": "7",
+              "p": "Según Nadia Yannuzzi, las instituciones de la sociedad civil son instituciones formales que pertenecen al Estado.",
+              "o": [
+                "Es verdadero, porque el Estado es el pueblo organizado y su función básica es atender todas las instituciones sin diferencias.",
+                "Es falso, porque las instituciones de la sociedad civil son instituciones formales que no pertenecen al Estado.",
+                "Es falso, porque la sociedad civil existe autónomamente cuando no hay Estado.",
+                "Es verdadero, porque el Estado es producto de una relación de cooperación horizontal entre las instituciones y la sociedad civil."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-sociedad-civil"
+            },
+            {
+              "e": "8",
+              "p": "Según señala Margarita Batlle, la poliarquía se caracteriza porque:",
+              "o": [
+                "Hay partidos diferentes con iguales posibilidades de llegar al poder.",
+                "Hay partidos diferentes que, a su vez, representan programas e ideas distintas.",
+                "Los partidos no son los protagonistas de la competencia y del ejercicio del poder en la poliarquía, sino los ciudadanos organizados.",
+                "Los partidos no son los protagonistas de la competencia y del ejercicio del poder en la poliarquía, sino los grupos corporativos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-poliarquia-competencia"
+            },
+            {
+              "e": "9",
+              "p": "Según Luis A. Romero, para 1975 la crisis económica urgía a tomar medidas drásticas, que terminarían de liquidar el pacto social propuesto por Perón. Esto se vio en que:",
+              "o": [
+                "Los problemas de la balanza de pagos eran muy graves.",
+                "El gobierno debió rechazar la tradicional demanda de la CGT por la apertura de paritarias.",
+                "El conflicto con los chinos implicó una caída en la demanda de productos agroindustriales, lo que afectó aún más la balanza de pagos.",
+                "La inflación estaba desatada y la puja distributiva era encarnizada.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-crisis-1975"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, el peronismo encaró su campaña electoral en 1983 con mucho del viejo estilo. Por ello pagó altos costos. Esto se vio en que:",
+              "o": [
+                "Ante el inevitable triunfo de Alfonsín, los gobernadores peronistas apoyaron al radical para salvar el poder territorial que aún les quedaba.",
+                "En 1983 el peronismo fue dividido en la elección presidencial y por ello perdió contra sus rivales radicales.",
+                "Los peronistas hicieron la campaña electoral convocando a la liberación contra la dependencia y apelando a lo peor de su folclore político.",
+                "El candidato a presidente –Ítalo Luder– no disipó la desconfianza que el peronismo generaba en sectores importantes de la sociedad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-luder-1983"
+            },
+            {
+              "e": "11",
+              "p": "Según Romero, el día que Alfonsín asumió la presidencia, la multitud que se volcó a las calles sentía que, finalmente, la civilidad había alcanzado el poder. Sin embargo, era el comienzo de una etapa compleja porque:",
+              "o": [
+                "La campaña había puesto énfasis, sobre todo, en los graves problemas económicos que preocupaban a la mayor parte de la población.",
+                "Existía la convicción –alimentada por el candidato triunfante– de que el retorno a la democracia suponía la solución de todos los problemas.",
+                "No eran tantas las demandas que la sociedad acumulaba, lo que exigía respuestas muy concretas de parte del flamante Gobierno radical.",
+                "Pronto se puso de relieve la capacidad de resistencia de los enemigos que se creían vencidos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-civilidad-1983"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, en los años 70 Perón buscaba enfrentar a quienes lo derrocaron con la estrategia del \"bombero piromaníaco\". Es decir:",
+              "o": [
+                "Ante unos y otros, Perón se presentaba como quien podía canalizar la efervescencia social, si lograba para ello el poder necesario.",
+                "Perón –metafóricamente– agregaba combustible a la caldera hasta el límite de su estallido, y al mismo tiempo controlaba la válvula de escape.",
+                "Perón deseaba incendiar todo –metafóricamente– creando así la excusa para encaminar al país hacia un socialismo.",
+                "La metáfora del fuego servía para atraer a los jóvenes revolucionarios de Montoneros y la Juventud Peronista, y servirse de su espectacular crecimiento luego de 1973.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-bombero-piromaniaco"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, el Cordobazo como acción de masas solo puede compararse con la Semana Trágica o con el 17 de octubre. Esto se ve en que:",
+              "o": [
+                "Su valor simbólico fue enorme y, por ello, se hizo una lectura muy similar del evento desde el poder y desde las estructuras sindicales o políticas existentes.",
+                "Su valor simbólico fue enorme para los inmigrantes, actores centrales de las protestas, en su búsqueda de inserción sindical.",
+                "Su valor simbólico fue enorme para quienes se identificaban con la movilización popular y extraían valiosas enseñanzas de la jornada.",
+                "Su valor simbólico fue enorme, aunque se interpretó de manera diversa desde el poder y las estructuras sindicales o políticas existentes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-cordobazo-simbolo"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, la mayoría de la dirigencia política posiblemente habría aceptado un acuerdo para dejar atrás el pasado y facilitar una transición no traumática del régimen militar iniciado en 1976 a un gobierno civil. Pero eso no ocurrió por:",
+              "o": [
+                "La movilización cada vez más intensa de la sociedad.",
+                "La propia debilidad de las Fuerzas Armadas, corroídas por sus conflictos internos.",
+                "El peronismo, aliado a las Madres y Abuelas de plaza de mayo, se oponía a cualquier acuerdo con la dictadura saliente.",
+                "El radicalismo, con Alfonsín a la cabeza, aceptaba las políticas de olvido de los militares, pero nadie suponía que pudieran ganar las elecciones de 1983.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-transicion-sin-pacto"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, en el llamado “Cordobazo” de 1969, la movilización social se expresó de maneras diversas, por ejemplo en que:",
+              "o": [
+                "Los inmigrantes fueron actores centrales de las protestas, buscando inserción en el mundo laboral y facilitar la nacionalización.",
+                "El estallido fue precedido de una ola de protestas estudiantiles en diversas universidades, algunas de ellas fuertemente reprimidas.",
+                "Antes del estallido hubo una fuerte agitación sindical en Córdoba, donde se concentraban las principales fábricas de automotores.",
+                "La multitud, que controló varias horas la ciudad, tenía consignas precisas y líderes que coordinaban las acciones.",
+                "Las opciones correctas son la A y la C",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-cordobazo"
+            },
+            {
+              "e": "16",
+              "p": "Según Nicolás Simone, las reglas con las que fueron los partidos a las elecciones de 1983 se basaron en los acuerdos previos de 1973. Esto implicó que:",
+              "o": [
+                "Se volviera al sistema de colegio electoral y se eliminaran la segunda vuelta y la elección directa de senador.",
+                "Se eliminaran el sistema del colegio electoral, la segunda vuelta y las elecciones directas de senador.",
+                "Se aplicaran todas las medidas tomadas – y firmadas- en 1973 por el acuerdo de Perón con el líder radical Ricardo Balbín.",
+                "Se redujera la cantidad de senadores, pero se aumentara la de diputados.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-elecciones-1983"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, hacia 1973, la expansión económica en Argentina ya se acercaba a los límites de la capacidad instalada. Esto fue así porque:",
+              "o": [
+                "Había un faltante importante de inversión privada, que no había crecido sustancialmente.",
+                "Había un faltante importante de inversión pública, que no había crecido sustancialmente.",
+                "Pese al declamado liberalismo de los sectores propietarios, desde 1955 no habían disminuido ni los atributos del Estado ni su capacidad para definir las reglas del juego.",
+                "La fuerte conflictividad social no podría ser satisfecha con una fácil redistribución, según la fórmula histórica del peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-expansion-1973"
+            },
+            {
+              "e": "18",
+              "p": "El video sobre la Transición a la Democracia que se dedica al caso de Sudáfrica, se refiere a la Comisión de Verdad y Reconciliación que se diferencia de otras comisiones semejantes en América Latina y África. ¿Cuáles son estas diferencias?",
+              "o": [
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, basada en el principio de satisfacción mutua.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a las organizaciones no gubernamentales.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a los distintos partidos políticos como organismos de representación social.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, dando un papel preponderante a la Iglesia Católica como herramienta de reconciliación común.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "icse-p1-sudafrica-restaurativa"
+            }
+          ]
+        },
+        {
+          "id": "t5",
+          "n": "Tema 5",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según señala Patricio Gómez Talavera, existe una distinción fundamental: la que se efectúa entre Estado y Nación.",
+              "o": [
+                "Es falso, porque necesariamente todas las naciones poseen un Estado.",
+                "Es falso, porque ambos son conceptos intercambiables para las Ciencias Sociales.",
+                "Es verdadero, porque un Estado suele construirse a partir de la comunidad que implica una nación.",
+                "Es verdadero, porque el Estado es una estructura permanente y la nación es temporal."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-nacion-estado"
+            },
+            {
+              "e": "2",
+              "p": "Según el video, la Comisión de la Verdad y la Reconciliación (TRC), creada en Sudáfrica en 1995, surgió tras el colapso del comunismo y tuvo como propósito investigar y sancionar los crímenes cometidos por sus comisarios políticos.",
+              "o": [
+                "Es falso, porque la TRC fue una Comisión de la Verdad que surgió en Sudáfrica una vez abolido el régimen de apartheid, como una forma de brindar justicia restaurativa.",
+                "Es verdadero, porque la TRC era un organismo con potestades judiciales y jurisdiccionales que apuntaba a implementar una justicia penal que castigara a los culpables.",
+                "Es falso, porque en Sudáfrica, como en el resto de los países africanos, no hubo revisiones retrospectivas sobre las consecuencias de la Guerra Fría.",
+                "Es verdadero, porque las consecuencias del enfrentamiento entre las guerrillas comunistas sudafricanas y el Estado se resolvió con la investigación y castigo de los responsables políticos."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-sudafrica-restaurativa"
+            },
+            {
+              "e": "3",
+              "p": "Según Nadia Yannuzzi, las instituciones se desarrollan en un juego o una tensión entre la permanencia en el tiempo y el cambio.",
+              "o": [
+                "Es verdadero, porque eso también incluye una tensión entre la estructuración y la reestructuración.",
+                "Es verdadero, porque la permanencia en el tiempo y el cambio de las instituciones son dos dimensiones de la misma cuestión.",
+                "Es falso, porque las instituciones no tienden a ser estables, única forma en que pueden cumplir con sus funciones.",
+                "Es falso, porque la previsibilidad, presente y futura, las burocratiza y las debilita."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-instituciones-cambio"
+            },
+            {
+              "e": "4",
+              "p": "Según Enrique García, para estudiar el Estado liberal es necesario comprender primero el significado del concepto “liberal”, el cual se vincula específicamente con la economía y con la libertad del mercado como único asignador de recursos.",
+              "o": [
+                "Es falso, porque el liberalismo aparece ahí como algo más amplio, como una concepción cuestionadora del poder absoluto y como la filosofía política de la libertad y de la razón.",
+                "Es verdadero, porque el Estado liberal plantea la defensa de los llamados derechos sociales y colectivos.",
+                "Es falso, porque el liberalismo es el respeto irrestricto del proyecto de vida del prójimo, basado en el principio de no agresión y en defensa del derecho a la vida, a la libertad y a la propiedad.",
+                "Es verdadero, porque el predominio del mercado –y la competencia- dejan en un segundo lugar la intervención del Estado."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-liberalismo-politico"
+            },
+            {
+              "e": "5",
+              "p": "Según Laura Petrino, el siglo XXI inauguró una nueva oleada de líderes regionales populistas que gobernaron a más de dos tercios de los habitantes de América Latina.",
+              "o": [
+                "Es falso, porque el triunfo electoral del populismo en países desarrollados demostró que los liderazgos populistas latinoamericanos fueron casos aislados.",
+                "Es verdadero, porque ese auge se basó en el precio récord que tenían productos como el petróleo, los derivados de la minería, agrícolas y ganaderos en los primeros años de los 2000.",
+                "Es verdadero, porque se buscó unir a los pueblos más allá de quienes apoyaban a un líder y quienes se oponían.",
+                "Es falso, porque nunca el populismo llegó a tener tanto poder en la región."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-populismo-siglo21"
+            },
+            {
+              "e": "6",
+              "p": "En el artículo de Javier Hermo se afirma que en Argentina hubo varias matanzas, pero que estas fueron en el contexto de guerras externas o civiles, lo que no cuenta para definirlas como prácticas genocidas.",
+              "o": [
+                "Es falso, porque cada vez que hubo un golpe de Estado militar en la Argentina hubo prácticas genocidas.",
+                "Es verdadero, porque a diferencia de Europa, en la historia argentina no ha habido persecuciones sistemáticas ni campos de concentración.",
+                "Es verdadero, porque para que haya prácticas genocidas debe haber una guerra civil declarada, cosa que no ocurrió en el país.",
+                "Es falso, porque en diversos momentos de la historia argentina el Estado mantuvo prácticas genocidas para sostener su dominación."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-genocidio-practicas"
+            },
+            {
+              "e": "7",
+              "p": "Según Max Povse, no existe ninguna diferencia sustancial entre un cambio de gobierno y un cambio de régimen, ya que ambos conceptos se refieren exactamente al mismo tipo de transformación política y administrativa dentro de un país.",
+              "o": [
+                "Es verdadero, porque el gobierno es el núcleo del régimen, y al cambiar uno, cambia el otro.",
+                "Es verdadero, porque en la historia argentina cada vez que cambió el gobierno también cambió el régimen político.",
+                "Es falso, porque un mismo régimen puede atravesar múltiples gobiernos sin modificar sus rasgos esenciales de organización del poder.",
+                "Es falso, porque ambos conceptos sólo difieren en el nombre, pero en la práctica significan lo mismo dentro del análisis político."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimen"
+            },
+            {
+              "e": "8",
+              "p": "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff sobre la figura de Alfonsín, particularmente en su etapa de presidente de la Nación, el entrevistado considera a 1985 un punto de inflexión. ¿Por qué elige ese año?",
+              "o": [
+                "Porque en 1985 se produjo el pacto con el peronismo renovador y la implementación del Plan Primavera, un exitoso programa de estabilización económica implementado por el gobierno radical.",
+                "Porque coincide con la película que lleva como título ese mismo año (“1985”) y que compitió por los premios Oscar, trayendo nuevamente al debate público la figura de Alfonsín y su legado político.",
+                "Porque el partido radical del presidente Alfonsín ganó las elecciones legislativas de ese año.",
+                "Porque aúna el año en que se concretó el juicio a las juntas militares, como gran momento de la institucionalidad democrática, con el momento de mayor éxito del Plan Austral, un programa de estabilización económica implementado por el gobierno radical.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-1985"
+            },
+            {
+              "e": "9",
+              "p": "Entre mediados del siglo XX e inicios del siglo XXI hubo numerosos cambios de Gobierno y de régimen político en Argentina. Algunos ejemplos son:",
+              "o": [
+                "El fin del Gobierno de Héctor Cámpora, que por su renuncia anticipada generó un cambio de régimen político.",
+                "La reelección de Alfonsín, que generó un cambio de régimen político porque fue intermediada por la reforma constitucional de 1994.",
+                "El fin del tercer gobierno de Perón, por su muerte, que no generó un cambio de régimen político al ser reemplazado por su vicepresidente.",
+                "El paso del Gobierno de Alfonsín al de Carlos Menem, que no generó un cambio de régimen a pesar de integrar ambos partidos diferentes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-cambios-autoridades"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, el gobierno de la transición iniciada en 1983 debió enfrentarse a un importante obstáculo: empresarios y sindicalistas coincidieron en hacer fracasar la política de concertación sectorial a la que habían apostado el entonces presidente Alfonsín y su equipo económico. Esto ocurrió cuando:",
+              "o": [
+                "La CGT se movilizó tanto por razones sindicales como políticas, pues era la columna vertebral de la oposición peronista.",
+                "Los empresarios cuestionaron el gasto y la intervención estatal, aunque con la salvedad en las políticas que los beneficiaban directamente.",
+                "Los empresarios nacionales se opusieron a la apertura total de las importaciones que planteaba el ministro de economía de Alfonsín.",
+                "Los sindicalistas encontraron en la movilización piquetera una inesperada aliada para suplantar la falta de entusiasmo de los propios.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-concertacion-83"
+            },
+            {
+              "e": "11",
+              "p": "Según Verónica Beyreuther, la coacción pura puede servir inicialmente para mantener el dominio sobre una sociedad, pero al transcurrir el tiempo, se hace necesario algún grado de consenso. Esto se evidencia en que:",
+              "o": [
+                "Las dictaduras siempre requieren de una legitimidad electoral que puede legitimar el uso de la fuerza para garantizar su dominio sobre una sociedad con el paso del tiempo.",
+                "Para lograr ese consenso, las dictaduras generalmente apelan a representar un supuesto interés público.",
+                "El problema de la duración de una dictadura está unido en forma inseparable al de la legitimidad que la sostiene.",
+                "Las dictaduras buscan sostenerse siempre en un consenso mayoritario, sobre todo si ya no existe la causa que le dio origen.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-dictadura-legitimidad"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, la Iglesia Católica evolucionó hacia una creciente hostilidad al Gobierno radical encabezado desde 1983 por Alfonsín. Esto fue así porque:",
+              "o": [
+                "La Iglesia estaba molesta por su escasa injerencia –al menos, menor a sus aspiraciones– en la asistencia social y en la educación pública.",
+                "La Iglesia estaba molesta por su escasa injerencia –al menos, menor a sus aspiraciones– en el área de la enseñanza privada.",
+                "La Iglesia estaba molesta por el proyecto de despenalización del aborto que impulsaba el gobierno y que luego fue rechazado en el Congreso.",
+                "La Iglesia estaba molesta por el tono laico del discurso cultural que circulaba en instituciones y medios del Estado.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-iglesia-laicidad"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, los inicios de la represión ilegal de las Fuerzas Armadas no fueron con el golpe militar de 1976, sino que ya se observaban en el gobierno peronista que encabezó Isabel Perón entre 1974 y 1976. Esto se evidencia en que:",
+              "o": [
+                "Las guerrillas vinculadas al partido radical y a su líder, Raúl Alfonsín, se hicieron fuertes en el interior de la Provincia de Buenos Aires.",
+                "Con la muerte de Perón, los grupos guerrilleros optaron por pasar a la clandestinidad y potenciar la violencia política.",
+                "Desde febrero de 1975, el Ejército, convocado por Isabel Perón, asumió la tarea de reprimir a la guerrilla en Tucumán.",
+                "La represión en el sur del país en 1975, conocida como la “Patagonia Rebelde”, fue el primer acto en que las Fuerzas Armadas aplicaron la represión ilegal para aniquilar a las guerrillas de izquierda.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-represion-pre76"
+            },
+            {
+              "e": "14",
+              "p": "Según Luis A. Romero, la ley del divorcio de 1987 se aprobó durante el gobierno del radical Raúl Alfonsín luego de una breve, pero muy intensa discusión. Esta intensidad estuvo relacionada con que:",
+              "o": [
+                "Fue el punto culminante de la modernización cultural iniciada en 1983.",
+                "Fue el momento en que se formalizó la ruptura de relaciones diplomáticas entre Argentina y el Vaticano.",
+                "Los sectores tradicionales de la Iglesia católica se opusieron apelando a mecanismos habituales de presión y a otros más novedosos.",
+                "Los sectores más tradicionales del partido radical intentaron oponerse bloqueando su tratamiento en el congreso.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-divorcio-87"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, el año 1987 fue decisivo para el gobierno del presidente radical Raúl Alfonsín. Eso fue así porque:",
+              "o": [
+                "En un clima de deterioro económico agudizado y de inflación creciente, el oficialismo fue derrotado en las elecciones legislativas de septiembre de 1987.",
+                "Alfonsín perdió la exclusividad del liderazgo sobre la civilidad.",
+                "Alfonsín anunció el proyecto de reforma constitucional que desembocaría en su reelección.",
+                "Jaqueado por los militares llamados “carapintadas”, decretó el indulto a los miembros de las juntas militares de la última dictadura.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-anio-87"
+            },
+            {
+              "e": "16",
+              "p": "Según Enrique García, el Estado de bienestar o benefactor se desarrolló en Occidente a partir de 1945, es decir, con posterioridad a la Segunda Guerra Mundial (1939-1945). Esto ocurrió porque:",
+              "o": [
+                "El Estado de bienestar fue la primera organización estatal exitosa por fuera del capitalismo que triunfó en Occidente.",
+                "El Estado de bienestar fue consecuencia del enorme éxito de la economía soviética, y por ello fue imitado por Occidente.",
+                "Este tipo de Estado se conformó para dar solución a los efectos económicos y sociales que la guerra había provocado.",
+                "Con este tipo de Estado se buscaba retomar el rumbo del crecimiento y de la estabilidad social ante el avance del comunismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-bienestar-1945"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, muerto Perón y sin rumbo el país bajo la presidencia de su viuda, los militares comenzaron a prepararse para el golpe ya desde julio de 1975. Esto se vio en que:",
+              "o": [
+                "El general Videla, nuevo comandante en jefe, se negaba a respaldar políticamente al gobierno.",
+                "El general Videla se negaba a brindar apoyo logístico en los combates contra las guerrillas para desgastar al gobierno.",
+                "El general Videla le puso plazos al gobierno en crisis -como tantas veces habían hecho antes los militares-.",
+                "El general Videla esperaba que la crisis económica y la política sumadas consumaran el deterioro del gobierno y preparó su reemplazo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-preparacion-golpe"
+            },
+            {
+              "e": "18",
+              "p": "En 1985, el entonces presidente Raúl Alfonsín propuso un plan económico llamado “Austral”. Según Romero sus medidas apuntaban a:",
+              "o": [
+                "Crear las condiciones económicas para poder proyectar transformaciones más profundas.",
+                "Superar la coyuntura adversa y estabilizar la economía en el corto plazo a través de programa de reformas por shock.",
+                "El objetivo central era detener la inflación, reduciendo las expectativas inflacionarias que la impulsaban.",
+                "Aumentar la emisión monetaria y los gastos del Estado para reactivar el consumo y con esto a la economía.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-plan-austral"
+            }
+          ]
+        },
+        {
+          "id": "t6",
+          "n": "Tema 6",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "En el artículo de Javier Hermo se afirma que en Argentina hubo varias matanzas, pero que éstas fueron en el contexto de guerras externas o civiles, lo que no cuenta para definirlas como prácticas genocidas.",
+              "o": [
+                "Es falso, porque cada vez que hubo un golpe de Estado militar en la Argentina, hubo prácticas genocidas.",
+                "Es verdadero, porque a diferencia de Europa, en la historia argentina no existieron persecuciones sistemáticas ni campos de concentración.",
+                "Es falso, porque en diversos momentos de la historia argentina el Estado mantuvo prácticas genocidas para sostener su dominación.",
+                "Es verdadero, porque para que haya prácticas genocidas debe haber una guerra civil declarada, cosa que no ocurrió en el país."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-genocidio-practicas"
+            },
+            {
+              "e": "2",
+              "p": "Según Laura Petrino, el siglo XXI inauguró una nueva oleada de líderes regionales populistas que gobernaron a más de dos tercios de los habitantes de América Latina.",
+              "o": [
+                "Es verdadero, porque ese auge se basó en el precio récord que tenían productos como el petróleo, los derivados de la minería, agrícolas y ganaderos en los primeros años de los 2000.",
+                "Es falso, porque nunca el populismo llegó a tener tanto poder en la región.",
+                "Es verdadero, porque se buscó unir a los pueblos más allá de quienes apoyaban a un líder y quienes se oponían.",
+                "Es falso, porque el triunfo electoral del populismo en países desarrollados demostró que los liderazgos populistas latinoamericanos fueron casos aislados."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-populismo-siglo21"
+            },
+            {
+              "e": "3",
+              "p": "Según Max Povse, no existe ninguna diferencia sustancial entre un cambio de gobierno y un cambio de régimen, ya que ambos conceptos se refieren exactamente al mismo tipo de transformación política y administrativa dentro de un país.",
+              "o": [
+                "Es verdadero, porque en la historia argentina cada vez que cambió el gobierno también cambió el régimen político.",
+                "Es falso, porque un mismo régimen puede atravesar múltiples gobiernos sin modificar sus rasgos esenciales de organización del poder.",
+                "Es verdadero, porque el gobierno es el núcleo del régimen, y al cambiar uno, cambia el otro.",
+                "Es falso, porque ambos conceptos sólo difieren en el nombre, pero en la práctica significan lo mismo dentro del análisis político."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimen"
+            },
+            {
+              "e": "4",
+              "p": "Según Enrique García, para estudiar el Estado liberal es necesario comprender primero el significado del concepto “liberal”, el cual se vincula específicamente con la economía y con la libertad del mercado como único asignador de recursos.",
+              "o": [
+                "Es verdadero, porque el predominio del mercado –y la competencia- dejan en un segundo lugar la intervención del Estado.",
+                "Es falso, porque el liberalismo aparece ahí como algo más amplio, como una concepción cuestionadora del poder absoluto y como la filosofía política de la libertad y de la razón.",
+                "Es verdadero, porque el Estado liberal plantea la defensa de los llamados derechos sociales y colectivos.",
+                "Es falso, porque el liberalismo es el respeto irrestricto del proyecto de vida del prójimo, basado en el principio de no agresión y en defensa del derecho a la vida, a la libertad y a la propiedad."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-liberalismo-politico"
+            },
+            {
+              "e": "5",
+              "p": "Según el video, la Comisión de la Verdad y la Reconciliación (TRC), creada en Sudáfrica en 1995, surgió tras el colapso del comunismo y tuvo como propósito investigar y sancionar los crímenes cometidos por sus comisarios políticos.",
+              "o": [
+                "Es falso, porque en Sudáfrica, como en el resto de los países africanos, no hubo revisiones retrospectivas sobre las consecuencias de la Guerra Fría.",
+                "Es verdadero, porque las consecuencias del enfrentamiento entre las guerrillas comunistas sudafricanas y el Estado se resolvió con la investigación y castigo de los responsables políticos.",
+                "Es verdadero, porque la TRC era un organismo con potestades judiciales y jurisdiccionales que apuntaba a implementar una justicia penal que castigara a los culpables.",
+                "Es falso, porque la TRC fue una Comisión de la Verdad que surgió en Sudáfrica una vez abolido el régimen de apartheid, como una forma de brindar justicia restaurativa."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-sudafrica-restaurativa"
+            },
+            {
+              "e": "6",
+              "p": "Según señala Patricio Gómez Talavera, existe una distinción fundamental: la que se efectúa entre Estado y Nación.",
+              "o": [
+                "Es falso, porque ambos son conceptos intercambiables para las Ciencias Sociales.",
+                "Es verdadero, porque un Estado suele construirse a partir de la comunidad que implica una nación.",
+                "Es falso, porque necesariamente todas las naciones poseen un Estado.",
+                "Es verdadero, porque el Estado es una estructura permanente y la nación es temporal."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-nacion-estado"
+            },
+            {
+              "e": "7",
+              "p": "Según Nadia Yannuzzi, las instituciones se desarrollan en un juego o una tensión entre la permanencia en el tiempo y el cambio.",
+              "o": [
+                "Es verdadero, porque las instituciones se desarrollan en un juego o una tensión entre la estructuración y la reestructuración.",
+                "Es verdadero, porque la permanencia en el tiempo y el cambio de las instituciones son dos dimensiones de la misma cuestión.",
+                "Es falso, porque las instituciones no tienden a ser estables, única forma en que pueden cumplir con sus funciones.",
+                "Es falso, porque la previsibilidad, presente y futura, las burocratiza y las debilita."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-instituciones-cambio"
+            },
+            {
+              "e": "8",
+              "p": "Según Luis A. Romero, el año 1987 fue decisivo para el gobierno del presidente radical Raúl Alfonsín. Eso fue así porque:",
+              "o": [
+                "En un clima de deterioro económico agudizado y de inflación creciente, el oficialismo fue derrotado en las elecciones legislativas de septiembre de 1987.",
+                "Alfonsín anunció el proyecto de reforma constitucional que desembocaría en su reelección.",
+                "Alfonsín perdió la exclusividad del liderazgo sobre la civilidad.",
+                "Jaqueado por los militares llamados “carapintadas”, decretó el indulto a los miembros de las juntas militares de la última dictadura.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-anio-87"
+            },
+            {
+              "e": "9",
+              "p": "Según Romero, la Iglesia Católica evolucionó hacia una creciente hostilidad al Gobierno radical encabezado desde 1983 por Alfonsín. Esto fue así porque:",
+              "o": [
+                "La Iglesia estaba molesta por su escasa injerencia –al menos, menor a sus aspiraciones–en el área de la enseñanza privada.",
+                "La Iglesia estaba molesta por su escasa injerencia –al menos, menor a sus aspiraciones–en la asistencia social y en la educación pública.",
+                "La Iglesia estaba molesta por el proyecto de despenalización del aborto que impulsaba el gobierno y que luego fue rechazado en el Congreso.",
+                "La Iglesia estaba molesta por el tono laico del discurso cultural que circulaba en instituciones y medios del Estado.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-iglesia-laicidad"
+            },
+            {
+              "e": "10",
+              "p": "Entre mediados del siglo XX e inicios del siglo XXI hubo en Argentina numerosos cambios de Gobiernos y de régimen político. Algunos ejemplos fueron:",
+              "o": [
+                "El fin del tercer gobierno de Perón, por su muerte, que no generó un cambio de régimen político al ser reemplazado por su vicepresidente.",
+                "El fin del Gobierno de Héctor Cámpora por su renuncia anticipada, que generó un cambio de régimen político.",
+                "La reelección de Alfonsín, que generó un cambio de régimen político porque fue intermediada por la reforma constitucional de 1994.",
+                "El paso del Gobierno de Alfonsín al de Carlos Menem, que no generó un cambio de régimen a pesar de integrar ambos partidos diferentes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-cambios-autoridades"
+            },
+            {
+              "e": "11",
+              "p": "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff sobre la figura de Raúl Alfonsín, particularmente en su etapa de presidente de la Nación, el entrevistado considera a 1985 un punto de inflexión. ¿Por qué elige ese año?",
+              "o": [
+                "Porque aúna el año en que se concretó el juicio a las juntas militares como gran momento de la institucionalidad democrática, con el momento de mayor éxito del Plan Austral, un programa de estabilización económica implementado por el gobierno radical.",
+                "Porque coincide con la película que lleva como título ese mismo año (“1985”) y que compitió por los premios Oscar, trayendo nuevamente al debate público la figura de Alfonsín y su legado político.",
+                "Porque el partido radical del presidente Alfonsín ganó las elecciones legislativas de ese año.",
+                "Porque en 1985 se produjo el pacto con el peronismo renovador y la implementación del Plan Primavera, un exitoso programa de estabilización económica implementado por el gobierno radical.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-1985"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, los inicios de la represión ilegal de las Fuerzas Armadas no fueron con el golpe militar de 1976, sino que ya se observaban en el gobierno peronista que encabezó Isabel Perón entre 1974 y 1976. Esto se evidencia en que:",
+              "o": [
+                "Desde febrero de 1975, el Ejército, convocado por Isabel Perón, asumió la tarea de reprimir a la guerrilla en Tucumán.",
+                "Con la muerte de Perón, los grupos guerrilleros optaron por pasar a la clandestinidad y potenciar la violencia política.",
+                "Las guerrillas vinculadas al partido radical y a su líder, Raúl Alfonsín, se hicieron fuertes en el interior de la Provincia de Buenos Aires.",
+                "La represión en el sur del país en 1975, conocida como la “Patagonia Rebelde”, fue el primer acto en que las Fuerzas Armadas aplicaron la represión ilegal para aniquilar a las guerrillas de izquierda.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-represion-pre76"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, el gobierno de la transición iniciada en 1983 debió enfrentarse a un importante obstáculo: empresarios y sindicalistas coincidieron en hacer fracasar la política de concertación sectorial a la que habían apostado el entonces presidente Alfonsín y su equipo económico. Esto ocurrió cuando:",
+              "o": [
+                "Los empresarios nacionales se opusieron a la apertura total de las importaciones que planteaba el ministro de economía de Alfonsín.",
+                "Los sindicalistas encontraron en la movilización piquetera una inesperada aliada para suplantar la falta de entusiasmo de los propios.",
+                "La CGT se movilizó tanto por razones sindicales como políticas, pues era la columna vertebral de la oposición peronista.",
+                "Los empresarios cuestionaron el gasto y la intervención estatal, aunque con la salvedad en las políticas que los beneficiaban directamente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-concertacion-83"
+            },
+            {
+              "e": "14",
+              "p": "Según Enrique García, el Estado de bienestar o benefactor, se desarrolló en Occidente a partir de 1945, es decir, con posterioridad a la Segunda Guerra Mundial (1939-1945). Esto ocurrió porque:",
+              "o": [
+                "El Estado de bienestar fue la primera organización estatal exitosa por fuera del capitalismo que triunfó en Occidente.",
+                "Con este tipo de Estado se buscaba retomar el rumbo del crecimiento y de la estabilidad social ante el avance del comunismo.",
+                "Este tipo de Estado se conformó para dar solución a los efectos económicos y sociales que la guerra había provocado.",
+                "El Estado de bienestar fue consecuencia del enorme éxito de la economía soviética, y por ello fue imitado por Occidente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-bienestar-1945"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, la ley del divorcio de 1987 se aprobó durante el gobierno del radical Raúl Alfonsín luego de una breve, pero muy intensa, discusión. Esta intensidad estuvo relacionada con que:",
+              "o": [
+                "Los sectores más tradicionales del partido radical intentaron oponerse, bloqueando su tratamiento en el congreso.",
+                "Fue el momento en que se formalizó la ruptura de relaciones diplomáticas entre Argentina y el Vaticano.",
+                "Los sectores tradicionales de la Iglesia católica se opusieron, apelando a mecanismos habituales de presión y a otros más novedosos.",
+                "Fue el punto culminante de la modernización cultural iniciada en 1983.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-divorcio-87"
+            },
+            {
+              "e": "16",
+              "p": "Según Verónica Beyreuther, la coacción pura puede servir inicialmente para mantener el dominio sobre una sociedad, pero, al transcurrir el tiempo, se hace necesario algún grado de consenso. Esto se evidencia en que:",
+              "o": [
+                "Las dictaduras, siempre requieren de una legitimidad electoral que puede legitimar el uso de la fuerza para garantizar su dominio sobre una sociedad con el paso del tiempo.",
+                "Para lograr ese consenso, las dictaduras generalmente apelan a representar un supuesto interés público.",
+                "El problema de la duración de una dictadura está unido en forma inseparable al de la legitimidad que la sostiene.",
+                "Las dictaduras buscan sostenerse siempre en un consenso mayoritario, sobre todo si ya no existe la causa que le dio origen.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-dictadura-legitimidad"
+            },
+            {
+              "e": "17",
+              "p": "En 1985, el entonces presidente Raúl Alfonsín propuso un plan económico llamado “Austral”. Según Romero sus medidas apuntaban a:",
+              "o": [
+                "Crear las condiciones económicas para poder proyectar transformaciones más profundas.",
+                "Superar la coyuntura adversa y estabilizar la economía en el corto plazo a través de programa de reformas por shock.",
+                "Aumentar la emisión monetaria y los gastos del Estado para reactivar el consumo y con esto a la economía.",
+                "El objetivo central era detener la inflación, reduciendo las expectativas inflacionarias que la impulsaban.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-plan-austral"
+            },
+            {
+              "e": "18",
+              "p": "Según Romero, muerto Perón y sin rumbo el país bajo la presidencia de su viuda, los militares comenzaron a prepararse para el golpe ya desde julio de 1975. Esto se vio en que:",
+              "o": [
+                "El general Videla, nuevo comandante en jefe, se negaba a respaldar políticamente al gobierno.",
+                "El general Videla le puso plazos al gobierno en crisis -como tantas veces habían hecho antes los militares-.",
+                "El general Videla se negaba a brindar apoyo logístico en los combates contra las guerrillas para desgastar al gobierno.",
+                "El general Videla esperaba que la crisis económica y la política sumadas consumaran el deterioro del gobierno y preparó su reemplazo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-preparacion-golpe"
+            }
+          ]
+        },
+        {
+          "id": "t7",
+          "n": "Tema 7",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Romero, en 1987 un grupo de oficiales encabezado por el teniente coronel Aldo Rico se acuarteló en Campo de Mayo, en un intento clásico de golpe de Estado como los que habían sido frecuentes en la Argentina del siglo XX.",
+              "o": [
+                "Es falso, porque buscaban cambiar la política del gobierno radical hacia las Malvinas, que consideraban “entreguista”.",
+                "Es falso, porque los militares no cuestionaban el orden constitucional, sino que reclamaban soluciones al problema judicial de algunos oficiales.",
+                "Es verdadero, porque contaban con el respaldo de sectores civiles, que normalmente eran los motores de los golpes.",
+                "Es verdadero, porque los militares consideraban que el gobierno de Alfonsín los perseguía con medidas como el juicio a las juntas."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-aldo-rico"
+            },
+            {
+              "e": "2",
+              "p": "Según Romero, la Iglesia cambió su actitud, que al principio había sido complaciente con el último gobierno militar, a medida que este comenzó a mostrar signos de debilidad.",
+              "o": [
+                "Es verdadero, ya que el gobierno estableció una asociación muy estrecha con la jerarquía eclesiástica.",
+                "Es falso, porque la iglesia católica tenía más vínculos con el peronismo que había sido derrocado por el golpe militar.",
+                "Es verdadero, porque los militares que dominaban el gobierno inicialmente eran liberales y tenían una mirada laica de los asuntos públicos.",
+                "Es falso, porque la Iglesia nunca aceptó los asesinatos de varios religiosos -entre ellos el obispo Enrique Angelelli, de La Rioja-."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-iglesia-dictadura",
+              "d": "Clave a revisar: el HTML selecciona una asociación estrecha entre dictadura y jerarquía eclesiástica, pero esa justificación no explica el cambio posterior de actitud que pregunta el enunciado. Verificá esta relación con el texto de Romero; se conserva la clave de origen."
+            },
+            {
+              "e": "3",
+              "p": "Según Romero, durante el gobierno de Raúl Alfonsín (1983-1989) la cuestión económica, que al principio pareció mucho menos urgente que los problemas políticos, era extremadamente grave y condicionó las políticas del gobierno.",
+              "o": [
+                "Es verdadero, porque la inflación, un problema endémico, se había acelerado desde mediados de 1982 y, junto con el déficit fiscal y la deuda externa, que seguía creciendo, constituía la parte más visible del problema.",
+                "Es falso, porque el Estado salió del paso sin emitir dinero, bajó la inflación y subió la recaudación fiscal con el llamado Plan Austral.",
+                "Es verdadero, porque hasta el último día de su gestión, Alfonsín afrontó problemas políticos que venían de la dictadura, ya que la opinión pública presionaba para castigar las consecuencias de la guerra de Malvinas y las violaciones a los DD.HH.",
+                "Es falso, porque hasta el último día de su gestión, Alfonsín se benefició del arreglo de la deuda externa que había hecho el gobierno anterior, lo que le permitió contar con capitales frescos para realizar las reformas necesarias y apostar al crecimiento."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-economia"
+            },
+            {
+              "e": "4",
+              "p": "Según Romero, para 1975 no estaban dadas las condiciones para la aceptación social de un golpe de Estado, aunque prometiera restablecer el orden y asegurar el monopolio estatal de la fuerza.",
+              "o": [
+                "Es verdadero, porque la sociedad argentina se opuso frontalmente al golpe de Estado de 1976, desde el primer momento en que apenas era un rumor en la prensa.",
+                "Es falso, porque la sociedad argentina apoyó el golpe de Estado de 1976, al punto que el Gobierno militar triunfó en el referéndum convocado en 1978, después del Mundial, para sancionar una nueva constitución y mantenerse en el poder.",
+                "Es verdadero, porque desde 1974 las organizaciones de derechos humanos como las Madres y Abuelas de Plaza de Mayo venían alertando del desastre que implicaría dejar que los militares se apropien del poder e instauren una dictadura.",
+                "Es falso, porque la crisis de autoridad del Gobierno, las luchas facciosas, la muerte presente cotidianamente y el terror de la violencia política crearon un ambiente que fue aprovechado por los militares para tomar el poder sin contratiempos."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-condiciones-golpe"
+            },
+            {
+              "e": "5",
+              "p": "Cuando el ministro de Economía de la última dictadura aplicó sus ideas con fuerza (1976-1981), las políticas destinadas a reducir el rol del Estado generaron muchas tensiones en el gobierno militar. Según Romero, por eso, esas medidas terminaron siendo ambiguas y contradictorias.",
+              "o": [
+                "Es verdadero, porque entre los militares, había muchos que adherían a las ideas socialdemócratas.",
+                "Es verdadero, porque entre los militares, había muchos que adherían a las ideas nacionalistas y dirigistas.",
+                "Es falso, porque los militares eran anticomunistas.",
+                "Es falso, porque los militares eran liberales."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-resistencias-achicar-estado"
+            },
+            {
+              "e": "6",
+              "p": "Según Romero, con la toma de las Malvinas en 1982 el gobierno militar se lanzó al juego grande del Primer Mundo sin respaldos consistentes, e ignorando sus reglas.",
+              "o": [
+                "Es verdadero, porque el gobierno confió en el apoyo del bloque soviético, sin intentar sumar otros apoyos.",
+                "Es falso, porque la mayoría de los países europeos, sobre todo los de la Unión Europea, apoyaron la causa argentina.",
+                "Es verdadero, porque suponían que la cuestión se resolvería por una negociación, de modo que la reacción inglesa resultó inesperada.",
+                "Es falso, porque el gobierno se fortaleció invocando el derecho internacional sobre el conflicto."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-malvinas-juego-grande"
+            },
+            {
+              "e": "7",
+              "p": "En marzo de 1971 el Gral. Lanusse fue designado como nuevo presidente, en reemplazo del Gral. Roberto M. Levingston. A pesar del cambio, según sostiene Luis A. Romero, no se produjo ningún tipo de modificación en la situación política de la Revolución Argentina.",
+              "o": [
+                "Es falso, porque se resolvió el fin de la proscripción que pesaba sobre el peronismo y de las penas que pesaban sobre Juan Perón, quien pudo volver del exilio, reorganizar su fuerza política y convertirse en el sucesor inmediato de Lanusse.",
+                "Es verdadero, porque el nuevo presidente mantuvo las mismas decisiones políticas que habían establecido sus predecesores, los Generales Onganía y Levingston.",
+                "Es verdadero, porque el único interés del nuevo gobierno estuvo puesto en la resolución de los conflictos económicos que se habían generado como consecuencia del aumento del endeudamiento externo.",
+                "Es falso, porque una de las primeras medidas fue el restablecimiento de la actividad político-partidaria y la convocatoria a elecciones generales, supeditado a un Gran Acuerdo Nacional."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-lanusse-apertura"
+            },
+            {
+              "e": "8",
+              "p": "Según Romero, el llamado \"rodrigazo\" durante el gobierno de la viuda de Perón, había desatado una crisis económica que hasta el final resultó imposible de dominar. Esto fue así porque se combinaron:",
+              "o": [
+                "La oposición del congreso para sancionar leyes que ayudaran a paliar la crisis.",
+                "Aparición de los mecanismos de indexación y, en general, escasas posibilidades para controlar la coyuntura desde el poder.",
+                "Saqueos en el conurbano bonaerense.",
+                "Una inflación galopante y “corrida\" hacia el dólar.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-rodrigazo"
+            },
+            {
+              "e": "9",
+              "p": "En la segunda mitad del siglo XX hubo numerosos cambios de gobierno y de régimen político. Algunos ejemplos son:",
+              "o": [
+                "La reelección de Alfonsín, que generó un cambio de régimen político ya que fue luego del cambio constitucional de 1984.",
+                "El paso del gobierno de Lastiri a Perón, que no fue un cambio de régimen político por ser un traspaso del poder entre peronistas.",
+                "El paso del gobierno de Levingston al de Lanusse, que no generó un cambio de régimen político a pesar de las diferencias que los separaban.",
+                "El paso del gobierno de Lanusse a Cámpora, que generó un cambio de un régimen político no democrático a otro democrático.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-cambios-autoridades"
+            },
+            {
+              "e": "10",
+              "p": "Según Nadia Yannuzzi, la sociología moderna comienza a desarrollarse a finales del siglo XIX en Europa mientras el Estado liberal se consolidaba como forma de organización política por excelencia. Esto se vio en que:",
+              "o": [
+                "La sociología moderna comienza a reflexionar sobre cómo las minorías sexuales podían generar alternativas a las políticas existentes y de qué modo enfrentar las políticas conservadoras.",
+                "La sociología moderna comienza a reflexionar en un contexto que era muy complejo, porque el orden social era cuestionado por nuevos actores sociales, entre ellos el movimiento obrero, y por nuevas ideas políticas, como el comunismo y el anarquismo.",
+                "La sociología moderna comienza a reflexionar apenas el Estado fascista puso en cuestión y bajo ataque a la democracia en Europa.",
+                "La sociología moderna comienza a reflexionar sobre qué es lo que mantiene a los individuos unidos o, cómo es posible el orden social.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-sociologia-orden"
+            },
+            {
+              "e": "11",
+              "p": "Según lo planteado por Patricio Gómez Talavera, el Estado es uno de los protagonistas clave de los estudios sociales. Esto se observa sin importar la disciplina, la nacionalidad del especialista que lo estudia o el momento histórico que se investigue. Esto ocurre porque:",
+              "o": [
+                "El Estado existió siempre en la vida humana y eso mismo hace que su estudio sea imprescindible en el marco de las Ciencias Sociales.",
+                "El Estado genera diferenciaciones entre los habitantes de una sociedad en un nivel de mayor complejidad social.",
+                "Antes que las sociedades conformaran un Estado, las personas vivían en lo que se ha dado en llamar “estado de naturaleza”. Esto significa que no había leyes que organizaran la vida humana y el más fuerte lograba imponerse una y otra vez, sobre el más débil.",
+                "El Estado pasa a ser el poder que define las reglas de juego, por lo tanto, genera diferenciaciones entre los habitantes de esa sociedad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-hobbes-orden"
+            },
+            {
+              "e": "12",
+              "p": "Según Laura Petrino, la extensa capacidad de adjetivación que presenta el concepto de “populismo” torna difusos los límites de su definición y dificulta su estudio. Esto ocurre porque:",
+              "o": [
+                "A lo largo de la historia, una gran variedad de líderes y movimientos sociales y políticos fueron denominados de esta forma, ya que su origen se remonta a tiempos de griegos y romanos.",
+                "A lo largo de la historia, una gran variedad de líderes y movimientos sociales y políticos fueron denominados de esta forma, ya que solo existían visiones negativas sobre el fenómeno.",
+                "A lo largo de la historia, una gran variedad de líderes y movimientos sociales y políticos fueron denominados de esta forma sin explicar qué cuestiones lo justificaban.",
+                "A lo largo de la historia, una gran variedad de líderes y movimientos sociales y políticos fueron denominados de esta forma, dificultando su conceptualización.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-populismo-adjetivos"
+            },
+            {
+              "e": "13",
+              "p": "Según Verónica Beyreuther, en una dictadura, el Poder judicial no puede actuar independientemente, ya que los jueces son designados y removidos según la voluntad del dictador y de su grupo para garantizar la arbitrariedad e impunidad de sus actos. Por eso:",
+              "o": [
+                "En la Argentina, para remover a los jueces de la Corte Suprema, debe realizarse un juicio político donde el Ejecutivo es la parte acusadora y el Legislativo la que juzga según lo previsto en la Constitución.",
+                "En los regímenes democráticos, los jueces son designados y removidos según lo indican las leyes de cada país y en cada nivel del Estado (nacional o provincial), pero siempre respondiendo a leyes escritas y consensuadas.",
+                "En la Argentina, para remover a los jueces de la Corte Suprema, debe realizarse un juicio político donde la Cámara de Diputados es la acusadora, y la de senadores la que juzga, según lo previsto en la Constitución.",
+                "En la Argentina, para remover a los jueces de la Corte Suprema, debe realizarse un juicio público y que la sociedad y el pueblo manifiesten su oposición a las autoridades judiciales.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-independencia-judicial"
+            },
+            {
+              "e": "14",
+              "p": "Según Margarita Batlle, en ámbitos académicos, el concepto “Democracia” se ha ido complejizando con una gran cantidad de significados acuñados desde diversas perspectivas analíticas. Esto es así porque:",
+              "o": [
+                "El término “democracia” es utilizado tanto en las Ciencias Sociales como por la opinión pública y los medios de comunicación a la hora de describir y explicar el funcionamiento de los sistemas políticos contemporáneos.",
+                "La proliferación de fórmulas alternativas, incluso contradictorias, sobre qué es o debería ser una democracia, llevó a complejizar significativamente el concepto y su uso.",
+                "Todos estos conceptos apuntan a diferentes tipos de democracias que tienen como denominador común (a veces el único) la formación de gobiernos populares cuyo líder responda a los intereses del pueblo.",
+                "La crisis de la democracia ha llevado a una disminución drástica de fórmulas conceptuales alternativas sobre qué es o debería ser una democracia y eso aumentó su complejidad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-democracia-polisemia"
+            },
+            {
+              "e": "15",
+              "p": "En el video sobre Transición a la Democracia referido a Conflictos Armados y Transiciones Políticas, se explica que la primera transición —tras un conflicto armado y la derrota total de un régimen que había violado los derechos humanos— tuvo lugar después de la Segunda Guerra Mundial. Esto se observó cuando:",
+              "o": [
+                "Los países aliados aceptaron la rendición incondicional de la Alemania Nazi, cuyos principales jerarcas fueron juzgados y condenados.",
+                "En un modelo similar al de Alemania, pero poco tiempo después, los países aliados aceptaron la rendición incondicional del Imperio japonés, y que varios de sus principales jerarcas fueran juzgados y condenados.",
+                "En un modelo similar al de Alemania, pero bastante tiempo después, los países aliados aceptaron la rendición incondicional de España, y que varios de sus principales jerarcas, entre ellos Francisco Franco, fueran juzgados y condenados.",
+                "En un modelo similar al de Alemania, pero poco tiempo después, los países aliados aceptaron la rendición incondicional de Italia y que Benito Mussolini fuera juzgado y condenado.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-derrota-exterior"
+            },
+            {
+              "e": "16",
+              "p": "Según Nicolás Simone, la transición es un lapso de tiempo que comienza cuando un régimen no democrático de un país comienza a retirarse y termina cuando un régimen democrático se impone ya sin riesgo de ser derrocado. En Argentina eso se tradujo en que:",
+              "o": [
+                "La recuperación de las Islas Malvinas en 1982 le dio al Gobierno militar un impensado apoyo popular y este fue de tal magnitud que, incluso con la derrota posterior en la guerra, se mantuvo en el poder varios años sin llamar a elecciones democráticas.",
+                "La transición argentina abarcó solo el Gobierno de Alfonsín, luego de lo cual la democracia ya estuvo consolidada.",
+                "La derrota militar en la Guerra de Malvinas dejó al Gobierno militar sin ningún apoyo y con el repudio total de los ciudadanos, por lo que se vio obligado a llamar a elecciones democráticas.",
+                "El período de transición, en sentido amplio, finalizó cuando el Gobierno de Menem, a quien Alfonsín entregó el poder en 1989, derrotó definitivamente a los militares “carapintada”, en diciembre de 1990.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-transicion-argentina"
+            },
+            {
+              "e": "17",
+              "p": "Florencia Deich señala que una importante parte de las regulaciones del régimen político está establecida generalmente en las constituciones nacionales e incluyen las formas previstas de acceso al poder y de ejercicio de ese poder. Eso implica que:",
+              "o": [
+                "Para determinar si un Golpe de Estado es o no legal, es imprescindible tomar en cuenta la causa que lo origina y el mayor o menor apoyo popular.",
+                "Un Golpe de Estado es una acción que puede estar prevista en la ley, ya que es ejecutado por fuerzas estatales, como lo son las Fuerzas Armadas.",
+                "Quienes implementan un Golpe de Estado violan las normas con el objetivo explícito de tomar el poder por una vía que no es la que la sociedad acordó y consensuó.",
+                "Un Golpe de Estado es una acción que no está inicialmente prevista en la ley pero que puede ser legal si la constitución de un país lo habilita expresamente.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "icse-p1-deich-golpe-ruptura"
+            },
+            {
+              "e": "18",
+              "p": "El video sobre la Transición a la Democracia que se dedica al caso de Sudáfrica se refiere a la Comisión de Verdad y Reconciliación (TRC, por sus siglas en inglés), y la diferencia de otras comisiones semejantes en América Latina y África. ¿Cuáles son estas diferencias?",
+              "o": [
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a las organizaciones no gubernamentales.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, dando un papel preponderante a la Iglesia como herramienta de reconciliación común.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, basada en el principio de satisfacción mutua.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a los distintos partidos políticos como organismos de representación social.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "icse-p1-sudafrica-restaurativa"
+            }
+          ]
+        },
+        {
+          "id": "t8",
+          "n": "Tema 8",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "En marzo de 1971 el Gral. Lanusse fue designado como nuevo presidente, en reemplazo del Gral. Roberto M. Levingston. A pesar del cambio, según sostiene Luis A. Romero, no se produjo ningún tipo de modificación en la situación política de la Revolución Argentina.",
+              "o": [
+                "Es falso, porque una de las primeras medidas fue el restablecimiento de la actividad político-partidaria y la convocatoria a elecciones generales, supeditado a un Gran Acuerdo Nacional.",
+                "Es falso, porque se resolvió el fin de la proscripción que pesaba sobre el peronismo y de las penas que pesaban sobre Juan Perón, quien pudo volver del exilio, reorganizar su fuerza política y convertirse en el sucesor inmediato de Lanusse.",
+                "Es verdadero, porque el nuevo presidente mantuvo las mismas decisiones políticas que habían establecido sus predecesores, los Generales Onganía y Levingston.",
+                "Es verdadero, porque el único interés del nuevo gobierno estuvo puesto en la resolución de los conflictos económicos que se habían generado como consecuencia del aumento del endeudamiento externo."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-lanusse-apertura"
+            },
+            {
+              "e": "2",
+              "p": "Según Romero, durante el gobierno de Raúl Alfonsín (1983-1989) la cuestión económica, que al principio pareció mucho menos urgente que los problemas políticos, era extremadamente grave y condicionó las políticas del gobierno.",
+              "o": [
+                "Es verdadero, porque hasta el último día de su gestión, Alfonsín afrontó problemas políticos que venían de la dictadura, ya que la opinión pública presionaba para castigar las consecuencias de la guerra de Malvinas y las violaciones a los DD.HH.",
+                "Es verdadero, porque la inflación, un problema endémico, se había acelerado desde mediados de 1982 y, junto con el déficit fiscal y la deuda externa, que seguía creciendo, constituía la parte más visible del problema.",
+                "Es falso, porque hasta el último día de su gestión, Alfonsín se benefició del arreglo de la deuda externa que había hecho el gobierno anterior, lo que le permitió contar con capitales frescos para realizar las reformas necesarias y apostar al crecimiento.",
+                "Es falso, porque el Estado salió del paso sin emitir dinero, bajó la inflación y subió la recaudación fiscal con el llamado Plan Austral."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-economia"
+            },
+            {
+              "e": "3",
+              "p": "Según Romero, para 1975 no estaban dadas las condiciones para la aceptación social de un golpe de Estado, aunque prometiera restablecer el orden y asegurar el monopolio estatal de la fuerza.",
+              "o": [
+                "Es verdadero, porque desde 1974 las organizaciones de derechos humanos como las Madres y Abuelas de Plaza de Mayo venían alertando del desastre que implicaría dejar que los militares se apropien del poder e instauren una dictadura.",
+                "Es verdadero, porque la sociedad argentina se opuso frontalmente al golpe de Estado de 1976, desde el primer momento en que apenas era un rumor en la prensa.",
+                "Es falso, porque la sociedad argentina apoyó el golpe de Estado de 1976, al punto que el Gobierno militar triunfó en el referéndum convocado en 1978, después del Mundial, para sancionar una nueva constitución y mantenerse en el poder.",
+                "Es falso, porque la crisis de autoridad del Gobierno, las luchas facciosas, la muerte presente cotidianamente y el terror de la violencia política crearon un ambiente que fue aprovechado por los militares para tomar el poder sin contratiempos."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-condiciones-golpe"
+            },
+            {
+              "e": "4",
+              "p": "Cuando el ministro de Economía de la última dictadura aplicó sus ideas con fuerza (1976-1981), las políticas destinadas a reducir el rol del Estado generaron muchas tensiones en el gobierno militar. Según Romero, por eso, esas medidas terminaron siendo ambiguas y contradictorias.",
+              "o": [
+                "Es falso, porque los militares eran anticomunistas.",
+                "Es verdadero, porque entre los militares, había muchos que adherían a las ideas socialdemócratas.",
+                "Es falso, porque los militares eran liberales.",
+                "Es verdadero, porque entre los militares, había muchos que adherían a las ideas nacionalistas y dirigistas."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-resistencias-achicar-estado"
+            },
+            {
+              "e": "5",
+              "p": "Según Romero, la Iglesia cambió su actitud, que al principio había sido complaciente con el último gobierno militar, a medida que este comenzó a mostrar signos de debilidad.",
+              "o": [
+                "Es falso, porque la iglesia católica tenía más vínculos con el peronismo que había sido derrocado por el golpe militar.",
+                "Es falso, porque la Iglesia nunca aceptó los asesinatos de varios religiosos -entre ellos el obispo Enrique Angelelli, de La Rioja-.",
+                "Es verdadero, ya que el gobierno estableció una asociación muy estrecha con la jerarquía eclesiástica.",
+                "Es verdadero, porque los militares que dominaban el gobierno inicialmente eran liberales y tenían una mirada laica de los asuntos públicos."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-iglesia-dictadura",
+              "d": "Clave a revisar: el HTML selecciona una asociación estrecha entre dictadura y jerarquía eclesiástica, pero esa justificación no explica el cambio posterior de actitud que pregunta el enunciado. Verificá esta relación con el texto de Romero; se conserva la clave de origen."
+            },
+            {
+              "e": "6",
+              "p": "Según Romero, con la toma de las Malvinas en 1982 el gobierno militar se lanzó al juego grande del Primer Mundo sin respaldos consistentes, e ignorando sus reglas.",
+              "o": [
+                "Es verdadero, porque suponían que la cuestión se resolvería por una negociación, de modo que la reacción inglesa resultó inesperada.",
+                "Es falso, porque el gobierno se fortaleció invocando el derecho internacional sobre el conflicto",
+                "Es verdadero, porque el gobierno confió en el apoyo del bloque soviético, sin intentar sumar otros apoyos.",
+                "Es falso, porque la mayoría de los países europeos –sobre todo, los de la Unión Europea- apoyaron la causa argentina."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-malvinas-juego-grande"
+            },
+            {
+              "e": "7",
+              "p": "Según Romero, en 1987 un grupo de oficiales encabezado por el teniente coronel Aldo Rico se acuarteló en Campo de Mayo, en un intento clásico de golpe de Estado como los que habían sido frecuentes en la Argentina del siglo XX.",
+              "o": [
+                "Es verdadero, porque los militares consideraban que el gobierno de Alfonsín los perseguía con medidas como el juicio a las juntas.",
+                "Es falso, porque buscaban cambiar la política del gobierno radical hacia las Malvinas, que consideraban “entreguista”.",
+                "Es verdadero, porque contaban con el respaldo de sectores civiles, que normalmente eran los motores de los golpes.",
+                "Es falso, porque los militares no cuestionaban el orden constitucional, sino que reclamaban soluciones al problema judicial de un grupo de oficiales."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-aldo-rico"
+            },
+            {
+              "e": "8",
+              "p": "Según Romero el llamado \"rodrigazo\" durante el gobierno de la viuda de Perón, había desatado una crisis económica que hasta el final resultó imposible de dominar. Esto fue así porque se combinaron:",
+              "o": [
+                "Una inflación galopante y “corrida\" hacia el dólar.",
+                "Aparición de los mecanismos de indexación y, en general, escasas posibilidades para controlar la coyuntura desde el poder.",
+                "Saqueos en el conurbano bonaerense.",
+                "La oposición del congreso para sancionar leyes que ayudaran a paliar la crisis.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-rodrigazo"
+            },
+            {
+              "e": "9",
+              "p": "Según Nicolás Simone, la transición es un lapso de tiempo que comienza cuando un régimen no democrático de un país comienza a retirarse y termina cuando un régimen democrático se impone ya sin riesgo de ser derrocado. En Argentina eso se tradujo en que:",
+              "o": [
+                "La transición argentina abarcó solo el Gobierno de Alfonsín, luego de lo cual la democracia ya estuvo consolidada.",
+                "El período de transición, en sentido amplio, finalizó cuando el Gobierno de Menem, a quien Alfonsín entregó el poder en 1989, derrotó definitivamente a los militares “carapintada”, en diciembre de 1990.",
+                "La recuperación de las Islas Malvinas en 1982 le dio al Gobierno militar un impensado apoyo popular y este fue de tal magnitud que, incluso con la derrota posterior en la guerra, se mantuvo en el poder varios años sin llamar a elecciones democráticas.",
+                "La derrota militar en la Guerra de Malvinas dejó al Gobierno militar sin ningún apoyo y con el repudio total de los ciudadanos, por lo que se vio obligado a llamar a elecciones democráticas.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-transicion-argentina"
+            },
+            {
+              "e": "10",
+              "p": "Según Verónica Beyreuther, en una dictadura, el Poder judicial no puede actuar independientemente, ya que los jueces son designados y removidos según la voluntad del dictador y de su grupo para garantizar la arbitrariedad e impunidad de sus actos. Por eso:",
+              "o": [
+                "En la Argentina, para remover a los jueces de la Corte Suprema, debe realizarse un juicio político donde el Ejecutivo es la parte acusadora y el Legislativo la que juzga según lo previsto en la Constitución.",
+                "En la Argentina, para remover a los jueces de la Corte Suprema, debe realizarse un juicio público y que la sociedad y el pueblo manifiesten su oposición a las autoridades judiciales.",
+                "En la Argentina, para remover a los jueces de la Corte Suprema, debe realizarse un juicio político donde la Cámara de Diputados es la acusadora, y la de senadores la que juzga, según lo previsto en la Constitución.",
+                "En los regímenes democráticos, los jueces son designados y removidos según lo indican las leyes de cada país y en cada nivel del Estado (nacional o provincial), pero siempre respondiendo a leyes escritas y consensuadas.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-independencia-judicial"
+            },
+            {
+              "e": "11",
+              "p": "Según Nadia Yannuzzi, la sociología moderna comienza a desarrollarse a finales del siglo XIX en Europa mientras el Estado liberal, se consolidaba como forma de organización política por excelencia. Esto se vio en que:",
+              "o": [
+                "La sociología moderna comienza a reflexionar en un contexto que era muy complejo porque el orden social era cuestionado por nuevos actores sociales, entre ellos el movimiento obrero, y por nuevas ideas políticas, como el comunismo y el anarquismo.",
+                "La sociología moderna comienza a reflexionar sobre cómo las minorías sexuales podían generar alternativas a las políticas existentes y de qué modo enfrentar las políticas conservadoras.",
+                "La sociología moderna comienza a reflexionar apenas el Estado fascista puso en cuestión y bajo ataque a la democracia en Europa.",
+                "La sociología moderna comienza a reflexionar sobre qué es lo que mantiene a los individuos unidos o, cómo es posible el orden social.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-sociologia-orden"
+            },
+            {
+              "e": "12",
+              "p": "Según Patricio Gómez Talavera, el filósofo británico Thomas Hobbes señala en su obra “Leviatán”, publicada en 1651, que la guerra se encuentra entre las motivaciones fundamentales en la construcción del Estado. Esto es así porque:",
+              "o": [
+                "La aparición del poder común (El Estado) permite controlar la guerra y poner freno a la destrucción descontrolada y la disgregación social.",
+                "La aparición de un enemigo externo genera un nacionalismo que permite al Estado manipular a sus ciudadanos de forma más eficiente.",
+                "La protección estatal debe entenderse en sentido amplio, no limitándose a la protección de la vida, sino también la de los bienes materiales.",
+                "La guerra refuerza el poder del Estado, aunque los ciudadanos mantienen varios de sus derechos, como la defensa por mano propia.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-hobbes"
+            },
+            {
+              "e": "13",
+              "p": "Según Margarita Batlle, en ámbitos académicos, el concepto “Democracia” se ha ido complejizando con una gran cantidad de significados acuñados desde diversas perspectivas analíticas. Esto es así porque:",
+              "o": [
+                "El término “democracia” es utilizado tanto en las Ciencias Sociales como por la opinión pública y los medios de comunicación a la hora de describir y explicar el funcionamiento de los sistemas políticos contemporáneos.",
+                "La crisis de la democracia ha llevado a una disminución drástica de fórmulas conceptuales alternativas sobre qué es o debería ser una democracia y eso aumentó su complejidad.",
+                "Todos estos conceptos apuntan a diferentes tipos de democracias que tienen como denominador común (a veces el único) la formación de gobiernos populares cuyo líder responda a los intereses del pueblo.",
+                "La proliferación de fórmulas alternativas, incluso contradictorias, sobre qué es o debería ser una democracia, llevó a complejizar significativamente el concepto y su uso.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-democracia-polisemia"
+            },
+            {
+              "e": "14",
+              "p": "Según Laura Petrino, la extensa capacidad de adjetivación que presenta el concepto de “populismo” torna difusos los límites de su definición y dificulta su estudio. Esto ocurre porque:",
+              "o": [
+                "A lo largo de la historia, una gran variedad de líderes y movimientos sociales y políticos fueron denominados de esta forma, ya que su origen se remonta a tiempos de griegos y romanos.",
+                "A lo largo de la historia, una gran variedad de líderes y movimientos sociales y políticos fueron denominados de esta forma, dificultando su conceptualización.",
+                "A lo largo de la historia, una gran variedad de líderes y movimientos sociales y políticos fueron denominados de esta forma sin explicar qué cuestiones lo justificaban.",
+                "A lo largo de la historia, una gran variedad de líderes y movimientos sociales y políticos fueron denominados de esta forma, ya que solo existían visiones negativas sobre el fenómeno.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-populismo-adjetivos"
+            },
+            {
+              "e": "15",
+              "p": "Según lo planteado por Patricio Gómez Talavera, el Estado es uno de los protagonistas clave de los estudios sociales. Esto se observa sin importar la disciplina, la nacionalidad del especialista que lo estudia o el momento histórico que se investigue. Esto ocurre porque:",
+              "o": [
+                "El Estado existió siempre en la vida humana y eso mismo hace que su estudio sea imprescindible en el marco de las Ciencias Sociales.",
+                "El Estado genera diferenciaciones entre los habitantes de una sociedad en un nivel de mayor complejidad social.",
+                "Antes que las sociedades conformaran un Estado, las personas vivían en lo que se ha dado en llamar “estado de naturaleza”. Esto significa que no había leyes que organizaran la vida humana y el más fuerte lograba imponerse una y otra vez, sobre el más débil.",
+                "El Estado pasa a ser el poder que define las reglas de juego, por lo tanto, genera diferenciaciones entre los habitantes de esa sociedad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-hobbes-orden"
+            },
+            {
+              "e": "16",
+              "p": "En el video sobre Transición a la Democracia, referido a Conflictos Armados y Transiciones Políticas, se explica que la primera transición —tras un conflicto armado y la derrota total de un régimen que había violado los derechos humanos— tuvo lugar después de la Segunda Guerra Mundial. Esto se observó cuando:",
+              "o": [
+                "Los países aliados aceptaron la rendición incondicional de la Alemania Nazi, cuyos principales jerarcas fueron juzgados y condenados.",
+                "En un modelo similar al de Alemania, pero poco tiempo después, los países aliados aceptaron la rendición incondicional del Imperio japonés, y que varios de sus principales jerarcas fueran juzgados y condenados.",
+                "En un modelo similar al de Alemania, pero bastante tiempo después, los países aliados aceptaron la rendición incondicional de España, y que varios de sus principales jerarcas, entre ellos Francisco Franco, fueran juzgados y condenados.",
+                "En un modelo similar al de Alemania, pero poco tiempo después, los países aliados aceptaron la rendición incondicional de Italia y que Benito Mussolini fuera juzgado y condenado.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-derrota-exterior"
+            },
+            {
+              "e": "17",
+              "p": "El video sobre la Transición a la Democracia, que se dedica al caso de Sudáfrica, se refiere a la Comisión de Verdad y Reconciliación (TRC, por sus siglas en inglés), y se la diferencia de otras comisiones semejantes en América Latina y África. ¿Cuáles son estas diferencias?",
+              "o": [
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, basada en el principio de satisfacción mutua.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel central a las organizaciones no gubernamentales.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a los distintos partidos políticos como organismos de representación social.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, dando un papel preponderante a la Iglesia como herramienta de reconciliación común.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "icse-p1-sudafrica-restaurativa"
+            },
+            {
+              "e": "18",
+              "p": "Florencia Deich señala que una importante parte de las regulaciones del régimen político está establecida generalmente en las constituciones nacionales e incluyen las formas previstas de acceso al poder y de ejercicio de ese poder. Eso implica que:",
+              "o": [
+                "Para determinar si un Golpe de Estado es o no legal, es imprescindible tomar en cuenta la causa que lo origina y el mayor o menor apoyo popular.",
+                "Un Golpe de Estado es una acción que puede estar prevista en la ley, ya que es ejecutado por fuerzas estatales, como lo son las Fuerzas Armadas.",
+                "Quienes implementan un Golpe de Estado violan las normas con el objetivo explícito de tomar el poder por una vía que no es la que la sociedad acordó y consensuó.",
+                "Un Golpe de Estado es una acción que no está inicialmente prevista en la ley pero que puede ser legal si la constitución de un país lo habilita expresamente.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "icse-p1-deich-golpe-ruptura"
+            }
+          ]
+        },
+        {
+          "id": "t9",
+          "n": "Tema 9",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Max Povse, la gran mayoría de los regímenes políticos en el mundo cumplen con exactamente todos los requisitos de alguno de los tipos teóricos explicitados.",
+              "o": [
+                "Es falso, porque son aproximaciones para tratar de entender realidades que, en general, siempre son más complejas y difíciles de encerrar en definiciones absolutas.",
+                "Es verdadero, porque los conceptos deben ser exactos para el trabajo desde un método científico.",
+                "Es falso, porque para hacer una tipología es necesario definir claramente a sus componentes, ya que no existen los regímenes híbridos.",
+                "Es verdadero, porque, por ejemplo, no existen autoritarismos que tengan elecciones."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-tipos-aproximaciones"
+            },
+            {
+              "e": "2",
+              "p": "Según Enrique García, en la década de 1970 comenzó a agravarse la crisis económica por la llamada “Crisis del Petróleo” y se ahondaron los cuestionamientos económicos y políticos al Estado de bienestar.",
+              "o": [
+                "Es falso, porque las alteraciones en los precios del petróleo son constantes y no tienen por qué afectar más a un tipo de Estado que a otro.",
+                "Es verdadero, porque para el marxismo y sus intelectuales el Estado de bienestar era solamente la cara amable del capitalismo.",
+                "Es verdadero, porque para pagar los gastos en energía, el Estado debía poner cada vez más dinero y no generaba nuevos ingresos.",
+                "Es falso, porque la década del 70 fueron los años dorados del Estado de bienestar."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-bienestar-petroleo"
+            },
+            {
+              "e": "3",
+              "p": "Según la definición utilizada por Patricio Gómez Talavera, la violencia es el elemento que explica el predominio del Estado sobre la sociedad.",
+              "o": [
+                "Es verdadero, porque la violencia del Estado tiene un poder y una magnitud que ninguna sociedad puede resistir, legal o ilegalmente.",
+                "Es falso, porque el Estado tiene el uso monopólico de la violencia sobre la sociedad y el territorio que domina.",
+                "Es verdadero, porque para ser efectiva, la violencia debe ser aceptada por los ciudadanos, aunque no sea legal necesariamente.",
+                "Es falso, porque para ser efectiva, la violencia debe ser aceptada por los ciudadanos y, además, debe ser legal."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-violencia-aceptada"
+            },
+            {
+              "e": "4",
+              "p": "Según Nadia Yannuzzi, el Estado y la sociedad son dos espacios similares que se relacionan de forma natural.",
+              "o": [
+                "Es verdadero, porque el Estado es el modo en que la naturaleza fue modificada para servir a los seres humanos.",
+                "Es falso, porque la sociedad es solo la parte civil del Estado.",
+                "Es verdadero, porque Estado y sociedad son dos formas de expresar lo mismo que Robert Dahl explicó para “democracia” y “poliarquía”.",
+                "Es falso, porque es una relación compleja por la gran heterogeneidad de actores y grupos sociales y políticos que buscan cumplir sus objetivos."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-sociedad-conflicto"
+            },
+            {
+              "e": "5",
+              "p": "Graciela Etchevest afirma que el terrorismo de Estado es un tipo especial de terrorismo.",
+              "o": [
+                "Es falso, porque el Estado nunca puede ser terrorista.",
+                "Es verdadero, porque el Estado se transforma, ya que la coerción no es transitoria como recurso para superar situaciones circunstanciales.",
+                "Es verdadero, porque el Estado tiene previsto en sus leyes que puede aplicar métodos ilegales para obtener determinados propósitos.",
+                "Es falso, porque el Estado se define por el uso monopólico de la violencia."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-terror-estatal"
+            },
+            {
+              "e": "6",
+              "p": "Según Javier Hermo, las Naciones Unidas generaron una definición de genocidio aplicable desde un punto de vista jurídico y también político.",
+              "o": [
+                "Es verdadero, porque para constituir un genocidio, deben ser acciones realizadas con la intención de destruir total o parcialmente a diversos grupos, por ejemplo, religiosos.",
+                "Es falso, porque las Naciones Unidas no tienen potestad en el tema.",
+                "Es falso, porque cada país debe juzgar los casos, como Argentina con el juicio a las Juntas militares de 1985.",
+                "Es verdadero, porque deben ser acciones realizadas con la intención de destruir total o parcialmente a diversos grupos, por ejemplo, políticos."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-convencion-1948"
+            },
+            {
+              "e": "7",
+              "p": "El video sobre Transición a la Democracia trata sobre distintos tipos de transición en contextos de conflictos armados. Entre ellos distingue:",
+              "o": [
+                "Transiciones en las que se ha producido una humillación militar, pero no una derrota total.",
+                "Transiciones que tienen lugar en casos en que un conflicto armado continúa en curso.",
+                "Transiciones en las que se ha producido un cambio de régimen entre los sectores “duros” y “blandos” del conflicto armado.",
+                "Transiciones en las que se ha producido la asimilación del régimen político a partir del bando victorioso en un conflicto armado.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-transiciones-conflictos"
+            },
+            {
+              "e": "8",
+              "p": "Luis A. Romero afirma que las soluciones de fondo a los problemas económicos –ya instaladas en la discusión mundial– fueron postergadas por el Gobierno de Alfonsín, cuya prioridad era consolidar la endeble democracia institucional. Esto fue así porque:",
+              "o": [
+                "Durante el primer año del Gobierno radical, la política económica del ministro Bernardo Grinspun se ajustó a las fórmulas dirigistas y redistributivas clásicas, similares a las aplicadas entre 1958 y 1962 durante el Gobierno de Arturo Frondizi.",
+                "El Gobierno evitó tomar decisiones que dividieran al campo de la civilidad, su gran apoyo.",
+                "La necesidad de una reforma profunda del Estado tampoco era evidente desde la perspectiva del radicalismo, que compartía con el peronismo la visión acerca de sus obligaciones sociales.",
+                "Durante el primer año del Gobierno radical, la política económica del ministro Bernardo Grinspun se ajustó a las fórmulas dirigistas y redistributivas clásicas, similares a las aplicadas entre 1963 y 1966, durante el Gobierno de Arturo Illia.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-prioridades"
+            },
+            {
+              "e": "9",
+              "p": "Romero afirma que, para inicios de los años 80, había cobrado forma definida entre los militares y sus amigos una corriente de opinión belicista, que arraigaba en una veta del nacionalismo argentino y se alimentaba con vigorosos sentimientos chauvinistas. Esto fue así por:",
+              "o": [
+                "La idea muy arraigada de los \"despojos\" de los que el país había sido víctima a lo largo de su historia.",
+                "La idea de que honrar a los próceres significaba conquistar nuevos territorios o recuperar los que estaban en disputa.",
+                "La influencia del peronismo entre los sectores populares debido a la condición militar de Perón.",
+                "Diversas fantasías largamente acuñadas en el imaginario social como la \"patria grande\".",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-nacionalismo-belico"
+            },
+            {
+              "e": "10",
+              "p": "Romero afirma que, entre 1975 y principios de 1976, diversos factores fueron creando las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Entre ellos se puede mencionar:",
+              "o": [
+                "La muerte presente cotidianamente por la acción espectacular de las organizaciones guerrilleras, que habían fracasado en dos grandes operativos contra unidades militares en el Gran Buenos Aires y Formosa.",
+                "La presencia constante y pública en el país del Partido Comunista soviético a través de financiamiento, propaganda y una nutrida militancia que hacían suponer la pronta apertura de un frente revolucionario.",
+                "El terror sembrado por la Alianza Anticomunista Argentina (Triple A).",
+                "El terror sembrado por diversas bandas del crimen organizado, la mayoría de ellas vinculadas al narcotráfico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-condiciones-golpe"
+            },
+            {
+              "e": "11",
+              "p": "Según Romero, la cuestión económica, que al principio pareció mucho menos urgente que los problemas políticos para el Gobierno de Raúl Alfonsín, era extremadamente grave y condicionó las políticas del Gobierno. Esto fue así porque:",
+              "o": [
+                "La única ventaja del país en esos años era una economía que crecía un poco desde principios de la década, y que era abierta y eficiente.",
+                "La única ventaja del país en esos años era que el Estado en 1982 había asumido la deuda en dólares de los particulares, y por eso ya no cargaba con el pago de unos servicios que anteriormente insumían buena parte de sus ingresos corrientes.",
+                "La inflación, un problema endémico, se había acelerado desde mediados de 1982.",
+                "El déficit fiscal y la deuda externa, que seguía creciendo, constituían la parte más visible del problema.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-economia"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, en los años del tercer Gobierno de Perón, la lucha en torno del pacto social fue paralela a la que se libró en el seno del peronismo, involucrando al Gobierno y hasta al mismo Estado. Esto se vio en que:",
+              "o": [
+                "Perón debió enfrentar a los grupos paramilitares de la llamada “Triple A” y a su líder e inesperado competidor por el poder interno: José López Rega.",
+                "Su estrategia de enfrentamiento con quienes lo expulsaron del poder en 1955 consistía en utilizar a los jóvenes, y a los sectores populares que ellos movilizaban, para hostigar a sus rivales y a la vez para presentarse como el único capaz de contenerlos.",
+                "Los militares le impusieron a Perón a su propia esposa como vicepresidente para garantizar la continuidad del proyecto frente al apoyo que el mismo Perón le había dado públicamente a Cámpora.",
+                "Esa lucha estaba implícita en las equívocas relaciones entre Perón y quienes, alrededor de Montoneros y la Juventud Peronista, constituían la llamada \"tendencia revolucionaria\" del peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-pacto-social"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, la derrota en la guerra de Malvinas, la cuestión de los derechos humanos y el rotundo fracaso político de su último Gobierno, eran algunos de los elementos que debilitaban a la institución militar en los primeros años de democracia, luego de 1983. Sin embargo, los militares tampoco fueron expulsados del poder real. Esto se vio en que:",
+              "o": [
+                "Pronto, la solidaridad corporativa de los militares se reconstituyó en torno de lo que reivindicaban como su éxito: la victoria en la \"guerra contra la subversión\".",
+                "Rechazaron la condena de la sociedad, y recordaron que su acción había contado con la complacencia generalizada.",
+                "Rechazaron la condena de la sociedad y recordaron que su exitosa acción económica había contado con la complacencia generalizada.",
+                "Pronto, la solidaridad corporativa de los militares se reconstituyó en torno de lo que reivindicaban como su éxito: el plan económico y la caída de la inflación durante su Gobierno.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-militares-corporacion"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, la guerrilla peronista Montoneros era muy hábil en traducir las palabras de Perón cuando estaba exiliado en Madrid, pero debió enfrentarse con el problema que implicó la vuelta del líder al país. Esto se vio en que:",
+              "o": [
+                "Perón comenzó a abandonar su discurso de derecha tradicional denunciando a los \"apresurados\" e infiltrados de la “Triple A”.",
+                "Perón empezó a hablar inequívocamente recordando la “ortodoxia peronista”, que poco tenía que ver con el socialismo.",
+                "Perón empezó a hablar inequívocamente recordando sus orígenes socialistas que poco tenían que ver con la “ortodoxia peronista”.",
+                "Los Montoneros elaboraron la teoría del \"cerco\" o del \"entorno\" que supuestamente impedía a Perón conocer la verdadera voluntad de su pueblo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-montoneros-cerco"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, el llamado “peronismo renovador” –que entre sus principales figuras tenía a Antonio Cafiero y al gobernador de La Rioja y futuro presidente, Carlos Menem– se proponía adecuar el peronismo al nuevo contexto democrático abierto en 1983. Esto resultó en que:",
+              "o": [
+                "Se proponía insertar el peronismo en el discurso de la civilidad que predominaba en la sociedad de la época.",
+                "Buscaron constantemente seguir y unirse al liderazgo de Alfonsín, quien era el político más popular del momento y no era tan distinto a la tradición peronista.",
+                "Cuando se produjo la crisis militar de Semana Santa de 1987, los dirigentes renovadores aprovecharon para usar el conflicto en su beneficio y reemplazar a Alfonsín, quien ya se encontraba muy desgastado por la crisis económica, pero sin cambiar el régimen político.",
+                "No solo inscribían al peronismo en el juego democrático, además parecían sostener su principal condición: la posible alternancia entre partidos competidores y copartícipes.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-peronismo-renovador"
+            },
+            {
+              "e": "16",
+              "p": "Según señala Margarita Batlle, el sufragio en una poliarquía es universal, es decir que:",
+              "o": [
+                "Los extranjeros que viven en el país, aunque no sean residentes, pueden votar todas las veces que haya elecciones.",
+                "El voto debe estar garantizado para todos los ciudadanos capacitados por la constitución para ejercerlo.",
+                "Los votos deben tener todos el mismo valor, o sea, el voto de ningún ciudadano puede valer más que el de otro.",
+                "El voto en términos organizativos (quién vota y quién no) no tiene nada que ver con la poliarquía, que es un concepto sociológico.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-poliarquia-sufragio"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, al asumir la presidencia, Alfonsín propuso algunas distinciones lógicas sobre el legado militar, pero que, al mismo tiempo, resultaban difíciles de aceptar para la sociedad movilizada, en especial para las organizaciones de derechos humanos. Esto se debió a que:",
+              "o": [
+                "Alfonsín no había condenado las violaciones a los derechos humanos en la dictadura y continuó esa línea durante su Gobierno.",
+                "Alfonsín pensaba que había que separar el juicio a los culpables del juzgamiento a la institución, que era parte del Estado.",
+                "Alfonsín pensaba que había que evitar el juicio a los militares culpables porque implicaba atacar a toda la institución que era parte del Estado.",
+                "Alfonsín pensaba que se debía concentrar el castigo en las cúpulas y aplicar al resto el criterio de la obediencia debida.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 1,
+              "k": "icse-p1-alfonsin-legado"
+            },
+            {
+              "e": "18",
+              "p": "Según Romero, la ola de movilización social que inauguró el Cordobazo se expresó de maneras diversas. Entre ellas:",
+              "o": [
+                "Un nuevo activismo, que se manifestó primero en la zona de Rosario y luego en la Provincia de Buenos Aires, que se conoció con el nombre de “piqueteros” y luego de “movimientos sociales”.",
+                "Un nuevo activismo que se manifestó sobre todo en Rosario, donde se destacaban los numerosos desocupados producto de la quiebra de las grandes empresas establecidas luego de 1958, en especial las automotrices.",
+                "Un nuevo activismo sindical, que se manifestó primero en la zona de Rosario o sobre todo en Córdoba, donde se destacaban las empresas establecidas luego de 1958, en especial las vinculadas a la industria agroexportadora.",
+                "Un nuevo activismo sindical, que se manifestó primero en la zona de Rosario o sobre todo en Córdoba, donde se destacaban las plantas de las grandes empresas establecidas luego de 1958, en especial las automotrices.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "icse-p1-cordobazo"
+            }
+          ]
+        },
+        {
+          "id": "t10",
+          "n": "Tema 10",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Graciela Etchevest afirma que el terrorismo de Estado es un tipo especial de terrorismo.",
+              "o": [
+                "Es verdadero, porque toda la idea de Estado se transforma, ya que la coerción deja de ser un recurso para superar situaciones circunstanciales.",
+                "Es verdadero, porque el Estado tiene previsto en sus leyes que puede aplicar métodos ilegales para obtener determinados propósitos.",
+                "Es falso, porque el Estado se define por el uso monopólico de la violencia.",
+                "Es falso, porque el Estado nunca puede ser terrorista."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-terror-estatal"
+            },
+            {
+              "e": "2",
+              "p": "Según Javier Hermo, las ONU en 1946 generó una definición de genocidio aplicable desde un punto de vista jurídico y también político.",
+              "o": [
+                "Es falso, porque las ONU no tiene potestad en el tema.",
+                "Es verdadero, porque según esta definición, para ser constituir un genocidio, deben ser acciones realizadas con la intención de destruir total o parcialmente a diversos grupos, por ejemplo, religiosos.",
+                "Es verdadero, porque deben ser acciones realizadas con la intención de destruir total o parcialmente a diversos grupos, por ejemplo, políticos en la oposición.",
+                "Es falso, porque cada país debe juzgar los casos, como Argentina en el juicio a las Juntas militares de 1985."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-convencion-1948"
+            },
+            {
+              "e": "3",
+              "p": "Según Nadia Yannuzzi, el Estado y la sociedad son dos espacios similares que se relacionan de forma natural.",
+              "o": [
+                "Es falso, porque es una relación compleja por la gran heterogeneidad de actores y grupos sociales y políticos que buscan cumplir sus objetivos.",
+                "Es falso, porque la sociedad es solo la parte civil del Estado.",
+                "Es verdadero, porque el Estado es el modo en que la naturaleza fue modificada para servir a los seres humanos.",
+                "Es verdadero, porque Estado y sociedad son dos formas de expresar lo mismo, como democracia y poliarquía."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-sociedad-conflicto"
+            },
+            {
+              "e": "4",
+              "p": "Según la definición utilizada por Patricio Gómez Talavera, la violencia es el elemento que explica el predominio del Estado sobre la sociedad.",
+              "o": [
+                "Es falso, porque para ser efectiva, la violencia debe ser aceptada por los ciudadanos y, además, debe ser legal.",
+                "Es verdadero, porque para ser efectiva, la violencia debe ser aceptada por los ciudadanos, aunque no sea legal necesariamente.",
+                "Es falso, porque el Estado tiene el uso monopólico de la violencia sobre la sociedad y el territorio que domina.",
+                "Es verdadero, porque la violencia del Estado tiene un poder y una magnitud que ninguna sociedad puede resistir, legal o ilegalmente."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-violencia-aceptada"
+            },
+            {
+              "e": "5",
+              "p": "Según Enrique García, en la década de 1970 comenzó a agravarse la crisis económica por la llamada “Crisis del Petróleo” y se ahondaron los cuestionamientos económicos y políticos al Estado de bienestar.",
+              "o": [
+                "Es verdadero, porque para pagar los gastos en energía, el Estado debía poner cada vez más dinero y no había nuevos ingresos.",
+                "Es falso, porque la década del 70 fueron los años dorados del Estado de bienestar.",
+                "Es verdadero, porque para el marxismo y sus intelectuales, el Estado de bienestar era solamente la cara amable del capitalismo.",
+                "Es falso, porque las alteraciones en los precios del petróleo son constantes y no tienen por qué afectar más a un tipo de Estado que a otro."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-bienestar-petroleo"
+            },
+            {
+              "e": "6",
+              "p": "Según Max Povse, la gran mayoría de los regímenes políticos en el mundo cumplen con exactamente todos los requisitos de alguno de los tipos teóricos explicitados.",
+              "o": [
+                "Es verdadero, porque, por ejemplo, los conceptos deben ser exactos para el trabajo desde un método científico.",
+                "Es verdadero, porque, por ejemplo, no existen autoritarismos que tengan elecciones.",
+                "Es falso, porque para hacer una tipología es necesario definir claramente a sus componentes, ya que no existen los regímenes híbridos.",
+                "Es falso, porque son aproximaciones para tratar de entender realidades que, en general, siempre son más complejas y difíciles de encerrar en definiciones absolutas."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-tipos-aproximaciones"
+            },
+            {
+              "e": "7",
+              "p": "Según señala Margarita Batlle, el sufragio en una poliarquía es universal, es decir que:",
+              "o": [
+                "Los extranjeros que viven en el país, aunque no sean residentes, pueden votar todas las veces que haya elecciones.",
+                "Debe estar garantizado para todos los ciudadanos capacitados por la constitución para ejercerlo.",
+                "El voto en términos organizativos (quién vota y quién no) no tiene nada que ver con la poliarquía, que es un concepto sociológico.",
+                "Los votos deben tener todos el mismo valor, o sea, el voto de ningún ciudadano puede valer más que el de otro.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-poliarquia-sufragio"
+            },
+            {
+              "e": "8",
+              "p": "Según Luis A. Romero, el llamado peronismo renovador –que entre sus principales figuras tenía a Antonio Cafiero y al gobernador de La Rioja y futuro presidente, Carlos Menem– se proponía adecuar el peronismo al nuevo contexto democrático abierto en 1983. Esto resultó en que:",
+              "o": [
+                "Se proponía insertar el peronismo en el discurso de la civilidad que predominaba en la sociedad de la época.",
+                "Buscaron constantemente seguir y unirse al liderazgo de Alfonsín, quien era el político más popular del momento, y no era tan distinto a la tradición peronista.",
+                "Cuando se produjo la crisis militar de Semana Santa de 1987, los dirigentes renovadores aprovecharon para usar el conflicto en su beneficio y reemplazar a Alfonsín, quien ya se encontraba muy desgastado por la crisis económica, pero sin cambiar el régimen político.",
+                "No solo inscribían al peronismo en el juego democrático, además parecían sostener la principal condición de este: la posible alternancia entre partidos competidores y copartícipes.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-peronismo-renovador"
+            },
+            {
+              "e": "9",
+              "p": "Para Romero, para inicios de los años 80, había cobrado forma definida entre los militares y sus amigos una corriente de opinión belicista, que arraigaba en una veta del nacionalismo argentino y se alimentaba con vigorosos sentimientos chauvinistas. Esto fue así por:",
+              "o": [
+                "La influencia del peronismo entre los sectores populares debido a la condición militar de Perón.",
+                "La idea de que honrar a los próceres significaba conquistar nuevos territorios o recuperar los que estaban en disputa.",
+                "La idea muy arraigada de los \"despojos\" de los que el país había sido víctima a lo largo de su historia.",
+                "Diversas fantasías largamente acuñadas en el imaginario social como la \"patria grande\".",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-nacionalismo-belico"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, la guerrilla peronista Montoneros era muy hábil en traducir las palabras de Perón cuando estaba exiliado en Madrid, pero debió enfrentarse con el problema que implicó la vuelta del líder al país. Esto se vio en que:",
+              "o": [
+                "Los Montoneros elaboraron la teoría del \"cerco\" o del \"entorno\" que supuestamente impedía a Perón conocer la verdadera voluntad de su pueblo.",
+                "Perón empezó a hablar inequívocamente recordando la “ortodoxia peronista”, que poco tenía que ver con el socialismo.",
+                "Perón empezó a hablar inequívocamente recordando sus orígenes socialistas que poco tenían que ver con la “ortodoxia peronista”.",
+                "Perón comenzó a abandonar su discurso de derecha tradicional denunciando a los \"apresurados\" e infiltrados de la Triple A.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-montoneros-cerco"
+            },
+            {
+              "e": "11",
+              "p": "Según Romero, la derrota en la Guerra de Malvinas, la cuestión de los derechos humanos y el rotundo fracaso político de su último Gobierno eran algunos de los elementos que debilitaban a la institución militar en los primeros años de democracia, luego de 1983. Sin embargo, los militares tampoco fueron expulsados del poder real. Esto se vio en que:",
+              "o": [
+                "Pronto, la solidaridad corporativa de los militares se reconstituyó en torno de lo que reivindicaban como su éxito: la victoria en la \"guerra contra la subversión\".",
+                "Pronto, la solidaridad corporativa de los militares se reconstituyó en torno de lo que reivindicaban como su éxito: el plan económico y la caída de la inflación durante su Gobierno.",
+                "Rechazaron la condena de la sociedad y recordaron que su exitosa acción económica había contado con la complacencia generalizada.",
+                "Rechazaron la condena de la sociedad, y recordaron que su acción había contado con la complacencia generalizada.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-militares-corporacion"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, en los años del tercer Gobierno de Perón, la lucha en torno del pacto social fue paralela a la que se libró en el seno del peronismo, involucrando al Gobierno y hasta al mismo Estado. Esto se vio en que:",
+              "o": [
+                "Perón debió enfrentar a los grupos paramilitares de la llamada Triple A y a su líder e inesperado competidor por el poder interno, José López Rega.",
+                "Los militares le impusieron a Perón a su propia esposa como vicepresidente para garantizar la continuidad del proyecto frente al apoyo que el mismo Perón le había dado públicamente a Cámpora.",
+                "Su estrategia de enfrentamiento con quienes lo expulsaron del poder en 1955 consistía en utilizar a los jóvenes, y a los sectores populares que ellos movilizaban, para hostigar a sus rivales y a la vez para presentarse como el único capaz de contenerlos.",
+                "Esa lucha estaba implícita en las equívocas relaciones entre Perón y quienes, alrededor de Montoneros y la Juventud Peronista, constituían la llamada \"tendencia revolucionaria\" del peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-pacto-social"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, la cuestión económica, que al principio pareció mucho menos urgente que los problemas políticos para el Gobierno de Raúl Alfonsín, era extremadamente grave y condicionó las políticas del Gobierno. Esto fue así porque:",
+              "o": [
+                "La inflación, un problema endémico, se había acelerado desde mediados de 1982.",
+                "El déficit fiscal y la deuda externa, que seguía creciendo, constituían la parte más visible del problema.",
+                "La única ventaja del país en esos años era una economía que crecía un poco desde principios de la década, y que era abierta y eficiente.",
+                "La única ventaja del país en esos años era que el Estado en 1982 había asumido la deuda en dólares de los particulares, y por eso ya no cargaba con el pago de unos servicios que anteriormente insumían buena parte de sus ingresos corrientes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-economia"
+            },
+            {
+              "e": "14",
+              "p": "Romero afirma que, entre 1975 y principios de 1976, diversos factores fueron creando las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Entre ellos se puede mencionar:",
+              "o": [
+                "La muerte presente cotidianamente por la acción espectacular de las organizaciones guerrilleras, que habían fracasado en dos grandes operativos contra unidades militares en el Gran Buenos Aires y Formosa.",
+                "El terror sembrado por la Alianza Anticomunista Argentina (Triple A).",
+                "La presencia constante y pública en el país del Partido Comunista soviético a través de financiamiento, propaganda y una nutrida militancia que hacían suponer la pronta apertura de un frente revolucionario.",
+                "El terror sembrado por diversas bandas del crimen organizado, la mayoría de ellas vinculadas al narcotráfico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-condiciones-golpe"
+            },
+            {
+              "e": "15",
+              "p": "Romero afirma que las soluciones de fondo a los problemas económicos –ya instaladas en la discusión mundial– fueron postergadas por el Gobierno de Alfonsín, cuya prioridad era consolidar la endeble democracia institucional. Esto fue así porque:",
+              "o": [
+                "El Gobierno evitó tomar decisiones que dividieran al campo de la civilidad, su gran apoyo.",
+                "Durante el primer año del Gobierno radical, la política económica del ministro Bernardo Grinspun se ajustó a las fórmulas dirigistas y redistributivas clásicas, similares a las aplicadas durante el Gobierno de Arturo Frondizi.",
+                "La necesidad de una reforma profunda del Estado tampoco era evidente desde la perspectiva del radicalismo, que compartía con el peronismo la visión acerca de sus obligaciones sociales.",
+                "Durante el primer año del Gobierno radical, la política económica del ministro Bernardo Grinspun se ajustó a las fórmulas dirigistas y redistributivas clásicas, similares a las aplicadas entre 1963 y 1966, durante el Gobierno de Arturo Illia.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-prioridades"
+            },
+            {
+              "e": "16",
+              "p": "El video sobre Transición a la Democracia trata sobre distintos tipos de transición en contextos de conflictos armados. Entre ellos distingue:",
+              "o": [
+                "Transiciones en las que se ha producido una humillación militar, pero no una derrota total.",
+                "Transiciones que tienen lugar en casos en que un conflicto armado continúa en curso.",
+                "Transiciones en las que se ha producido un cambio de régimen entre los sectores “duros” y “blandos” del conflicto armado.",
+                "Transiciones en las que se ha producido la asimilación del régimen político a partir del bando victorioso en un conflicto armado.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-transiciones-conflictos"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, la ola de movilización social que inauguró el Cordobazo se expresó de maneras diversas. Entre ellas:",
+              "o": [
+                "Un nuevo activismo sindical, que se manifestó primero en la zona de Rosario o sobre todo en Córdoba, donde se destacaban las plantas de las grandes empresas establecidas luego de 1958, en especial las automotrices.",
+                "Un nuevo activismo sindical, que se manifestó primero en la zona de Rosario o sobre todo en Córdoba, donde se destacaban las empresas establecidas luego de 1958, en especial las vinculadas a la industria agroexportadora.",
+                "Un nuevo activismo que se manifestó sobre todo en Rosario, donde se destacaban los numerosos desocupados producto de la quiebra de las grandes empresas establecidas luego de 1958, en especial las automotrices.",
+                "Un nuevo activismo, que se manifestó primero en la zona de Rosario y luego en la Provincia de Buenos Aires que se conoció con el nombre de “piqueteros”, y luego de “movimientos sociales”.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "icse-p1-cordobazo"
+            },
+            {
+              "e": "18",
+              "p": "Según Romero, al asumir la presidencia, Alfonsín propuso algunas distinciones lógicas sobre el legado militar, pero que, al mismo tiempo, resultaban difíciles de aceptar para la sociedad movilizada, en especial para las organizaciones de derechos humanos. Esto se debió a que:",
+              "o": [
+                "Alfonsín pensaba que había que separar el juicio a los culpables del juzgamiento a la institución, que era parte del Estado.",
+                "Alfonsín pensaba que había que evitar el juicio a los militares culpables porque implicaba atacar a toda la institución, que era parte del Estado.",
+                "Alfonsín no había condenado las violaciones a los derechos humanos en la dictadura y continuó esa línea durante su Gobierno.",
+                "Alfonsín pensaba que se debía concentrar el castigo en las cúpulas y aplicar al resto el criterio de la obediencia debida.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-alfonsin-legado"
+            }
+          ]
+        },
+        {
+          "id": "t11",
+          "n": "Tema 11",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Laura Petrino, la variedad de ejemplos latinoamericanos demuestra que las características económicas y sociales de nuestra región son las condiciones propicias para la aparición de figuras carismáticas pensadas como populistas.",
+              "o": [
+                "Es falso, porque el populismo es también un fenómeno político poderoso en los países centrales con democracias altamente institucionalizadas.",
+                "Es falso, porque el populismo es también un fenómeno político poderoso en los países comunistas con democracias poco institucionalizadas.",
+                "Es verdadero, porque las instituciones informales, propias de América Latina son las que abren el camino al populismo.",
+                "Es verdadero, porque todos los casos de populismo provienen de América Latina."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-populismo-global"
+            },
+            {
+              "e": "2",
+              "p": "Según Max Povse, un régimen político es democrático cuando el acceso y el ejercicio del poder son ilimitados.",
+              "o": [
+                "Es verdadero, porque, como señala Weber, la legitimidad democrática solo puede ser limitada por otras elecciones.",
+                "Es falso, porque un régimen político es democrático cuando impone límites mediante el sistema electoral y el Estado de derecho.",
+                "Es falso, porque un régimen siempre hace referencia a sistemas no democráticos.",
+                "Es verdadero, porque al ser democrático –votado por el pueblo- un gobierno no tiene límites para su accionar."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-democracia-limites"
+            },
+            {
+              "e": "3",
+              "p": "Según Nadia Yannuzzi, entre los múltiples efectos del proceso de individuación, se destaca el repliegue del individuo a la esfera privada.",
+              "o": [
+                "Es falso, porque siempre el ámbito de pertenencia del individuo es la esfera privada.",
+                "Es falso, porque nadie se salva solo.",
+                "Es verdadero, porque el proceso de individuación deriva en el sálvese quien pueda.",
+                "Es verdadero, porque los individuos se repliegan puesto que sienten no tener injerencia en los asuntos públicos."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-individuacion"
+            },
+            {
+              "e": "4",
+              "p": "Según Patricio Gómez Talavera, Weber observó que existen diferentes justificaciones para que las personas obedezcan al Estado.",
+              "o": [
+                "Es falso, porque solo existe una justificación para que las personas obedezcan al Estado: la ideología.",
+                "Es verdadero, porque obedecer sin justificación es dictadura.",
+                "Es falso, porque solo existe una justificación para que las personas obedezcan al Estado: la ley.",
+                "Es verdadero, porque Weber agrupó los diferentes tipos de dominación bajo tres conceptos generales."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-weber-legitimidad"
+            },
+            {
+              "e": "5",
+              "p": "Según Nadia Yannuzzi, para analizar las instituciones se puede distinguir dos tipos que funcionan alternativamente y son excluyentes: las instituciones “formales” y las “informales”.",
+              "o": [
+                "Es verdadero, porque las instituciones formales e informales están garantizadas por la constitución.",
+                "Es falso, porque las instituciones formales e informales funcionan simultáneamente y no son excluyentes.",
+                "Es falso, porque las instituciones formales e informales son inclusivas y anacrónicas.",
+                "Es verdadero, porque las instituciones formales e informales son parte de la tradición política desde la recuperación democrática en 1983."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-instituciones-formales"
+            },
+            {
+              "e": "6",
+              "p": "Según Enrique García, el Estado de bienestar busca intermediar en las relaciones entre las fuerzas del capital (los empresarios) y las del trabajo (los sindicatos).",
+              "o": [
+                "Es verdadero, porque el Estado de bienestar es una forma de llamar también al Estado democrático según Robert Dahl.",
+                "Es falso, porque el Estado nunca puede regular a las fuerzas del capital.",
+                "Es verdadero, porque eso implica una fuerte presencia e intervención del Estado, como árbitro y constructor del consenso entre las partes.",
+                "Es falso, porque el Estado de bienestar es interventor y regulador exclusivamente en la esfera política y social."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-bienestar-arbitro"
+            },
+            {
+              "e": "7",
+              "p": "Según el texto de Margarita Batlle, el concepto de poliarquía es la manera más simple y que mejor describe a las sociedades democráticas realmente existentes.",
+              "o": [
+                "Es falso, porque no hay forma simple de describir a las sociedades democráticas realmente existentes.",
+                "Es falso, porque la poliarquía es un orden utópico e ideal al que no puede aspirar la sociedad y por eso se usa el concepto “democracia”.",
+                "Es verdadero, porque la realización de la democracia no está al alcance de la humanidad.",
+                "Es verdadero, porque la democracia solo es posible en países occidentales y desarrollados."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-dahl-ideal"
+            },
+            {
+              "e": "8",
+              "p": "Verónica Beyreuther afirma que, en un régimen totalitario, la libertad de la sociedad civil es reducida a su mínima expresión. Esto se ve en que:",
+              "o": [
+                "Todos los habitantes que sean considerados dignos deben participar activamente de las acciones llevadas adelante por el régimen.",
+                "Se controlan todas las formas sociales y políticas de la población excepto cuestiones de la vida privada e íntima.",
+                "Hay una continua movilización de la población en eventos colectivos para demostrar la adhesión al único líder reconocido.",
+                "Los partidos opositores tienen vía libre para realizar su tarea, pero en las elecciones deben apoyar al líder.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-totalitarismo-movilizacion"
+            },
+            {
+              "e": "9",
+              "p": "Según Florencia Deich, los aspectos a considerar para caracterizar particularmente a un golpe de Estado y que permiten distinguirlo a uno de otros, son los siguientes:",
+              "o": [
+                "Las causas que conducen al hecho del golpe.",
+                "Cómo se desarrolla.",
+                "La cantidad de víctimas fatales que ocasiona en el levantamiento y acceso al poder.",
+                "Las consecuencias y efectos sobre la economía, especialmente sobre la macroeconomía.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D"
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-golpes-caracterizacion"
+            },
+            {
+              "e": "10",
+              "p": "Según Luis A. Romero, el estallido ocurrido en Córdoba en mayo de 1969 vino precedido de una ola de protestas estudiantiles y de una fuerte agitación sindical que luego se extendió en el llamado “Cordobazo”. Esto fue así porque:",
+              "o": [
+                "En Córdoba convivían un centro industrial donde se concentraban las principales fábricas de automotores y una importante universidad.",
+                "Córdoba era un tradicional bastión electoral y político del peronismo.",
+                "En Córdoba convivían una masiva movilización piquetera y una importante organización estudiantil de izquierda.",
+                "La fuerte represión policial –incluyendo manifestantes muertos- potenció al activismo gremial y estudiantil.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-cordobazo"
+            },
+            {
+              "e": "11",
+              "p": "Según Romero, desde 1968, los religiosos que se reunieron en el Movimiento de Sacerdotes del Tercer Mundo, y los laicos que lo acompañaban, militaron en las zonas más pobres. Esto derivó en que:",
+              "o": [
+                "La violencia de abajo -decían- no se legitimaba por la injusticia social, aunque esta también era una forma de violencia.",
+                "Rechazaran la incorporación a la política y a la militancia de jóvenes, educados en los colegios religiosos.",
+                "Su lenguaje evangélico fue haciéndose rápidamente político.",
+                "Promovieran la formación de organizaciones solidaria, y se impulsaran reclamos y acciones de protesta.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-sacerdotes-3mundo"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, hacia 1973, y vista desde una perspectiva más amplia, la economía del país tuvo un desempeño medianamente satisfactorio, que se habría de prolongar hasta 1975. Esto se observó en:",
+              "o": [
+                "El crecimiento del sector agropecuario pampeano, que se prolongó hasta el comienzo de los ochenta.",
+                "El crecimiento del sector industrial para la exportación, que se prolongó hasta el comienzo de los ochenta.",
+                "Que el mundo se encontraba entonces en condiciones de transformar, al menos parte de su necesidad de alimentos, en demanda efectiva.",
+                "Que se abrieron nuevos mercados para los granos y aceites argentinos, particularmente en los países socialistas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-economia-pre1975"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, en 1973 Perón armó su proyecto –parecido pero distinto al de 1945- sobre tres bases. Entre ellas se encuentran:",
+              "o": [
+                "Un acuerdo democrático con las otras fuerzas políticas.",
+                "Un pacto social con los grandes representantes corporativos.",
+                "Una conducción más democrática de su movimiento, hasta entonces centralizado exclusivamente en su figura.",
+                "Un enfrentamiento con la Iglesia Católica por el manejo de la educación y la asistencia social.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-peron-proyecto"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, el tercer gobierno peronista –iniciado con Héctor Cámpora en 1973 y finalizado con Isabel Perón en 1976 luego de la muerte de Juan D. Perón- creó las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Esto se vio en:",
+              "o": [
+                "El impactante avance del narcotráfico en Rosario y el conurbano bonaerense.",
+                "La corrupción con la obra pública.",
+                "La acción espectacular de las organizaciones guerrilleras.",
+                "El caos económico iniciado en 1975.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-condiciones-golpe"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, con la represión de la última dictadura surgieron en el propio Ejército verdaderos señores de la guerra, que casi no reconocían ninguna autoridad sobre sí. Esto se vio en que:",
+              "o": [
+                "En torno a la Marina, en especial con el Brigadier Agosti a la cabeza, se constituyó la facción interna más fuerte, pero que distaba de ser dominante.",
+                "En torno a la Fuerza Aérea, en especial con el Almirante Massera a la cabeza, se constituyó la facción interna más fuerte, pero que distaba de ser dominante.",
+                "Las tendencias centrífugas y la anarquía se derivaban de la estricta división del poder entre las tres fuerzas que finalizaron al crearse una instancia superior a ellas que dirimía los conflictos: el consejo superior de las Fuerzas Armadas.",
+                "Las tendencias centrífugas y la anarquía se derivaban de la estricta división del poder entre las tres fuerzas, al punto de no existir una instancia superior a ellas que dirimiera los conflictos.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-senores-guerra"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, desde 1980, los dirigentes del Proceso –la dictadura iniciada en 1976- discutían la cuestión de la salida política. Esto era así porque:",
+              "o": [
+                "Les preocupaba la crisis económica, el aislamiento y la adversa opinión internacional.",
+                "Les preocupaba la presión del bloque liderado por la Unión Soviética –y de su principal actor en el orden internacional, Cuba.",
+                "Les preocupaba que el candidato radical, y futuro presidente, Raúl Alfonsín, prometiera juzgarlos por los grandes negociados y la corrupción de esos años.",
+                "Les preocupaban los enfrentamientos internos, que a la vez dificultaban los acuerdos necesarios para la salida buscada.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-salida-militar"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, el plan de ocupar las islas Malvinas en 1982 aparecía como la solución para los muchos problemas del gobierno militar. Esto fue así porque:",
+              "o": [
+                "Para los militares, una acción militar victoriosa en las Malvinas, permitiría unificar a las Fuerzas Armadas tras un objetivo común.",
+                "Para los militares, una acción militar victoriosa en las Malvinas, permitiría recuperarla legitimidad internacional perdida.",
+                "Para los militares, una acción militar victoriosa en las Malvinas, permitiría recuperar legitimidad ante una sociedad visiblemente disconforme.",
+                "Para los militares, una acción militar victoriosa en las Malvinas, permitiría asegurar un apoyo económico inmediato del Fondo Monetario Internacional (FMI).",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 1,
+              "k": "icse-p1-malvinas-legitimidad"
+            },
+            {
+              "e": "18",
+              "p": "Según Nicolás Simone, desde 1983 hasta la actualidad, aun con crisis, se mantuvo el régimen democrático; pero apenas recuperada la democracia, los peligros de un nuevo golpe fueron muy visibles durante todo el mandato de Raúl Alfonsín. Esto se vio en:",
+              "o": [
+                "La ausencia de pactos firmes entre los sectores democráticos más allá de las elecciones.",
+                "Los desacuerdos sobre política económica entre los sectores democráticos.",
+                "El avance del narcotráfico en el renovado Poder Judicial.",
+                "La falta de acuerdos entre las fuerzas democráticas sobre qué hacer con los militares represores.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la A.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-fragilidad-democratica"
+            }
+          ]
+        },
+        {
+          "id": "t12",
+          "n": "Tema 12",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Nadia Yannuzzi, para analizar las instituciones se puede distinguir dos tipos que funcionan alternativamente y son excluyentes: las instituciones “formales” y las “informales”.",
+              "o": [
+                "Es falso, porque las instituciones formales e informales son inclusivas y anacrónicas.",
+                "Es verdadero, porque las instituciones formales e informales son parte de la tradición política desde la recuperación democrática en 1983.",
+                "Es falso, porque las instituciones formales e informales funcionan simultáneamente y no son excluyentes.",
+                "Es verdadero, porque las instituciones formales e informales están garantizadas por la constitución"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-instituciones-formales"
+            },
+            {
+              "e": "2",
+              "p": "Según Patricio Gómez Talavera, Weber observó que existen diferentes justificaciones para que las personas obedezcan al Estado.",
+              "o": [
+                "Es verdadero, porque Weber agrupó los diferentes tipos de dominación bajo tres conceptos generales.",
+                "Es verdadero, porque obedecer sin justificación es dictadura.",
+                "Es falso, porque solo existe una justificación para que las personas obedezcan al Estado: la ley.",
+                "Es falso, porque solo existe una justificación para que las personas obedezcan al Estado: la ideología."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-weber-legitimidad"
+            },
+            {
+              "e": "3",
+              "p": "Según Enrique García, el Estado de bienestar busca intermediar en las relaciones entre las fuerzas del capital (los empresarios) y las del trabajo (los sindicatos).",
+              "o": [
+                "Es falso, porque el Estado de bienestar es interventor y regulador exclusivamente en la esfera política y social.",
+                "Es verdadero, porque eso implica una fuerte presencia e intervención del Estado, como árbitro y constructor del consenso entre las partes.",
+                "Es falso, porque el Estado nunca puede regular a las fuerzas del capital.",
+                "Es verdadero, porque el Estado de bienestar es una forma de llamar también al Estado democrático según Robert Dahl."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-bienestar-arbitro"
+            },
+            {
+              "e": "4",
+              "p": "Según Max Povse, un régimen político es democrático cuando el acceso y el ejercicio del poder son ilimitados.",
+              "o": [
+                "Es falso, porque un régimen político es democrático cuando impone límites mediante el sistema electoral y el Estado de derecho.",
+                "Es falso, porque un régimen siempre hace referencia a sistemas no democráticos.",
+                "Es verdadero, porque al ser democrático –votado por el pueblo- un gobierno no tiene límites para su accionar.",
+                "Es verdadero, porque, como señala Weber, la legitimidad democrática solo puede ser limitada por otras elecciones."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-democracia-limites"
+            },
+            {
+              "e": "5",
+              "p": "Según el texto de Margarita Batlle, el concepto de poliarquía es la manera más simple y que mejor describe a las sociedades democráticas realmente existentes.",
+              "o": [
+                "Es verdadero, porque la democracia solo es posible en países occidentales y desarrollados.",
+                "Es falso, porque no hay forma simple de describir a las sociedades democráticas realmente existentes.",
+                "Es falso, porque la poliarquía es un orden utópico e ideal al que no puede aspirar la sociedad y por eso se usa el concepto “democracia”.",
+                "Es verdadero, porque la realización de la democracia no está al alcance de la humanidad."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-dahl-ideal"
+            },
+            {
+              "e": "6",
+              "p": "Nicolás Simone afirma en el texto sobre transiciones, que los procesos de democratización suelen estar a cargo de una casta política. Es decir, de aquellos que integran y, a la vez, se reconocen mutuamente como parte del elenco político privilegiado de un país.",
+              "o": [
+                "Es verdadero, porque en un régimen democrático solo la casta política toma decisiones basadas en su poder legal y económico.",
+                "Es verdadero, porque los políticos finalmente terminan trabajando en función de sus propios intereses y beneficios.",
+                "Es falso, porque es una élite la encargada de conducir el proceso de instalación de la democracia.",
+                "Es falso, porque en los procesos democráticos –a diferencia de las dictaduras- las decisiones las toma el pueblo."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-elite-transicion"
+            },
+            {
+              "e": "7",
+              "p": "Según Laura Petrino, la variedad de ejemplos latinoamericanos demuestra que las características económicas y sociales de nuestra región son las condiciones propicias para la aparición de figuras carismáticas pensadas como populistas.",
+              "o": [
+                "Es falso, porque el populismo es también un fenómeno político poderoso en los países centrales con democracias altamente institucionalizadas.",
+                "Es falso, porque el populismo es también un fenómeno político poderoso en los países comunistas con democracias poco institucionalizadas.",
+                "Es verdadero, porque las instituciones informales, propias de América Latina son las que abren el camino al populismo.",
+                "Es verdadero, porque todos los casos de populismo provienen de América Latina."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-populismo-global"
+            },
+            {
+              "e": "8",
+              "p": "Según Luis A. Romero, en 1973 Perón armó su proyecto –parecido pero distinto al de 1945- sobre tres bases. Entre ellas se encuentran:",
+              "o": [
+                "Un acuerdo democrático con las otras fuerzas políticas.",
+                "Un pacto social con los grandes representantes corporativos.",
+                "Una conducción más democrática de su movimiento, hasta entonces centralizado exclusivamente en su figura.",
+                "Un enfrentamiento con la Iglesia Católica por el manejo de la educación y la asistencia social.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-peron-proyecto"
+            },
+            {
+              "e": "9",
+              "p": "Según Romero, desde 1980, los dirigentes del Proceso –la dictadura iniciada en 1976- discutían la cuestión de la salida política. Esto era así porque:",
+              "o": [
+                "Les preocupaba la crisis económica, el aislamiento y la adversa opinión internacional.",
+                "Les preocupaba la presión del bloque liderado por la Unión Soviética –y de su principal actor en el orden internacional, Cuba.",
+                "Les preocupaban los enfrentamientos internos, que a la vez dificultaban los acuerdos necesarios para la salida buscada.",
+                "Les preocupaba que el candidato radical, y futuro presidente, Raúl Alfonsín, prometiera juzgarlos por los grandes negociados y la corrupción de esos años.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-salida-militar"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, el estallido ocurrido en Córdoba en mayo de 1969 vino precedido de una ola de protestas estudiantiles y de una fuerte agitación sindical que luego se extendió en el llamado “Cordobazo”. Esto fue así porque:",
+              "o": [
+                "En Córdoba convivían una masiva movilización piquetera y una importante organización estudiantil de izquierda.",
+                "Córdoba era un tradicional bastión electoral y político del peronismo.",
+                "En Córdoba convivían un centro industrial donde se concentraban las principales fábricas de automotores y una importante universidad.",
+                "La fuerte represión policial –incluyendo manifestantes muertos- potenció al activismo gremial y estudiantil.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-cordobazo"
+            },
+            {
+              "e": "11",
+              "p": "Según Romero, desde 1968, los religiosos que se reunieron en el Movimiento de Sacerdotes del Tercer Mundo, y los laicos que lo acompañaban, militaron en las zonas más pobres. Esto derivó en que:",
+              "o": [
+                "La violencia de abajo -decían- no se legitimaba por la injusticia social, aunque esta también era una forma de violencia.",
+                "Rechazaran la incorporación a la política y a la militancia de jóvenes, educados en los colegios religiosos.",
+                "Su lenguaje evangélico fue haciéndose rápidamente político.",
+                "Promovieran la formación de organizaciones solidarias e impulsaran reclamos y acciones de protesta.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-sacerdotes-3mundo"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, hacia 1973, y vista desde una perspectiva más amplia, la economía del país tuvo un desempeño medianamente satisfactorio, que se habría de prolongar hasta 1975. Esto se observó en:",
+              "o": [
+                "El crecimiento del sector agropecuario pampeano, que se prolongó hasta el comienzo de los ochenta.",
+                "Que se abrieron nuevos mercados para los granos y aceites argentinos, particularmente en los países socialistas.",
+                "Que el mundo se encontraba entonces en condiciones de transformar, al menos parte de su necesidad de alimentos, en demanda efectiva.",
+                "El crecimiento del sector industrial para la exportación, que se prolongó hasta el comienzo de los ochenta.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-economia-pre1975"
+            },
+            {
+              "e": "13",
+              "p": "Según Florencia Deich, los aspectos a considerar para caracterizar particularmente a un golpe de Estado y que permiten distinguirlo a uno de otros, son los siguientes:",
+              "o": [
+                "Las causas que conducen al hecho del golpe.",
+                "Las consecuencias y efectos sobre la economía, especialmente sobre la macroeconomía.",
+                "La cantidad de víctimas fatales que ocasiona en el levantamiento y acceso al poder.",
+                "Cómo se desarrolla.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D"
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-golpes-caracterizacion"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, con la represión de la última dictadura surgieron en el propio Ejército verdaderos señores de la guerra, que casi no reconocían ninguna autoridad sobre sí. Esto se vio en que:",
+              "o": [
+                "Las tendencias centrífugas y la anarquía se derivaban de la estricta división del poder entre las tres fuerzas que finalizaron al crearse una instancia superior a ellas que dirimía los conflictos: el consejo superior de las Fuerzas Armadas.",
+                "Las tendencias centrífugas y la anarquía se derivaban de la estricta división del poder entre las tres fuerzas, al punto de no existir una instancia superior a ellas que dirimiera los conflictos.",
+                "En torno a la Marina, en especial con el Brigadier Agosti a la cabeza, se constituyó la facción interna más fuerte, pero que distaba de ser dominante.",
+                "En torno a la Fuerza Aérea, en especial con el Almirante Massera a la cabeza, se constituyó la facción interna más fuerte, pero que distaba de ser dominante.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-senores-guerra"
+            },
+            {
+              "e": "15",
+              "p": "Verónica Beyreuther afirma que en un régimen totalitario, la libertad de la sociedad civil es reducida a su mínima expresión. Esto se ve en:",
+              "o": [
+                "Que todos los habitantes que sean considerados dignos deben participar activamente de las acciones llevadas adelante por el régimen.",
+                "La continua movilización de la población en eventos colectivos para demostrar la adhesión al único líder reconocido.",
+                "Que se controlan todas las formas sociales y políticas de la población excepto cuestiones de la vida privada e íntima.",
+                "Los partidos opositores tienen vía libre para realizar su tarea, pero en las elecciones deben apoyar al líder.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-totalitarismo-movilizacion"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, el tercer gobierno peronista –iniciado con Héctor Cámpora en 1973 y finalizado con Isabel Perón en 1976 luego de la muerte de Juan D. Perón- creó las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Esto se vio en:",
+              "o": [
+                "El impactante avance del narcotráfico en Rosario y el conurbano bonaerense.",
+                "La corrupción con la obra pública.",
+                "La acción espectacular de las organizaciones guerrilleras.",
+                "El caos económico iniciado en 1975.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-condiciones-golpe"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, el plan de ocupar las islas Malvinas en 1982 aparecía como la solución para los muchos problemas del gobierno militar. Esto fue así porque:",
+              "o": [
+                "Para los militares, una acción militar victoriosa en las Malvinas, permitiría unificar a las Fuerzas Armadas tras un objetivo común.",
+                "Para los militares, una acción militar victoriosa en las Malvinas, permitiría recuperar legitimidad ante una sociedad visiblemente disconforme.",
+                "Para los militares, una acción militar victoriosa en las Malvinas, permitiría recuperar la legitimidad internacional perdida.",
+                "Para los militares, una acción militar victoriosa en las Malvinas, permitiría asegurar un apoyo económico inmediato del Fondo Monetario Internacional (FMI).",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 1,
+              "k": "icse-p1-malvinas-legitimidad"
+            },
+            {
+              "e": "18",
+              "p": "Según Nicolás Simone, desde 1983 hasta la actualidad, aun con crisis, se mantuvo el régimen democrático; pero apenas recuperada la democracia, los peligros de un nuevo golpe fueron muy visibles durante todo el mandato de Raúl Alfonsín. Esto se vio en:",
+              "o": [
+                "La ausencia de pactos firmes entre los sectores democráticos más allá de las elecciones.",
+                "Los desacuerdos sobre política económica entre los sectores democráticos.",
+                "La falta de acuerdos entre las fuerzas democráticas sobre qué hacer con los militares represores.",
+                "El avance del narcotráfico en el renovado Poder Judicial.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la A.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-fragilidad-democratica"
+            }
+          ]
+        },
+        {
+          "id": "t13",
+          "n": "Tema 13 · oral",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Práctica oral: 16 preguntas de 0,50 puntos, total original 8. Se conserva ese puntaje y se muestra su equivalencia normalizada sobre 10.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Max Povse, la gran mayoría de los regímenes políticos en el mundo cumplen exactamente con todos los requisitos de alguno de los tipos teóricos explicitados.",
+              "o": [
+                "Es falso, porque son aproximaciones para tratar de entender realidades que, en general, siempre son más complejas y difíciles de encerrar en definiciones absolutas.",
+                "Es verdadero, porque los conceptos deben ser exactos para el trabajo desde un método científico.",
+                "Es falso,porque para hacer una tipología es necesario definir claramente a sus componentes, ya que no existen los regímenes híbridos.",
+                "Es verdadero, porque, por ejemplo, no existen autoritarismos que tengan elecciones."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-tipos-aproximaciones"
+            },
+            {
+              "e": "2",
+              "p": "Según Enrique García, en la década de 1970 comenzó a agravarse la crisis económica por la llamada “Crisis del Petróleo” y se ahondaron los cuestionamientos económicos y políticos al Estado de bienestar.",
+              "o": [
+                "Es falso, porque las alteraciones en los precios del petróleo son constantes y no tienen por qué afectar más a un tipo de Estado que a otro.",
+                "Es verdadero, porque para el marxismo y sus intelectuales el Estado de bienestar era solamente la cara amable del capitalismo.",
+                "Es verdadero, porque para pagar los gastos en energía, el Estado debía poner cada vez más dinero y no generaba nuevos ingresos.",
+                "Es falso, porque la década del 70 fueron los años dorados del Estado de bienestar."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-bienestar-petroleo"
+            },
+            {
+              "e": "3",
+              "p": "Según la definición utilizada por Patricio Gómez Talavera, la violencia es el elemento que explica el predominio del Estado sobre la sociedad.",
+              "o": [
+                "Es verdadero, porque la violencia del Estado tiene un poder y una magnitud que ninguna sociedad puede resistir, legal o ilegalmente.",
+                "Es falso, porque el Estado tiene el uso monopólico de la violencia sobre la sociedad y el territorio que domina.",
+                "Es verdadero, porque para ser efectiva, la violencia debe ser aceptada por los ciudadanos, aunque no sea legal necesariamente.",
+                "Es falso, porque para ser efectiva, la violencia debe ser aceptada por los ciudadanos y, además, debe ser legal."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-violencia-aceptada"
+            },
+            {
+              "e": "4",
+              "p": "Según Nadia Yannuzzi, el Estado y la sociedad son dos espacios similares que se relacionan de forma natural.",
+              "o": [
+                "Es verdadero, porque el Estado es el modo en que la naturaleza fue modificada para servir a los seres humanos.",
+                "Es falso, porque la sociedad es solo la parte civil del Estado.",
+                "Es verdadero, porque Estado y sociedad son dos formas de expresar lo mismo que Robert Dahl explicó para “democracia” y “poliarquía”.",
+                "Es falso, porque es una relación compleja por la gran heterogeneidad de actores y grupos sociales y políticos que buscan cumplir sus objetivos."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-sociedad-conflicto"
+            },
+            {
+              "e": "5",
+              "p": "Graciela Etchevest afirma que el terrorismo de Estado es un tipo especial de terrorismo.",
+              "o": [
+                "Es falso, porque el Estado nunca puede ser terrorista.",
+                "Es verdadero, porque el Estado se transforma, ya que la coerción no es transitoria como recurso para superar situaciones circunstanciales.",
+                "Es verdadero, porque el Estado tiene previsto en sus leyes que puede aplicar métodos ilegales para obtener determinados propósitos.",
+                "Es falso, porque el Estado se define por el uso monopólico de la violencia."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-terror-estatal"
+            },
+            {
+              "e": "6",
+              "p": "Según Javier Hermo, las Naciones Unidas generaron una definición de genocidio aplicable desde un punto de vista jurídico y también político.",
+              "o": [
+                "Es verdadero, porque para constituir un genocidio, deben ser acciones realizadas con la intención de destruir total o parcialmente a diversos grupos, por ejemplo, religiosos.",
+                "Es falso, porque las Naciones Unidas no tienen potestad en el tema.",
+                "Es falso, porque cada país debe juzgar los casos, como Argentina con el juicio a las Juntas militares de 1985.",
+                "Es verdadero, porque deben ser acciones realizadas con la intención de destruir total o parcialmente a diversos grupos, por ejemplo, políticos."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-convencion-1948"
+            },
+            {
+              "e": "7",
+              "p": "Luis A. Romero afirma que las soluciones de fondo a los problemas económicos –ya instaladas en la discusión mundial– fueron postergadas por el Gobierno de Alfonsín, cuya prioridad era consolidar la endeble democracia institucional. Esto fue así porque:",
+              "o": [
+                "Durante el primer año del Gobierno radical, la política económica del ministro Bernardo Grinspun se ajustó a las fórmulas dirigistas y redistributivas clásicas, similares a las aplicadas entre 1958 y 1962 durante el Gobierno de Arturo Frondizi.",
+                "El Gobierno aceptó el tomar decisiones que dividieran al campo de la civilidad, su gran apoyo.",
+                "La necesidad de una reforma profunda del Estado muy era evidente desde la perspectiva del radicalismo, que compartía con el peronismo la visión acerca de sus obligaciones sociales.",
+                "Durante el primer año del Gobierno radical, la política económica del ministro Bernardo Grinspun se ajustó a las fórmulas dirigistas y redistributivas clásicas, similares a las aplicadas entre 1963 y 1966, durante el Gobierno de Arturo Illia."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-prioridades"
+            },
+            {
+              "e": "8",
+              "p": "Romero afirma que, para inicios de los años 80, había cobrado forma definida entre los militares y sus amigos una corriente de opinión belicista, que se sostenía en una veta del nacionalismo argentino y se alimentaba con vigorosos sentimientos chauvinistas. Esto fue así por:",
+              "o": [
+                "La idea muy arraigada de los \"despojos\" de los que el país había sido víctima a lo largo de su historia.",
+                "La idea de que honrar a los próceres significaba conquistar nuevos territorios o recuperar los que estaban en disputa.",
+                "La influencia del peronismo entre los sectores populares debido a la condición militar de Perón.",
+                "Diversas fantasías largamente acuñadas en el imaginario social como la \"patria contratista\"."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-nacionalismo-belico"
+            },
+            {
+              "e": "9",
+              "p": "Romero afirma que, entre 1975 y principios de 1976, diversos factores fueron creando las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Entre ellos se puede mencionar:",
+              "o": [
+                "El terror sembrado por diversas bandas del crimen organizado, la mayoría de ellas vinculadas a sectores islamistas.",
+                "La presencia constante y pública en el país del Partido Comunista soviético a través de financiamiento, propaganda y una nutrida militancia que hacían suponer la pronta apertura de un frente revolucionario.",
+                "El terror sembrado por la Alianza Anticomunista Argentina (Triple A) y por la acción espectacular de las organizaciones guerrilleras.",
+                "El terror sembrado por diversas bandas del crimen organizado, la mayoría de ellas vinculadas al narcotráfico."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-condiciones-golpe"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, la cuestión económica, que al principio pareció mucho menos urgente que los problemas políticos para el Gobierno de Raúl Alfonsín, era extremadamente grave y condicionó las políticas del Gobierno. Esto fue así porque:",
+              "o": [
+                "La única ventaja del país en esos años era una economía que crecía un poco desde principios de la década, y que era abierta y eficiente.",
+                "La única ventaja del país en esos años era que el Estado en 1982 había asumido la deuda en dólares de los particulares, y por eso ya no cargaba con el pago de unos servicios que anteriormente insumían buena parte de sus ingresos corrientes.",
+                "La inflación, un problema endémico, se había acelerado desde mediados de 1982.",
+                "El superávit fiscal y la deuda externa, que seguía creciendo, constituían la parte más visible del problema."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-economia"
+            },
+            {
+              "e": "11",
+              "p": "Según Romero, en los años del tercer Gobierno de Perón, la lucha en torno del pacto social fue paralela a la que se libró en el seno del peronismo, involucrando al Gobierno y hasta al mismo Estado. Esto se vio en que:",
+              "o": [
+                "Perón debió enfrentar a los grupos paramilitares de la llamada “Triple A” y a su líder e inesperado competidor por el poder interno: José López Rega.",
+                "Su estrategia de enfrentamiento con quienes lo expulsaron del poder en 1955 consistía en utilizar a los jóvenes, y a los sectores populares que ellos movilizaban, para hostigar a sus rivales y a la vez para presentarse como el único capaz de contenerlos.",
+                "Los militares le impusieron a Perón a su propia esposa como vicepresidente para garantizar la continuidad del proyecto frente al apoyo que el mismo Perón le había dado públicamente a Cámpora.",
+                "Esa lucha estaba implícita en las equívocas relaciones entre Perón y quienes, alrededor del Ejército Revolucionario del Pueblo (ERP) y la Juventud Peronista, constituían la llamada \"tendencia revolucionaria\" del peronismo."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-pacto-social"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, la derrota en la guerra de Malvinas, la cuestión de los derechos humanos y el rotundo fracaso político de su último Gobierno, eran algunos de los elementos que debilitaban a la institución militar en los primeros años de democracia, luego de 1983. Sin embargo, los militares tampoco fueron expulsados del poder real. Esto se vio en que:",
+              "o": [
+                "Pronto, la solidaridad corporativa de los militares se reconstituyó en torno de lo que reivindicaban como su éxito: la victoria en la \"guerra contra la subversión\".",
+                "Rechazaron la condena de la sociedad, y recordaron que su acción había modernizado al país con nueva infraestructura e industria.",
+                "Rechazaron la condena de la sociedad y recordaron que su exitosa acción económica había contado con la complacencia generalizada.",
+                "Pronto, la solidaridad corporativa de los militares se reconstituyó en torno de lo que reivindicaban como su éxito: el plan económico y la caída de la inflación durante su Gobierno."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-militares-corporacion"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, el llamado “peronismo renovador” –que entre sus principales figuras tenía a Antonio Cafiero y al gobernador de La Rioja y futuro presidente, Carlos Menem– se proponía adecuar el peronismo al nuevo contexto democrático abierto en 1983. Esto resultó en que:",
+              "o": [
+                "Se proponía insertar el peronismo en el discurso de la civilidad que predominaba en la sociedad de la época.",
+                "Buscaron constantemente seguir y unirse al liderazgo de Alfonsín, quien era el político más popular del momento y no era tan distinto a la tradición peronista.",
+                "Cuando se produjo la crisis militar de Semana Santa de 1987, los dirigentes renovadores aprovecharon para usar el conflicto en su beneficio y reemplazar a Alfonsín, quien ya se encontraba muy desgastado por la crisis económica, pero sin cambiar el régimen político.",
+                "No solo inscribían al peronismo en el juego democrático, además parecían sostener su principal condición: una reforma integral del Estado conforme a las tesis del llamado Consenso de Washington y el neoliberalismo."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-peronismo-renovador"
+            },
+            {
+              "e": "14",
+              "p": "Según señala Margarita Batlle, el sufragio en una poliarquía es universal, es decir que:",
+              "o": [
+                "Los extranjeros que viven en el país, aunque no sean residentes, pueden votar todas las veces que haya elecciones.",
+                "El voto debe estar garantizado para todos los ciudadanos capacitados por la constitución para ejercerlo.",
+                "El voto debe ser un acto voluntario al igual que el empadronamiento.",
+                "El voto en términos organizativos (quién vota y quién no) no tiene nada que ver con la poliarquía, que es un concepto sociológico."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-poliarquia-sufragio"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, al asumir la presidencia, Alfonsín propuso algunas distinciones lógicas sobre el legado militar, pero que, al mismo tiempo, resultaban difíciles de aceptar para la sociedad movilizada, en especial para las organizaciones de derechos humanos. Esto se debió a que:",
+              "o": [
+                "Alfonsín no había condenado las violaciones a los derechos humanos en la dictadura y continuó esa línea durante su Gobierno.",
+                "Alfonsín pensaba que había que separar el juicio a los culpables del juzgamiento a la institución, que era parte del Estado.",
+                "Alfonsín pensaba que había que evitar el juicio a los militares culpables porque implicaba atacar a toda la institución que era parte del Estado.",
+                "Alfonsín pensaba que se debía concentrar el castigo en las cúpulas y aplicar al resto el criterio de la obediencia debida.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-legado"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, la ola de movilización social que inauguró el Cordobazo se expresó de maneras diversas. Entre ellas:",
+              "o": [
+                "Un nuevo activismo, que se manifestó primero en la zona de Rosario y luego en la Provincia de Buenos Aires, que se conoció con el nombre de “piqueteros” y luego de “movimientos sociales”.",
+                "Un nuevo activismo que se manifestó sobre todo en Rosario, donde se destacaban los numerosos desocupados producto de la quiebra de las grandes empresas establecidas luego de 1958, en especial las automotrices.",
+                "Un nuevo activismo sindical, que se manifestó primero en la zona de Rosario o sobre todo en Córdoba, donde se destacaban las empresas establecidas luego de 1958, en especial las vinculadas a la industria agroexportadora.",
+                "Un nuevo activismo sindical, que se manifestó primero en la zona de Rosario o sobre todo en Córdoba, donde se destacaban las plantas de las grandes empresas establecidas luego de 1958, en especial las automotrices.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-cordobazo"
+            }
+          ],
+          "oral": true,
+          "totalEsperado": 8
+        }
+      ]
+    },
+    {
+      "id": "pedrosa-2025-04-25-p1",
+      "parcial": 1,
+      "nombre": "1er parcial · 25/04/2025",
+      "fecha": "2025-04-25",
+      "catedra": "A · Fernando Pedrosa",
+      "detalle": "Cátedra A · Pedrosa. 18 preguntas por tema; 16 de 0,50 y 2 de 1 punto.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Luis A. Romero afirma que para 1975 el gobierno peronista se acercaba a su final. El llamado \"rodrigazo\" había desatado una crisis económica que resultó imposible de dominar.",
+              "o": [
+                "Es verdadero, porque el “rodrigazo” implicó la aparición de los mecanismos de indexación y, en general, escasas posibilidades para controlar la coyuntura desde el poder.",
+                "Es verdadero, porque fue el primer default (suspensión del pago de la deuda externa) y el inicio de un aislamiento internacional del país y fuertes costos judiciales en el exterior.",
+                "Es falso, porque el “rodrigazo” fue un movimiento de protesta social surgido en la provincia de Santa Fe, basado en los productores agrícolas.",
+                "Es falso, porque en 1975 ya estaban gobernando los militares de la mano del Gral. Jorge R. Videla."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-rodrigazo"
+            },
+            {
+              "e": "2",
+              "p": "Según Romero, la primera cuestión oscura que abría el llamado “Proceso de Reorganización nacional” (comenzado en marzo de 1976) era dónde residía realmente el poder.",
+              "o": [
+                "Es falso, porque el poder residía en la Junta de comandantes que centralizaba las funciones de ejecutivas, legislativas y judiciales.",
+                "Es verdadero, porque el “Proceso de reorganización nacional” supuso la existencia de un Estado terrorista, visible y público, encargado tanto de la represión como de las políticas económicas.",
+                "Es verdadero, porque supuso la coexistencia de un Estado terrorista clandestino, encargado de la represión, y otro visible, sujeto a normas, establecidas por las propias autoridades militares.",
+                "Es falso, porque la tradición política del país era fuertemente presidencialista, y además la unidad de mando fue siempre uno de los principios de las Fuerzas Armadas, por eso la autoridad del presidente nunca fue discutida ni revisada por sus pares militares."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-proceso-poder"
+            },
+            {
+              "e": "3",
+              "p": "Según Florencia Deich, en 1973 el presidente Héctor Cámpora y el vice Vicente Solano Lima renunciaron a sus cargos y fueron reemplazados por el tercero en la línea constitucional, el entonces presidente de la Cámara de Diputados, Raúl Lastiri.",
+              "o": [
+                "Es falso, porque ni Cámpora ni Solano Lima ocuparon los cargos de presidente y vice respectivamente.",
+                "Es falso, porque Cámpora finalizó su mandato de 6 años y es recordado como un presidente ejemplar.",
+                "Es verdadero, porque fue producto de movimientos militares opuestos al peronismo y que más tarde concluirían en un golpe de Estado.",
+                "Es verdadero, porque fue producto de movimientos dentro del mismo peronismo para garantizar el retorno de Perón a la presidencia."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-campora-lastiri"
+            },
+            {
+              "e": "4",
+              "p": "Según Nicolás Simone, los sectores que apoyaron al régimen no democrático que se está retirando suelen dividirse frente a una transición entre quienes quieren volver al viejo régimen y quien entienden que ya no hay marcha atrás.",
+              "o": [
+                "Es falso, porque quienes apoyaron a los militares golpistas nunca apoyarían una salida democrática, sea ésta como sea.",
+                "Es falso, porque la división siempre se produce por cuestiones económicas, según convenga o no en cada sector.",
+                "Es verdadero, porque los “blandos” apoyaron inicialmente la dictadura, pero en ese momento prefieren una salida democrática. Los “duros” son quienes quieren continuar la dictadura aun cuando ya no hay legitimidad para que eso ocurra.",
+                "Es verdadero, porque los “liberales” apoyaron inicialmente la dictadura, pero en ese momento prefieren una salida democrática. Los “fascistas” son quienes quieren continuar la dictadura aun cuando ya no hay legitimidad para que eso ocurra."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-duros-blandos"
+            },
+            {
+              "e": "5",
+              "p": "Según Verónica Beyreuther existen definiciones variadas del concepto de “dictadura” que, en términos generales, coinciden en que es un subtipo del régimen político autoritario.",
+              "o": [
+                "Es verdadero, porque en una dictadura una o varias personas asumen sin límite alguno el control del Estado de un país.",
+                "Es falso, porque es un subtipo del régimen político socialista.",
+                "Es verdadero, porque en una dictadura los tres poderes deberían interactuar y controlarse mutuamente.",
+                "Es falso, porque es un subtipo del régimen político neoliberal."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-dictadura-definicion"
+            },
+            {
+              "e": "6",
+              "p": "Según Margarita Batlle, en determinadas circunstancias los funcionarios públicos electos pueden (y deben) ser condicionados por personas sin representación popular electoral.",
+              "o": [
+                "Es verdadero porque debe haber una persona o grupo que posea el poder (o pueda condicionarlo) sin haber sido electo de manera democrática, es decir, a través de elecciones.",
+                "Es falso porque debe existir una subordinación de los funcionarios públicos no elegidos a aquellos elegidos popularmente.",
+                "Es falso porque los funcionarios políticos no deben rendir cuentas ni ser controlados por instituciones como la justicia o los parlamentos",
+                "Es verdadero porque debe existir una subordinación de funcionarios públicos electos a los designados por el presidente o el congreso."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-electos-control"
+            },
+            {
+              "e": "7",
+              "p": "Según señala Max Povse entre los subtipos de régimen político menos abstractos se encuentran diversos conceptos, entre ellos:",
+              "o": [
+                "La poliarquía.",
+                "La aristocracia",
+                "El genocidio.",
+                "El populismo.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-subtipos-regimen"
+            },
+            {
+              "e": "8",
+              "p": "Según Nicolás Simone, en Argentina hubo, a lo largo del siglo XX, seis golpes de Estado que lograron imponerse. Estos ocurrieron en:",
+              "o": [
+                "1955",
+                "1966",
+                "1976",
+                "1989",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-seis-golpes"
+            },
+            {
+              "e": "9",
+              "p": "El video sobre Transición a la Democracia trata sobre distintos tipos de transición en contextos de conflictos armados. Entre ellos distingue:",
+              "o": [
+                "Transiciones en las que se ha producido un cambio de régimen entre los sectores “duros” y “blandos” del conflicto armado.",
+                "Transiciones que tienen lugar en casos en que un conflicto armado continúa en curso.",
+                "Transiciones en las que se ha producido una humillación militar, pero no una derrota total.",
+                "Transiciones en las que se ha producido la asimilación del régimen político a partir del bando victorioso en un conflicto armado.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-transiciones-conflictos"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, la guerrilla peronista Montoneros era muy hábil en traducir las palabras de Perón cuando estaba exiliado en Madrid, pero debieron enfrentarse con el problema que implicó la vuelta del líder al país. Esto se vio en que:",
+              "o": [
+                "Los Montoneros elaboraron la teoría del \"cerco\" o del \"entorno\" que supuestamente impedía a Perón conocer la verdadera voluntad de su pueblo.",
+                "Perón empezaba a hablar inequívocamente recordando la “ortodoxia peronista”, que poco tenía que ver con la \"socialista”.",
+                "Perón empezaba a hablar inequívocamente recordando sus orígenes socialistas que poco tenían que ver con la “ortodoxia peronista”.",
+                "Perón comenzó a abandonar su discurso de derecha tradicional denunciando a los \"apresurados\" e infiltrados de la Triple A.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-montoneros-cerco"
+            },
+            {
+              "e": "11",
+              "p": "En marzo de 1981, debía asumir el nuevo presidente, Gral. Roberto Viola. Alfredo Martínez de Hoz dejaría el Ministerio de Economía, y con él cesaría la vigencia de la “tablita”, lo que fue anticipado por una masiva emigración de dólares. Según Romero, esto ocasionó que:",
+              "o": [
+                "Finalmente el gobierno tuvo que aceptar y reforzar la paridad cambiaria sostenida desde 1976.",
+                "El peso fue devaluado en un 400%, mientras que la inflación recrudecida llegaba al 100% anual.",
+                "El Estado se hiciera cargo de la deuda externa de las empresas, aumentando su propio endeudamiento.",
+                "La devaluación resultante solo fuera beneficiosa para las empresas endeudadas en dólares.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-fin-tablita"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, el Programa de Reconstrucción y Liberación Nacional (presentado por Perón en 1973, durante su tercera presidencia), consistía en un intento por superar las limitaciones al crecimiento de una economía cuyos rasgos básicos no se pensaba modificar. Esto se vio en que:",
+              "o": [
+                "Había en ese programa una clara orientación hacia el \"socialismo nacional\".",
+                "El Estado se propuso una gran reducción de gastos, especialmente en el número de empleados públicos y empresas del Estado para reducir el déficit creciente.",
+                "No había en ese programa nada que indicara un intento de buscar nuevos rumbos al desarrollo del capitalismo.",
+                "Sus objetivos no implicaban un ataque directo a ninguno de los intereses establecidos.",
+                "Las opciones correctas son la A, y B.",
+                "Las opciones correctas son la B, y C.",
+                "Las opciones correctas son la B y D.",
+                "Las opciones correctas son la C y D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-reconstruccion-capitalismo"
+            },
+            {
+              "e": "13",
+              "p": "Graciela Etchevest afirma que el terrorismo de Estado es un tipo especial de terrorismo ya que su protagonista no es un grupo extremista ni personas que buscan imponer una religión o idea por la fuerza. El terrorista, en este caso, es el Estado. Esto implica que:",
+              "o": [
+                "Se genere una situación muy delicada ya que produce la convivencia de un Estado formal y otro “clandestino”.",
+                "El Estado, al violar las leyes (que debería cumplir e implementar), refuerza su propia existencia.",
+                "Las acciones terroristas son producto de un plan sistemático y planificado desde las máximas autoridades públicas.",
+                "Las acciones terroristas pueden ser fruto de un error o de un acto de locura momentánea de algún agente público.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-terror-estatal"
+            },
+            {
+              "e": "14",
+              "p": "Romero afirma que, entre 1975 y principios de 1976, diversos factores fueron creando las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Entre ellos se puede mencionar:",
+              "o": [
+                "La muerte presente cotidianamente, la acción espectacular de las organizaciones guerrilleras -que habían fracasado en dos grandes operativos contra unidades militares en el Gran Buenos Aires y en Formosa-.",
+                "El terror sembrado por la Alianza Anticomunista Argentina (Triple A).",
+                "La presencia constante y pública en el país del Partido Comunista soviético a través de financiamiento, propaganda y una nutrida militancia que hacían suponer la pronta apertura de un frente revolucionario.",
+                "El terror sembrado por diversas bandas del crimen organizado, la mayoría de ellas vinculadas al narcotráfico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-condiciones-golpe"
+            },
+            {
+              "e": "15",
+              "p": "Romero relata que la ley del divorcio de 1987 se aprobó durante el gobierno del radical Raúl Alfonsín luego de una breve, pero muy intensa discusión. Esta intensidad estuvo relacionada con que:",
+              "o": [
+                "Fue el punto culminante de la modernización cultural iniciada en 1983.",
+                "Fue el momento en que se formalizó la ruptura de relaciones diplomáticas entre Argentina y el Vaticano.",
+                "Los sectores tradicionales de la Iglesia católica se opusieron apelando a mecanismos habituales de presión y a otros más novedosos.",
+                "Los sectores más tradicionales del partido radical intentaron oponerse, bloqueando su tratamiento en el Congreso.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-divorcio-87"
+            },
+            {
+              "e": "16",
+              "p": "Según Patricio Gómez Talavera los conceptos de “Estado” y “Gobierno” presentan diferencias que se deben considerar, entre ellas:",
+              "o": [
+                "El Estado está compuesto por quienes, en forma contingente y coyuntural, administran el Gobierno.",
+                "El Gobierno, a diferencia del Estado, es una estructura de existencia permanente.",
+                "El Gobierno está compuesto por quienes, en forma contingente y coyuntural, administran el Estado.",
+                "El Estado, a diferencia del Gobierno, es una estructura de existencia permanente.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-estado-gobierno"
+            },
+            {
+              "e": "17",
+              "p": "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff sobre la figura de Raúl Alfonsín, particularmente en su etapa de presidente de la Nación, el entrevistado considera a 1985 un punto de inflexión. ¿Por qué eligió ese año?",
+              "o": [
+                "Porque el gobierno obtuvo un triunfo en las elecciones legislativas parciales de noviembre de 1985 que significaba el apoyo general de la civilidad a la política económica.",
+                "Porque en 1985 se produjo el pacto con el peronismo renovador y la implementación del Plan Primavera, un programa de estabilización económica implementado por el gobierno radical.",
+                "Porque es el año en que se concretó el juicio a las Juntas Militares como gran momento de la institucionalidad democrática.",
+                "Porque ese año se lanzó con éxito el llamado Plan Austral, un programa de estabilización económica.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-alfonsin-1985"
+            },
+            {
+              "e": "18",
+              "p": "Según Romero, al asumir la presidencia, Alfonsín propuso algunas distinciones lógicas sobre el legado militar, pero que, al mismo tiempo, resultaban difíciles de aceptar para la sociedad movilizada, en especial para las organizaciones de derechos humanos. Esto se debió a que:",
+              "o": [
+                "Alfonsín pensaba que había que separar el juicio a los culpables del juzgamiento a la institución, que era parte del Estado.",
+                "Alfonsín pensaba que había que evitar el juicio a los militares culpables porque implicaba atacar a toda la institución que era parte del Estado.",
+                "Alfonsín no había condenado las violaciones a los derechos humanos en la dictadura y continuó esa línea durante su gobierno.",
+                "Alfonsín pensaba que se debía concentrar el castigo en las cúpulas y aplicar al resto el criterio de la obediencia debida.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-alfonsin-legado"
+            }
+          ]
+        },
+        {
+          "id": "t2",
+          "n": "Tema 2",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Verónica Beyreuther existen definiciones variadas del concepto de “dictadura” que, en términos generales, coinciden en que es un subtipo del régimen político autoritario.",
+              "o": [
+                "Es falso, porque es un subtipo del régimen político socialista.",
+                "Es verdadero, porque en una dictadura una o varias personas asumen sin límite alguno el control del Estado de un país.",
+                "Es verdadero, porque en una dictadura los tres poderes deberían interactuar y controlarse mutuamente.",
+                "Es falso, porque es un subtipo del régimen político neoliberal."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-dictadura-definicion"
+            },
+            {
+              "e": "2",
+              "p": "Según lo planteado por Patricio Gómez Talavera, el filósofo británico Thomas Hobbes (1588-1679) sostenía que el Estado surgió a través de un acuerdo efectuado entre todos los habitantes de un territorio con el fin de controlar la guerra.",
+              "o": [
+                "Es verdadero, porque el Estado debe limitarse a la protección de la vida, y no es de su incumbencia lo referido a los bienes materiales.",
+                "Es falso, porque la aparición del Estado implicó que haya más guerras, lo que aceleró la destrucción descontrolada y la disgregación social.",
+                "Es falso, porque el Estado es previo a la sociedad y, de hecho, la crea y la organiza.",
+                "Es verdadero porque la aparición del Estado busca poner freno a la destrucción descontrolada y la disgregación social."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-hobbes"
+            },
+            {
+              "e": "3",
+              "p": "Según Nicolás Simone, los sectores que apoyaron al régimen no democrático que se está retirando suelen dividirse frente a una transición entre quienes quieren volver al viejo régimen y quien entienden que ya no hay marcha atrás.",
+              "o": [
+                "Es verdadero, porque los “liberales” apoyaron inicialmente la dictadura, pero en ese momento prefieren una salida democrática. Los “fascistas” son quienes quieren continuar la dictadura aun cuando ya no hay legitimidad para que eso ocurra.",
+                "Es falso, porque la división siempre se produce por cuestiones económicas, según convenga o no cada sector.",
+                "Es falso, porque quienes apoyaron a los militares golpistas nunca apoyarían una salida democrática, sea ésta como sea.",
+                "Es verdadero, porque los “blandos” apoyaron inicialmente la dictadura, pero en ese momento prefieren una salida democrática. Los “duros” son quienes quieren continuar la dictadura aun cuando ya no hay legitimidad para que eso ocurra."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-duros-blandos"
+            },
+            {
+              "e": "4",
+              "p": "Según Florencia Deich, si un golpe de Estado realizado por las Fuerzas Armadas contara con el suficiente apoyo popular, podría ser un acto legal, como por ejemplo lo fue el de 1943 en Argentina.",
+              "o": [
+                "Es falso porque un golpe de Estado siempre es una acción por fuera de la ley, y el golpe de 1943 también fue ilegal.",
+                "Es falso porque un golpe de Estado es ilegal si los militares apelan a la violencia contra el pueblo como ocurrió en el de 1943.",
+                "Es verdadero porque los militares poseen la función de salvaguarda de los principios constitucionales; su intervención es siempre legal más aún si es en representación de la voz mayoritaria del pueblo, como quedó claro en el plebiscito de 1943.",
+                "Es verdadero porque un golpe de Estado puede servir para ordenar sociedades en crisis, y obtener ahí legalidad, como fue el de 1943."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-deich-golpe-ruptura"
+            },
+            {
+              "e": "5",
+              "p": "Según Margarita Batlle, en determinadas circunstancias los funcionarios públicos electos pueden (y deben) ser condicionados por personas sin representación popular electoral.",
+              "o": [
+                "Es falso porque debe existir una subordinación de los funcionarios públicos no elegidos a aquellos elegidos popularmente. es decir, a través de elecciones.",
+                "Es falso porque los funcionarios políticos no deben rendir cuentas ni ser controlados por instituciones como la justicia o los parlamentos",
+                "Es verdadero porque debe haber una persona o grupo que posea el poder (o pueda condicionarlo) sin haber sido electo de manera democrática,",
+                "Es verdadero porque debe existir una subordinación de funcionarios públicos electos a los designados por el presidente o el congreso."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-electos-control"
+            },
+            {
+              "e": "6",
+              "p": "Luis A. Romero afirma que para 1975 el gobierno peronista se acercaba a su final. El llamado \"rodrigazo\" había desatado una crisis económica que resultó imposible de dominar.",
+              "o": [
+                "Es falso, porque en 1975 ya estaban gobernando los militares de la mano del Gral. Jorge R. Videla.",
+                "Es verdadero, porque el “rodrigazo” implicó la aparición de los mecanismos de indexación y, en general, escasas posibilidades para controlar la coyuntura desde el poder.",
+                "Es verdadero, porque fue el primer default (suspensión del pago de la deuda externa) y el inicio de un aislamiento internacional del país y fuertes costos judiciales en el exterior.",
+                "Es falso, porque el “rodrigazo” fue un movimiento de protesta social surgido en la provincia de Santa Fe basado en los productores agrícolas."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-rodrigazo"
+            },
+            {
+              "e": "7",
+              "p": "Según Romero, la primera cuestión oscura que abría el llamado “Proceso de Reorganización nacional” (comenzado en marzo de 1976) era dónde residía realmente el poder.",
+              "o": [
+                "Es falso, porque el poder residía en la Junta de comandantes que centralizaba las funciones de ejecutivas, legislativas y judiciales.",
+                "Es verdadero, porque supuso la coexistencia de un Estado terrorista clandestino, encargado de la represión, y otro visible, sujeto a normas, establecidas por las propias autoridades militares.",
+                "Es verdadero, porque el “Proceso de reorganización nacional” supuso la existencia de un Estado terrorista, visible y público, encargado tanto de la represión como de las políticas económicas.",
+                "Es falso, porque la tradición política del país era fuertemente presidencialista, y además la unidad de mando fue siempre uno de los principios de las Fuerzas Armadas, por eso la autoridad del presidente nunca fue discutida ni revisada por sus pares militares."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-proceso-poder"
+            },
+            {
+              "e": "8",
+              "p": "Según señala Max Povse entre los subtipos de régimen político menos abstractos se encuentran diversos conceptos, entre ellos:",
+              "o": [
+                "La poliarquía.",
+                "La aristocracia",
+                "El populismo.",
+                "La democracia delegativa.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-subtipos-regimen"
+            },
+            {
+              "e": "9",
+              "p": "Graciela Etchevest afirma que el terrorismo de Estado es un tipo especial de terrorismo ya que su protagonista no es un grupo extremista ni personas que buscan imponer una religión o idea por la fuerza. El terrorista, en este caso, es el Estado. Esto implica que:",
+              "o": [
+                "Las acciones terroristas pueden ser fruto de un error o de un acto de locura momentánea de algún agente público.",
+                "El Estado, al violar las leyes (que debería cumplir e implementar), refuerza su propia existencia.",
+                "Las acciones terroristas son producto de un plan sistemático y planificado desde las máximas autoridades públicas.",
+                "Se genere una situación muy delicada ya que produce la convivencia de un Estado formal y otro “clandestino”.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-terror-estatal"
+            },
+            {
+              "e": "10",
+              "p": "En marzo de 1981, debía asumir el nuevo presidente, Gral. Roberto Viola. Alfredo Martínez de Hoz dejaría el Ministerio de Economía, y con él cesaría la vigencia de la “tablita”, lo que fue anticipado por una masiva emigración de dólares. Según Romero, esto ocasionó que:",
+              "o": [
+                "El Estado se hiciera cargo de la deuda externa de las empresas, aumentando su propio endeudamiento.",
+                "El peso fue devaluado en un 400%, mientras que la inflación recrudecida llegaba al 100% anual.",
+                "Finalmente el gobierno tuvo que aceptar y reforzar la paridad cambiaria sostenida desde 1976.",
+                "La devaluación resultante solo fuera beneficiosa para las empresas endeudadas en dólares.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-fin-tablita"
+            },
+            {
+              "e": "11",
+              "p": "Romero relata que la ley del divorcio de 1987 se aprobó durante el gobierno del radical Raúl Alfonsín luego de una breve, pero muy intensa discusión. Esta intensidad estuvo relacionada con que:",
+              "o": [
+                "Los sectores más tradicionales del partido radical intentaron oponerse, bloqueando su tratamiento en el congreso.",
+                "Fue el momento en que se formalizó la ruptura de relaciones diplomáticas entre Argentina y el Vaticano.",
+                "Los sectores tradicionales de la Iglesia católica se opusieron apelando a mecanismos habituales de presión y a otros más novedosos.",
+                "Fue el punto culminante de la modernización cultural iniciada en 1983.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-divorcio-87"
+            },
+            {
+              "e": "12",
+              "p": "Romero afirma que, entre 1975 y principios de 1976, diversos factores fueron creando las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Entre ellos se puede mencionar:",
+              "o": [
+                "La muerte presente cotidianamente y la acción espectacular de las organizaciones guerrilleras -que habían fracasado en dos grandes operativos contra unidades militares en el Gran Buenos Aires y en Formosa-.",
+                "La presencia constante y pública en el país del Partido Comunista soviético a través de financiamiento, propaganda y una nutrida militancia que hacían suponer la pronta apertura de un frente revolucionario.",
+                "El terror sembrado por la Alianza Anticomunista Argentina (Triple A).",
+                "El terror sembrado por diversas bandas del crimen organizado, la mayoría de ellas vinculadas al narcotráfico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-condiciones-golpe"
+            },
+            {
+              "e": "13",
+              "p": "Según Nicolás Simone, en Argentina hubo, a lo largo del siglo XX, seis golpes de Estado que lograron imponerse. Estos ocurrieron en:",
+              "o": [
+                "1958",
+                "1955",
+                "1966",
+                "1976",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-seis-golpes"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, la guerrilla peronista Montoneros era muy hábil en traducir las palabras de Perón cuando estaba exiliado en Madrid, pero debieron enfrentarse con el problema que implicó la vuelta del líder al país. Esto se vio en que:",
+              "o": [
+                "Perón empezaba a hablar inequívocamente recordando la “ortodoxia peronista”, que poco tenía que ver con la \"socialista”.",
+                "Los Montoneros elaboraron la teoría del \"cerco\" o del \"entorno\" que supuestamente impedía a Perón conocer la verdadera voluntad de su pueblo.",
+                "Perón comenzó a abandonar su discurso de derecha tradicional denunciando a los \"apresurados\" e infiltrados de la Triple A.",
+                "Perón empezaba a hablar inequívocamente recordando sus orígenes socialistas que poco tenían que ver con la “ortodoxia peronista”.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-montoneros-cerco"
+            },
+            {
+              "e": "15",
+              "p": "El video sobre Transición a la Democracia trata sobre distintos tipos de transición en contextos de conflictos armados. Entre ellos distingue:",
+              "o": [
+                "Transiciones en las que se ha producido una humillación militar, pero no una derrota total.",
+                "Transiciones que tienen lugar en casos en que un conflicto armado continúa en curso.",
+                "Transiciones en las que se ha producido un cambio de régimen entre los sectores “duros” y “blandos” del conflicto armado.",
+                "Transiciones en las que se ha producido la asimilación del régimen político a partir del bando victorioso en un conflicto armado.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-transiciones-conflictos"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, el Programa de Reconstrucción y Liberación Nacional (presentado por Perón en 1973, durante su tercera presidencia), consistía en un intento por superar las limitaciones al crecimiento de una economía cuyos rasgos básicos no se pensaba modificar. Esto se vio en que:",
+              "o": [
+                "Había en ese programa una clara orientación hacia el \"socialismo nacional\".",
+                "No había en ese programa económico nada que indicara un intento de buscar nuevos rumbos al desarrollo del capitalismo.",
+                "El Estado se propuso una gran reducción de gastos, especialmente en el número de empleados públicos y empresas del Estado para reducir el déficit creciente.",
+                "Sus objetivos no implicaban un ataque directo a ninguno de los intereses establecidos.",
+                "Las opciones correctas son la A, y B.",
+                "Las opciones correctas son la B, y C.",
+                "Las opciones correctas son la B y D.",
+                "Las opciones correctas son la C y D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-reconstruccion-capitalismo"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, al asumir la presidencia, Alfonsín propuso algunas distinciones lógicas sobre el legado militar, pero que, al mismo tiempo, resultaban difíciles de aceptar para la sociedad movilizada, en especial para las organizaciones de derechos humanos. Esto se debió a que:",
+              "o": [
+                "Alfonsín no había condenado las violaciones a los derechos humanos en la dictadura y continuó esa línea durante su gobierno.",
+                "Alfonsín pensaba que había que evitar el juicio a los militares culpables porque implicaba atacar a toda la institución que era parte del Estado.",
+                "Alfonsín pensaba que había que separar el juicio a los culpables del juzgamiento a la institución, que era parte del Estado.",
+                "Alfonsín pensaba que se debía concentrar el castigo en las cúpulas y aplicar al resto el criterio de la obediencia debida.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-alfonsin-legado"
+            },
+            {
+              "e": "18",
+              "p": "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff sobre la figura de Raúl Alfonsín, particularmente en su etapa de presidente de la Nación, el entrevistado considera a 1985 un punto de inflexión. ¿Por qué elige ese año?",
+              "o": [
+                "Porque el gobierno obtuvo un triunfo en las elecciones legislativas parciales de noviembre de 1985 que significaba el apoyo general de la civilidad a la política económica.",
+                "Porque es el año en que se concretó el juicio a las juntas militares como gran momento de la institucionalidad democrática.",
+                "Porque en 1985 se produjo el pacto con el peronismo renovador y la implementación del Plan Primavera, un programa de estabilización económica implementado por el gobierno radical.",
+                "Porque ese año se lanzó con éxito el llamado Plan Austral, un programa de estabilización económica.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la C y la D. ----------------------------------------------------------------------------------------------------------------------------------------------------------------"
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-alfonsin-1985"
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Nadia Yannuzzi explica que la lucha por el poder genera conflictos en la sociedad y en su relación con el Estado.",
+              "o": [
+                "Es falso, porque la lucha por el poder se produce fuera del Estado.",
+                "Es verdadero, porque cuando un grupo determinado busca aumentar su poder, también implica que algún otro sector lo puede perder.",
+                "Es falso, porque las instituciones son permanentes y las luchas por el poder tienen que ver con el rumbo del Gobierno.",
+                "Es verdadero, porque la lucha por el poder sólo involucra a los políticos y sus organizaciones."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-sociedad-conflicto"
+            },
+            {
+              "e": "2",
+              "p": "Según Patricio Gómez Talavera, antes de que las sociedades humanas conformaran un Estado, las personas vivían en el llamado “estado de naturaleza”.",
+              "o": [
+                "Es falso, porque siempre que existió un Estado, fue a costa de dominar a la naturaleza.",
+                "Es verdadero, porque las personas vivían en armonía con la naturaleza antes que se impusiera el capitalismo.",
+                "Es falso, porque los seres humanos siempre vivieron organizados en Estados.",
+                "Es verdadero, porque en esa situación no había leyes que organizaran la vida social y el más fuerte se imponía siempre sobre el más débil."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-hobbes"
+            },
+            {
+              "e": "3",
+              "p": "Según Max Povse, el proceso mediante el cual un régimen político pasa de ser de un tipo a otro se llama “transición”.",
+              "o": [
+                "Es verdadero, porque los regímenes políticos son relaciones pluralistas y ofrecen todo tipo de posibilidades ideológicas en su interior.",
+                "Es falso, porque los regímenes políticos son solo de una forma y así se mantienen, democráticos o no democráticos.",
+                "Es verdadero, porque los regímenes son fluidos y pueden cambiar en la medida en que lo hagan quienes ejercen el poder.",
+                "Es falso, porque los regímenes no son fluidos y no cambian según quienes ejercen el poder."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimenes-fluidos"
+            },
+            {
+              "e": "4",
+              "p": "Según Laura Petrino, si bien el discurso populista es pluralista, el éxito electoral y político de estos líderes se sostiene mediante una coalición estricta y excluyente de sectores sociales.",
+              "o": [
+                "Es falso, porque el discurso populista se basa en la legitimidad mayoritaria.",
+                "Es verdadero, porque si bien el discurso populista se basa en la legitimidad mayoritaria, ésta debe integrarse solo por sus seguidores.",
+                "Es falso, porque el discurso populista no es pluralista.",
+                "Es verdadero, porque el líder populista conforma sus mayorías estrictamente con quienes comparten social y políticamente todos sus objetivos."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-populismo-mayoria"
+            },
+            {
+              "e": "5",
+              "p": "Según Florencia Deich,el concepto de cambio de régimen político no tiene relación con el de golpes de Estado.",
+              "o": [
+                "Es falso, porque los regímenes políticos solo cambian por medio de golpes de Estado.",
+                "Es verdadero, porque son dos conceptos que no guardan ninguna relación en la vida social y política de un país.",
+                "Es verdadero, porque los golpes de Estado los protagonizan militares y los regímenes políticos son cosa de civiles.",
+                "Es falso, porque un golpe de Estado siempre se propone producir una ruptura del régimen político existente hasta ese momento."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-deich-golpe-ruptura"
+            },
+            {
+              "e": "6",
+              "p": "Según Verónica Beyreuther existen definiciones variadas del concepto de “dictadura” que, en términos generales, coinciden en que es un subtipo del régimen político autoritario.",
+              "o": [
+                "Es verdadero, porque en una dictadura una o varias personas asumen sin límite alguno el control del Estado de un país.",
+                "Es falso, porque es un subtipo del régimen político socialista.",
+                "Es verdadero, porque en una dictadura los tres poderes deberían interactuar y controlarse mutuamente.",
+                "Es falso, porque es un subtipo del régimen político neoliberal."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-dictadura-definicion"
+            },
+            {
+              "e": "7",
+              "p": "Según Graciela Etchevest, el término “terrorismo” es un concepto que se ha mantenido inalterable a lo largo del tiempo.",
+              "o": [
+                "Es falso, porque cambió con el tiempo y se comenzó a aplicar a la violencia cometida por actores no estatales.",
+                "Es verdadero, porque el concepto se creó en un periodo particular de la Revolución Francesa, conocido como “el terror\" y desde ahí se mantuvo sin cambios.",
+                "Es falso, porque el concepto se creó en los años en que Hitler llegó al poder y desde ahí cambió en múltiples ocasiones.",
+                "Es verdadero, porque siempre estuvo vinculado a acciones cometidas por el Estado."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-terror-concepto"
+            },
+            {
+              "e": "8",
+              "p": "Según Nicolás Simone, en Argentina hubo seis golpes de Estado que lograron imponerse en el siglo XX. Algunos de ellos ocurrieron en:",
+              "o": [
+                "1943",
+                "1958",
+                "1955",
+                "1989",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-seis-golpes"
+            },
+            {
+              "e": "9",
+              "p": "Según Enrique García, el Estado de bienestar o benefactor, se desarrolló en Occidente a partir de 1945, es decir, con posterioridad a la Segunda Guerra Mundial (1939-1945). Esto ocurrió porque:",
+              "o": [
+                "El Estado de bienestar fue la primera organización estatal exitosa por fuera del capitalismo que triunfó en Occidente.",
+                "Con este tipo de Estado se buscaba retomar el rumbo del crecimiento y de la estabilidad social ante el avance del comunismo.",
+                "Este tipo de Estado se conformó para dar solución a los efectos económicos y sociales que la guerra había provocado.",
+                "El Estado de bienestar fue consecuencia del enorme éxito de la economía soviética, y por ello fue imitado por Occidente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-bienestar-1945"
+            },
+            {
+              "e": "10",
+              "p": "Aunque sus acuerdos eran mínimos, Romero argumenta que empresarios y sindicalistas coincidieron en hacer fracasar la política de concertación sectorial a la que habían apostado Alfonsín y su equipo económico. Esto ocurrió cuando:",
+              "o": [
+                "La CGT se movilizó tanto por razones sindicales como políticas, pues era la columna vertebral de la oposición peronista.",
+                "Los sindicalistas encontraron en la movilización piquetera una inesperada aliada para suplantar la falta de entusiasmo de los propios.",
+                "Los empresarios nacionales se opusieron a la apertura total de las importaciones que planteaba el ministro de Economía de Alfonsín.",
+                "Los empresarios cuestionaron el gasto y la intervención estatal, aunque cada uno hizo salvedad de aquellas políticas que lo beneficiaban directamente.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-concertacion-83"
+            },
+            {
+              "e": "11",
+              "p": "Romero afirma que, en 1983, cuando Raúl Alfonsín asumió el Gobierno, además de volver a la vida académica, los intelectuales se incorporaron a la política, y la política se intelectualizó. Esto se vio en que:",
+              "o": [
+                "Alfonsín recurrió a intelectuales como asesores o funcionarios técnicos",
+                "El peronismo logró rápidamente el control de la política y la vida institucional en las universidades nacionales.",
+                "La discusión política adquirió brillo y, en menor medida, profundidad.",
+                "Las listas de concejales, diputados y senadores se repletaron de académicos e intelectuales dejando de lado a políticos tradicionales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-intelectuales-83"
+            },
+            {
+              "e": "12",
+              "p": "En enero de 1989 un grupo terrorista asaltó el cuartel de La Tablada en el Gran Buenos Aires, y el Ejército encontró la ocasión para realizar una aplastante demostración de fuerza que culminó con el aniquilamiento de los asaltantes. Esto implicó que:",
+              "o": [
+                "El reconocimiento de la represión militar fuera el primer indicio del cambio de prioridades y valores en la opinión pública.",
+                "Podía anticiparse que finalmente la cuestión militar abierta llevaría al olvido de los crímenes de la \"guerra sucia\" y el entierro de las ilusiones de la civilidad de 1983.",
+                "El recuerdo del pasado de la represión ilegal volvió a la opinión pública que repudió sin fisuras el hecho y eso le dio aire político al Gobierno de Alfonsín, que había logrado juzgar a las Juntas militares.",
+                "El rechazo que la represión militar recogió por la acción fue un nuevo indicio del cambio de época que había comenzado en 1983.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-la-tablada"
+            },
+            {
+              "e": "13",
+              "p": "En el video \"Transición a la Democracia: Conflictos Armados y Transiciones Políticas\" se menciona que en el pasado algunas transiciones democráticas ocurrieron tras la derrota total de regímenes que violaban los derechos humanos. Se presentan allí varios casos en los que estas derrotas fueron provocadas por fuerzas extranjeras, entre ellos:",
+              "o": [
+                "Fidel Castro en Cuba, que fue derrocado y condenado luego de una invasión liderada por los Estados Unidos en 2003.",
+                "Los talibanes en Afganistán, que fueron derrotados luego de una invasión liderada por los Estados Unidos en 2001.",
+                "La Alemania nazi en la Segunda Guerra Mundial, derrotada y condenada por las Fuerzas Aliadas.",
+                "La dictadura argentina, derrocada por una operación militar liderada por Gran Bretaña en las Islas Malvinas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-derrota-exterior"
+            },
+            {
+              "e": "14",
+              "p": "Según Margarita Batlle, en ámbitos académicos, el concepto “democracia” posee una gran cantidad de significados acuñados desde diversas perspectivas analíticas. Esto es así porque:",
+              "o": [
+                "El término “democracia” es utilizado tanto en las ciencias sociales como por la opinión pública y los medios de comunicación a la hora de describir y explicar el funcionamiento de los sistemas políticos contemporáneos.",
+                "La crisis de la democracia ha llevado a una disminución drástica de fórmulas conceptuales alternativas sobre qué es o debería ser una democracia, y eso aumentó su complejidad.",
+                "Todos estos conceptos apuntan a diferentes tipos de democracias que tienen como denominador común (a veces el único) la formación de Gobiernos populares cuyo líder responda a los intereses del pueblo.",
+                "Hay una proliferación de fórmulas alternativas, incluso contradictorias, sobre qué es o debería ser una democracia.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-democracia-polisemia"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, en el llamado “Cordobazo” de 1969, la movilización social se expresó de maneras diversas, por ejemplo, en que:",
+              "o": [
+                "Los inmigrantes fueron actores centrales de las protestas, buscando inserción en el mundo laboral y facilitar la nacionalización.",
+                "El estallido fue precedido de una ola de protestas estudiantiles en diversas universidades, algunas de ellas fuertemente reprimidas.",
+                "Antes del estallido hubo una fuerte agitación sindical en Córdoba, donde se concentraban las principales fábricas de automotores.",
+                "La multitud, que controló varias horas la ciudad, tenía consignas precisas y líderes que coordinaban las acciones.",
+                "Las opciones correctas son la A y la C",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-cordobazo"
+            },
+            {
+              "e": "16",
+              "p": "Romero afirma que, al asumir la presidencia en 1983, el poder que administraba el presidente Alfonsín era, a la vez, grande y escaso. Esto se observaba en varias características del recién electo Gobierno radical, entre ellas:",
+              "o": [
+                "Que por el impactante número de votos que había alcanzado en las elecciones de 1983, los seguidores del presidente Alfonsín controlaban la mayoría del Senado por primera vez desde 1928.",
+                "Que el radicalismo tenía mayoría en la Cámara de Diputados y, además, había triunfado en el interior tradicional.",
+                "Que, si bien el liderazgo de Alfonsín en su partido era fuerte, la Unión Cívica Radical constituía una fuerza no demasiado homogénea que incluso, en ocasiones, llegó a obstaculizar la tarea del presidente en la transición.",
+                "Que el radicalismo había alcanzado en 1983 una proporción de votos solo comparable con los grandes triunfos plebiscitarios de Yrigoyen o Perón.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la C, la D y la A."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-poder-grande-escaso"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, a mediados de 1982, los militares debían enfrentarse con la evidencia de su fracaso como administradores de un país desquiciado y como conductores de una guerra absurda. Esto fue así porque:",
+              "o": [
+                "Debían contemplar a sus antiguos aliados –los empresarios, la Iglesia, Estados Unidos–, ganados por la nueva fe democrática.",
+                "Debían contemplar a sus antiguos aliados, como los otrora disciplinados jueces, llevando a juicio a oficiales acusados de corrupción.",
+                "La Junta militar se dio cuenta que el triunfo del peronismo era inevitable, como efectivamente ocurrió en 1983.",
+                "Los Montoneros habían sobrevivido sin mayores daños en su estructura política, financiera e, incluso, armada.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 1,
+              "k": "icse-p1-militares-1982"
+            },
+            {
+              "e": "18",
+              "p": "En el video sobre la Transición a la Democracia dedicado a Sudáfrica se refiere a la Comisión de Verdad y Reconciliación y se la diferencia de otras comisiones en América Latina y África porque adoptó un enfoque relacionado con la justicia restaurativa. Por eso:",
+              "o": [
+                "Impulsó las bases del reencuentro entre víctimas y victimarios otorgando un papel preponderante a la comunidad.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios sirviendo de catarsis colectiva.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios sirviendo para combatir la ignorancia sobre lo sucedido.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios basada en el principio de aplicación irrestricta de la justicia penal, imitando el proceso argentino que finalizó con la cárcel a los culpables de las violaciones de los derechos humanos, luego de un largo juicio.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-sudafrica-restaurativa"
+            }
+          ]
+        },
+        {
+          "id": "t4",
+          "n": "Tema 4",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Graciela Etchevest, el término “terrorismo” es un concepto que se ha mantenido inalterable a lo largo del tiempo.",
+              "o": [
+                "Es verdadero, porque el concepto se creó en un periodo particular de la Revolución Francesa, conocido como “el terror\" y desde ahí se mantuvo sin cambios.",
+                "Es falso, porque cambió con el tiempo y se comenzó a aplicar a la violencia cometida por actores no estatales.",
+                "Es verdadero, porque siempre estuvo vinculado a acciones cometidas por el Estado.",
+                "Es falso, porque el concepto se creó en los años en que Hitler llegó al poder y desde ahí cambió en múltiples ocasiones."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-terror-concepto"
+            },
+            {
+              "e": "2",
+              "p": "Según Verónica Beyreuther existen definiciones variadas del concepto de “dictadura” que, en términos generales, coinciden en que es un subtipo del régimen político autoritario.",
+              "o": [
+                "Es verdadero, porque en una dictadura los tres poderes deberían interactuar y controlarse mutuamente.",
+                "Es falso, porque es un subtipo del régimen político neoliberal.",
+                "Es verdadero, porque en una dictadura una o varias personas asumen sin límite alguno el control del Estado de un país.",
+                "Es falso, porque es un subtipo del régimen político socialista."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-dictadura-definicion"
+            },
+            {
+              "e": "3",
+              "p": "Según Florencia Deich, el concepto de cambio de régimen político no tiene relación con el de golpes de Estado.",
+              "o": [
+                "Es verdadero, porque son dos conceptos que no guardan ninguna relación en la vida social y política de un país.",
+                "Es falso, porque un golpe de Estado siempre se propone producir una ruptura del régimen político existente hasta ese momento.",
+                "Es verdadero, porque los golpes de Estado los protagonizan militares y los regímenes políticos son cosa de civiles.",
+                "Es falso, porque los regímenes políticos solo cambian por medio de golpes de Estado."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-deich-golpe-ruptura"
+            },
+            {
+              "e": "4",
+              "p": "Según Laura Petrino, si bien el discurso populista es pluralista, el éxito electoral y político de sus líderes se sostiene mediante una coalición estricta y excluyente de sectores sociales.",
+              "o": [
+                "Es verdadero, porque si bien el discurso populista se basa en la legitimidad mayoritaria, ésta debe integrarse solo por sus seguidores.",
+                "Es falso, porque el discurso populista se basa en la legitimidad mayoritaria.",
+                "Es falso, porque el discurso populista no es pluralista.",
+                "Es verdadero, porque el líder populista conforma sus mayorías estrictamente con quienes comparten social y políticamente todos sus objetivos."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-populismo-mayoria"
+            },
+            {
+              "e": "5",
+              "p": "Según Max Povse, el proceso mediante el cual un régimen político pasa de ser de un tipo a otro, se llama “transición”.",
+              "o": [
+                "Es falso, porque los regímenes políticos son solo de una forma y así se mantienen, democráticos o no democráticos.",
+                "Es verdadero, porque los regímenes políticos son pluralistas y ofrecen todo tipo de posibilidades ideológicas en su interior.",
+                "Es falso, porque los regímenes no son fluidos y no cambian según quienes ejercen el poder.",
+                "Es verdadero, porque los regímenes son fluidos y pueden cambiar en la medida en que lo hagan quienes ejercen el poder."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimenes-fluidos"
+            },
+            {
+              "e": "6",
+              "p": "Según Patricio Gómez Talavera, antes que las sociedades humanas conformaran un Estado, las personas vivían en el llamado “estado de naturaleza”.",
+              "o": [
+                "Es falso, porque siempre que existió un Estado, fue a costa de dominar a la naturaleza.",
+                "Es verdadero, porque las personas vivían en armonía con la naturaleza antes que se impusiera el capitalismo.",
+                "Es verdadero, porque en esa situación no había leyes que organizaran la vida social y el más fuerte se imponía siempre sobre el más débil.",
+                "Es falso, porque los seres humanos siempre vivieron organizados en Estados."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-hobbes"
+            },
+            {
+              "e": "7",
+              "p": "Nadia Yannuzzi explica que la lucha por el poder genera conflictos en la sociedad y en su relación con el Estado.",
+              "o": [
+                "Es verdadero, porque la lucha por el poder solo involucra a los políticos y sus organizaciones.",
+                "Es falso, porque las instituciones son permanentes y las luchas por el poder tienen que ver con el rumbo del Gobierno.",
+                "Es verdadero, porque cuando un grupo busca aumentar su poder, también implica que algún otro sector lo puede perder.",
+                "Es falso, porque la lucha por el poder se produce fuera del Estado."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-sociedad-conflicto"
+            },
+            {
+              "e": "8",
+              "p": "Según Romero, en el llamado “Cordobazo” de 1969, la movilización social se expresó de maneras diversas, por ejemplo, en que:",
+              "o": [
+                "Los inmigrantes fueron actores centrales de las protestas, buscando inserción en el mundo laboral y facilitar la nacionalización.",
+                "La multitud, que controló varias horas la ciudad, tenía consignas precisas y líderes que coordinaban las acciones.",
+                "Antes del estallido hubo una fuerte agitación sindical en Córdoba, donde se concentraban las principales fábricas de automotores.",
+                "El estallido fue precedido de una ola de protestas estudiantiles en diversas universidades, algunas de ellas fuertemente reprimidas.",
+                "Las opciones correctas son la A y la C",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-cordobazo"
+            },
+            {
+              "e": "9",
+              "p": "Romero afirma que en 1983 cuando Raúl Alfonsín asumió el Gobierno, además de volver a la vida académica, los intelectuales se incorporaron a la política, y la política se intelectualizó. Esto se vio en que:",
+              "o": [
+                "Alfonsín recurrió a intelectuales como asesores o funcionarios técnicos",
+                "El peronismo logró rápidamente el control de la política y la vida institucional en las universidades nacionales.",
+                "La discusión política adquirió brillo y, en menor medida, profundidad.",
+                "Las listas de concejales, diputados y senadores se repletaron de académicos e intelectuales dejando de lado a políticos tradicionales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-intelectuales-83"
+            },
+            {
+              "e": "10",
+              "p": "Romero afirma que, al asumir la presidencia en 1983, el poder que administraba el presidente Alfonsín era, a la vez, grande y escaso. Esto se observaba en varias características del recién electo Gobierno radical, entre ellas:",
+              "o": [
+                "Que el radicalismo había alcanzado en 1983 una proporción de votos solo comparable con los grandes triunfos de Yrigoyen o Perón.",
+                "Que el radicalismo tenía mayoría en la Cámara de Diputados y, además, había triunfado en el interior tradicional.",
+                "Que, si bien el liderazgo de Alfonsín en su partido era fuerte, la Unión Cívica Radical constituía una fuerza no demasiado homogénea que incluso, en ocasiones, llegó a obstaculizar la tarea del presidente de la transición.",
+                "Que por el impactante número de votos que había alcanzado en las elecciones de 1983, los seguidores del presidente Alfonsín controlaban la mayoría del Senado por primera vez desde 1928.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la C, la D y la A."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-poder-grande-escaso"
+            },
+            {
+              "e": "11",
+              "p": "En enero de 1989 un grupo terrorista asaltó el cuartel de La Tablada en el Gran Buenos Aires, y el Ejército encontró la ocasión para realizar una aplastante demostración de fuerza que culminó con el aniquilamiento de los asaltantes. Esto implicó que:",
+              "o": [
+                "El recuerdo del pasado de la represión ilegal volvió a la opinión pública que repudió sin fisuras el hecho y eso le dio aire político al Gobierno de Alfonsín, que había logrado juzgar a las Juntas militares.",
+                "Podía anticiparse que finalmente la cuestión militar abierta llevaría al olvido de los crímenes de la \"guerra sucia\" y el entierro de las ilusiones de la civilidad de 1983.",
+                "El reconocimiento de la represión militar fuera el primer indicio del cambio de prioridades y valores en la opinión pública.",
+                "El rechazo que la represión militar recogió por la acción fue un nuevo indicio del cambio de época que había comenzado en 1983.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-la-tablada"
+            },
+            {
+              "e": "12",
+              "p": "Aunque sus acuerdos eran mínimos, empresarios y sindicalistas coincidieron en hacer fracasar la política de concertación sectorial a la que habían apostado Alfonsín y su equipo económico. Esto ocurrió cuando:",
+              "o": [
+                "Los empresarios nacionales se opusieron a la apertura total de las importaciones que planteaba el ministro de Economía de Alfonsín.",
+                "Los sindicalistas encontraron en la movilización piquetera una inesperada aliada para suplantar la falta de entusiasmo de los propios.",
+                "La CGT se movilizó tanto por razones sindicales como políticas, pues era la columna vertebral de la oposición peronista.",
+                "Los empresarios cuestionaron el gasto y la intervención estatal, aunque con la salvedad en las políticas que los beneficiaban directamente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-concertacion-83"
+            },
+            {
+              "e": "13",
+              "p": "Según Margarita Batlle, en ámbitos académicos, el concepto “democracia” posee una gran cantidad de significados acuñados desde diversas perspectivas analíticas. Esto es así porque:",
+              "o": [
+                "El término “democracia” es utilizado tanto en las ciencias sociales como por la opinión pública y los medios de comunicación a la hora de describir y explicar el funcionamiento de los sistemas políticos contemporáneos.",
+                "Hay una proliferación de fórmulas alternativas, incluso contradictorias, sobre qué es o debería ser una democracia.",
+                "Todos estos conceptos apuntan a diferentes tipos de democracias que tienen como denominador común (a veces el único) la formación de Gobiernos populares cuyo líder responda a los intereses del pueblo.",
+                "Hay una proliferación ordenada de fórmulas alternativas sobre qué es o debería ser una democracia.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-democracia-polisemia"
+            },
+            {
+              "e": "14",
+              "p": "En el video \"Transición a la Democracia: Conflictos Armados y Transiciones Políticas\", se menciona que, en el pasado, algunas transiciones democráticas ocurrieron tras la derrota total de regímenes que violaban los derechos humanos. Se presentan allí varios casos en los que estas derrotas fueron provocadas por fuerzas extranjeras, entre ellos:",
+              "o": [
+                "Los talibanes en Afganistán, que fueron derrotados luego de una invasión liderada por los Estados Unidos en 2001.",
+                "Fidel Castro en Cuba, que fue derrocado y condenado luego de una invasión liderada por los Estados Unidos en 2003.",
+                "La Alemania nazi en la Segunda Guerra Mundial, derrotada y condenada por las Fuerzas Aliadas.",
+                "La dictadura argentina, derrocada por una operación militar liderada por Gran Bretaña en las Islas Malvinas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-derrota-exterior"
+            },
+            {
+              "e": "15",
+              "p": "Según Nicolás Simone, en Argentina hubo, seis golpes de Estado que lograron imponerse en el siglo XX. Algunos de ellos ocurrieron en:",
+              "o": [
+                "1930",
+                "1943",
+                "1965.",
+                "1973",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-seis-golpes"
+            },
+            {
+              "e": "16",
+              "p": "Según Enrique García, el Estado de bienestar o benefactor, se desarrolló en Occidente a partir de 1945, es decir, con posterioridad a la Segunda Guerra Mundial (1939-1945). Esto ocurrió porque:",
+              "o": [
+                "Este tipo de Estado se conformó para dar solución a los efectos económicos y sociales que la guerra había provocado.",
+                "Con este tipo de Estado se buscaba retomar el rumbo del crecimiento y de la estabilidad social ante el avance del comunismo.",
+                "El Estado de bienestar fue la primera organización estatal exitosa por fuera del capitalismo que triunfó en Occidente.",
+                "El Estado de bienestar fue consecuencia del enorme éxito de la economía soviética, y por ello fue imitado por Occidente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-bienestar-1945"
+            },
+            {
+              "e": "17",
+              "p": "En el video sobre la Transición a la Democracia dedicado a Sudáfrica se refiere a la Comisión de Verdad y Reconciliación y se la diferencia de otras comisiones en América Latina y África porque adoptó un enfoque relacionado con la justicia restaurativa. Por eso:",
+              "o": [
+                "Impulsó las bases del reencuentro entre víctimas y victimarios otorgando un papel preponderante a la comunidad.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios sirviendo de catarsis colectiva.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios sirviendo para combatir la ignorancia sobre lo sucedido.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios basada en el principio de aplicación irrestricta de la justicia penal, imitando el proceso argentino que finalizó con la cárcel a los culpables de las violaciones de los derechos humanos, luego de un largo juicio.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-sudafrica-restaurativa"
+            },
+            {
+              "e": "18",
+              "p": "Según Romero, a mediados de 1982, los militares debían enfrentarse con la evidencia de su fracaso como administradores de un país desquiciado y como conductores de una guerra absurda. Esto fue así porque:",
+              "o": [
+                "Debían contemplar a sus antiguos aliados –los empresarios, la Iglesia, Estados Unidos– ganados por la nueva fe democrática.",
+                "Los Montoneros habían sobrevivido sin mayores daños en su estructura política, financiera e incluso, en la armada.",
+                "La Junta militar se dio cuenta que el triunfo del peronismo era inevitable, como efectivamente ocurrió en 1983.",
+                "Debían contemplar a sus antiguos aliados, como los otrora disciplinados jueces, llevando a juicio a oficiales acusados de corrupción.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-militares-1982"
+            }
+          ]
+        },
+        {
+          "id": "t5",
+          "n": "Tema 5",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Nadia Yannuzzi, el Estado y la sociedad son dos espacios idénticos que cooperan y actúan coordinadamente.",
+              "o": [
+                "Es falso, porque existe una gran heterogeneidad de actores y grupos sociales y políticos que buscan cumplir sus objetivos y proteger sus intereses y, al mismo tiempo, evitar que otros lo hagan.",
+                "Es verdadero, porque el Estado y la nación fueron creados como dos caras de un mismo proceso en la construcción de un país determinado.",
+                "Es falso, porque el Estado y la nación no tienen espacios ni elementos comunes sobre los que actuar.",
+                "Es falso, porque el Estado y la sociedad son dos espacios que se relacionan siempre en forma violenta."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-sociedad-conflicto"
+            },
+            {
+              "e": "2",
+              "p": "Según Enrique García el Estado fascista no se evidenciaba en todas las esferas de la sociedad, pero lo hacía sin control en la educación, la cultura y los medios de comunicación.",
+              "o": [
+                "Es falso, porque el poder del Estado fascista no poseía límites y su control sobre la sociedad era total.",
+                "Es verdadero, porque el Estado fascista ponía énfasis en todo lo que tuviera que ver con el control total de los valores y los discursos.",
+                "Es falso, porque el Estado fascista se evidenciaba sobre todo en la economía.",
+                "Es verdadero, porque los fascistas pensaban que desde esos espacios podían controlar a toda la sociedad."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-fascismo-control"
+            },
+            {
+              "e": "3",
+              "p": "Según Max Povse, para ser híbrido, un régimen debe tener indicadores con valores tanto democráticos como autoritarios.",
+              "o": [
+                "Es verdadero, porque los regímenes políticos son pluralistas y ofrecen todo tipo de posibilidades ideológicas en su interior.",
+                "Es falso, porque la democracia no tiene nada que ver con los sistemas autoritarios. Es uno o el otro.",
+                "Es falso, porque eso no es hibrido, sino una poliarquía.",
+                "Es verdadero, porque son casos donde hay elecciones libres, pero existe también, una “cancha inclinada” en favor del partido de gobierno."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-regimen-hibrido"
+            },
+            {
+              "e": "4",
+              "p": "Según Margarita Batlle, Robert Dahl entiende que la democracia es un sistema inalcanzable e imposible de adoptar en la práctica.",
+              "o": [
+                "Es falso, porque numerosos países han vivido en democracia en este siglo y en los anteriores.",
+                "Es verdadero, porque significa que la democracia sería un orden utópico e ideal al que no puede aspirar la sociedad.",
+                "Es falso, porque no existen cuestiones utópicas para que los seres humanos organicen sus sociedades.",
+                "Es verdadero, porque la única democracia verdadera es la que se registra en asambleas donde participan todos los ciudadanos."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-dahl-ideal"
+            },
+            {
+              "e": "5",
+              "p": "Según Florencia Deich, el concepto de cambio de régimen político es clave para el análisis de los golpes de Estado.",
+              "o": [
+                "Es verdadero, porque los regímenes políticos solo cambian por medio de golpes de Estado.",
+                "Es falso, porque son dos conceptos que no guardan ninguna relación en la vida social.",
+                "Es falso, porque los golpes de Estado se hacen para evitar que haya regímenes políticos.",
+                "Es verdadero, porque un golpe de Estado siempre se propone producir una ruptura del régimen político existente hasta ese momento."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-deich-golpe-ruptura"
+            },
+            {
+              "e": "6",
+              "p": "Según Nicolás Simone, la transición es un lapso de tiempo que comienza cuando un régimen no democrático de un país comienza a retirarse y termina cuando un régimen democrático se impone ya sin riesgo de ser derrocado.",
+              "o": [
+                "Es verdadero, porque la transición es como la poliarquía, formas en que se menciona y se describe al sistema democrático.",
+                "Es falso, porque la transición no puede preverse exactamente, al ser un periodo donde la incertidumbre es la norma.",
+                "Es verdadero, porque la transición, en sentido amplio, se consuma cuando no existe peligro de regresión autoritaria.",
+                "Es falso, porque nunca una democracia se impone sin riesgo. Mientras haya militares existirá siempre la posibilidad de golpes de Estado."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-transicion-argentina"
+            },
+            {
+              "e": "7",
+              "p": "Según Laura Petrino, nadie puede intermediar en la relación directa y personal del líder con su pueblo.",
+              "o": [
+                "Es falso, porque el líder populista siempre tiene alguna organización que se ocupa de la administración cotidiana y el clientelismo.",
+                "Es verdadero, porque el populista no cree en instituciones formales ni partidos políticos",
+                "Es falso, porque los populistas esconden sus pretensiones políticas en el funcionamiento del Estado y las instituciones de la democracia.",
+                "Es verdadero, porque el líder populista no confía en nadie."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-petrino-lideres"
+            },
+            {
+              "e": "8",
+              "p": "¿Por qué las personas obedecen al Estado? Según Patricio Gómez Talavera, Weber estudió las sociedades humanas a través del tiempo y observó que existían diferentes justificaciones a la aceptación del poder de dominación del Estado. Entre ellas estaban:",
+              "o": [
+                "La identidad nacional.",
+                "La legalidad.",
+                "La moneda nacional.",
+                "La costumbre.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-weber-legitimidad"
+            },
+            {
+              "e": "9",
+              "p": "Según Luis A. Romero, entre todas las organizaciones guerrilleras de los años 70, había grandes diferencias teóricas y políticas, pero a la vez, primaba un espíritu común. Esto se vinculaba a:",
+              "o": [
+                "Que en todas ellas la lógica de la exclusión era llevada hasta sus últimas consecuencias: el enemigo debía ser aniquilado.",
+                "Que todas ellas estaban integradas por jóvenes idealistas que buscaban un mundo mejor a través del socialismo.",
+                "Que todas ellas estaban integradas por jóvenes idealistas que buscaban terminar con la pobreza y la desigualdad de la sociedad argentina.",
+                "Que se consideraban la vanguardia de la movilización popular, cuya representación consistía en la acción violenta.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-guerrilla-vanguardia"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, a partir de 1983 creció el partido Unión del Centro Democrático, (UCeDé), fundado por Álvaro Alsogaray, el mentor de las ideas liberales en la Argentina de la segunda mitad del siglo XX. Esto ocurrió porque:",
+              "o": [
+                "Se opuso con éxito al alfonsinismo en la educación de la civilidad, y hasta superó en votantes al propio partido gobernante.",
+                "Su discurso estaba ligado a la derecha militar que aún tenía muchos adeptos y se sostenía en la necesidad de mayor seguridad para amplios sectores urbanos que no veían respuesta ante la creciente amenaza de la delincuencia.",
+                "Sus dirigentes intentaron aprovechar el debilitamiento de la bipolaridad que representaban radicales y peronistas.",
+                "Esas ideas tenían un gran predicamento en el mundo, en el contexto de las crisis del bloque soviético y del Estado de bienestar.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-ucede"
+            },
+            {
+              "e": "11",
+              "p": "Entre mediados y fines del siglo XX hubo en Argentina numerosos cambios de presidentes sin que cambie el régimen político. Algunos ejemplos fueron:",
+              "o": [
+                "El paso de la presidencia de Reynaldo Bignone a Raúl Alfonsín en 1983.",
+                "El paso del gobierno de Raúl Lastiri a Juan D. Perón que iniciaba si su tercer mandato presidencial en 1974",
+                "El paso del gobierno de Juan Carlos Onganía al de Roberto Marcelo Levingston en junio de 1970.",
+                "El paso del Gobierno de Héctor Cámpora a Carlos Menem en 1973.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-cambios-presidentes",
+              "d": "Errata cronológica del HTML: el paso de Lastiri a la tercera presidencia de Perón ocurrió en octubre de 1973, no en 1974. Se conserva la clave que identifica la continuidad del régimen constitucional."
+            },
+            {
+              "e": "12",
+              "p": "Según Javier Hermo, las Naciones Unidas generaron una definición de genocidio que sirve para caracterizar situaciones en las que se pone en riesgo la continuidad vital (destruir total o parcialmente) de grupos sociales que tienen características comunes como ser:",
+              "o": [
+                "Características nacionales y raciales comunes.",
+                "Características étnicas y religiosas comunes.",
+                "Características políticas o ideológicas comunes.",
+                "Características económicas y sociales comunes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-convencion-1948"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, el peronismo renovador –que entre sus principales figuras tenía a Antonio Cafiero y al gobernador de La Rioja y futuro presidente, Carlos Menem- se proponía adecuar el peronismo al nuevo contexto democrático abierto en 1983. Esto resultó en que:",
+              "o": [
+                "Se proponía insertar al peronismo en el discurso de la civilidad que predominaba en la sociedad de la época.",
+                "Buscaron constantemente seguir y unirse al liderazgo de Alfonsín, quien era el político más popular del momento y no era tan distinto a la tradición peronista.",
+                "Cuando se produjo la crisis militar de Semana Santa de 1987, los dirigentes renovadores aprovecharon para usar el conflicto en su beneficio y reemplazar a Alfonsín, quien ya se encontraba muy desgastado por la crisis económica, pero sin cambiar el régimen político.",
+                "No solo inscribían al peronismo en el juego democrático, además parecían sostener la principal condición de éste: la posible alternancia entre partidos competidores y copartícipes.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-peronismo-renovador"
+            },
+            {
+              "e": "14",
+              "p": "Romero afirma que el llamado \"Proceso de Reorganización Nacional\", iniciado en 1976, supuso la coexistencia de un Estado terrorista clandestino, encargado de la represión, y otro visible, sujeto a normas establecidas por las propias autoridades; pero que sometían sus acciones a una cierta juridicidad. Esto implicó que:",
+              "o": [
+                "En la práctica, esta distinción fue muy evidente, y el Estado legal fue poco a poco aumentando su importancia en el rol de juzgar y condenar a los autores de la violencia política ilegal.",
+                "En la práctica, esta distinción no se mantuvo, y el Estado ilegal fue corroyendo y corrompiendo al conjunto de las instituciones del Estado y su misma organización jurídica.",
+                "Al crearse la Junta Militar, que poseía la facultad de designar al presidente y supervisar una parte importante de sus decisiones, las competencias respectivas de “ambos Estados” no se diferenciaban del todo.",
+                "El Estatuto del Proceso y las actas institucionales complementarias -que suprimieron el Congreso- no pudieron evitar que la Constitución nacional (la ley máxima del país) siguiera guiando y protegiendo la actividad judicial y política.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-estado-clandestino-visible"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, en 1973, la escena política argentina presentaba desafíos para la democracia, con partidos debilitados y una movilización social influida por dinámicas autoritarias y confrontativas. Esto fue así porque:",
+              "o": [
+                "Los partidos políticos estaban anquilosados y sin capacidad real de representar los intereses sociales.",
+                "La democracia estaba firmemente consolidada y los partidos políticos tenían un rol central en la negociación del poder.",
+                "Las organizaciones armadas, como Montoneros, llenaron el vacío dejado por los partidos, estructurando la movilización social dentro de una lógica de guerra.",
+                "El movimiento popular se desarrolló de manera totalmente espontánea, sin intervención de estructuras políticas o ideológicas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-movilizacion-1973"
+            },
+            {
+              "e": "16",
+              "p": "Romero señala que, en la cultura y las relaciones exteriores, el gobierno de Raúl Alfonsín avanzó con facilidad, pero no fue así con dos poderosas corporaciones: la militar y la sindical. Esto se debió a que:",
+              "o": [
+                "En la campaña electoral Alfonsín denunció un pacto de impunidad entre los militares de la dictadura que abandonaba el poder y los sindicalistas peronistas.",
+                "A pesar de las denuncias realizadas durante la campaña, el gobierno radical ofreció una amnistía a las ex Juntas Militares, pero ésta fue rechazada porque los militares exigían la exoneración judicial de todos los miembros de las Fuerzas Armadas.",
+                "A causa del pacto que habían sellado militares y sindicalistas, el gobierno no abrió espacios para el diálogo y la concertación con la CGT a quien pretendió ilegalizar.",
+                "La CGT organizó trece paros generales contra el gobierno, lo que contrastaba con la escasa actividad realizada por aquella en tiempos del anterior gobierno militar.",
+                "Las opciones A y B son las correctas.",
+                "Las opciones C y B son las correctas.",
+                "Las opciones C y D son las correctas.",
+                "Las opciones A y D son las correctas."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-corporaciones-alfonsin"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, durante las décadas de 1960 y 1970, la economía argentina experimentó un crecimiento en sectores clave como la industria y el agro, impulsado por la modernización y la expansión del mercado. En este contexto, ¿cuáles de las siguientes afirmaciones son correctas?",
+              "o": [
+                "La mecanización del agro y el uso de semillas híbridas contribuyeron al crecimiento del sector agropecuario pampeano.",
+                "Aunque la industria creció, el empleo industrial disminuyó debido a la automatización y la reducción de la demanda interna.",
+                "La expansión del sector agropecuario se debió exclusivamente al apoyo del Estado, sin participación del mercado ni del avance tecnológico.",
+                "La expansión industrial estuvo acompañada por un aumento del empleo y una recuperación en los ingresos de los asalariados.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-modernizacion-1960"
+            },
+            {
+              "e": "18",
+              "p": "Según Graciela Etchevest, se considera como “acto terrorista” a la actividad violenta que realiza una organización no estatal guiada por determinadas motivaciones, que pueden ser de carácter:",
+              "o": [
+                "Político",
+                "Económico.",
+                "Religioso.",
+                "Ideológico.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la A.",
+                "Las opciones correctas son la A, la B y la D..",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-terror-motivaciones"
+            }
+          ]
+        },
+        {
+          "id": "t6",
+          "n": "Tema 6",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Laura Petrino, nadie puede intermediar en la relación directa y personal del líder con su pueblo.",
+              "o": [
+                "Es verdadero, porque el líder populista no confía en nadie.",
+                "Es falso, porque el líder populista siempre tiene alguna organización que se ocupa de la administración cotidiana y el clientelismo.",
+                "Es falso, porque los populistas esconden sus pretensiones políticas en el funcionamiento del Estado y las instituciones de la democracia.",
+                "Es verdadero, porque el populista no cree en instituciones formales ni partidos políticos"
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-petrino-lideres"
+            },
+            {
+              "e": "2",
+              "p": "Según Nicolás Simone, la transición es un lapso de tiempo que comienza cuando un régimen no democrático de un país comienza a retirarse y termina cuando un régimen democrático se impone ya sin riesgo de ser derrocado.",
+              "o": [
+                "Es verdadero, porque la transición, en sentido amplio, se consuma cuando no existe peligro de regresión autoritaria.",
+                "Es verdadero, porque la transición es como la poliarquía, formas en que se menciona y se describe al sistema democrático.",
+                "Es falso, porque la transición no puede preverse exactamente, al ser un periodo donde la incertidumbre es la norma.",
+                "Es falso, porque nunca una democracia se impone sin riesgo. Mientras haya militares existirá siempre la posibilidad de golpes de Estado."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-transicion-argentina"
+            },
+            {
+              "e": "3",
+              "p": "Según Florencia Deich,el concepto de cambio de régimen político es clave para el análisis de los golpes de Estado.",
+              "o": [
+                "Es verdadero, porque los regímenes solo cambian por medio de golpes de Estado.",
+                "Es falso, porque los golpes de Estado se hacen para evitar que haya regímenes políticos.",
+                "Es verdadero, porque un golpe de Estado siempre se propone producir una ruptura del régimen político existente hasta ese momento.",
+                "Es falso, porque son dos conceptos que no guardan ninguna relación en la vida social."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-deich-golpe-ruptura"
+            },
+            {
+              "e": "4",
+              "p": "Según Margarita Batlle, Robert Dahl entiende que la democracia es un sistema inalcanzable e imposible de adoptar en la práctica.",
+              "o": [
+                "Es verdadero, porque significa que la democracia sería un orden utópico e ideal al que no puede aspirar la sociedad.",
+                "Es falso, porque no existen cuestiones utópicas para que los seres humanos organicen sus sociedades.",
+                "Es falso, porque numerosos países han vivido en democracia en este siglo y en los anteriores.",
+                "Es verdadero, porque la única democracia verdadera es la que se registra en asambleas donde participan todos los ciudadanos."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-dahl-ideal"
+            },
+            {
+              "e": "5",
+              "p": "Según Max Povse, para ser híbrido, un régimen debe tener indicadores con valores tanto democráticos como autoritarios.",
+              "o": [
+                "Es falso, porque la democracia no tiene nada que ver con los sistemas autoritarios. Es uno o el otro.",
+                "Es verdadero, porque son casos en los que, por ejemplo, puede haber elecciones libres, pero también existe una “cancha inclinada” a favor del partido de gobierno.",
+                "Es falso, porque eso no es hibrido, sino una poliarquía.",
+                "Es verdadero, porque los regímenes políticos son pluralistas y ofrecen todo tipo de posibilidades ideológicas en su interior."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-regimen-hibrido"
+            },
+            {
+              "e": "6",
+              "p": "Según Enrique García, el Estado fascista no se evidenciaba en todas las esferas de la sociedad, pero lo hacía sin control en la educación, la cultura y los medios de comunicación.",
+              "o": [
+                "Es verdadero, porque los fascistas pensaban que desde esos espacios podían controlar a toda la sociedad.",
+                "Es verdadero, porque el Estado fascista ponía énfasis en todo lo que tuviera que ver con el control total de los valores y los discursos.",
+                "Es falso, porque el poder del Estado fascista no poseía límites y su control sobre la sociedad era total.",
+                "Es falso, porque el Estado fascista se evidenciaba sobre todo en la economía."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-fascismo-control"
+            },
+            {
+              "e": "7",
+              "p": "Según Nadia Yannuzzi, el Estado y la sociedad son dos espacios idénticos que cooperan y actúan coordinadamente.",
+              "o": [
+                "Es falso, porque el Estado y la sociedad son dos espacios que se relacionan siempre en forma violenta.",
+                "Es falso, porque existe una gran heterogeneidad de actores y grupos sociales y políticos que buscan cumplir sus objetivos y proteger sus intereses y, al mismo tiempo, evitar que otros lo hagan.",
+                "Es verdadero, porque el Estado y la nación fueron creados como dos caras de un mismo proceso en la construcción de un país determinado.",
+                "Es falso, porque el Estado y la nación no tienen espacios ni elementos comunes sobre los que actuar."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-sociedad-conflicto"
+            },
+            {
+              "e": "8",
+              "p": "Según Romero, en 1973, la escena política argentina presentaba desafíos para la democracia, con partidos debilitados y una movilización social influida por dinámicas autoritarias y confrontativas. Esto fue así porque:",
+              "o": [
+                "El movimiento popular se desarrolló de manera totalmente espontánea, sin intervención de estructuras políticas o ideológicas.",
+                "La democracia estaba firmemente consolidada y los partidos políticos tenían un rol central en la negociación del poder.",
+                "Las organizaciones armadas, como Montoneros, llenaron el vacío dejado por los partidos, estructurando la movilización social dentro de una lógica de guerra.",
+                "Los partidos políticos estaban anquilosados y sin capacidad real de representar los intereses sociales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-movilizacion-1973"
+            },
+            {
+              "e": "9",
+              "p": "Según Romero, el peronismo renovador –que entre sus principales figuras tenía a Antonio Cafiero y al gobernador de La Rioja y futuro presidente, Carlos Menem- se proponía adecuar el peronismo al nuevo contexto democrático abierto en 1983. Esto resultó en que:",
+              "o": [
+                "Buscaron constantemente seguir y unirse al liderazgo de Alfonsín, quien era el político más popular del momento y no era tan distinto a la tradición peronista.",
+                "Se proponía insertar el peronismo en el discurso de la civilidad que predominaba en la sociedad de la época.",
+                "No solo inscribían al peronismo en el juego democrático, además parecían sostener la principal condición de éste: la posible alternancia entre partidos competidores y copartícipes.",
+                "Cuando se produjo la crisis militar de Semana Santa de 1987, los dirigentes renovadores aprovecharon para usar el conflicto en su beneficio y reemplazar a Alfonsín, quien ya se encontraba muy desgastado por la crisis económica, pero sin cambiar el régimen político.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-peronismo-renovador"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, a partir de 1983 creció el partido Unión del Centro Democrático, (UCeDé), fundado por Álvaro Alsogaray, el mentor de las ideas liberales en la Argentina de la segunda mitad del siglo XX. Esto ocurrió porque:",
+              "o": [
+                "Esas ideas tenían un gran predicamento en el mundo, en el contexto de las crisis del bloque soviético y del Estado de bienestar.",
+                "Sus dirigentes intentaron aprovechar el debilitamiento de la bipolaridad que representaban radicales y peronistas.",
+                "Su discurso estaba ligado a la derecha militar que aún tenía muchos adeptos y se sostenía en la necesidad de mayor seguridad para amplios sectores urbanos que no veían respuesta ante la creciente amenaza de la delincuencia.",
+                "Se opuso con éxito al alfonsinismo en la educación de la civilidad, y hasta superó en votantes al propio partido gobernante.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-ucede"
+            },
+            {
+              "e": "11",
+              "p": "Romero afirma que el llamado \"Proceso de Reorganización Nacional\" iniciado en 1976, supuso la coexistencia de un Estado terrorista clandestino, encargado de la represión, y otro visible, sujeto a normas establecidas por las propias autoridades; pero que sometían sus acciones a una cierta juridicidad. Esto implicó que:",
+              "o": [
+                "En la práctica, esta distinción fue muy evidente, y el Estado legal fue poco a poco aumentando su importancia en el rol de juzgar y condenar a los autores de la violencia política ilegal.",
+                "En la práctica, esta distinción no se mantuvo, y el Estado ilegal fue corroyendo y corrompiendo al conjunto de las instituciones del Estado y su misma organización jurídica.",
+                "Al crearse la Junta Militar, que poseía la facultad de designar al presidente y supervisar una parte importante de sus decisiones, las competencias respectivas de “ambos Estados” no se diferenciaban del todo.",
+                "El Estatuto del Proceso y las actas institucionales complementarias -que suprimieron el Congreso- no pudieron evitar que la Constitución nacional (la ley máxima del país) siguiera guiando y protegiendo la actividad judicial y política.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-estado-clandestino-visible"
+            },
+            {
+              "e": "12",
+              "p": "Romero señala que, en la cultura y las relaciones exteriores, el gobierno de Raúl Alfonsín avanzó con facilidad, pero no fue así con dos poderosas corporaciones: la militar y la sindical. Esto se debió a que:",
+              "o": [
+                "A causa del pacto que habían sellado militares y sindicalistas, el gobierno no abrió espacios para el diálogo y la concertación con la CGT a quien pretendió ilegalizar.",
+                "A pesar de las denuncias realizadas durante la campaña, el gobierno radical ofreció una amnistía a las ex Juntas Militares, pero ésta fue rechazada porque los militares exigían la exoneración judicial de todos los miembros de las Fuerzas Armadas.",
+                "En la campaña electoral Alfonsín denunció un pacto de impunidad entre los militares de la dictadura que abandonaba el poder y los sindicalistas peronistas.",
+                "La CGT organizó trece paros generales contra el gobierno, lo que contrastaba con la escasa actividad realizada por aquella en tiempos del anterior gobierno militar.",
+                "Las opciones A y B son las correctas.",
+                "Las opciones C y B son las correctas.",
+                "Las opciones C y D son las correctas.",
+                "Las opciones A y D son las correctas."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-corporaciones-alfonsin"
+            },
+            {
+              "e": "13",
+              "p": "Entre mediados y fines del siglo XX hubo en Argentina numerosos cambios de presidentes sin que cambie el régimen político. Algunos ejemplos fueron:",
+              "o": [
+                "El paso de la presidencia de Reynaldo Bignone a Raúl Alfonsín en 1983.",
+                "El paso del Gobierno de Héctor Cámpora a Carlos Menem en 1973.",
+                "El paso del gobierno de Juan Carlos Onganía al de Roberto Marcelo Levingston en junio de 1970.",
+                "El paso del gobierno de Raúl Lastiri a Juan D. Perón que iniciaba si su tercer mandato presidencial en 1974",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-cambios-presidentes",
+              "d": "Errata cronológica del HTML: el paso de Lastiri a la tercera presidencia de Perón ocurrió en octubre de 1973, no en 1974. Se conserva la clave que identifica la continuidad del régimen constitucional."
+            },
+            {
+              "e": "14",
+              "p": "Según Javier Hermo, las Naciones Unidas generaron una definición de genocidio que sirve para caracterizar situaciones en las que se pone en riesgo la continuidad vital (destruir total o parcialmente) de grupos sociales que tienen características comunes como ser:",
+              "o": [
+                "Características económicas y sociales comunes.",
+                "Características étnicas y religiosas comunes.",
+                "Características políticas o ideológicas comunes.",
+                "Características nacionales y raciales comunes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-convencion-1948"
+            },
+            {
+              "e": "15",
+              "p": "¿Por qué las personas obedecen al Estado? Según Patricio Gómez Talavera, Weber estudió las sociedades humanas a través del tiempo y observó que existían diferentes justificaciones a la aceptación del poder de dominación del Estado. Entre ellas estaban:",
+              "o": [
+                "La costumbre.",
+                "La legalidad.",
+                "La moneda nacional.",
+                "La identidad nacional.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-weber-legitimidad"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, entre todas las organizaciones guerrilleras de los años 70, había grandes diferencias teóricas y políticas, pero a la vez, primaba un espíritu común. Esto se vinculaba a:",
+              "o": [
+                "Que todas ellas estaban integradas por jóvenes idealistas que buscaban terminar con la pobreza y la desigualdad de la sociedad argentina.",
+                "Que todas ellas estaban integradas por jóvenes idealistas que buscaban un mundo mejor a través del socialismo.",
+                "Que en todas ellas la lógica de la exclusión era llevada hasta sus últimas consecuencias: el enemigo debía ser aniquilado.",
+                "Que se consideraban la vanguardia de la movilización popular, cuya representación consistía en la acción violenta.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la A.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-guerrilla-vanguardia"
+            },
+            {
+              "e": "17",
+              "p": "Según Graciela Etchevest se considera como “acto terrorista” a la actividad violenta que realiza una organización no estatal guiada por determinadas motivaciones, que pueden ser de carácter:",
+              "o": [
+                "Económico.",
+                "Político",
+                "Religioso.",
+                "Ideológico.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B, la C y la D.",
+                "Las opciones correctas son la C, la D y la A."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-terror-motivaciones"
+            },
+            {
+              "e": "18",
+              "p": "Según Romero, durante las décadas de 1960 y 1970, la economía argentina experimentó un crecimiento en sectores clave como la industria y el agro, impulsado por la modernización y la expansión del mercado. En este contexto, ¿cuáles de las siguientes afirmaciones son correctas?",
+              "o": [
+                "La mecanización del agro y el uso de semillas híbridas contribuyeron al crecimiento del sector agropecuario pampeano.",
+                "Aunque la industria creció, el empleo industrial disminuyó debido a la automatización y la reducción de la demanda interna.",
+                "La expansión industrial estuvo acompañada por un aumento del empleo y una recuperación en los ingresos de los asalariados.",
+                "La expansión del sector agropecuario se debió exclusivamente al apoyo del Estado, sin participación del mercado ni del avance tecnológico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 1,
+              "k": "icse-p1-modernizacion-1960"
+            }
+          ]
+        },
+        {
+          "id": "t7",
+          "n": "Tema 7",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "En el video sobre la Transición a la Democracia en Sudáfrica, se afirma que la Comisión de Verdad y Reconciliación llegó más lejos en los aspectos legales, logrando varias y ejemplares condenas a los autores del apartheid y la violación de los Derechos Humanos (DD.HH.).",
+              "o": [
+                "Es falso, porque en Sudáfrica, como en el resto de los países africanos, no hubo revisiones judiciales de lo ocurrido en la etapa del llamado “apartheid” o sobre los distintos tipos de violaciones de los DD.HH.",
+                "Es verdadero, porque las condenas propuestas por la comisión se consideran generalmente suficientes por las víctimas, y llevan a pensar que la búsqueda de la verdad puede alcanzarse en un contexto de transición.",
+                "Es falso, porque al privilegiarse el acceso a la información en pos de la búsqueda de la verdad, se sacrificó en gran medida la justicia y la reparación a las víctimas.",
+                "Es verdadero, porque las condenas propuestas por la comisión se consideran generalmente suficientes por las víctimas, y llevan a pensar que la búsqueda de la verdad puede alcanzarse en un contexto de transición."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-sudafrica-verdad",
+              "opcionesRepetidasFuente": true,
+              "d": "El HTML repite exactamente las opciones B y D, ambas incorrectas. Se conserva el orden y la respuesta C de la fuente para que las letras sigan correspondiendo al material original."
+            },
+            {
+              "e": "2",
+              "p": "Nicolás Simone afirma en el texto sobre transiciones que los procesos de democratización suelen estar a cargo de una casta política. Es decir, de aquellos que integran y, a la vez, se reconocen mutuamente como parte del elenco político privilegiado de un país.",
+              "o": [
+                "Es falso, porque en los procesos democráticos –a diferencia de las dictaduras– las decisiones las toma el pueblo.",
+                "Es falso, porque es una élite –no una casta– la encargada de conducir el proceso de instalación de la democracia.",
+                "Es verdadero, porque los políticos siempre terminan trabajando en función de sus propios intereses y beneficios.",
+                "Es verdadero, porque en un régimen democrático solo la casta política toma decisiones basadas en su poder legal y económico."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-elite-transicion"
+            },
+            {
+              "e": "3",
+              "p": "En el video de la entrevista a Pablo Gerchunoff, éste señala que, aunque Raúl Alfonsín no resolvió la cuestión militar durante su presidencia y dictó el indulto, visto en perspectiva, haber encarcelado a los comandantes por dos años fue un logro de la joven democracia argentina.",
+              "o": [
+                "Es verdadero, porque la sanción de las leyes de Punto Final y Obediencia Debida les permitió a los militares ser liberados luego de la condena en el famoso juicio de 1985 y por ello acceder luego al indulto posterior.",
+                "Es falso, porque los militares argentinos recién comenzaron a ser juzgados durante el gobierno del Néstor Kirchner en 2003.",
+                "Es falso, porque Alfonsín dejó la presidencia en 1989 con los comandantes presos y éstos fueron indultados poco después por el presidente peronista Carlos Menem.",
+                "Es verdadero, porque, debido a los levantamientos militares “carapintadas” y a la sanción de las leyes de Punto Final y Obediencia Debida en 1987, los miembros de las juntas condenados en 1985 fueron liberados al final del mandato del presidente Alfonsín."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-indulto-menem"
+            },
+            {
+              "e": "4",
+              "p": "Según Enrique García, el Estado liberal plantea la defensa de los llamados derechos naturales, inviolables, precontractuales e individuales.",
+              "o": [
+                "Es verdadero, porque el Estado liberal significó un retroceso en el proceso de secularización social.",
+                "Es falso, porque el liberalismo y el neoliberalismo buscan vulnerar los derechos humanos básicos de las personas a través de quitarles los derechos que les otorgaba el Estado de bienestar.",
+                "Es falso, porque no existen derechos naturales, toda elaboración social del hombre es cultural y política.",
+                "Es verdadero, porque sostiene que antes de crearse la sociedad, las personas ya tenían derechos a la igualdad, libertad y propiedad."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-liberal-derechos"
+            },
+            {
+              "e": "5",
+              "p": "Según Max Povse, en la ciencia política el concepto “régimen político” hace referencia a cómo se cuentan los votos en las elecciones.",
+              "o": [
+                "Es verdadero, porque se entiende por “régimen político” solo a aquellos que son democracias.",
+                "Es falso, porque el régimen político regula cómo los ciudadanos acceden al poder y lo ejercen.",
+                "Es falso, porque se entiende por “régimen político” solo a aquellos que son poliarquías.",
+                "Es verdadero, porque el régimen político es la forma académica de denominar a las leyes electorales."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimen"
+            },
+            {
+              "e": "6",
+              "p": "Según Luis A. Romero, y vista desde una perspectiva más amplia, la economía del país tuvo, hasta 1975, un desempeño catastrófico que justificaba los pronósticos apocalípticos y la aparición de grupos revolucionarios y guerrillas peronistas.",
+              "o": [
+                "Es verdadero, ya que en estos años la economía global se encontraba en malas condiciones por la Guerra Fría y se cerraron mercados para los productos argentinos, particularmente, en los países asiáticos, donde más conflictos había, y con China a la cabeza.",
+                "Es falso, porque en estos años el mundo se encontraba en condiciones de transformar parte de su necesidad de alimentos en demanda efectiva y se abrieron nuevos mercados para los productos argentinos, particularmente en los países socialistas.",
+                "Es verdadero, porque desde 1970 el Estado argentino clausuró sus vínculos con el mundo, reduciendo las exportaciones para que suba el dólar.",
+                "Es falso, porque Argentina tuvo un período de crecimiento desde 1975 que la llevó a estar entre las economías más destacadas del mundo."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-economia-pre1975"
+            },
+            {
+              "e": "7",
+              "p": "Según Laura Petrino, la definición del concepto “populismo” se relaciona con la forma de accionar de sus líderes.",
+              "o": [
+                "Es falso, porque el populismo pone énfasis en las demandas y del pueblo movilizado.",
+                "Es verdadero, porque pone énfasis en las diferencias que se plantean con otros tipos de liderazgos.",
+                "Es falso, porque los populistas esconden sus pretensiones políticas en el funcionamiento de las instituciones de la democracia.",
+                "Es verdadero, porque la definición de líder populista se acerca en este punto al tipo ideal carismático que plantea el marxismo."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-populismo-liderazgo"
+            },
+            {
+              "e": "8",
+              "p": "Según Romero, la Iglesia Católica modificó su comportamiento hacia la dictadura a medida que el régimen militar asumido en 1976 empezaba a dar muestras de debilidad. Esto se vio en que:",
+              "o": [
+                "Desde 1979 las preocupaciones de la iglesia por las cuestiones morales o por la familia se extendieron hacia los derechos individuales y la política.",
+                "La Iglesia mantuvo desde 1983 una actitud fuertemente opositora liderada por el entonces joven y popular cura Jorge Bergoglio.",
+                "Revisando sus anteriores posiciones, la Iglesia se propuso renunciar a la injerencia directa en las cuestiones sociales o políticas.",
+                "La Iglesia había apoyado inicialmente al gobierno militar sostenida en la orientación que entonces promovió el nuevo papa Juan Pablo II.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-iglesia-dictadura"
+            },
+            {
+              "e": "9",
+              "p": "Según lo planteado por Patricio Gómez Talavera, el Estado es uno de los protagonistas clave de los estudios sociales. Esto se observa sin importar la disciplina, la nacionalidad del especialista que lo estudia o el momento histórico que se investigue. Esto ocurre porque:",
+              "o": [
+                "El Estado existió siempre en la vida humana y eso hace que su estudio sea imprescindible en el marco de las Ciencias Sociales.",
+                "El Estado genera diferenciaciones entre los habitantes de una sociedad en un nivel de mayor complejidad social.",
+                "Antes que las sociedades conformaran un Estado, las personas vivían en lo que se ha dado en llamar “estado de naturaleza”. Esto significa que no había leyes que organizaran la vida humana y el más fuerte lograba imponerse una y otra vez, sobre el más débil.",
+                "Al crearse, el Estado pasa a ser el poder más importante en esa sociedad y es quien define las reglas de juego. A la vez, también genera diferencias entre los habitantes de esa sociedad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-hobbes-orden"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, para 1982, y desde la perspectiva de la dictadura, una acción militar para lo que llamaban \"recuperar las islas Malvinas\" ofrecía muchos beneficios políticos. Entre ellos:",
+              "o": [
+                "Unificar a las divididas Fuerzas Armadas tras un objetivo común.",
+                "Encontrar una salida al atolladero que se había creado con Brasil en la triple frontera.",
+                "Aumentar la cuestionada legitimidad del régimen ante una sociedad visiblemente disconforme con el rumbo de la economía.",
+                "Aumentar el valor de las fábricas de armas que Argentina mantenía con un alto nivel tecnológico.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la A.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-malvinas-legitimidad"
+            },
+            {
+              "e": "11",
+              "p": "A fines del siglo XX hubo en Argentina numerosos cambios de régimen político. Algunos ejemplos fueron:",
+              "o": [
+                "El paso de la presidencia de Reynaldo Bignone a Raúl Alfonsín en 1983.",
+                "El fin del Gobierno de Héctor Cámpora por su renuncia anticipada en 1974.",
+                "El fin del tercer gobierno de Perón que, al morir, fue reemplazado por su esposa en 1974.",
+                "El paso del Gobierno de Agustín Lanusse a Héctor Cámpora en 1973.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-cambios-regimen"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, el caos y la crisis de 1975 crearon las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Este descontrol se observaba en:",
+              "o": [
+                "Una visible crisis de autoridad luego de la muerte de Perón y con la asunción de su esposa.",
+                "El terror sembrado por la Alianza Anticomunista Argentina (Triple A) y el accionar de las guerrillas.",
+                "El avance descontrolado en grandes ciudades, como Rosario, de carteles ligados al narcotráfico.",
+                "Las corridas indetenibles del peso hacia el dólar.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-condiciones-golpe"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, cuando Alfonsín asumió la presidencia en 1983, el discurso centrado en los valores de la democracia, la paz, los DD.HH. y la solidaridad internacional, fue puesto al servicio de una reinserción del país en la comunidad internacional. Esto produjo que:",
+              "o": [
+                "Asociada con otros países que acababan de retornar a la democracia -Uruguay, Brasil, Perú-, la Argentina se propusiera mediar en Venezuela.",
+                "Con esos criterios se encararán las principales cuestiones pendientes, con Chile por el Beagle y con Gran Bretaña por las Malvinas.",
+                "El gobierno argentino buscara romper el bloqueo que Cuba sufría, especialmente en la Organización de Estados Americanos (OEA).",
+                "Asociada con otros países que acababan de retornar a la democracia -Uruguay, Brasil, Perú-, la Argentina se propusiera mediar en el conflicto en Centroamérica, y sobre todo en la cuestión de Nicaragua.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-reinsercion"
+            },
+            {
+              "e": "14",
+              "p": "Según Javier Hermo, el genocidio es un concepto que sirve para caracterizar situaciones en las que se pone en riesgo la continuidad vital (destruir total o parcialmente) de grupos sociales que tienen características comunes como ser:",
+              "o": [
+                "Características nacionales y raciales comunes.",
+                "Características étnicas y religiosas comunes.",
+                "Características políticas o ideológicas comunes.",
+                "Características económicas y sociales comunes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-convencion-1948"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, en la segunda fase del gobierno peronista iniciado en 1973, los actores políticos cambiaron de estrategias y la puja social recuperó sus formas clásicas. Esto se vio en que:",
+              "o": [
+                "Isabel Perón -alrededor de cuya figura simbólica todas las fuerzas concertaron una tregua tácita- se lanzó a construir una base propia de poder, rodeada de un grupo de fieles, con una gran tradición dentro del peronismo.",
+                "Isabel Perón -alrededor de cuya figura simbólica todas las fuerzas concertaron una tregua tácita- se lanzó a construir una base propia de poder, rodeada de un grupo de fieles, de escasa tradición en el peronismo.",
+                "En la CGT se impusieron los partidarios de la negociación dura, en la mejor tradición vandorista.",
+                "En la CGT se impusieron los partidarios de la confrontación, por la influencia directa que Montoneros había logrado en el peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-isabel-sindicatos"
+            },
+            {
+              "e": "16",
+              "p": "Según Margarita Batlle la complejidad del concepto de democracia constituyó un obstáculo, tanto analítico como práctico. Por eso:",
+              "o": [
+                "La obra de Robert Dahl evidencia su preocupación por comprender el funcionamiento de los sistemas políticos occidentales contemporáneos.",
+                "La obra de Robert Dahl evidencia su preocupación por comprender el funcionamiento de los sistemas políticos en todo el mundo.",
+                "La obra de Robert Dahl evidencia su preocupación por comprender el funcionamiento de la democracia en la historia mundial.",
+                "La obra de Robert Dahl evidencia su preocupación por comprender el funcionamiento de los sistemas electorales que se desarrollaron fuera de Occidente.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-dahl-ideal"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, cuando Perón volvió al país y asumió por tercera vez la presidencia, presentó su proyecto –parecido, pero distinto al de 1945– sobre una serie de bases políticas, entre ellas:",
+              "o": [
+                "Un acuerdo democrático con las fuerzas políticas (los partidos) y un pacto social con los grandes representantes corporativos.",
+                "Una conducción más centralizada de su movimiento (el peronismo), hasta entonces desplegado en varios frentes y dividido en estrategias heterogéneas.",
+                "Una conducción más democrática de su movimiento, hasta entonces sometido a sus órdenes directas e indiscutibles, enviadas desde Madrid, donde residía desde el golpe de estado de 1955 que lo expulsó del poder.",
+                "Un acuerdo democrático con las fuerzas políticas progresistas no partidarias y un pacto social que privilegie a los representantes del pequeño y mediano empresariado nacional.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 1,
+              "k": "icse-p1-peron-proyecto"
+            },
+            {
+              "e": "18",
+              "p": "Según Romero, la mayoría de la dirigencia política posiblemente habría aceptado un acuerdo para dejar atrás el pasado y facilitar una transición no traumática del régimen militar iniciado en 1976 a un gobierno civil. Pero eso no ocurrió por:",
+              "o": [
+                "La movilización cada vez más intensa de la sociedad.",
+                "La propia debilidad de las Fuerzas Armadas, corroídas por sus conflictos internos.",
+                "El peronismo, aliado a las Madres y Abuelas de Plaza de Mayo, se oponía a cualquier acuerdo con la dictadura saliente.",
+                "El radicalismo con Alfonsín a la cabeza aceptaba las políticas de olvido de los militares, pero nadie suponía que pudieran ganar las elecciones de 1983.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 4,
+              "pts": 1,
+              "k": "icse-p1-transicion-sin-pacto"
+            }
+          ]
+        },
+        {
+          "id": "t8",
+          "n": "Tema 8",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "En el video de la entrevista a Pablo Gerchunoff, éste señala que, aunque Raúl Alfonsín no resolvió la cuestión militar durante su presidencia y dictó el indulto, visto en perspectiva, haber encarcelado a los comandantes por dos años fue un logro de la joven democracia argentina.",
+              "o": [
+                "Es verdadero, porque la sanción de las leyes de Punto Final y Obediencia Debida les permitió a los militares ser liberados luego de la condena en el famoso juicio de 1985 y por ello acceder luego al indulto posterior.",
+                "Es falso, porque Alfonsín dejó la presidencia en 1989 con los comandantes presos y éstos recién fueron indultados poco después por el presidente peronista Carlos Menem.",
+                "Es falso, porque los militares argentinos recién comenzaron a ser juzgados durante el gobierno del Néstor Kirchner en 2003.",
+                "Es verdadero, porque, debido a los levantamientos militares “carapintadas” y a la sanción de las leyes de Punto Final y Obediencia Debida en 1987, los miembros de las juntas condenados en 1985 fueron liberados al final del mandato del presidente Alfonsín."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-indulto-menem"
+            },
+            {
+              "e": "2",
+              "p": "Según Enrique García, el Estado liberal plantea la defensa de los llamados derechos naturales, inviolables, precontractuales e individuales.",
+              "o": [
+                "Es verdadero, porque sostiene que antes de crearse la sociedad, las personas ya tenían derechos a la igualdad, libertad y propiedad.",
+                "Es verdadero porque el Estado liberal significó un retroceso en el proceso de secularización social.",
+                "Es falso porque no existen derechos naturales, toda elaboración social del hombre es cultural y política.",
+                "Es falso porque el liberalismo y el neoliberalismo buscan vulnerar los derechos humanos básicos de las personas."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-liberal-derechos"
+            },
+            {
+              "e": "3",
+              "p": "En el video sobre la Transición a la Democracia en Sudáfrica, se afirma que la Comisión de Verdad y Reconciliación llegó más lejos en los aspectos legales, logrando varias y ejemplares condenas a los autores del apartheid y la violación de los Derechos Humanos (DD. HH).",
+              "o": [
+                "Es verdadero, porque las condenas propuestas por la comisión se consideran generalmente suficientes por las víctimas, y llevan a pensar que la búsqueda de la verdad puede alcanzarse en un contexto de transición.",
+                "Es falso, porque en Sudáfrica, como en el resto de los países africanos, no hubo revisiones judiciales de lo ocurrido en la etapa del llamado “apartheid” o sobre los distintos tipos de violaciones de los DD.HH.",
+                "Es verdadero, porque la sanción de la ley de Obediencia debida y Punto Final tuvo como meta que los condenados cumplieran toda su condena.",
+                "Es falso, porque al privilegiarse el acceso a la información en pos de la búsqueda de la verdad, se sacrificó en gran medida la justicia y la reparación a las víctimas."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-sudafrica-verdad"
+            },
+            {
+              "e": "4",
+              "p": "Según Laura Petrino, la definición del concepto “populismo” se relaciona con la forma de accionar de sus líderes.",
+              "o": [
+                "Es falso, porque el populismo pone énfasis en las demandas y del pueblo movilizado.",
+                "Es verdadero, porque pone énfasis en las diferencias que se plantean con otros tipos de liderazgos.",
+                "Es falso, porque los populistas esconden sus pretensiones políticas en el funcionamiento de las instituciones de la democracia.",
+                "Es verdadero, porque la definición de líder populista se acerca en este punto al tipo ideal carismático que plantea el marxismo."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-populismo-liderazgo"
+            },
+            {
+              "e": "5",
+              "p": "Nicolás Simone afirma en el texto sobre transiciones, que los procesos de democratización suelen estar a cargo de una casta política. Es decir, de aquellos que integran y, a la vez, se reconocen mutuamente como parte del elenco político privilegiado de un país.",
+              "o": [
+                "Es falso porque es una élite –no una casta- la encargada de conducir el proceso de instalación de la democracia.",
+                "Es falso, porque en los procesos democráticos –a diferencia de las dictaduras– las decisiones las toma el pueblo.",
+                "Es verdadero, porque en un régimen democrático solo la casta política toma decisiones basadas en su poder legal y económico.",
+                "Es verdadero, porque los políticos siempre terminan trabajando en función de sus propios intereses y beneficios."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-elite-transicion"
+            },
+            {
+              "e": "6",
+              "p": "Según Max Povse, en la ciencia política el concepto “régimen político” hace referencia a cómo se cuentan los votos en las elecciones.",
+              "o": [
+                "Es verdadero, porque se entiende por “régimen político” solo a aquellos que son democracias.",
+                "Es verdadero, porque el régimen político es la forma académica de denominar a las leyes electorales.",
+                "Es falso, porque se entiende por “régimen político” solo a aquellos que son poliarquías.",
+                "Es falso, porque el régimen político regula cómo los ciudadanos acceden al poder y lo ejercen."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimen"
+            },
+            {
+              "e": "7",
+              "p": "Según Luis A. Romero, y vista desde una perspectiva más amplia, la economía del país tuvo, hasta 1975, un desempeño catastrófico que justificaba los pronósticos apocalípticos y la aparición de grupos revolucionarios y guerrillas peronistas.",
+              "o": [
+                "Es verdadero, porque desde 1970 el Estado argentino cerró el vínculo con el mundo y redujo las exportaciones para que suba el dólar.",
+                "Es verdadero, ya que en estos años la economía global se encontraba en malas condiciones por la Guerra Fría y se cerraron mercados para los productos argentinos, particularmente, en los países asiáticos, donde más conflictos había, y con China a la cabeza.",
+                "Es falso, porque en estos años el mundo se encontraba en condiciones de transformar parte de su necesidad de alimentos en demanda efectiva y se abrieron nuevos mercados para los productos argentinos, particularmente en los países socialistas.",
+                "Es falso, porque Argentina tuvo un período de crecimiento desde 1975 que la llevó a estar entre las economías más destacadas del mundo."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-economia-pre1975"
+            },
+            {
+              "e": "8",
+              "p": "Según Romero, en la segunda fase del gobierno peronista iniciado en 1973, los actores políticos cambiaron de estrategias y la puja social recuperó sus formas clásicas. Esto se vio en que:",
+              "o": [
+                "Isabel Perón -alrededor de cuya figura simbólica todas las fuerzas concertaron una tregua tácita- se lanzó a construir una base propia de poder, rodeada de un grupo de fieles, con una gran tradición dentro del peronismo.",
+                "Isabel Perón -alrededor de cuya figura simbólica todas las fuerzas concertaron una tregua tácita- se lanzó a construir una base propia de poder, rodeada de un grupo de fieles, de escasa tradición en el peronismo.",
+                "En la CGT se impusieron los partidarios de la negociación dura, en la mejor tradición vandorista.",
+                "En la CGT se impusieron los partidarios de la confrontación, por la influencia directa que Montoneros había logrado en el peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-isabel-sindicatos"
+            },
+            {
+              "e": "9",
+              "p": "Según Romero, cuando Alfonsín asumió la presidencia en 1983, el discurso centrado en los valores de la democracia, la paz, los DD.HH. y la solidaridad internacional, fue puesto al servicio de una reinserción del país en la comunidad internacional. Esto produjo que:",
+              "o": [
+                "Con esos criterios se encararán las principales cuestiones pendientes, con Chile por el Beagle y con Gran Bretaña por las Malvinas.",
+                "Asociada con otros países que acababan de retornar a la democracia -Uruguay, Brasil, Perú-, la Argentina se propusiera mediar en Venezuela.",
+                "Asociada con otros países que acababan de retornar a la democracia -Uruguay, Brasil, Perú-, la Argentina se propusiera mediar en el conflicto en Centroamérica, y sobre todo en la cuestión de Nicaragua.",
+                "El gobierno argentino buscara romper el bloqueo que Cuba sufría, especialmente en la Organización de Estados Americanos (OEA).",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-reinsercion"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, el caos y la crisis de 1975 crearon las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Este descontrol se observaba en:",
+              "o": [
+                "Una visible crisis de autoridad luego de la muerte de Perón y con la asunción de su esposa.",
+                "El avance descontrolado en grandes ciudades, como Rosario, de carteles ligados al narcotráfico.",
+                "El terror sembrado por la Alianza Anticomunista Argentina (Triple A) y el accionar de las guerrillas.",
+                "Las corridas indetenibles del peso hacia el dólar.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-condiciones-golpe"
+            },
+            {
+              "e": "11",
+              "p": "Según Margarita Batlle la complejidad del concepto de democracia constituyó un obstáculo, tanto analítico como práctico. Por eso:",
+              "o": [
+                "La obra de Robert Dahl evidencia su preocupación por comprender el funcionamiento de la democracia en la historia mundial.",
+                "La obra de Robert Dahl evidencia su preocupación por comprender el funcionamiento de los sistemas electorales que se desarrollaron fuera de Occidente.",
+                "La obra de Robert Dahl evidencia su preocupación por comprender el funcionamiento de los sistemas políticos occidentales contemporáneos.",
+                "La obra de Robert Dahl evidencia su preocupación por comprender el funcionamiento de los sistemas políticos en todo el mundo.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-dahl-ideal"
+            },
+            {
+              "e": "12",
+              "p": "Según Javier Hermo, el genocidio es un concepto que sirve para caracterizar situaciones en las que se pone en riesgo la continuidad vital (destruir total o parcialmente) de grupos sociales que tienen características comunes como ser:",
+              "o": [
+                "Características nacionales y raciales comunes.",
+                "Características políticas o ideológicas comunes",
+                "Características étnicas y religiosas comunes",
+                "Características económicas y sociales comunes.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-convencion-1948"
+            },
+            {
+              "e": "13",
+              "p": "Entre mediados y fines del siglo XX hubo en Argentina numerosos cambios de régimen político. Algunos ejemplos fueron:",
+              "o": [
+                "El paso de la presidencia de Reynaldo Bignone a Raúl Alfonsín en 1983.",
+                "El fin del Gobierno de Héctor Cámpora por su renuncia anticipada.",
+                "El fin del tercer gobierno de Perón que, por su muerte, fue reemplazado por su esposa.",
+                "El paso del Gobierno de Agustín Lanusse a Héctor Cámpora en 1973.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-cambios-regimen"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, para 1982, y desde la perspectiva de la dictadura, una acción militar para lo que llamaban \"recuperar las islas Malvinas\" ofrecía muchos beneficios políticos. Entre ellos:",
+              "o": [
+                "Encontrar una salida al atolladero que había creado con Brasil en la triple frontera.",
+                "Unificar a las divididas Fuerzas Armadas tras un objetivo común.",
+                "Aumentar la cuestionada legitimidad ante una sociedad visiblemente disconforme con el rumbo de la economía.",
+                "Aumentar el valor de las fábricas de armas que Argentina mantenía con un alto nivel tecnológico.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la A.",
+                "Las opciones correctas son la C y la B.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-malvinas-legitimidad"
+            },
+            {
+              "e": "15",
+              "p": "Según lo planteado por Patricio Gómez Talavera, el Estado es uno de los protagonistas clave de los estudios sociales. Esto se observa sin importar la disciplina, la nacionalidad del especialista que lo estudia o el momento histórico que se investigue. Esto ocurre porque:",
+              "o": [
+                "El Estado existió siempre en la vida humana y eso hace que su estudio sea imprescindible en el marco de las Ciencias Sociales.",
+                "El Estado genera diferenciaciones entre los habitantes de una sociedad en un nivel de mayor complejidad social.",
+                "Antes que las sociedades conformaran un Estado, las personas vivían en lo que se ha dado en llamar “estado de naturaleza”. Esto significa que no había leyes que organizaran la vida humana y el más fuerte lograba imponerse una y otra vez, sobre el más débil.",
+                "El Estado pasa a ser el poder y define las reglas de juego, por lo tanto, genera diferencias entre los habitantes de esa sociedad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-hobbes-orden"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, la Iglesia Católica modificó su comportamiento hacia la dictadura a medida que el régimen militar asumido en 1976 empezaba a dar muestras de debilidad. Esto se vio en que:",
+              "o": [
+                "Desde 1979 las preocupaciones de la iglesia por las cuestiones morales o por la familia se extendían hacia los derechos individuales y la política.",
+                "La iglesia mantuvo desde 1983 una actitud fuertemente opositora liderada por el entonces joven y popular cura Jorge Bergoglio.",
+                "Revisando sus anteriores posiciones, la Iglesia se propuso renunciar a la injerencia directa en las cuestiones sociales o políticas.",
+                "La Iglesia había apoyado inicialmente al gobierno militar sostenida en la orientación que entonces promovió el nuevo papa Juan Pablo II.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-iglesia-dictadura"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, la mayoría de la dirigencia política posiblemente habría aceptado un acuerdo para dejar atrás el pasado y facilitar una transición no traumática del régimen militar iniciado en 1976 a un gobierno civil. Pero eso no ocurrió por:",
+              "o": [
+                "El peronismo, aliado a las Madres y Abuelas de Plaza de Mayo, se oponía a cualquier acuerdo con la dictadura saliente.",
+                "La propia debilidad de las Fuerzas Armadas, corroídas por sus conflictos internos.",
+                "La movilización cada vez más intensa de la sociedad.",
+                "El radicalismo con Alfonsín a la cabeza aceptaba las políticas de olvido de los militares, pero nadie suponía que pudieran ganar las elecciones de 1983.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 5,
+              "pts": 1,
+              "k": "icse-p1-transicion-sin-pacto"
+            },
+            {
+              "e": "18",
+              "p": "Según Romero, cuando Perón volvió al país y asumió por tercera vez la presidencia, presentó su proyecto –parecido pero distinto al de 1945– sobre una serie de bases políticas, entre ellas:",
+              "o": [
+                "Un acuerdo democrático con las fuerzas políticas (los partidos) y un pacto social con los grandes representantes corporativos.",
+                "Un acuerdo democrático con las fuerzas políticas progresistas no partidarias y un pacto social que privilegie a los representantes del pequeño y mediano empresariado nacional.",
+                "Una conducción más democrática de su movimiento, hasta entonces sometido a sus órdenes directas e indiscutibles, enviadas desde Madrid, donde residía desde el golpe de estado de 1955 que lo expulsó del poder.",
+                "Una conducción más centralizada de su movimiento (el peronismo), hasta entonces desplegado en varios frentes y dividido en estrategias heterogéneas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-peron-proyecto"
+            }
+          ]
+        },
+        {
+          "id": "t9",
+          "n": "Tema 9",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "En el artículo de Javier Hermo se afirma que el concepto “genocidio” se postuló para caracterizar a las matanzas por motivos políticos.",
+              "o": [
+                "Es falso, porque el concepto “genocidio” se usa para caracterizar estrictamente a las matanzas por motivos políticos, sociales o de género.",
+                "Es verdadero, porque el concepto “genocidio” refiere a las matanzas producidas por diferencias políticas o ideológicas en las sociedades.",
+                "Es verdadero, porque las grandes matanzas de la humanidad han sido producidas y justificadas por razones políticas.",
+                "Es falso, porque el concepto “genocidio” postula ese término para caracterizar a las matanzas por motivos raciales, nacionales o religiosos."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-convencion-1948"
+            },
+            {
+              "e": "2",
+              "p": "Según Patricio Gómez Talavera, la violencia es un elemento clave para la dominación estatal, pero a la vez no es suficiente para explicar su predominio sobre la sociedad.",
+              "o": [
+                "Es falso, la violencia necesita de una legitimidad democrática para ser aceptable por los ciudadanos.",
+                "Es verdadero, porque el Estado necesita que la economía funcione para legitimar el uso de la fuerza ante una sociedad.",
+                "Es falso, porque el Estado se explica por el monopolio de la fuerza, por lo tanto, su uso lo hace un actor indiscutible con una sociedad desarmada.",
+                "Es verdadero, porque la violencia debe ser legítima, es decir, regulada por la ley."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-violencia-aceptada"
+            },
+            {
+              "e": "3",
+              "p": "Según Max Povse, en la ciencia política el concepto “régimen político” hace referencia al conjunto de reglamentaciones que definen si un sistema político es presidencial o parlamentario.",
+              "o": [
+                "Es falso, porque se entiende por “régimen político” solo a aquellos que son dictaduras.",
+                "Es falso, porque se entiende por “régimen político” a las reglas que determinan cómo se accede, y se ejerce el poder.",
+                "Es verdadero, porque el régimen político es la forma académica de denominar a las leyes electorales.",
+                "Es verdadero, porque es aquello que regula cómo miembros de la sociedad se convierten en líderes, y qué límites tiene ese liderazgo."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimen"
+            },
+            {
+              "e": "4",
+              "p": "Según Florencia Deich, un golpe de Estado siempre se propone producir una ruptura del régimen político existente hasta ese momento.",
+              "o": [
+                "Es falso, porque puede haber golpes de Estado que hayan triunfado sin cambiar las reglas de acceso al poder vigentes hasta ese momento.",
+                "Es falso, porque para eso debe estar planificado y realizado por los militares.",
+                "Es verdadero, porque se produce a través de la acción de derribar a un gobierno constitucional.",
+                "Es verdadero, porque se produce a través de la acción de cambiar un presidente."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-deich-golpe-ruptura"
+            },
+            {
+              "e": "5",
+              "p": "Según Nicolás Simone, la sociedad civil es otro actor clave en una transición hacia la democracia.",
+              "o": [
+                "Es verdadero, porque estimula la agenda pública con temas que luego los partidos políticos deben canalizar.",
+                "Es falso, porque la participación activa de la sociedad civil solo es posible cuando la democracia está consolidada y la dictadura se acabó.",
+                "Es verdadero, porque en el primer momento de la transición, generan una especie de “conspiración” contra el régimen autoritario.",
+                "Es falso, porque en coyunturas de transición, la sociedad movilizada no tiene la posibilidad de imponer o rechazar temas importantes en la agenda pública."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-sociedad-transicion"
+            },
+            {
+              "e": "6",
+              "p": "Graciela Etchevest afirma que se considera como “acto terrorista” a la actividad violenta que realiza una organización estatal guiada por una motivación política, religiosa o ideológica.",
+              "o": [
+                "Es falso, porque el terrorismo debe ser realizado por una organización no estatal.",
+                "Es falso, porque el terrorismo no siempre usa la violencia como método de acción.",
+                "Es verdadero, porque el Estado posee el monopolio de la violencia en las sociedades modernas.",
+                "Es verdadero, porque el Estado es el que único que tiene la logística necesaria para producir ese tipo de violencia."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-terror-actores"
+            },
+            {
+              "e": "7",
+              "p": "Según señala Enrique García, el “fascismo” fue un movimiento político autoritario surgido en Europa en las primeras décadas del siglo XX, y el término describe por igual una serie de casos nacionales sin mayores diferencias entre ellos.",
+              "o": [
+                "Es falso, porque es posible establecer rasgos comunes muy importantes más allá de los detalles propios de cada caso.",
+                "Es verdadero, porque el fascismo fue un fenómeno que, aunque con diferentes liderazgos, sostuvo las mismas políticas económicas socialistas.",
+                "Es verdadero, porque el fascismo fue un fenómeno que, aunque tuvo diferentes liderazgos, sostenía las mismas políticas sociales.",
+                "Es falso, porque, si bien se expandió principalmente en Europa, el fascismo tuvo su origen en Asia con los emperadores japoneses."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-fascismos-variantes"
+            },
+            {
+              "e": "8",
+              "p": "En el video sobre Transición a la Democracia referido a Conflictos Armados y Transiciones Políticas se menciona que en el pasado se han producido casos de transición a la democracia, luego de la derrota militar completa de un régimen que no respeta los derechos humanos. En el video se presentan varios casos de este tipo de derrotas militares ocasionadas por fuerzas no nacionales, entre ellos:",
+              "o": [
+                "Fidel Castro en Cuba, que fue derrocado y condenado luego de una invasión liderada por los Estados Unidos en 2003.",
+                "Los talibanes en Afganistán, que fueron derrotados luego de una invasión liderada por los Estados Unidos en 2001.",
+                "La dictadura argentina, derrocada por una operación militar liderada por Gran Bretaña en las Islas Malvinas.",
+                "La Alemania nazi en la Segunda Guerra Mundial, derrotada y condenada por las fuerzas aliadas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-derrota-exterior"
+            },
+            {
+              "e": "9",
+              "p": "Nicolás Simone afirma que los estudios sobre las transiciones fueron impulsados por expertos en Ciencias Sociales para analizar procesos de los que eran testigos y mejorar la calidad de las democracias que entonces nacían. Pero, ¿a qué democracia se referían esos especialistas?",
+              "o": [
+                "A una democracia entendida como un sistema de reglas en el que los ciudadanos se expresan libremente y eligen a sus gobernantes.",
+                "A una democracia que se limita a todo aquello que no puede dejar de tener, es decir, una versión mínima.",
+                "A una democracia sustantiva, es decir, que respondía a todas las demandas sociales, sobre todo, a las de los sectores más populares.",
+                "A una democracia entendida como una versión maximalista, es decir, relacionada con la lucha de clases y los avances socialistas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-simone-minima"
+            },
+            {
+              "e": "10",
+              "p": "Según Verónica Beyreuther, la coacción puede servir inicialmente para mantener el dominio sobre una sociedad, pero, al transcurrir el tiempo, se hace necesario algún grado de consenso. Esto es así porque:",
+              "o": [
+                "Los Estados modernos, sean democracias o dictaduras, siempre requieren de una legitimidad electoral.",
+                "Para lograr esa legitimidad, las dictaduras generalmente se consolidan en el poder apelando a un supuesto interés público.",
+                "El problema de la duración de una dictadura está unido en forma inseparable al de la legitimidad que la sostiene.",
+                "Las dictaduras buscan sostenerse siempre en un consenso mayoritario, por eso tratan de convocar siempre a elecciones.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-dictadura-legitimidad"
+            },
+            {
+              "e": "11",
+              "p": "Según Nadia Yannuzzi, la sociología moderna comienza a desarrollarse a finales del siglo XIX en Europa mientras el Estado liberal se consolidaba como forma de organización política por excelencia. Esto se vio en que:",
+              "o": [
+                "La sociología moderna comienza a reflexionar en un contexto que era muy complejo porque el orden social era cuestionado por nuevos actores sociales, entre ellos el movimiento obrero, y por nuevas ideas políticas, como el comunismo y el anarquismo.",
+                "La sociología moderna comienza a reflexionar sobre cómo las minorías sexuales podían generar alternativas a las políticas existentes.",
+                "La sociología moderna comienza a reflexionar apenas el Estado fascista puso en cuestión y bajo ataque a la democracia en Europa.",
+                "La sociología moderna comienza a reflexionar sobre qué es lo que mantiene a los individuos unidos o, en otras palabras, cómo es posible el orden social.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la B, la C y la D"
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-sociologia-orden"
+            },
+            {
+              "e": "12",
+              "p": "Según Luis Alberto Romero, el impulso civil y democrático que representaba el entonces presidente Raúl Alfonsín, había experimentado un temprano y fuerte contraste ante el poder sindical reconstituido. Esto se vio en que:",
+              "o": [
+                "La CGT no rehusó participar en las instancias de concertación que abrió el gobierno, pero lo hizo con el estilo que había desplegado exitosamente entre 1955 y 1973: negociar y golpear.",
+                "El Secretario general de la CGT, Hugo Moyano, proveniente de un sindicato clave en el entramado económico del país, fue la figura característica de esta etapa.",
+                "El gobierno de Alfonsín prefirió enfrentar a los sindicatos y nunca abrió espacios para el diálogo y la concertación con sus representantes.",
+                "Los sindicalistas de la CGT no lograron expresar de manera unificada el descontento social y se enfrentaron también con los empresarios, la Iglesia y los grupos de izquierda.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-cgt-alfonsin"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, a principios de 1973, los militantes de la Tendencia (sectores armados y revolucionarios del peronismo) se lanzaron a ocupar espacios de poder en el Estado. Esto fue así porque:",
+              "o": [
+                "El triunfo electoral de Cámpora fue contundente en las elecciones presidenciales de ese mismo año.",
+                "Perón marginó de las listas electorales a los sindicalistas, que eran los enemigos de la Tendencia.",
+                "Lograron expulsar del partido a los sectores de derecha que conducía José López Rega.",
+                "Cuando volvió a la Argentina, Perón decidió que la verdadera representación de su figura estaba en la izquierda peronista.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-tendencia-campora"
+            },
+            {
+              "e": "14",
+              "p": "Según Margarita Batlle, la complejidad del concepto de democracia constituye un obstáculo, tanto analítico como práctico, sobre el sentido que se le otorga a su significado. Esto es así porque:",
+              "o": [
+                "No es posible sintetizar en un solo concepto los contenidos mínimos que debe tener una democracia.",
+                "En este caso no se puede usar el concepto de poliarquía porque es utópico y no se puede registrar en la práctica de la actividad humana.",
+                "Existen ideas diferentes por parte de la opinión pública y los medios de comunicación.",
+                "Existen ideas diferentes por parte de los estudiosos en el tema.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-democracia-polisemia"
+            },
+            {
+              "e": "15",
+              "p": "Romero afirma que cuando Alfonsín asumió el gobierno tenía detrás de sí una enorme fuerza, cuya capacidad era aún una incógnita: la civilidad. Eso fue así porque:",
+              "o": [
+                "Era poco y muchísimo: se trataba de una identidad política fundada en valores éticos.",
+                "Era poco y muchísimo: había logrado una victoria electoral contundente pero no manejaba ninguna de las dos cámaras del Congreso.",
+                "Era poco y muchísimo: la civilidad vivió la euforia y la ilusión de la democracia, poderosa y \"boba\" a la vez.",
+                "Era poco y muchísimo: los militares lo apoyaban, pero tenía en contra decididamente a los empresarios y a la Iglesia.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D"
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-civilidad-1983"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, el año 1987 fue decisivo para el gobierno de Alfonsín porque perdió la exclusividad del liderazgo sobre la civilidad. Esto fue así porque:",
+              "o": [
+                "En un clima de deterioro económico agudizado y de inflación creciente, las elecciones de septiembre de 1987 dieron como ganadores a los partidos que reivindicaban la dictadura militar iniciada en 1976.",
+                "En un clima de deterioro económico agudizado y de inflación creciente, las elecciones de septiembre de 1987 dieron el triunfo al peronismo.",
+                "El gobierno radical no registró el impacto de una derrota electoral y su gestión se tornó crecientemente autoritaria.",
+                "En el propio partido radical alzaron sus voces los disconformes con la conducción de Alfonsín.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-anio-87"
+            },
+            {
+              "e": "17",
+              "p": "Romero señala que, durante el primer año del gobierno radical iniciado en 1983, la política económica del ministro Bernardo Grinspun se ajustó a las fórmulas dirigistas y redistributivas clásicas. Esto se observa en que:",
+              "o": [
+                "Empresarios y sindicalistas convergieron en el apoyo a esta política siguiendo el modelo establecido con el famoso Plan Gelbard, implementado en los años 70.",
+                "Incluía el control estatal del crédito, el mercado de cambios y los precios, y se completaba con medidas de acción social.",
+                "Eran medidas similares a las aplicadas entre 1963 y 1966, ideas que el radicalismo compartía con el peronismo histórico.",
+                "Eran medidas similares a las aplicadas entre 1955 y 1958, ya que el radicalismo se oponía a lo que planteaba el peronismo histórico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-grinspun"
+            },
+            {
+              "e": "18",
+              "p": "Según Florencia Deich, el caso del presidente Arturo Frondizi y su reemplazo en 1963 es complejo para definir si fue un golpe de Estado o una interrupción institucional. Esto es así porque:",
+              "o": [
+                "El presidente legítimo fue destituido por la presión militar, pero el que asumió en su lugar no fue el vicepresidente.",
+                "Los militares finalmente decidieron quitar a Frondizi del poder. Y en este sentido su accionar fue exitoso y lograron cumplir con todos sus objetivos, ya que colocaron a una persona de las Fuerzas Armadas en la presidencia.",
+                "Los militares finalmente decidieron quitar a Frondizi del poder. Y en este sentido su accionar fue exitoso. Sin embargo, no lograron cumplir con todos sus objetivos, ya que no colocaron a una persona de las Fuerzas Armadas en la presidencia.",
+                "La forma que tomaron los acontecimientos genera complicaciones a la hora de definir el tipo de régimen ya que, el presidente legítimo fue destituido pero el que asumió en su lugar lo hizo respetando las reglas de sucesión previstas en la Constitución.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-frondizi-guido",
+              "d": "Errata cronológica del HTML: la destitución de Frondizi y la asunción de Guido ocurrieron en 1962, no en 1963. Se conserva el enunciado de la fuente con esta aclaración."
+            }
+          ]
+        },
+        {
+          "id": "t10",
+          "n": "Tema 10",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Florencia Deich, un golpe de Estado siempre se propone producir una ruptura del régimen político existente hasta ese momento.",
+              "o": [
+                "Es falso, porque puede haber golpes de Estado que hayan triunfado sin cambiar las reglas de acceso al poder vigentes hasta ese momento.",
+                "Es falso, porque para eso debe estar planificado y realizado por los militares.",
+                "Es verdadero, porque se produce a través de la acción de cambiar un presidente.",
+                "Es verdadero, porque se produce a través de la acción de derribar a un gobierno constitucional."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-deich-golpe-ruptura"
+            },
+            {
+              "e": "2",
+              "p": "Según Nicolás Simone, la sociedad civil es otro actor clave en una transición hacia la democracia.",
+              "o": [
+                "Es verdadero, porque en el primer momento de la transición, generan una especie de “conspiración” contra el régimen autoritario.",
+                "Es falso, porque la participación activa de la sociedad civil solo es posible cuando la democracia está consolidada y la dictadura se acabó.",
+                "Es verdadero, porque estimula la agenda pública con temas que luego los partidos políticos deben canalizar.",
+                "Es falso, porque en estas coyunturas de transición, la sociedad movilizada no tiene la posibilidad de imponer ni rechazar temas importantes en la agenda pública."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-sociedad-transicion"
+            },
+            {
+              "e": "3",
+              "p": "Graciela Etchevest afirma que se considera como “acto terrorista” a la actividad violenta que realiza una organización estatal guiada por una motivación política, religiosa o ideológica.",
+              "o": [
+                "Es falso, porque el terrorismo debe serrealizado por una organización no estatal.",
+                "Es verdadero, porque el Estado es el que único que tiene la logística necesaria para producir ese tipo de violencia.",
+                "Es verdadero, porque el Estado posee el monopolio de la violencia en las sociedades modernas.",
+                "Es falso, porque el terrorismo no siempre usa la violencia como método de acción."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-terror-actores"
+            },
+            {
+              "e": "4",
+              "p": "Javier Hermo afirma que el concepto “genocidio” se postuló originalmente para caracterizar a las matanzas realizadas por motivos políticos.",
+              "o": [
+                "Es falso, porque el concepto “genocidio” postula ese término para caracterizar a las matanzas por motivos raciales, nacionales o religiosos.",
+                "Es verdadero, porque el concepto “genocidio” refiere a las matanzas producidas por diferencias políticas o ideológicas en las sociedades.",
+                "Es verdadero, porque las grandes matanzas de la humanidad han sido producidas y justificadas por razones políticas.",
+                "Es falso, porque el concepto “genocidio” postula ese término para caracterizar solo matanzas de tipo políticas, sociales o de género."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-convencion-1948"
+            },
+            {
+              "e": "5",
+              "p": "Según señala Enrique García, el “fascismo” fue un movimiento político autoritario surgido en Europa en las primeras décadas del siglo XX, y el término describe por igual una serie de casos nacionales sin mayores diferencias entre ellos.",
+              "o": [
+                "Es verdadero, porque el fascismo fue un fenómeno que, aunque con diferentes liderazgos, sostuvo las mismas políticas económicas socialistas.",
+                "Es falso, porque es posible establecer rasgos comunes muy importantes a la hora de caracterizaros más allá de detalles propios de cada caso.",
+                "Es verdadero, porque el fascismo fue un fenómeno que, aunque tuvo diferentes liderazgos, sostenía las mismas políticas sociales.",
+                "Es falso, porque, si bien se expandió principalmente en Europa, el fascismo tuvo su origen en Asia con los emperadores japoneses."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-fascismos-variantes"
+            },
+            {
+              "e": "6",
+              "p": "Según Max Povse, en la ciencia política el concepto “régimen político” hace referencia al conjunto de reglamentaciones que definen si un sistema político es presidencial o parlamentario.",
+              "o": [
+                "Es falso, porque se entiende por “régimen político” solo a aquellos que son dictaduras.",
+                "Es verdadero, porque el régimen político es la forma académica de denominar a las leyes electorales.",
+                "Es falso, porque se entiende por “régimen político” a las reglas que determinan cómo se accede, y se ejerce el poder.",
+                "Es verdadero, porque es aquello que regula cómo miembros de la sociedad se convierten en líderes, y qué limites tiene ese liderazgo."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimen"
+            },
+            {
+              "e": "7",
+              "p": "Según Patricio Gómez Talavera, la violencia es un elemento clave para la dominación estatal, pero no es suficiente para explicar su predominio sobre la sociedad.",
+              "o": [
+                "Es falso, la violencia necesita de una legitimidad democrática para ser aceptable por los ciudadanos.",
+                "Es verdadero, porque el Estado necesita que la economía funcione para legitimar el uso de la fuerza ante una sociedad.",
+                "Es falso, porque el Estado se explica por el monopolio de la fuerza, por eso, su uso resulta indiscutible por una sociedad desarmada.",
+                "Es verdadero, porque la violencia debe ser legítima, es decir, regulada por la ley."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-violencia-aceptada"
+            },
+            {
+              "e": "8",
+              "p": "Según Luis Alberto Romero, en 1987 el gobierno de Alfonsín perdió la exclusividad del liderazgo sobre la civilidad. Esto fue así porque:",
+              "o": [
+                "En un clima de deterioro económico agudizado y de inflación creciente, las elecciones de septiembre de 1987 dieron como ganadores a los partidos que reivindicaban la dictadura militar iniciada en 1976.",
+                "En un clima de deterioro económico agudizado y de inflación creciente, las elecciones de septiembre de 1987 dieron el triunfo al peronismo.",
+                "El gobierno radical no registró el impacto de una derrota electoral y su gestión se tornó crecientemente autoritaria.",
+                "En el propio partido radical alzaron sus voces los disconformes con la conducción de Alfonsín.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-anio-87"
+            },
+            {
+              "e": "9",
+              "p": "Romero afirma que cuando Alfonsín asumió el gobierno tenía detrás de sí una enorme fuerza, cuya capacidad era aún una incógnita: la civilidad. Eso fue así porque:",
+              "o": [
+                "Era poco y muchísimo: se trataba de una identidad política fundada en valores éticos.",
+                "Era poco y muchísimo: había logrado una victoria electoral contundente pero no manejaba ninguna de las dos cámaras del Congreso.",
+                "Era poco y muchísimo: la civilidad vivió la euforia y la ilusión de la democracia, poderosa y \"boba\" a la vez.",
+                "Era poco y muchísimo: los militares lo apoyaban, pero tenía en contra decididamente a los empresarios y a la Iglesia.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-civilidad-1983"
+            },
+            {
+              "e": "10",
+              "p": "Según Margarita Batlle, la complejidad del concepto de democracia constituye un obstáculo, tanto analítico como práctico, sobre el sentido que se le otorga a su significado. Esto es así porque:",
+              "o": [
+                "No es posible sintetizar en un solo conceptos los contenidos mínimos que debe tener una democracia.",
+                "En este caso no se puede usar el concepto poliarquía porque es utópico y no se puede registrar en la práctica de la actividad humana.",
+                "Existen ideas diferentes por parte de la opinión pública y los medios de comunicación.",
+                "Existen ideas diferentes por parte de los estudiosos en el tema.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-democracia-polisemia"
+            },
+            {
+              "e": "11",
+              "p": "Según Verónica Beyreuther, la coacción puede servir inicialmente para mantener el dominio sobre una sociedad, pero, al transcurrir el tiempo, se hace necesario algún grado de consenso. Esto es así porque:",
+              "o": [
+                "Los Estados modernos, sean democracias o dictaduras, siempre requieren de una legitimidad electoral.",
+                "Para lograr esa legitimidad, las dictaduras generalmente se consolidan en el poder apelando a un supuesto interés público.",
+                "El problema de la duración de una dictadura está unido en forma inseparable al de la legitimidad que la sostiene.",
+                "Las dictaduras buscan sostenerse siempre en un consenso mayoritario, por eso tratan de convocar siempre a elecciones.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-dictadura-legitimidad"
+            },
+            {
+              "e": "12",
+              "p": "Nicolás Simone afirma que los estudios sobre las transiciones fueron impulsados por expertos en Ciencias Sociales para analizar procesos de los que eran testigos y mejorar la calidad de las democracias que entonces nacían. Pero, ¿a qué democracia se referían esos especialistas?",
+              "o": [
+                "A una democracia entendida como un sistema de reglas en el que los ciudadanos se expresan libremente y eligen a sus gobernantes.",
+                "A una democracia que se limita a todo aquello que no puede dejar de tener, es decir, una versión mínima.",
+                "A una democracia sustantiva, es decir, que respondía a todas las demandas sociales, sobre todo, a las de los sectores más populares.",
+                "A una democracia entendida como una versión maximalista, es decir, relacionada con la lucha de clases y los avances socialistas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-simone-minima"
+            },
+            {
+              "e": "13",
+              "p": "Según Nadia Yannuzzi, la sociología moderna comienza a desarrollarse a finales del siglo XIX en Europa mientras el Estado liberal se consolidaba como forma de organización política por excelencia. Esto se vio en que:",
+              "o": [
+                "La sociología moderna comienza a reflexionar en un contexto que era muy complejo porque el orden social era cuestionado por nuevos actores sociales, entre ellos el movimiento obrero, y por nuevas ideas políticas, como el comunismo y el anarquismo.",
+                "La sociología moderna comienza a reflexionar sobre cómo las minorías sexuales podían generar alternativas a las políticas existentes.",
+                "La sociología moderna comienza a reflexionar apenas el Estado fascista puso en cuestión y bajo ataque a la democracia en Europa.",
+                "La sociología moderna comienza a reflexionar sobre qué es lo que mantiene a los individuos unidos o, en otras palabras, cómo es posible el orden social.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-sociologia-orden"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero,a principios de 1973, los militantes de la Tendencia (sectores armados y revolucionarios del peronismo) se lanzaron a ocupar espacios de poder en el Estado. Esto fue así porque:",
+              "o": [
+                "El triunfo electoral de Cámpora fue contundente en las elecciones presidenciales de ese mismo año.",
+                "Perón marginó de las listas electorales a los sindicalistas, que eran los enemigos de la Tendencia.",
+                "Porque lograron expulsar del partido a los sectores de derecha que conducía José López Rega.",
+                "Porque, cuando volvió a la Argentina, Perón decidió que la verdadera representación de su figura estaba en la izquierda peronista.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-tendencia-campora"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, el impulso civil y democrático que representaba el entonces presidente Raúl Alfonsín, había experimentado un temprano y fuerte contraste ante el poder sindical reconstituido. Esto se vio en que:",
+              "o": [
+                "La CGT no rehusó participar en las instancias de concertación que abrió el gobierno, pero lo hizo con el estilo que había desplegado exitosamente entre 1955 y 1973: negociar y golpear.",
+                "El Secretario general de la CGT, Hugo Moyano, proveniente de un sindicato clave en el entramado económico del país, fue la figura característica de esta etapa.",
+                "El gobierno de Alfonsín prefirió enfrentar a los sindicatos y nunca abrió espacios para el diálogo y la concertación con sus representantes.",
+                "Los sindicalistas de la CGT no lograron expresar de manera unificada el descontento social y se enfrentaron también con los empresarios, la Iglesia y los grupos de izquierda.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-cgt-alfonsin"
+            },
+            {
+              "e": "16",
+              "p": "En el video sobre Transición a la Democracia referido a Conflictos Armados y Transiciones Políticas se menciona que en el pasado se han producido casos de transición a la democracia, luego de la derrota militar completa de un régimen que no respeta los derechos humanos. En el video se presentan varios casos de este tipo de derrotas militares ocasionadas por fuerzas no nacionales, entre ellos:",
+              "o": [
+                "Fidel Castro en Cuba, que fue derrocado y condenado luego de una invasión liderada por los Estados Unidos en 2003.",
+                "Los talibanes en Afganistán, que fueron derrotados luego de una invasión liderada por los Estados Unidos en 2001.",
+                "La dictadura argentina, derrocada por una operación militar liderada por Gran Bretaña en las Islas Malvinas.",
+                "La Alemania nazi en la Segunda Guerra Mundial, derrotada y condenada por las fuerzas aliadas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-derrota-exterior"
+            },
+            {
+              "e": "17",
+              "p": "Según Florencia Deich, el caso del presidente Arturo Frondizi y su reemplazo en 1963 es complejo para analizar para definir si fue un golpe de Estado o una interrupción institucional. Esto es así porque:",
+              "o": [
+                "Los militares finalmente decidieron quitar a Frondizi del poder. Y en este sentido su accionar fue exitoso y lograron cumplir con todos sus objetivos, ya que colocaron a una persona de las Fuerzas Armadas en la presidencia.",
+                "El presidente legítimo fue destituido por la presión militar, pero el que asumió en su lugar no fue el vicepresidente.",
+                "Los militares finalmente decidieron quitar a Frondizi del poder. Y en este sentido su accionar fue exitoso. Sin embargo, no lograron cumplir con todos sus objetivos, ya que no colocaron a una persona de las Fuerzas Armadas en la presidencia.",
+                "La forma que tomaron los acontecimientos genera complicaciones a la hora de definir el tipo de régimen ya que, el presidente legítimo fue destituido pero el que asumió en su lugar lo hizo respetando las reglas de sucesión previstas en la Constitución.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-frondizi-guido",
+              "d": "Errata cronológica del HTML: la destitución de Frondizi y la asunción de Guido ocurrieron en 1962, no en 1963. Se conserva el enunciado de la fuente con esta aclaración."
+            },
+            {
+              "e": "18",
+              "p": "Romero señala que, durante el primer año del gobierno radical iniciado en 1983, la política económica del ministro Bernardo Grinspun se ajustó a las fórmulas dirigistas y redistributivas clásicas. Esto se observa en que:",
+              "o": [
+                "Empresarios y sindicalistas convergieron en el apoyo a esta política siguiendo el modelo establecido con el famoso Plan Gelbard, implementado en los años 70.",
+                "Incluía el control estatal del crédito, el mercado de cambios y los precios, y se completaba con medidas de acción social.",
+                "Eran medidas similares a las aplicadas entre 1963 y 1966, ideas que el radicalismo compartía con el peronismo histórico.",
+                "Eran medidas similares a las aplicadas entre 1955 y 1958, ya que el radicalismo se oponía a lo que planteaba el peronismo histórico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-grinspun"
+            }
+          ]
+        },
+        {
+          "id": "t11",
+          "n": "Tema 11",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "En la introducción de Herramientas para el análisis de la Sociedad y el Estado, se afirma que los conceptos son construcciones abstractas que sirven para describir o explicar situaciones y hechos sociales.",
+              "o": [
+                "Es falso, porque los conceptos son herramientas abstractas que no tienen ninguna relación con hechos concretos.",
+                "Es falso, porque los conceptos son herramientas que parten de situaciones y hechos sociales, y sirven para describir o explicar cuestiones abstractas.",
+                "Es verdadero, porque los conceptos se elaboran a partir de elementos concretos que requieren alguna explicación o análisis.",
+                "Es verdadero, porque los conceptos son construcciones ideológicas que parten de las teorías políticas clásicas."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-concepto"
+            },
+            {
+              "e": "2",
+              "p": "Según Nadia Yannuzzi, una de las principales distinciones que se realizan para analizar las instituciones es entre las que se consideran “formales” y aquellas que se denominan “informales”.",
+              "o": [
+                "Es verdadero, porque las “instituciones formales”, están escritas y codificadas mientras que las “instituciones informales” no están entre las previstas por las leyes y la formalidad del Estado.",
+                "Es falso, porque hay un solo tipo de institucionalidad que es la democrática.",
+                "Es verdadero, porque las “instituciones informales”, están escritas y codificadas mientras que las “instituciones formales” no están entre las previstas por las leyes y la formalidad del Estado.",
+                "Es falso, porque hay un solo tipo de institucionalidad, que es la ley y que todos deben obedecer y cumplir."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-instituciones-formales"
+            },
+            {
+              "e": "3",
+              "p": "Según Patricio Gómez Talavera, el Estado representa a todos los ciudadanos de una sociedad.",
+              "o": [
+                "Es falso, porque el Estado es producto de elecciones libres y democráticas donde todos poseen un voto.",
+                "Es verdadero, porque el Estado es el pueblo organizado y su función básica es atender todas las demandas sin diferencias.",
+                "Es verdadero, porque el Estado es producto de una relación de cooperación horizontal entre las personas.",
+                "Es falso, porque siempre algunas parcialidades poseen el control del Estado."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-estado-totalidad"
+            },
+            {
+              "e": "4",
+              "p": "En el artículo de Enrique García se afirma que el Estado liberal profundizó un proceso de secularización social.",
+              "o": [
+                "Es falso, porque la secularización fue promovida por los Estados medievales previos al liberal.",
+                "Es verdadero, porque la Iglesia dejó de tener el monopolio de la educación y la cultura.",
+                "Es verdadero, porque la Iglesia dejó de tener el monopolio de la vida económica y financiera.",
+                "Es falso, porque el liberalismo consolida la dependencia de los ciudadanos en cuestiones religiosas y sociales."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-secularizacion"
+            },
+            {
+              "e": "5",
+              "p": "Según Florencia Deich, la existencia de un cambio presidencial sin ocasionar un cambio de régimen político es la diferencia principal entre la interrupción institucional y los golpes de Estado.",
+              "o": [
+                "Es verdadero, porque de ese modo no se cambian las reglas de acceso al poder que caracteriza a un régimen político.",
+                "Es falso, porque el cambio presidencial vulnera la elección mayoritaria de una sociedad y eso afecta el régimen político.",
+                "Es falso, porque el uso de la violencia política es la diferencia principal entre la interrupción institucional y los golpes de Estado.",
+                "Es verdadero, porque exista o no exista un cambio presidencial todo intento de cambiar las reglas es un golpe de Estado."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-interrupcion-institucional"
+            },
+            {
+              "e": "6",
+              "p": "Según Max Povse, en la ciencia política el concepto “régimen político” hace referencia al conjunto de reglamentaciones que determinan cómo se accede, y cómo se ejerce el poder.",
+              "o": [
+                "Es falso, porque se entiende por “régimen político” solo a aquellos que son dictaduras.",
+                "Es verdadero, porque el régimen político es la forma académica de denominar a las leyes electorales.",
+                "Es falso, porque se entiende por “régimen político” solo a aquellos que son democracias.",
+                "Es verdadero, porque es aquello que regula cómo los miembros de la sociedad se convierten en líderes políticos, y qué limites tiene ese liderazgo."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimen"
+            },
+            {
+              "e": "7",
+              "p": "Según Laura Petrino, los líderes populistas se constituyen como una alternativa que busca cambiar el sistema político vigente.",
+              "o": [
+                "Es verdadero, porque se enfrentan duramente a los actores tradicionales, a los que acusa por el estancamiento que sufre el país.",
+                "Es verdadero, porque intentan superar la “herencia recibida” con el desarrollo desde las instituciones políticas de planes de gobierno muy consensuados.",
+                "Es falso, porque en las democracias populistas se agota la capacidad de control de unas instituciones sobre otras, y se tensiona el Estado de Derecho.",
+                "Es falso, porque el populismo se relaciona con la conceptualización del Estado neoliberal desarrollada por Enrique García."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-petrino-lideres"
+            },
+            {
+              "e": "8",
+              "p": "Según Romero, el día que Raúl Alfonsín asumió la presidencia, la multitud que se volcó a las calles sentía que, finalmente, la civilidad había alcanzado el poder. Sin embargo, era el comienzo de una etapa compleja porque:",
+              "o": [
+                "La campaña había puesto énfasis, sobre todo, en los graves problemas económicos que preocupaban a la mayor parte de la población.",
+                "Existía la convicción –alimentada por el candidato triunfante– de que el retorno a la democracia suponía la solución de todos los problemas.",
+                "No eran tantas las demandas que la sociedad acumulaba, lo que exigía respuestas muy concretas de parte del flamante Gobierno radical.",
+                "Pronto se puso de relieve la capacidad de resistencia de los enemigos que se creían vencidos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-civilidad-1983"
+            },
+            {
+              "e": "9",
+              "p": "Según señala Margarita Batlle, la poliarquía se caracteriza porque:",
+              "o": [
+                "Hay partidos diferentes con iguales posibilidades de llegar al poder.",
+                "Hay partidos diferentes que, a su vez, representen programas e ideas distintas.",
+                "Los partidos no son los protagonistas de la competencia y del ejercicio del poder en la poliarquía, sino los ciudadanos organizados.",
+                "Los partidos no son los protagonistas de la competencia y del ejercicio del poder en la poliarquía, sino los grupos corporativos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-poliarquia-competencia"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, la Iglesia Católica evolucionó hacia una creciente hostilidad al Gobierno radical encabezado, desde 1983, por Raúl Alfonsín. Esto fue así porque:",
+              "o": [
+                "El partido radical era tradicionalmente anticatólico y eso se reflejó en su agenda de Gobierno, especialmente en lo económico.",
+                "La Iglesia estaba molesta por su poca injerencia –al menos, menor a sus aspiraciones– en la enseñanza privada.",
+                "La Iglesia estaba molesta por el tono laico del discurso cultural de instituciones y medios del Estado.",
+                "La Iglesia estaba molesta por el proyecto de despenalización del aborto que impulsaba el Gobierno y que luego fuera rechazado en el Congreso.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-iglesia-laicidad"
+            },
+            {
+              "e": "11",
+              "p": "Romero afirma que el peronismo pagó altos costos por encarar su campaña electoral en 1983 con mucho del viejo estilo. Esto se vio en que:",
+              "o": [
+                "Ante el inevitable triunfo de Alfonsín, los gobernadores peronistas apoyaron al radical para salvar el poder territorial que aún les quedaba.",
+                "En 1983 el peronismo fue dividido a la elección presidencial y por ello perdió contra sus rivales radicales.",
+                "Los peronistas hicieron la campaña electoral convocando a la liberación contra la dependencia y apelando a lo peor de su folclore político.",
+                "El candidato a presidente –Ítalo Luder– no disipó la desconfianza que el peronismo generaba en sectores importantes de la sociedad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-luder-1983"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, en los años 70, Perón buscaba enfrentar a quienes lo derrocaron en 1955 con la estrategia del \"bombero piromaníaco\". Esto significaba que:",
+              "o": [
+                "Ante unos y otros, Perón se presentaba como quien podía canalizar la efervescencia social, si lograba para ello el poder necesario.",
+                "Perón –metafóricamente– agregaba combustible a la caldera, hasta el límite de su estallido, y al mismo tiempo controlaba la válvula de escape.",
+                "Perón deseaba incendiar todo –metafóricamente– creando así la excusa para encaminar al país hacia un socialismo.",
+                "La metáfora del fuego servía para atraer a los jóvenes revolucionarios de Montoneros y la Juventud Peronista, y servirse de su espectacular crecimiento luego de 1973.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-bombero-piromaniaco"
+            },
+            {
+              "e": "13",
+              "p": "El video sobre la Transición a la Democracia (que se dedica al caso de Sudáfrica) se refiere a la Comisión de Verdad y Reconciliación y se la diferencia de otras comisiones semejantes en América Latina y África. ¿Cuáles son estas diferencias?",
+              "o": [
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, basada en el principio de satisfacción mutua.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a las organizaciones no gubernamentales.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a los distintos partidos políticos como organismos de representación social.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, dando un papel preponderante a la Iglesia Católica como herramienta de reconciliación común.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-sudafrica-restaurativa"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, uno de los acontecimientos más importantes de la transición en Argentina fueron los ocurridos en la Semana Santa de 1987, cuando un levantamiento militar puso a prueba la estabilidad democrática. Eso fue así porque:",
+              "o": [
+                "Fue una sublevación de sectores militares que exigían el fin de los juicios contra los oficiales involucrados en la represión durante la dictadura militar que había terminado algunos años antes.",
+                "El levantamiento fue sofocado inmediatamente con una intervención militar ordenada por Alfonsín, sin necesidad de negociaciones.",
+                "Fue un intento de golpe de Estado exitoso que obligó a Raúl Alfonsín a renunciar antes de completar su mandato.",
+                "Marcó un punto de inflexión en la relación entre el Gobierno y las Fuerzas Armadas, llevando posteriormente a la sanción de la Ley de Obediencia Debida.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-semana-santa"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, el impulso civil y democrático que representaba el entonces presidente Raúl Alfonsín experimentó un temprano y fuerte contraste ante el poder sindical reconstituido. Esto se vio en que:",
+              "o": [
+                "La CGT no rehusó participar en las instancias de concertación que abrió el Gobierno, pero lo hizo con el estilo que había desplegado exitosamente entre 1955 y 1973: negociar y golpear.",
+                "El secretario general de la CGT, Hugo Moyano, proveniente de un sindicato clave en el entramado económico del país, fue la figura característica de esta etapa.",
+                "El Gobierno de Alfonsín prefirió enfrentar a los sindicatos y nunca abrió espacios para el diálogo y la concertación con sus representantes.",
+                "Los sindicalistas de la CGT no lograron expresar de manera unificada el descontento social y se enfrentaron también con los empresarios, la Iglesia y los grupos de izquierda.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-cgt-alfonsin"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, con la represión en la última dictadura surgieron en el propio Ejército verdaderos señores de la guerra que casi no reconocían ninguna autoridad sobre sí.",
+              "o": [
+                "En torno a la Marina, en especial con el Almirante Massera, se constituyó la facción interna más fuerte, pero que distaba de ser dominante.",
+                "Las tendencias centrífugas y la anarquía se derivaban de la escrupulosa división del poder entre las tres fuerzas, al punto de no existir una instancia superior a ellas que dirimiera los conflictos.",
+                "Las tendencias centrífugas y la anarquía se derivaban de la escrupulosa división del poder entre las tres fuerzas, al punto de existir solo una instancia superior a ellas que dirimiera los conflictos, pero estaba en el Vaticano.",
+                "En torno a los generales Videla y Viola se constituyó la facción más débil, pero que podía dialogar e intermediar con las demás.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-senores-guerra"
+            },
+            {
+              "e": "17",
+              "p": "El video sobre Transición a la Democracia afirma que las transiciones en conflictos armados no internacionales pueden darse incluso cuando el conflicto aún no ha finalizado. Esto es así porque:",
+              "o": [
+                "En los casos de El Salvador y Filipinas hubo transiciones políticas mientras los conflictos armados seguían activos.",
+                "La transición sólo puede ocurrir después de que un conflicto armado haya terminado por completo.",
+                "En el caso de Colombia, los Gobiernos democráticos han tenido que negociar con grupos armados activos.",
+                "Los conflictos armados internos siempre terminan antes de que haya una transición política.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-transiciones-conflictos"
+            },
+            {
+              "e": "18",
+              "p": "Según Romero, hacia 1973, la expansión económica en Argentina ya se acercaba a los límites de la capacidad instalada. Esto fue así porque:",
+              "o": [
+                "Por falta de una importante inversión privada, no había crecido sustancialmente.",
+                "La fuerte conflictividad social no podría ser satisfecha con una fácil redistribución, según la fórmula histórica del peronismo.",
+                "Pese al declamado liberalismo de los sectores propietarios, desde 1955 no habían disminuido ni los atributos del Estado ni su capacidad para definir las reglas del juego.",
+                "Por una falta de una importante inversión pública, no había crecido sustancialmente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-expansion-1973"
+            }
+          ]
+        },
+        {
+          "id": "t12",
+          "n": "Tema 12",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Patricio Gómez Talavera, el Estado representa a todos los ciudadanos de una sociedad.",
+              "o": [
+                "Es falso, porque el Estado es producto de elecciones libres y democráticas donde todos los ciudadanos poseen un voto.",
+                "Es verdadero, porque el Estado es el pueblo organizado y su función básica es atender todas las demandas sin hacer diferencias.",
+                "Es falso, porque siempre algunas parcialidades poseen el control del Estado.",
+                "Es verdadero, porque el Estado es producto de una relación de cooperación horizontal entre las personas."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-estado-totalidad"
+            },
+            {
+              "e": "2",
+              "p": "Según Max Povse en la ciencia política el concepto “régimen político” hace referencia al conjunto de reglamentaciones que determinan cómo se accede, y cómo se ejerce el poder.",
+              "o": [
+                "Es verdadero, porque es lo que regula cómo los miembros de la sociedad se convierten en líderes políticos, y qué limites tiene ese liderazgo.",
+                "Es verdadero, porque el régimen político es la forma académica de denominar a las leyes electorales.",
+                "Es falso, porque se entiende por “régimen político” solo a aquellos que son democracias.",
+                "Es falso, porque se entiende por “régimen político” solo a aquellos que son dictaduras."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimen"
+            },
+            {
+              "e": "3",
+              "p": "En la introducción de Herramientas para el análisis de la Sociedad y el Estado, se afirma que los conceptos son construcciones abstractas que sirven para describir o explicar situaciones y hechos sociales.",
+              "o": [
+                "Es falso, porque los conceptos son herramientas abstractas que no tienen ninguna relación con hechos concretos.",
+                "Es verdadero, porque los conceptos se elaboran a partir de elementos concretos que requieren alguna explicación o análisis.",
+                "Es falso, porque los conceptos son herramientas que parten de hechos sociales, y que sirven para describir o explicar cuestiones abstractas.",
+                "Es verdadero, porque los conceptos son construcciones ideológicas que parten de las teorías políticas clásicas."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-concepto"
+            },
+            {
+              "e": "4",
+              "p": "Según Florencia Deich, la existencia de un cambio presidencial sin ocasionar un cambio de régimen político es la diferencia principal entre la interrupción institucional y los golpes de Estado.",
+              "o": [
+                "Es verdadero, porque de ese modo no se cambian las reglas de acceso al poder que caracteriza a un régimen político.",
+                "Es falso, porque el cambio presidencial vulnera la elección mayoritaria de una sociedad y eso afecta el régimen político.",
+                "Es falso, porque el uso de la violencia política es la diferencia principal entre la interrupción institucional y los golpes de Estado.",
+                "Es verdadero, porque, exista o no exista cambio presidencial, todo intento de cambiar las reglas es un golpe de Estado."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-interrupcion-institucional"
+            },
+            {
+              "e": "5",
+              "p": "Según Laura Petrino, los líderes populistas se constituyen como una alternativa que busca cambiar el sistema político vigente.",
+              "o": [
+                "Es verdadero, porque intentan superar la “herencia recibida” con el desarrollo de planes de Gobierno muy consensuados.",
+                "Es verdadero, porque se enfrentan duramente a los actores tradicionales, a los que acusa por el estancamiento que sufre el país.",
+                "Es falso, porque en las democracias populistas se agota la capacidad de control de unas instituciones sobre otras, y se tensiona el Estado de Derecho.",
+                "Es falso, porque el populismo se relaciona con la conceptualización del Estado neoliberal desarrollada por Enrique García."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-petrino-lideres"
+            },
+            {
+              "e": "6",
+              "p": "En el artículo de Enrique García se afirma que el Estado liberal profundizó un proceso de secularización social.",
+              "o": [
+                "Es verdadero, porque la Iglesia dejó de tener el monopolio de la educación y la cultura.",
+                "Es falso, porque la secularización fue promovida por los Estados medievales previos al liberal.",
+                "Es verdadero, porque la Iglesia dejó de tener el monopolio de la vida económica y financiera.",
+                "Es falso, porque el liberalismo consolida la dependencia de los ciudadanos en cuestiones religiosas y sociales."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-secularizacion"
+            },
+            {
+              "e": "7",
+              "p": "Según Nadia Yannuzzi, una de las principales distinciones que se realizan para analizar las instituciones es entre las que se consideran “formales” y aquellas que se denominan “informales”.",
+              "o": [
+                "Es falso, porque hay un solo tipo de institucionalidad que es la ley y que todos deben obedecer y cumplir.",
+                "Es falso, porque hay un solo tipo de institucionalidad que es la democrática.",
+                "Es verdadero, porque las “instituciones informales”, están escritas y codificadas mientras que las “instituciones formales” no están entre las previstas por las leyes y la formalidad del Estado.",
+                "Es verdadero, porque las “instituciones formales”, están escritas y codificadas mientras que las “instituciones informales” no están entre las previstas por las leyes y la formalidad del Estado."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-instituciones-formales"
+            },
+            {
+              "e": "8",
+              "p": "Según señala Margarita Batlle, la poliarquía se caracteriza porque:",
+              "o": [
+                "Hay partidos diferentes con iguales posibilidades de llegar al poder.",
+                "Hay partidos diferentes que, a su vez, representen programas e ideas distintas.",
+                "Los partidos no son los protagonistas de la competencia y del ejercicio del poder en la poliarquía, sino los ciudadanos organizados.",
+                "Los partidos no son los protagonistas de la competencia y del ejercicio del poder en la poliarquía, sino los grupos corporativos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-poliarquia-competencia"
+            },
+            {
+              "e": "9",
+              "p": "Según Romero uno de los acontecimientos más importantes de la transición en Argentina fueron los ocurridos en la Semana Santa de 1987, cuando un levantamiento militar puso a prueba la estabilidad democrática. Eso fue así porque:",
+              "o": [
+                "Fue una sublevación de sectores militares que exigían el fin de los juicios contra los oficiales involucrados en la represión durante la dictadura militar que había terminado algunos años antes.",
+                "El levantamiento fue sofocado inmediatamente con una intervención militar ordenada por Alfonsín, sin necesidad de negociaciones.",
+                "Fue un intento de golpe de Estado exitoso que obligó a Raúl Alfonsín a renunciar antes de completar su mandato.",
+                "Fue un punto de inflexión en la relación entre el Gobierno y los militares, desembocando luego en la sanción de la Ley de Obediencia Debida.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D"
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-semana-santa"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, el peronismo encaró su campaña electoral en 1983 con mucho del viejo estilo. Por ello pagó altos costos. Esto se vio en que:",
+              "o": [
+                "Ante el inevitable triunfo de Alfonsín, los gobernadores peronistas apoyaron al radical para salvar el poder territorial que aún les quedaba.",
+                "En 1983 el peronismo fue dividido a la elección presidencial y por ello perdió contra sus rivales radicales.",
+                "Los peronistas hicieron la campaña electoral convocando a la liberación contra la dependencia y apelando a lo peor de su folclore político.",
+                "El candidato a presidente –Ítalo Luder– no disipó la desconfianza que el peronismo generaba en sectores importantes de la sociedad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-luder-1983"
+            },
+            {
+              "e": "11",
+              "p": "Según Romero, el día que Alfonsín asumió la presidencia, la multitud que se volcó a las calles sentía que, finalmente, la civilidad había alcanzado el poder. Sin embargo, era el comienzo de una etapa compleja porque:",
+              "o": [
+                "La campaña había puesto énfasis, sobre todo, en los graves problemas económicos que preocupaban a la mayor parte de la población.",
+                "Existía la convicción –alimentada por el candidato triunfante– de que el retorno a la democracia suponía la solución de todos los problemas.",
+                "No eran tantas las demandas que la sociedad acumulaba, lo que exigía respuestas muy concretas de parte del flamante Gobierno radical.",
+                "Pronto se puso de relieve la capacidad de resistencia de los enemigos que se creían vencidos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-civilidad-1983"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, en los años 70 Perón buscaba enfrentar a quienes lo derrocaron con la estrategia del \"bombero piromaníaco\". Es decir:",
+              "o": [
+                "Ante unos y otros, Perón se presentaba como quien podía canalizar la efervescencia social, si lograba para ello el poder necesario.",
+                "Perón –metafóricamente– agregaba combustible a la caldera hasta el límite de su estallido, y al mismo tiempo controlaba la válvula de escape.",
+                "Perón deseaba incendiar todo –metafóricamente– creando así la excusa para encaminar al país hacia un socialismo.",
+                "La metáfora del fuego servía para atraer a los jóvenes revolucionarios de Montoneros y la Juventud Peronista, y servirse de su espectacular crecimiento luego de 1973.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-bombero-piromaniaco"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, el Cordobazo como acción de masas solo puede compararse con la Semana Trágica o con el 17 de octubre. Esto se ve en que:",
+              "o": [
+                "Su valor simbólico fue enorme y, por ello, se hizo una lectura muy similar del evento desde el poder y desde las estructuras sindicales o políticas existentes.",
+                "Su valor simbólico fue enorme para los inmigrantes, actores centrales de las protestas, en su búsqueda de inserción sindical.",
+                "Su valor simbólico fue enorme para quienes se identificaban con la movilización popular y extraían valiosas enseñanzas de la jornada.",
+                "Su valor simbólico fue enorme, aunque se interpretó de manera diversa desde el poder, las estructuras sindicales o políticas existentes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-cordobazo-simbolo"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, con la represión en la última dictadura surgieron en el propio Ejército verdaderos señores de la guerra, que casi no reconocían ninguna autoridad sobre sí.",
+              "o": [
+                "En torno a la Marina, en especial con el Almirante Massera, se constituyó la facción interna más fuerte, pero que distaba de ser dominante.",
+                "Las tendencias centrífugas y la anarquía se derivaban de la escrupulosa división del poder entre las tres fuerzas, al punto de no existir una instancia superior a ellas que dirimiera los conflictos.",
+                "Las tendencias centrífugas y la anarquía se derivaban de la escrupulosa división del poder entre las tres fuerzas, al punto de existir solo una instancia superior a ellas que dirimiera los conflictos, pero estaba en el Vaticano.",
+                "En torno a los generales Videla y Viola se constituyó la facción más débil, pero que podía dialogar e intermediar con las demás.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-senores-guerra"
+            },
+            {
+              "e": "15",
+              "p": "El video sobre la Transición a la Democracia (que se dedica al caso de Sudáfrica) se refiere a la Comisión de Verdad y Reconciliación, y se la diferencia de otras comisiones semejantes en América Latina y África. ¿Cuáles son estas diferencias?",
+              "o": [
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, basada en el principio de satisfacción mutua.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a las organizaciones no gubernamentales.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a los distintos partidos políticos como organismos de representación social.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios, dando un papel preponderante a la Iglesia Católica como herramienta de reconciliación común.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-sudafrica-restaurativa"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, el impulso civil y democrático que representaba el entonces presidente Raúl Alfonsín había experimentado un temprano y fuerte contraste ante el poder sindical reconstituido. Esto se vio en que:",
+              "o": [
+                "La CGT no rehusó participar en las instancias de concertación que abrió el Gobierno, pero lo hizo con el estilo que había desplegado exitosamente entre 1955 y 1973: negociar y golpear.",
+                "El secretario general de la CGT, Hugo Moyano, proveniente de un sindicato clave en el entramado económico del país, fue la figura característica de esta etapa.",
+                "El Gobierno de Alfonsín prefirió enfrentar a los sindicatos y nunca abrió espacios para el diálogo y la concertación con sus representantes.",
+                "Los sindicalistas de la CGT no lograron expresar de manera unificada el descontento social y se enfrentaron también con los empresarios, la Iglesia y los grupos de izquierda.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-cgt-alfonsin"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, hacia 1973, la expansión económica en Argentina ya se acercaba a los límites de la capacidad instalada. Esto fue así porque:",
+              "o": [
+                "Por falta de una importante inversión privada, no había crecido sustancialmente.",
+                "Por falta de una importante inversión pública, no había crecido sustancialmente.",
+                "Pese al declamado liberalismo de los sectores propietarios, desde 1955 no habían disminuido ni los atributos del Estado ni su capacidad para definir las reglas del juego.",
+                "La fuerte conflictividad social no podría ser satisfecha con una fácil redistribución, según la fórmula histórica del peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-expansion-1973"
+            },
+            {
+              "e": "18",
+              "p": "El video sobre Transición a la Democracia afirma que las transiciones en conflictos armados no internacionales pueden darse incluso cuando el conflicto aún no ha finalizado. Esto es así porque:",
+              "o": [
+                "En los casos de El Salvador y Filipinas hubo transiciones políticas mientras los conflictos armados seguían activos.",
+                "En el caso de Colombia, los Gobiernos democráticos han tenido que negociar con grupos armados activos.",
+                "La transición solo puede ocurrir después de que un conflicto armado haya terminado por completo.",
+                "Los conflictos armados internos siempre terminan antes de que haya una transición política.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la A.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 1,
+              "k": "icse-p1-transiciones-conflictos"
+            }
+          ]
+        },
+        {
+          "id": "t13",
+          "n": "Tema 13",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff sobre la figura de Raúl Alfonsín, Gerchunoff señala que resultó fundamental el decreto del gobierno radical por el que permitió al Consejo Supremo de las Fuerzas Armadas juzgar a las juntas militares.",
+              "o": [
+                "Es falso, porque hubo un solo juicio a las juntas militares y no fue el del Consejo Supremo de las Fuerzas Armadas.",
+                "Es verdadero, porque el decreto mencionado por el entrevistado les permitió a los militares ser absueltos en primera instancia y por ello acceder luego al indulto posterior que el mismo Alfonsín se viera obligado a dictar.",
+                "Es verdadero, porque si Alfonsín no hubiera firmado el decreto que enviaba a las juntas militares a ser juzgados primero por sus propios pares, no hubiera existido el famoso juicio posterior.",
+                "Es falso, porque los militares argentinos recién comenzaron a ser juzgados durante el gobierno del Néstor Kirchner en 2003."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-juicio-decreto"
+            },
+            {
+              "e": "2",
+              "p": "Según Verónica Beyreuther existen varias definiciones del concepto de “dictadura” que, en general, coinciden en que es un subtipo del régimen político autoritario.",
+              "o": [
+                "Es falso, porque es un subtipo del régimen político socialista.",
+                "Es verdadero, porque en una dictadura una o varias personas asumen sin límite alguno el control del Estado de un país.",
+                "Es verdadero, porque en una dictadura los tres poderes deberían interactuar y controlarse mutuamente.",
+                "Es falso, porque es un subtipo del régimen político neoliberal."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-dictadura-definicion"
+            },
+            {
+              "e": "3",
+              "p": "Según lo planteado por Patricio Gómez Talavera, el filósofo británico Thomas Hobbes (1588-1679) sostenía que el Estado surgió a través de un acuerdo efectuado entre todos los habitantes de un territorio con el fin de controlar la guerra.",
+              "o": [
+                "Es verdadero, porque el Estado debe limitarse a la protección de la vida, y no es de su incumbencia lo referido a los bienes materiales.",
+                "Es falso, porque la aparición del Estado implicó que haya más guerras, lo que aceleró la destrucción descontrolada y la disgregación social.",
+                "Es falso, porque el Estado es previo a la sociedad y, de hecho, la crea y la organiza.",
+                "Es verdadero porque la aparición del Estado busca poner freno a la destrucción descontrolada y la disgregación social."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-hobbes"
+            },
+            {
+              "e": "4",
+              "p": "En el artículo de Enrique García se afirma que el Estado liberal profundizó un proceso de secularización social.",
+              "o": [
+                "Es verdadero, porque la Iglesia dejó de tener el monopolio de la educación y la cultura.",
+                "Es falso, porque la secularización fue promovida por los Estados medievales previos al liberal.",
+                "Es verdadero, porque la Iglesia dejó de tener el monopolio de la vida económica y financiera.",
+                "Es falso, porque el liberalismo consolida la dependencia de los ciudadanos en cuestiones religiosas y sociales"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-secularizacion"
+            },
+            {
+              "e": "5",
+              "p": "Según Florencia Deich, la existencia de un cambio presidencial sin ocasionar un cambio de régimen político, es la diferencia principal entre la interrupción institucional y los golpes de Estado.",
+              "o": [
+                "Es verdadero, porque de ese modo no se cambian las reglas de acceso al poder que caracteriza a un régimen político.",
+                "Es falso, porque el cambio presidencial vulnera la elección mayoritaria de una sociedad y eso afecta el régimen político.",
+                "Es falso, porque el uso de la violencia política es la diferencia principal entre la interrupción institucional y los golpes de Estado.",
+                "Es verdadero, porque, exista o no exista cambio presidencial, todo intento de cambiar las reglas es un golpe de Estado."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-interrupcion-institucional"
+            },
+            {
+              "e": "6",
+              "p": "Según Laura Petrino, los líderes populistas se constituyen como una alternativa que busca cambiar el sistema político vigente.",
+              "o": [
+                "Es verdadero, porque intentan superar la “herencia recibida” con el desarrollo de planes de Gobierno muy consensuados.",
+                "Es verdadero, porque se enfrentan duramente a los actores tradicionales, a los que acusa por el estancamiento que sufre el país.",
+                "Es falso, porque en las democracias populistas solo se acentúa la capacidad de control de unas instituciones sobre otras.",
+                "Es falso, porque el populismo se relaciona con la conceptualización del Estado neoliberal desarrollada por Enrique García."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-petrino-lideres"
+            },
+            {
+              "e": "7",
+              "p": "Según Romero, la primera cuestión oscura que abría el llamado “Proceso de Reorganización nacional”, comenzado en marzo de 1976, era dónde residía realmente el poder.",
+              "o": [
+                "Es falso, porque el poder residía en la Junta de comandantes que centralizaba las funciones de ejecutivas, legislativas y judiciales.",
+                "Es verdadero, porque supuso la coexistencia de un Estado terrorista clandestino, encargado de la represión, y otro visible, sujeto a normas, establecidas por las propias autoridades militares.",
+                "Es verdadero, porque el “Proceso de reorganización nacional” supuso la existencia de un Estado terrorista, visible y público, encargado tanto de la represión como de las políticas económicas.",
+                "Es falso, porque la tradición política del país era fuertemente presidencialista, y además la unidad de mando fue siempre uno de los principios de las Fuerzas Armadas, por eso la autoridad del presidente nunca fue discutida ni revisada por sus pares militares."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-proceso-poder"
+            },
+            {
+              "e": "8",
+              "p": "Según señala Max Povse entre los subtipos de régimen político menos abstractos se encuentran diversos conceptos, entre ellos:",
+              "o": [
+                "La poliarquía.",
+                "La aristocracia",
+                "La democracia delegativa.",
+                "El populismo.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-subtipos-regimen"
+            },
+            {
+              "e": "9",
+              "p": "Graciela Etchevest afirma que el terrorismo de Estado es un tipo especial de terrorismo ya que su protagonista no es un grupo extremista ni personas que buscan imponer una religión o idea por la fuerza. El terrorista, en este caso, es el Estado. Esto implica que:",
+              "o": [
+                "Las acciones terroristas pueden ser fruto de un error o de un acto de locura momentánea de algún agente público.",
+                "El Estado, al violar las leyes (que debería cumplir e implementar), refuerza su propia existencia.",
+                "Las acciones terroristas son producto de un plan sistemático y planificado desde las máximas autoridades públicas.",
+                "Se genere una situación muy delicada ya que produce la convivencia de un Estado formal y otro “clandestino”.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-terror-estatal"
+            },
+            {
+              "e": "10",
+              "p": "Romero relata que la ley del divorcio de 1987 se aprobó durante el gobierno del radical Raúl Alfonsín luego de una breve, pero muy intensa discusión. Esta intensidad estuvo relacionada con que:",
+              "o": [
+                "Los sectores más tradicionales del partido radical intentaron oponerse bloqueando su tratamiento en el congreso.",
+                "Fue el momento en que se formalizó la ruptura de relaciones diplomáticas entre Argentina y el Vaticano.",
+                "Los sectores tradicionales de la Iglesia católica se opusieron apelando a mecanismos habituales de presión y a otros más novedosos.",
+                "Fue el punto culminante de la modernización cultural iniciada en 1983.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-divorcio-87"
+            },
+            {
+              "e": "11",
+              "p": "En marzo de 1981, debía asumir el nuevo presidente, Gral. Roberto Viola. Alfredo Martínez de Hoz dejaría el Ministerio de Economía, y con él cesaría la vigencia de la llamada “tablita”, lo que fue anticipado por una masiva emigración de dólares. Según Romero, esto ocasionó que:",
+              "o": [
+                "El Estado se hiciera cargo de la deuda externa de las empresas, aumentando su propio endeudamiento.",
+                "El peso fue devaluado en un 400%, mientras que la inflación recrudecida llegaba al 100% anual.",
+                "Finalmente el gobierno tuvo que aceptar y reforzar la paridad cambiaria sostenida desde 1976.",
+                "La devaluación resultante solo fuera beneficiosa para las empresas endeudadas en dólares.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-fin-tablita"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, el Programa de Reconstrucción y Liberación Nacional (presentado por Perón en 1973, durante su tercera presidencia), consistía en un intento por superar las limitaciones al crecimiento de una economía cuyos rasgos básicos no se pensaba modificar. Esto se vio en que:",
+              "o": [
+                "Había en ese programa una clara una orientación hacia el \"socialismo nacional\".",
+                "El Estado se propuso una gran reducción de gastos, especialmente en el número de empleados públicos y empresas del Estado para reducir el déficit creciente.",
+                "No había en ese programa nada que indicara un intento de buscar nuevos rumbos al desarrollo del capitalismo.",
+                "Sus objetivos no implicaban un ataque directo a ninguno de los intereses establecidos.",
+                "Las opciones correctas son la A, y B.",
+                "Las opciones correctas son la B, y C.",
+                "Las opciones correctas son la B y D.",
+                "Las opciones correctas son la C y D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-reconstruccion-capitalismo"
+            },
+            {
+              "e": "13",
+              "p": "Nicolás Simone afirma que los estudios sobre las transiciones fueron impulsados por expertos en Ciencias Sociales para analizar procesos de los que eran testigos y mejorar la calidad de las democracias que entonces nacían. Pero, ¿a qué democracia se referían esos especialistas?",
+              "o": [
+                "A una democracia entendida como un sistema de reglas en el que los ciudadanos se expresan libremente y eligen a sus gobernantes.",
+                "A una democracia que se limita a todo aquello que no puede dejar de tener, es decir, una versión mínima.",
+                "A una democracia sustantiva, es decir, que respondía a todas las demandas sociales, sobre todo, a las de los sectores más populares.",
+                "A una democracia entendida como una versión maximalista, es decir, relacionada con la lucha de clases y los avances socialistas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-simone-minima"
+            },
+            {
+              "e": "14",
+              "p": "Romero afirma que, entre 1975 y principios de 1976, diversos factores fueron creando las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Entre ellos se puede mencionar:",
+              "o": [
+                "La muerte presente cotidianamente, la acción espectacular de las organizaciones guerrilleras -que habían fracasado en dos grandes operativos contra unidades militares en el Gran Buenos Aires y en Formosa-.",
+                "El terror sembrado por la Alianza Anticomunista Argentina (Triple A).",
+                "La presencia constante y pública en el país del Partido Comunista soviético a través de financiamiento, propaganda y una nutrida militancia que hacían suponer la pronta apertura de un frente revolucionario.",
+                "El terror sembrado por diversas bandas del crimen organizado, la mayoría de ellas vinculadas al narcotráfico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-condiciones-golpe"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, hacia 1973, la expansión económica en Argentina ya se acercaba a los límites de la capacidad instalada. Esto fue así porque:",
+              "o": [
+                "La inversión privada no había crecido sustancialmente",
+                "La inversión pública no había crecido sustancialmente.",
+                "Pese al declamado liberalismo de los sectores propietarios, desde 1955 no habían disminuido ni los atributos del Estado ni su capacidad para definir las reglas del juego.",
+                "La fuerte conflictividad social no podría ser satisfecha con una fácil redistribución, según la fórmula histórica del peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-expansion-1973"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, el impulso civil y democrático que representaba el entonces presidente Raúl Alfonsín, había experimentado un temprano y fuerte contraste ante el poder sindical reconstituido. Esto se vio en que:",
+              "o": [
+                "Los sindicalistas de la CGT no lograron expresar de manera unificada el descontento social y se enfrentaron también con los empresarios, la Iglesia y los grupos de izquierda.",
+                "El secretario general de la CGT, Hugo Moyano, proveniente de un sindicato clave en el entramado económico del país, fue la figura característica de esta etapa.",
+                "El Gobierno de Alfonsín prefirió enfrentar a los sindicatos y nunca abrió espacios para el diálogo y la concertación con sus representantes.",
+                "La CGT no rehusó participar en las instancias de concertación que abrió el Gobierno, pero lo hizo con el estilo que había desplegado exitosamente entre 1955 y 1973: negociar y golpear.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-cgt-alfonsin"
+            },
+            {
+              "e": "17",
+              "p": "En el video sobre la Transición a la Democracia dedicado a Sudáfrica se refiere a la Comisión de Verdad y Reconciliación y se la diferencia de otras comisiones en América Latina y África porque adoptó un enfoque relacionado con la justicia restaurativa. Por eso:",
+              "o": [
+                "Impulsó las bases del reencuentro entre víctimas y victimarios otorgando un papel preponderante a la universidad pública.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios sirviendo de catarsis colectiva.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios sirviendo para combatir la ignorancia sobre lo sucedido.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios basada en el principio de aplicación irrestricta de la justicia penal imitando el proceso argentino que finalizó con la cárcel a los culpables de las violaciones de los derechos humanos luego de un largo juicio.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 5,
+              "pts": 1,
+              "k": "icse-p1-sudafrica-restaurativa"
+            },
+            {
+              "e": "18",
+              "p": "Según Romero, a mediados de 1982, los militares debían enfrentarse con la evidencia de su fracaso como administradores de un país desquiciado y como conductores de una guerra absurda. Esto fue así porque:",
+              "o": [
+                "Debían contemplar a sus antiguos aliados –los empresarios, la Iglesia, Estados Unidos– ganados por la nueva fe democrática.",
+                "Los Montoneros habían sobrevivo sin mayores daños en su estructura política, financiera e incluso, en la armada.",
+                "La Junta militar se dio cuenta que el triunfo del peronismo era inevitable, como efectivamente ocurrió en 1983.",
+                "Debían contemplar a sus antiguos aliados, como los otrora disciplinados jueces, llevando a juicio a oficiales acusados de corrupción.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-militares-1982"
+            }
+          ]
+        },
+        {
+          "id": "t14",
+          "n": "Tema 14",
+          "fuente": "icse-parciales-2025.html",
+          "aviso": "Clave del cuestionario HTML; explicaciones de estudio elaboradas o reutilizadas del material de 2026.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Romero, la primera cuestión oscura que abría el llamado “Proceso de Reorganización nacional”, comenzado en marzo de 1976, era dónde residía realmente el poder.",
+              "o": [
+                "Es falso, porque el poder residía en la Junta de comandantes que centralizaba las funciones de ejecutivas, legislativas y judiciales.",
+                "Es verdadero, porque supuso la coexistencia de un Estado terrorista clandestino, encargado de la represión, y otro visible, sujeto a normas, establecidas por las propias autoridades militares.",
+                "Es verdadero, porque el “Proceso de reorganización nacional” supuso la existencia de un Estado terrorista, visible y público, encargado tanto de la represión como de las políticas económicas.",
+                "Es falso, porque la tradición política del país era fuertemente presidencialista, y además la unidad de mando fue siempre uno de los principios de las Fuerzas Armadas, por eso la autoridad del presidente nunca fue discutida ni revisada por sus pares militares."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-proceso-poder"
+            },
+            {
+              "e": "2",
+              "p": "Según lo planteado por Patricio Gómez Talavera, el filósofo británico Thomas Hobbes (1588-1679) sostenía que el Estado surgió a través de un acuerdo efectuado entre todos los habitantes de un territorio con el fin de controlar la guerra.",
+              "o": [
+                "Es verdadero, porque el Estado debe limitarse a la protección de la vida, y no es de su incumbencia lo referido a los bienes materiales.",
+                "Es falso, porque la aparición del Estado implicó que haya más guerras, lo que aceleró la destrucción descontrolada y la disgregación social.",
+                "Es falso, porque el Estado es previo a la sociedad y, de hecho, la crea y la organiza.",
+                "Es verdadero porque la aparición del Estado busca poner freno a la destrucción descontrolada y la disgregación social."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-hobbes"
+            },
+            {
+              "e": "3",
+              "p": "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff sobre la figura de Raúl Alfonsín, Gerchunoff señala que resultó fundamental el decreto del gobierno radical por el que permitió al Consejo Supremo de las Fuerzas Armadas, juzgar a las juntas militares.",
+              "o": [
+                "Es falso, porque hubo un solo juicio a las juntas militares y no fue el del Consejo Supremo de las Fuerzas Armadas.",
+                "Es verdadero, porque el decreto mencionado por el entrevistado les permitió a los militares ser absueltos en primera instancia y por ello acceder luego al indulto posterior que el mismo Alfonsín se viera obligado a dictar.",
+                "Es verdadero, porque si Alfonsín no hubiera firmado el decreto que enviaba a las juntas militares a ser juzgados primero por sus propios pares, no hubiera existido el famoso juicio posterior.",
+                "Es falso, porque los militares argentinos recién comenzaron a ser juzgados durante el gobierno del Néstor Kirchner en 2003."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-juicio-decreto"
+            },
+            {
+              "e": "4",
+              "p": "Según Florencia Deich, la existencia de un cambio presidencial sin ocasionar un cambio de régimen político, es la diferencia principal entre la interrupción institucional y los golpes de Estado.",
+              "o": [
+                "Es verdadero, porque de ese modo no se cambian las reglas de acceso al poder que caracteriza a un régimen político.",
+                "Es falso, porque el cambio presidencial vulnera la elección mayoritaria de una sociedad y eso afecta el régimen político.",
+                "Es falso, porque el uso de la violencia política es la diferencia principal entre la interrupción institucional y los golpes de Estado.",
+                "Es verdadero, porque, exista o no exista cambio presidencial, todo intento de cambiar las reglas es un golpe de Estado."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-interrupcion-institucional"
+            },
+            {
+              "e": "5",
+              "p": "Según Laura Petrino, los líderes populistas se constituyen como una alternativa que busca cambiar el sistema político vigente.",
+              "o": [
+                "Es verdadero, porque intentan superar la “herencia recibida” con el desarrollo de planes de Gobierno muy consensuados.",
+                "Es verdadero, porque se enfrentan duramente a los actores tradicionales, a los que acusa por el estancamiento que sufre el país.",
+                "Es falso, porque en las democracias populistas solo se acentúa la capacidad de control de unas instituciones sobre otras.",
+                "Es falso, porque el populismo se relaciona con la conceptualización del Estado neoliberal desarrollada por Enrique García."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-petrino-lideres"
+            },
+            {
+              "e": "6",
+              "p": "En el artículo de Enrique García se afirma que el Estado liberal profundizó un proceso de secularización social.",
+              "o": [
+                "Es verdadero, porque la Iglesia dejó de tener el monopolio de la educación y la cultura.",
+                "Es falso, porque la secularización fue promovida por los Estados medievales previos al liberal.",
+                "Es verdadero, porque la Iglesia dejó de tener el monopolio de la vida económica y financiera.",
+                "Es falso, porque el liberalismo consolida la dependencia de los ciudadanos en cuestiones religiosas y sociales"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-secularizacion"
+            },
+            {
+              "e": "7",
+              "p": "Según Verónica Beyreuther existen varias definiciones del concepto de “dictadura” que, en general, coinciden en que es un subtipo del régimen político autoritario.",
+              "o": [
+                "Es falso, porque es un subtipo del régimen político socialista.",
+                "Es verdadero, porque en una dictadura una o varias personas asumen sin límite alguno el control del Estado de un país.",
+                "Es verdadero, porque en una dictadura los tres poderes deberían interactuar y controlarse mutuamente.",
+                "Es falso, porque es un subtipo del régimen político neoliberal."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-dictadura-definicion"
+            },
+            {
+              "e": "8",
+              "p": "Según Romero, hacia 1973, la expansión económica en Argentina ya se acercaba a los límites de la capacidad instalada. Esto fue así porque:",
+              "o": [
+                "La inversión pública no había crecido sustancialmente.",
+                "La inversión privada no había crecido sustancialmente.",
+                "Debido al declamado socialismo de los sectores propietarios y empresarios nacionales, desde 1975 habían crecido los atributos del Estado y su capacidad para definir las reglas del juego.",
+                "La fuerte conflictividad social no podría ser satisfecha con una fácil redistribución, según la fórmula histórica del peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-expansion-1973"
+            },
+            {
+              "e": "9",
+              "p": "Romero afirma que, entre 1975 y principios de 1976, diversos factores fueron creando las condiciones para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal de la fuerza. Entre ellos se puede mencionar:",
+              "o": [
+                "La muerte presente cotidianamente, la acción espectacular de las organizaciones guerrilleras -que habían fracasado en dos grandes operativos contra unidades militares en el Gran Buenos Aires y en Formosa-.",
+                "La presencia constante y pública en el país del Partido Comunista soviético a través de financiamiento, propaganda y una nutrida militancia que hacían suponer la pronta apertura de un frente revolucionario.",
+                "El terror sembrado por la Alianza Anticomunista Argentina (Triple A).",
+                "El terror sembrado por diversas bandas del crimen organizado, la mayoría de ellas vinculadas al narcotráfico.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-condiciones-golpe"
+            },
+            {
+              "e": "10",
+              "p": "En marzo de 1981, debía asumir el nuevo presidente, Gral. Roberto Viola. Alfredo Martínez de Hoz dejaría el Ministerio de Economía, y con él cesaría la vigencia de la llamada “tablita”, lo que fue anticipado por una masiva emigración de dólares. Según Romero, esto ocasionó que:",
+              "o": [
+                "El Estado se hiciera cargo de la deuda externa de las empresas, aumentando su propio endeudamiento.",
+                "Finalmente el gobierno tuviera que aceptar y reforzar la paridad cambiaria sostenida desde 1976.",
+                "El peso fue devaluado en un 400%, mientras que la inflación recrudecida llegaba al 100% anual.",
+                "La devaluación resultante solo fuera beneficiosa para las empresas endeudadas en dólares.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-fin-tablita"
+            },
+            {
+              "e": "11",
+              "p": "Nicolás Simone afirma que los estudios sobre las transiciones fueron impulsados por expertos en Ciencias Sociales para analizar procesos de los que eran testigos y mejorar la calidad de las democracias que entonces nacían. Pero, ¿a qué democracia se referían esos especialistas?",
+              "o": [
+                "A una democracia sustantiva, es decir, que respondía a todas las demandas sociales, sobre todo, a las de los sectores más populares.",
+                "A una democracia que se limita a todo aquello que no puede dejar de tener, es decir, una versión mínima.",
+                "A una democracia entendida como un sistema de reglas en el que los ciudadanos se expresan libremente y eligen a sus gobernantes.",
+                "A una democracia entendida como una versión maximalista, es decir, relacionada con la lucha de clases y los avances socialistas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-simone-minima",
+              "claveOriginal": "E",
+              "d": "Corrección de la clave del HTML: se usa G (B y C), que reúne democracia procedimental y mínima. El original marcaba E (A y B), incluyendo una democracia sustantiva y contradiciendo las versiones de esta misma pregunta en los temas 9, 10 y 13."
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, el impulso civil y democrático que representaba el entonces presidente Raúl Alfonsín, había experimentado un temprano y fuerte contraste ante el poder sindical reconstituido. Esto se vio en que:",
+              "o": [
+                "La CGT no rehusó participar en las instancias de concertación que abrió el Gobierno, pero lo hizo con el estilo que había desplegado exitosamente entre 1955 y 1973: negociar y golpear.",
+                "El secretario general de la CGT, Hugo Moyano, proveniente de un sindicato clave en el entramado económico del país, fue la figura característica de esta etapa.",
+                "El Gobierno de Alfonsín prefirió enfrentar a los sindicatos y nunca abrió espacios para el diálogo y la concertación con sus representantes.",
+                "Los sindicalistas de la CGT no lograron expresar de manera unificada el descontento social y se enfrentaron también con los empresarios, la Iglesia y los grupos de izquierda.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B, la C y la D."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-cgt-alfonsin"
+            },
+            {
+              "e": "13",
+              "p": "Romero relata que la ley del divorcio de 1987 se aprobó durante el gobierno del radical Raúl Alfonsín luego de una breve, pero muy intensa discusión. Esta intensidad estuvo relacionada con que:",
+              "o": [
+                "Los sectores más tradicionales del partido radical intentaron oponerse bloqueando su tratamiento en el congreso.",
+                "Fue el momento en que se formalizó la ruptura de relaciones diplomáticas entre Argentina y el Vaticano.",
+                "Los sectores tradicionales de la Iglesia católica se opusieron apelando a mecanismos habituales de presión y a otros más novedosos.",
+                "Fue el punto culminante de la modernización cultural iniciada en 1983.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-divorcio-87"
+            },
+            {
+              "e": "14",
+              "p": "Graciela Etchevest afirma que el terrorismo de Estado es un tipo especial de terrorismo ya que su protagonista no es un grupo extremista ni personas que buscan imponer una religión o idea por la fuerza. El terrorista, en este caso, es el Estado. Esto implica que:",
+              "o": [
+                "Las acciones terroristas pueden ser fruto de un error o de un acto de locura momentánea de algún agente público.",
+                "El Estado, al violar las leyes (que debería cumplir e implementar), refuerza su propia existencia.",
+                "Las acciones terroristas son producto de un plan sistemático y planificado desde las máximas autoridades públicas.",
+                "Se genere una situación muy delicada ya que produce la convivencia de un Estado formal y otro “clandestino”.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-terror-estatal"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, el Programa de Reconstrucción y Liberación Nacional (presentado por Perón en 1973, durante su tercera presidencia), consistía en un intento por superar las limitaciones al crecimiento de una economía cuyos rasgos básicos no se pensaba modificar. Esto se vio en que:",
+              "o": [
+                "Había en ese programa una clara una orientación hacia el \"socialismo nacional\".",
+                "El Estado se propuso una gran reducción de gastos, especialmente en el número de empleados públicos y empresas del Estado para reducir el déficit creciente.",
+                "No había en ese programa nada que indicara un intento de buscar nuevos rumbos al desarrollo del capitalismo.",
+                "Sus objetivos no implicaban un ataque directo a ninguno de los intereses establecidos.",
+                "Las opciones correctas son la A, y B.",
+                "Las opciones correctas son la B, y C.",
+                "Las opciones correctas son la B y D.",
+                "Las opciones correctas son la C y D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-reconstruccion-capitalismo"
+            },
+            {
+              "e": "16",
+              "p": "Según señala Max Povse entre los subtipos de régimen político menos abstractos se encuentran diversos conceptos, entre ellos:",
+              "o": [
+                "La poliarquía.",
+                "La aristocracia",
+                "El populismo.",
+                "La democracia delegativa.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-subtipos-regimen"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, a mediados de 1982, los militares debían enfrentarse con la evidencia de su fracaso como administradores de un país desquiciado y como conductores de una guerra absurda. Esto fue así porque:",
+              "o": [
+                "Debían contemplar a sus antiguos aliados –los empresarios, la Iglesia, Estados Unidos– ganados por la nueva fe democrática.",
+                "Los Montoneros habían sobrevivido sin mayores daños en su estructura política, financiera e incluso, en la armada.",
+                "La Junta militar se dio cuenta que el triunfo del peronismo era inevitable, como efectivamente ocurrió en 1983.",
+                "Debían contemplar a sus antiguos aliados, como los otrora disciplinados jueces, llevando a juicio a oficiales acusados de corrupción.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-militares-1982"
+            },
+            {
+              "e": "18",
+              "p": "En el video sobre la Transición a la Democracia dedicado a Sudáfrica se refiere a la Comisión de Verdad y Reconciliación y se la diferencia de otras comisiones en América Latina y África porque adoptó un enfoque relacionado con la justicia restaurativa. Por eso:",
+              "o": [
+                "Impulsó las bases del reencuentro entre víctimas y victimarios otorgando un papel preponderante a la comunidad.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios sirviendo de catarsis colectiva.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios sirviendo para combatir la ignorancia sobre lo sucedido.",
+                "Impulsó las bases del reencuentro entre víctimas y victimarios basada en el principio de aplicación irrestricta de la justicia penal imitando el proceso argentino que finalizó con la cárcel a los culpables de las violaciones de los derechos humanos luego de un largo juicio.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-sudafrica-restaurativa"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "pedrosa-2025-10-31-p2",
       "nombre": "2º parcial · 31/10/2025",
@@ -356,7 +11993,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la B y la C."
               ],
               "c": 0,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-ddhh-internacionalizacion"
             },
             {
@@ -373,7 +12010,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la C y la D"
               ],
               "c": 4,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-servicios-provincias"
             }
           ],
@@ -651,7 +12288,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la C y la D."
               ],
               "c": 6,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-servicios-provincias"
             },
             {
@@ -668,7 +12305,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la B y la C"
               ],
               "c": 0,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-ddhh-internacionalizacion"
             }
           ],
@@ -947,7 +12584,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la B y la D."
               ],
               "c": 7,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-iglesias-agenda"
             },
             {
@@ -964,7 +12601,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la C y la D"
               ],
               "c": 4,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-han-hipercomunicacion"
             }
           ],
@@ -1246,7 +12883,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la C y la D."
               ],
               "c": 5,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-han-hipercomunicacion"
             },
             {
@@ -1263,7 +12900,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la B y la D"
               ],
               "c": 6,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-iglesias-agenda"
             }
           ],
@@ -1544,7 +13181,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la C y la D."
               ],
               "c": 6,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-ddhh-exterior"
             },
             {
@@ -1561,7 +13198,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la B y la D"
               ],
               "c": 5,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-sorteo-contras"
             }
           ],
@@ -1842,7 +13479,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la B y la D."
               ],
               "c": 4,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-sorteo-contras"
             },
             {
@@ -1859,7 +13496,7 @@ registrarMateria({
                 "Las opciones correctas son la B, la C y la D"
               ],
               "c": 6,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-ddhh-exterior"
             }
           ],
@@ -2141,7 +13778,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la B y la D."
               ],
               "c": 6,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-woke-nombres"
             },
             {
@@ -2158,7 +13795,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la C y la D"
               ],
               "c": 7,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-pandemia-infoesfera"
             }
           ],
@@ -2441,7 +14078,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la C y la D."
               ],
               "c": 6,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-pandemia-infoesfera"
             },
             {
@@ -2458,7 +14095,7 @@ registrarMateria({
                 "Las opciones correctas son la A, la B y la D"
               ],
               "c": 6,
-              "pts": 1.0,
+              "pts": 1,
               "k": "icse-woke-nombres"
             }
           ],
@@ -2939,7 +14576,8 @@ registrarMateria({
           ],
           "aviso": "Respuestas según la grilla del documento. Explicaciones elaboradas para el estudio. Las preguntas 15 y 16 valen 1,50 puntos cada una, como indican sus enunciados, para completar 10. El encabezado del PDF dice 1 punto y contradice ese detalle."
         }
-      ]
+      ],
+      "parcial": 2
     }
   ]
 });

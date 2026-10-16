@@ -107,6 +107,7 @@ h1{font-family:var(--serif);font-weight:600;font-size:1.42rem;line-height:1.22;m
 .ctx[open] summary .chev{transform:rotate(90deg)}
 .ctx p{margin:0 0 11px;font-family:var(--serif);font-size:.95rem;line-height:1.45;color:var(--ink)}
 .enun{font-family:var(--serif);font-size:1.05rem;line-height:1.45;margin:0 0 14px}
+.enun,.op .t,.porque .exp>span{white-space:pre-line}
 .ayuda{color:var(--ink-soft);font-size:.8rem;margin:-6px 0 12px}
 .parte{margin:0 0 14px}
 .parte:last-of-type{margin-bottom:0}
@@ -281,7 +282,8 @@ footer p{margin:0 0 6px}
 
    Pantallas (en la dirección, después del #):
      #/                         lista de materias
-     #/filosofia                exámenes y temas de la materia
+     #/ipc                      selección de parcial (si hay más de uno)
+     #/ipc/parcial/1            exámenes y temas del primer parcial
      #/filosofia/<examen>/<tema>/<n>   ejercicio n (o "fin" = resultado)
 
    Todo el texto que viene de los parciales se inserta con
@@ -348,7 +350,8 @@ function respuestas(t){
   return r;
 }
 const completa = (q, r) => r !== null && (!q.partes || r.every(x => x !== null));
-const correcta = (q, r) => completa(q, r) && (q.partes ? q.partes.every((p, j) => r[j] === p.c) : r === q.c);
+const indiceCorrecto = (b, i) => (b.aceptadas || [b.c]).includes(i);
+const correcta = (q, r) => completa(q, r) && (q.partes ? q.partes.every((p, j) => indiceCorrecto(p, r[j])) : indiceCorrecto(q, r));
 function resumen(t){
   const r = respuestas(t);
   let hechas = 0, bien = 0, puntos = 0, total = 0;
@@ -363,6 +366,11 @@ const ptsTxt = p => num(p) + (p === 1 ? " punto" : " puntos");
 const etiqueta = (q, i) => q.e || String(i + 1);
 const etiquetaOpcion = (q, b, i) => b.formato === "texto" ? b.o[i]
   : (b.formato || q.formato) === "numeros" ? String(i + 1) : L[i];
+const etiquetaCorrectas = (q, b) => (b.aceptadas || [b.c]).map(i => etiquetaOpcion(q, b, i)).join(" o ");
+const parcialDe = ex => ex.parcial || 2;
+const parcialesDe = m => [...new Set(m.examenes.map(parcialDe))].sort();
+const rotuloParcial = n => n === 1 ? "1er parcial" : "2do parcial";
+const rutaListado = (m, ex) => "#/" + m.id + (parcialesDe(m).length > 1 ? "/parcial/" + parcialDe(ex) : "");
 
 /* ---------- utilidades de DOM ---------- */
 function el(tag, props, ...hijos){
@@ -448,7 +456,7 @@ function ir(hash, reemplazar){
   if (reemplazar) { history.replaceState(null, "", hash); pintar(); }
   else location.hash = hash;
 }
-/* Pantallas recorridas en esta sesión (sólo el nivel: inicio, materia o tema).
+/* Pantallas recorridas en esta sesión (inicio, materia, parcial o tema).
    Sirve para que "‹ volver" use el historial cuando la pantalla de arriba es la
    anterior: así el botón atrás del teléfono sigue siendo coherente. */
 const pila = [];
@@ -478,7 +486,8 @@ function pintar(){
   $pie.innerHTML = "";
   if (!partes.length) { pintarInicio(); if (mover) window.scrollTo(0, 0); return; }
   cargarMateria(partes[0]).then(m => {
-    if (partes.length < 3) pintarMateria(m);
+    if (partes[1] === "parcial" && partes.length === 3) pintarMateria(m, Number(partes[2]));
+    else if (partes.length < 3) pintarMateria(m);
     else {
       const ex = m.examenes.find(e => e.id === partes[1]);
       const t = ex && ex.temas.find(t => t.id === partes[2]);
@@ -586,16 +595,40 @@ window.addEventListener("storage", ev => {
   }
 });
 
-function pintarMateria(m){
-  barra("Materias", "#/");
-  document.title = m.nombre + " · Parciales UBA XXI";
+function pintarMateria(m, numero){
+  const parciales = parcialesDe(m);
+  if (numero !== undefined && !parciales.includes(numero)) return ir("#/" + m.id, true);
+  barra(numero === undefined ? "Materias" : (m.sigla || m.nombre), numero === undefined ? "#/" : "#/" + m.id);
+  document.title = (numero === undefined ? m.nombre : rotuloParcial(numero) + " · " + (m.sigla || m.nombre)) + " · Parciales UBA XXI";
   $vista.innerHTML = "";
   const info = CATALOGO.find(c => c.id === m.id) || {};
   $vista.appendChild(acento(el("div", {class: "cab-materia"},
     el("span", {class: "icobox"}, ico(info.icono)),
     el("div", {}, el("h1", {text: m.nombre}), m.detalle ? el("p", {class: "sub", text: m.detalle}) : null)), info.color));
   const lista = el("div", {class: "lista"});
-  m.examenes.forEach(ex => {
+  if (numero === undefined && parciales.length > 1) {
+    $vista.appendChild(el("h2", {class: "seccion", text: "Elegí el parcial"}));
+    parciales.forEach(n => {
+      const examenes = m.examenes.filter(ex => parcialDe(ex) === n);
+      const temas = examenes.flatMap(ex => ex.temas);
+      const hechas = temas.reduce((total, t) => total + resumen(t).hechas, 0);
+      const total = temas.reduce((total, t) => total + t.qs.length, 0);
+      const progreso = el("i");
+      progreso.style.width = (total ? hechas * 100 / total : 0) + "%";
+      lista.appendChild(acento(el("button", {class: "item materia", onclick: () => ir("#/" + m.id + "/parcial/" + n)},
+        el("span", {class: "icobox"}, ico("examen")),
+        el("span", {class: "cuerpo"},
+          el("span", {class: "t", text: rotuloParcial(n)}),
+          el("span", {class: "d", text: temas.length + " temas · " + total + " preguntas · " + hechas + " respondidas"}),
+          el("span", {class: "prog", "aria-hidden": "true"}, progreso)),
+        ico("adelante", "chev")), info.color));
+    });
+    $vista.appendChild(lista);
+    pieGeneral();
+    return;
+  }
+  $vista.appendChild(el("h2", {class: "seccion", text: rotuloParcial(numero === undefined ? parciales[0] : numero)}));
+  m.examenes.filter(ex => numero === undefined || parcialDe(ex) === numero).forEach(ex => {
     const temas = el("div", {class: "temas"});
     ex.temas.forEach(t => {
       const s = resumen(t);
@@ -626,7 +659,7 @@ function pintarTema(m, t, pos){
   const base = "#/" + [m.id, ex.id, t.id].join("/");
   const a = i => ir(base + "/" + (i >= t.qs.length ? "fin" : i + 1), true);
 
-  barra(m.sigla || m.nombre, "#/" + m.id);
+  barra((m.sigla || m.nombre) + (parcialesDe(m).length > 1 ? " · " + rotuloParcial(parcialDe(ex)) : ""), rutaListado(m, ex));
   document.title = t.n + " · " + ex.nombre;
   $vista.innerHTML = "";
   $vista.appendChild(el("h1", {text: ex.nombre + " · " + t.n}));
@@ -674,6 +707,11 @@ function pintarConsigna(m, t, idx, a){
     card.appendChild(det);
   }
   card.appendChild(el("p", {class: "enun", text: q.p}));
+  if (q.pista && !lista) {
+    card.appendChild(el("details", {class: "ctx pista"},
+      el("summary", {}, ico("foco"), el("span", {text: "Ver pista"}), ico("adelante", "chev")),
+      el("p", {text: q.pista})));
+  }
 
   const elegir = (j, i) => {
     if (q.partes) {
@@ -688,7 +726,7 @@ function pintarConsigna(m, t, idx, a){
       el("span", {class: "t", text: txt}));
     if (lista) {
       b.disabled = true;
-      b.className = "op " + (i === bloque.c ? "ok" : i === marcada ? "bad" : "resto");
+      b.className = "op " + (indiceCorrecto(bloque, i) ? "ok" : i === marcada ? "bad" : "resto");
     } else {
       if (i === marcada) b.className = "op sel";
       b.onclick = () => elegir(j, i);
@@ -710,7 +748,7 @@ function pintarConsigna(m, t, idx, a){
 
   if (lista) {
     const ok = correcta(q, dada);
-    const letras = q.partes ? q.partes.map(p => etiquetaOpcion(q, p, p.c)).join(" y ") : etiquetaOpcion(q, q, q.c);
+    const letras = q.partes ? q.partes.map(p => etiquetaCorrectas(q, p)).join(" y ") : etiquetaCorrectas(q, q);
     const suyas = q.partes ? dada.map((x, j) => etiquetaOpcion(q, q.partes[j], x)).join(" y ") : etiquetaOpcion(q, q, dada);
     const caja = el("div", {class: "porque"},
       el("b", {class: ok ? "ok" : "bad"}, ico(ok ? "check-circulo" : "cruz"),
@@ -737,6 +775,7 @@ function pintarResultado(m, t, a){
     : s.nota >= 4 ? ["ok", "Aprobado", "ok", "check-circulo"] : ["bad", "No alcanza el 4: repasá las explicaciones y volvé a intentarlo", "bad", "libro"];
   card.appendChild(el("div", {class: "medalla " + verd[2]}, ico(verd[3])));
   card.appendChild(el("p", {class: "n"}, num(s.nota), el("small", {text: " / 10"})));
+  if (s.total !== 10) card.appendChild(el("p", {text: "Nota normalizada sobre 10. El formato original suma " + num(s.total) + " puntos."}));
   card.appendChild(el("p", {class: "verd " + verd[0], text: verd[1]}));
   card.appendChild(el("p", {text: s.bien + " de " + s.n + " ejercicios bien · " + num(s.puntos) + " de " + num(s.total) + " puntos" +
     (s.hechas < s.n ? " · " + (s.n - s.hechas) + " sin responder" : "")}));
@@ -746,7 +785,7 @@ function pintarResultado(m, t, a){
   const nav = el("div", {class: "nav"},
     el("button", {onclick: () => a(0)}, ico("lupa"), "Revisar"),
     sig ? el("button", {class: "main", onclick: () => ir("#/" + [m.id, ex.id, sig.id, primeraPendiente(sig)].join("/"))}, "Ir a " + sig.n, ico("adelante"))
-        : el("button", {class: "main", onclick: () => ir("#/" + m.id)}, "Volver a " + (m.sigla || m.nombre), ico("adelante")));
+        : el("button", {class: "main", onclick: () => ir(rutaListado(m, ex))}, "Volver a " + (parcialesDe(m).length > 1 ? rotuloParcial(parcialDe(ex)) : (m.sigla || m.nombre)), ico("adelante")));
   card.appendChild(nav);
   $vista.appendChild(card);
 }

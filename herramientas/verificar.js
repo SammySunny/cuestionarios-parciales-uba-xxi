@@ -27,7 +27,7 @@ const errores = [], avisos = [];
 const error = m => errores.push(m), aviso = m => avisos.push(m);
 const leer = f => fs.readFileSync(path.join(RAIZ, f), "utf8");
 const norm = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[“”«»"'‘’…().,;:¿?¡!\-–—]/g, " ").replace(/\s+/g, " ").trim();
-const esCombinacion = texto => /^las opciones correctas son\b/i.test(texto.trim());
+const esCombinacion = texto => /^las opciones\b.*\bcorrectas\b/i.test(texto.trim());
 // Se comparan las afirmaciones, no las letras: «A y C» puede significar lo
 // mismo que «B y D» cuando otro tema cambia el orden de las opciones.
 function contenidoOpcion(b, i){
@@ -37,6 +37,7 @@ function contenidoOpcion(b, i){
   return refs.map(l => norm(b.o["ABCDEFGH".indexOf(l)]));
 }
 const bancoAfirmaciones = b => b.o.filter(o => !esCombinacion(o)).map(norm).sort().join(" | ");
+const soluciones = b => (b.aceptadas || [b.c]).map(i => contenidoOpcion(b, i).sort().join(" | ")).sort().join(" || ");
 
 /* ---------- cargar índice y materias ---------- */
 const ctx = {};
@@ -68,6 +69,7 @@ function revisarMateria(m, archivo){
   let nq = 0, nt = 0;
 
   for (const ex of m.examenes || []) {
+    if (ex.parcial !== undefined && ![1, 2].includes(ex.parcial)) error(`${m.id}/${ex.id}: parcial debe ser 1 o 2`);
     if (idsEx.has(ex.id)) error(`${m.id}: id de examen repetido "${ex.id}"`);
     idsEx.add(ex.id);
     const idsT = new Set();
@@ -106,6 +108,7 @@ function revisarMateria(m, archivo){
           if (b.formato && !["numeros", "texto"].includes(b.formato)) error(`${aqui}${s}: formato de opciones desconocido`);
           if (!Array.isArray(b.o) || b.o.length < 2 || b.o.length > 8) { error(`${aqui}${s}: tiene que tener entre 2 y 8 opciones`); return; }
           if (!Number.isInteger(b.c) || b.c < 0 || b.c >= b.o.length) error(`${aqui}${s}: la respuesta c=${b.c} está fuera de las opciones`);
+          if (b.aceptadas && (!Array.isArray(b.aceptadas) || !b.aceptadas.includes(b.c) || new Set(b.aceptadas).size !== b.aceptadas.length || b.aceptadas.some(c => !Number.isInteger(c) || c < 0 || c >= b.o.length))) error(`${aqui}${s}: respuestas alternativas inválidas`);
           b.o.forEach((o, k) => { if (!o || !o.trim()) error(`${aqui}${s}: opción ${k + 1} vacía`); });
           b.o.forEach((o, k) => {
             if (!esCombinacion(o)) return;
@@ -115,16 +118,21 @@ function revisarMateria(m, archivo){
               return i >= b.o.length || i === k || esCombinacion(b.o[i]);
             })) error(`${aqui}${s}: combinación inválida en la opción ${k + 1}`);
           });
-          if (new Set(b.o.map(norm)).size !== b.o.length) error(`${aqui}${s}: hay dos opciones iguales`);
+          if (new Set(b.o.map(norm)).size !== b.o.length &&
+              !(q.opcionesRepetidasFuente === true && q.d && b.o.filter(o => norm(o) === norm(b.o[b.c])).length === 1))
+            error(`${aqui}${s}: hay dos opciones iguales`);
         });
       });
-      if (Math.abs(total - 10) > 1e-9) aviso(`${donde}: los puntajes suman ${total}, no 10`);
+      const esperado = t.totalEsperado === undefined ? 10 : t.totalEsperado;
+      if (!(Number.isFinite(esperado) && esperado > 0)) error(`${donde}: totalEsperado inválido`);
+      else if (Math.abs(total - esperado) > 1e-9) error(`${donde}: los puntajes suman ${total}, no ${esperado}`);
     }
   }
 
   for (const k in notas) {
     if (!usadas.has(k)) aviso(`${m.id}: la explicación "${k}" no la usa ninguna consigna`);
-    if (/\b(opci[oó]n(es)?|letra|la|las|y la)\s+[A-H]\b/.test(notas[k])) aviso(`${m.id}: la explicación "${k}" parece nombrar una letra`);
+    if (/\b(opci[oó]n(es)?|letra|la|las|y la)\s+[A-H]\b/.test(notas[k]) &&
+        !(porClave[k] || []).every(({q}) => q.notaEspecifica === true)) aviso(`${m.id}: la explicación "${k}" parece nombrar una letra`);
   }
 
   // consistencia cruzada entre temas
@@ -140,7 +148,7 @@ function revisarMateria(m, archivo){
         const sx = bancoAfirmaciones(x), sy = bancoAfirmaciones(y);
         if (sx !== sy) return;                      // es una variante con otras opciones: no se compara
         comparadas++;
-        if (contenidoOpcion(x, x.c).sort().join(" | ") !== contenidoOpcion(y, y.c).sort().join(" | "))
+        if (soluciones(x) !== soluciones(y))
           error(`clave "${k}": ${lista[a].aqui} y ${lista[b].aqui} tienen las mismas opciones pero distinta correcta${A.partes ? " (parte " + (j + 1) + ")" : ""}`);
       });
     }

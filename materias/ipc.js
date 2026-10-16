@@ -1,12 +1,14 @@
-/* IPC — UBA XXI. Claves y explicaciones de los documentos resueltos.
-   Cada examen conserva su fecha, cátedra, temas y opciones originales.
-   formato: "numeros" conserva las opciones 1, 2, 3… de Buacar.
-   formato: "texto" permite elegir Sí/No en las partes correspondientes.
-   No cambiar ids: con ellos se guarda el progreso. */
+/* Cuestionarios UBA XXI. Datos separados de la interfaz.
+   parcial: 1 o 2 organiza la selección sin modificar los ids guardados.
+   Los primeros parciales se importaron de los HTML de la carpeta de la materia.
+   fuente conserva el archivo original; d indica una revisión o aclaración.
+   aceptadas permite las respuestas alternativas autorizadas por la fuente.
+   totalEsperado conserva el puntaje de formatos especiales, como el oral.
+   No cambiar ids: identifican el progreso de cada persona. */
 registrarMateria({
   "id": "ipc",
   "nombre": "IPC · Introducción al Pensamiento Científico",
-  "detalle": "Segundos parciales de las cátedras A (Buacar) y C (Gimeno), organizados por fecha y tema.",
+  "detalle": "Primeros y segundos parciales, organizados por fecha, cátedra y tema.",
   "notas": {
     "ipc-ec84030e2532d27e": "En este ejercicio se pide que identifiques la hipótesis auxiliar del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis auxiliar es una hipótesis que cuenta con apoyo independiente previo y que se utiliza en la contrastación como conocimiento presupuesto para poder deducir la consecuencia observacional. La hipótesis fundamental, en cambio, es lo que se pone a prueba. Una consecuencia observacional describe lo que se espera observar si la hipótesis es correcta; no es el supuesto general auxiliar que permite interpretar las mediciones.",
     "ipc-a972976f660d8019": "La hipótesis auxiliar es un enunciado general que no se pone a prueba en la investigación, sino que se asume como presupuesto para deducir la consecuencia observacional. La hipótesis fundamental, en cambio, es lo que se pone a prueba. Una consecuencia observacional describe lo que se espera observar si la hipótesis es correcta; no es el supuesto general auxiliar que permite interpretar las mediciones.",
@@ -228,9 +230,3201 @@ registrarMateria({
     "ipc-7b6640e8db2a2fb9": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación llamada \"teorías sexistas\": la crítica feminista de la historia de la ciencia permite detectar que en muchas ocasiones el sesgo androcéntrico se encuentra en las mismas teorías científicas, incluídas algunas de muy amplio alcance y consideradas revolucionarias en su momento. En este caso, se sostiene que las diferencias biológicas entre varones y mujeres (que se manifiestan en la diferecias en las competencias lingüísticas) explican las diferencias en las funciones, profesiones y cargos.",
     "ipc-f3ffe09b71004541": "La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde ese punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, no queda claro cuál es la importancia práctica o económica de un estudio sobre biodiversidad vegetal.",
     "ipc-0d35a1c0dfce8357": "Para poder inferir correctamente un juicio de valor en un razonamiento moral, es necesario que entre las premisas de dicho razonamiento se encuentre al menos alguna premisa normativa relevante para la conclusión. En este caso, las premisas de las opciones 1, 2 y 3 son valorativas, pero sólo la premisa de la opción 2 (\"los gobiernos deberían tomar medidas para contribuir a resoler el problema de la falta de vivienda\") es directamente relevante para establecer la conclusión.",
-    "ipc-8f0b61f37299764a": "Para poder inferir correctamente un juicio de valor en un razonamiento moral, es necesario que entre las premisas de dicho razonamiento se encuentre al menos alguna premisa normativa relevante para la conclusión. En este caso, las premisas de las opciones 1, 2 y 3 son valorativas, pero sólo la premisa de la opción 1 (\"los gobiernos deberían tomar medidas para contribuir a resoler el problema de la falta de vivienda\") es directamente relevante para establecer la conclusión."
+    "ipc-8f0b61f37299764a": "Para poder inferir correctamente un juicio de valor en un razonamiento moral, es necesario que entre las premisas de dicho razonamiento se encuentre al menos alguna premisa normativa relevante para la conclusión. En este caso, las premisas de las opciones 1, 2 y 3 son valorativas, pero sólo la premisa de la opción 1 (\"los gobiernos deberían tomar medidas para contribuir a resoler el problema de la falta de vivienda\") es directamente relevante para establecer la conclusión.",
+    "ipc-p1-a0bd4ac6f64f7465": "Sí es un argumento: hay enunciados que se ofrecen como razones y otro que se pretende establecer, y el indicador «por lo tanto» marca la conclusión. Ojo con las otras: que haya un condicional no alcanza (un condicional solo tampoco sería argumento), y que la conclusión sea verdadera no decide nada, porque un argumento puede ser malo y seguir siendo argumento. De hecho este es un modus tollens, o sea que además es válido.",
+    "ipc-p1-bc48629f6f653fb3": "«Por consiguiente» marca la conclusión, así que el enunciado 3 queda descartado como premisa. Entre las otras, la trampa está en el 2: dice «los del tiranosaurio rex», una forma elíptica que no enuncia la premisa completa. Regla de la cátedra: premisas y conclusión se enuncian de manera completa, y los indicadores nunca forman parte de ellas.",
+    "ipc-p1-29e8f34baba34b04": "El condicional tiene antecedente y consecuente verdaderos, así que es verdadero. La 1 es una conjunción («pero» = «y») con un conyunto falso. La 3 es una disyunción entre dos falsos. La 4 es la negación de una verdad.",
+    "ipc-p1-dbc71ac4a0649c22": "El universal afirma algo respecto de todos los miembros de un conjunto. Los otros tres son de tipos distintos: el 1 es probabilístico o estadístico (asigna una proporción), el 3 es existencial («algunos») y el 4 es singular (habla de un individuo con nombre propio).",
+    "ipc-p1-85a47ac274e0de87": "Para falsear un universal basta un solo miembro del conjunto que no tenga la propiedad asignada: un ictiosaurio que no sea carnívoro. Los casos con tiranosaurios son irrelevantes, porque el enunciado no dice nada sobre ellos; y un ictiosaurio carnívoro lo confirma en vez de refutarlo.",
+    "ipc-p1-31ccb0010c92260d": "Es la forma p → p: el antecedente y el consecuente son el mismo enunciado, así que siempre tienen el mismo valor de verdad y el condicional nunca puede ser falso. La 1 es una contradicción (p ∧ ¬p) y la 3 y la 4 son contingencias: su verdad depende de cómo sea el mundo.",
+    "ipc-p1-facf1c6cb5140584": "Es modus tollens: negado el consecuente, se concluye la negación del antecedente. La 2 afirma justo lo contrario. La 1 y la 3 agregan información que las premisas no contienen: no aparecer CON ESPALDAS RECTAS no es lo mismo que no aparecer, ni implica que aparezcan con joroba.",
+    "ipc-p1-26751feb08f8a7a2": "El 4 tiene la forma «A o B, por consiguiente A»: de una disyunción sola no se sigue ninguno de sus disyuntos. Para que fuera un silogismo disyuntivo válido faltaría la premisa que niega el otro. Los otros tres son válidos: modus tollens (1), silogismo disyuntivo completo (2) y modus ponens (3).",
+    "ipc-p1-f09a5ffa7ae3a79a": "La analogía compara casos semejantes para inferir que uno de ellos tiene además otra propiedad que los demás comparten. Hace falta introducir el estegosaurio con una de las dos propiedades y concluir la otra; el parcial acepta las dos direcciones. El 2 ya está contenido en las premisas dadas, y el 3 («la mayoría») o el 4 («todos») darían un silogismo inductivo o una deducción.",
+    "ipc-p1-158997ee7cbda569": "Se fortalece ampliando la muestra con un caso que pertenezca al conjunto y tenga la propiedad. La 1 es la trampa: agotaría el conjunto y volvería deductivo el argumento. La 2 es un contraejemplo que lo debilita. La 4 no dice que la hiena fuera un animal grande de la Edad de Hielo, así que no suma a la muestra relevante.",
+    "ipc-p1-f63a0acf28ece0f4": "No hay argumento: es un único enunciado condicional, y por eso no aparece ningún indicador. Fijate que el «si» va en el medio, pero eso no cambia nada: sigue introduciendo el antecedente. Que tenga varios enunciados simples adentro no lo convierte en argumento, y su verdad o falsedad no viene al caso.",
+    "ipc-p1-4608d0549fc10cfc": "Los indicadores de premisa son «ya que» y «además»: introducen los enunciados 2 y 1. El 3 es la conclusión, que va primera y sin indicador. El 4 no aparece en el argumento: mezcla y resume las dos premisas en un enunciado que nadie afirmó.",
+    "ipc-p1-d7db55a2fd33fb9c": "Es una disyunción inclusiva con ambos disyuntos verdaderos, así que es verdadera. Este es justo el caso en que importa el tipo de disyunción: si fuera exclusiva («o bien… o bien»), con ambos disyuntos verdaderos resultaría falsa. La 1 es una conjunción con un conyunto falso, la 3 niega una verdad y la 4 es un condicional con antecedente verdadero y consecuente falso.",
+    "ipc-p1-e11a928d63deaf8e": "El probabilístico asigna una probabilidad a la ocurrencia de un fenómeno. Los otros: el 1 es existencial, el 2 universal y el 4 singular. Conviene tener las cuatro categorías juntas, porque este parcial rota cuál de ellas pide.",
+    "ipc-p1-1fe8702635b4be70": "Para que un existencial sea verdadero basta encontrar un miembro del conjunto que tenga la propiedad: un ictiosaurio que coma moluscos. Fijate el contraste con el universal, que se FALSEA con un solo caso pero no se verifica con uno: acá es al revés. Los casos con tiranosaurios no sirven porque no pertenecen al conjunto del que habla el enunciado.",
+    "ipc-p1-45eff93b7e619dad": "Es la forma p ∧ ¬p: uno de los conyuntos siempre será falso, y basta con eso para que la conjunción sea falsa en toda situación posible. La 2 es su espejo, p ∨ ¬p, una tautología; la 4 también es tautología (p → p); y la 3 es una contingencia.",
+    "ipc-p1-a4ddd641511334dd": "Silogismo hipotético: el consecuente del primer condicional coincide con el antecedente del segundo, así que se los encadena y se concluye un condicional que une el primer antecedente con el último consecuente. La 1 y la 2 invierten condicionales, cosa que nunca es válida. La 4 afirma el consecuente final sin que nadie haya afirmado el antecedente.",
+    "ipc-p1-1e4b7b7becaadbef": "El 4 es una falacia de afirmación del consecuente. Los otros tres son válidos: instanciación del universal (1), modus ponens (2) y silogismo hipotético (3). Ojo: que la conclusión del 4 sea de hecho verdadera no lo salva, porque un argumento inválido puede tener premisas y conclusión verdaderas.",
+    "ipc-p1-d84e342485e29dcf": "La enumeración incompleta suma casos particulares y generaliza a toda la clase. La premisa que falta tiene que traer las DOS propiedades juntas, como las dos premisas dadas: por eso sirve el 5 y no el 1, que solo dice que el tiranosaurio era carnívoro. La conclusión es la generalización a todos los dinosaurios carnívoros.",
+    "ipc-p1-0999fdb323d6a031": "El silogismo inductivo se fortalece cuando sube la probabilidad de la generalización: del 80 % al 90 %. El 100 % es la trampa clásica: con probabilidad 1 la conclusión se seguiría con necesidad y el argumento pasaría a ser deductivo. La 1 y la 4 agregan información que no toca la relación entre ser carnívoro y tener dientes afilados.",
+    "ipc-p1-bc165757958e7c6c": "Es una enumeración: tres afirmaciones puestas una al lado de la otra, sin que ninguna se ofrezca como razón de otra. No hay indicadores de ningún tipo. Las opciones que hablan de la verdad de las premisas o de la conclusión están fuera de tema: si un fragmento es un argumento no depende de que lo que diga sea cierto.",
+    "ipc-p1-50b3f8b6c4d44af3": "El indicador de premisas es «porque, en primer lugar… y, en segundo lugar…». La opción 4 es la trampa: arrastra el indicador adentro del enunciado y además lo deja incompleto, sin sujeto. El 2 es la conclusión, que va primera.",
+    "ipc-p1-877fcd9e835bf086": "La conjunción es verdadera porque ambos conyuntos lo son. La 1 niega una verdad; la 3 es una disyunción entre dos falsos; la 4 es un condicional con antecedente verdadero y consecuente falso, el único caso en que un condicional falla.",
+    "ipc-p1-73b90571fb86320c": "El existencial afirma que algunos miembros de un conjunto tienen cierta propiedad, sin decir cuáles ni cuántos. El 1 es probabilístico o estadístico, el 2 universal y el 4 singular.",
+    "ipc-p1-bc001932ba08e7f7": "Un universal se falsea con un solo contraejemplo: un ictiosaurio que no sea marino. Los casos con tiranosaurios no cuentan, porque el enunciado no habla de ellos, y un ictiosaurio oceánico lo confirma.",
+    "ipc-p1-d7af315e3d35a04f": "Es una contingencia porque su valor depende de hechos: hoy sabemos que el Argentinosaurus era herbívoro y tenía cuello largo, lo que la vuelve verdadera, pero es fácil imaginar una evolución distinta que la volviera falsa. Que un enunciado sea de hecho verdadero no lo convierte en tautología. La 2 es tautología (p ∨ ¬p) y la 3 y la 4 son contradicciones (p ∧ ¬p).",
+    "ipc-p1-d4bfc2e79c278d0a": "Instanciación del universal: de una regla universal y un caso que pertenece al conjunto se concluye que ese caso cumple la propiedad. Las otras tres introducen individuos (el elefante asiático, el mastodonte) sobre los que las premisas no dicen nada, así que nada de eso se deduce.",
+    "ipc-p1-2fef1e4d7b7e0711": "El 4 es una falacia de negación del antecedente: cazar peces sería suficiente para ser marino, pero no la única manera de serlo. Los otros tres son válidos: simplificación (1), modus tollens (2) y modus ponens (3).",
+    "ipc-p1-23815ed392552b4f": "El silogismo inductivo necesita una generalización estadística («la mayoría…») y un enunciado que subsuma el caso particular en ella. El orden entre P1 y P2 es intercambiable. El 5 es la trampa central: con «todos» el argumento pasaría a ser deductivo. El 3 y el 4 son casos sueltos que no cumplen ninguno de los dos roles.",
+    "ipc-p1-b1ed8668dfde90e3": "La analogía se fortalece sumando objetos semejantes de los que ya sabemos que tienen la propiedad: el gigantosaurio es uno más. La 2 la convertiría en deducción y la 3 en silogismo inductivo, porque pasaría a apoyarse en una generalización estadística. La 1 la debilita.",
+    "ipc-p1-73a71ad15be1d76c": "Sí es un argumento: «lo cual justifica» funciona como indicador de conclusión, y los enunciados previos se ofrecen como razones. Ojo con la opción de «inductivamente válido»: los inductivos no se evalúan por validez sino por fuerza, así que esa justificación está mal formulada aunque acierte el sí.",
+    "ipc-p1-a9cb0222942c89b2": "«De esto se sigue que» marca la conclusión, así que el 2 queda afuera. Entre el 1 y el 4, que dicen lo mismo, hay que elegir el que enuncia la premisa completa: el 4. El 1 arranca con «llegó a pesar» sin decir quién.",
+    "ipc-p1-06bed037eeb6470d": "El condicional tiene antecedente y consecuente verdaderos, así que es verdadero. La 1 es una disyunción entre dos falsos, la 3 niega una verdad y la 4 es una conjunción con un conyunto falso.",
+    "ipc-p1-272d1a675b0af313": "El singular afirma algo acerca de un individuo en particular. Los otros tres son existencial (2), probabilístico (3) y universal (4).",
+    "ipc-p1-b5ad2dfe1e81702e": "Un existencial se verifica con un único miembro del conjunto que tenga la propiedad. El caso del plesiosaurio no sirve aunque tenga aleta dorsal, porque no pertenece al conjunto del que habla el enunciado; y un ictiosaurio sin aleta no lo refuta, porque el enunciado dice «algunos», no «todos».",
+    "ipc-p1-94ac396a0a0aca14": "La disyunción entre un enunciado y su negación siempre tiene al menos un disyunto verdadero, así que es necesariamente verdadera. La 3 es su espejo: una contradicción. La 1 y la 4 son contingencias, aunque de hecho sean verdaderas.",
+    "ipc-p1-5b1e96eb47653421": "Silogismo disyuntivo: negado uno de los disyuntos, se concluye el otro. La 2 concluye lo contrario, la 3 contradice la segunda premisa y la 4 introduce una tercera opción de la que las premisas no dicen nada.",
+    "ipc-p1-5d61bb3acaca76e0": "El 3 tiene la forma «A o B, en consecuencia B»: falta la premisa que niegue el otro disyunto. Compará con el 1, que sí la tiene y por eso es un silogismo disyuntivo válido. Los otros dos son modus ponens (2) y modus tollens (4).",
+    "ipc-p1-23124f901df419b2": "Se compara al rinoceronte lanudo con el mamut y el mastodonte: se lo introduce con una de las dos propiedades y se concluye la otra, en cualquiera de los dos órdenes. El 5 ya está contenido en las premisas dadas, y el 3 o el 4 convertirían el argumento en silogismo inductivo o en deducción.",
+    "ipc-p1-0b6d86d9967c7a3f": "Hace falta un caso que pertenezca al conjunto (ser carnívoro) y tenga la propiedad (vivir en manada): eso es el velociraptor. El 2 se queda corto porque no dice que el gigantosaurio sea carnívoro. El 1 agotaría el conjunto y volvería deductivo el argumento, y el 4 no aporta nada a la muestra.",
+    "ipc-p1-416d980509475cc0": "No hay conclusión ni premisas que funcionen como razones: es una sola afirmación descriptiva, y el «luego de» es temporal. Dato del propio parcial: la cátedra aclaró que también aceptaba como correcta la opción «porque es un enunciado», porque el caso podía inducir a confusión. Un argumento puede formularse en una sola oración, pero esa oración tiene que dejar reconocer premisas y conclusión, y esta no lo hace.",
+    "ipc-p1-e9d3a4d8c42ba1a1": "«De lo cual se infiere» marca la conclusión, así que el 1 queda afuera. Entre el 2 y el 3, que dicen lo mismo, hay que quedarse con el que enuncia la premisa completa: el 3. El 2 arranca con «tampoco estaba adaptado», sin sujeto.",
+    "ipc-p1-43778884d82fcc16": "Es una conjunción con un conyunto falso, y con eso ya basta para que resulte falsa. Las otras tres son verdaderas: una afirmación verdadera sin más (2), un condicional con antecedente y consecuente verdaderos (3) y una disyunción inclusiva con los dos disyuntos verdaderos (4).",
+    "ipc-p1-3e069c0a964efa59": "El universal afirma algo respecto de todos los miembros del conjunto. El 1 es singular, el 3 existencial y el 4 probabilístico.",
+    "ipc-p1-2952272b51456c33": "Un universal se falsea con un solo miembro del conjunto que no tenga la propiedad: un titanosaurio que no ponga huevos. Los ictiosaurios quedan fuera del alcance del enunciado, y un titanosaurio que sí pone huevos lo confirma.",
+    "ipc-p1-94a49fdbad0784d9": "Es p ∧ ¬p: uno de los conyuntos siempre será falso, así que la conjunción es falsa en toda situación. La 3 (p ∨ ¬p) y la 4 (p → p) son tautologías, y la 2 es una contingencia.",
+    "ipc-p1-939c4ec17246d0cc": "Modus ponens: afirmado el antecedente, se concluye el consecuente. Ojo con la 2, que parece razonable por lo que sabemos del mundo pero no es lo que dicen las premisas: ellas hablan de la causa de la extinción, no afirman que esté extinto. La validez se juzga por la forma, no por lo que uno sepa aparte.",
+    "ipc-p1-02628546fa25cace": "El 4 es una falacia de afirmación del consecuente. Los otros tres son válidos: modus ponens (1), adjunción (2) y modus tollens (3). Fijate que el 2 tiene una premisa falsa —los mamuts no ponen huevos— y aun así es válido: la validez no depende de la verdad de hecho.",
+    "ipc-p1-55e26c79d6750602": "La premisa que falta tiene que enumerar un caso más con las dos propiedades juntas, como las dos premisas dadas: por eso sirve el 2 y no el 3, que solo dice que el mamut era un mamífero prehistórico. La conclusión generaliza el pelo largo a todos los mamíferos prehistóricos. El 4 habla de otra propiedad y el 1 introduce una negación ajena al argumento.",
+    "ipc-p1-9b07ba23d2aefd55": "La analogía se fortalece aumentando la cantidad de casos semejantes que sabemos que tienen la propiedad. La 3 la volvería deductiva (instanciación del universal) y la 2 la convertiría en silogismo inductivo. La 4 la debilita.",
+    "ipc-p1-7d8ebd286426b03b": "Sí es un argumento: «puesto que» es un indicador de premisa, y lo que va antes es lo que se pretende establecer. Las justificaciones incorrectas son las de siempre: que haya un condicional o varios enunciados no basta —una enumeración también tiene varios— y la verdad o falsedad de la conclusión no decide nada.",
+    "ipc-p1-30e6d6765430eede": "«En consecuencia» marca la conclusión, así que el 3 no es premisa. Entre el 1 y el 2, que dicen lo mismo, el 2 arrastra el indicador «asimismo» adentro del enunciado: por eso la premisa bien enunciada es el 1.",
+    "ipc-p1-b3cc28a0ed729848": "Es el único caso en que un condicional resulta falso: antecedente verdadero («habitaron los bosques») y consecuente falso («no se alimentaban de arbustos»). Las otras tres son verdaderas: condicional con las dos partes verdaderas (1), disyunción con un disyunto verdadero (3) y conjunción de dos verdaderos (4).",
+    "ipc-p1-516b805d57ce7cec": "El probabilístico asigna una probabilidad o proporción a la ocurrencia de un fenómeno. El 1 es existencial, el 2 singular y el 3 universal.",
+    "ipc-p1-c19cfe101518de13": "Basta un titanosaurio que efectivamente mida más de 4 metros. El ictiosaurio de 4.5 metros no sirve porque no pertenece al conjunto, y el titanosaurio de 3 metros no cumple la propiedad (aunque tampoco refuta el enunciado, porque dice «algunos»).",
+    "ipc-p1-fb801aa43a5cf630": "Su valor de verdad depende de cómo hayan sido efectivamente los dinosaurios: hoy sabemos que la conjunción es verdadera, pero podría no haberlo sido. Las otras tres son necesarias por su forma: tautología (1), contradicción (2) y tautología otra vez (4, de la forma p → p).",
+    "ipc-p1-a31700e41cbc43d0": "Silogismo hipotético: se encadenan los dos condicionales y se concluye uno que va del primer antecedente al último consecuente. La 1 y la 2 invierten condicionales, y la 4 afirma el consecuente final sin que ninguna premisa afirme el antecedente inicial.",
+    "ipc-p1-839ab05796d3d59d": "El 2 es una falacia de negación del antecedente: poner huevos sería suficiente para tener múltiples crías, pero no la única vía posible. Los otros tres son válidos: silogismo disyuntivo (1), modus tollens (3) y modus ponens (4).",
+    "ipc-p1-5f1927ca691e3364": "Hacen falta las dos piezas del silogismo inductivo: la generalización estadística («la mayoría…») y el enunciado que mete al mamut adentro de ella. El orden entre P1 y P2 es intercambiable. El 3 es la trampa: con «todos» el argumento sería deductivo. El 2 y el 5 son casos sueltos que no cumplen ninguno de los dos roles.",
+    "ipc-p1-368af167a3bad2c2": "Se fortalece sumando otro caso semejante del que sabemos que tiene la propiedad. La 1 la volvería deductiva y la 3 la convertiría en silogismo inductivo, porque el apoyo pasaría a venir de una generalización estadística en lugar de la comparación entre casos. La 2 la debilita.",
+    "ipc-p1-f49edb3954fd18e3": "La sistematicidad es justamente que los contenidos están organizados y conectados entre sí. Las otras tres refieren a cosas distintas: la analiticidad, a que la ciencia descompone sus problemas en otros más simples; la claridad y precisión, al tipo de lenguaje que usa; y la metodicidad, a que se trabaja con un orden riguroso y técnicas precisas.",
+    "ipc-p1-123f0e9f5a7ffec8": "Los empíricos son fallos al calcular datos, averiguar hechos o recabar información; los conceptuales son fallos en la comprensión de conceptos abstractos o de sus relaciones. La opción A se contradice sola: describe los conceptuales y los llama empíricos.",
+    "ipc-p1-e2998c22eb616f64": "Que el conocimiento sea metódico significa que se produce mediante investigaciones planificadas y procedimientos ordenados: eso es lo que ilustra el caso, con sus entrevistas estructuradas, cuestionarios y análisis estadísticos. Fijate el contraste con la consigna sobre sistematicidad: allá lo que importaba era cómo se organizan los CONTENIDOS; acá, cómo se organiza el PROCEDIMIENTO.",
+    "ipc-p1-dbe5f4b5bcd68cd1": "Ad verecundiam: se apela a la opinión de personas consideradas autoridad para justificar el enunciado, sin dar pruebas. No la confundas con el ad populum, que apela a la cantidad de gente que cree algo; acá lo que pesa es el prestigio.",
+    "ipc-p1-544620d7754de4de": "Bordes define la falacia como un argumento no razonable que viola criterios de buena argumentación, y aclara dos cosas que las otras opciones pierden: puede ser válido, y puede tener conclusión verdadera. La A le agrega intención de engañar, que no forma parte de la definición; la B y la D la identifican con la invalidez.",
+    "ipc-p1-563843e973c89114": "La dóxa es racional y explicativa, pero se apoya en la experiencia personal y las tradiciones, así que carece de fundamentación rigurosa. Su contrapartida es la epistéme, que pretende ser universal, racional y fundamentada, y explica lo empírico en términos no observables. El mýthos recurre a dioses y seres poderosos; el lógos explica mediante fuerzas impersonales y leyes naturales.",
+    "ipc-p1-dcbb65e6f09c5449": "Es un enunciado empírico básico: usa solo términos empíricos y habla de una muestra concreta y abarcable por la experiencia («los casos estudiados»). Acá está la trampa central del tema: el porcentaje NO lo convierte en generalización estadística, porque esa categoría se reserva a proporciones de poblaciones inabarcables. Contá siempre de qué población habla el enunciado, no si tiene un número.",
+    "ipc-p1-97eb82d236bdd97a": "Ad hominem: se ataca a la persona en lugar de su argumento. Que alguien tenga antecedentes cuestionables no vuelve falso lo que dice sobre economía. El ad misericordiam apelaría a la compasión, y la negación del antecedente es una falacia formal, de otro tipo.",
+    "ipc-p1-34de297a758c29e8": "El empírico básico refiere a una población abarcable por la experiencia: acá, los pacientes de un estudio concreto. Los otros tres son generalizaciones empíricas, porque hablan de poblaciones inabarcables: todos los casos de aracnofobia (1 y 4) o un porcentaje de la población mundial (3). De nuevo: lo que decide es el alcance de la población, no la presencia de un número.",
+    "ipc-p1-b9606994b69564c2": "Es falso: las condiciones iniciales son necesarias, porque son las que dan cuenta de las variables con las que la hipótesis puede contrastarse. Si querés probar que la privación de sueño afecta la memoria, necesitás instrumentos adecuados y gente capacitada para medirla. La opción D acierta el «falso» pero niega esa función.",
+    "ipc-p1-4932b791383f6e82": "La prioridad temporal es una de las propiedades de la causalidad que analiza Hume: para que haya relación causal, la causa debe ocurrir antes que el efecto. Es la propiedad que se viola, por ejemplo, cuando se invierte el orden y se toma el efecto por causa.",
+    "ipc-p1-e0756b00c509aafa": "La universal informa sobre la totalidad de una población. Las otras tres son las categorías vecinas: la probabilística predica una proporción estadística de una población no accesible; la existencial habla de algunos miembros sin decir cuáles ni cuántos; y el empírico básico refiere a situaciones abarcables por la experiencia. Vale la pena memorizar las cuatro definiciones juntas: este parcial rota cuál es la pregunta y cuál la respuesta.",
+    "ipc-p1-d2e39327064e92c8": "La conjunción constante da cuenta de que, tras diversas repeticiones, siempre que se dio A sucedió B: soltás un objeto y cae, una y otra vez. Ojo con la D, que es la prioridad temporal, y con la A, que es directamente incompatible con ella.",
+    "ipc-p1-6691ad97422d8116": "En el 3 no se puede pensar un caso con premisas verdaderas y conclusión falsa. Los otros tres sí admiten contraejemplo: el 1 concluye lo contrario de lo que se sigue; el 2 va del síntoma al diagnóstico (Zulema pudo asustarse sin ser fóbica); y el 4 niega el antecedente (Carlos puede tener ansiedad por otra razón).",
+    "ipc-p1-8968158e0c42a4f1": "Es falso: para Pino las teorías no son el resultado final, sino que pueden ser probadas, rechazadas o modificadas. A medida que varias hipótesis acumulan evidencia a favor conforman una teoría, un todo más general que explica e interpreta la realidad. Las leyes, por su parte, son definiciones de un modelo abstracto, de una idealización.",
+    "ipc-p1-fe9e6b6753e495ea": "Es válido, y la razón correcta es que la conclusión ya está contenida implícitamente en las premisas: si todos los narcisistas tienen esa necesidad y Guido pertenece a ese conjunto, afirmarlo de Guido no agrega nada nuevo. La opción B acierta el veredicto por el motivo equivocado: la verdad efectiva de premisas y conclusión no es lo que determina la validez.",
+    "ipc-p1-1b873d78eee880e5": "Son clasificatorios: pertenecen a un sistema de conceptos que clasifica un dominio, en este caso el de las emociones. No hay orden entre ellos —la alegría no es «más» que el enojo— así que no son comparativos, y menos aún métricos, que exigen una magnitud numérica.",
+    "ipc-p1-2f7d0d3b4ea293ab": "Es inválido porque admite contraejemplo: podemos aceptar las dos premisas y aun así imaginar que Winona robó por otra causa. Fijate el contraste con el caso de Guido: allá se iba de la clase al individuo, y acá se va de la propiedad a la clase, que es lo que falla. La opción B se equivoca de criterio: la falsedad de la conclusión no es lo que decide la invalidez.",
+    "ipc-p1-e6446404f6a450ae": "Es la hipótesis: la afirmación que se somete a prueba, postulada para dar cuenta de un fenómeno y sobre la cual se busca evidencia a favor o en contra. Una predicción sería más específica y constatable de modo inmediato, del estilo «los sujetos del grupo 1 puntuarán más alto en la escala de memoria».",
+    "ipc-p1-8b65dba686cf582e": "Es incorrecta la 2: el nivel de generalidad de premisas y conclusión no define si un argumento es deductivo o inductivo. Lo que lo define es el tipo de apoyo que se pretende entre premisas y conclusión; de hecho hay deductivos con premisas particulares y conclusiones generales. La idea de que «lo deductivo va de lo general a lo particular» es una de las confusiones más difundidas sobre el tema.",
+    "ipc-p1-421e8c3429b3d414": "Son errores fácticos: fallos al calcular datos, averiguar hechos o recabar información. Bordes agrega dos cosas que la opción correcta recoge: son los más frecuentes, y aparecen incluso en publicaciones académicas sobre racionalidad y lógica. La A describe más bien errores lógicos o conceptuales, y la D les agrega una intención de engañar que no está en la definición.",
+    "ipc-p1-9e7ea7bc482ade64": "La generalidad es ir más allá del hecho aislado e incorporarlo a un esquema más amplio. Las vecinas: la legalidad refiere a cómo la ciencia enuncia sus contenidos, en términos de leyes necesarias o probables; la objetividad, a que trata sobre objetos fácticos y no ideales como los de las ciencias formales; y la explicatividad, a su interés por dar razón de los fenómenos.",
+    "ipc-p1-6fa2b621c8e5dd83": "La atención se dirigió al estudio de los elementos dialécticos y de la audiencia, propios de los enfoques relativistas y dialécticos. Para Bordes ese giro también resulta deficiente: relativizar a audiencias específicas distrae del objetivo fundamental, que no puede ser retórico y lógico a la vez.",
+    "ipc-p1-a8334cf66f9b0eb8": "Que el conocimiento sea abierto significa que siempre está en condiciones de ser continuado, corregido o refutado por la comunidad científica. El caso muestra exactamente eso: una hipótesis ampliamente aceptada cayó sin inconvenientes ante nueva evidencia. Si el caso hubiera puesto el foco en la técnica de neuroimagen, la respuesta habría sido la metodicidad.",
+    "ipc-p1-2ff5ca2cbf10fdc3": "Son comparativos: la categoría intermedia entre los clasificatorios y los métricos. Además de clasificar el dominio le otorgan un orden, lo que permite comparar dos casos según una propiedad común. Métrico sería el puntaje numérico del test; clasificatorio, un conjunto de categorías sin orden entre sí, como las emociones.",
+    "ipc-p1-4e16aa1351db3f61": "El pensamiento errado es la conjunción de falacias y sesgos cognitivos que suele sostener creencias pseudocientíficas: un patrón sistemático que se aparta de la racionalidad y de los presupuestos científicos. Ojo con las opciones que lo confunden con una hipótesis: una hipótesis falsada es parte normal del trabajo científico, no un error de razonamiento.",
+    "ipc-p1-8ac93784419185e6": "El lógos explica los hechos en términos de fuerzas impersonales y leyes naturales. Su contrapartida es el mýthos, que recurre a relatos de dioses y seres poderosos para explicar los mismos hechos. La dóxa es racional pero se apoya en la experiencia personal y las tradiciones, y la epistéme pretende ser universal y fundamentada, explicando lo empírico en términos no observables.",
+    "ipc-p1-92ac23c2849923ba": "Post hoc ergo propter hoc, la falacia de la causa falsa: del hecho de que algo ocurra antes se concluye que lo causó. Acá además pasa algo típico: hay una causa común detrás —las condiciones atmosféricas que producen tanto el arco iris como el fin de la lluvia—, y eso es lo que genera la ilusión de causalidad.",
+    "ipc-p1-1f1ef79108573e29": "Es una generalización empírica universal: usa vocabulario empírico y afirma algo de la totalidad de un grupo no abarcable por la experiencia. La trampa es gramatical: «el tiburón» en singular parece referirse a un individuo, pero es una manera habitual de generalizar sobre todos los tiburones. Si hablara de un ejemplar concreto sería un enunciado empírico básico.",
+    "ipc-p1-1682b6d759b03723": "Es falso: buscar evidencia es parte constitutiva del trabajo con hipótesis, y esa evidencia puede apoyarlas o refutarlas. Las dos opciones que dicen «verdadero» recortan la búsqueda a una sola dirección, y la D niega que las hipótesis deban ser sometidas a prueba, que es justamente lo que las define.",
+    "ipc-p1-ac90906183d8d3da": "La C es la universal: «el paciente con tricotilomanía» generaliza sobre la totalidad de los pacientes con ese cuadro, una población inabarcable por la experiencia. La D es la trampa: dice «todos», pero se refiere a los pacientes de una investigación concreta, o sea un conjunto contable, y por eso es un enunciado empírico básico. Igual que la A y la B. Lo que decide no es la palabra «todos» sino el alcance de la población.",
+    "ipc-p1-382cb2e4d8c89e36": "Es el enunciado empírico básico: refiere a situaciones abarcables por la experiencia, sean individuos concretos o poblaciones contables. Las otras tres son las generalizaciones, que por definición hablan de poblaciones no abarcables: la totalidad (universal), algunos sin especificar cuáles (existencial) o una proporción estadística (probabilística).",
+    "ipc-p1-82f3c206aceb2c43": "Ad ignorantiam: se toma la falta de demostración de algo como si fuera prueba de lo contrario. Que nadie haya visto X con sus propios ojos no es evidencia de que X sea falso, entre otras cosas porque la observación directa no es la única forma de evidencia científica.",
+    "ipc-p1-6c688e37ec41a331": "La conjunción constante dice que, tras diversas repeticiones, siempre que se dio A sucedió B. Ojo con la C, que es la prioridad temporal: son dos propiedades distintas de la causalidad y el parcial las intercambia entre opciones.",
+    "ipc-p1-19b5c1b98bffe3f1": "El 2 admite contraejemplo: Zulema pudo sentir ansiedad ante una araña particularmente grande sin ser aracnofóbica. Va de la propiedad a la clase, que es el movimiento que falla. Los otros tres son válidos: instanciación del universal (1 y 4) y modus tollens (3).",
+    "ipc-p1-27bf43074a601ab1": "Verdadero, en el enfoque representacional: una teoría es un conjunto de modelos que buscan representar determinados dominios de la realidad, y esa representación es parcial, aproximada, pragmática y no absoluta. La opción C acierta el veredicto pero le atribuye a los modelos una pretensión de totalidad que el enfoque justamente rechaza.",
+    "ipc-p1-416dcbc79045f6c7": "Es inválido: se puede aceptar que todos los narcisistas necesitan admiración y que Silvia la necesita, y aun así Silvia podría necesitarla por otras causas. Es el mismo error que en el caso de Winona. Fijate el contraste con el caso de Guido, donde se partía de la pertenencia a la clase y por eso sí era válido. La D se equivoca de criterio: la falsedad de la conclusión no decide la invalidez.",
+    "ipc-p1-4b3c5a1342187187": "Es una predicción: una afirmación empírica constatable de modo más o menos inmediato, un hecho posible y detectable. La hipótesis sería la afirmación general que se pone a prueba («el entrenamiento cognitivo mejora la atención»); la predicción es lo que debería observarse en este experimento concreto si la hipótesis fuera correcta.",
+    "ipc-p1-c136e6f3999795d9": "Acá sí es válido, y conviene compararlo con la otra versión de Winona: allá se afirmaba que había robado algo innecesario y se concluía que era cleptómana, lo cual falla; acá se niega que lo haya hecho, y como robar objetos innecesarios es condición necesaria de la cleptomanía según la premisa, se sigue que no lo es. Es un modus tollens encubierto.",
+    "ipc-p1-9d02cab6a4a41d5b": "La incorrecta es la 3. La validez nunca depende de si las premisas y la conclusión son de hecho verdaderas o falsas, sino de la estructura lógica y del tipo de apoyo que se pretende entre ellas. Es el punto que este parcial repite consigna tras consigna, así que conviene tenerlo automatizado.",
+    "ipc-p1-f027e703774e18e3": "Es falso: la teoría de Darwin parte de que hay variación heredable entre progenitores y descendencia. Esas pequeñas diferencias generan diferencias de aptitud, y sobre eso actúa la selección natural favoreciendo a los más aptos. Si la descendencia fuera idéntica no habría materia prima para la selección. Ojo con la 3: la selección no «garantiza» generaciones totalmente distintas; y con la 4: la evolución no tiene dirección hacia mayor complejidad.",
+    "ipc-p1-ffa2f3166e027f05": "Una explicación darwiniana relaciona la eficacia de un rasgo en un ambiente dado con la aptitud del organismo que lo porta: los más aptos dejan más descendencia y el rasgo aumenta su proporción generación tras generación. La 4 es lamarckiana: supone que el rasgo se ADQUIERE por el uso y luego se hereda. Las 1 y 2 son teleológicas: apelan a un diseño o a un fin en la naturaleza.",
+    "ipc-p1-930c00e32e5f6000": "Hay argumento solo cuando algunos enunciados se ofrecen como razones (premisas) a favor de otro que se pretende establecer (conclusión). Acá los indicadores lo delatan: «dado que» marca una premisa y «en consecuencia» la conclusión. Las opciones 1, 2 y 3 son descripciones o enumeraciones. La 4 es un solo condicional: no es argumento, porque no afirma ni el antecedente ni el consecuente.",
+    "ipc-p1-244e12e0e6b46ca5": "Los indicadores marcan los roles: «puesto que» introduce una premisa y «se sigue que» la conclusión. Las premisas son el condicional completo (1) y el antecedente afirmado (4); el enunciado 3 es la conclusión. El 2 no aparece en el argumento: mezcla partes de distintos enunciados. Dos reglas: premisas y conclusión se enuncian COMPLETAS, y los indicadores nunca forman parte del enunciado.",
+    "ipc-p1-2ea9568cfe0bc1c5": "Con ambos enunciados simples verdaderos: el condicional es verdadero, porque solo sería falso con antecedente verdadero y consecuente falso. La 2 es una conjunción con un conyunto falso («pero» funciona como «y»): falsa. La 3 es una disyunción entre dos falsos: falsa, sea inclusiva o exclusiva. La 4 es la negación de una verdad: falsa.",
+    "ipc-p1-c7d245dd859e4d29": "«Tenían una estructura social horizontal o no la tenían» tiene la forma p ∨ ¬p: es verdadera por su forma lógica, sin importar cómo sea el mundo. La 2 da p ∧ ¬p, una contradicción. Las 1 y 4 producen contingencias: su verdad depende de hechos empíricos. Que algo te parezca obviamente verdadero no lo vuelve tautología.",
+    "ipc-p1-5700d249b0c90d99": "Es un silogismo disyuntivo: dada una disyunción (p ∨ q) y la negación de uno de los disyuntos (¬p), se concluye el otro (q). La 2 concluye lo contrario a lo que se sigue; la 1 afirma ambos disyuntos, algo que las premisas no autorizan; la 4 introduce un condicional que no se deduce de nada.",
+    "ipc-p1-c663b53f7d068c73": "Silogismo hipotético: de dos condicionales encadenados (el consecuente de uno coincide con el antecedente del otro) se concluye un tercer condicional. Que la línea 5 sea ella misma un CONDICIONAL ya descarta el modus tollens y la simplificación. La adjunción daría una conjunción y el disyuntivo requiere una disyunción, que acá no hay.",
+    "ipc-p1-494b4b97c80ade7b": "El silogismo inductivo parte de una generalización estadística («la mayoría…»), subsume un caso particular y concluye que lo cumple: el 2. La analogía compara casos que comparten propiedades para inferir que otro caso semejante tiene otra más: el 4. Los otros dos no son ninguno de los dos tipos: el 1 arranca con «todos» y es deductivo, y el 3 generaliza de una muestra a todo el conjunto (enumeración incompleta).",
+    "ipc-p1-4cc6bd5a2fd657b5": "En la enumeración incompleta se generaliza de una muestra a todo el conjunto: cuanto más grande la muestra, más fuerte el argumento. Sumar a los quechuas amplía la muestra sin agotar el conjunto. La 1 lo arruina: si esos fueran los únicos pueblos, la muestra sería igual al conjunto y el argumento pasaría a ser deductivo. La 2 es un contraejemplo. La 4 no dice que los diaguitas sean un pueblo originario de América del Sur, así que no suma a la muestra relevante.",
+    "ipc-p1-c3d32d577e34df49": "Es verdadero. En Darwin la aptitud no es fuerza ni supervivencia sin más: es la eficacia de los rasgos para cumplir ciertas funciones en un ambiente concreto, y esa eficacia se traduce en dejar más descendencia. Por eso aptitud y éxito reproductivo están ligados (queda descartada la 1, aunque acierte en que la aptitud depende del ambiente, y también la 2). La 4 falla doble: apela a la fuerza y niega la dependencia del ambiente.",
+    "ipc-p1-86be8a277846e69c": "Para Lamarck los rasgos adaptativos se explican por el esfuerzo del organismo frente a las exigencias del ambiente: el uso intensivo desarrolla el órgano (o el desuso lo atrofia) y ese carácter ADQUIRIDO se hereda. Cuidado con la 4: describe variación previa más ventaja reproductiva, o sea la explicación darwiniana. La 3 es diseño inteligente y la 2 niega toda relación entre ambiente y aptitud.",
+    "ipc-p1-47127032ab7393d3": "Ojo con la consigna: se pide el que NO es argumento. El 5 es un único enunciado condicional y ninguna de sus partes se afirma, así que nada se infiere de nada. Los otros cuatro sí son argumentos: el 1 es un silogismo disyuntivo, el 2 una analogía, el 3 un silogismo inductivo y el 4 una enumeración incompleta.",
+    "ipc-p1-d30dba1e69709ae8": "Acá la conclusión no tiene indicador propio: se la identifica por descarte, porque los otros tres enunciados vienen precedidos por indicadores de premisa («ya que», «además», «por último»). No te dejes llevar por el orden: la conclusión puede aparecer primera, última o en el medio.",
+    "ipc-p1-241e5db9956f568c": "La 4 es una disyunción con un disyunto verdadero y otro falso, y eso la hace verdadera sea inclusiva o exclusiva. La 1 es una conjunción con un conyunto falso. La 2 es un condicional con antecedente verdadero y consecuente falso: el único caso en que un condicional es falso. La 3 es la negación de una verdad.",
+    "ipc-p1-da243454e6236610": "El universal habla de TODOS los elementos del conjunto y el existencial de ALGUNOS («hay un…», «algunos…», «existe un…»). Los otros tres son de tipos distintos: el 3 es singular, porque habla de un individuo específico (Tupá); el 4 y el 5 son probabilísticos o estadísticos, porque asignan una proporción.",
+    "ipc-p1-c9f12a7893380fdc": "El 2 es modus tollens. El 1 es negación del antecedente y el 3 afirmación del consecuente: las dos falacias formales clásicas. El 4 es una enumeración incompleta, que nunca es válida (a lo sumo fuerte). Al 5 le falta la premisa que niega el otro disyunto para ser un silogismo disyuntivo. Y recordá: la validez la da la forma, no que las premisas sean de hecho verdaderas.",
+    "ipc-p1-3392ea415d58aae6": "Adjunción: de dos proposiciones ya disponibles se obtiene su conjunción. La línea 5 es la conjunción de las líneas 3 y 4. Ojo con la simplificación, que va al revés: de una conjunción se extrae uno de sus conyuntos. El silogismo hipotético daría un condicional y el disyuntivo necesitaría una disyunción.",
+    "ipc-p1-2d8a9da34a52a461": "La enumeración incompleta va de varios casos particulares a TODOS los miembros de la clase: el 3. El silogismo inductivo parte de una generalización estadística, subsume un caso y concluye sobre él: el 2. Los distractores importan: el 4 tiene la misma estructura que el 2 pero arranca con «todos», o sea que es deductivo, y el 1 es una analogía.",
+    "ipc-p1-8e64fdfb11060723": "En la analogía se concluye que un caso tiene cierta propiedad por su semejanza con otros que ya sabemos que la tienen: se fortalece sumando semejanzas relevantes. La 3 agrega una propiedad más que comparten los cuatro pueblos, diaguitas incluidos. La 2 la convertiría en deducción (instanciación del universal) y la 4 en silogismo inductivo. La 1 la debilita.",
+    "ipc-p1-0f1a67795a9ad7c0": "Darwin rechaza que la evolución sea progreso. La selección natural no apunta a ningún fin ni produce especies «mejores»: solo favorece a los organismos cuyos rasgos resultan más eficaces en un ambiente dado, y ese mismo rasgo puede volverse una desventaja si el ambiente cambia. Por eso «aptitud» no tiene sentido valorativo. Las otras tres son tesis darwinianas centrales.",
+    "ipc-p1-0e55680eab2af19c": "La explicación darwiniana tiene siempre la misma estructura: la variación aparece PRIMERO y por azar en algunos individuos, después el ambiente determina que ese rasgo dé ventaja, y esa ventaja se traduce en más descendencia hasta que el rasgo se generaliza. La 1 es lamarckiana, la 2 teleológica y la 3 apela a intervención humana.",
+    "ipc-p1-4a211b5b56008abc": "No es un argumento: es un único enunciado condicional, y ninguna de sus partes se afirma, así que no hay premisas ni conclusión. Las justificaciones incorrectas fallan por motivos distintos: la 1 apela a la falsedad del antecedente, y la verdad o falsedad no decide si algo es un argumento; la 3 describe mal el fragmento; la 4 ya da por sentado que hay premisa y conclusión, y además que un argumento sea malo no lo deja de ser.",
+    "ipc-p1-c137b926a8f8fc78": "Los indicadores de premisa son «ya que» y «en efecto»; lo que no lleva indicador es la conclusión, que acá va primera. Es un modus ponens presentado al revés. Ojo con la 1: acierta los roles pero arrastra los indicadores adentro de los enunciados y enuncia la conclusión incompleta. Regla fija: los indicadores nunca forman parte del enunciado, y premisas y conclusión se enuncian completas.",
+    "ipc-p1-90f89dd5d5897a3a": "La 2 es una disyunción entre dos negaciones de enunciados verdaderos, o sea entre dos falsos: y una disyunción con ambos disyuntos falsos es falsa, sea inclusiva o exclusiva. Las otras tres son verdaderas: conjunción de dos verdaderos, condicional con antecedente y consecuente verdaderos, y disyunción con un disyunto verdadero.",
+    "ipc-p1-8cecce3ca9b2a4de": "Sí es contradicción. Adentro hay una tautología de la forma X ∨ ¬X, necesariamente verdadera; el «no es el caso que…» la niega, y la negación de algo siempre verdadero es algo siempre falso. La 2 invierte los términos; la 3 la llama contingencia, pero su verdad no depende de ningún hecho empírico; la 4 ignora la negación que la envuelve, que es lo que cambia todo.",
+    "ipc-p1-0d1bf1219a0b8cf8": "El 1 es modus tollens y el 2 modus ponens: ambos válidos. El 3 afirma el consecuente y el 4 niega el antecedente: las dos falacias formales que este parcial repite tema tras tema. Truco rápido: el condicional solo habilita a ir «hacia adelante» desde el antecedente afirmado, o «hacia atrás» desde el consecuente negado.",
+    "ipc-p1-db947d6f961c6d91": "Instanciación del universal: de «todos los F son G» más «a es F» se concluye «a es G». Ojo con el modus ponens, que es el distractor fuerte: exige que la premisa 1 sea un CONDICIONAL, y acá es un enunciado universal. La simplificación necesitaría una conjunción, el hipotético dos condicionales y el disyuntivo una disyunción.",
+    "ipc-p1-42edd120176aca82": "La enumeración incompleta generaliza de varios casos a TODOS los miembros de la clase: el 4. La analogía compara casos que comparten propiedades para inferir que otro caso semejante comparte una más: el 1. Los cuatro argumentos son casi idénticos en contenido, así que lo único que los distingue es la forma: el 2 arranca con «todos» y es deductivo, y el 3 con «la mayoría» y es silogismo inductivo.",
+    "ipc-p1-c54e7aa652e4ea28": "Un silogismo inductivo se fortalece subiendo la probabilidad de la generalización: del 80 % al 97 % la conclusión es más probable y el argumento sigue siendo inductivo. El 100 % es la trampa: con probabilidad 1 la conclusión se seguiría con necesidad y el argumento pasaría a ser DEDUCTIVO. La 3 habla de otra propiedad que no sabemos que los qom tengan, y la 4 introduce datos irrelevantes.",
+    "ipc-p1-478a963e5c32c269": "La consigna pide LAMARCK, no Darwin: cuidado, porque la 1 es una tesis darwiniana típica y es justo la que Lamarck rechaza. Para Lamarck la evolución no es ciega: sigue una escala de perfección, con una tendencia general a la complejidad, de modo que las especies más recientes son más perfectas que las más antiguas. Las otras tres son suyas.",
+    "ipc-p1-50b18b986b7a41dc": "Lo propio del creacionismo es apelar a un diseñador o creador inteligente para dar cuenta del ajuste fino entre organismo y ambiente. Este parcial repite el mismo menú de cuatro explicaciones y solo cambia cuál pide la consigna: la 1 es Lamarck, la 2 es Darwin y la 4 niega toda relación con el ambiente y lo atribuye al puro azar.",
+    "ipc-p1-da2acc18049f717e": "No es un argumento: es una enumeración. «En segundo lugar», «en tercer lugar» y «finalmente» parecen indicadores, pero acá solo ordenan una lista; ninguno de esos enunciados se ofrece como razón a favor de otro. Esa es la diferencia con el caso del Tema 5, donde tampoco había argumento pero por tratarse de un condicional.",
+    "ipc-p1-63fce6ed7425eb1e": "Es un silogismo disyuntivo con la conclusión adelante. Los indicadores de premisa son «pues» y «y»: introducen la disyunción (4) y la negación de uno de los disyuntos (3). Lo que queda sin indicador (1) es la conclusión. El enunciado 2 ni siquiera se afirma: aparece solo como disyunto adentro de la premisa 4, y un disyunto suelto no es una premisa.",
+    "ipc-p1-a0caeb2c7c59795c": "El condicional de la 1 tiene antecedente y consecuente verdaderos, así que es verdadero. La 2 es una conjunción con un conyunto falso. La 3 es una disyunción entre dos falsos. La 4 es la negación de una verdad.",
+    "ipc-p1-dc4184d29598a090": "La 2 tiene la forma ¬(p ∧ ¬p): adentro hay una contradicción, y negar algo necesariamente falso da algo necesariamente verdadero. La 3 es la trampa espejada: ¬(p → p) niega una tautología, así que es una contradicción. La 1 y la 4 son contingencias: combinan enunciados distintos entre sí, y su valor depende de cómo sean las cosas.",
+    "ipc-p1-c6a3faf81ff06be7": "Ojo: acá piden los INVÁLIDOS. El 3 afirma el consecuente y el 4 niega el antecedente. Los otros dos son válidos: el 1 es modus tollens y el 2 modus ponens. Y no te dejes llevar por el contenido: que un argumento inválido tenga premisas verdaderas y hasta conclusión verdadera no lo vuelve válido.",
+    "ipc-p1-e8660b312199b9b5": "La prueba por absurdo arranca suponiendo lo CONTRARIO de lo que se quiere probar: se supone la negación, se aplican reglas de inferencia hasta llegar a una contradicción, y esa contradicción muestra que el supuesto no puede ser verdadero, con lo cual queda establecida la tesis original. La 2 supone directamente lo que se quiere probar. Las 1 y 4 son casos particulares: darían a lo sumo apoyo inductivo.",
+    "ipc-p1-53c53f9d00ac1bb1": "Aymara y quechua comparten dos propiedades: habitar en altura y tener prácticas agrícolas de montaña. Para cerrar la analogía hace falta introducir un caso nuevo que comparta UNA de esas propiedades y concluir que tiene la otra. El parcial admite las dos direcciones. Las demás no sirven: la 2 ya está contenida en las premisas dadas, y la 3 o la 4 convertirían el argumento en silogismo inductivo o en deducción.",
+    "ipc-p1-a941ef851131ed69": "La enumeración incompleta se fortalece ampliando la muestra con casos favorables: los mayas suman un pueblo más que tiene la propiedad, sin agotar el conjunto. La 1 es la trampa: si esos fueran los únicos pueblos, la muestra sería igual al conjunto y el argumento pasaría a ser deductivo. La 4 es un contraejemplo. La 2 no aporta: dice que los diaguitas son un pueblo originario, pero no que hayan desarrollado esas técnicas.",
+    "ipc-p1-c47b2f5945f38daf": "Darwin rechaza la 4: en su teoría la aptitud ES la eficacia de los rasgos en un ambiente determinado, no algo independiente de ella. Esa eficacia diferencial es lo que produce diferencias en el éxito reproductivo. Las otras tres son suyas: la selección opera sobre las variaciones entre generaciones, los organismos se parecen a sus progenitores aunque no sean idénticos, y un mismo rasgo puede ser eficaz en un ambiente e inútil en otro.",
+    "ipc-p1-dd859116e7d1ea39": "Lamarck: el organismo se esfuerza frente a lo que el ambiente le impone, el uso desarrolla el órgano y ese carácter adquirido se hereda y se perfecciona. La 1 es Darwin, la 2 es creacionista y la 4 es un distractor sin teoría: atribuye el rasgo a una enfermedad y ni siquiera lo presenta como adaptativo.",
+    "ipc-p1-db20e816aa00b388": "No es un argumento: describe los pasos de una ceremonia. La trampa es «luego», que parece indicador de conclusión pero funciona como conector TEMPORAL («primero… luego…»); ningún enunciado se ofrece como razón a favor de otro. La 1 y la 2 suponen premisas y conclusión donde solo hay secuencia, y la 4 lo confunde con un condicional, que no es el caso.",
+    "ipc-p1-e5442d0c5e5f6388": "La conclusión va primera y es la única que no lleva indicador de premisa. Los indicadores son «dado que», «además» y «y», que introducen los tres enunciados restantes. Como argumento es una analogía. Y como siempre: no busques la conclusión por su posición en el texto.",
+    "ipc-p1-bbc061a5523eacf6": "La 2 es una conjunción entre dos negaciones de enunciados verdaderos: ambos conyuntos son falsos, así que la conjunción es falsa (con que uno solo lo fuera ya alcanzaría). Las otras tres son verdaderas: conjunción de dos verdaderos, condicional con antecedente y consecuente verdaderos, y disyunción con un disyunto verdadero.",
+    "ipc-p1-656c0510b9d1aed2": "«Es la figura más respetada pero no lo es» tiene la forma p ∧ ¬p: necesariamente falsa, sea como sea el mundo («pero» funciona como «y»). La 3 da p ∨ ¬p, que es lo contrario: una tautología. La 2 es contingente. Y la 4 da un condicional con el mismo enunciado a los dos lados, que resulta necesariamente verdadero.",
+    "ipc-p1-c23f026b4dc500f5": "Sí es válido: es un silogismo hipotético. Y la definición de validez es exactamente la de la 4. Fijate por qué fallan las otras: la 1 llama «válidas» a las premisas, y la validez es propiedad del argumento entero, no de enunciados sueltos; la 2 es la definición de INVALIDEZ; la 3 apela a la falsedad de hecho, que no decide nada, y de hecho acá las premisas son falsas y el argumento es válido igual.",
+    "ipc-p1-9572968cdeac380d": "Modus tollens: se toma el condicional de la línea 1 y la negación de su consecuente (línea 3) y se concluye la negación del antecedente. Ojo con el modus ponens, que exigiría AFIRMAR el antecedente, y con la línea 4: es correcta pero no interviene en este paso. La adjunción daría una conjunción, la simplificación necesitaría partir de una, y el hipotético requiere dos condicionales.",
+    "ipc-p1-87bbd46037f8e732": "Para armar una enumeración incompleta hace falta sumar un caso particular más con las MISMAS dos propiedades —pertenecer a la clase y tener el rasgo— y después generalizar a todos los miembros de la clase. Las opciones 3 y 4 fallan porque parten la información en dos: cada una por separado atribuye solo una de las dos propiedades. La 1 introduce una negación ajena a la estructura del argumento.",
+    "ipc-p1-cb7ec8973eee3eab": "La analogía se fortalece sumando casos semejantes de los que ya sabemos que tienen la propiedad: los caribes cumplen las dos condiciones, así que engrosan la base de la comparación y el argumento sigue siendo analogía. La 2 lo volvería deductivo (instanciación del universal) y la 3 lo convertiría en silogismo inductivo. La 4 lo debilita.",
+    "ipc-p1-6cd5fd2eacd998a6": "La 2 niega el corazón mismo del lamarckismo: la herencia de los caracteres adquiridos. Para Lamarck los rasgos adaptativos —el cuello largo de la jirafa, por ejemplo— surgen del esfuerzo por adaptarse mediante el uso o desuso de ciertos órganos, y esos rasgos SÍ se transmiten a la descendencia. Las otras tres son suyas: transformación de las especies, dirección de lo simple a lo complejo y evolución como perfeccionamiento.",
+    "ipc-p1-62b41724ae5848ec": "El creacionismo apela a un diseñador para dar cuenta del ajuste entre organismo y ambiente: la armonía observada sería evidencia de un dios capaz de diseñar el mundo. La 2 es Darwin y la 4 es Lamarck (el uso desarrolla el rasgo y se hereda). La 1 no es ninguna de las tres teorías: explica el rasgo como un efecto fisiológico del individuo, sin herencia ni adaptación.",
+    "ipc-p1-c324fda9244bdcd1": "Sí es un argumento, y los indicadores lo muestran: «teniendo en cuenta que» introduce las premisas y «podemos inferir que» la conclusión. La 2 confunde ser argumento con ser buen argumento: un argumento malo sigue siendo un argumento. La 3 lo confunde con un condicional, pero acá los enunciados se afirman. La 4 lo reduce a una descripción, ignorando la inferencia.",
+    "ipc-p1-893115336e32ca89": "Los indicadores de premisa son «pues» y «y»: introducen el condicional completo y la afirmación del antecedente. Lo que queda sin indicador, y va primero, es la conclusión. Ojo con la última opción: arrastra el indicador adentro del enunciado («pues tiene influencia…») y enuncia las cosas incompletas. Regla fija: enunciados completos, indicadores afuera.",
+    "ipc-p1-bb3471cf474282f6": "La 4 es un condicional con antecedente verdadero («hablaban kakán») y consecuente falso («no fueron expertos en alfarería»): el único caso en que un condicional resulta falso. Las otras tres son verdaderas: la 1 es una conjunción de dos verdaderos, y la 2 y la 3 son disyunciones que tienen al menos un disyunto verdadero.",
+    "ipc-p1-0eb7a6c1475d835a": "El singular habla de un individuo u objeto específico y le atribuye una característica: la Pachamama. El existencial se refiere a algunos elementos de un conjunto («hay un…», «algunos…», «existe un…»): el 2. Los otros tres son de tipos distintos: el 1 es universal, el 5 es estadístico («la mayoría») y el 3 es una generalización sobre las ciudades, no un enunciado sobre un individuo.",
+    "ipc-p1-4267f588666e91ef": "El argumento es un modus tollens, o sea que es VÁLIDO: la respuesta a «¿es inválido?» es no, y la justificación correcta es la definición de validez. Doble atención acá: primero a la consigna en negativo, y después a que la 1 habla de una «conclusión válida», cuando la validez es propiedad del argumento entero y no de un enunciado. La 3 apela a la falsedad de hecho, que no decide nada, y la 4 es la definición de invalidez.",
+    "ipc-p1-ff83f4318bce8796": "Adjunción: se toman dos proposiciones ya disponibles y se obtiene la conjunción de ambas. Fijate el contraste dentro de la misma deducción: la línea 4 se obtuvo por simplificación (de una conjunción se extrae un conyunto) y la 5 por adjunción, que es la operación inversa. El silogismo disyuntivo requeriría negar un disyunto, cosa que acá no pasa.",
+    "ipc-p1-562db09998862611": "El silogismo inductivo necesita dos piezas: una generalización estadística o probabilística (la 4, «la mayoría…») y un enunciado que subsuma el caso particular en ella (la 1). La 3 es la trampa central: dice «todos», así que daría un argumento DEDUCTIVO, no inductivo. La 2 y la 5 introducen casos particulares adicionales que no cumplen ninguno de los dos roles.",
+    "ipc-p1-38ec381673fad5c8": "Se fortalece ampliando la muestra con un caso que traiga las dos cosas: pertenecer al conjunto y tener la propiedad. La 3 se queda a mitad de camino, porque no dice que los diaguitas usen esas fibras. La 2 es la trampa de siempre: agotaría el conjunto y volvería deductivo el argumento. La 4 es un contraejemplo que lo debilita.",
+    "ipc-p1-a2638f33c94bdf8e": "Es la falacia de negación del antecedente. El condicional dice que la neumonía es condición SUFICIENTE para la fiebre, no la única causa posible: negar el antecedente no autoriza a negar el consecuente (podría haber fiebre por otra infección). Ojo con la B: invalida por el contenido médico y no por la forma, y eso nunca decide la validez. La D invierte los términos: llama «necesaria» a una condición que es suficiente.",
+    "ipc-p1-24a91bb496778e76": "Es un silogismo disyuntivo. La validez no depende de si metales y no metales agotan las posibilidades reales, sino de que la conclusión se siga necesariamente DADAS las premisas. Por eso fallan la C y la D: la D cuestiona la verdad de la premisa 1, que es otra discusión. Y la A acierta el veredicto por la razón equivocada: valida por el contenido «científicamente verdadero», no por la forma.",
+    "ipc-p1-5a7a1eb6c3e24e6b": "Post hoc ergo propter hoc, la falacia de la causa falsa: del hecho de que algo ocurra antes se concluye que lo causó. La mejora del sueño pudo deberse a un efecto placebo, al paso del tiempo o a cualquier otro cambio. Las otras tres apelan a fuentes distintas: el ad baculum a la amenaza, el ad verecundiam a la autoridad y el ad populum a la opinión mayoritaria.",
+    "ipc-p1-c37ebf79fb160545": "C y D dicen casi lo mismo, y ahí está la trampa: la D restringe la exigencia a las teorías muy formalizadas, y Klimovsky la plantea para cualquier investigación, sin importar la disciplina. Lo prueba justamente con un ejemplo de investigación sociológica sobre neurosis. La A exagera hasta la inconmensurabilidad y la B convierte la ambigüedad en una propiedad permanente de los términos.",
+    "ipc-p1-27bb0ef44ef53704": "Generalización existencial: predica algo de algunos miembros del conjunto sin determinar cuáles ni cuántos. Las otras tres se distinguen así: la probabilística asigna una proporción estadística de una población no accesible a la experiencia; el enunciado empírico básico refiere a situaciones abarcables por la experiencia, sean individuos concretos o poblaciones contables; y la universal informa sobre la totalidad de una población no abarcable.",
+    "ipc-p1-a2b0aea3f17976a7": "Las cuatro opciones ubican bien el caso, así que lo que se evalúa es la justificación. Solo la C describe el contexto de justificación: cuestiones de validación, es decir, si la hipótesis es justificable y si las evidencias la apoyan. La A y la B describen en realidad el contexto de descubrimiento (cómo surgió la hipótesis, qué circunstancias personales la motivaron) y la D el contexto de aplicación (el beneficio o perjuicio del conocimiento para la comunidad).",
+    "ipc-p1-eab2a0b932bf851c": "Ad verecundiam: se intenta validar una afirmación por la opinión de quienes se consideran una autoridad, sin presentar pruebas ni argumentos. Cuidado con confundirla con el ad populum, que apela a cuántos lo creen y no a su prestigio: acá lo que pesa es que sean «renombrados científicos», no que sean muchos.",
+    "ipc-p1-a052f79bdca2a560": "Para Bordes, los argumentos libres de falacias maximizan la posibilidad de resolver disputas de forma no violenta: lo llama efecto de dialéctica racional. Las opciones A y D convierten la lógica en un arma retórica, que es lo contrario de lo que plantea, y la C directamente anula el sentido de distinguir buenos de malos argumentos.",
+    "ipc-p1-075d85b5f996c538": "Es falso: las condiciones iniciales son necesarias, porque son las que dan cuenta de las variables con las que la hipótesis puede contrastarse. Si querés poner a prueba que la privación de sueño afecta la memoria, necesitás instrumentos adecuados para medirla y gente capacitada para evaluar. Ojo con la D, que acierta el «falso» pero niega la función de las condiciones iniciales.",
+    "ipc-p1-7a65956727c25ea9": "Predictivo. Para Bunge la predicción cumple dos funciones y el caso describe las dos: es una manera eficaz de poner a prueba hipótesis, y es la clave del control y aun de la modificación del curso de los acontecimientos. Las otras: la verificabilidad refiere a aprobar el examen de la experiencia, la apertura a la refutabilidad del conocimiento y la explicatividad a responder el porqué de los hechos.",
+    "ipc-p1-abfd48de678c8293": "Es inductivo: se apoya en una regularidad observada en casos pasados para inferir un hecho nuevo, sin que la estructura garantice la transmisión de verdad. La C llega al mismo veredicto por una razón equivocada: apela a la complejidad de la disciplina y a la subjetividad, y el tipo de argumento se define solo por la fuerza del vínculo lógico entre los enunciados. Y la precisión técnica de los datos (opción A) no convierte nada en deducción.",
+    "ipc-p1-cb25946dedef7717": "Los errores empíricos son fallos al calcular datos, averiguar hechos o recabar información; los conceptuales son fallos en la comprensión de conceptos abstractos o de las relaciones entre ellos. La C además se contradice sola: describe los conceptuales pero los llama empíricos.",
+    "ipc-p1-c1dad834f28aa3fe": "La conclusión está rodeada de premisas: «dado que» y «puesto que» marcan las oraciones que funcionan como apoyo, y lo que queda en el medio es lo que se pretende establecer. La C identifica bien la conclusión pero la justifica mal: la define por la verdad y jerarquía de su contenido, cuando la conclusión se define por su función lógica en ese argumento. Ni la posición en el texto ni la veracidad del enunciado deciden nada.",
+    "ipc-p1-f674a954b32af04d": "Solo la B es una oración declarativa que afirma algo y admite valor de verdad. La terminología científica no alcanza: la A es interrogativa y no afirma ni niega nada; la C es un sintagma nominal extenso, sin verbo conjugado que prediqué algo del sujeto; y la D es directiva, un acto de habla que busca dirigir la atención. Ninguna de las tres tiene valor proposicional.",
+    "ipc-p1-60f927f5aaa8e982": "La universal informa sobre la totalidad de una población. Las otras tres son las categorías con las que se la contrasta: la A describe la generalización probabilística, la B la existencial y la C el enunciado empírico básico. Vale la pena memorizar las cuatro juntas, porque este parcial las pregunta cambiando cuál es la definición y cuál la respuesta.",
+    "ipc-p1-ed22ce52297ba7cc": "Comparativos: son la categoría intermedia entre los clasificatorios y los métricos. Además de clasificar un dominio le otorgan un orden, lo que permite comparar dos objetos según una propiedad común, acá el nivel de ansiedad. No son métricos porque no hay una magnitud numérica: «moderada» ordena, pero no mide.",
+    "ipc-p1-30068b109bbb5848": "Lo que separa a un enunciado de cualquier otra forma de lenguaje es su valor veritativo. Fijate la diferencia con la B, que es la confusión típica: no importa si todavía no sabemos si es verdadero o falso, como pasa con una hipótesis; lo que importa es que tenga la CAPACIDAD de serlo, porque describe cómo es el mundo. La A describe otros actos de habla y la C inventa una rigidez que no existe: un mismo enunciado admite muchas formulaciones.",
+    "ipc-p1-1c88d1c40557cbb2": "Ad populum: se justifica en que varias personas creen en la veracidad del enunciado. Compará con la consigna del ad verecundiam: allá el peso lo daba el prestigio de una autoridad; acá lo da la cantidad de gente que lo cree. El hombre de paja sería distorsionar la posición del otro para refutarla más fácil.",
+    "ipc-p1-cffb03f4039572ae": "Métrico, también llamado cuantitativo o de magnitudes. Las magnitudes expresan propiedades que las cosas ejemplifican según un más y un menos, y están ligadas a medir mediante instrumentos: el proceso de medición en conjunto es una representación cuantitativa de la magnitud. La trampa está en el enunciado: «ansiedad moderada» sería comparativo, pero lo que se pregunta es el puntaje 25, que es el valor numérico.",
+    "ipc-p1-593e3e2a97837235": "El epistemólogo pone en tela de juicio el conocimiento ya obtenido y examina sus criterios de validación; el metodólogo no cuestiona el conocimiento aceptado, sino que busca estrategias para incrementarlo. Klimovsky llega a decir que la metodología, en cierto modo, es posterior a la epistemología. La C invierte exactamente los roles."
   },
   "examenes": [
+    {
+      "id": "buacar-2026-04-17-p1",
+      "parcial": 1,
+      "nombre": "1er parcial · 17/04/2026",
+      "fecha": "2026-04-17",
+      "catedra": "A · Buacar, Natalia",
+      "detalle": "Cátedra Buacar. 10 ejercicios de 1 punto.",
+      "temas": [
+        {
+          "id": "t5",
+          "n": "Tema 5",
+          "fuente": "ipc-parciales-2026.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "¿Con cuál de estas tesis DARWIN NO estaría de acuerdo?",
+              "o": [
+                "La aptitud de un organismo depende del ambiente",
+                "La selección natural garantiza que las especies del presente sean mejores que las del pasado",
+                "La selección natural no tiene una dirección definida, no hay progreso en la evolución",
+                "Los organismos más aptos dejan mayor descendencia que los menos aptos"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-0f1a67795a9ad7c0",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Hay una escalera de perfeccionamiento en Darwin?"
+            },
+            {
+              "e": "2",
+              "p": "«Mientras están en desarrollo, los girasoles siguen un movimiento de este a oeste a lo largo del día (heliotropismo).» ¿Cuál opción lo explica según DARWIN?",
+              "o": [
+                "Como el sol se mueve de este a oeste, los antepasados fueron estimulados a adquirir ese movimiento y lo heredaron",
+                "Los girasoles necesitan mucha luz, por ello fueron diseñados para seguir el curso del sol",
+                "Se explica por edición genética en laboratorio: se les injertaron genes de animales diurnos",
+                "Algunos ancestros nacieron con el rasgo; como les permitía captar más luz producían más semillas, y con el tiempo el movimiento se volvió hegemónico"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-0e55680eab2af19c",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿El rasgo aparece por azar antes, o se adquiere respondiendo al ambiente?"
+            },
+            {
+              "e": "3",
+              "p": "«Si un grupo de familias mapuches relacionadas por un antepasado común habita en viviendas vecinas y se ayuda mutuamente bajo la autoridad de un jefe, entonces conforman la unidad social básica denominada lof, liderada por una autoridad espiritual.»\n\n¿Es un argumento, y por qué?",
+              "o": [
+                "No, porque el antecedente es falso",
+                "No, porque es un único enunciado condicional: su antecedente es la conjunción sobre las familias vecinas y su consecuente es que conforman un lof",
+                "Sí, porque hay un enunciado que pretende dar razones a favor de otro",
+                "No, porque la premisa no apoya a la conclusión"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-4a211b5b56008abc",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Hay algún enunciado que se esté afirmando acá?"
+            },
+            {
+              "e": "4",
+              "p": "«Los kollas actuales trabajan principalmente en las minas, ya que si cada vez hay menos tierras para la agricultura en el norte argentino, entonces los kollas actuales trabajan principalmente en las minas. Y en efecto, cada vez hay menos tierras para la agricultura en el norte argentino.»\n\n¿Cuáles son las premisas y cuál la conclusión?",
+              "o": [
+                "Con los indicadores incluidos («ya que si…», «en efecto…») y la conclusión abreviada como «trabajan principalmente en las minas»",
+                "Conclusión: cada vez hay menos tierras para la agricultura en el norte argentino",
+                "Conclusión: el condicional «si cada vez hay menos tierras…, entonces los kollas trabajan en las minas»",
+                "Premisas: el condicional completo y «cada vez hay menos tierras para la agricultura en el norte argentino». Conclusión: los kollas actuales trabajan principalmente en las minas"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-c137b926a8f8fc78",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "La conclusión puede ir primera. Y los indicadores quedan afuera del enunciado."
+            },
+            {
+              "e": "5",
+              "p": "Son VERDADEROS: «Los diaguitas eran una sociedad agricultora» y «Los diaguitas construían aldeas fortificadas». ¿Cuál de estos enunciados complejos es FALSO?",
+              "o": [
+                "Los diaguitas construían aldeas fortificadas y eran una sociedad agricultora",
+                "O bien los diaguitas no eran una sociedad agricultora, o bien no construían aldeas fortificadas",
+                "Si los diaguitas construían aldeas fortificadas, entonces eran una sociedad agricultora",
+                "Los diaguitas eran una sociedad agricultora o no construían aldeas fortificadas"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-90f89dd5d5897a3a",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Ojo: acá buscan el FALSO. ¿Cuál tiene todo falso adentro?"
+            },
+            {
+              "e": "6",
+              "p": "«No es el caso que los chamanes guaraníes eran los encargados de aceptar ofrendas o no lo eran.»\n\n¿Es una contradicción, y por qué?",
+              "o": [
+                "Sí, porque «los chamanes eran los encargados de aceptar ofrendas o no lo eran» es una tautología y está negada",
+                "Sí, porque «los chamanes eran los encargados de aceptar ofrendas o no lo eran» es una contradicción y está negada",
+                "No, porque es la negación de una contingencia",
+                "No, porque hay una disyunción entre «los chamanes eran los encargados de aceptar ofrendas» y «los chamanes no lo eran»"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-8cecce3ca9b2a4de",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Mirá primero qué hay adentro del «no es el caso que…»."
+            },
+            {
+              "e": "7",
+              "p": "¿Cuáles DOS argumentos son válidos?\n(1) Si los diaguitas son sedentarios, se dedican al cultivo. No es cierto que se dediquen al cultivo. Luego, no son sedentarios.\n(2) Si los onas se desplazan por tierra, son nómades terrestres. Dado que se desplazan por tierra, se sigue que son nómades terrestres.\n(3) Si los diaguitas hacen alfarería geométrica, diseñan sus urnas fúnebres. En efecto, diseñan sus urnas fúnebres. Por lo tanto, hacen alfarería geométrica.\n(4) Si los onas se desplazan por tierra, son cazadores-recolectores. Como no se desplazan por tierra, inferimos que no son cazadores-recolectores.",
+              "o": [
+                "1 y 2",
+                "1 y 3",
+                "2 y 4",
+                "3 y 4"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-0d1bf1219a0b8cf8",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Válido: afirmar el antecedente o negar el consecuente. Lo demás, falacia."
+            },
+            {
+              "e": "8",
+              "p": "Deducción: (1) Todos los pueblos originarios sedentarios practican la agricultura [Premisa]. (2) Los mayas son un pueblo originario sedentario [Premisa]. (3) Los mayas construyen pirámides [Premisa]. (4) Los mayas practican la agricultura [*]. (5) Los mayas construyen pirámides y practican la agricultura [Adjunción, 3 y 4].\n\n¿Cuál es la justificación de la línea [*]?",
+              "o": [
+                "Simplificación, 2",
+                "Modus ponens, 1 y 2",
+                "Instanciación del universal, 1 y 2",
+                "Silogismo hipotético, 1 y 2",
+                "Silogismo disyuntivo, 2 y 3"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-db947d6f961c6d91",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿La premisa 1 es un condicional o un enunciado universal?"
+            },
+            {
+              "e": "9",
+              "p": "Cuál es enumeración incompleta (E) y cuál analogía (A):\n(1) Kolla y atacama son originarios de América y elaboraron instrumentos musicales; el tehuelche es originario de América; por lo tanto elaboró instrumentos musicales.\n(2) TODOS los pueblos originarios de América elaboran instrumentos musicales; el tehuelche es uno de ellos; por lo tanto los elaboró.\n(3) LA MAYORÍA de los pueblos originarios de América elaboraron instrumentos musicales; el tehuelche es uno de ellos; por lo tanto los elaboró.\n(4) Kolla, atacama y tehuelche eran originarios de América y elaboraron instrumentos musicales; por lo tanto TODOS los pueblos originarios de América los elaboraron.",
+              "o": [
+                "E = 4, A = 1",
+                "E = 1, A = 4",
+                "E = 4, A = 3",
+                "E = 2, A = 1"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-42edd120176aca82",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Mirá solo la primera premisa y la conclusión de cada uno."
+            },
+            {
+              "e": "10",
+              "p": "Argumento: «El 80 % de los pueblos originarios de América del Sur que mantuvieron sus lenguas ancestrales conservaron también prácticas rituales tradicionales. Dado que los qom son un pueblo originario de América del Sur que mantuvo su lengua ancestral, podemos inferir que probablemente conservaron prácticas rituales tradicionales.»\n\n¿Qué premisa lo fortalece SIN que deje de ser un silogismo inductivo?",
+              "o": [
+                "El 97 % de los pueblos originarios de América del Sur que mantuvieron sus lenguas conservaron prácticas rituales",
+                "El 100 % de los pueblos originarios de América del Sur que mantuvieron sus lenguas conservaron prácticas rituales",
+                "El 100 % de los pueblos originarios de América del Sur que desarrollaron organización comunitaria conservaron prácticas rituales",
+                "Los qom, al igual que los quechuas, desarrollaron técnicas textiles con fibras de origen animal"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-c54e7aa652e4ea28",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Subí el porcentaje… pero sin llegar a 100."
+            }
+          ]
+        },
+        {
+          "id": "t7",
+          "n": "Tema 7",
+          "fuente": "ipc-parciales-2026.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "¿Con cuál de estas tesis LAMARCK NO estaría de acuerdo?",
+              "o": [
+                "La evolución es un proceso ciego: las especies actuales no son mejores ni peores que sus ancestros",
+                "La evolución presenta una tendencia general a la complejidad",
+                "El uso y desuso de un órgano para adaptarse a un ambiente produce su atrofia o hipertrofia",
+                "El esfuerzo de los organismos por adaptarse genera nuevos rasgos que se heredan a la descendencia"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-478a963e5c32c269",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Quién de los dos ve una escala de perfeccionamiento en la evolución?"
+            },
+            {
+              "e": "2",
+              "p": "«Las hojas de la mimosa púdica se pliegan al contacto, lo que las vuelve menos atractivas para sus predadores.» ¿Cuál opción explica el fenómeno según la teoría CREACIONISTA?",
+              "o": [
+                "El plegado es un rasgo adquirido por su esfuerzo por eludir predadores y heredado a la descendencia",
+                "El plegado es una variación que surgió en algunos ancestros y les dio ventaja, aumentando su éxito reproductivo",
+                "El plegado es evidencia de un diseñador que las volvió especialmente aptas para entornos llenos de predadores",
+                "El plegado no guarda relación con el entorno ni con los predadores: es resultado del mero azar"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-50b18b986b7a41dc",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Cuál de las cuatro apela a una intención externa?"
+            },
+            {
+              "e": "3",
+              "p": "«Antes del siglo XVIII, el pueblo mapuche cultivaba maíz, papas, porotos, quínoa y zapallos; en segundo lugar, producía bebidas como el muday y usaba merkén; en tercer lugar, consumía piñones en la cordillera y algas o mariscos en la costa; finalmente, se alimentaba de animales como el chilihueque y la gallina.»\n\n¿Es un argumento, y por qué?",
+              "o": [
+                "No, porque es un único enunciado condicional: los tres primeros tramos son el antecedente y el último el consecuente",
+                "No, porque es un conjunto de enunciados que simplemente enumera los alimentos que el pueblo mapuche producía y consumía",
+                "Sí, porque los tres primeros enunciados dan razones a favor de «se alimentaba de animales como el chilihueque y la gallina»",
+                "Sí, porque tres de esos enunciados apoyan la conclusión «consumía piñones en la cordillera y algas o mariscos en la costa»"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-da2acc18049f717e",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Alguno de esos enunciados apoya a otro, o simplemente van en lista?"
+            },
+            {
+              "e": "4",
+              "p": "Argumento: «La quínoa forma parte esencial de la dieta de los kollas. Pues, o bien la soja forma parte esencial de la dieta de los kollas, o bien lo hace la quínoa. Y la soja no forma parte esencial de la dieta de los kollas.»\n\nCandidatos: (1) la quínoa forma parte esencial — (2) la soja forma parte esencial — (3) la soja no forma parte esencial — (4) la disyunción «o bien la soja… o bien la quínoa».\n\n¿Cuáles cumplen el rol de premisas?",
+              "o": [
+                "1 y 4",
+                "1 y 3",
+                "3 y 4",
+                "2 y 4"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-63fce6ed7425eb1e",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "La conclusión va primera. ¿Qué introduce «pues»?"
+            },
+            {
+              "e": "5",
+              "p": "Son VERDADEROS: «La dieta de los mapuches variaba según dónde habitaban» y «Los mapuches fueron semisedentarios». ¿Cuál de estos enunciados complejos es VERDADERO?",
+              "o": [
+                "Si los mapuches fueron semisedentarios, entonces su dieta variaba según dónde habitaban",
+                "La dieta de los mapuches variaba según dónde habitaban, pero no fueron semisedentarios",
+                "Los mapuches no fueron semisedentarios o no tenían una dieta variada según dónde habitaban",
+                "La dieta de los mapuches no variaba según dónde habitaban"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-a0caeb2c7c59795c",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "El condicional solo falla con antecedente verdadero y consecuente falso."
+            },
+            {
+              "e": "6",
+              "p": "¿Cuál de estos enunciados es una TAUTOLOGÍA?",
+              "o": [
+                "Nguenechén es la deidad mapuche suprema o no es adorada",
+                "No es cierto que Nguenechén es la deidad mapuche suprema y que no lo es",
+                "No es cierto que si Nguenechén es la deidad mapuche suprema, entonces es su deidad suprema",
+                "Si La Machi es la deidad mapuche suprema, entonces Nguenechén no lo es"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-dc4184d29598a090",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Buscá la negación de una contradicción."
+            },
+            {
+              "e": "7",
+              "p": "¿Cuáles DOS argumentos son INVÁLIDOS?\n(1) Si los yaganes recorrieron Tierra del Fuego en canoa, eran nómades. Pero no eran nómades. Por lo tanto, no la recorrieron en canoa.\n(2) Si los aztecas construyeron altares, practicaban rituales religiosos. Dado que construyeron altares, se sigue que los practicaban.\n(3) Si los diaguitas eran sedentarios, conocían técnicas agrícolas avanzadas. En efecto, las conocían. Por consiguiente, eran sedentarios.\n(4) Si los aztecas eran monoteístas, construyeron un único templo. Pero no eran monoteístas, de lo que inferimos que no construyeron un único templo.",
+              "o": [
+                "1 y 2",
+                "1 y 3",
+                "2 y 4",
+                "3 y 4"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-c6a3faf81ff06be7",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Los inválidos son los que afirman el consecuente o niegan el antecedente."
+            },
+            {
+              "e": "8",
+              "p": "¿Con qué supuesto deberías iniciar una prueba por absurdo si querés probar que las vacunas evitan la propagación de enfermedades?",
+              "o": [
+                "La BCG es una vacuna y evita la propagación de la tuberculosis",
+                "Es cierto que las vacunas evitan la propagación de enfermedades",
+                "Las vacunas no evitan la propagación de enfermedades",
+                "La pentavalente es una vacuna y evita la propagación de muchas enfermedades"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-e8660b312199b9b5",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Por dónde empieza una reducción al absurdo?"
+            },
+            {
+              "e": "9",
+              "p": "Premisas dadas: «La comunidad aymara habita regiones de gran altitud y desarrolla prácticas agrícolas adaptadas a su entorno montañoso» y lo mismo para la comunidad quechua. Faltan una premisa (P) y la conclusión (C) para que resulte una ANALOGÍA.\n\n(1) La comunidad kolla habita regiones de gran altitud.\n(2) La comunidad quechua desarrolla prácticas agrícolas adaptadas a su entorno montañoso.\n(3) La mayoría de las comunidades que habitan en gran altitud desarrollan esas prácticas.\n(4) Todas las comunidades que habitan en gran altitud desarrollan esas prácticas.\n(5) La comunidad kolla desarrolla prácticas agrícolas adaptadas a su entorno montañoso.",
+              "o": [
+                "P = 1, C = 5 (también se acepta P = 5, C = 1)",
+                "P = 4, C = 5",
+                "P = 3, C = 5",
+                "P = 2, C = 1"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-53c53f9d00ac1bb1",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Hace falta un caso NUEVO que comparta una propiedad, y concluir la otra."
+            },
+            {
+              "e": "10",
+              "p": "Argumento: «Los quechuas, los aymaras y los mapuches desarrollaron técnicas agrícolas complejas adaptadas a su entorno. Por lo tanto, es probable que todos los pueblos originarios de América del Sur las hayan desarrollado, dado que quechuas, aymaras y mapuches son pueblos originarios de América del Sur.»\n\n¿Qué premisa lo fortalece SIN que deje de ser inductivo por enumeración incompleta?",
+              "o": [
+                "Los quechuas, aymaras y mapuches son los únicos pueblos originarios de América del Sur",
+                "Los diaguitas son pueblos originarios de América del Sur",
+                "Los mayas son pueblos originarios de América del Sur y desarrollaron técnicas agrícolas complejas adaptadas a su entorno",
+                "Los guaraníes no desarrollaron técnicas agrícolas complejas adaptadas a su entorno"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-a941ef851131ed69",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Un caso nuevo sirve solo si tiene la propiedad Y pertenece al conjunto."
+            }
+          ]
+        },
+        {
+          "id": "t9",
+          "n": "Tema 9",
+          "fuente": "ipc-parciales-2026.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "¿Con cuál de estas tesis DARWIN NO estaría de acuerdo?",
+              "o": [
+                "La selección natural opera sobre las variaciones de una generación a otra",
+                "Los organismos se parecen a sus progenitores",
+                "La eficacia de los rasgos de un organismo puede variar de un ambiente a otro",
+                "La aptitud de los organismos es independiente de la eficacia de sus rasgos en el ambiente"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-c47b2f5945f38daf",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿La aptitud es una propiedad del organismo solo, o de la relación organismo-ambiente?"
+            },
+            {
+              "e": "2",
+              "p": "«Las tortugas poseen un caparazón duro.» ¿Cuál opción explica el fenómeno según LAMARCK?",
+              "o": [
+                "Algunos antepasados nacieron con una espalda endurecida; eso les dio ventaja frente a predadores y aumentó su éxito reproductivo",
+                "El exquisito grado de adaptación entre tortugas y ambiente solo puede explicarse apelando a un diseñador inteligente",
+                "Los ancestros fueron endureciendo su espalda al resistir los ataques hasta desarrollar un caparazón, y ese rasgo adquirido se heredó",
+                "El caparazón resultó de una enfermedad que aumentó la queratina en la espalda hasta volverlas pesadas y lentas"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-dd859116e7d1ea39",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿El rasgo está antes del ambiente o se desarrolla al enfrentarlo?"
+            },
+            {
+              "e": "3",
+              "p": "«Durante la ceremonia del machitún, la machi primero identifica el origen espiritual de la enfermedad tras entrar en trance; luego, una vez descubierto el mal, procede a recetar las hierbas medicinales y los tratamientos necesarios para la sanación del paciente.»\n\n¿Es un argumento, y por qué?",
+              "o": [
+                "Sí, porque la premisa sobre identificar el origen espiritual apoya la conclusión sobre recetar hierbas",
+                "Sí, porque el enunciado sobre recetar hierbas da razones a favor del enunciado sobre entrar en trance",
+                "No, porque es un conjunto de enunciados que describen la ceremonia del machitún y los procedimientos de la machi",
+                "No, porque es un único enunciado condicional cuyo antecedente es la identificación del mal y cuyo consecuente es el recetado"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-db20e816aa00b388",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿«Luego» acá significa «por lo tanto» o «después»?"
+            },
+            {
+              "e": "4",
+              "p": "«Los kollas hacen ofrendas a la naturaleza. Dado que los mapuches son un pueblo originario y hacen ofrendas a la naturaleza. Además, los tobas son un pueblo originario y hacen ofrendas a la naturaleza. Y los kollas son un pueblo originario.»\n\n¿Cuál enunciado es la conclusión?",
+              "o": [
+                "Los tobas son un pueblo originario y hacen ofrendas a la naturaleza",
+                "Los kollas hacen ofrendas a la naturaleza",
+                "Los mapuches son un pueblo originario y hacen ofrendas a la naturaleza",
+                "Los kollas son un pueblo originario"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-e5442d0c5e5f6388",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Tachá lo que venga tras «dado que», «además» y «y»."
+            },
+            {
+              "e": "5",
+              "p": "Son VERDADEROS: «Los wichís se adaptaron a condiciones extremas» y «Los wichís poseen una dieta estacional». ¿Cuál de estos enunciados complejos es FALSO?",
+              "o": [
+                "Los wichís se adaptaron a condiciones extremas y su dieta es estacional",
+                "Los wichís no se adaptaron a condiciones extremas y no poseen una dieta estacional",
+                "Si los wichís se adaptaron a condiciones extremas, entonces poseen una dieta estacional",
+                "Los wichís poseen una dieta estacional o no se adaptaron a condiciones extremas"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-bbc061a5523eacf6",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Ojo: piden el FALSO."
+            },
+            {
+              "e": "6",
+              "p": "Completá para que sea una CONTRADICCIÓN: «El chamán wichí es la figura más respetada de su religión…»",
+              "o": [
+                "…pero no es la figura más respetada de su religión",
+                "…y además es médico e historiador",
+                "…o no lo es",
+                "…si es la figura más respetada de su religión"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-656c0510b9d1aed2",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Buscá la forma p ∧ ¬p."
+            },
+            {
+              "e": "7",
+              "p": "«Si los incas realizaron grandes avances tecnológicos, entonces podían diseñar barcos. Si podían diseñar barcos, entonces podían viajar entre continentes. Por lo tanto, si los incas realizaron grandes avances tecnológicos, entonces podían viajar entre continentes.»\n\n¿Es válido, y por qué?",
+              "o": [
+                "Sí, porque las premisas son válidas",
+                "No, porque es posible que las premisas sean verdaderas y la conclusión falsa",
+                "No, porque las premisas y la conclusión son falsas",
+                "Sí, porque es imposible que las premisas sean verdaderas y la conclusión falsa"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-c23f026b4dc500f5",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Cuál es la definición exacta de validez?"
+            },
+            {
+              "e": "8",
+              "p": "Deducción: (1) Si el pueblo yámana se dedicaba al cultivo de la tierra, entonces era sedentario [Premisa]. (2) El pueblo yámana era nómade o sedentario [Premisa]. (3) El pueblo yámana no era sedentario [Premisa]. (4) El pueblo yámana era nómade [Silogismo disyuntivo, 2 y 3]. (5) El pueblo yámana no se dedicaba al cultivo de la tierra [*].\n\n¿Cuál es la justificación de la línea [*]?",
+              "o": [
+                "Adjunción, 1 y 3",
+                "Modus ponens, 1 y 3",
+                "Silogismo hipotético, 2 y 3",
+                "Simplificación, 1",
+                "Modus tollens, 1 y 3"
+              ],
+              "c": 4,
+              "pts": 1,
+              "k": "ipc-p1-9572968cdeac380d",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Qué se niega en la línea 3: el antecedente o el consecuente del condicional 1?"
+            },
+            {
+              "e": "9",
+              "p": "Premisas dadas: «Los qom son una comunidad originaria de América y organizan sus asentamientos en espacios comunitarios compartidos» y lo mismo para los wichís. Faltan una premisa (P) y la conclusión (C) para que resulte una ENUMERACIÓN INCOMPLETA.\n\n(1) Ninguna comunidad originaria que no sea de América organiza sus asentamientos en espacios comunitarios compartidos.\n(2) Los quechuas son una comunidad originaria de América y organizan sus asentamientos en espacios comunitarios compartidos.\n(3) Los kollas son una comunidad originaria de América.\n(4) Los kollas organizan sus asentamientos en espacios comunitarios compartidos.\n(5) Todas las comunidades originarias de América organizan sus asentamientos en espacios comunitarios compartidos.",
+              "o": [
+                "P = 2, C = 5",
+                "P = 3, C = 4",
+                "P = 2, C = 4",
+                "P = 3, C = 5"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-87bbd46037f8e732",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "La premisa que falta tiene que ser otro caso igual a los dos dados. ¿Y la conclusión?"
+            },
+            {
+              "e": "10",
+              "p": "Argumento: «Los guaraníes, los tupí y los taínos habitan zonas de clima húmedo y desarrollan técnicas de cultivo de mandioca. Por lo tanto, es probable que los arahuacos, que también habitan zonas de clima húmedo, desarrollen técnicas de cultivo de mandioca.»\n\n¿Qué premisa lo fortalece SIN que deje de ser inductivo por analogía?",
+              "o": [
+                "Los caribes habitan zonas de clima húmedo y desarrollan técnicas de cultivo de mandioca",
+                "Todos los pueblos que habitan zonas de clima húmedo desarrollan técnicas de cultivo de mandioca",
+                "El 85 % de los pueblos que habitan zonas de clima húmedo desarrollan técnicas de cultivo de mandioca",
+                "Algunos pueblos que habitan zonas de clima húmedo no desarrollan técnicas de cultivo de mandioca"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-cb7ec8973eee3eab",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Más casos semejantes, no una regla general."
+            }
+          ]
+        },
+        {
+          "id": "t11",
+          "n": "Tema 11",
+          "fuente": "ipc-parciales-2026.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "¿Con cuál de estas tesis LAMARCK NO estaría de acuerdo?",
+              "o": [
+                "Las especies se transforman a lo largo del tiempo",
+                "Los rasgos adquiridos por uso y desuso no se heredan a la descendencia",
+                "La evolución tiene una dirección definida: de lo más simple a lo más complejo",
+                "La evolución es un proceso de perfeccionamiento"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-6cd5fd2eacd998a6",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Leé la 2 despacio: tiene una negación adentro."
+            },
+            {
+              "e": "2",
+              "p": "«El puercoespín se distingue por sus afiladas espinas, que lo protegen de depredadores.» ¿Cuál opción explica el fenómeno según la teoría CREACIONISTA?",
+              "o": [
+                "Las espinas son una reacción fisiológica a la dieta rica en minerales y al clima árido: la escasez de agua y el exceso de queratina endurecen el pelaje durante el crecimiento",
+                "Algunos ancestros nacieron con pelos especialmente duros que pinchaban las fauces de sus predadores; eso les permitió vivir más y dejar más descendencia",
+                "Es un animal pequeño y frágil que habita regiones con muchos predadores; por ello fueron diseñados con espinas que los protegen y los vuelven aptos para esas regiones",
+                "Los antepasados erizaban sus pelos para desalentar predadores, lo cual produjo que paulatinamente se desarrollaran espinas, y eso se transmitió a los descendientes"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-62b41724ae5848ec",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Buscá la que apela a una intención de diseño."
+            },
+            {
+              "e": "3",
+              "p": "«Teniendo en cuenta que los mapuches lafquenches se dedican mayormente a la pesca artesanal, y que el grupo de familias ubicadas en la costa del Pacífico chileno al sur de Arauco es considerado lafquenche, podemos inferir que ese grupo de familias se dedica mayormente a la pesca artesanal.»\n\n¿Es un argumento, y por qué?",
+              "o": [
+                "Sí, porque hay enunciados que pretenden dar razones a favor de otro: que el grupo de familias de la costa al sur de Arauco se dedica mayormente a la pesca artesanal",
+                "No, porque esas premisas no apoyan a la conclusión",
+                "No, porque es un único enunciado condicional cuyo antecedente son los dos primeros tramos y cuyo consecuente es el último",
+                "No, porque es un conjunto de enunciados que describen la relación de los mapuches con la pesca"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-c324fda9244bdcd1",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "«Teniendo en cuenta que» y «podemos inferir que», ¿qué son?"
+            },
+            {
+              "e": "4",
+              "p": "«El folclore argentino hace uso de instrumentos de viento. Pues si la música kolla tiene influencia en el folclore argentino, entonces éste hace uso de instrumentos de viento. Y la música kolla tiene influencia en el folclore argentino.»\n\n¿Cuáles son las premisas y cuál la conclusión?",
+              "o": [
+                "Conclusión: el condicional «si la música kolla tiene influencia…, entonces hace uso de instrumentos de viento»",
+                "Conclusión: la música kolla tiene influencia en el folclore argentino",
+                "Premisas: el condicional completo y «la música kolla tiene influencia en el folclore argentino». Conclusión: el folclore argentino hace uso de instrumentos de viento",
+                "Con los indicadores incluidos («pues tiene influencia…») y los enunciados abreviados"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-893115336e32ca89",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Modus ponens con la conclusión adelante. ¿Qué introduce «pues»?"
+            },
+            {
+              "e": "5",
+              "p": "Son VERDADEROS: «Los calchaquíes fueron un pueblo experto en alfarería» y «Los calchaquíes hablaban el idioma kakán». ¿Cuál de estos enunciados complejos es FALSO?",
+              "o": [
+                "Los calchaquíes eran un pueblo experto en alfarería y hablaban el idioma kakán",
+                "Los calchaquíes hablaban el idioma kakán o no eran un pueblo experto en alfarería",
+                "Los calchaquíes eran un pueblo experto en alfarería o no hablaban el idioma kakán",
+                "Si los calchaquíes hablaban el idioma kakán, entonces no fueron un pueblo experto en alfarería"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-bb3471cf474282f6",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Piden el FALSO. Buscá antecedente verdadero con consecuente falso."
+            },
+            {
+              "e": "6",
+              "p": "¿Cuál es singular (S) y cuál existencial (E)?\n(1) Todos los guerreros calchaquíes eran expertos en emboscadas en zonas de montaña.\n(2) Algunos calchaquíes criaban llamas para obtener lana, carne y transporte.\n(3) Las ciudades calchaquíes eran construidas en puntos elevados.\n(4) La Pachamama era la figura central del cuidado de la vida de los calchaquíes.\n(5) La mayoría de los calchaquíes trabajaban el bronce y el cobre.",
+              "o": [
+                "S = 4, E = 2",
+                "S = 3, E = 2",
+                "S = 4, E = 1",
+                "S = 2, E = 4"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-0eb7a6c1475d835a",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "El singular habla de un individuo con nombre propio."
+            },
+            {
+              "e": "7",
+              "p": "«Si los mayas construyeron pirámides, entonces tenían su propia religión. Pero los mayas no tenían su propia religión. En consecuencia, no es cierto que construyeron pirámides.»\n\n¿Es INVÁLIDO, y por qué?",
+              "o": [
+                "Sí, porque la conclusión es válida",
+                "No, porque necesariamente si las premisas son verdaderas, la conclusión también lo es",
+                "Sí, porque tanto las premisas como la conclusión son falsas",
+                "Sí, porque es posible que las premisas sean verdaderas y la conclusión falsa"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-4267f588666e91ef",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Leé bien la consigna: pregunta si es inválido. ¿Qué forma tiene?"
+            },
+            {
+              "e": "8",
+              "p": "Deducción: (1) Los aztecas construyeron templos para rituales religiosos y eran una sociedad teocrática [Premisa]. (2) Los aztecas eran politeístas o construyeron templos para rituales religiosos [Premisa]. (3) Los aztecas eran politeístas [Premisa]. (4) Los aztecas construyeron templos para rituales religiosos [Simplificación, 1]. (5) Los aztecas eran politeístas y construyeron templos para rituales religiosos [*].\n\n¿Cuál es la justificación de la línea [*]?",
+              "o": [
+                "Silogismo disyuntivo, 2 y 3",
+                "Silogismo hipotético, 2 y 3",
+                "Modus ponens, 1 y 3",
+                "Instanciación del universal, 3 y 4",
+                "Adjunción, 3 y 4"
+              ],
+              "c": 4,
+              "pts": 1,
+              "k": "ipc-p1-ff83f4318bce8796",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "La línea 5 es una conjunción armada con las líneas 3 y 4."
+            },
+            {
+              "e": "9",
+              "p": "Conclusión dada: «Los quechuas conservaron sus prácticas rituales tradicionales». Faltan las dos premisas (P1 y P2) para que el argumento sea un SILOGISMO INDUCTIVO.\n\n(1) Los quechuas son un pueblo originario que mantuvo su lengua ancestral.\n(2) Los kollas conservaron sus prácticas rituales tradicionales.\n(3) Todos los pueblos originarios que mantuvieron sus lenguas ancestrales conservaron también prácticas rituales tradicionales.\n(4) La mayoría de los pueblos originarios que mantuvieron sus lenguas ancestrales conservaron también prácticas rituales tradicionales.\n(5) Los mapuches son un pueblo originario que mantuvo su lengua ancestral y conservó sus prácticas rituales tradicionales.",
+              "o": [
+                "1 y 4",
+                "1 y 3",
+                "4 y 5",
+                "2 y 4"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-562db09998862611",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Hacen falta una generalización estadística y algo que meta a los quechuas adentro de ella."
+            },
+            {
+              "e": "10",
+              "p": "Argumento: «Los qom, los wichís y los mapuches utilizan fibras de origen animal en la producción textil. Por lo tanto, es probable que todos los pueblos originarios de Argentina las utilicen, dado que qom, wichís y mapuches son pueblos originarios de Argentina.»\n\n¿Qué premisa lo fortalece SIN que deje de ser inductivo por enumeración incompleta?",
+              "o": [
+                "Los diaguitas son pueblos originarios de Argentina y utilizan fibras de origen animal en la producción textil",
+                "Los qom, los wichís y los mapuches son los únicos pueblos originarios de Argentina",
+                "Los diaguitas son pueblos originarios de Argentina",
+                "Los guaraníes no utilizan fibras de origen animal en la producción textil"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-38ec381673fad5c8",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "El caso nuevo tiene que traer las dos cosas: pertenencia al conjunto y la propiedad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buacar-2026-04-16-p1",
+      "parcial": 1,
+      "nombre": "1er parcial · 16/04/2026",
+      "fecha": "2026-04-16",
+      "catedra": "A · Buacar, Natalia",
+      "detalle": "Cátedra Buacar. 10 ejercicios de 1 punto.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "ipc-parciales-2026.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según la teoría de la selección natural de Darwin, «Los organismos son idénticos a sus progenitores» es verdadero o falso, y ¿por qué?",
+              "o": [
+                "Verdadero: la preservación de las especies exige que la descendencia sea idéntica a los ancestros",
+                "Falso: de una generación a otra suele haber diferencias sobre las que actúa la selección natural",
+                "Falso: la selección natural garantiza que cada generación sea totalmente distinta a la anterior",
+                "Verdadero: la evolución hace que cada generación sea ligeramente más compleja que la anterior"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-f027e703774e18e3",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Sobre qué actúa la selección natural si no hay diferencias?"
+            },
+            {
+              "e": "2",
+              "p": "«Los perros pueden digerir la mayoría de los alimentos humanos, a diferencia de lobos y chacales.» ¿Cuál opción explica el fenómeno según la selección natural?",
+              "o": [
+                "Los perros fueron diseñados para digerir alimentos humanos y así poder ser domesticados con éxito",
+                "Todas las especies tienden a parecerse a los humanos, que son la forma más perfecta de la naturaleza",
+                "Algunos antepasados nacieron con esa variación; comer las sobras humanas mejoró su supervivencia y dejaron más descendencia, hasta generalizarse el rasgo",
+                "Al exponerse a esos alimentos fueron adquiriendo la capacidad de digerirlos y se la heredaron a su descendencia"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-ffa2f3166e027f05",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿La variación aparece ANTES del contacto con el ambiente o como respuesta a él?"
+            },
+            {
+              "e": "3",
+              "p": "¿Cuál de estos fragmentos es un argumento?",
+              "o": [
+                "«En primer lugar… en segundo lugar… finalmente…»: la organización social mapuche (lof, rehue, aillarehue)",
+                "«Primero… luego…»: los pasos de la ceremonia del guillatún",
+                "Los huilliches: dónde se ubicaron y qué lengua hablan",
+                "«Si la comunidad organiza el guillatún, entonces se realizan bailes rituales y se entregan ofrendas»",
+                "«Si alguien habla mapudungún, es parte del pueblo mapuche. Dado que los huilliches usan esa lengua, en consecuencia son parte del pueblo mapuche»"
+              ],
+              "c": 4,
+              "pts": 1,
+              "k": "ipc-p1-930c00e32e5f6000",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Buscá indicadores de premisa y de conclusión. Un condicional solo no alcanza."
+            },
+            {
+              "e": "4",
+              "p": "Argumento: «Si los kollas hacen ofrendas a la naturaleza y practican el trueque, entonces mantienen el principio de reciprocidad. Puesto que los kollas hacen ofrendas a la naturaleza y practican el trueque, se sigue que mantienen el principio de reciprocidad.»\n\nCandidatos: (1) el condicional completo — (2) «practican el trueque y mantienen el principio de reciprocidad» — (3) «mantienen el principio de reciprocidad» — (4) «hacen ofrendas a la naturaleza y practican el trueque».\n\n¿Cuáles cumplen el rol de premisas?",
+              "o": [
+                "1 y 4",
+                "1 y 3",
+                "3 y 4",
+                "2 y 4"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-244e12e0e6b46ca5",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Qué introduce «se sigue que»? Eso queda afuera."
+            },
+            {
+              "e": "5",
+              "p": "Son VERDADEROS: «Los tehuelches tenían viviendas fáciles de transportar» y «Los tehuelches eran nómades». ¿Cuál de estos enunciados complejos es VERDADERO?",
+              "o": [
+                "Si los tehuelches eran nómades, tenían viviendas fáciles de transportar",
+                "Los tehuelches eran nómades, pero no tenían viviendas fáciles de transportar",
+                "O bien los tehuelches no contaban con viviendas fáciles de transportar, o bien no eran nómades",
+                "No es cierto que los tehuelches hayan sido nómades"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-2ea9568cfe0bc1c5",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "El condicional solo es falso en un único caso. ¿Se da acá?"
+            },
+            {
+              "e": "6",
+              "p": "Completá para que sea una TAUTOLOGÍA: «Los tehuelches tenían una estructura social horizontal…»",
+              "o": [
+                "…si no tenían grandes diferencias jerárquicas",
+                "…pero no tenían una estructura social horizontal",
+                "…o no la tenían",
+                "…y muchos especialistas en antropología lo destacan"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-c7d245dd859e4d29",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Buscá la forma p ∨ ¬p."
+            },
+            {
+              "e": "7",
+              "p": "«Los aztecas rendían culto a una única deidad o eran politeístas. Pero no es cierto que rindieran culto a una única deidad.» ¿Qué conclusión se infiere de modo válido?",
+              "o": [
+                "Los aztecas rendían culto a una única deidad y eran politeístas",
+                "Los aztecas no eran politeístas",
+                "Los aztecas eran politeístas",
+                "Si los aztecas no rendían culto a una única deidad, no eran politeístas"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-5700d249b0c90d99",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Tenés una disyunción y la negación de uno de los disyuntos."
+            },
+            {
+              "e": "8",
+              "p": "Deducción: (1) Si el pueblo toba tiene lengua originaria propia, esa lengua es aglutinante [Premisa]. (2) Si la lengua toba es aglutinante, puede expresar una oración compleja en una sola palabra [Premisa]. (3) El pueblo toba tiene lengua originaria propia [Premisa]. (4) La lengua toba es aglutinante [Modus ponens, 1 y 3]. (5) Si el pueblo toba tiene lengua originaria propia, puede expresar una oración compleja en una sola palabra [*].\n\n¿Cuál es la justificación de la línea [*]?",
+              "o": [
+                "Silogismo disyuntivo, 1 y 2",
+                "Silogismo hipotético, 1 y 2",
+                "Simplificación, 1",
+                "Adjunción, 1 y 2",
+                "Modus tollens, 2 y 3"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-c663b53f7d068c73",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "La línea 5 es un condicional. ¿Qué regla concluye un condicional?"
+            },
+            {
+              "e": "9",
+              "p": "Cuál es analogía (A) y cuál silogismo inductivo (S):\n(1) TODOS los pueblos que mantuvieron su lengua conservaron rituales; los mapuches mantuvieron su lengua; por lo tanto conservan rituales.\n(2) LA MAYORÍA de los pueblos que mantuvieron su lengua conservaron rituales; los mapuches mantuvieron su lengua; por lo tanto conservan rituales.\n(3) Quechuas, aymaras y mapuches son originarios de América del Sur y desarrollaron técnicas agrícolas complejas; por lo tanto TODOS los pueblos originarios de América del Sur lo hicieron.\n(4) Quechuas y mapuches son originarios de América del Sur y desarrollaron técnicas agrícolas complejas; por lo tanto los aymaras también, puesto que son un pueblo originario de América del Sur.",
+              "o": [
+                "A = 4, S = 2",
+                "A = 2, S = 4",
+                "A = 3, S = 1",
+                "A = 1, S = 3"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-494b4b97c80ade7b",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿«La mayoría» o «todos»? ¿Y se comparan casos entre sí o se subsume uno en una regla?"
+            },
+            {
+              "e": "10",
+              "p": "Argumento: «Los qom y los wichís, al igual que los aymaras, mantuvieron sus lenguas ancestrales. Por lo tanto, es probable que todos los pueblos originarios de América del Sur las hayan mantenido, dado que qom, wichís y aymaras son pueblos originarios de América del Sur.»\n\n¿Qué premisa lo fortalece SIN que deje de ser inductivo por enumeración incompleta?",
+              "o": [
+                "Los qom, los wichís y los aymaras son los únicos pueblos originarios de América del Sur",
+                "Los quechuas no mantuvieron su lengua ancestral",
+                "Los quechuas, que son un pueblo originario de América del Sur, mantuvieron su lengua ancestral",
+                "Los diaguitas mantuvieron su lengua ancestral"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-4cc6bd5a2fd657b5",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Ampliá la muestra… pero sin que la muestra pase a ser TODO el conjunto."
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "ipc-parciales-2026.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según la teoría de la selección natural de Darwin, «La aptitud de un organismo aumenta su éxito reproductivo» es verdadero o falso, y ¿por qué?",
+              "o": [
+                "Falso: la aptitud depende del ambiente y no guarda ninguna relación con el éxito reproductivo",
+                "Falso: la aptitud depende exclusivamente de la supervivencia, no del éxito reproductivo",
+                "Verdadero: los más aptos tienen rasgos más eficaces para ciertas funciones en un ambiente determinado, y por eso dejan mayor descendencia",
+                "Verdadero: los organismos más fuertes tienen ventaja sobre los débiles con independencia del ambiente, y siempre dejan más descendencia"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-c3d32d577e34df49",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Qué es «ser más apto» para Darwin, y para qué sirve serlo?"
+            },
+            {
+              "e": "2",
+              "p": "«Los osos hormigueros tienen un hocico alargado, muy eficaz para introducirlo en los hormigueros.» ¿Cuál opción explica el fenómeno según LAMARCK?",
+              "o": [
+                "Al esforzarse por meter el hocico en los hormigueros lo fueron alargando, y esa característica adquirida por el uso se heredó",
+                "No hay vínculo entre entorno y aptitud: la adaptación es una ilusión del azar genético",
+                "Un diseñador inteligente les dio las características adecuadas para prosperar entre hormigueros",
+                "Algunos antepasados ya presentaban la variación de un hocico más largo, lo que les dio ventaja y les permitió dejar más descendencia"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-86be8a277846e69c",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "En Lamarck, ¿el rasgo está antes del ambiente o aparece por responder a él?"
+            },
+            {
+              "e": "3",
+              "p": "¿Cuál de estos fragmentos NO es un argumento?",
+              "o": [
+                "«Los mapuches solo se organizaban en grupos de familias o en grupos más amplios… en consecuencia, se organizaban en grupos más amplios»",
+                "La población mapuche de Chile y la de Argentina comparten varios rasgos… por lo tanto es probable que la de Argentina también sufra discriminación",
+                "«Es probable que Antú viva en Chubut, Neuquén o Río Negro, ya que… el 73 % de esos descendientes vive en tales provincias»",
+                "Picunches, huilliches y pehuenches combinaban actividades de subsistencia… por lo tanto todos los grupos mapuches lo hacían",
+                "«Si el pueblo mapuche fue sometido a campañas militares a fines del siglo XIX, entonces perdió una parte significativa de su territorio»"
+              ],
+              "c": 4,
+              "pts": 1,
+              "k": "ipc-p1-47127032ab7393d3",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Un condicional no afirma su antecedente ni su consecuente."
+            },
+            {
+              "e": "4",
+              "p": "«Es probable que los kollas hayan sido invadidos violentamente por los incas, ya que habitaban un territorio abarcado por la expansión militar de Pachacutec. Además, adquirieron el quechua como lengua principal. Por último, las anexiones de territorio hechas por los incas fueron por vías diplomáticas o por vías militares.»\n\n¿Cuál enunciado es la conclusión?",
+              "o": [
+                "Los kollas habitaban un territorio abarcado por la expansión militar de Pachacutec",
+                "Los kollas adquirieron el quechua como lengua principal",
+                "Las anexiones de territorio hechas por los incas fueron por vías diplomáticas o militares",
+                "Es probable que los kollas hayan sido invadidos violentamente por los incas"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-d30dba1e69709ae8",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Tachá todo lo que venga después de un indicador de premisa. Lo que sobra es la conclusión."
+            },
+            {
+              "e": "5",
+              "p": "Son VERDADEROS: «Los guaraníes habitaban zonas selváticas» y «Los guaraníes vivían en casas comunales grandes». ¿Cuál de estos enunciados complejos es VERDADERO?",
+              "o": [
+                "Los guaraníes no vivían en casas comunales grandes, pero habitaban zonas selváticas",
+                "Si los guaraníes vivían en casas comunales grandes, entonces no habitaban zonas selváticas",
+                "Los guaraníes no habitaban zonas selváticas",
+                "Los guaraníes vivían en casas comunales grandes o no habitaban zonas selváticas"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-241e5db9956f568c",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Cuántos disyuntos verdaderos hacen falta para que una disyunción sea verdadera?"
+            },
+            {
+              "e": "6",
+              "p": "¿Cuál es universal (U) y cuál existencial (E)?\n(1) Todos los guaraníes buscaban el paraíso terrenal «Tierra sin Mal».\n(2) Hay palabras en nuestro idioma de origen guaraní, como «yaguareté» o «Iguazú».\n(3) Tupá era el creador de la luz y el universo de los guaraníes.\n(4) El 90 % de las palabras del guaraní imitan sonidos de la naturaleza.\n(5) La mayoría de los guaraníes consumían mandioca, maíz, batata, poroto y zapallo.",
+              "o": [
+                "U = 1, E = 2",
+                "U = 5, E = 2",
+                "U = 1, E = 3",
+                "U = 4, E = 5"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-da243454e6236610",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "«La mayoría» y «el 90 %» no son ni universales ni existenciales."
+            },
+            {
+              "e": "7",
+              "p": "¿Cuál de estos argumentos es VÁLIDO?",
+              "o": [
+                "Si los diaguitas eran sedentarios, conocían técnicas agrícolas avanzadas. No eran sedentarios; se sigue que no las conocían",
+                "Si los yámana cultivaban la tierra, eran sedentarios. No es cierto que fueran sedentarios; en consecuencia, no cultivaban la tierra",
+                "Si los yámana eran nómades, eran cazadores-recolectores. Eran cazadores-recolectores; por consiguiente, eran nómades",
+                "Diaguitas y mayas eran pueblos originarios que usaban técnicas agrícolas tradicionales; por lo tanto, todos los pueblos originarios las usaban",
+                "Los mayas construyeron pirámides o eran una sociedad atea; de lo que inferimos que construyeron pirámides"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-c9f12a7893380fdc",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Buscá el que niega el CONSECUENTE."
+            },
+            {
+              "e": "8",
+              "p": "Deducción: (1) Si los onas se desplazaban por tierra, entonces eran nómades [Premisa]. (2) Si los onas eran nómades, eran cazadores-recolectores [Premisa]. (3) Los onas se desplazaban por tierra [Premisa]. (4) Los onas eran nómades [Modus ponens, 1 y 3]. (5) Los onas se desplazaban por tierra y eran nómades [*].\n\n¿Cuál es la justificación de la línea [*]?",
+              "o": [
+                "Instanciación del universal, 1 y 3",
+                "Silogismo disyuntivo, 3 y 4",
+                "Adjunción, 3 y 4",
+                "Simplificación, 3 y 4",
+                "Silogismo hipotético, 1 y 2"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-3392ea415d58aae6",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "La línea 5 es una conjunción. ¿Qué regla produce una conjunción?"
+            },
+            {
+              "e": "9",
+              "p": "Cuál es enumeración incompleta (E) y cuál silogismo inductivo (S):\n(1) Qom y wichí son originarios de América y transmiten relatos orales; por lo tanto el diaguita también, dado que es un pueblo originario de América.\n(2) LA MAYORÍA de los pueblos originarios de América poseen conocimientos medicinales; el guaraní es uno de ellos; por lo tanto posee conocimientos medicinales.\n(3) Qom, wichí y diaguita transmiten relatos orales; por lo tanto TODOS los pueblos originarios de América lo hacen.\n(4) TODOS los pueblos originarios de América poseen conocimientos medicinales; el guaraní es uno de ellos; por lo tanto posee conocimientos medicinales.",
+              "o": [
+                "E = 3, S = 2",
+                "E = 3, S = 4",
+                "E = 1, S = 2",
+                "E = 2, S = 3"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-2d8a9da34a52a461",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿La conclusión es sobre TODOS o sobre un caso? ¿Y la primera premisa dice «todos» o «la mayoría»?"
+            },
+            {
+              "e": "10",
+              "p": "Argumento: «Los quechuas, los aymaras y los mapuches son pueblos originarios de América y transmiten sus prácticas espirituales de forma comunitaria. Por lo tanto, es probable que los diaguitas, que también son un pueblo originario de América, las transmitan de forma comunitaria.»\n\n¿Qué premisa lo fortalece SIN que deje de ser inductivo por analogía?",
+              "o": [
+                "Algunos pueblos originarios de América no transmiten sus prácticas espirituales de forma comunitaria",
+                "Todos los pueblos originarios de América transmiten sus prácticas espirituales de forma comunitaria",
+                "Quechuas, aymaras, mapuches y diaguitas realizan ceremonias espirituales vinculadas a la naturaleza",
+                "El 75 % de los pueblos originarios de América transmiten sus prácticas espirituales de forma comunitaria"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-8e64fdfb11060723",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Qué fortalece una analogía: más semejanzas, o una regla general de la que deducir el caso?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gimeno-2026-04-14-p1",
+      "parcial": 1,
+      "nombre": "1er parcial · 14/04/2026",
+      "fecha": "2026-04-14",
+      "catedra": "C · Gimeno",
+      "detalle": "Cátedra Gimeno. 20 consignas de 0,50 puntos.",
+      "temas": [
+        {
+          "id": "t5",
+          "n": "Tema 5",
+          "fuente": "ipc-parciales-2026.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Determiná si el argumento es válido o inválido, y por qué:\n\nP1: Si el paciente tiene neumonía, entonces presenta fiebre alta.\nP2: El paciente no tiene neumonía.\nC: El paciente no presenta fiebre alta.",
+              "o": [
+                "Válido, porque es un razonamiento deductivo donde la verdad de la conclusión está garantizada por la información negativa de la segunda premisa",
+                "Inválido, porque parte de una premisa médica cuestionable: hay casos de neumonía sin fiebre alta",
+                "Inválido, porque es posible pensar un caso en el que las premisas sean verdaderas y la conclusión falsa sin caer en contradicción",
+                "Válido, porque sigue la estructura donde la ausencia de la condición necesaria implica la ausencia del resultado esperado"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-a2638f33c94bdf8e",
+              "notaEspecifica": true,
+              "pista": "¿Qué se niega en la segunda premisa?"
+            },
+            {
+              "e": "2",
+              "p": "Determiná si el argumento es válido o inválido, y por qué:\n\nP1: O bien la muestra observada es un metal, o bien es un no-metal.\nP2: La muestra observada no es un metal.\nC: La muestra observada es un no-metal.",
+              "o": [
+                "Válido, porque la clasificación en metales y no metales es una verdad científica universalmente aceptada",
+                "Válido, porque su estructura formal garantiza que, si se niega uno de los componentes de una disyunción, la conclusión debe afirmar el restante",
+                "Inválido, porque en lógica deductiva no se pueden extraer conclusiones sobre la naturaleza física de un objeto sin evidencia empírica directa",
+                "Inválido, porque es lógicamente posible que la premisa inicial sea falsa si existiera una tercera categoría no contemplada"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-24a91bb496778e76",
+              "notaEspecifica": true,
+              "pista": "¿La validez depende de que las premisas sean verdaderas?"
+            },
+            {
+              "e": "3",
+              "p": "Según las clasificaciones de Jaimes y Moraga, ¿qué falacia presenta este argumento?\n\n«Estuve consumiendo flores de Bach y disminuyeron mis problemas para dormir. Eso demuestra la eficacia de este tipo de medicación.»",
+              "o": [
+                "Ad baculum",
+                "Post hoc ergo propter hoc",
+                "Ad verecundiam",
+                "Ad populum"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-5a7a1eb6c3e24e6b",
+              "notaEspecifica": true,
+              "pista": "Primero una cosa, después la otra… ¿y entonces?"
+            },
+            {
+              "e": "4",
+              "p": "Klimovsky señala que «fuerza» y «masa» no tienen el mismo significado en Newton y en Einstein. ¿Qué conclusión metodológica extrae?",
+              "o": [
+                "Que Newton y Einstein trabajaron con teorías incompatibles y no comparables",
+                "Que los términos presupuestos científicos siempre poseen más de un significado legítimo y simultáneo",
+                "Que en una investigación es necesario indicar de qué teoría se extraen los términos presupuestos designativos, para evitar equívocos y garantizar la precisión del discurso científico",
+                "Que es necesario indicar de qué teoría se extraen los términos presupuestos designativos, especialmente cuando se trabaja con teorías físicas o matemáticas de alto nivel de formalización"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-c37ebf79fb160545",
+              "notaEspecifica": true,
+              "pista": "Compará C y D palabra por palabra: la diferencia está en el alcance."
+            },
+            {
+              "e": "5",
+              "p": "Según Klimovsky, ¿a qué tipo de enunciado corresponde esta definición?\n\n«Enunciado en el que se adscribe una característica a algunos miembros de una población, sin especificar cuáles ni cuántos.»",
+              "o": [
+                "Generalización existencial",
+                "Enunciado empírico básico",
+                "Generalización universal",
+                "Generalización probabilística"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "ipc-p1-27bb0ef44ef53704",
+              "notaEspecifica": true,
+              "pista": "«Algunos, sin decir cuáles ni cuántos»."
+            },
+            {
+              "e": "6",
+              "p": "¿Cuál es la caracterización correcta del contexto, según Klimovsky?\n\n«Una investigadora en psicología clínica evalúa si existe evidencia empírica suficiente para considerar válida la hipótesis de que la terapia cognitivo-conductual es más eficaz que la farmacológica en el trastorno de pánico.»",
+              "o": [
+                "Contexto de justificación, porque se examina cómo surgió y se formuló originalmente la hipótesis",
+                "Contexto de justificación, porque se analizan las circunstancias personales y profesionales que llevaron a la investigadora a interesarse por esa hipótesis",
+                "Contexto de justificación, porque se indagan los criterios y evidencias que permiten decidir si la hipótesis es válida o no",
+                "Contexto de justificación, porque se discute el beneficio que el resultado podría tener para los pacientes con trastorno de pánico"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-a2b0aea3f17976a7",
+              "notaEspecifica": true,
+              "pista": "Las cuatro dicen «justificación». Lo que se evalúa es el «porque»."
+            },
+            {
+              "e": "7",
+              "p": "Según las clasificaciones de Jaimes y Moraga, ¿qué falacia presenta este argumento?\n\n«La Tierra es plana, un grupo de renombrados científicos lo ha afirmado.»",
+              "o": [
+                "Ad verecundiam",
+                "Naturalista",
+                "Ad baculum",
+                "Ad populum"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "ipc-p1-eab2a0b932bf851c",
+              "notaEspecifica": true,
+              "pista": "¿En qué se apoya la afirmación: en pruebas o en quién lo dice?"
+            },
+            {
+              "e": "8",
+              "p": "Según Bordes, ¿cuál es una razón práctica importante para aprender a identificar falacias?",
+              "o": [
+                "Para poder debatir de forma más incisiva",
+                "Para maximizar la posibilidad de resolver disputas de forma no violenta",
+                "Para poder aceptar cualquier argumento como razonable",
+                "Para poder manipular a la audiencia cuando sea necesario en un debate"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-a052f79bdca2a560",
+              "notaEspecifica": true,
+              "pista": "¿Para qué sirve discutir sin falacias, más allá de tener razón?"
+            },
+            {
+              "e": "9",
+              "p": "Según Díez y Moulines, ¿es verdadera o falsa esta oración, y por qué?\n\n«Las condiciones iniciales pueden o no estar presentes para que la predicción se cumpla.»",
+              "o": [
+                "Verdadero. Pueden o no estar presentes, aunque es favorecedor si dan cuenta de las variables con las que puede contrastarse",
+                "Verdadero. No es necesario que estén presentes para que la predicción se cumpla, pero pueden estarlo",
+                "Falso. Es necesario que estén presentes, ya que dan cuenta de aquellas variables con las que la hipótesis podría ser contrastada correctamente",
+                "Falso. Es necesario que estén presentes, aunque no dan cuenta de las variables con las que la hipótesis podría ser contrastada"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-075d85b5f996c538",
+              "notaEspecifica": true,
+              "pista": "¿Se puede contrastar una predicción sin que se den las condiciones que la hacen posible?"
+            },
+            {
+              "e": "10",
+              "p": "Según Bunge, ¿qué característica de las ciencias fácticas se vincula con este caso?\n\n«En psicología experimental, anticipar qué conducta exhibirá un sujeto bajo determinadas condiciones no solo permite contrastar si la hipótesis es correcta, sino también intervenir y modificar esas condiciones para producir resultados distintos.»",
+              "o": [
+                "El conocimiento científico es explicativo",
+                "El conocimiento científico es abierto",
+                "El conocimiento científico es predictivo",
+                "El conocimiento científico es verificable"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-7a65956727c25ea9",
+              "notaEspecifica": true,
+              "pista": "«Anticipar qué ocurrirá» y además «intervenir para cambiarlo»."
+            },
+            {
+              "e": "11",
+              "p": "Determiná si el argumento es deductivo o inductivo, y por qué:\n\n«Todas las muestras de agua recolectadas hasta ahora en este sector del río mostraron toxicidad superior a lo permitido. En consecuencia, es altamente probable que la próxima muestra también arroje toxicidad elevada.»",
+              "o": [
+                "Deductivo, porque el uso de estándares técnicos y mediciones de laboratorio elimina cualquier posibilidad de error en la conclusión",
+                "Inductivo, porque las premisas ofrecen un apoyo parcial y probabilístico, basándose en la regularidad observada para proyectar un caso futuro",
+                "Inductivo, porque se refiere a contaminación ambiental y, como la ecología es compleja, sus conclusiones son siempre estimaciones de expertos",
+                "Deductivo, porque la estructura asegura que, si las premisas sobre las muestras anteriores son verdaderas, la conclusión debe serlo por necesidad lógica"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-abfd48de678c8293",
+              "notaEspecifica": true,
+              "pista": "Dos opciones dicen «inductivo». La diferencia está en el porqué."
+            },
+            {
+              "e": "12",
+              "p": "Bordes distingue entre errores empíricos y errores conceptuales. ¿En qué se diferencian principalmente?",
+              "o": [
+                "Los conceptuales solo los cometen los expertos, mientras que los empíricos son más comunes",
+                "No existe una diferencia significativa entre ambos tipos de errores",
+                "Los empíricos son más graves, porque se relacionan con la comprensión de conceptos abstractos",
+                "Los empíricos se relacionan con hechos o datos, mientras que los conceptuales se relacionan con la comprensión de conceptos abstractos"
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "ipc-p1-cb25946dedef7717",
+              "notaEspecifica": true,
+              "pista": "¿Errar un dato o errar una idea?"
+            },
+            {
+              "e": "13",
+              "p": "¿Cuál es la conclusión de este argumento, y por qué?\n\n«Dado que el registro fósil muestra una transición gradual entre especies terrestres y cetáceos primitivos, la teoría de la evolución cuenta con un sólido respaldo empírico, puesto que la presencia de estructuras óseas vestigiales en ballenas modernas confirma su origen en ancestros cuadrúpedos.»",
+              "o": [
+                "«El registro fósil muestra una transición gradual…», porque al ser la primera oración establece el marco lógico de todo el razonamiento",
+                "«La teoría de la evolución cuenta con un sólido respaldo empírico», porque es la proposición que el razonamiento busca fundamentar a partir de las evidencias de los demás enunciados",
+                "«La teoría de la evolución cuenta con un sólido respaldo empírico», porque al ser una ley científica de validez universal es el punto de llegada necesario de cualquier argumento en este campo",
+                "«El registro fósil muestra una transición gradual…», porque representa la tesis central que el autor intenta demostrar"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-c1dad834f28aa3fe",
+              "notaEspecifica": true,
+              "pista": "La conclusión está en el medio. Y de nuevo: mirá el porqué, no solo cuál."
+            },
+            {
+              "e": "14",
+              "p": "¿Cuál de estas oraciones representa un enunciado?",
+              "o": [
+                "¿Es viable la implementación de la fusión nuclear controlada como fuente de energía limpia a corto plazo?",
+                "Los isótopos de un mismo elemento químico poseen el mismo número de protones, pero distinto número de neutrones",
+                "La cuantificación de la incertidumbre en las mediciones de partículas subatómicas según el principio de indeterminación de Heisenberg",
+                "Tengan presente que los virus son agentes infecciosos acelulares que necesitan de una célula hospedadora para replicarse"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-f674a954b32af04d",
+              "notaEspecifica": true,
+              "pista": "¿De cuál tiene sentido preguntar si es verdadera o falsa?"
+            },
+            {
+              "e": "15",
+              "p": "Según Klimovsky, ¿cuál de estas descripciones corresponde a una generalización empírica universal?",
+              "o": [
+                "Adscribe cierta característica a una proporción estadística de una población no accesible, finita o infinita",
+                "Adscribe una característica a algunos miembros de una población, sin especificar cuáles ni cuántos",
+                "Utilizando vocabulario exclusivamente empírico, habla de una sola entidad o de un conjunto finito y accesible",
+                "Afirman algo para cada uno de los miembros de un conjunto o población de manera absoluta"
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "ipc-p1-60f927f5aaa8e982",
+              "notaEspecifica": true,
+              "pista": "«Cada uno de los miembros», sin excepción."
+            },
+            {
+              "e": "16",
+              "p": "Según Pino y Miranda, ¿qué tipo de conceptos son «ansiedad baja, ansiedad moderada, ansiedad severa»?",
+              "o": [
+                "Conceptos mensurables",
+                "Conceptos concretos",
+                "Conceptos comparativos",
+                "Conceptos métricos"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-ed22ce52297ba7cc",
+              "notaEspecifica": true,
+              "pista": "No solo clasifican: además ordenan, pero sin número."
+            },
+            {
+              "e": "17",
+              "p": "¿Cuál es la característica principal de los enunciados?",
+              "o": [
+                "Su capacidad para expresar diversas intenciones del hablante, como formular preguntas o dar órdenes",
+                "Que, como la lógica se ocupa solo de afirmaciones corroboradas científicamente, deben poseer siempre un valor de verdad verdadero",
+                "Su estructura lingüística rígida, que no permite más que una formulación por cada enunciado posible",
+                "Que afirman o niegan que algo sea el caso, es decir, su carácter declarativo; en consecuencia, son capaces de poseer valores de verdad"
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "ipc-p1-30068b109bbb5848",
+              "notaEspecifica": true,
+              "pista": "Poder ser verdadero o falso, no ser verdadero."
+            },
+            {
+              "e": "18",
+              "p": "«Todos mis compañeros de cursada creen que esta teoría psicológica es válida, así que debe serlo.» ¿Qué falacia está presente?",
+              "o": [
+                "Ad verecundiam",
+                "Post hoc ergo propter hoc",
+                "Ad populum",
+                "Hombre de paja"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-1c88d1c40557cbb2",
+              "notaEspecifica": true,
+              "pista": "¿Apela a quiénes lo dicen o a cuántos?"
+            },
+            {
+              "e": "19",
+              "p": "A una persona se le administró el Inventario de Ansiedad de Beck (BAI) y obtuvo un puntaje de 25, que corresponde a ansiedad moderada. Según Pino, ¿qué tipo de concepto es el puntaje 25 en el BAI?",
+              "o": [
+                "Concepto métrico",
+                "Conceptos clasificatorios",
+                "Concepto comparativo",
+                "Concepto topológico"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "ipc-p1-cffb03f4039572ae",
+              "notaEspecifica": true,
+              "pista": "Ojo: no te pregunta por «moderada», te pregunta por el 25."
+            },
+            {
+              "e": "20",
+              "p": "Según Klimovsky, ¿en qué se diferencia la epistemología de la metodología?",
+              "o": [
+                "La epistemología se ocupa de las ciencias fácticas; la metodología, de las ciencias formales",
+                "La epistemología estudia la validación del conocimiento; la metodología busca estrategias para obtener nuevo conocimiento",
+                "La metodología pone en tela de juicio el conocimiento ya aceptado; la epistemología no",
+                "Son sinónimos: ambas abordan los mismos problemas científicos"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-593e3e2a97837235",
+              "notaEspecifica": true,
+              "pista": "¿Quién cuestiona lo que ya se sabe y quién busca saber más?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gimeno-2025-04-15-p1",
+      "parcial": 1,
+      "nombre": "1er parcial · 15/04/2025",
+      "fecha": "2025-04-15",
+      "catedra": "C · Gimeno",
+      "detalle": "Cátedra Gimeno. 20 consignas de 0,50 puntos.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "ipc-parciales-2025.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Bunge, ¿qué característica de las ciencias fácticas se vincula con esta descripción?\n\n«El conocimiento científico no es un conjunto desordenado de proposiciones, ideas y teorías desconectadas entre sí, sino que se encuentra lógica y jerárquicamente organizado.»",
+              "o": [
+                "El conocimiento científico es claro y preciso",
+                "El conocimiento científico es sistemático",
+                "El conocimiento científico es analítico",
+                "El conocimiento científico es metódico"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-f49edb3954fd18e3",
+              "notaEspecifica": true,
+              "pista": "«Organizado y conectado entre sí»."
+            },
+            {
+              "e": "2",
+              "p": "Bordes distingue entre errores empíricos y errores conceptuales. ¿En qué se diferencian?",
+              "o": [
+                "Los empíricos son más graves, porque se relacionan con la comprensión de conceptos abstractos",
+                "Los empíricos se relacionan con hechos o datos, mientras que los conceptuales se relacionan con la comprensión de conceptos abstractos",
+                "Los conceptuales solo los cometen los expertos, mientras que los empíricos son más comunes",
+                "No existe una diferencia significativa entre ambos"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-123f0e9f5a7ffec8",
+              "notaEspecifica": true,
+              "pista": "¿Errar un dato o errar una idea?"
+            },
+            {
+              "e": "3",
+              "p": "Según Bunge, ¿qué característica se vincula con este caso?\n\n«Kinsey y McMillen emplearon un enfoque riguroso: entrevistas personales estructuradas, datos detallados de miles de individuos, cuestionarios y análisis estadísticos para procesar y presentar sus hallazgos de manera cuantitativa.»",
+              "o": [
+                "Precisión y claridad de la ciencia",
+                "Metodicidad de la ciencia",
+                "Sistematicidad de la ciencia",
+                "Especialización de la ciencia"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-e2998c22eb616f64",
+              "notaEspecifica": true,
+              "pista": "Lo que se destaca son los procedimientos."
+            },
+            {
+              "e": "4",
+              "p": "Según Jaimes y Moraga, ¿qué falacia presenta este argumento?\n\n«La Tierra es plana, un grupo de renombrados científicos lo ha afirmado.»",
+              "o": [
+                "Ad populum",
+                "Ad baculum",
+                "Naturalista",
+                "Ad verecundiam"
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "ipc-p1-dbe5f4b5bcd68cd1",
+              "notaEspecifica": true,
+              "pista": "¿Se apoya en cuántos lo dicen o en quiénes?"
+            },
+            {
+              "e": "5",
+              "p": "Según Bordes, ¿qué es una falacia?",
+              "o": [
+                "Un argumento erróneo que intenta engañar al interlocutor mediante estrategias de persuasión psicológica",
+                "Un argumento razonable que siempre resulta inválido, a pesar de seguir los criterios de una buena argumentación",
+                "Un argumento no razonable o racionalmente no convincente que, aunque puede ser válido, contiene un error inferencial por violar uno o más criterios de buena argumentación",
+                "Un argumento inválido pero que racionalmente puede sonar convincente"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-544620d7754de4de",
+              "notaEspecifica": true,
+              "pista": "¿Una falacia es necesariamente inválida? ¿Necesariamente intencional?"
+            },
+            {
+              "e": "6",
+              "p": "¿Qué discurso explicativo de la Antigüedad corresponde a esta definición?\n\n«Un discurso explicativo racional que se basa principalmente en las creencias y opiniones comunes y la experiencia personal.»",
+              "o": [
+                "Dóxa",
+                "Epistéme",
+                "Lógos",
+                "Mýthos"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "ipc-p1-563843e973c89114",
+              "notaEspecifica": true,
+              "pista": "Racional, pero sin fundamentación rigurosa."
+            },
+            {
+              "e": "7",
+              "p": "Según la clasificación de Klimovsky, ¿a qué tipo corresponde este enunciado?\n\n«Sólo un 12 % de los casos estudiados reportó haber mejorado de sus ataques de ansiedad luego de haber tomado el fármaco B.»",
+              "o": [
+                "Enunciado empírico básico",
+                "Generalización empírica estadística",
+                "Generalización empírica existencial",
+                "Enunciado teórico"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "ipc-p1-dcbb65e6f09c5449",
+              "notaEspecifica": true,
+              "pista": "Que haya un porcentaje no lo vuelve automáticamente estadístico."
+            },
+            {
+              "e": "8",
+              "p": "¿Qué falacia presenta este argumento?\n\n«No podemos confiar en lo que dice este político sobre la economía, ya que fue acusado de corrupción hace unos años.»",
+              "o": [
+                "Ad misericordiam",
+                "Ad hominem",
+                "Falacia de ambigüedad",
+                "Negación del antecedente"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-97eb82d236bdd97a",
+              "notaEspecifica": true,
+              "pista": "¿Se ataca el argumento o a quien lo formula?"
+            },
+            {
+              "e": "9",
+              "p": "¿Cuál de estos ejemplos representa un ENUNCIADO EMPÍRICO BÁSICO?",
+              "o": [
+                "Un aracnofóbico registra grandes niveles de ansiedad ante la presencia de arácnidos",
+                "El 14 % de los pacientes del estudio declaró padecer de aracnofobia",
+                "Un 5 % de las personas padece de aracnofobia",
+                "La mayoría de los casos de aracnofobia presenta sudoración y aumento de la frecuencia cardíaca"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-34de297a758c29e8",
+              "notaEspecifica": true,
+              "pista": "¿Cuál habla de un grupo que se puede contar?"
+            },
+            {
+              "e": "10",
+              "p": "Según Díez y Moulines: «las condiciones iniciales pueden o no estar presentes para que la predicción se cumpla». ¿Verdadero o falso, y por qué?",
+              "o": [
+                "Verdadero. No es necesario que estén presentes, pero pueden estarlo",
+                "Falso. Es necesario que estén presentes, ya que dan cuenta de aquellas variables con las que la hipótesis podría ser contrastada correctamente",
+                "Verdadero. Pueden o no estar presentes, aunque es favorecedor si dan cuenta de las variables con las que puede ser contrastada",
+                "Falso. Es necesario que estén presentes, aunque no dan cuenta de las variables con las que la hipótesis podría ser contrastada"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-b9606994b69564c2",
+              "notaEspecifica": true,
+              "pista": "¿Se puede contrastar sin las condiciones que lo hacen posible?"
+            },
+            {
+              "e": "11",
+              "p": "Según Muñoz, la prioridad temporal implica que:",
+              "o": [
+                "La causa precede a la consecuencia",
+                "La consecuencia es anterior a la causa",
+                "La causa puede o no preceder a la consecuencia",
+                "Causa y consecuencia ocurren en el mismo momento"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "ipc-p1-4932b791383f6e82",
+              "notaEspecifica": true,
+              "pista": "Primero el timbre, después el sonido."
+            },
+            {
+              "e": "12",
+              "p": "Según Klimovsky, ¿a qué tipo de enunciado corresponde esta definición?\n\n«Son enunciados que afirman algo para cada uno de los miembros de un conjunto o una población de manera absoluta.»",
+              "o": [
+                "Generalización universal",
+                "Generalización probabilística",
+                "Generalización existencial",
+                "Enunciado empírico básico"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "ipc-p1-e0756b00c509aafa",
+              "notaEspecifica": true,
+              "pista": "«Cada uno», sin excepción."
+            },
+            {
+              "e": "13",
+              "p": "Según Muñoz, la propiedad de conjunción constante afirma que:",
+              "o": [
+                "Causa y efecto se presentan siempre al mismo tiempo",
+                "Hasta el momento, cada vez que he repetido X, obtuve el mismo resultado",
+                "Que el tiempo debe ser cronometrado durante un experimento",
+                "La causa es anterior al efecto"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-d2e39327064e92c8",
+              "notaEspecifica": true,
+              "pista": "Repetición."
+            },
+            {
+              "e": "14",
+              "p": "¿Cuál de estos ejemplos es un argumento deductivo VÁLIDO?",
+              "o": [
+                "Una persona con aracnofobia siente ansiedad cerca de arácnidos / Saúl padece de aracnofobia / ∴ Saúl NO sentirá ansiedad cerca de arácnidos",
+                "La aracnofobia provoca ansiedad ante los arácnidos / Zulema sintió ansiedad al encontrarse con una araña grande / ∴ Zulema padece de aracnofobia",
+                "Los aracnofóbicos sienten ansiedad cerca de arácnidos / Domingo padece de aracnofobia / ∴ Domingo sentirá ansiedad al estar cerca de una araña grande",
+                "Un aracnofóbico reporta niveles altos de ansiedad ante los arácnidos / Carlos no es aracnofóbico / ∴ Carlos no reportará niveles altos de ansiedad"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-6691ad97422d8116",
+              "notaEspecifica": true,
+              "pista": "Buscá el que no admite contraejemplo."
+            },
+            {
+              "e": "15",
+              "p": "Según Pino, sobre teorías y leyes: «Las teorías y leyes son verdades alcanzadas en la ciencia que permanecen inmutables en el tiempo. La evidencia a favor con la que cuentan las hace superiores a las hipótesis». ¿Verdadero o falso, y por qué?",
+              "o": [
+                "Verdadero. Las teorías son el resultado final del proceso de contrastación y no pueden ser modificadas",
+                "Falso. Si bien las teorías son el resultado final y no pueden modificarse, las leyes son definiciones mutables de un modelo abstracto",
+                "Verdadero. Las teorías son el resultado final; no obstante, las leyes pueden variar con el tiempo",
+                "Falso. Las teorías no son el resultado final, pueden ser probadas o rechazadas y modificarse con el tiempo. Las leyes son definiciones de un modelo abstracto, de una idealización"
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "ipc-p1-8968158e0c42a4f1",
+              "notaEspecifica": true,
+              "pista": "¿Hay un punto final en la ciencia?"
+            },
+            {
+              "e": "16",
+              "p": "«Los narcisistas tienen una necesidad excesiva de admiración / Guido es narcisista / ∴ Guido tiene una necesidad excesiva de admiración.» ¿Válido o inválido, y por qué?",
+              "o": [
+                "Es válido porque la información de la conclusión se encuentra implícita en sus premisas",
+                "Es válido porque sus premisas y conclusión son verdaderas",
+                "Es inválido porque se puede dar el caso en el que su conclusión sea falsa y sus premisas verdaderas",
+                "Es inválido porque su conclusión es falsa"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "ipc-p1-fe9e6b6753e495ea",
+              "notaEspecifica": true,
+              "pista": "Dos opciones dicen «válido». La diferencia está en el porqué."
+            },
+            {
+              "e": "17",
+              "p": "Según Pino y Miranda, ¿qué tipo de conceptos son «alegría, ansiedad, enojo»?",
+              "o": [
+                "Conceptos comparativos",
+                "Conceptos mensurables",
+                "Conceptos métricos",
+                "Conceptos clasificatorios"
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "ipc-p1-1b873d78eee880e5",
+              "notaEspecifica": true,
+              "pista": "¿Ordenan, miden, o solo agrupan?"
+            },
+            {
+              "e": "18",
+              "p": "«Todos los cleptómanos roban objetos que no necesitan / Winona robó un objeto que no necesitaba / ∴ Winona es cleptómana.» ¿Válido o inválido, y por qué?",
+              "o": [
+                "Es inválido porque se puede dar el caso en el que su conclusión sea falsa y sus premisas verdaderas",
+                "Es inválido porque su conclusión es falsa",
+                "Es válido porque la información de la conclusión se encuentra implícita en sus premisas",
+                "Es válido porque sus premisas y conclusión son verdaderas"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "ipc-p1-2f7d0d3b4ea293ab",
+              "notaEspecifica": true,
+              "pista": "Buscá un contraejemplo: alguien que robe sin ser cleptómano."
+            },
+            {
+              "e": "19",
+              "p": "¿A qué elemento del proceso de contrastación corresponde este enunciado?\n\n«El entrenamiento cognitivo mejora la memoria de las personas.»",
+              "o": [
+                "Predicción",
+                "Condiciones iniciales",
+                "Hipótesis",
+                "Datos"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-e6446404f6a450ae",
+              "notaEspecifica": true,
+              "pista": "¿Qué es lo que se pone a prueba?"
+            },
+            {
+              "e": "20",
+              "p": "¿Cuál de estas afirmaciones sobre los argumentos deductivos es INCORRECTA?",
+              "o": [
+                "La información presente en la conclusión se encuentra implícita en sus premisas",
+                "Se forman con premisas de tipo general y conclusión de tipo particular",
+                "No se puede dar el caso en el que las premisas de un deductivo válido sean verdaderas y su conclusión falsa",
+                "Se supone un tipo de apoyo necesario o fuerte entre premisas y conclusión"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-8b65dba686cf582e",
+              "notaEspecifica": true,
+              "pista": "¿Todo deductivo va de lo general a lo particular?"
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "ipc-parciales-2025.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Bordes, ¿qué se entiende por «errores empíricos»?",
+              "o": [
+                "Errores que surgen de la aplicación incorrecta de reglas lógicas",
+                "Errores fácticos que se cometen al recabar información y que pueden encontrarse incluso en publicaciones académicas y lógicas",
+                "Errores que son producto de una mala interpretación de textos antiguos",
+                "Errores intencionales que son utilizados para engañar al oponente en un debate"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-421e8c3429b3d414",
+              "notaEspecifica": true,
+              "pista": "Errores de hecho, no de razonamiento."
+            },
+            {
+              "e": "2",
+              "p": "Según Bunge, ¿qué característica se vincula con esta descripción?\n\n«El conocimiento científico ignora el hecho aislado, se ocupa de ubicar los hechos singulares en esquemas amplios.»",
+              "o": [
+                "El conocimiento científico es objetivo",
+                "El conocimiento científico es legal",
+                "El conocimiento científico es general",
+                "El conocimiento científico es explicativo"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-9e7ea7bc482ade64",
+              "notaEspecifica": true,
+              "pista": "Del caso aislado al esquema amplio."
+            },
+            {
+              "e": "3",
+              "p": "Bordes señala que la insuficiencia y superficialidad de la definición de falacias en el ámbito retórico y epistémico llevó a los especialistas a mirar hacia otro lado. ¿Hacia dónde?",
+              "o": [
+                "Hacia un análisis más profundo de las estructuras lógicas formales",
+                "Hacia el estudio de los elementos dialécticos y la audiencia",
+                "Hacia la catalogación exhaustiva de todos los tipos posibles de errores lingüísticos",
+                "Hacia la simplificación de las normas del debate académico"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-6fa2b621c8e5dd83",
+              "notaEspecifica": true,
+              "pista": "Enfoques relativistas y dialécticos."
+            },
+            {
+              "e": "4",
+              "p": "Según Bunge, ¿qué característica se vincula con este caso?\n\n«Durante mucho tiempo se aceptaba la hipótesis de la lateralización cerebral —hemisferio izquierdo lógico, derecho creativo—. Investigaciones recientes con neuroimagen demostraron que ambos hemisferios trabajan en conjunto en la mayoría de las tareas cognitivas.»",
+              "o": [
+                "Apertura de la ciencia",
+                "Metodicidad de la ciencia",
+                "Trascendencia de los hechos de la ciencia",
+                "Explicatividad de la ciencia"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "ipc-p1-a8334cf66f9b0eb8",
+              "notaEspecifica": true,
+              "pista": "Lo que se destaca es que una idea aceptada fue refutada."
+            },
+            {
+              "e": "5",
+              "p": "Según Pino y Miranda, ¿qué tipo de conceptos son «coeficiente intelectual bajo, promedio y elevado»?",
+              "o": [
+                "Conceptos métricos",
+                "Conceptos comparativos",
+                "Conceptos clasificatorios",
+                "Conceptos lingüísticos"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-2ff5ca2cbf10fdc3",
+              "notaEspecifica": true,
+              "pista": "Clasifican… y además ordenan, pero sin número."
+            },
+            {
+              "e": "6",
+              "p": "Jaimes define el pensamiento errado como:",
+              "o": [
+                "Una hipótesis que ha resultado falsa luego del proceso de contrastación",
+                "Necesario para el avance de la ciencia",
+                "La conjunción de falacias y sesgos cognitivos que suelen justificar creencias pseudocientíficas",
+                "Una hipótesis que debe ser sometida a un proceso de contrastación"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-4e16aa1351db3f61",
+              "notaEspecifica": true,
+              "pista": "No es una hipótesis: es un patrón de razonamiento."
+            },
+            {
+              "e": "7",
+              "p": "¿Qué discurso explicativo de la Antigüedad corresponde a esta definición?\n\n«Discurso que utiliza relaciones racionales de fuerzas impersonales para explicar los fenómenos observables del mundo.»",
+              "o": [
+                "Dóxa",
+                "Epistéme",
+                "Lógos",
+                "Mýthos"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-8ac93784419185e6",
+              "notaEspecifica": true,
+              "pista": "Fuerzas impersonales, no dioses."
+            },
+            {
+              "e": "8",
+              "p": "Según Jaimes y Moraga, ¿qué falacia presenta este argumento?\n\n«El arco iris aparece siempre antes de que pare de llover. Eso demuestra que el arco iris es la causa de que la lluvia pare.»",
+              "o": [
+                "Ad baculum",
+                "Post hoc ergo propter hoc",
+                "Ad verecundiam",
+                "Naturalista"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-92ac23c2849923ba",
+              "notaEspecifica": true,
+              "pista": "Antes ≠ causa."
+            },
+            {
+              "e": "9",
+              "p": "Según Klimovsky, ¿a qué tipo corresponde este enunciado?\n\n«El tiburón duerme mientras sigue nadando y con los ojos abiertos.»",
+              "o": [
+                "Enunciado empírico básico",
+                "Generalización empírica existencial",
+                "Generalización empírica universal",
+                "Generalización empírica estadística"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-1f1ef79108573e29",
+              "notaEspecifica": true,
+              "pista": "«El tiburón» acá no es un tiburón en particular."
+            },
+            {
+              "e": "10",
+              "p": "Según Díez y Moulines: «las hipótesis son afirmaciones sometidas a prueba que se postulan para dar cuenta de determinado fenómeno y no necesariamente debemos buscar evidencia que pueda apoyarlas o refutarlas». ¿Verdadero o falso, y por qué?",
+              "o": [
+                "Verdadero. No obstante, solo es necesario buscar evidencia para apoyarlas",
+                "Verdadero. No obstante, solo es necesario buscar evidencia para refutarlas",
+                "Falso. Debemos buscar evidencia que pueda apoyarlas o refutarlas",
+                "Falso. Son afirmaciones que se postulan para dar cuenta de un fenómeno, pero pueden o no ser sometidas a prueba"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-1682b6d759b03723",
+              "notaEspecifica": true,
+              "pista": "Buscar evidencia no es opcional, y va en las dos direcciones."
+            },
+            {
+              "e": "11",
+              "p": "¿Cuál de estos ejemplos representa una GENERALIZACIÓN UNIVERSAL?",
+              "o": [
+                "El 6 % de los participantes del estudio reportó arrancarse el cabello de manera compulsiva",
+                "La paciente J. reportó mejorías considerables en sus compulsiones durante el tratamiento",
+                "El paciente con tricotilomanía reporta arrancarse el cabello de manera compulsiva y a veces comérselo",
+                "Todos los pacientes de la investigación fueron diagnosticados con tricotilomanía"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-ac90906183d8d3da",
+              "notaEspecifica": true,
+              "pista": "Ojo con la que dice «todos»: ¿de qué población habla?"
+            },
+            {
+              "e": "12",
+              "p": "Según Klimovsky, ¿a qué tipo de enunciado corresponde esta definición?\n\n«Se trata de un enunciado que, utilizando vocabulario exclusivamente empírico, habla de una sola entidad o de un conjunto finito y accesible de ellas.»",
+              "o": [
+                "Generalización universal",
+                "Generalización probabilística",
+                "Generalización existencial",
+                "Enunciado empírico básico"
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "ipc-p1-382cb2e4d8c89e36",
+              "notaEspecifica": true,
+              "pista": "Finito y accesible."
+            },
+            {
+              "e": "13",
+              "p": "Según Jaimes y Moraga, ¿qué falacia presenta este argumento?\n\n«No conocemos a nadie que haya podido ver con sus propios ojos que la Tierra es esférica, esa es otra evidencia a favor del terraplanismo.»",
+              "o": [
+                "Ad verecundiam",
+                "Ad hominem",
+                "Ad baculum",
+                "Ad ignorantiam"
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "ipc-p1-82f3c206aceb2c43",
+              "notaEspecifica": true,
+              "pista": "Ausencia de prueba tomada como prueba."
+            },
+            {
+              "e": "14",
+              "p": "Según Muñoz, ¿qué implica la propiedad de conjunción constante?",
+              "o": [
+                "Que luego de repetir lo mismo varias veces, se produjo el mismo efecto",
+                "Que causa y efecto se presentan siempre al mismo tiempo",
+                "Que la causa siempre precede al efecto",
+                "Que el tiempo debe ser cronometrado durante un experimento"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "ipc-p1-6c688e37ec41a331",
+              "notaEspecifica": true,
+              "pista": "Repetición, no simultaneidad ni orden."
+            },
+            {
+              "e": "15",
+              "p": "¿Cuál de estos ejemplos es un argumento deductivo INVÁLIDO?",
+              "o": [
+                "Una persona con aracnofobia siente ansiedad cerca de arácnidos / Saúl padece de aracnofobia / ∴ Saúl sentirá ansiedad cerca de arácnidos",
+                "La aracnofobia provoca ansiedad ante los arácnidos / Zulema sintió ansiedad al encontrarse con una araña grande / ∴ Zulema padece de aracnofobia",
+                "Los aracnofóbicos sienten ansiedad cerca de arácnidos / Domingo no siente ansiedad cerca de arácnidos / ∴ Domingo no padece de aracnofobia",
+                "Las personas criadas en ambientes estresantes son más propensas a desarrollar aracnofobia / Carlos se crió en un ambiente muy estresante / ∴ Carlos es más propenso a desarrollar aracnofobia"
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "ipc-p1-19b5c1b98bffe3f1",
+              "notaEspecifica": true,
+              "pista": "¿Cuál va del síntoma al diagnóstico?"
+            },
+            {
+              "e": "16",
+              "p": "Según Pino, sobre el período contemporáneo: «Las teorías pueden pensarse como conjuntos de modelos que intentan representar aspectos del mundo». ¿Verdadero o falso, y por qué?",
+              "o": [
+                "Falso. Los modelos solo pueden representar la realidad de manera directa pero no absoluta",
+                "Falso. Las teorías son una herramienta para representar la realidad de manera total, específica y absoluta",
+                "Verdadero. Los modelos intentan representar la realidad de manera total, específica y absoluta",
+                "Verdadero. Los modelos intentan representar la realidad de manera parcial, aproximada y no absoluta"
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "ipc-p1-27bf43074a601ab1",
+              "notaEspecifica": true,
+              "pista": "Dos opciones dicen «verdadero»: la diferencia es cómo representan."
+            },
+            {
+              "e": "17",
+              "p": "«Los narcisistas tienen una necesidad excesiva de admiración / Silvia tiene una necesidad excesiva de admiración / ∴ Silvia es narcisista.» ¿Válido o inválido, y por qué?",
+              "o": [
+                "Es válido porque la información de la conclusión se encuentra implícita en sus premisas",
+                "Es válido porque sus premisas y conclusión son verdaderas",
+                "Es inválido porque se puede dar el caso en el que su conclusión sea falsa y sus premisas verdaderas",
+                "Es inválido porque su conclusión es falsa"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-416dcbc79045f6c7",
+              "notaEspecifica": true,
+              "pista": "Compará con el caso de Guido: acá el orden está invertido."
+            },
+            {
+              "e": "18",
+              "p": "¿A qué elemento del proceso de contrastación corresponde este enunciado?\n\n«Aquellos sujetos que sean entrenados en el grupo 1 contarán con mejores puntuaciones en la escala de atención.»",
+              "o": [
+                "Predicción",
+                "Datos",
+                "Hipótesis auxiliar",
+                "Condiciones iniciales"
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "ipc-p1-4b3c5a1342187187",
+              "notaEspecifica": true,
+              "pista": "¿Es lo que se pone a prueba o lo que se espera observar?"
+            },
+            {
+              "e": "19",
+              "p": "«Todos los cleptómanos roban objetos que no necesitan / Winona NO robó un objeto que no necesitaba / ∴ Winona no es cleptómana.» ¿Válido o inválido, y por qué?",
+              "o": [
+                "Es inválido porque se puede dar el caso en el que su conclusión sea falsa y sus premisas verdaderas",
+                "Es inválido porque su conclusión es falsa",
+                "Es válido porque la información de la conclusión se encuentra implícita en sus premisas",
+                "Es válido porque sus premisas y conclusión son verdaderas"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-c136e6f3999795d9",
+              "notaEspecifica": true,
+              "pista": "Ojo: esta versión de Winona tiene una negación. No es la misma de siempre."
+            },
+            {
+              "e": "20",
+              "p": "¿Cuál de estas afirmaciones sobre los argumentos o razonamientos es INCORRECTA?",
+              "o": [
+                "Los actos de habla en los que se pretende que la verdad de la conclusión se apoye en la verdad de las premisas se llaman argumentos",
+                "Lo que define a un argumento es su estructura lógica, no el contenido de sus enunciados",
+                "La verdad efectiva de las premisas y la conclusión determinan su validez",
+                "Un argumento será deductivo o inductivo según el tipo de apoyo que se pretenda entre premisas y conclusión"
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "ipc-p1-9d02cab6a4a41d5b",
+              "notaEspecifica": true,
+              "pista": "La de siempre: ¿qué decide la validez?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buacar-2025-04-14-p1",
+      "parcial": 1,
+      "nombre": "1er parcial · 14/04/2025",
+      "fecha": "2025-04-14",
+      "catedra": "A · Buacar, Natalia",
+      "detalle": "Cátedra Buacar. 10 ejercicios de 1 punto.",
+      "temas": [
+        {
+          "id": "t9",
+          "n": "Tema 9",
+          "fuente": "ipc-parciales-2025.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "«Los mamuts rondaron la Tierra en el período Cenozoico, luego de los dinosaurios que lo hicieron en el período Mesozoico.»\n\n¿Es un argumento, y por qué?",
+              "o": [
+                "Sí, porque da información suficiente para inferir la conclusión",
+                "Sí, porque es verdadero",
+                "No, porque no hay premisas que fundamenten la conclusión",
+                "No, porque es un enunciado"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-416d980509475cc0",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "«Luego de» acá es temporal, no lógico.",
+              "aceptadas": [
+                2,
+                3
+              ]
+            },
+            {
+              "e": "2",
+              "p": "«La falta de presas grandes hizo que el tigre dientes de sable dejara de poder alimentarse. Además, tampoco estaba adaptado para sobrevivir a base de una dieta no carnívora. De lo cual se infiere su extinción.»\n\nCandidatos: (1) el tigre dientes de sable está extinto — (2) «tampoco estaba adaptado para sobrevivir a base de una dieta no carnívora» — (3) el tigre dientes de sable no estaba adaptado para sobrevivir a base de una dieta no carnívora — (4) la falta de presas grandes hizo que dejara de poder alimentarse.\n\n¿Cuáles son las premisas?",
+              "o": [
+                "1 y 4",
+                "2 y 4",
+                "3 y 4",
+                "1 y 3"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-e9d3a4d8c42ba1a1",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Una de las opciones repite la premisa sin sujeto."
+            },
+            {
+              "e": "3",
+              "p": "Son VERDADEROS: «El megalodón se alimentaba de ballenas» y «El megalodón habitaba las aguas de los trópicos». ¿Cuál de estos enunciados complejos es FALSO?",
+              "o": [
+                "El megalodón se alimentaba de ballenas y no habitaba las aguas de los trópicos",
+                "El megalodón se alimentaba de ballenas",
+                "Si el megalodón se alimentaba de ballenas, entonces habitaba las aguas de los trópicos",
+                "El megalodón se alimentaba de ballenas o habitaba las aguas de los trópicos"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-43778884d82fcc16",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Ojo: piden el FALSO."
+            },
+            {
+              "e": "4",
+              "p": "¿Cuál de estos enunciados es UNIVERSAL?",
+              "o": [
+                "El resto fósil más antiguo de león de las cavernas fue encontrado en Alaska",
+                "Todos los leones de las cavernas son carnívoros",
+                "Algunos leones de las cavernas cazan en manada",
+                "El 70 % de los leones de las cavernas machos tienen melena"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-3e069c0a964efa59",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "«Todos los…»."
+            },
+            {
+              "e": "5",
+              "p": "«Todos los titanosaurios ponen huevos.» ¿En qué situación resultaría FALSO?",
+              "o": [
+                "Si encontramos un animal que es un ictiosaurio y no pone huevos",
+                "Si encontramos un animal que es un titanosaurio y pone huevos",
+                "Si encontramos un animal que es un ictiosaurio y pone huevos",
+                "Si encontramos un animal que es un titanosaurio y no pone huevos"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-2952272b51456c33",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Contraejemplo: alguien del conjunto sin la propiedad."
+            },
+            {
+              "e": "6",
+              "p": "¿Cuál de estos enunciados es una CONTRADICCIÓN?",
+              "o": [
+                "Los dinosaurios se extinguieron en el Cretácico y no se extinguieron en el Cretácico",
+                "Los dinosaurios se extinguieron en el Cretácico",
+                "Los dinosaurios se extinguieron en el Cretácico o no se extinguieron en el Cretácico",
+                "Si los dinosaurios se extinguieron en el Cretácico, entonces se extinguieron en el Cretácico"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-94a49fdbad0784d9",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "«A y no A»."
+            },
+            {
+              "e": "7",
+              "p": "«Si el megalodón se cría en zonas cálidas, entonces el enfriamiento oceánico causa su extinción. En efecto, el megalodón se cría en zonas cálidas.» ¿Qué conclusión se infiere de modo válido?",
+              "o": [
+                "El megalodón se ve forzado a migrar a zonas cálidas",
+                "El megalodón está extinto en la actualidad",
+                "El enfriamiento oceánico causa la extinción del megalodón",
+                "El enfriamiento oceánico no causa la extinción del megalodón si migra"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-939c4ec17246d0cc",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Se afirma el antecedente."
+            },
+            {
+              "e": "8",
+              "p": "¿Cuál de estos argumentos es INVÁLIDO?",
+              "o": [
+                "Si el mamut es un elefántido, posee una trompa altamente desarrollada. En efecto, es un elefántido. Luego, posee una trompa altamente desarrollada",
+                "Los mamuts tienen trompa. Además, ponen huevos. En consecuencia, los mamuts tienen trompa y ponen huevos",
+                "Si el rinoceronte lanudo posee pelo, resiste el frío extremo de la era glacial. Pero no lo resiste. Por lo tanto, no posee pelo",
+                "Si el tigre dientes de sable camina apoyando los dedos, entonces camina sin apoyar el talón. Como camina sin apoyar el talón, se sigue que camina apoyando los dedos"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-02628546fa25cace",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Cuál afirma el consecuente?"
+            },
+            {
+              "e": "9",
+              "p": "Premisas dadas: «El rinoceronte lanudo era un mamífero prehistórico y tenía pelo largo» y lo mismo del megaterio. Faltan una premisa (P) y la conclusión (C) para que resulte una ENUMERACIÓN INCOMPLETA.\n\n(1) Ningún mamífero prehistórico tenía pelo largo.\n(2) El mamut era un mamífero prehistórico y tenía pelo largo.\n(3) El mamut era un mamífero prehistórico.\n(4) El mastodonte tenía colmillos largos.\n(5) Todos los mamíferos prehistóricos tenían pelo largo.",
+              "o": [
+                "P = 2, C = 5",
+                "P = 3, C = 5",
+                "P = 2, C = 4",
+                "P = 5, C = 2"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-55e26c79d6750602",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Un caso más idéntico a los dados, y después la generalización."
+            },
+            {
+              "e": "10",
+              "p": "«El mamut, el mastodonte y el rinoceronte lanudo eran mamíferos prehistóricos que tenían colmillos largos, de lo cual podemos inferir que seguramente el megaterio, que también era un mamífero prehistórico, tenía colmillos largos.»\n\n¿Qué premisa lo fortalece SIN que deje de ser inductivo por analogía?",
+              "o": [
+                "El tigre dientes de sable era un mamífero prehistórico que tenía colmillos largos",
+                "El 70 % de los mamíferos prehistóricos tenían colmillos largos",
+                "Todos los mamíferos prehistóricos tenían colmillos largos",
+                "Algunos mamíferos prehistóricos no tenían colmillos largos"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-9b07ba23d2aefd55",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Sumá un caso semejante más."
+            }
+          ]
+        },
+        {
+          "id": "t11",
+          "n": "Tema 11",
+          "fuente": "ipc-parciales-2025.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "«Se cree que el megalodón era caníbal. Puesto que si un fósil de diente tiene marcas de mordidas de otros dientes de la misma especie, se considera que existieron prácticas de canibalismo. Y, en efecto, los fósiles de megalodón encontrados tienen dichas marcas.»\n\n¿Es un argumento, y por qué?",
+              "o": [
+                "Sí, porque hay un condicional verdadero",
+                "Sí, porque hay más de un enunciado",
+                "No, porque su conclusión no está probada",
+                "Sí, porque se pueden identificar premisas y conclusión"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-7d8ebd286426b03b",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Buscá el indicador de premisa."
+            },
+            {
+              "e": "2",
+              "p": "«El cerdo infernal tenía una mandíbula fuerte y dientes capaces de triturar huesos. Asimismo, su tamaño y fuerza le permitían cazar y robar comida a otros depredadores. En consecuencia, es considerado un carnívoro oportunista.»\n\nCandidatos: (1) el tamaño y fuerza del cerdo infernal le permitían cazar y robar comida — (2) «asimismo, su tamaño y fuerza le permitían cazar y robar comida» — (3) es considerado un carnívoro oportunista — (4) el cerdo infernal tenía una mandíbula fuerte y dientes capaces de triturar huesos.\n\n¿Cuáles son las premisas?",
+              "o": [
+                "1 y 4",
+                "2 y 4",
+                "3 y 4",
+                "1 y 2"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-30e6d6765430eede",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "El indicador queda afuera del enunciado."
+            },
+            {
+              "e": "3",
+              "p": "Son VERDADEROS: «Los mamuts habitaron los bosques de América del Norte» y «Los mamuts se alimentaban de arbustos». ¿Cuál de estos enunciados complejos es FALSO?",
+              "o": [
+                "Si los mamuts habitaron los bosques de América del Norte entonces se alimentaban de arbustos",
+                "Si los mamuts habitaron los bosques de América del Norte entonces no se alimentaban de arbustos",
+                "O los mamuts no habitaron los bosques de América del Norte o se alimentaban de arbustos",
+                "Los mamuts habitaron los bosques de América del Norte y se alimentaban de arbustos"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-b3cc28a0ed729848",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Antecedente verdadero con consecuente falso."
+            },
+            {
+              "e": "4",
+              "p": "¿Cuál de estos enunciados es PROBABILÍSTICO?",
+              "o": [
+                "Algunos leones de las cavernas tienen rayas",
+                "El león de las cavernas más grande pesó 360 kg",
+                "Todos los leones de las cavernas son mamíferos",
+                "El 85 % de los leones de las cavernas vivía en manada"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-516b805d57ce7cec",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Un porcentaje asignado a un fenómeno."
+            },
+            {
+              "e": "5",
+              "p": "«Algunos titanosaurios miden más de 4 metros de altura.» ¿En qué situación resultaría VERDADERO?",
+              "o": [
+                "Si encontramos un animal que es un ictiosaurio y mide 4.5 metros de altura",
+                "Si encontramos un animal que es un titanosaurio y mide 4.5 metros de altura",
+                "Si encontramos un animal que es un ictiosaurio y mide 1.5 metros de altura",
+                "Si encontramos un animal que es un titanosaurio y mide 3 metros de altura"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-c19cfe101518de13",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Un caso del conjunto que cumpla la propiedad."
+            },
+            {
+              "e": "6",
+              "p": "¿Cuál de estos enunciados es una CONTINGENCIA?",
+              "o": [
+                "Los dinosaurios eran animales terrestres o no eran animales terrestres",
+                "Los dinosaurios eran animales terrestres y no eran animales terrestres",
+                "Los dinosaurios eran animales terrestres y tenían columna vertebral",
+                "Si los dinosaurios tenían columna vertebral entonces tenían columna vertebral"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-fb801aa43a5cf630",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "La que depende de los hechos."
+            },
+            {
+              "e": "7",
+              "p": "«Si los tigres dientes de sable presentan cicatrices de heridas graves, entonces compartían alimento. Si compartían alimento, entonces vivían en grupo.» ¿Qué conclusión se infiere de modo válido?",
+              "o": [
+                "Si los tigres dientes de sable vivían en grupo, entonces compartían alimento",
+                "Si los tigres dientes de sable compartían alimento, entonces podían cicatrizar heridas graves",
+                "Si los tigres dientes de sable presentan cicatrices de heridas graves, entonces vivían en grupo",
+                "Los tigres dientes de sable vivían en grupo"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-a31700e41cbc43d0",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Encadená los dos condicionales."
+            },
+            {
+              "e": "8",
+              "p": "¿Cuál de estos argumentos es INVÁLIDO?",
+              "o": [
+                "El león de las cavernas caza peces en el océano o herbívoros terrestres. Como no caza herbívoros terrestres, se sigue que caza peces en el océano",
+                "Si el mamut pone huevos, entonces tiene múltiples crías. No es cierto que el mamut pone huevos, lo cual prueba que no tiene múltiples crías",
+                "Si el mamut tiene colmillos, sus colmillos son dientes caninos. Pero no son dientes caninos, por consiguiente no tiene colmillos",
+                "Si el megalodón habita zonas cálidas, el enfriamiento oceánico lo lleva a la extinción. En efecto, habita zonas cálidas. En consecuencia, el enfriamiento lo lleva a la extinción"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-839ab05796d3d59d",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Cuál niega el antecedente?"
+            },
+            {
+              "e": "9",
+              "p": "Conclusión dada: «El mamut era un depredador». Faltan las dos premisas (P1 y P2) para que el argumento sea un SILOGISMO INDUCTIVO.\n\n(1) El mamut era un animal grande de la Edad de Hielo.\n(2) El lobo era un depredador.\n(3) Todos los animales grandes de la Edad de Hielo eran depredadores.\n(4) La mayoría de los animales grandes de la Edad de Hielo eran depredadores.\n(5) El tigre dientes de sable era un animal grande de la Edad de Hielo y era depredador.",
+              "o": [
+                "1 y 4",
+                "1 y 3",
+                "4 y 5",
+                "2 y 4"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-5f1927ca691e3364",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Generalización estadística más subsunción del caso."
+            },
+            {
+              "e": "10",
+              "p": "«El pterodáctilo, el tapejara y el dimorfodón eran reptiles prehistóricos que tenían el pico curvo, de lo cual podemos inferir que seguramente el pteranodon, que también era un reptil prehistórico, tenía pico curvo.»\n\n¿Qué premisa lo fortalece SIN que deje de ser inductivo por analogía?",
+              "o": [
+                "Todos los reptiles prehistóricos tenían el pico curvo",
+                "Algunos reptiles prehistóricos no tenían el pico curvo",
+                "El 85 % de los reptiles prehistóricos tenían el pico curvo",
+                "El ranforrinco era un reptil prehistórico que tenía el pico curvo"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-368af167a3bad2c2",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Un caso semejante más, no una regla."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buacar-2025-04-11-p1",
+      "parcial": 1,
+      "nombre": "1er parcial · 11/04/2025",
+      "fecha": "2025-04-11",
+      "catedra": "A · Buacar, Natalia",
+      "detalle": "Cátedra Buacar. 10 ejercicios de 1 punto.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "ipc-parciales-2025.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "«Si un mamut tenía mucho pelo, entonces vivía en un ambiente frío. El mamut colombino no vivía en ambientes fríos y, por lo tanto, no tenía mucho pelo.»\n\n¿Es un argumento, y por qué?",
+              "o": [
+                "Sí, porque se pueden identificar premisas y conclusión",
+                "Sí, porque hay un enunciado condicional",
+                "No, porque es un enunciado",
+                "No, porque la conclusión es verdadera"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-a0bd4ac6f64f7465",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Qué introduce «por lo tanto»?"
+            },
+            {
+              "e": "2",
+              "p": "«El tiranosaurio rex tenía dientes que medían hasta 30 cm de largo. Por otro lado, los del megalodón medían hasta 18 cm de largo. Por consiguiente, los carnívoros prehistóricos tenían mordidas letales.»\n\nCandidatos: (1) los dientes del megalodón medían hasta 18 cm — (2) «los del tiranosaurio rex medían hasta 30 cm» — (3) los carnívoros prehistóricos tenían mordidas letales — (4) el tiranosaurio rex tenía dientes que medían hasta 30 cm.\n\n¿Cuáles son las premisas?",
+              "o": [
+                "1 y 4",
+                "1 y 2",
+                "2 y 3",
+                "3 y 4"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-bc48629f6f653fb3",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Una de las opciones enuncia la premisa a medias."
+            },
+            {
+              "e": "3",
+              "p": "Son VERDADEROS: «Los dinosaurios tenían extremidades verticales» y «Los dinosaurios eran animales vertebrados». ¿Cuál de estos enunciados complejos es VERDADERO?",
+              "o": [
+                "Los dinosaurios no tenían extremidades verticales pero eran animales vertebrados",
+                "Si los dinosaurios tenían extremidades verticales, eran animales vertebrados",
+                "Los dinosaurios no tenían extremidades verticales o no eran animales vertebrados",
+                "Los dinosaurios no tenían extremidades verticales"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-29e8f34baba34b04",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "El condicional solo es falso en un caso."
+            },
+            {
+              "e": "4",
+              "p": "¿Cuál de estos enunciados es UNIVERSAL?",
+              "o": [
+                "El 80 % de los tuátaras que nacen son machos",
+                "Todos los tuátaras son reptiles",
+                "Algunos tuátaras viven más de 100 años",
+                "Henry, el tuátara, vive en Nueva Zelanda"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-dbc71ac4a0649c22",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "«Todos los…»."
+            },
+            {
+              "e": "5",
+              "p": "«Todos los ictiosaurios son carnívoros.» ¿En qué situación resultaría FALSO?",
+              "o": [
+                "Si encontramos un animal que es un tiranosaurio y solo se alimenta de vegetales",
+                "Si encontramos un animal que es un tiranosaurio y se alimenta de carne",
+                "Si encontramos un animal que es un ictiosaurio y solo se alimenta de vegetales",
+                "Si encontramos un animal que es un ictiosaurio y se alimenta de carne"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-85a47ac274e0de87",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Hace falta un contraejemplo: alguien del conjunto que NO tenga la propiedad."
+            },
+            {
+              "e": "6",
+              "p": "¿Cuál de estos enunciados es una TAUTOLOGÍA?",
+              "o": [
+                "Los dinosaurios eran animales terrestres y no eran animales terrestres",
+                "Si los dinosaurios eran animales terrestres entonces eran animales terrestres",
+                "Los dinosaurios eran animales terrestres pero también acuáticos",
+                "Los dinosaurios eran animales terrestres"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-31ccb0010c92260d",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Un condicional con el mismo enunciado de los dos lados."
+            },
+            {
+              "e": "7",
+              "p": "«Si los mamuts tienen espaldas rectas, entonces aparecen con espaldas rectas en las pinturas rupestres. Pero los mamuts no aparecen con espaldas rectas en las pinturas rupestres.» ¿Qué conclusión se infiere de modo válido?",
+              "o": [
+                "Los mamuts no aparecen en las pinturas rupestres",
+                "Los mamuts tienen espaldas rectas",
+                "Los mamuts aparecen con joroba en las pinturas rupestres",
+                "Los mamuts no tienen espaldas rectas"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-facf1c6cb5140584",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Se niega el consecuente."
+            },
+            {
+              "e": "8",
+              "p": "¿Cuál de estos argumentos es INVÁLIDO?",
+              "o": [
+                "Si el león de las cavernas caza herbívoros, vive en el bosque. No es cierto que viva en el bosque. Por lo tanto, no caza herbívoros",
+                "El tigre dientes de sable vive en grupo o es solitario. No es cierto que sea solitario. Por lo tanto, vive en grupo",
+                "Si el rinoceronte lanudo pertenece a la megafauna prehistórica, se extinguió hace 30.000 años. Y pertenece a la megafauna, lo cual prueba que se extinguió hace 30.000 años",
+                "El rinoceronte lanudo tiene pelaje o cuernos. Por consiguiente, tiene pelaje"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-26751feb08f8a7a2",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Una disyunción sola no autoriza a quedarse con uno de los disyuntos."
+            },
+            {
+              "e": "9",
+              "p": "Premisas dadas: «El tiranosaurio era un dinosaurio carnívoro y tenía garras afiladas» y lo mismo del velociraptor. Faltan una premisa (P) y la conclusión (C) para que resulte una ANALOGÍA.\n\n(1) El estegosaurio era un dinosaurio carnívoro.\n(2) El tiranosaurio era un dinosaurio carnívoro.\n(3) La mayoría de los dinosaurios carnívoros tenían garras afiladas.\n(4) Todos los dinosaurios carnívoros tenían garras afiladas.\n(5) El estegosaurio tenía garras afiladas.",
+              "o": [
+                "P = 1, C = 5 (también se acepta P = 5, C = 1)",
+                "P = 3, C = 5",
+                "P = 4, C = 5",
+                "P = 2, C = 5"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-f09a5ffa7ae3a79a",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Hace falta un caso nuevo que comparta una propiedad, y concluir la otra."
+            },
+            {
+              "e": "10",
+              "p": "«El mamut y el rinoceronte lanudo, al igual que el mastodonte, eran depredadores. Por lo tanto, es probable que todos los animales grandes de la Edad de Hielo fueran depredadores, dado que los tres eran animales grandes de la Edad de Hielo.»\n\n¿Qué premisa lo fortalece SIN que deje de ser enumeración incompleta?",
+              "o": [
+                "El mamut, el rinoceronte lanudo y el mastodonte constituyen las únicas tres especies de animales grandes de la Edad de Hielo",
+                "El megaterio no era depredador",
+                "El tigre dientes de sable, que era un animal grande de la Edad de Hielo, era depredador",
+                "La hiena de las cavernas era un animal depredador"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-158997ee7cbda569",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "El caso nuevo tiene que traer las dos cosas: pertenencia al conjunto y la propiedad."
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "ipc-parciales-2025.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "«La resurrección genética del mamut será exitosa si los científicos pueden combinar el ADN de elefantes modernos con el ADN de mamuts conservado en el hielo.»\n\n¿Es un argumento, y por qué?",
+              "o": [
+                "Sí, porque hay un enunciado que pretende dar razones en favor de otro",
+                "Sí, porque contiene más de un enunciado simple",
+                "No, porque no se pueden identificar ni premisas ni conclusión",
+                "No, porque no es verdadero"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-f63a0acf28ece0f4",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Es un condicional, aunque el «si» esté en el medio."
+            },
+            {
+              "e": "2",
+              "p": "«Los velociraptores deben haber sido de los dinosaurios más inteligentes, ya que su cerebro era grande en comparación con su cuerpo. Además, su estructura cerebral indica que tenían buena visión, coordinación y memoria.»\n\nCandidatos: (1) la estructura cerebral indica buena visión, coordinación y memoria — (2) el cerebro era grande en comparación con su cuerpo — (3) fueron de los dinosaurios más inteligentes — (4) su cerebro era grande y tenían una estructura cerebral compleja.\n\n¿Cuáles son las premisas?",
+              "o": [
+                "1 y 2",
+                "2 y 3",
+                "1 y 4",
+                "3 y 4"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-4608d0549fc10cfc",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "«Ya que» y «además» introducen premisas."
+            },
+            {
+              "e": "3",
+              "p": "Son VERDADEROS: «Los dinosaurios eran animales terrestres» y «Los dinosaurios tenían columna vertebral». ¿Cuál de estos enunciados complejos es VERDADERO?",
+              "o": [
+                "Los dinosaurios eran animales terrestres y no tenían columna vertebral",
+                "Los dinosaurios eran animales terrestres o tenían columna vertebral",
+                "Los dinosaurios no eran animales terrestres",
+                "Si los dinosaurios eran animales terrestres, no tenían columna vertebral"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-d7db55a2fd33fb9c",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Una disyunción inclusiva con los dos disyuntos verdaderos."
+            },
+            {
+              "e": "4",
+              "p": "¿Cuál de estos enunciados es PROBABILÍSTICO?",
+              "o": [
+                "Algunos tuátaras se alimentan de insectos",
+                "Todos los tuátaras son ovíparos",
+                "La probabilidad de que un tuátara que nace sea hembra es de 0.2",
+                "Henry, el tuátara, tiene 92 años"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-e11a928d63deaf8e",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Buscá un número asignado a la ocurrencia de un fenómeno."
+            },
+            {
+              "e": "5",
+              "p": "«Algunos ictiosaurios se alimentan de moluscos.» ¿En qué situación resultaría VERDADERO?",
+              "o": [
+                "Si encontramos un animal que es un tiranosaurio y se alimenta de pequeños herbívoros",
+                "Si encontramos un animal que es un ictiosaurio y se alimenta de peces",
+                "Si encontramos un animal que es un tiranosaurio y se alimenta de moluscos",
+                "Si encontramos un animal que es un ictiosaurio y se alimenta de moluscos"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-1fe8702635b4be70",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Un existencial se verifica con un solo caso."
+            },
+            {
+              "e": "6",
+              "p": "¿Cuál de estos enunciados es una CONTRADICCIÓN?",
+              "o": [
+                "Los mamuts se alimentaban de arbustos y no se alimentaban de arbustos",
+                "Los mamuts se alimentaban de arbustos o no se alimentaban de arbustos",
+                "Los mamuts se alimentaban de arbustos",
+                "Si los mamuts se alimentaban de arbustos entonces se alimentaban de arbustos"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-45eff93b7e619dad",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "La forma típica es «A y no A»."
+            },
+            {
+              "e": "7",
+              "p": "«Si se rescata ADN de mamuts, entonces se pueden clonar. Si se pueden clonar los mamuts, entonces podrían dejar de estar extintos.» ¿Qué conclusión se infiere de modo válido?",
+              "o": [
+                "Si los mamuts pueden dejar de estar extintos, entonces se pueden clonar",
+                "Si los mamuts se pueden clonar, entonces se rescata su ADN",
+                "Si se rescata ADN de mamuts, entonces los mamuts podrían dejar de estar extintos",
+                "Los mamuts podrían dejar de estar extintos"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-a4ddd641511334dd",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Dos condicionales encadenados dan un tercer condicional."
+            },
+            {
+              "e": "8",
+              "p": "¿Cuál de estos argumentos es INVÁLIDO?",
+              "o": [
+                "Todos los felinos prehistóricos tienen garras retráctiles. El tigre dientes de sable es un felino prehistórico. Por consiguiente, tiene garras retráctiles",
+                "Si el rinoceronte lanudo se alimenta de pasto, puede digerir celulosa. Como se alimenta de pasto, queda demostrado que puede digerir celulosa",
+                "Si el megalodón tiene un canal digestivo largo, no tiene que comer con frecuencia. Si no tiene que comer con frecuencia, aguanta más tiempo sin cazar. Luego, si tiene un canal digestivo largo, aguanta más tiempo sin cazar",
+                "Si el megalodón vivió en el Cenozoico, entonces es un tiburón prehistórico. Como el megalodón es un tiburón prehistórico, podemos inferir que vivió en el Cenozoico"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-1e4b7b7becaadbef",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Cuál afirma el consecuente?"
+            },
+            {
+              "e": "9",
+              "p": "Premisas dadas: «El carnotauro era un dinosaurio carnívoro y tenía dientes afilados» y lo mismo del velociraptor. Faltan una premisa (P) y la conclusión (C) para que resulte una ENUMERACIÓN INCOMPLETA.\n\n(1) El tiranosaurio era un dinosaurio carnívoro.\n(2) Todos los dinosaurios carnívoros tenían dientes afilados.\n(3) Ningún dinosaurio carnívoro tenía dientes afilados.\n(4) El estegosaurio tenía dientes afilados.\n(5) El tiranosaurio era un dinosaurio carnívoro y tenía dientes afilados.",
+              "o": [
+                "P = 5, C = 2",
+                "P = 1, C = 2",
+                "P = 5, C = 4",
+                "P = 2, C = 5"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-d84e342485e29dcf",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Un caso más igual a los dados, y después generalizar a todos."
+            },
+            {
+              "e": "10",
+              "p": "«El 80 % de los dinosaurios carnívoros tenían los dientes afilados. Y dado que el tiranosaurio era un dinosaurio carnívoro, podemos inferir que tenía los dientes afilados.»\n\n¿Qué premisa lo fortalece SIN que deje de ser un silogismo inductivo?",
+              "o": [
+                "El tiranosaurio era un dinosaurio que cazaba en grupo",
+                "El 100 % de los dinosaurios carnívoros tenían los dientes afilados",
+                "El 90 % de los dinosaurios carnívoros tenían los dientes afilados",
+                "Todos los dinosaurios carnívoros utilizaban sus dientes para cazar"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-0999fdb323d6a031",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Subí el porcentaje, pero sin llegar a 100."
+            }
+          ]
+        },
+        {
+          "id": "t5",
+          "n": "Tema 5",
+          "fuente": "ipc-parciales-2025.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "«Los dinosaurios dominaron la Tierra en el período Mesozoico y son considerados animales prehistóricos. El mamut habitó en el período Cenozoico y es considerado un animal prehistórico. El tigre dientes de sable también es un animal prehistórico del período Cenozoico.»\n\n¿Es un argumento, y por qué?",
+              "o": [
+                "Sí, porque hay indicadores de premisas",
+                "Sí, porque sus premisas son verdaderas",
+                "No, porque no hay uno o más enunciados que pretendan dar razones en favor de otro",
+                "No, porque la conclusión es falsa"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-bc165757958e7c6c",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Alguno de estos enunciados apoya a otro?"
+            },
+            {
+              "e": "2",
+              "p": "«La titanoboa es la serpiente más grande que se ha descubierto. Porque, en primer lugar, llegaba a pesar más de una tonelada y, en segundo lugar, medía entre 13 y 15 metros de largo.»\n\nCandidatos: (1) la titanoboa llegaba a pesar más de una tonelada — (2) la titanoboa es la serpiente más grande descubierta — (3) la titanoboa medía entre 13 y 15 metros — (4) «y, en segundo lugar, medía entre 13 y 15 metros de largo».\n\n¿Cuáles son las premisas?",
+              "o": [
+                "1 y 3",
+                "2 y 3",
+                "1 y 4",
+                "2 y 4"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-50b3f8b6c4d44af3",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Los indicadores quedan afuera del enunciado."
+            },
+            {
+              "e": "3",
+              "p": "Son VERDADEROS: «El dodo era un ave terrestre» y «El dodo era un ave fácil de cazar». ¿Cuál de estos enunciados complejos es VERDADERO?",
+              "o": [
+                "El dodo no era fácil de cazar",
+                "El dodo era un ave terrestre y fácil de cazar",
+                "El dodo no era un ave terrestre o no era fácil de cazar",
+                "Si el dodo era un ave terrestre, no era fácil de cazar"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-877fcd9e835bf086",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Una conjunción con los dos conyuntos verdaderos."
+            },
+            {
+              "e": "4",
+              "p": "¿Cuál de estos enunciados es EXISTENCIAL?",
+              "o": [
+                "El 20 % de los tuátaras que nacen son hembras",
+                "Todos los tuátaras tienen visión nocturna",
+                "Algunos tuátaras miden más de 60 cm de largo",
+                "Henry, el tuátara, es carnívoro"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-73b90571fb86320c",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "«Algunos…»."
+            },
+            {
+              "e": "5",
+              "p": "«Todos los ictiosaurios son animales marinos.» ¿En qué situación resultaría FALSO?",
+              "o": [
+                "Si encontramos un animal que es un tiranosaurio y habita en la superficie terrestre",
+                "Si encontramos un animal que es un ictiosaurio y habita en el océano",
+                "Si encontramos un animal que es un tiranosaurio y habita en el océano",
+                "Si encontramos un animal que es un ictiosaurio y habita en la superficie terrestre"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-bc001932ba08e7f7",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Un miembro del conjunto que no tenga la propiedad."
+            },
+            {
+              "e": "6",
+              "p": "¿Cuál de estos enunciados es una CONTINGENCIA?",
+              "o": [
+                "El Argentinosaurus era herbívoro y tenía cuello largo",
+                "El Argentinosaurus era herbívoro o no era herbívoro",
+                "El Argentinosaurus era herbívoro y no era herbívoro",
+                "El Argentinosaurus tenía cuello largo y no tenía cuello largo"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-d7af315e3d35a04f",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Buscá la que depende de cómo sea el mundo."
+            },
+            {
+              "e": "7",
+              "p": "«Todas las especies de elefántidos poseen colmillos incisivos. Los mamuts colombinos son una especie de elefántidos.» ¿Qué conclusión se infiere de modo válido?",
+              "o": [
+                "Los mamuts colombinos son parientes del elefante asiático, que posee colmillos incisivos",
+                "Los mamuts colombinos poseen colmillos incisivos",
+                "El elefante asiático y el mastodonte americano poseen colmillos incisivos",
+                "El elefante asiático y el mastodonte americano son especies de elefántidos"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-d4bfc2e79c278d0a",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "«Todos los F son G» más «a es F»."
+            },
+            {
+              "e": "8",
+              "p": "¿Cuál de estos argumentos es INVÁLIDO?",
+              "o": [
+                "El tigre dientes de sable tiene garras retráctiles y colmillos. De ahí se sigue que tiene garras retráctiles",
+                "Si el rinoceronte lanudo tiene pelaje, puede sobrevivir el período glacial. Pero no puede sobrevivirlo. En consecuencia, no tiene pelaje",
+                "Si el tiburón blanco es un depredador ágil, llevó a la extinción al megalodón. En efecto, es un depredador ágil. Luego llevó a la extinción al megalodón",
+                "Si el león de las cavernas caza peces, es un animal prehistórico marino. Como no es cierto que caza peces, concluimos que no es un animal prehistórico marino"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-2fef1e4d7b7e0711",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "¿Cuál niega el antecedente?"
+            },
+            {
+              "e": "9",
+              "p": "Conclusión dada: «El estegosaurio era un dinosaurio carnívoro». Faltan las dos premisas (P1 y P2) para que el argumento sea un SILOGISMO INDUCTIVO.\n\n(1) La mayoría de los dinosaurios que vivían en manadas eran carnívoros.\n(2) El estegosaurio era un dinosaurio que vivía en manadas.\n(3) El tiranosaurio era un dinosaurio que vivía en manadas y era carnívoro.\n(4) El velociraptor era un dinosaurio carnívoro.\n(5) Todos los dinosaurios que vivían en manadas eran carnívoros.",
+              "o": [
+                "1 y 2",
+                "2 y 5",
+                "1 y 3",
+                "2 y 4"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-23815ed392552b4f",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Una generalización estadística y algo que meta al estegosaurio adentro de ella."
+            },
+            {
+              "e": "10",
+              "p": "«El carnotauro, el velociraptor y el tiranosaurio eran dinosaurios carnívoros que tenían garras afiladas, de lo cual podemos inferir que seguramente el braquiosaurio, que también era un dinosaurio carnívoro, tenía las garras afiladas.»\n\n¿Qué premisa lo fortalece SIN que deje de ser inductivo por analogía?",
+              "o": [
+                "Algunos dinosaurios carnívoros no tenían las garras afiladas",
+                "Todos los dinosaurios carnívoros tenían las garras afiladas",
+                "El 80 % de los dinosaurios carnívoros tenían las garras afiladas",
+                "El gigantosaurio era un dinosaurio carnívoro que tenía las garras afiladas"
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "ipc-p1-b1ed8668dfde90e3",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Más casos semejantes, no una regla general."
+            }
+          ]
+        },
+        {
+          "id": "t7",
+          "n": "Tema 7",
+          "fuente": "ipc-parciales-2025.html",
+          "aviso": "Preguntas, claves, explicaciones y pistas importadas del cuestionario HTML.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "«Si el tiranosaurio rex tenía órganos sensoriales desarrollados, entonces era un depredador. Sabemos que sus sentidos de olfato y visión eran muy agudos, lo cual justifica considerarlo un depredador.»\n\n¿Es un argumento, y por qué?",
+              "o": [
+                "Sí, porque es inductivamente válido",
+                "Sí, porque se ofrecen premisas en favor de una conclusión",
+                "No, porque hay más de un enunciado",
+                "No, porque la conclusión es verdadera"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-73a71ad15be1d76c",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "«Lo cual justifica» es un indicador."
+            },
+            {
+              "e": "2",
+              "p": "«El rinoceronte gigante llegó a medir hasta 7 metros de altura. Por otro lado, llegó a pesar hasta 20 toneladas. De esto se sigue que sea considerado el mamífero más grande de la historia.»\n\nCandidatos: (1) «llegó a pesar hasta 20 toneladas» — (2) es considerado el mamífero más grande de la historia — (3) el rinoceronte gigante llegó a medir hasta 7 metros de altura — (4) el rinoceronte gigante llegó a pesar hasta 20 toneladas.\n\n¿Cuáles son las premisas?",
+              "o": [
+                "1 y 3",
+                "2 y 3",
+                "3 y 4",
+                "1 y 4"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-a9cb0222942c89b2",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Una opción enuncia la premisa sin sujeto."
+            },
+            {
+              "e": "3",
+              "p": "Son VERDADEROS: «El tiburón megalodón cazaba cerca de las costas» y «El tiburón megalodón habitaba aguas cálidas». ¿Cuál de estos enunciados complejos es VERDADERO?",
+              "o": [
+                "El megalodón no cazaba cerca de las costas o no habitaba aguas cálidas",
+                "Si el megalodón cazaba cerca de las costas, habitaba aguas cálidas",
+                "El megalodón no cazaba cerca de las costas",
+                "El megalodón no cazaba cerca de las costas y habitaba aguas cálidas"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-06bed037eeb6470d",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Antecedente y consecuente verdaderos."
+            },
+            {
+              "e": "4",
+              "p": "¿Cuál de estos enunciados es SINGULAR?",
+              "o": [
+                "Henry, el tuátara, tuvo más de 45 crías",
+                "Algunos tuátaras llegan a la madurez sexual después de los 15 años",
+                "El 70 % de los tuátaras vive más de 80 años",
+                "Todos los tuátaras tienen un muy buen sentido del olfato"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-272d1a675b0af313",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Un individuo con nombre propio."
+            },
+            {
+              "e": "5",
+              "p": "«Algunos ictiosaurios tienen una aleta dorsal.» ¿En qué situación resultaría VERDADERO?",
+              "o": [
+                "Si encontramos un animal que es un tiranosaurio y no tiene una aleta dorsal",
+                "Si encontramos un animal que es un ictiosaurio y carece de aleta dorsal",
+                "Si encontramos un animal que es un ictiosaurio y tiene una aleta dorsal",
+                "Si encontramos un animal que es un plesiosaurio y tiene una aleta dorsal"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-b5ad2dfe1e81702e",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Un solo caso del conjunto que tenga la propiedad."
+            },
+            {
+              "e": "6",
+              "p": "¿Cuál de estos enunciados es una TAUTOLOGÍA?",
+              "o": [
+                "El dodo se extinguió hace cientos de años",
+                "El dodo era un ave terrestre o no era un ave terrestre",
+                "El dodo era un ave terrestre y no era un ave terrestre",
+                "El dodo era un ave terrestre y con alas muy cortas"
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "ipc-p1-94ac396a0a0aca14",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "p ∨ ¬p."
+            },
+            {
+              "e": "7",
+              "p": "«Los tigres dientes de sable usan sus colmillos para triturar o para asfixiar. Pero no los usan para triturar.» ¿Qué conclusión se infiere de modo válido?",
+              "o": [
+                "Los tigres dientes de sable usan sus colmillos para asfixiar",
+                "Los tigres dientes de sable no usan sus colmillos para asfixiar",
+                "Los tigres dientes de sable usan sus colmillos para triturar",
+                "Si no usan sus colmillos para triturar, los usan para apuñalar"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-5b1e96eb47653421",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Disyunción más negación de un disyunto."
+            },
+            {
+              "e": "8",
+              "p": "¿Cuál de estos argumentos es INVÁLIDO?",
+              "o": [
+                "El león de las cavernas vive en cavernas o sus restos se encuentran en cavernas. Puesto que no es cierto que viva en cavernas, queda demostrado que sus restos se encuentran en cavernas",
+                "Si el megalodón es pariente cercano del tiburón blanco, es un depredador marino. Y es pariente cercano. Se sigue que es un depredador marino",
+                "El rinoceronte lanudo come carne o come pasto. En consecuencia, come pasto",
+                "Si el rinoceronte lanudo come carne, digiere huesos. Pero no digiere huesos. Luego, no come carne"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-5d61bb3acaca76e0",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "De una disyunción sola no se sigue ninguno de los disyuntos."
+            },
+            {
+              "e": "9",
+              "p": "Premisas dadas: «El mamut era un mamífero prehistórico y tenía colmillos largos» y lo mismo del mastodonte. Faltan una premisa (P) y la conclusión (C) para que resulte una ANALOGÍA.\n\n(1) El rinoceronte lanudo era un mamífero prehistórico.\n(2) El rinoceronte lanudo tenía colmillos largos.\n(3) La mayoría de los mamíferos prehistóricos tenían colmillos largos.\n(4) Todos los mamíferos prehistóricos tenían colmillos largos.\n(5) El mamut era un mamífero prehistórico.",
+              "o": [
+                "P = 1, C = 2 (también se acepta P = 2, C = 1)",
+                "P = 3, C = 2",
+                "P = 4, C = 2",
+                "P = 5, C = 2"
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "ipc-p1-23124f901df419b2",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "Un caso nuevo con una propiedad, y se concluye la otra."
+            },
+            {
+              "e": "10",
+              "p": "«El tiranosaurio y el estegosaurio, al igual que el braquiosaurio, vivían en manada. Por ende, es probable que todos los animales carnívoros vivieran en manadas, dado que los tres eran animales carnívoros.»\n\n¿Qué premisa lo fortalece SIN que deje de ser enumeración incompleta?",
+              "o": [
+                "El tiranosaurio, el estegosaurio y el braquiosaurio eran las únicas tres especies de animales carnívoros",
+                "El gigantosaurio vivía en manada",
+                "El velociraptor, que era un animal carnívoro, vivía en manada",
+                "El megaterio no era un animal carnívoro"
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "ipc-p1-0b6d86d9967c7a3f",
+              "notaEspecifica": true,
+              "formato": "numeros",
+              "pista": "El caso nuevo tiene que ser carnívoro Y vivir en manada."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "buacar-2025-10-30-recup",
       "nombre": "Recuperatorio del 2º parcial · 30/10/2025",
@@ -638,7 +3832,8 @@ registrarMateria({
             }
           ]
         }
-      ]
+      ],
+      "parcial": 2
     },
     {
       "id": "gimeno-2025-10-21",
@@ -1451,7 +4646,8 @@ registrarMateria({
             }
           ]
         }
-      ]
+      ],
+      "parcial": 2
     },
     {
       "id": "buacar-2025-05-30",
@@ -3088,7 +6284,8 @@ registrarMateria({
             }
           ]
         }
-      ]
+      ],
+      "parcial": 2
     },
     {
       "id": "gimeno-2025-05-27",
@@ -4169,7 +7366,8 @@ registrarMateria({
             }
           ]
         }
-      ]
+      ],
+      "parcial": 2
     },
     {
       "id": "buacar-2024-10-25",
@@ -5834,7 +9032,8 @@ registrarMateria({
             }
           ]
         }
-      ]
+      ],
+      "parcial": 2
     },
     {
       "id": "buacar-2024-05-31",
@@ -7499,7 +10698,8 @@ registrarMateria({
             }
           ]
         }
-      ]
+      ],
+      "parcial": 2
     },
     {
       "id": "buacar-2023-06-02",
@@ -9164,7 +12364,9 @@ registrarMateria({
             }
           ]
         }
-      ]
+      ],
+      "parcial": 2
     }
-  ]
+  ],
+  "sigla": "IPC"
 });
