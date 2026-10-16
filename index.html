@@ -746,7 +746,7 @@ function pintarCartel(){
   lugar.appendChild(caja);
 }
 function pieGeneral(){
-  $pie.appendChild(el("p", {text: "Parciales de ejemplo publicados en Altillo.com. Las explicaciones son material de estudio y no reemplazan la corrección oficial de la cátedra. Tu progreso se guarda solo en este dispositivo."}));
+  $pie.appendChild(el("p", {text: "Las explicaciones son material de estudio y no reemplazan la corrección oficial de la cátedra. Tu progreso se guarda solo en este dispositivo."}));
 }
 window.addEventListener("beforeinstallprompt", ev => { ev.preventDefault(); INST.evento = ev; if (!location.hash.split("/")[2]) pintar(); });
 window.addEventListener("appinstalled", () => {

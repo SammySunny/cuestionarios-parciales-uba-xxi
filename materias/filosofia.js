@@ -106,7 +106,7 @@ notas: {
 "originalidad":`La originalidad es distanciarse de la universalidad que se atribuían los países centrales para desarrollar los problemas propios: responder a lo que una realidad y un tiempo determinados plantean, sin considerar esas soluciones como las únicas posibles. No consiste en acercarse a los países centrales o a la filosofía española, ni en buscar una perspectiva trascendente y formal.`
 },
 examenes: [
-{id:"2024", nombre:"Parcial 2024", detalle:`10 ejercicios. El original no indica puntajes: se toma 1 punto por ejercicio.`, temas:[
+{id:"2024", nombre:"2º parcial · 2024", detalle:`10 ejercicios. El original no indica puntajes: se toma 1 punto por ejercicio.`, temas:[
   {id:"a", n:"Tema A", fuente:"filo_2024_1.jpg, filo_2024_2.jpg, filo_2024_3.jpg",
    aviso:`Respuestas según las marcas del parcial original. El parcial no indica puntajes: se tomó 1 punto por ejercicio (en los de dos partes, hay que acertar ambas).`,
    qs:[
@@ -822,7 +822,7 @@ examenes: [
      d:1}
   ]}
 ]},
-{id:"2c2019-recup", nombre:"Recuperatorio \u00b7 2C 2019", detalle:`Unidades 1 y 2.I. Todos los ejercicios valen 1 punto, salvo el 4.4 y el 4.5, que valen 2. No hay puntajes parciales.`, temas:[
+{id:"2c2019-recup", nombre:"Recuperatorio del 2º parcial · 2C 2019", detalle:`Unidades 1 y 2.I. Todos los ejercicios valen 1 punto, salvo el 4.4 y el 4.5, que valen 2. No hay puntajes parciales.`, temas:[
   {id:"unico", n:"Tema \u00fanico", fuente:"filo_2019_I_1.jpg, filo_2019_I_2.jpg",
    aviso:`El parcial original no traía las respuestas marcadas: la clave se dedujo cruzando con los otros temas y con la bibliografía.`,
    qs:[
