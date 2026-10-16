@@ -26,7 +26,7 @@
   --note:#d4bf7d; --note-soft:#28241a;
   --serif:Georgia, "Noto Serif", "Iowan Old Style", "Times New Roman", serif;
   --sans:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Helvetica, Arial, sans-serif;
-  --tam:17px;
+  --tam:17px; --acento:#86a6e0;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -47,7 +47,7 @@ button{font:inherit;color:inherit}
 .barra{display:flex;align-items:center;gap:8px;min-height:40px;margin-bottom:10px}
 .volver{
   background:none;border:none;color:var(--pick);cursor:pointer;padding:6px 4px;
-  font-size:.92rem;display:flex;align-items:center;gap:4px;max-width:60%;
+  font-size:.92rem;display:flex;align-items:center;gap:2px;max-width:60%;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
 }
 .volver[hidden]{display:none}
@@ -61,7 +61,8 @@ button{font:inherit;color:inherit}
 
 h1{font-family:var(--serif);font-weight:600;font-size:1.42rem;line-height:1.22;margin:0 0 4px}
 .sub{margin:0 0 16px;color:var(--ink-soft);font-size:.88rem}
-.aviso-tema{margin:-6px 0 14px;color:var(--note);font-size:.82rem;line-height:1.4}
+.aviso-tema{display:flex;gap:7px;align-items:flex-start;margin:-6px 0 14px;color:var(--note);font-size:.82rem;line-height:1.4}
+.aviso-tema .ico{margin-top:.05em}
 
 /* ---------- listas (materias y exámenes) ---------- */
 .lista{display:flex;flex-direction:column;gap:10px}
@@ -73,14 +74,17 @@ h1{font-family:var(--serif);font-weight:600;font-size:1.42rem;line-height:1.22;m
 .item .t{font-family:var(--serif);font-size:1.12rem;font-weight:600;margin:0 0 2px}
 .item .d{color:var(--ink-soft);font-size:.85rem;margin:0}
 .examen{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:13px 14px}
-.examen .t{font-family:var(--serif);font-size:1.06rem;font-weight:600;margin:0}
+.examen .t{display:flex;gap:8px;align-items:center;font-family:var(--serif);font-size:1.06rem;font-weight:600;margin:0}
+.examen .t .ico{color:var(--pick)}
 .examen .d{color:var(--ink-soft);font-size:.83rem;margin:2px 0 10px}
 .temas{display:flex;flex-wrap:wrap;gap:7px}
 .temas button{
   cursor:pointer;font-size:.88rem;padding:7px 12px;border-radius:999px;
   background:var(--surface-2);border:1px solid var(--line);color:var(--ink);
-  display:flex;gap:7px;align-items:baseline;
+  display:flex;gap:6px;align-items:center;
 }
+.temas button .ico{width:1em;height:1em}
+.temas button.ok .ico{color:var(--ok)} .temas button.bad .ico{color:var(--bad)}
 .temas button:hover{border-color:var(--pick)}
 .temas small{font-size:.75rem;color:var(--ink-soft)}
 .temas button.ok{border-color:var(--ok)} .temas button.ok small{color:var(--ok)}
@@ -96,13 +100,17 @@ h1{font-family:var(--serif);font-weight:600;font-size:1.42rem;line-height:1.22;m
 .grilla button.bad{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
 .grilla button.parcial{border-color:var(--pick);color:var(--pick)}
 .grilla button.now{outline:2px solid var(--pick);outline-offset:1px;color:var(--ink)}
-.grilla button.fin{font-size:.75rem}
+.grilla button.fin{font-size:.75rem;display:flex;gap:3px;align-items:center;justify-content:center}
 
 /* ---------- tarjeta de la consigna ---------- */
 .card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:15px 14px}
 .meta{display:flex;justify-content:space-between;gap:10px;align-items:baseline;color:var(--ink-soft);font-size:.8rem;margin-bottom:9px}
 .ctx{margin:0 0 13px;border:1px solid var(--line-soft);background:var(--surface-2);border-radius:9px;padding:0 12px}
-.ctx summary{cursor:pointer;color:var(--ink-soft);font-size:.82rem;padding:9px 0;list-style-position:inside}
+.ctx summary{cursor:pointer;color:var(--ink-soft);font-size:.82rem;padding:9px 0;list-style:none;display:flex;gap:7px;align-items:center}
+.ctx summary::-webkit-details-marker{display:none}
+.ctx summary .ico{color:var(--pick)}
+.ctx summary .chev{margin-left:auto;color:var(--ink-faint);transition:transform .2s}
+.ctx[open] summary .chev{transform:rotate(90deg)}
 .ctx p{margin:0 0 11px;font-family:var(--serif);font-size:.95rem;line-height:1.45;color:var(--ink)}
 .enun{font-family:var(--serif);font-size:1.05rem;line-height:1.45;margin:0 0 14px}
 .ayuda{color:var(--ink-soft);font-size:.8rem;margin:-6px 0 12px}
@@ -127,12 +135,14 @@ h1{font-family:var(--serif);font-weight:600;font-size:1.42rem;line-height:1.22;m
 .op.bad .l{color:var(--bad)}
 .op.resto{opacity:.72}
 .porque{margin-top:14px;border-left:3px solid var(--note);background:var(--note-soft);border-radius:0 8px 8px 0;padding:11px 13px;font-size:.93rem}
-.porque b{display:block;font-size:.8rem;letter-spacing:.02em;margin-bottom:4px}
+.porque b{display:flex;gap:6px;align-items:center;font-size:.84rem;letter-spacing:.02em;margin-bottom:7px}
+.porque .exp{display:flex;gap:8px;align-items:flex-start}
+.porque .exp .ico{margin-top:.1em}
 .porque b.ok{color:var(--ok)} .porque b.bad{color:var(--bad)}
-.dudosa{margin-top:10px;font-size:.84rem;color:var(--note);border-top:1px dashed var(--line);padding-top:9px}
+.dudosa{display:flex;gap:7px;align-items:flex-start;margin-top:10px;font-size:.84rem;color:var(--note);border-top:1px dashed var(--line);padding-top:9px}
 .nav{display:flex;gap:8px;margin-top:16px}
 .nav button{
-  flex:1;font-size:.95rem;padding:12px;border-radius:10px;cursor:pointer;
+  flex:1;display:flex;gap:6px;align-items:center;justify-content:center;font-size:.95rem;padding:12px;border-radius:10px;cursor:pointer;
   background:var(--surface-2);border:1px solid var(--line);color:var(--ink);
 }
 .nav button.main{background:var(--pick-soft);border-color:var(--pick);color:var(--ink)}
@@ -149,7 +159,7 @@ h1{font-family:var(--serif);font-weight:600;font-size:1.42rem;line-height:1.22;m
 /* ---------- pie, avisos ---------- */
 footer{margin-top:20px;color:var(--ink-faint);font-size:.78rem;line-height:1.5}
 footer p{margin:0 0 6px}
-.enlace{font-size:.8rem;background:none;border:none;color:var(--pick);cursor:pointer;padding:0;text-decoration:underline}
+.enlace{display:inline-flex;gap:5px;align-items:center;font-size:.8rem;background:none;border:none;color:var(--pick);cursor:pointer;padding:0;text-decoration:underline}
 .enlace[hidden]{display:none}
 .error{color:var(--bad)}
 .aviso-nueva{
@@ -161,8 +171,83 @@ footer p{margin:0 0 6px}
 .aviso-nueva[hidden]{display:none}
 .aviso-nueva button{border-radius:9px;padding:8px 15px;cursor:pointer;border:1px solid var(--line);background:var(--surface)}
 .aviso-nueva button.main{background:var(--pick-soft);border-color:var(--pick)}
-.ayuda-inst{margin-top:10px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--ink-soft);font-size:.85rem}
-.ayuda-inst[hidden]{display:none}
+/* ---------- íconos ---------- */
+.ico{display:inline-flex;flex:none;width:1.2em;height:1.2em;vertical-align:-.22em}
+.ico svg{width:100%;height:100%}
+.c-pick{color:var(--pick)} .c-note{color:var(--note)} .c-ok{color:var(--ok)} .c-bad{color:var(--bad)}
+.icobox{
+  flex:none;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;
+  color:var(--acento);background:var(--surface-2);border:1px solid var(--line);
+  background:color-mix(in srgb, var(--acento) 15%, var(--surface));
+  border-color:color-mix(in srgb, var(--acento) 45%, transparent);
+}
+.icobox .ico{width:30px;height:30px}
+
+/* ---------- inicio ---------- */
+.hero{display:flex;gap:13px;align-items:center;margin:0 0 12px}
+.hero img{width:56px;height:56px;border-radius:15px;flex:none}
+.hero h1{margin:0}
+.hero .sub{margin:3px 0 0}
+.rasgos{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 16px}
+.rasgos span{
+  display:inline-flex;gap:6px;align-items:center;font-size:.8rem;color:var(--ink-soft);
+  background:var(--surface);border:1px solid var(--line-soft);border-radius:999px;padding:4px 11px 4px 9px;
+}
+.seccion{font-size:.8rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin:4px 0 10px}
+.materia{display:flex;gap:13px;align-items:center}
+.materia .cuerpo{flex:1;min-width:0}
+.materia .t,.materia .d{display:block}
+.materia .chev{color:var(--ink-faint)}
+.prog{display:block;height:5px;border-radius:3px;background:var(--line-soft);margin-top:9px;overflow:hidden}
+.prog i{display:block;height:100%;width:0;background:var(--acento);border-radius:3px;transition:width .4s}
+.cab-materia{display:flex;gap:13px;align-items:center;margin:0 0 16px}
+.cab-materia h1{margin:0}
+.cab-materia .sub{margin:3px 0 0}
+
+/* ---------- cartel para instalar ---------- */
+.instalar{
+  margin:0 0 20px;padding:15px 14px;border:1.5px solid var(--pick);border-radius:14px;
+  background:linear-gradient(135deg, var(--pick-soft), var(--surface) 75%);
+  box-shadow:0 0 0 4px rgba(134,166,224,.07);
+}
+.inst-cab{display:flex;gap:12px;align-items:flex-start}
+.inst-ico{flex:none;width:46px;height:46px;border-radius:12px;background:var(--pick);color:var(--paper);display:flex;align-items:center;justify-content:center}
+.inst-ico.ok{background:var(--ok)}
+.inst-ico .ico{width:27px;height:27px}
+.inst-cab b{display:block;font-size:1.04rem;line-height:1.3}
+.inst-cab small{display:block;color:var(--ink-soft);font-size:.86rem;margin-top:3px;line-height:1.4}
+.inst-ventajas{display:flex;flex-wrap:wrap;gap:5px 14px;margin:11px 0 0;padding:0;list-style:none;font-size:.8rem;color:var(--ink-soft)}
+.inst-ventajas li{display:inline-flex;gap:5px;align-items:center}
+.inst-ventajas .ico{color:var(--pick)}
+.inst-acc{display:flex;gap:8px;margin-top:13px;flex-wrap:wrap}
+.btn-inst{
+  flex:1 1 auto;display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  background:var(--pick);color:var(--paper);border:none;border-radius:10px;padding:12px 16px;
+  font-weight:600;font-size:.98rem;cursor:pointer;text-decoration:none;
+}
+.btn-inst:hover{filter:brightness(1.08)}
+.btn-sec{
+  display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  background:transparent;border:1px solid var(--line);border-radius:10px;padding:11px 14px;color:var(--ink-soft);cursor:pointer;
+}
+.inst-ayuda{margin-top:14px;border-top:1px solid var(--line);padding-top:12px;font-size:.9rem}
+.inst-ayuda p{margin:0 0 8px;color:var(--ink-soft)}
+.pasos{list-style:none;counter-reset:paso;padding:0;margin:0 0 10px}
+.pasos li{counter-increment:paso;display:flex;gap:10px;align-items:flex-start;margin:0 0 10px}
+.pasos li::before{
+  content:counter(paso);flex:none;width:24px;height:24px;border-radius:50%;
+  background:var(--pick-soft);border:1px solid var(--pick);color:var(--pick);font-weight:700;font-size:.8rem;
+  display:flex;align-items:center;justify-content:center;
+}
+.pasos .ico{color:var(--pick)}
+.link-copia{width:100%;background:var(--paper);color:var(--ink);font:inherit;font-size:.85rem;border:1px solid var(--line);border-radius:8px;padding:9px 10px;margin:2px 0 8px}
+
+/* ---------- resultado ---------- */
+.medalla{width:60px;height:60px;margin:0 auto 12px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--surface-2);color:var(--ink-soft);border:1px solid var(--line)}
+.medalla .ico{width:32px;height:32px}
+.medalla.ok{background:var(--ok-soft);color:var(--ok);border-color:var(--ok)}
+.medalla.top{background:var(--note-soft);color:var(--note);border-color:var(--note)}
+.medalla.bad{background:var(--bad-soft);color:var(--bad);border-color:var(--bad)}
 :focus-visible{outline:2px solid var(--pick);outline-offset:2px}
 @media (max-width:420px){ .enun{font-size:1rem} .op{font-size:.94rem} }
 </style>
@@ -212,12 +297,14 @@ const MATERIAS = {};                              // id → datos, a medida que 
 const cargando = {};                              // id → promesa de carga
 
 /* ---------- datos guardados en el dispositivo ---------- */
-let GUARDADO = {resp: {}, tam: 0};
+let GUARDADO = {resp: {}, tam: 0, instOculto: false, instalada: false};
 try {
   const v = JSON.parse(localStorage.getItem(CLAVE));
   if (v && typeof v === "object") {
     if (v.resp && typeof v.resp === "object") GUARDADO.resp = v.resp;
     if (Number.isInteger(v.tam)) GUARDADO.tam = v.tam;
+    GUARDADO.instOculto = v.instOculto === true;   // tocó "Ahora no" en el cartel de instalar
+    GUARDADO.instalada = v.instalada === true;     // ya la instaló desde este navegador
   }
 } catch(e) {}
 function guardar(){
@@ -292,6 +379,70 @@ function el(tag, props, ...hijos){
   hijos.flat().forEach(h => { if (h != null) e.appendChild(typeof h === "string" ? document.createTextNode(h) : h); });
   return e;
 }
+/* ---------- íconos ----------
+   Dibujos propios en SVG (24×24, trazo), dentro de la app: no dependen de internet.
+   Son andamiaje fijo escrito a mano, por eso se insertan con innerHTML.
+   Las materias eligen el suyo con "icono" en materias/indice.js. */
+const ICONOS = {
+  // materias
+  templo: '<path d="M3 20.5h18M4.5 17.5h15"/><path d="M12 3.5 3.5 8h17z"/><path d="M4.5 8.5h15"/><path d="M6.5 10.5v5M10 10.5v5M14 10.5v5M17.5 10.5v5"/>',
+  buho: '<path d="M5 4l3 2.5h8L19 4v9a7 7 0 0 1-14 0z"/><circle cx="9" cy="10.5" r="2"/><circle cx="15" cy="10.5" r="2"/><path d="M11.2 13.5 12 14.7l.8-1.2M9.5 21v-1.6M14.5 21v-1.6"/>',
+  edificio: '<path d="M3 21h18"/><path d="M5 21v-9h14v9"/><path d="M8.5 15v3M12 15v3M15.5 15v3"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M12 7V3l3 1.2L12 5.4"/>',
+  pi: '<path d="M4.5 6.5c1-1.3 2.3-2 4-2h11"/><path d="M9.5 4.5c0 6-1 11-3 15"/><path d="M15.5 4.5c-.5 5 0 10 1.5 13 .6 1.2 1.8 1.6 3 1"/>',
+  matraz: '<path d="M9.5 3h5M10.5 3v6.2L5 18.4A2 2 0 0 0 6.7 21.5h10.6a2 2 0 0 0 1.7-3.1L13.5 9.2V3"/><path d="M7.4 15h9.2"/>',
+  hoja: '<path d="M5 20c0-9.5 6-15.5 15-15.5 0 9.5-6 15-14 15.5"/><path d="M5 20l8.5-8.5"/>',
+  atomo: '<circle cx="12" cy="12" r="1.6"/><ellipse cx="12" cy="12" rx="9.5" ry="3.8"/><ellipse cx="12" cy="12" rx="9.5" ry="3.8" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9.5" ry="3.8" transform="rotate(120 12 12)"/>',
+  cabeza: '<path d="M9 21v-3.5a7 7 0 1 1 8.2-4.2L18.5 16H16v3a2 2 0 0 1-2 2"/><path d="M11 9.5a2 2 0 1 1 2.5 2c-.5.3-.5.7-.5 1.2"/>',
+  balanza: '<path d="M12 4v17M8 21h8M5 7h14"/><path d="M5 7l-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/>',
+  grafico: '<path d="M4 20h16"/><path d="M7 16v-4M11 16V8M15 16v-6M19 16V5"/>',
+  dialogo: '<path d="M4 5.5h11A1.5 1.5 0 0 1 16.5 7v6a1.5 1.5 0 0 1-1.5 1.5H9l-3.5 3v-3H4A1.5 1.5 0 0 1 2.5 13V7A1.5 1.5 0 0 1 4 5.5z"/><path d="M16.5 9.5H20a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5h-1.5v3l-3.5-3h-3"/>',
+  globo: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/>',
+  libro: '<path d="M12 6.5C10 5 7 4.5 3.5 5v13.5c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5C17 4.5 14 5 12 6.5z"/><path d="M12 6.5V20"/>',
+  // la app
+  birrete: '<path d="M2.5 9.5 12 5l9.5 4.5L12 14z"/><path d="M6.5 11.5V16c1.5 1.3 3.4 2 5.5 2s4-.7 5.5-2v-4.5"/><path d="M21.5 9.5v5"/>',
+  examen: '<rect x="5" y="4.5" width="14" height="16.5" rx="2"/><path d="M9 4.5v-1h6v1"/><path d="M8.5 10.5l1.5 1.5 2.5-2.5M14 11h2M8.5 16h7.5"/>',
+  recuperatorio: '<path d="M19.5 9A8 8 0 0 0 5.6 6.4L4 8"/><path d="M4 3.5V8h4.5"/><path d="M4.5 15a8 8 0 0 0 13.9 2.6L20 16"/><path d="M20 20.5V16h-4.5"/>',
+  calendario: '<rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 10h16M8.5 3v4M15.5 3v4M8 14h2M14 14h2M8 17.5h2"/>',
+  foco: '<path d="M9.5 18h5M10.5 21h3"/><path d="M12 3a6 6 0 0 0-3.8 10.6c.8.7 1.3 1.6 1.4 2.4h4.8c.1-.8.6-1.7 1.4-2.4A6 6 0 0 0 12 3z"/>',
+  trofeo: '<path d="M8 4h8v5.5a4 4 0 0 1-8 0z"/><path d="M8 6H5.5a2.5 2.5 0 0 0 2.6 4M16 6h2.5a2.5 2.5 0 0 1-2.6 4"/><path d="M12 13.5V17"/><path d="M8 21h8l-1-4H9z"/>',
+  reloj: '<circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/>',
+  lupa: '<circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.3-4.3"/>',
+  check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
+  cruz: '<path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/>',
+  "check-circulo": '<circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.8 2.8 5.7-5.8"/>',
+  info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.6v.1"/>',
+  alerta: '<path d="M10.3 4.2 2.6 18a2 2 0 0 0 1.7 3h15.4a2 2 0 0 0 1.7-3L13.7 4.2a2 2 0 0 0-3.4 0z"/><path d="M12 9.5V14M12 17.4v.1"/>',
+  atras: '<path d="M15 18l-6-6 6-6"/>',
+  adelante: '<path d="M9 18l6-6-6-6"/>',
+  papelera: '<path d="M4.5 7h15M10 11v6M14 11v6M6.5 7l.8 12.2a2 2 0 0 0 2 1.8h5.4a2 2 0 0 0 2-1.8L17.5 7M9.5 7V4.5h5V7"/>',
+  // instalar
+  celular: '<rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/><path d="M12 6.5v7M9.3 11l2.7 2.7 2.7-2.7"/>',
+  descargar: '<path d="M12 4v11M7.5 10.5 12 15l4.5-4.5"/><path d="M5 19.5h14"/>',
+  abrir: '<path d="M14 4h6v6M20 4l-9 9"/><path d="M18 14v5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 19V7.5A1.5 1.5 0 0 1 5.5 6H10"/>',
+  copiar: '<rect x="8.5" y="8.5" width="11.5" height="11.5" rx="2"/><path d="M15.5 8.5v-3A1.5 1.5 0 0 0 14 4H5.5A1.5 1.5 0 0 0 4 5.5V14a1.5 1.5 0 0 0 1.5 1.5h3"/>',
+  "sin-internet": '<path d="M3 3l18 18"/><path d="M8.6 15.4a5 5 0 0 1 5.6-.9"/><path d="M5.2 12a10 10 0 0 1 3.4-2.4M12.5 9a10 10 0 0 1 6.3 3"/><path d="M2 8.6A15 15 0 0 1 6 6M10 5.1a15 15 0 0 1 12 3.5"/><path d="M12 19.5v.1"/>',
+  marcador: '<path d="M6.5 3.5h11V21L12 17l-5.5 4z"/>',
+  nuevo: '<path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M18.5 16v4M16.5 18h4"/>',
+  compartir: '<path d="M8 9H6.5A1.5 1.5 0 0 0 5 10.5v9A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 17.5 9H16"/><path d="M12 3v12M8.5 6.5 12 3l3.5 3.5"/>',
+  mas: '<rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 8.5v7M8.5 12h7"/>',
+  puntos: '<path d="M12 5.5v.1M12 12v.1M12 18.5v.1" stroke-width="3.2"/>',
+  menu: '<path d="M4 7h16M4 12h16M4 17h16"/>',
+  pantalla: '<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M12 7.5v6M9.5 11l2.5 2.5 2.5-2.5M8 21h8"/>'
+};
+function ico(nombre, cls){
+  const s = document.createElement("span");
+  s.className = "ico" + (cls ? " " + cls : "");
+  s.setAttribute("aria-hidden", "true");
+  s.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' +
+    (ICONOS[nombre] || ICONOS.libro) + "</svg>";
+  return s;
+}
+function acento(e, color){
+  if (/^#[0-9a-f]{3,8}$/i.test(color || "")) e.style.setProperty("--acento", color);
+  return e;
+}
+const icoExamen = ex => ex.icono || (/recuperatorio/i.test(ex.nombre) ? "recuperatorio" : /mesa/i.test(ex.nombre) ? "calendario" : "examen");
+
 const $vista = document.getElementById("vista");
 const $pie = document.getElementById("pie");
 const $volver = document.getElementById("volver");
@@ -308,7 +459,9 @@ const nivel = h => h.replace(/^#\/?/, "").split("/").filter(Boolean).slice(0, 3)
 function barra(texto, hash){
   if (!texto) { $volver.hidden = true; return; }
   $volver.hidden = false;
-  $volver.textContent = "‹ " + texto;
+  $volver.innerHTML = "";
+  $volver.appendChild(ico("atras"));
+  $volver.appendChild(document.createTextNode(texto));
   $volver.onclick = () => {
     if (pila.length >= 2 && pila[pila.length - 2] === nivel(hash)) history.back(); else ir(hash);
   };
@@ -346,18 +499,35 @@ function pintarInicio(){
   barra(null);
   document.title = "Cuestionarios Parciales UBA XXI";
   $vista.innerHTML = "";
-  $vista.appendChild(el("h1", {text: "Cuestionarios Parciales UBA XXI"}));
-  $vista.appendChild(el("p", {class: "sub", text: "Parciales reales para practicar. Elegí una materia."}));
+  $vista.appendChild(el("div", {class: "hero"},
+    el("img", {src: "iconos/icono.svg", alt: "", width: "56", height: "56"}),
+    el("div", {},
+      el("h1", {text: "Cuestionarios Parciales UBA XXI"}),
+      el("p", {class: "sub", text: "Parciales reales para practicar, con la corrección explicada."}))));
+  $vista.appendChild(el("div", {class: "rasgos"},
+    el("span", {}, ico("examen", "c-pick"), "Parciales reales"),
+    el("span", {}, ico("foco", "c-note"), "El porqué de cada respuesta"),
+    el("span", {}, ico("birrete", "c-ok"), "Nota sobre 10")));
+  $vista.appendChild(el("div", {id: "cartel-inst"}));
+  pintarCartel();
+  $vista.appendChild(el("h2", {class: "seccion", text: "Elegí una materia"}));
   const lista = el("div", {class: "lista"});
   CATALOGO.forEach(c => {
-    const d = el("p", {class: "d", text: "…"});
-    lista.appendChild(el("button", {class: "item", onclick: () => ir("#/" + c.id)},
-      el("p", {class: "t", text: c.nombre}), d));
+    const d = el("span", {class: "d", text: "…"});
+    const barraProg = el("i");
+    lista.appendChild(acento(el("button", {class: "item materia", onclick: () => ir("#/" + c.id)},
+      el("span", {class: "icobox"}, ico(c.icono)),
+      el("span", {class: "cuerpo"},
+        el("span", {class: "t", text: c.nombre}), d,
+        el("span", {class: "prog", "aria-hidden": "true"}, barraProg)),
+      ico("adelante", "chev")), c.color));
     cargarMateria(c.id).then(m => {
       const temas = m.examenes.reduce((a, e) => a.concat(e.temas), []);
-      const hechos = temas.filter(t => { const s = resumen(t); return s.hechas === s.n; }).length;
+      let hechas = 0, total = 0, completos = 0;
+      temas.forEach(t => { const s = resumen(t); hechas += s.hechas; total += s.n; if (s.hechas === s.n) completos++; });
       d.textContent = m.examenes.length + (m.examenes.length === 1 ? " examen · " : " exámenes · ") +
-        temas.length + " temas · " + hechos + " completos";
+        temas.length + " temas · " + completos + (completos === 1 ? " completo" : " completos");
+      requestAnimationFrame(() => { barraProg.style.width = (total ? hechas * 100 / total : 0) + "%"; });
     }).catch(() => { d.textContent = "No se pudo cargar"; });
   });
   $vista.appendChild(lista);
@@ -368,8 +538,10 @@ function pintarMateria(m){
   barra("Materias", "#/");
   document.title = m.nombre + " · Parciales UBA XXI";
   $vista.innerHTML = "";
-  $vista.appendChild(el("h1", {text: m.nombre}));
-  if (m.detalle) $vista.appendChild(el("p", {class: "sub", text: m.detalle}));
+  const info = CATALOGO.find(c => c.id === m.id) || {};
+  $vista.appendChild(acento(el("div", {class: "cab-materia"},
+    el("span", {class: "icobox"}, ico(info.icono)),
+    el("div", {}, el("h1", {text: m.nombre}), m.detalle ? el("p", {class: "sub", text: m.detalle}) : null)), info.color));
   const lista = el("div", {class: "lista"});
   m.examenes.forEach(ex => {
     const temas = el("div", {class: "temas"});
@@ -379,10 +551,10 @@ function pintarMateria(m){
       if (s.hechas === s.n) { estado = num(s.nota); cls = s.nota >= 4 ? "ok" : "bad"; }
       else if (s.hechas) estado = s.hechas + "/" + s.n;
       temas.appendChild(el("button", {class: cls, onclick: () => ir("#/" + [m.id, ex.id, t.id, primeraPendiente(t)].join("/"))},
-        t.n, estado ? el("small", {text: estado}) : null));
+        cls ? ico(cls === "ok" ? "check" : "cruz") : null, t.n, estado ? el("small", {text: estado}) : null));
     });
     lista.appendChild(el("section", {class: "examen"},
-      el("p", {class: "t", text: ex.nombre}),
+      el("p", {class: "t"}, ico(icoExamen(ex)), el("span", {text: ex.nombre})),
       ex.detalle ? el("p", {class: "d", text: ex.detalle}) : el("p", {class: "d"}),
       temas));
   });
@@ -408,7 +580,7 @@ function pintarTema(m, t, pos){
   $vista.appendChild(el("h1", {text: ex.nombre + " · " + t.n}));
   const s = resumen(t);
   $vista.appendChild(el("p", {class: "sub", text: m.nombre + " · " + s.n + " ejercicios · " + s.hechas + (s.hechas === 1 ? " respondido" : " respondidos")}));
-  if (t.aviso) $vista.appendChild(el("p", {class: "aviso-tema", text: t.aviso}));
+  if (t.aviso) $vista.appendChild(el("p", {class: "aviso-tema"}, ico("info"), el("span", {text: t.aviso})));
 
   // grilla
   const g = el("div", {class: "grilla"});
@@ -419,16 +591,16 @@ function pintarTema(m, t, pos){
     if (i === idx) cls += " now";
     g.appendChild(el("button", {class: cls, onclick: () => a(i), "aria-label": "Ejercicio " + etiqueta(q, i), text: etiqueta(q, i)}));
   });
-  g.appendChild(el("button", {class: "fin" + (idx === t.qs.length ? " now" : ""), onclick: () => a(t.qs.length), text: "Nota"}));
+  g.appendChild(el("button", {class: "fin" + (idx === t.qs.length ? " now" : ""), onclick: () => a(t.qs.length), "aria-label": "Ver la nota"}, ico("trofeo"), "Nota"));
   $vista.appendChild(g);
 
   if (idx >= t.qs.length) pintarResultado(m, t, a);
   else pintarConsigna(m, t, idx, a);
 
-  $pie.appendChild(el("p", {}, el("button", {class: "enlace", text: "Borrar las respuestas de este tema", onclick: () => {
+  $pie.appendChild(el("p", {}, el("button", {class: "enlace", onclick: () => {
     if (!confirm("¿Borrar todas las respuestas de " + t.n + "?")) return;
     GUARDADO.resp[t._clave] = t.qs.map(vacia); guardar(); a(0);
-  }})));
+  }}, ico("papelera"), "Borrar las respuestas de este tema")));
 }
 
 function pintarConsigna(m, t, idx, a){
@@ -442,7 +614,9 @@ function pintarConsigna(m, t, idx, a){
   if (q.ctx) {
     const grupo = t.qs.filter(x => x.ctx === q.ctx).map(x => etiqueta(x, t.qs.indexOf(x)));
     const det = el("details", {class: "ctx"},
-      el("summary", {text: "Texto para " + (grupo.length > 1 ? "los ejercicios " + grupo.slice(0, -1).join(", ") + " y " + grupo[grupo.length - 1] : "este ejercicio")}),
+      el("summary", {}, ico("libro"),
+        el("span", {text: "Texto para " + (grupo.length > 1 ? "los ejercicios " + grupo.slice(0, -1).join(", ") + " y " + grupo[grupo.length - 1] : "este ejercicio")}),
+        ico("adelante", "chev")),
       ...q.ctx.split(/\n\s*\n/).map(p => el("p", {text: p})));
     if (!lista) det.open = true;
     card.appendChild(det);
@@ -485,16 +659,18 @@ function pintarConsigna(m, t, idx, a){
     const letras = q.partes ? q.partes.map(p => L[p.c]).join(" y ") : L[q.c];
     const suyas = q.partes ? dada.map(x => L[x]).join(" y ") : L[dada];
     const caja = el("div", {class: "porque"},
-      el("b", {class: ok ? "ok" : "bad", text: ok ? "Correcto: " + letras : "Incorrecto. Correcta: " + letras + " (marcaste " + suyas + ")"}),
-      el("span", {text: (m.notas && m.notas[q.k]) || ""}));
+      el("b", {class: ok ? "ok" : "bad"}, ico(ok ? "check-circulo" : "cruz"),
+        el("span", {text: ok ? "Correcto: " + letras : "Incorrecto. Correcta: " + letras + " (marcaste " + suyas + ")"})),
+      el("div", {class: "exp"}, ico("foco", "c-note"), el("span", {text: (m.notas && m.notas[q.k]) || ""})));
     card.appendChild(caja);
-    if (q.d) card.appendChild(el("div", {class: "dudosa", text: typeof q.d === "string" ? q.d :
-      "Clave a confirmar: el parcial original no traía esta respuesta marcada y se dedujo de la bibliografía. Si podés, verificala con la cátedra o con tus apuntes."}));
+    if (q.d) card.appendChild(el("div", {class: "dudosa"}, ico("alerta"), el("span", {text: typeof q.d === "string" ? q.d :
+      "Clave a confirmar: el parcial original no traía esta respuesta marcada y se dedujo de la bibliografía. Si podés, verificala con la cátedra o con tus apuntes."})));
   }
 
   const nav = el("div", {class: "nav"},
-    el("button", {text: "Anterior", disabled: idx === 0, onclick: () => a(idx - 1)}),
-    el("button", {class: "main", text: idx === t.qs.length - 1 ? "Ver nota" : "Siguiente", onclick: () => a(idx + 1)}));
+    el("button", {disabled: idx === 0, onclick: () => a(idx - 1)}, ico("atras"), "Anterior"),
+    el("button", {class: "main", onclick: () => a(idx + 1)},
+      idx === t.qs.length - 1 ? "Ver nota" : "Siguiente", ico(idx === t.qs.length - 1 ? "trofeo" : "adelante")));
   card.appendChild(nav);
   $vista.appendChild(card);
 }
@@ -502,10 +678,11 @@ function pintarConsigna(m, t, idx, a){
 function pintarResultado(m, t, a){
   const s = resumen(t);
   const card = el("div", {class: "card score"});
+  const verd = s.hechas < s.n ? ["", "Todavía hay ejercicios sin responder", "", "reloj"]
+    : s.nota >= 7 ? ["ok", "Promoción (7 o más)", "top", "trofeo"]
+    : s.nota >= 4 ? ["ok", "Aprobado", "ok", "check-circulo"] : ["bad", "No alcanza el 4: repasá las explicaciones y volvé a intentarlo", "bad", "libro"];
+  card.appendChild(el("div", {class: "medalla " + verd[2]}, ico(verd[3])));
   card.appendChild(el("p", {class: "n"}, num(s.nota), el("small", {text: " / 10"})));
-  const verd = s.hechas < s.n ? ["", "Todavía hay ejercicios sin responder"]
-    : s.nota >= 7 ? ["ok", "Promoción (7 o más)"]
-    : s.nota >= 4 ? ["ok", "Aprobado"] : ["bad", "No alcanza el 4"];
   card.appendChild(el("p", {class: "verd " + verd[0], text: verd[1]}));
   card.appendChild(el("p", {text: s.bien + " de " + s.n + " ejercicios bien · " + num(s.puntos) + " de " + num(s.total) + " puntos" +
     (s.hechas < s.n ? " · " + (s.n - s.hechas) + " sin responder" : "")}));
@@ -513,31 +690,69 @@ function pintarResultado(m, t, a){
   const ex = t._ex, i = ex.temas.indexOf(t);
   const sig = ex.temas[i + 1];
   const nav = el("div", {class: "nav"},
-    el("button", {text: "Revisar", onclick: () => a(0)}),
-    sig ? el("button", {class: "main", text: "Ir a " + sig.n, onclick: () => ir("#/" + [m.id, ex.id, sig.id, primeraPendiente(sig)].join("/"))})
-        : el("button", {class: "main", text: "Volver a " + m.nombre, onclick: () => ir("#/" + m.id)}));
+    el("button", {onclick: () => a(0)}, ico("lupa"), "Revisar"),
+    sig ? el("button", {class: "main", onclick: () => ir("#/" + [m.id, ex.id, sig.id, primeraPendiente(sig)].join("/"))}, "Ir a " + sig.n, ico("adelante"))
+        : el("button", {class: "main", onclick: () => ir("#/" + m.id)}, "Volver a " + m.nombre, ico("adelante")));
   card.appendChild(nav);
   $vista.appendChild(card);
 }
 
 /* ---------- pie de las pantallas generales ---------- */
 const INST = {evento: null, ios: /iphone|ipad|ipod/i.test(navigator.userAgent),
-  instalada: matchMedia("(display-mode: standalone)").matches || navigator.standalone === true};
+  android: /android/i.test(navigator.userAgent),
+  instalada: matchMedia("(display-mode: standalone)").matches || navigator.standalone === true || GUARDADO.instalada};
+function pintarCartel(){
+  const lugar = document.getElementById("cartel-inst");
+  if (!lugar) return;
+  lugar.innerHTML = "";
+  if (INST.instalada) return;
+
+  const ayuda = el("div", {class: "inst-ayuda", hidden: ""});
+  const abrirAyuda = () => {
+    ayuda.hidden = !ayuda.hidden;
+    if (!ayuda.hidden) ayuda.scrollIntoView({behavior: "smooth", block: "nearest"});
+  };
+  const instalar = () => {
+    if (!INST.evento) return abrirAyuda();
+    const ev = INST.evento;
+    INST.evento = null;                 // el navegador deja usarlo una sola vez
+    ev.prompt();
+    ev.userChoice.then(r => {
+      if (r.outcome !== "accepted") { abrirAyuda(); pintarCartel(); }
+    }).catch(abrirAyuda);
+  };
+
+  const boton = el("button", {class: "btn-inst", onclick: instalar},
+    ico(INST.evento ? "descargar" : "celular"), INST.evento ? "Instalar aplicación" : "Cómo instalarla");
+  const caja = el("section", {class: "instalar", "aria-label": "Instalar la aplicación"},
+    el("div", {class: "inst-cab"},
+      el("span", {class: "inst-ico"}, ico("celular")),
+      el("div", {},
+        el("b", {text: "Llevá los cuestionarios en el celular"}),
+        el("small", {text: "Instalá la aplicación para abrirla desde tu pantalla de inicio, como cualquier otra app."}))),
+    el("ul", {class: "inst-ventajas"},
+      el("li", {}, ico("sin-internet"), "Funciona sin internet"),
+      el("li", {}, ico("marcador"), "Guarda tu progreso"),
+      el("li", {}, ico("nuevo"), "Recibe cuestionarios nuevos")),
+    el("div", {class: "inst-acc"}, boton), ayuda);
+
+  const pasos = INST.ios
+    ? ["Abrí esta página en Safari.", "Tocá Compartir.", "Elegí «Agregar a inicio» y confirmá."]
+    : INST.android
+      ? ["Abrí esta página en Chrome.", "Tocá el menú de tres puntos.", "Elegí «Instalar aplicación» o «Agregar a la pantalla principal»."]
+      : ["Abrí el menú del navegador.", "Buscá «Instalar aplicación» o el ícono de instalación en la barra de direcciones.", "Confirmá la instalación."];
+  ayuda.appendChild(el("p", {text: INST.android ? "Si abriste el enlace desde WhatsApp u otra app, primero elegí «Abrir en Chrome»." : "Seguí estos pasos en tu navegador:"}));
+  ayuda.appendChild(el("ol", {class: "pasos"}, pasos.map(p => el("li", {text: p}))));
+  lugar.appendChild(caja);
+}
 function pieGeneral(){
   $pie.appendChild(el("p", {text: "Parciales de ejemplo publicados en Altillo.com. Las explicaciones son material de estudio y no reemplazan la corrección oficial de la cátedra. Tu progreso se guarda solo en este dispositivo."}));
-  if (INST.instalada || !(INST.evento || INST.ios)) return;
-  const ayuda = el("div", {class: "ayuda-inst", hidden: "",
-    text: "En iPhone: abrí esta página en Safari, tocá el botón Compartir y elegí «Agregar a inicio»."});
-  $pie.appendChild(el("p", {}, el("button", {class: "enlace", text: "Instalar la app en este dispositivo", onclick: () => {
-    if (INST.evento) {
-      const ev = INST.evento; INST.evento = null;
-      ev.prompt(); ev.userChoice.finally(() => pintar());
-    } else ayuda.hidden = !ayuda.hidden;
-  }})));
-  $pie.appendChild(ayuda);
 }
 window.addEventListener("beforeinstallprompt", ev => { ev.preventDefault(); INST.evento = ev; if (!location.hash.split("/")[2]) pintar(); });
-window.addEventListener("appinstalled", () => { INST.instalada = true; INST.evento = null; pintar(); });
+window.addEventListener("appinstalled", () => {
+  INST.instalada = true; INST.evento = null;
+  GUARDADO.instalada = true; guardar(); pintar();
+});
 
 /* ---------- tamaño de letra ---------- */
 const TAMS = [15, 17, 19, 21];

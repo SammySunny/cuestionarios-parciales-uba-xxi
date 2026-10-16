@@ -58,7 +58,7 @@ No cambiar los `id` de materias, exámenes ni temas: con ellos se guarda el prog
 ## Agregar una materia
 
 1. Crear `materias/<id>.js` con la forma de arriba.
-2. Agregar `{ id, nombre, archivo }` en `materias/indice.js`. El service worker lee esa lista, así que no hace falta tocar `sw.js` salvo para subir `VERSION`.
+2. Agregar `{ id, nombre, archivo, icono, color }` en `materias/indice.js`. `icono` identifica visualmente la materia y `color` define su acento. Los íconos disponibles están en `ICONOS`, dentro de `index.html` (por ejemplo: `templo`, `pi`, `matraz`, `hoja`, `atomo`, `cabeza`, `balanza`, `grafico`, `dialogo` y `globo`). El service worker lee esa lista, así que no hace falta tocar `sw.js` salvo para subir `VERSION`.
 3. Correr los chequeos y subir `VERSION`.
 
 ## Chequeos

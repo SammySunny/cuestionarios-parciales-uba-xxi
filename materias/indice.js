@@ -3,7 +3,7 @@
    ------------------------------------------------------------
    Una línea por materia. Para sumar una materia nueva:
      1. Crear su archivo en materias/ (copiando la forma de filosofia.js).
-     2. Agregar acá una línea {id, nombre, archivo}.
+     2. Agregar acá una línea {id, nombre, archivo, icono, color}.
      3. Subir el número VERSION en sw.js.
    El id tiene que ser el mismo que el del archivo de la materia y
    no se cambia nunca: con él se guarda el progreso de cada persona.
@@ -13,5 +13,11 @@
    internet). Por eso usa "var" y no lleva nada más que la lista.
    ============================================================ */
 var CATALOGO = [
-  { id: "filosofia", nombre: "Filosofía", archivo: "materias/filosofia.js" }
+  {
+    id: "filosofia",
+    nombre: "Filosofía",
+    archivo: "materias/filosofia.js",
+    icono: "templo",
+    color: "#b69de8"
+  }
 ];
