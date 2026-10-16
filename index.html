@@ -26,7 +26,7 @@
   --note:#d4bf7d; --note-soft:#28241a;
   --serif:Georgia, "Noto Serif", "Iowan Old Style", "Times New Roman", serif;
   --sans:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Helvetica, Arial, sans-serif;
-  --tam:17px; --acento:#86a6e0;
+  --acento:#86a6e0;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -34,7 +34,7 @@ html,body{margin:0;padding:0}
 html{background:var(--paper)}
 body{
   background:var(--paper); color:var(--ink);
-  font-family:var(--sans); font-size:var(--tam); line-height:1.5;
+  font-family:var(--sans); font-size:17px; line-height:1.5;
   -webkit-text-size-adjust:100%; -webkit-tap-highlight-color:transparent;
 }
 button{font:inherit;color:inherit}
@@ -45,19 +45,13 @@ button{font:inherit;color:inherit}
 
 /* ---------- barra superior ---------- */
 .barra{display:flex;align-items:center;gap:8px;min-height:40px;margin-bottom:10px}
+.barra[hidden]{display:none}
 .volver{
   background:none;border:none;color:var(--pick);cursor:pointer;padding:6px 4px;
   font-size:.92rem;display:flex;align-items:center;gap:2px;max-width:60%;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
 }
 .volver[hidden]{display:none}
-.barra .esp{flex:1}
-.tam{display:flex;gap:4px}
-.tam button{
-  background:var(--surface);border:1px solid var(--line);color:var(--ink-soft);
-  border-radius:8px;padding:4px 9px;cursor:pointer;font-size:.8rem;line-height:1.4;
-}
-.tam button:disabled{opacity:.35;cursor:default}
 
 h1{font-family:var(--serif);font-weight:600;font-size:1.42rem;line-height:1.22;margin:0 0 4px}
 .sub{margin:0 0 16px;color:var(--ink-soft);font-size:.88rem}
@@ -161,6 +155,14 @@ footer{margin-top:20px;color:var(--ink-faint);font-size:.78rem;line-height:1.5}
 footer p{margin:0 0 6px}
 .enlace{display:inline-flex;gap:5px;align-items:center;font-size:.8rem;background:none;border:none;color:var(--pick);cursor:pointer;padding:0;text-decoration:underline}
 .enlace[hidden]{display:none}
+.limpieza{margin-top:18px}
+.limpieza button{
+  display:inline-flex;align-items:center;gap:6px;font-size:.8rem;padding:8px 11px;
+  border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink-soft);cursor:pointer;
+}
+.limpieza button:hover{border-color:var(--bad);color:var(--bad)}
+.limpieza button:disabled{opacity:.5;cursor:wait}
+.limpieza p{font-size:.8rem;color:var(--ink-soft);margin:7px 0 0}
 .error{color:var(--bad)}
 .aviso-nueva{
   position:fixed;left:0;right:0;bottom:0;z-index:10;
@@ -256,11 +258,6 @@ footer p{margin:0 0 6px}
 <div class="wrap">
   <div class="barra">
     <button class="volver" id="volver" hidden></button>
-    <span class="esp"></span>
-    <div class="tam" aria-label="Tamaño de letra">
-      <button id="tam-menos" aria-label="Achicar la letra">A−</button>
-      <button id="tam-mas" aria-label="Agrandar la letra">A+</button>
-    </div>
   </div>
   <main id="vista"></main>
   <footer id="pie"></footer>
@@ -297,13 +294,11 @@ const MATERIAS = {};                              // id → datos, a medida que 
 const cargando = {};                              // id → promesa de carga
 
 /* ---------- datos guardados en el dispositivo ---------- */
-let GUARDADO = {resp: {}, tam: 0, instOculto: false, instalada: false};
+let GUARDADO = {resp: {}, instalada: false};
 try {
   const v = JSON.parse(localStorage.getItem(CLAVE));
   if (v && typeof v === "object") {
     if (v.resp && typeof v.resp === "object") GUARDADO.resp = v.resp;
-    if (Number.isInteger(v.tam)) GUARDADO.tam = v.tam;
-    GUARDADO.instOculto = v.instOculto === true;   // tocó "Ahora no" en el cartel de instalar
     GUARDADO.instalada = v.instalada === true;     // ya la instaló desde este navegador
   }
 } catch(e) {}
@@ -459,6 +454,7 @@ function ir(hash, reemplazar){
 const pila = [];
 const nivel = h => h.replace(/^#\/?/, "").split("/").filter(Boolean).slice(0, 3).join("/");
 function barra(texto, hash){
+  $volver.parentElement.hidden = !texto;
   if (!texto) { $volver.hidden = true; return; }
   $volver.hidden = false;
   $volver.innerHTML = "";
@@ -533,8 +529,62 @@ function pintarInicio(){
     }).catch(() => { d.textContent = "No se pudo cargar"; });
   });
   $vista.appendChild(lista);
+  $vista.appendChild(el("section", {class: "limpieza"},
+    el("button", {id: "borrar-todo", onclick: borrarTodo}, ico("papelera"), "Borrar caché y respuestas"),
+    el("p", {id: "estado-limpieza", role: "status"})));
   pieGeneral();
 }
+
+/* Borra solamente los datos de esta app. Otros proyectos de GitHub Pages
+   pueden compartir el mismo origen, por eso no se usa localStorage.clear(). */
+let borrandoTodo = false;
+async function borrarTodo(){
+  if (borrandoTodo || !confirm("¿Borrar la caché de la aplicación y TODAS las respuestas de TODOS los parciales y materias?\n\nEsta acción no se puede deshacer. Para volver a descargar la app para usarla sin conexión, necesitás abrirla con internet.")) return;
+  borrandoTodo = true;
+  const boton = document.getElementById("borrar-todo");
+  const estado = document.getElementById("estado-limpieza");
+  boton.disabled = true;
+  estado.textContent = "Borrando caché y respuestas…";
+  try {
+    if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
+      const scope = new URL("./", location.href).href;
+      const registros = (await navigator.serviceWorker.getRegistrations()).filter(r => r.scope === scope);
+      const workers = new Set(registros.flatMap(r => [r.active, r.waiting, r.installing]).filter(Boolean));
+      // Impide que un worker activo o en instalación vuelva a llenar la caché
+      // mientras se borra. El plazo también permite limpiar versiones viejas.
+      await Promise.all(Array.from(workers, w => new Promise(resolve => {
+        const canal = new MessageChannel();
+        const terminar = () => { clearTimeout(plazo); canal.port1.close(); resolve(); };
+        const plazo = setTimeout(terminar, 1500);
+        canal.port1.onmessage = terminar;
+        try { w.postMessage({tipo: "borrar-cache"}, [canal.port2]); } catch(e) { terminar(); }
+      })));
+      await Promise.all(registros.map(r => r.unregister()));
+    }
+    if ("caches" in window && /^https?:$/.test(location.protocol)) {
+      const claves = await caches.keys();
+      await Promise.all(claves.filter(k => k.startsWith("cuestionarios-uba-xxi-")).map(k => caches.delete(k)));
+    }
+    localStorage.removeItem(CLAVE);
+    GUARDADO = {resp: {}, instalada: false};
+    document.getElementById("aviso-nueva").hidden = true;
+    ir("#/", true);
+    document.getElementById("estado-limpieza").textContent = "Se borraron la caché y todas las respuestas. Para preparar de nuevo el uso sin conexión, cerrá y volvé a abrir la app con internet.";
+  } catch(e) {
+    boton.disabled = false;
+    estado.textContent = "No se pudo completar el borrado. Volvé a intentarlo. Si el navegador bloquea el almacenamiento, revisá sus permisos.";
+  } finally {
+    borrandoTodo = false;
+  }
+}
+
+// Si hay otra pestaña de la app abierta, descarta también su copia en memoria.
+window.addEventListener("storage", ev => {
+  if (ev.key === CLAVE && ev.newValue === null) {
+    GUARDADO = {resp: {}, instalada: false};
+    pintar();
+  }
+});
 
 function pintarMateria(m){
   barra("Materias", "#/");
@@ -576,7 +626,7 @@ function pintarTema(m, t, pos){
   const base = "#/" + [m.id, ex.id, t.id].join("/");
   const a = i => ir(base + "/" + (i >= t.qs.length ? "fin" : i + 1), true);
 
-  barra(m.nombre, "#/" + m.id);
+  barra(m.sigla || m.nombre, "#/" + m.id);
   document.title = t.n + " · " + ex.nombre;
   $vista.innerHTML = "";
   $vista.appendChild(el("h1", {text: ex.nombre + " · " + t.n}));
@@ -696,7 +746,7 @@ function pintarResultado(m, t, a){
   const nav = el("div", {class: "nav"},
     el("button", {onclick: () => a(0)}, ico("lupa"), "Revisar"),
     sig ? el("button", {class: "main", onclick: () => ir("#/" + [m.id, ex.id, sig.id, primeraPendiente(sig)].join("/"))}, "Ir a " + sig.n, ico("adelante"))
-        : el("button", {class: "main", onclick: () => ir("#/" + m.id)}, "Volver a " + m.nombre, ico("adelante")));
+        : el("button", {class: "main", onclick: () => ir("#/" + m.id)}, "Volver a " + (m.sigla || m.nombre), ico("adelante")));
   card.appendChild(nav);
   $vista.appendChild(card);
 }
@@ -758,17 +808,6 @@ window.addEventListener("appinstalled", () => {
   GUARDADO.instalada = true; guardar(); pintar();
 });
 
-/* ---------- tamaño de letra ---------- */
-const TAMS = [15, 17, 19, 21];
-function aplicarTam(){
-  const i = Math.max(-1, Math.min(2, GUARDADO.tam)) + 1;
-  document.documentElement.style.setProperty("--tam", TAMS[i] + "px");
-  document.getElementById("tam-menos").disabled = i === 0;
-  document.getElementById("tam-mas").disabled = i === TAMS.length - 1;
-}
-document.getElementById("tam-menos").onclick = () => { GUARDADO.tam = Math.max(-1, GUARDADO.tam - 1); guardar(); aplicarTam(); };
-document.getElementById("tam-mas").onclick = () => { GUARDADO.tam = Math.min(2, GUARDADO.tam + 1); guardar(); aplicarTam(); };
-
 /* ---------- teclado (en la computadora) ---------- */
 document.addEventListener("keydown", ev => {
   if (ev.ctrlKey || ev.metaKey || ev.altKey) return;
@@ -791,7 +830,6 @@ document.addEventListener("keydown", ev => {
 
 /* ---------- arranque ---------- */
 window.addEventListener("hashchange", pintar);
-aplicarTam();
 pintar();
 
 /* ============================================================

@@ -27,6 +27,16 @@ const errores = [], avisos = [];
 const error = m => errores.push(m), aviso = m => avisos.push(m);
 const leer = f => fs.readFileSync(path.join(RAIZ, f), "utf8");
 const norm = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[“”«»"'‘’…().,;:¿?¡!\-–—]/g, " ").replace(/\s+/g, " ").trim();
+const esCombinacion = texto => /^las opciones correctas son\b/i.test(texto.trim());
+// Se comparan las afirmaciones, no las letras: «A y C» puede significar lo
+// mismo que «B y D» cuando otro tema cambia el orden de las opciones.
+function contenidoOpcion(b, i){
+  const texto = b.o[i];
+  if (!esCombinacion(texto)) return [norm(texto)];
+  const refs = texto.match(/\b[A-H]\b/g) || [];
+  return refs.map(l => norm(b.o["ABCDEFGH".indexOf(l)]));
+}
+const bancoAfirmaciones = b => b.o.filter(o => !esCombinacion(o)).map(norm).sort().join(" | ");
 
 /* ---------- cargar índice y materias ---------- */
 const ctx = {};
@@ -97,6 +107,14 @@ function revisarMateria(m, archivo){
           if (!Array.isArray(b.o) || b.o.length < 2 || b.o.length > 8) { error(`${aqui}${s}: tiene que tener entre 2 y 8 opciones`); return; }
           if (!Number.isInteger(b.c) || b.c < 0 || b.c >= b.o.length) error(`${aqui}${s}: la respuesta c=${b.c} está fuera de las opciones`);
           b.o.forEach((o, k) => { if (!o || !o.trim()) error(`${aqui}${s}: opción ${k + 1} vacía`); });
+          b.o.forEach((o, k) => {
+            if (!esCombinacion(o)) return;
+            const refs = o.match(/\b[A-H]\b/g) || [];
+            if (refs.length < 2 || new Set(refs).size !== refs.length || refs.some(l => {
+              const i = "ABCDEFGH".indexOf(l);
+              return i >= b.o.length || i === k || esCombinacion(b.o[i]);
+            })) error(`${aqui}${s}: combinación inválida en la opción ${k + 1}`);
+          });
           if (new Set(b.o.map(norm)).size !== b.o.length) error(`${aqui}${s}: hay dos opciones iguales`);
         });
       });
@@ -119,10 +137,10 @@ function revisarMateria(m, archivo){
       if (bA.length !== bB.length) continue;
       bA.forEach((x, j) => {
         const y = bB[j];
-        const sx = x.o.map(norm).sort().join(" | "), sy = y.o.map(norm).sort().join(" | ");
+        const sx = bancoAfirmaciones(x), sy = bancoAfirmaciones(y);
         if (sx !== sy) return;                      // es una variante con otras opciones: no se compara
         comparadas++;
-        if (norm(x.o[x.c]) !== norm(y.o[y.c]))
+        if (contenidoOpcion(x, x.c).sort().join(" | ") !== contenidoOpcion(y, y.c).sort().join(" | "))
           error(`clave "${k}": ${lista[a].aqui} y ${lista[b].aqui} tienen las mismas opciones pero distinta correcta${A.partes ? " (parte " + (j + 1) + ")" : ""}`);
       });
     }

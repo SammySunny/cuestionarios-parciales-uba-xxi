@@ -26,5 +26,12 @@ var CATALOGO = [
     archivo: "materias/ipc.js",
     icono: "atomo",
     color: "#67c4be"
+  },
+  {
+    id: "icse",
+    nombre: "ICSE · Introducción al Conocimiento de la Sociedad y el Estado",
+    archivo: "materias/icse.js",
+    icono: "edificio",
+    color: "#d8b46a"
   }
 ];
