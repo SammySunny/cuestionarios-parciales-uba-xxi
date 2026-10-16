@@ -156,11 +156,15 @@ function revisarMateria(m, archivo){
   console.log(`${m.id}: ${(m.examenes || []).length} exámenes, ${nt} temas, ${nq} consignas, ${Object.keys(notas).length} explicaciones, ${comparadas} comparaciones cruzadas`);
 }
 
-/* ---------- sin URLs remotas ---------- */
+/* ---------- sin URLs remotas ----------
+   Única excepción: enlaces salientes que la persona abre a mano (no recursos
+   que la app descarga). Solo se aceptan en index.html y con este texto exacto. */
+const ENLACES_EXTERNOS = ["https://www.instagram.com/mondschatten.artesanias?exln=MWM2cGRiemNkcjd0bQ=="];
 const archivosTexto = ["index.html", "sw.js", "manifest.webmanifest", "materias/indice.js"].concat(CATALOGO.map(c => c.archivo));
 for (const f of archivosTexto) {
   if (!fs.existsSync(path.join(RAIZ, f))) continue;
-  const s = leer(f);
+  let s = leer(f);
+  if (f === "index.html") for (const enlace of ENLACES_EXTERNOS) s = s.split('"' + enlace + '"').join('""');
   const url = s.match(/\b(https?:)?\/\/[a-z0-9-]+\.[a-z0-9.-]+/i);
   if (url) error(`${f}: tiene una URL remota (${url[0]}); la app tiene que funcionar sin internet`);
 }

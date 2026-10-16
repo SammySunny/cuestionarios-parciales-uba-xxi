@@ -8,6 +8,12 @@ App web instalable (PWA) para practicar con parciales reales de UBA XXI. Elegís
 - Modo oscuro fijo.
 - Botón pequeño en el inicio para borrar la caché y las respuestas de todas las materias, con confirmación.
 
+## Leyenda final y enlace externo
+
+Al final de todas las pantallas se muestra: «¡Mucha suerte en los parciales! Esta app es gratuita y sin fines de lucro. Si querés devolver la buena onda, seguime en Mondschatten Artesanías.», con un ícono propio de gato y luna. «Mondschatten Artesanías» abre el perfil de Instagram en otra pestaña. No se usa la foto de perfil porque Instagram no permite obtenerla sin iniciar sesión; los íconos son SVG propios dentro de la app, así que la leyenda también se ve sin conexión.
+
+Ese enlace es la única dirección externa permitida. Está definido en `ENLACE_EMPRENDIMIENTO` (`index.html`) y en `ENLACES_EXTERNOS` (`herramientas/verificar.js`); si cambia, hay que actualizar ambos. El verificador sigue rechazando cualquier otra URL remota.
+
 ## Borrar los datos de la aplicación
 
 En el inicio, **Borrar caché y respuestas** elimina todas las respuestas y las copias offline de esta app, y da de baja su service worker. El progreso visible se reinicia de inmediato. No borra datos de otros sitios o proyectos alojados bajo el mismo dominio. Para volver a disponer de la app sin conexión, cerrala y abrila nuevamente con internet después del borrado.

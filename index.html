@@ -165,6 +165,20 @@ footer p{margin:0 0 6px}
 .limpieza button:disabled{opacity:.5;cursor:wait}
 .limpieza p{font-size:.8rem;color:var(--ink-soft);margin:7px 0 0}
 .error{color:var(--bad)}
+/* ---------- firma: leyenda al final de todas las pantallas ---------- */
+.firma{
+  margin-top:26px;padding-top:16px;border-top:1px solid var(--line-soft);
+  display:flex;gap:11px;align-items:center;color:var(--ink-soft);font-size:.82rem;line-height:1.45;
+}
+.firma .gato{
+  flex:none;width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;
+  color:var(--note);background:var(--note-soft);border:1px solid rgba(212,191,125,.35);
+}
+.firma .gato .ico{width:26px;height:26px}
+.firma p{margin:0}
+.firma a{color:var(--note);font-weight:600;text-decoration:none;display:inline-flex;gap:4px;align-items:center;white-space:nowrap}
+.firma a:hover,.firma a:focus-visible{text-decoration:underline}
+.firma a .ico{width:1em;height:1em}
 .aviso-nueva{
   position:fixed;left:0;right:0;bottom:0;z-index:10;
   background:var(--surface-2);border-top:1px solid var(--pick);
@@ -262,6 +276,7 @@ footer p{margin:0 0 6px}
   </div>
   <main id="vista"></main>
   <footer id="pie"></footer>
+  <div class="firma" id="firma"></div>
 </div>
 
 <div class="aviso-nueva" id="aviso-nueva" role="status" hidden>
@@ -432,7 +447,10 @@ const ICONOS = {
   mas: '<rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 8.5v7M8.5 12h7"/>',
   puntos: '<path d="M12 5.5v.1M12 12v.1M12 18.5v.1" stroke-width="3.2"/>',
   menu: '<path d="M4 7h16M4 12h16M4 17h16"/>',
-  pantalla: '<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M12 7.5v6M9.5 11l2.5 2.5 2.5-2.5M8 21h8"/>'
+  pantalla: '<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M12 7.5v6M9.5 11l2.5 2.5 2.5-2.5M8 21h8"/>',
+  // firma
+  "gato-luna": '<path d="M18.6 2.6a3.6 3.6 0 1 0 3.7 4.9 2.9 2.9 0 0 1-3.7-4.9z"/><path d="M5.6 12.2V6.4l2.3 2.1h2.9l2.3-2.1v5.8a3.75 3.75 0 0 1-7.5 0z"/><path d="M6.4 14.6C4.9 16.3 4.5 18.8 5.2 21h8.3c.7-2.2.3-4.7-1.2-6.4"/><path d="M13.5 21c2.6 0 4.3-1.3 4.3-3.3 0-1-.6-1.7-1.4-1.7"/><path d="M8 11.4v.1M10.7 11.4v.1"/>',
+  instagram: '<rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.2 6.8v.1"/>'
 };
 function ico(nombre, cls){
   const s = document.createElement("span");
@@ -867,8 +885,25 @@ document.addEventListener("keydown", ev => {
   }
 });
 
+/* ---------- firma (fija, al final de todas las pantallas) ----------
+   Único enlace externo de la app: se abre en otra pestaña y no se usa
+   para cargar ningún recurso, así que no afecta el modo sin conexión.
+   Si cambia, actualizar también ENLACES_EXTERNOS en herramientas/verificar.js. */
+const ENLACE_EMPRENDIMIENTO = "https://www.instagram.com/mondschatten.artesanias?exln=MWM2cGRiemNkcjd0bQ==";
+function pintarFirma(){
+  const caja = document.getElementById("firma");
+  caja.innerHTML = "";
+  caja.appendChild(el("span", {class: "gato"}, ico("gato-luna")));
+  caja.appendChild(el("p", {},
+    "¡Mucha suerte en los parciales! Esta app es gratuita y sin fines de lucro. Si querés devolver la buena onda, seguime en ",
+    el("a", {href: ENLACE_EMPRENDIMIENTO, target: "_blank", rel: "noopener noreferrer",
+      "aria-label": "Mondschatten Artesanías en Instagram (se abre en otra pestaña)"},
+      ico("instagram"), "Mondschatten Artesanías"), "."));
+}
+
 /* ---------- arranque ---------- */
 window.addEventListener("hashchange", pintar);
+pintarFirma();
 pintar();
 
 /* ============================================================
