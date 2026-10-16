@@ -1,0 +1,9170 @@
+/* IPC — UBA XXI. Claves y explicaciones de los documentos resueltos.
+   Cada examen conserva su fecha, cátedra, temas y opciones originales.
+   formato: "numeros" conserva las opciones 1, 2, 3… de Buacar.
+   formato: "texto" permite elegir Sí/No en las partes correspondientes.
+   No cambiar ids: con ellos se guarda el progreso. */
+registrarMateria({
+  "id": "ipc",
+  "nombre": "IPC · Introducción al Pensamiento Científico",
+  "detalle": "Segundos parciales de las cátedras A (Buacar) y C (Gimeno), organizados por fecha y tema.",
+  "notas": {
+    "ipc-ec84030e2532d27e": "En este ejercicio se pide que identifiques la hipótesis auxiliar del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis auxiliar es una hipótesis que cuenta con apoyo independiente previo y que se utiliza en la contrastación como conocimiento presupuesto para poder deducir la consecuencia observacional. La hipótesis fundamental, en cambio, es lo que se pone a prueba. Una consecuencia observacional describe lo que se espera observar si la hipótesis es correcta; no es el supuesto general auxiliar que permite interpretar las mediciones.",
+    "ipc-a972976f660d8019": "La hipótesis auxiliar es un enunciado general que no se pone a prueba en la investigación, sino que se asume como presupuesto para deducir la consecuencia observacional. La hipótesis fundamental, en cambio, es lo que se pone a prueba. Una consecuencia observacional describe lo que se espera observar si la hipótesis es correcta; no es el supuesto general auxiliar que permite interpretar las mediciones.",
+    "ipc-c9154d53a9379611": "En este ejercicio se pide que identifiques la hipótesis fundamental del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis fundamental es aquella que guía la investigación y que es puesta a prueba en el experimento. No debe confundirse con la hipótesis auxiliar, que se presupone para realizar la prueba, ni con una consecuencia observacional o un resultado particular del experimento: la hipótesis fundamental es la afirmación general que se investiga.",
+    "ipc-a53ffb56cff19084": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. De acuerdo con esta corriente, un enunciado debe tener contenido empírico para que pertenezca al ámbito de la ciencia empírica: debe estar formulado en lenguaje observacional o bien debe ser traducible al lenguaje observacional. En este caso, el enunciado está formulado en lenguaje observacional, ya que todos sus términos no lógicos son observacionales.",
+    "ipc-b8b7473a9c1b1301": "De acuerdo con el modelo de cobertura legal el contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico-inductiva, dicha ley debe ser estadística o probabilística. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué esta planta mide 30 cm de alto, el único par de enunciados que pueden funcionar como ley y condición antecedente son \"La mayoría de las petunias miden 30 cm de alto\" y \"Esta planta es una petunia\", respectivamente. Por otro lado, hay que recordar que las leyes son enunciados generales que describen una regularidad empíricamente constatada. Por eso, un enunciado condicional acerca de un individuo, como el de la opción 1, no es una ley y no puede formar parte de una explicación de este tipo. explanans",
+    "ipc-03c0d245106c2556": "Para Kuhn, un paradigma es una forma de ver el mundo que define la realidad, el lenguaje y la metodología. Cuando dos paradigmas son rivales, son inconmensurables, lo que significa que no existe un marco neutral para compararlos. Particularmente, la inconmensurabilidad lingüística implica que un mismo término utilizado en dos paradigmas diferentes puede referirse a realidades distintas",
+    "ipc-9a313cead65e080c": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio se trata de la manifestación que llamamos \"exclusión y marginalización\": las historiadoras, sociólogas y antropólogas feministas han mostrado que a lo largo de la historia las mujeres han sido privadas de la posibilidad de formarse y ejercer la actividad científica. En ocasiones, esta exclusión se da de manera explícita y legal, como las prohibiciones para estudiar en la universidad y ejercer la actividad científica. También hay formas de exclusión menos explícitas, como la creencia social en que hay carreras \"de varones\" y \"de mujeres\". E incluso en los casos en los que las mujeres logran acceder sin trabas a la carrera científica, es frecuente que padezcan otras formas de marginalización: por ejemplo, progresar académicamente menos que sus pares varones aun con los mismos méritos.",
+    "ipc-ec9a8f390a598de0": "La teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y, en general, de otros grupos oprimidos) sobre la perspectiva dominante de los varones. Las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan colectivamente insertas, lo que las hace capaces de identificar efectivamente los sesgos androcéntricos en ciencia. En cambio, el posmodernismo feminista, rechaza la idea de que pueda identificarse una perspectiva unificada de las mujeres ya que esta es cambiante y resultado de otros factores relevantes como la clase social. Para el posmodernismo feminista no es lícito hablar de \"la mujer\" como una categoría esencial y ahistórica.",
+    "ipc-eb38f11f88beef0f": "La perspectiva cientificista afirma que se debe priorizar el financiamiento de la ciencia básica, ya que la producción de conocimiento científico tiene valor intrínseco. El financiamiento de la ciencia no debe estar regido por las necesidades económicas o las demandas sociales inmediatas. En el caso propuesto, se trata de un proyecto de ciencia básica, por lo que no es necesario prever las aplicaciones inmediatas.",
+    "ipc-0bc11fa262c3327b": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan al menos una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, la opción 5 (\"es correcto realizar experimentos que permitan desarrollar tratamientos para trastornos de memoria en humanos\") es la única que permite, a partir de la premisa 2 de la consigna, inferir la conclusión. La opción 3 tiene términos valorativos, pero no permite deducir específicamente que “es correcto realizar experimentos invasivos en monos”. Por último, las opciones 1, 2 y 4 no expresan un juicio de valor, por lo cual, de intentar inferir una conclusión normativa a partir de ellas (y la premisa 2), caeríamos en una \"falacia naturalista\".",
+    "ipc-3c9ee03fc22b0153": "En este ejercicio se pide que identifiques la consecuencia observacional del caso de investigación presentado. Para ello, es importante tener en cuenta que la consecuencia observacional es un enunciado empírico básico que expresa lo que cabe esperar a la luz de la hipótesis fundamental, dadas las condiciones iniciales en las que se lleva a cabo el experimento y la hipótesis auxiliar que se asume.",
+    "ipc-0a6baafd47f9ddcc": "De acuerdo con el modelo de cobertura legal el contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico-inductiva, dicha ley debe ser estadística o probabilística. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué esta planta mide 30 cm de alto, el único par de enunciados que pueden funcionar como ley y condición antecedente son \"La mayoría de las petunias miden 30 cm de alto\" y \"Esta planta es una petunia\", respectivamente. Por otro lado, hay que recordar que las leyes son enunciados generales que describen una regularidad empíricamente constatada. Por eso, un enunciado condicional acerca de un individuo, como el de la opción 5, no es una ley y no puede formar parte de una explicación de este tipo. explanans",
+    "ipc-bab729dc8ddd1f39": "La teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. Las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan colectivamente insertas, lo que las hace capaces de identificar efectivamente los sesgos androcéntricos en ciencia. En cambio, el posmodernismo feminista, rechaza la idea de que pueda identificarse una perspectiva unificada de las mujeres ya que esta es cambiante y resultado de otros factores relevantes como la clase social. Para el posmodernismo feminista no es lícito hablar de \"la mujer\" como una categoría esencial y ahistórica.",
+    "ipc-7b710e3a46ae8862": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan al menos una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, la opción 2 (\"es correcto realizar experimentos que permitan desarrollar tratamientos para trastornos de memoria en humanos\") es la única que permite, a partir de la premisa 2 de la consigna, inferir la conclusión. La opción 4 tiene términos valorativos, pero no permite deducir específicamente que “es correcto realizar experimentos invasivos en monos”. Por último, las opciones 1, 3 y 5 no expresan un juicio de valor, por lo cual, de intentar inferir una conclusión normativa a partir de ellas (y la premisa 2), caeríamos en una \"falacia naturalista\".",
+    "ipc-eeed2dbd184d6f23": "Kuhn denomina inconmensurabilidad al hecho de que dos paradigmas son incompatibles entre sí y necesariamente uno le debe ganar al otro. Cuando un paradigma comienza a fragmentarse, a tener muchas anomalías que ya no pueden ser evaluadas con los instrumentos de esa ciencia normal, se genera el triunfo de un nuevo paradigma sobre el viejo. En este caso, aunque ambos modelos intentan explicar los mismos fenómenos astronómicos, no usan las mismas categorías ni los mismos supuestos básicos. Tampoco hay un lenguaje neutro en el que pudieran compararse directamente: cada paradigma redefine el problema, y el modelo copernicano se impuso por sobre el ptolámeico.",
+    "ipc-a13724832f650ca4": "Kuhn desarrolla en su tesis dos componentes esenciales del paradigma. Uno es la “matriz disciplinaria”, que se compone de generalizaciones simbólicas o expresiones de las teorías o leyes y se caracteriza por la existencia de modelos particulares o modelos heurísticos, valores compartidos como juicios de exactitud y ejemplares o modelos típicos de resolución de problemas. Y el “componente sociológico”, cubre las relaciones que se establecen entre los miembros de la comunidad que comparte el paradigma.",
+    "ipc-4a1135fd5cf6b31a": "Según Harari, el progreso científico surge de un bucle de retroalimentación entre ciencia, política y economía, donde cada esfera potencia a las otras. Las opciones incorrectas exageran al proponer subordinaciones absolutas o aislamientos entre estos ámbitos, lo cual contradice la visión integrada y dinámica que plantea el autor.",
+    "ipc-a0a0d3d73c78ad2d": "Según Harari, la ciencia moderna se basa en la conciencia de que el conocimiento es provisional y perfectible. Las opciones incorrectas malinterpretan esta idea: una supone erróneamente que la ciencia busca certezas absolutas; otra reduce la ciencia a la acumulación de datos sin teoría; y la última niega la función explicativa de la ciencia, lo cual contradice su enfoque crítico y racional.",
+    "ipc-58763a54abd31653": "Larry Laudan critica la visión kuhniana de paradigmas inconmensurables y propone que el progreso científico no se mide por la acumulación de verdades absolutas ni por “revoluciones”, sino por la capacidad de las teorías para resolver problemas. Sostiene que la eliminación de las dificultades conceptuales es tan constitutiva del progreso como un creciente apoyo empírico.",
+    "ipc-accd367924422eb2": "La opción correcta describe con precisión el modelo de las dos esferas: una Tierra esférica e inmóvil en el centro, con los astros girando a su alrededor. Las opciones incorrectas presentan ideas ajenas al modelo, como la Tierra plana, el heliocentrismo o el movimiento terrestre, que contradicen el geocentrismo característico de este esquema antiguo.",
+    "ipc-5df77159047642fe": "El ejemplo corresponde a un estudio de cohortes. En este tipo de estudio se sigue a dos o más grupos de personas (expuestos y no expuestos a un factor) a lo largo del tiempo para comparar la incidencia de, por ejemplo, una enfermedad.",
+    "ipc-d80346427b866574": "La opción correcta destaca que el modelo copernicano resolvía anomalías que el modelo anterior no podía explicar. Las incorrectas falsean hechos históricos: el modelo no fue aceptado rápidamente, no proponía que el Sol girara en torno a la Tierra, y sí ofrecía mejoras explicativas, no solo un cambio simbólico.",
+    "ipc-e4715501c5f1b65f": "Según lo expuesto por Bunge, la astrología no es una ciencia porque no cumple con los criterios del conocimiento científico. Falta de base empírica: La astrología no se apoya en observaciones ni experimentos controlados. No hay pruebas sistemáticas que demuestren que las posiciones de los astros influyen en la personalidad o el destino de las personas. No es clara y precisa, sus predicciones son ambiguas, generales o tan abiertas que pueden aplicarse a casi cualquier persona. Asimismo, por su incapacidad de refutación: Una característica central de la ciencia, según Bunge, es que las hipótesis deben ser falsables. La astrología, en cambio, acomoda sus predicciones de modo que siempre puedan interpretarse como correctas, evitando así la posibilidad de refutación.",
+    "ipc-9cd026bcbd5b906b": "La ciencia como pensamiento organizado se encuentra sujeta a normas y principios que se plasman en la práctica cotidiana del sujeto que piensa y hace investigación. Alineado con ello, es posible identificar comportamientos irracionales denominados sesgos cognitivos, los cuales afectan el resultado de todo proceso de indagación y generación de conocimiento.",
+    "ipc-c22e2be662be2134": "Según Ayala, Darwin introduce un proceso natural (la selección) que explica la complejidad sin necesidad de un diseñador. Las opciones incorrectas presentan ideas fijistas, finalistas o erróneamente reducen la evolución al azar sin reconocer el rol explicativo del mecanismo evolutivo.",
+    "ipc-61577860cd0273f8": "La opción correcta es \"Generalizaciones simbólicas\" porque se refiere a fórmulas y leyes aceptadas sin discusión dentro de un paradigma. Las otras opciones son incorrectas: \"Ejemplares\" son casos prácticos, \"Valores\" son criterios de evaluación y \"Partes metafísicas\" son creencias sobre la realidad.",
+    "ipc-414588b4bf61de4b": "Richaud (2018) establece requisitos asociados a la planificación y sistematización de la observación -los mencionados en la respuesta correcta-, que distinguen a la observación científica de la no científica. Postula que sea propósito de una investigación con un problema formulado previamente, que haya sido sistemáticamente planificada, que sus resultados se presenten sistemáticamente y se relacionen con proposiciones generales, y que se someta a control respecto de su validez, precisión y confiabilidad.",
+    "ipc-dafceb4afc4c86bc": "La opción correcta es modo 1 porque se trata de una investigación disciplinar, académica y evaluada por pares, sin orientación directa a la aplicación. Las otras son incorrectas porque confunden especialización con transdisciplinariedad, o asignan finalidades prácticas que el ejemplo no menciona.",
+    "ipc-099f041901310122": "El ejemplo utiliza la estrategia \"PICO\", correspondiendo a cada sigla: Paciente: Adultos con depresión mayor. Intervención: Terapia cognitivo-conductual. Comparación: con Antidepresivos ISRS. Outcome (resultado esperado): Mayor reducción de síntomas con la utilización de TCC que con la utilización de ISRS.",
+    "ipc-b404b1d6302be42b": "El sesgo de anclaje corresponde a la tendencia a considerar en demasía una referencia o información anterior. En este caso, el profesional subestima los indicios actuales de un trastorno depresivo por estar anclado en el diagnóstico previo, interpretando todo desde esa etiqueta inicial.",
+    "ipc-b02293440f7730e5": "Efectivamente, el modo 2 de producción de conocimiento utiliza diversos criterios que incluyen evaluaciones científicas y académicas, pero también consideraciones de responsabilidad comunitaria e impacto práctico. El resto de características pertenece al modo 1.",
+    "ipc-514217a1d5ef0653": "La opción correcta es transferencia tecnológica porque el ejemplo muestra la aplicación práctica de conocimiento científico para resolver problemas concretos en el sector productivo. Las demás son incorrectas porque no se trata de generación de conocimiento nuevo (investigación), formación de estudiantes (docencia) ni articulación directa con la comunidad en clave social (extensión).",
+    "ipc-0284d41d947d10c0": "Desde el punto de vista ético en investigación, se considera relevante evitar daños a las personas que participan en las investigaciones, cuidando la integridad, autonomía y dignidad de los participantes, cumpliendo con tres principios fundamentales y obligatorios: el consentimiento informado, la confidencialidad de la información y el respeto al anonimato de las personas participantes (Abad Miguelez, 2016, citado en Putrino et. al.).",
+    "ipc-fabfed4e1420b5b4": "La opción correcta define la función de investigación porque se refiere a la producción de conocimiento original mediante prácticas científicas. Las demás son incorrectas porque describen las funciones de extensión, transferencia tecnológica y docencia.",
+    "ipc-e73c67d25148beb7": "Según lo expuesto por Bunge, la astrología no es una ciencia porque no cumple con los criterios del conocimiento científico. Falta de base empírica: La astrología no se apoya en observaciones ni experimentos controlados. No hay pruebas sistemáticas que demuestren que las posiciones de los astros influyen en la personalidad o el destino de las personas. No es clara y precisa, sus predicciones son ambiguas, generales o tan abiertas que pueden aplicarse a casi cualquier persona. Asimismo, por su incapacidad de refutación: Una característica central de la ciencia, según Bunge es que las hipótesis deben ser falsables. La astrología, en cambio, acomoda sus predicciones de modo que siempre puedan interpretarse como correctas, evitando así la posibilidad de refutación.",
+    "ipc-bf047b33145daf9b": "Kuhn denomina inconmensurabilidad al hecho de que dos paradigmas son incompatibles entre sí y necesariamente uno le debe ganar al otro. Cuando un paradigma comienza a fragmentarse, a tener muchas anomalías que ya no pueden ser evaluadas con los instrumentos de esa ciencia normal, se genera el triunfo de un nuevo paradigma sobre el viejo. En este caso, aunque ambos modelos intentan explicar los mismos fenómenos astronómicos, no usan las mismas categorías ni los mismos supuestos básicos. Tampoco hay un lenguaje neutro en el que pudieran compararse directamente: cada paradigma redefine el problema, y el modelo copernicano se impuso por sobre el ptolomeico.",
+    "ipc-7aaded2f084e694e": "Kuhn denomina inconmensurabilidad al hecho de que dos paradigmas son incompatibles entre sí y necesariamente uno le debe ganar al otro. Cuando un paradigma comienza a fragmentarse, a tener muchas anomalías que ya no pueden ser evaluadas con los instrumentos de esa ciencia normal, se genera el triunfo de un nuevo paradigma sobre el viejo.",
+    "ipc-158e5a2a50b4983e": "La opción correcta aclara que un rechazo editorial implica que el manuscrito no será publicado en esa revista, incluso si se hacen correcciones. Las otras son incorrectas porque suponen posibilidades de publicación que no corresponden a un rechazo definitivo o malinterpretan el rol de los revisores en esa decisión.",
+    "ipc-be9fb5433482626b": "La opción correcta define la función de docencia porque se centra en la formación académica y ética de estudiantes. Las demás son incorrectas porque describen otras funciones universitarias: extensión, transferencia tecnológica e investigación, respectivamente.",
+    "ipc-48ab23a8647d0aee": "Efectivamente, el modo 1 de producción de conocimiento se realiza en contextos tradicionales y fuertemente disciplinares como academias y centros de investigación disciplinares y universidades. El resto de características pertenece al modo 2.",
+    "ipc-af71b9149381f352": "El ejemplo corresponde a una revisión sistemática, siendo una investigación que recopila, evalúa y sintetiza de forma sistemática los resultados de varios estudios sobre una misma pregunta clínica.",
+    "ipc-e5d8094f591f0697": "La opción correcta es modo 2 porque el conocimiento se produce en un contexto aplicado, con múltiples actores y evaluación basada en criterios científicos y sociales. Las demás son incorrectas porque confunden participación institucional o aplicación con los rasgos distintivos del modo 1.",
+    "ipc-77b67b2110362f15": "La opción correcta es la única que define a la comunidad científica según Kuhn: un grupo que comparte una misma matriz disciplinaria. Las demás son incorrectas porque omiten el papel central del paradigma, confunden comunidad con contexto geográfico o apelan a criterios subjetivos ajenos a la definición de Kuhn.",
+    "ipc-6a13cc2a339d84b6": "Laudan distingue entre problemas empíricos (hechos que una teoría debe explicar) y problemas conceptuales (inconsistencias lógicas o incompatibilidades teóricas), y postula que una teoría que minimiza ambos tipos de problemas progresa más.",
+    "ipc-b697c8815ee6fc9c": "La opción correcta describe valores porque refiere a criterios como simplicidad y coherencia que guían la evaluación científica. Las otras son incorrectas: una es una ley (generalización simbólica), otra una creencia ontológica (parte metafísica) y otra un caso práctico de aprendizaje (ejemplar).",
+    "ipc-51bd99d96a57ffa0": "Según Richaud (2018) la observación natural, especialmente indicada para propósitos exploratorios, es utilizada para descubrir qué clase de fenómenos y relaciones merecen un estudio más controlado. La observación natural se centra en registrar los fenómenos en su contexto real, sin intervención, mientras que las demás estrategias implican preguntar, manipular, participar o estructurar el modo de obtener la información.",
+    "ipc-7dacc43c41359023": "En la situación se observa el Efecto Halo, donde una impresión positiva inicial (verlo prolijo, notar claridad y amabilidad) se extiende indebidamente a otras áreas no necesariamente relacionadas (ser funcional y con un buen nivel de afrontamiento), sesgando así la evaluación clínica global del psicólogo sobre la situación de su consultante.",
+    "ipc-3e2af269f19fe4ca": "El índice de impacto es una medida usada para evaluar la relevancia o influencia de una revista científica dentro de un campo académico. Resulta importante porque los investigadores van sumando puntaje a partir de las publicaciones científicas que realizan en revistas con un buen índice de impacto, cuanto más índice de impacto tiene la revista, más puntaje y prestigio suma el investigador.",
+    "ipc-92381028977b9c91": "La opción correcta destaca que Darwin explicó las adaptaciones mediante un mecanismo natural: la selección. Las incorrectas presentan visiones erróneas: el lamarckismo (voluntad), el fijismo (inmutabilidad) o una idea de progreso lineal, ajena a la teoría darwiniana.",
+    "ipc-c03ccf074deeae6c": "La ilusión de serie o apofenia se basa en la observación de patrones donde no los hay. Se trata de relacionar en conjunto hechos que no están conectados. En el ejemplo, el paciente detecta una relación inexistente entre un número casual y un evento social.",
+    "ipc-9a902773d752213c": "La opción correcta señala que el modelo copernicano tuvo profundas consecuencias más allá de lo científico, afectando la visión del mundo y del lugar del ser humano. Las opciones incorrectas niegan ese impacto, malinterpretan su recepción histórica o exageran su aceptación inmediata, que en realidad fue lenta y resistida.",
+    "ipc-3fc3496d56492fc6": "La opción correcta señala que el modelo de las dos esferas cumplía con nuestro requisito psicológico de dar una forma al mundo que nos rodea y explicaba los fenómenos celestes que observaba la gente del pasado. Las incorrectas exageran su ineficacia, lo reducen a un símbolo sin valor científico o confunden aceptación social con ausencia de tensiones religiosas, que sí existieron en ciertos contextos.",
+    "ipc-d2741ca0c84a6039": "En las Ciencias de la salud es habitual, para formular la pregunta de investigación, la utilización de la estrategia PICO. Cada sigla hace referencia a los componentes que debe contener la pregunta por sus siglas en inglés: Patient (paciente), Intervention (intervención), Comparison (comparación) y Outcome (resultado).",
+    "ipc-4391eb33ae6ee372": "La opción correcta explica el bucle de retroalimentación que plantea Harari: ciencia, política y economía se potencian mutuamente. Las opciones incorrectas separan artificialmente estos ámbitos, subestiman la utilidad práctica del conocimiento o ignoran que el poder científico también alimenta el acceso a nuevos recursos.",
+    "ipc-b61f5077cd1e84d4": "En este ejercicio se pide que identifiques la hipótesis auxilar del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis auxiliar es una hipótesis que cuenta con apoyo independiente previo y que se utiliza en la contrastación como conocimiento presupuesto. La hipótesis fundamental, en cambio, es lo que se pone a prueba. Una consecuencia observacional describe lo que se espera observar si la hipótesis es correcta; no es el supuesto general auxiliar que permite interpretar las mediciones.",
+    "ipc-3f8c59de89bac147": "En este ejercicio se te pide que señales la explicación darwiniana de un rasgo específico. Lo característico de las explicaciones por selección natural es poner en relación la eficacia de los rasgos para cumplir ciertas funciones en un determinado ambiente con la aptitud del organismo que posee dichos rasgos. Los organismos más aptos, a su vez, dejan mayor descendencia que los menos aptos, por lo que en las sucesivas generaciones aumenta la proporción de organismos que presentan esos rasgos adaptativos.",
+    "ipc-f6eac36c7c4e8675": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Para ello, es importante que tengas presente que de acuerdo con esta corriente, para que un enunciado pertenezca al ámbito de la ciencia empírica debe ser falsable, esto es, debe tener contenido empírico y debe ser posible formular contra él enunciados básicos que funcionen como falsadores potenciales. Recordá que los falsadores potenciales son enunciados existenciales, singulares, incompatibles con la hipótesis y lógicamente posibles. De lo anterior se sigue que algunos enunciados o afirmaciones no son falsables: (i) los enunciados de las ciencias formales, (ii) las afirmaciones metafísicas y (iii) los enunciados probabilísticos. El enunciado de este ejercicio pertenece a las ciencias formales.",
+    "ipc-882569d3c55e6991": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación nomológico-deductiva, dicha ley debe ser universal. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"este pez puso huevas en el río\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"Los salmones ponen huevas en los ríos\" y \"Este pez es un salmón\", respectivamente. Por otro lado, hay que recordar que las leyes son enunciados generales que describen una regularidad empíricamente constatada. Por eso, un enunciado condicional acerca de un individuo, como el de la opción 2, no es una ley y no puede formar parte de una explicación de este tipo.",
+    "ipc-c93f115c1a2aa54a": "Según la epistemología de Kuhn, las anomalías son problemas o fenómenos que no pueden resolverse dentro del marco del paradigma vigente y que, al acumularse, pueden generar una crisis que lleve a un cambio de paradigma. Las anomalías no son irrelevantes, sino todo lo contrario: son fundamentales para la dinámica del cambio científico. No constituyen pruebas \"definitivas de falsedad\", pues los paradigmas no se consideran falsos, ni se abandonan automáticamente, ante la aparición de ciertos problemas.",
+    "ipc-71086b1e6bd623c9": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio se trata de la manifestación que llamamos \"exclusión y marginalización\": las historiadoras, sociólogas y antropólogas feministas han mostrado que a lo largo de la historia las mujeres han sido privadas de la posibilidad de formarse y ejercer la actividad científica. En ocasiones, esta exclusión se da de manera explícita y legal, como las prohibiciones para estudiar en la universidad y ejercer la actividad científica. También hay formas de exclusión menos explícitas, como la creencia social en que hay carreras \"de varones\" y \"de mujeres\". E incluso en los casos en los que las mujeres logran acceder sin trabas a la carrera científica, es frecuente que padezcan otras formas de marginalización: por ejemplo, progresar académicamente menos que sus pares varones aún con los mismos méritos.",
+    "ipc-3478294bab41a1ef": "La teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. La razón de esta primacía radica en que las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan colectivamente insertas y son capaces de mostrar que estas relaciones opresivas no son resultado de la naturaleza y la necesidad sino de la historia contingente, y por ello pueden ser modificadas. En cambio, el empirismo feminista sostiene que la elección de teorías depende de la evidencia disponible y la lógica de la investigación científica, tal y como sostenían los empiristas lógicos. Además, reconocen que una comunidad científica plural y abierta a la discusión posibilita la objetividad científica.",
+    "ipc-b6cfd938b60a5469": "La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde ese punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, el desarrollo mencionado contribuye directamente a estos objetivos.",
+    "ipc-09bc59fdf44d8696": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 1, 2 y 3 son juicios de valor. Sin embargo, la opción 2 (\"es correcto invertir recursos públicos para comprender mejor la biodiversidad y la evolución de especies desconocidas\") es la única que permite, a partir de la premisa 2 de la consigna, inferir la conclusión. De las otras dos opciones normativas, no se puede deducir el deber específico de “invertir recursos públicos en investigar gusanos gigantes en ecosistemas subterráneos”. Por último, la opción 4 no es un juicio de valor, por lo cual, de intentar inferir una conclusión normativa a partir de ella (y la premisa 2), caeríamos en una \"falacia naturalista\".",
+    "ipc-88b2a6c6218a2429": "En este ejercicio se pide que identifiques la consecuencia observacional del caso de investigación presentado. Para ello, es importante tener en cuenta que la consecuencia observacional es un enunciado empírico básico que expresa lo que cabe esperar a la luz de la hipótesis principal, dadas las condiciones iniciales en las que se lleva a cabo el experimento y la hipótesis auxiliar que se asume.",
+    "ipc-7a179d45d6675df1": "En este ejercicio se te pide que señales la explicación lamarckiana de un rasgo específico. La teoría lamarckiana de la evolución reconoce dos mecanismos generales: la tendencia general a la complejidad y la herencia de las características adquiridas por uso o desuso. En este caso, Lamarck sostendría que la razón por la que determinados organismos presentan un mayor grado de complejidad que otros se debe a la tendencia general. En la medida en que transcurre el tiempo, todas las especies se vuelven más complejas independientemente del ambiente.",
+    "ipc-66a83640bbe60319": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación nomológico-deductiva, dicha ley debe ser universal. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"este pez puso huevas en el río\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"Los salmones ponen huevas en los ríos\" y \"Este pez es un salmón\", respectivamente. Por otro lado, hay que recordar que las leyes son enunciados generales que describen una regularidad empíricamente constatada. Por eso, un enunciado condicional acerca de un individuo, como el de la opción 2, no es una ley y no puede formar parte de una explicación de este tipo.",
+    "ipc-91708d787e8c1c5b": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 1, 2 y 3 son juicios de valor. Sin embargo, la opción 3 (\"es correcto invertir recursos públicos para comprender mejor la biodiversidad y la evolución de especies desconocidas\") es la única que permite, a partir de la premisa 2 de la consigna, inferir la conclusión. De las otras dos opciones normativas, no se puede deducir el deber específico de “invertir recursos públicos en investigar gusanos gigantes en ecosistemas subterráneos”. Por último, la opción 4 no es un juicio de valor, por lo cual, de intentar inferir una conclusión normativa a partir de ella (y la premisa 2), caeríamos en una \"falacia naturalista\".",
+    "ipc-b9a9047460f1316a": "En este ejercicio se te pide que señales la explicación darwiniana de un rasgo específico. Lo característico de las explicaciones por selección natural es que ponen en relación la eficacia de los rasgos para cumplir ciertas funciones en un determinado ambiente con la aptitud del organismo que posee dichos rasgos. Los organismos más aptos, a su vez, dejan mayor descendencia que los menos aptos, por lo que en las sucesivas generaciones aumenta la proporción de organismos que presentan esos rasgos adaptativos.",
+    "ipc-8c17f4986b24f205": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. Para esta corriente, para que un enunciado pertenezca al ámbito de la ciencia empírica debe tener contenido empírico: debe estar formulado en lenguaje observacional o bien debe ser traducible al lenguaje observacional. El positivismo lógico distingue los enunciados teóricos de las afirmaciones metafísicas. Así, los enunciados teóricos pueden y deben ser traducibles a afirmaciones empíricas básicas que expresen las propiedades y relaciones observables entre los objetos materiales. Las afirmaciones metafísicas, en cambio, no pueden ser traducidas a afirmaciones empíricas básicas, pues contienen términos metafísicos que refieren a entidades no empíricas (como por ejemplo “ser” y “alma”).",
+    "ipc-e0e8c07a5f3f1748": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico-inductiva, dicha ley debe ser estadística o probabilística. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"este pez vive en una anémona\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"La mayoría de los peces payaso viven en anémonas\" y \"Este pez es un pez payaso\", respectivamente. Por otro lado, hay que recordar que las leyes son enunciados generales que describen una regularidad empíricamente constatada. Por eso, un enunciado condicional acerca de un individuo, como el de la opción 4, no es una ley y no puede formar parte de una explicación de este tipo.",
+    "ipc-aae71c85c424eb40": "En la concepción kuhniana de la ciencia, una crisis en un paradigma no comienza con la presencia de enigmas, y tampoco es necesario que aparezca más de un paradigma rival. La crisis comienza cuando las anomalías (fenómenos que no pueden ser explicados por el paradigma vigente) se acumulan y minan la confianza de la comunidad científica en el paradigma dominante. Esto lleva a una situación de crisis que puede derivar en un cambio de paradigma, es decir, una revolución científica.",
+    "ipc-cf10a628321f16ab": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio se trata de la manifestación que llamamos \"teorías sexistas\": la crítica feminista de la historia de la ciencia permite detectar que, en muchas ocasiones, el sesgo androcéntrico se encuentra en las mismas teorías científicas, incluidas algunas de muy amplio alcance y consideradas revolucionarias en su momento. En este caso, encontramos que la teoría de Clarke sobre la incapacidad biológica de las mujeres para dedicarse a los asuntos intelectuales influyó notablemente en la educación de las niñas y jóvenes en épocas posteriores.",
+    "ipc-28d734871711bb28": "El empirismo feminista sostiene que la elección de teorías depende de la evidencia disponible y la lógica de la investigación científica, tal y como sostenían los empiristas lógicos. Sin embargo, reconocen el rol de los valores como vectores de decisión. La idea es que la objetividad se puede salvar no negando los valores ni los distintos estándares de aceptación de las teorías en ciencia, sino explicitándolos y poniéndolos a discusión intersubjetiva por parte de la comunidad científica. Una comunidad científica plural y abierta a la discusión posibilita la detección y atenuación de sesgos. En cambio, la teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. Las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan colectivamente insertas, lo que las hace capaces de identificar efectivamente los sesgos androcéntricos en ciencia.",
+    "ipc-669d937cad9b7a51": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 1 y 3 son juicios de valor. Sin embargo, la opción 1 (\"es correcto financiar con recursos públicos lo que permita aumentar la producción en condiciones adversas\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De la otra opción normativa, no se puede deducir que \"es correcto financiar con recursos públicos la producción y comercialización del trigo resistente a la sequía.\" Por último, la opción 2, si bien es relevante, no es una premisa valorativa, de modo que emplearla en conjunción con la premisa 2 nos haría caer en una \"falacia naturalista\".",
+    "ipc-8d42d828f3d7b2db": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico-inductiva, dicha ley debe ser estadística o probabilística. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"este pez vive en una anémona\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"La mayoría de los peces payaso viven en anémonas\" y \"Este pez es un pez payaso\", respectivamente. Por otro lado, hay que recordar que las leyes son enunciados generales que describen una regularidad empíricamente constatada. Por eso, un enunciado condicional acerca de un individuo, como el de la opción 4, no es una ley y no puede formar parte de una explicación de este tipo.",
+    "ipc-0bf8995b7acb033f": "En la concepción kuhniana de la ciencia, una crisis en un paradigma no comienza con la presencia de enigmas y tampoco es necesario que aparezca más de un paradigma rival. La crisis comienza cuando las anomalías (fenómenos que no pueden ser explicados por el paradigma vigente) se acumulan y minan la confianza de la comunidad científica en el paradigma dominante. Esto lleva a una situación de crisis que puede derivar en un cambio de paradigma, es decir, una revolución científica.",
+    "ipc-8e2724d561f4333f": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 2 y 3 son juicios de valor. Sin embargo, la opción 2 (\"es correcto financiar con recursos públicos lo que permita aumentar la producción en condiciones adversas\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De la otra opción normativa, no se puede deducir que \"es correcto financiar con recursos públicos la producción y comercialización del trigo resistente a la sequía.\" Por último, la opción 1, si bien es relevante, no es una premisa valorativa, de modo que emplearla en conjunción con la premisa 2 nos haría caer en una \"falacia naturalista\".",
+    "ipc-11997a9a238dbe82": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Para ello, es importante que tengas presente que de acuerdo con esta corriente, para que un enunciado pertenezca al ámbito de la ciencia empírica debe ser falsable, esto es, debe tener contenido empírico y debe ser posible formular contra él enunciados básicos que funcionen como falsadores potenciales. Recordá que los falsadores potenciales son enunciados existenciales, singulares, incompatibles con la hipótesis y lógicamente posibles. De lo anterior se sigue que algunos enunciados o afirmaciones no son falsables: (i) los enunciados de las ciencias formales, (ii) las afirmaciones metafísicas y (iii) los enunciados probabilísticos.",
+    "ipc-fd30f211bd5bab56": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación nomológico-deductiva, dicha ley debe ser universal. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"este pez espada perdió sus escamas\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"Todos los peces espada pierden sus escamas en al adultez\" y \"Este pez espada es adulto\", respectivamente. Por otro lado, hay que recordar que las leyes son enunciados generales que describen una regularidad empíricamente constatada. Por eso, un enunciado condicional acerca de un individuo, como el de la opción 1, no es una ley y no puede formar parte de una explicación de este tipo.",
+    "ipc-1267a4961c0c3c12": "Según Kuhn, un paradigma es una forma de ver el mundo que comparten los miembros de una comunidad científica durante el período de ciencia normal, y que incluye supuestos teóricos, metodológicos, valores compartidos y ejemplos de resolución de problemas. Esta visión común orienta la investigación y define qué cuenta como un problema legítimo y cómo debe resolverse. Es decir, no se reduce a ser solo una teoría aislada o un conjunto de presupuestos ontológicos.",
+    "ipc-76dc2bcc939a164c": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio se trata de la manifestación que llamamos \"Omisiones selectivas en la historia de la ciencia\" o \"efecto Matilda\": la revisión crítica de la historia de la ciencia por parte del feminismo ha permitido detectar que, en muchos casos, el trabajo de una científica es omitido o directamente atribuido a un varón, en general cercano. De esta manera, se invisibilizan los aportes que las mujeres realizan al conocimiento científico, reforzando la idea de que las mujeres no pueden o no quieren hacer ciencia.",
+    "ipc-4c4564ff08b2fc56": "El empirismo feminista sostiene que la elección de teorías depende de la evidencia disponible y la lógica de la investigación científica, tal y como sostenían los empiristas lógicos. Sin embargo, reconocen el rol de los valores como vectores de decisión. La idea es que la objetividad se puede salvar no negando los valores en ciencia sino explicitándolos y poniéndolos en discusión intersubjetiva por parte de la comunidad científica. Una comunidad científica plural y abierta a la discusión posibilita la objetividad científica y la detección y atenuación de sesgos. Por su parte, el postmodernismo feminista, sostiene que la perspectiva de los sujetos cognoscentes es siempre cambiante y contingente, atravesada por distintos factores como el género y la clase. Por lo tanto, el conocimiento producido por dichos sujetos también es cambiante y parcial, es imposible acceder al mundo tal cual y como es de manera independiente. Así, las teorías no son reflejos más o menos objetivos de la realidad, sino más bien relatos determinados por las relaciones de poder de una sociedad y período histórico dado.",
+    "ipc-4f90c63ef917aba5": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 1, 2 y 3 son juicios de valor. Sin embargo, la opción 1 (\"es correcto financiar el desarrollo de tecnología que permita ampliar el conocimiento sobre fenómenos astronómicos distantes\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De las otras opciones normativas, no se puede deducir que \"es correcto financiar el desarrollo de telescopios cuánticos\". Por otro lado, si bien la premisa 4 es relevante, se trata de una premisa fáctica, y no valorativa, de modo que emplearla en conjunción con la premisa 2 nos haría caer en una \"falacia naturalista\".",
+    "ipc-a3ebaa15cb9a6718": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación nomológico-deductiva, dicha ley debe ser universal. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"este pez espada perdió sus escamas\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"Todos los peces espada pierden sus escamas en al adultez\" y \"Este pez espada es adulto\", respectivamente. Por otro lado, hay que recordar que las leyes son enunciados generales que describen una regularidad empíricamente constatada. Por eso, un enunciado condicional acerca de un individuo, como el de la opción 1, no es una ley y no puede formar parte de una explicación de este tipo.",
+    "ipc-498822bc125e58b9": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 1, 3 y 4 son juicios de valor. Sin embargo, la opción 1 (\"es correcto financiar el desarrollo de tecnología que permita ampliar el conocimiento sobre fenómenos astronómicos distantes\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De las otras opciones normativas, no se puede deducir que \"es correcto financiar el desarrollo de telescopios cuánticos.\". Por otro lado, si bien la premisa 2 es relevante, se trata de una premisa fáctica, y no valorativa, de modo que emplearla en conjunción con la premisa 2 nos haría caer en una \"falacia naturalista\".",
+    "ipc-1671bceaca291af9": "En este ejercicio se pide identificar lo que debería ocurrir para que la hipótesis principal sea refutada. La hipótesis principal puede ser refutada cuando no sucede lo que expresa la consecuencia observacional. Según el caso relatado en el ejercicio 1, se esperaba que el grupo que usó smartphones antes de dormir tuviera más despertares nocturnos que el grupo que no uso smartphones antes de dormir. En el caso relatado, esto fue lo que terminó sucediendo. Sin embargo, lo que debería suceder para poder refutar la hipótesis es que no se de esa diferencia de despertares entre un grupo y otro. Esto es, que el grupo que usó smartphones y el grupo que no los usó haya tenido la misma cantidad de despertares. O, en su defecto, que el grupo que usó smartphones haya tenido menos despertares nocturnos que el grupo que no los usó.",
+    "ipc-f1850abbf96a3bce": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. Para que un enunciado pertenezca al ámbito de la ciencia empírica para esta corriente debe tener contenido empírico: debe estar formulado en lenguaje observacional o bien debe ser traducible al lenguaje observacional. El positivismo lógico distingue los enunciados teóricos de las afirmaciones metafísicas. Así, los enunciados teóricos pueden y deben ser traducibles a afirmaciones empíricas básicas que expresen las propiedades y relaciones observables entre los objetos materiales. Las afirmaciones metafísicas, en cambio, no pueden ser traducidas a afirmaciones empíricas básicas, pues contienen términos metafísicos que refieren a entidades no empíricas (como por ejemplo “ser” y “alma”).",
+    "ipc-340eec1382e349ca": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico-inductiva, dicha ley debe ser estadistica o probabilística. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"este pez habita en el río Paraná\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"La mayoría de los dorados habitan en el río Paraná\" y \"Este pez es un dorado\", respectivamente. Por otro lado, hay que recordar que las leyes son enunciados generales que describen una regularidad empíricamente constatada. Por eso, un enunciado condicional acerca de un individuo, como el de la opción 5, no es una ley y no puede formar parte de una explicación de este tipo.",
+    "ipc-da85bc1db28eeeb0": "Según la epistemología de Kuhn, la observación está siempre cargada de teoría, es decir, está influenciada por el paradigma que guía a la comunidad científica. Esto significa que lo que los científicos \"ven\" depende del marco conceptual que comparten: no existe una observación completamente neutra o independiente. Kuhn niega la existencia de una base empírica neutral capaz de dirimir entre paradigmas rivales, precisamente porque la observación misma depende del paradigma.",
+    "ipc-8bb86e05fc866407": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación que llamamos \"aplicaciones sexistas\": los intereses y el bienestar de las mujeres no son tenidos en cuenta a la hora de diseñar e implementar soluciones científicas y tecnológicas, dando lugar a aplicaciones de la ciencia o la tecnología que llegan a ser perjudiciales para las mujeres (y otros grupos). El ejemplo dado constituye una aplicación sexista de los algoritmos de reconocimiento de voz que se construyeron en base a voces típicamente masculinas, generando dificultades en el uso de estas herramientas para las mujeres.",
+    "ipc-a89174e2a28d449b": "El postmodernismo feminista sostiene que la perspectiva de los sujetos cognoscentes es siempre cambiante y contingente, atravesada por distintos factores como el género y la clase. Por lo tanto, el conocimiento producido por dichos sujetos también es cambiante y parcial, es imposible acceder al mundo tal cual y como es de manera independiente. Así, las teorías no son reflejos más o menos objetivos de la realidad sino más bien relatos determinados por las relaciones de poder de una sociedad y período histórico dado. Por su parte, el empirismo feminista sostiene que la elección de teorías depende de la evidencia disponible y la lógica de la investigación científica, tal y como sostenían los empiristas lógicos. Sin embargo, reconocen el rol de los valores como vectores de decisión. La idea es que la objetividad se puede salvar no negando los valores en ciencia sino explicitándolos y poniéndolos a discusión intersubjetiva por parte de la comunidad científica.",
+    "ipc-3875c496a58d061d": "La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde ese punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, resulta evidente que el proyecto en cuestión no contribuye directamente a mejorar el bienestar de la población.",
+    "ipc-aef40b87364192af": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 1, 2 y 3 son juicios de valor. Sin embargo, la opción 3 (\"es correcto instalar estructuras en espacios públicos si contribuyen al uso de energías limpias\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De las otras opciones normativas, no se puede deducir que \"es correcto instalar obeliscos solares en espacios públicos\". Por otro lado, si bien la opción 4 es relevante, no se trata de un enunciado normativo, de modo que su empleo en conjunción con la premisa 2 nos conduciría a una \"falacia naturalista\".",
+    "ipc-755edd1779bcadb4": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico-inductiva, dicha ley debe ser estadística o probabilística. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"este pez habita en el río Paraná\", el único par de enunciados que puede funcionar como ley y condición antecedente es \"La mayoría de los dorados habitan en el río Paraná\" y \"Este pez es un dorado\", respectivamente. Por otro lado, hay que recordar que las leyes son enunciados generales que describen una regularidad empíricamente constatada. Por eso, un enunciado condicional acerca de un individuo, como el de la opción 4, no es una ley y no puede formar parte de una explicación de este tipo.",
+    "ipc-d97dabdf590fd16a": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 1, 3 y 4 son juicios de valor. Sin embargo, la opción 1 (\"es correcto instalar estructuras en espacios públicos si contribuyen al uso de energías limpias\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De las otras opciones normativas, no se puede deducir que \"es correcto instalar obeliscos solares en espacios públicos\". Por otro lado, si bien la opción 2 es relevante, no se trata de un enunciado normativo, de modo que su empleo en conjunción con la premisa 2 nos conduciría a una \"falacia naturalista\".",
+    "ipc-372c2c48da6a7e35": "Si bien Laudan coincide en algunos puntos con Kuhn y con Popper, para el autor existen rasgos generales y persistentes del cambio científico que guardan cierta distancia con sus propuestas. Para este autor el progreso es no acumulativo, los debates no se dan sobre áreas empíricas sino sobre áreas conceptuales, y las teorías no son rechazadas solo porque tengan anomalías ni son aceptadas solo por haber sido empíricamente confirmadas.",
+    "ipc-ddf3bea76269cc80": "Los Programas de Investigación Científica (PIC) refieren a teorías que se plantean de manera sucesiva y que comparten un núcleo duro compuesto por postulados convencionalmente aceptados. Además, se caracterizan por poseer un cinturón protector de hipótesis auxiliares y heurísticas (reglas de descubrimiento y mantenimiento del programa).",
+    "ipc-07918cd342f7d709": "Según Bunge (2018), el conocimiento científico trasciende los hechos. Los descarta, produce nuevos hechos y los explica. La investigación científica no se limita a los hechos observados, exprime la realidad a fin de ir más allá de las apariencias, rechazando el grueso de los hechos percibidos y seleccionan los considerados relevantes. Pueden controlarse hechos así como reproducirse.",
+    "ipc-52c1627d18e702ab": "El sesgo de confirmación define el pensamiento que se sustenta en aceptar, sin dudar, las pruebas que apoyan las ideas propias, a la vez que se muestra escepticismo con aquellas que son contrarias. En términos de la ciencia y la investigación, la autora expone que es común observar cómo las personas alinean los resultados obtenidos a partir de sus propias certidumbres, haciéndolos coincidir con las premisas de su saber. Al final, el conocimiento así generado es una parcialidad cognitiva; una subjetividad disfrazada de objetividad por quien investiga.",
+    "ipc-d49a75c94a90afeb": "Anclaje es la tendencia a considerar en demasía una referencia o información anterior. Resulta notoria la influencia que ciertas ideas o conceptos ejercen, además del mencionado, por ejemplo durante muchos años los principios newtonianos fueron la guía para diseñar e interpretar toda teoría en la física de los grandes cuerpos en el universo.",
+    "ipc-441aefc35f990bb1": "Según Ayala, la teoría de Darwin continúa la transformación iniciada por Copérnico al desplazar al ser humano de un lugar central en el universo. Las opciones incorrectas fragmentan el proceso histórico, minimizan su impacto o malinterpretan el sentido de la teoría darwiniana, que no reafirma sino cuestiona la centralidad humana.",
+    "ipc-dac32bda0cd46296": "La opción correcta es \"Ejemplares\" porque se refiere a casos prácticos usados en la formación científica que guían la resolución de nuevos problemas. Las incorrectas son erróneas porque \"Valores\" alude a criterios de evaluación, \"Partes metafísicas\" a creencias sobre la realidad, y \"Generalizaciones simbólicas\" a fórmulas o leyes compartidas.",
+    "ipc-5b1ec41f078fa126": "En la situación se observa el efecto: Una impresión positiva inicial (carisma y simpatía) se extiende indebidamente a otras áreas no necesariamente relacionadas (claridad, inteligencia), sesgando así las evaluaciones de los participantes.",
+    "ipc-813f2b4057b09c98": "La opción correcta es modo 1 porque el ejemplo muestra una investigación disciplinar, académica y orientada por la lógica interna de la ciencia. Las otras son incorrectas porque exageran la orientación aplicada, malinterpretan la publicación académica como señal de modo 2 o mencionan actores externos que no aparecen en el caso.",
+    "ipc-9f91a6384c05460c": "Richaud (2018) toma el concepto de investigación de campo de Dane (1990) para referirse a un conjunto de métodos que incluyen la observación directa de eventos que ocurren de manera natural. La característica esencial de los métodos observacionales, que se inscriben dentro de una categoría genérica denominada metodología cualitativa (Becker & Geer, 1970), es la observación directa de los eventos.",
+    "ipc-30f1747ba00c5ddb": "Desde el punto de vista ético en investigación, se considera relevante evitar daños a las personas que participan en las investigaciones, cuidando la integridad, autonomía y dignidad de los participantes, cumpliendo con tres principios fundamentales y obligatorios: el consentimiento informado, la confidencialidad de la información y el respeto al anonimato de las personas participantes (Abad Miguelez, 2016, citado en Putrino et. al)",
+    "ipc-9a9268ab44e311ba": "La opción correcta es docencia porque el ejemplo muestra la actividad de enseñanza y acompañamiento en la formación académica de estudiantes. Las demás son incorrectas porque no implican generación de conocimiento, aplicación técnica ni trabajo con la comunidad.",
+    "ipc-473d1b433abf16b9": "En las Ciencias de la salud es habitual, para formular la pregunta de investigación, en la utilización de la estrategia PICO. Cada sigla hace referencia a los componentes que debe contener la pregunta por sus siglas en inglés: Patient (paciente), Intervention (intervención), Comparison (comparación) y Outcome (resultado).",
+    "ipc-04870444becc8aae": "La opción correcta es adecuada porque describe a las Academias Nacionales como asociaciones civiles autónomas con respaldo estatal. Las demás son incorrectas porque presentan requisitos de ingreso falsos, confunden su dependencia institucional o las subordinan a estructuras universitarias que no integran.",
+    "ipc-9916f96f7188627f": "La opción correcta señala que una aceptación sin modificaciones suele deberse a que el manuscrito ya fue mejorado tras rechazos previos. Las incorrectas son erróneas porque incluyen supuestos falsos sobre pagos, omisión de revisión por pares o idealizan un escenario que es muy poco frecuente en la práctica editorial.",
+    "ipc-68e8930ec5de5a45": "Según Harari, la ciencia moderna combina observación empírica y sistematización matemática para construir teorías generales. Las opciones incorrectas oponen falsamente observación y matemática, excluyen el rol explicativo de los modelos o sostienen que la observación directa es suficiente sin abstracción teórica, lo cual contradice el enfoque integrado de la ciencia moderna.",
+    "ipc-9684d51f47550931": "Kuhn desarrolla en su tesis dos componentes esenciales del paradigma. Uno de ellos es la “matriz disciplinaria”, que se compone de generalizaciones simbólicas o expresiones de las teorías o leyes y se caracteriza por la existencia de modelos particulares o modelos heurísticos, valores compartidos como juicios de exactitud y ejemplares o modelos típicos de resolución de problemas. Y el “componente sociológico”, que cubre las relaciones que se establecen entre los miembros de la comunidad que comparte el paradigma.",
+    "ipc-040969b8a96d771c": "Laudan postula un modelo de desarrollo y de cambio científico basado en la solución de problemas, sean empíricos o conceptuales. Sostiene que la eliminación de las dificultades conceptuales es tan constitutiva del progreso como un creciente apoyo empírico.",
+    "ipc-7a3e8f92d00fb57f": "Bunge propuso una demarcación científica multicriterio, basada en la caracterización detallada de un campo epistémico. Un campo epistémico es un grupo de personas que incluyen sus teorías y prácticas, con el objetivo de obtener algún tipo de conocimiento.",
+    "ipc-ada8dc12483fcfe2": "Algunos epistemólogos (Lilienfeld et al., 2014) elaboraron una serie de indicadores que permiten caracterizar a las pseudociencias. Uno de ellos es la ausencia de conectividad: A diferencia de los programas de investigación científica, los programas de investigación pseudocientífica tienden a carecer de nexos con otras disciplinas científicas, las pseudociencias pretenden crear nuevos paradigmas de la nada en lugar de construir sobre ideas existentes bien sustentadas.",
+    "ipc-800b5dfd0d06cff4": "Las revisiones sistemáticas son revisiones de artículos ya publicados o síntesis de fuentes primarias. Puede incluir la realización de procedimientos matemáticos en forma de meta-análisis. Permiten realizar conclusiones respecto de intervenciones a modo de conclusión.",
+    "ipc-1707e2c03a74c935": "La opción correcta es la única que refiere a una creencia sobre la realidad —en este caso, la existencia de átomos—, lo que caracteriza a las partes metafísicas. Las demás describen componentes distintos de la matriz disciplinaria: una ley (generalización simbólica), un criterio de evaluación (valor) y un caso ejemplar de aplicación (ejemplar).",
+    "ipc-5bca03c8a57467e5": "Situado en el campo de la investigación científica, a los sesgos cognitivos se les suele denominar también como ilusiones inferenciales, en virtud de que “el razonamiento es un proceso que da lugar a un producto inferencial”.",
+    "ipc-87da39124c45b375": "Richaud (2018) establece requisitos asociados a la planificación y sistematización de la observación -los mencionados en la respuesta correcta-, que distinguen a la observación científica de la no científica.",
+    "ipc-f86e66515bf65066": "La ilusión de serie o apofenia se basa en la observación de patrones donde no los hay. Se trata de relacionar en conjunto hechos que no están conectados. Por ejemplo, una investigadora social especializada en fenómenos de género, puede ver problemas de discriminación donde no los hay, identificando variables y asociándolas para construir una realidad que no relfeja esa situcación.",
+    "ipc-10a2a19af7e3f9a9": "Efectivamente, el modo 1 de producción de conocimiento se realiza según un criterio fuertemente disciplinar. El resto de características pertenece al modo 2.",
+    "ipc-e38de7919d8edf23": "La opción correcta describe la extensión universitaria porque resalta el vínculo con la comunidad y la transformación social mediante el diálogo. Las demás corresponden a transferencia tecnológica, docencia e investigación, respectivamente.",
+    "ipc-29fa659e8a74bbcb": "Robert Merton en 1938, quién estableció que la ciencia tiene un ethos (ética en griego) formado por honestidad intelectual, integridad, escepticismo organizado, comunismo gnoseológico, imparcialidad, impersonalizado y universalidad.",
+    "ipc-bbc1fe631ced4016": "La opción correcta es precisa porque indica que las Academias Nacionales están formadas por expertos que aportan saber fundado a temas de interés público. Las otras son incorrectas porque confunden su rol estable y consultivo con funciones transitorias, formativas o productivas que no las definen según el texto.",
+    "ipc-7f1b1f629e46376a": "La opción correcta señala que la revisión por pares es un proceso colaborativo que valida científicamente el manuscrito antes de su publicación. Las demás son incorrectas porque malinterpretan el proceso: no garantiza publicación automática, los revisores no son elegidos por los autores y el objetivo no es solo corregir estilo, sino evaluar el contenido científico.",
+    "ipc-14c8461ce8bb369f": "La opción correcta señala que la revisión por pares es un proceso colaborativo que valida científicamente el manuscrito antes de su publicación. Las demás son incorrectas porque malinterpretan el proceso: no garantiza publicación automática, los revisores no son elegidos por los autores y el objetivo no es sólo corregir estilo, sino evaluar el contenido científico.",
+    "ipc-921d1833e114855f": "El resultado favorable de la contrastación de una hipótesis no permite inferir con certeza deductiva su verdad. El inductivismo crítico sostiene que si las consecuencias observacionales que se deducen de una hipótesis se verifican, la hipótesis debe considerarse confirmada, esto es, es posible asignarle un grado de probabilidad o apoyo inductivo a partir de las contrastaciones favorables.",
+    "ipc-33a6c6a730a09433": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Para ello, es importante que tengas presente que de acuerdo con esta corriente, para que un enunciado pertenezca al ámbito de la ciencia empírica debe ser falsable, esto es, debe tener contenido empírico y debe ser posible formular contra él enunciados básicos que funcionen como falsadores potenciales. Recordá que los falsadores potenciales son enunciados existenciales, singulares, incompatibles con la hipótesis y lógicamente posibles. Un enunciado falsable es, por ejemplo, “Todos los cetáceos carecen de pelo”, ya que es posible formular un enunciado empírico básico que funcione como un falsador potencial suyo como, por ejemplo, “Hay en el lugar x en el tiempo t un cetáceo que no carece de pelo”. Asimismo, es importante que tengas presente qué enunciados o afirmaciones no son falsables: (i) los enunciados de las ciencias formales, (ii) las afirmaciones metafísicas y (iii) los enunciados probabilísticos. Los enunciados del tipo (i) no son falsables porque carecen de contenido empírico, como el ejemplo “Todos los números naturales tienen un único sucesor”, ya que no es posible encontrar un enunciado existencial, singular, incompatible con el enunciado y lógicamente posible para este enunciado. Así, un enunciado como “Hay en el lugar x en el tiempo t un número natural que no tiene un único sucesor” no funciona porque no es lógicamente posible, es contradictorio: dado que una propiedad del número natural es precisamente tener un sucesor. Un enunciado que afirmara tal cosa equivaldría a la afirmación contradictoria de que el número en cuestión tiene y no tiene un único sucesor. Tampoco hay enunciados básicos que funcionen como falsadores potenciales de enunciados del tipo (ii), como por ejemplo “El Ser puro no tiene determinaciones”, pues no hay fenómeno alguno que de observarse permitiría refutar ese enunciado. Finalmente, los enunciados del tipo (iii), esto es, probabilísticos como “La probabilidad de que la ballena Franca Austral quede atrapada en una red de pesca es del 0,7” no son falsables porque ningún enunciado empírico básico es estrictamente incompatible con él, de modo que cualquier intento de formular un falsador potencial será infructuoso. Si examinamos el ejemplo “La probabilidad de que la ballena Franca Austral quede atrapada en una red de pesca es del 0,7”, se advierte que este enunciado es compatible tanto con el enunciado que expresa el caso posible de que la ballena queda atrapada en una red de pesca, como con el enunciado que expresa el caso posible de que no quede atrapada en una red de pesca. Por lo tanto, ninguno de tales enunciados que expresan esos casos posibles son enunciados contrarios a nuestro ejemplo. Si se verificara que no se observó una ballena Franca Austral que quedó atrapada en una red de pesca, la falsedad de la hipótesis probabilística no quedaría lógicamente determinada, pues esta solo indicaba una probabilidad de 0,7.",
+    "ipc-1c89178736f7d4c4": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación nomológico-deductiva, dicha ley debe ser universal. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"Camila está sintiendo dolor de estómago\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"Comer alimentos en mal estado produce dolor de estómago al día siguiente\" y \"Camila comió sushi en mal estado anoche\", respectivamente.",
+    "ipc-1c87cba8c9cb679a": "Kuhn indica que, previo a la vigencia de un primer paradigma, en cada disciplina hay un período pre-científico marcado por la ausencia de una comunidad científica. En su lugar, solo existen múltiples escuelas que intentan instalar sus explicaciones respecto de cierto campo de investigación, sin marcos conceptuales o metodológicos compartidos por ellas. Cada una de ellas posee sus propios presupuestos y creencias acerca de la labor científica.",
+    "ipc-848e29295906b657": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación que llamamos \"Omisiones selectivas en la historia de la ciencia\" o \"efecto Matilda\": la revisión crítica de la historia de la ciencia por parte del feminismo ha permitido detectar que, en muchos casos, el trabajo de una científica es omitido o directamente atribuido a un varón, en general cercano. De esta manera, se invisibilizan los aportes que las mujeres realizan al conocimiento científico, reforzando la idea de que las mujeres no pueden o no quieren hacer ciencia. En este caso, pese a que Bell Burnell fue la principal responsable del descubrimiento de los púlsares, todo el crédito por el hallazgo y los reconocimientos asociados se les otorgaron a dos varones que trabajaban con ella.",
+    "ipc-9770fc0fea87b10e": "La teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. La razón de esta primacía radica en que las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan colectivamente insertas y son capaces de mostrar que estas relaciones opresivas no son resultado de la naturaleza y la necesidad sino de la historia contingente, y por ello pueden ser modificadas. En cambio, el empirismo feminista sostiene que la elección de teorías depende de la evidencia disponible y la lógica de la investigación científica, tal y como sostenían los empiristas lógicos. Además, reconoce que una comunidad científica plural y abierta a la discusión posibilita la objetividad científica, y es la interacción crítica al interior de esta comunidad lo que permite exponer los sesgos de género presentes en teorías, conceptos y métodos.",
+    "ipc-d8d0f93b875036c7": "La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde este punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, el proyecto aborda un problema de salud mental muy extendido en la sociedad, y los aportes directos que realiza podrían permitir mejores diagnósticos y mayor personalización de tratamientos inmunológicos en pacientes depresivos.",
+    "ipc-7a924a307e359737": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser” (falacia naturalista). En el ejercicio, las opciones 1, 2 y 4 son juicios de valor. Sin embargo, la opción 2 (\"Debemos implementar tecnologías que mejoren el rendimiento agrícola.\") es la única que permite, a partir de la premisa 2 de la consigna, inferir la conclusión. De las otras dos opciones normativas, no se puede deducir el juicio valorativo sobre “aplicar fertilizantes químicos a los cultivos agrícolas”.",
+    "ipc-300ae49b4356da53": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser” (falacia naturalista). En el ejercicio, las opciones 2, 3 y 4 son juicios de valor. Sin embargo, la opción 3 (\"debemos implementar tecnologías que mejoren el rendimiento agrícola\") es la única que permite, a partir de la premisa 2 de la consigna, inferir la conclusión. De las otras dos opciones normativas, no se puede deducir el juicio valorativo específico de “implementar tecnologías que mejoren el rendimiento agrícola”.",
+    "ipc-755d14dab5d84301": "El resultado favorable de la contrastación de una hipótesis no permite inferir con certeza deductiva su verdad. Desde el punto de vista falsacionista, un resultado favorable de la contrastación es aquel en donde las investigaciones conducen a rechazar falsadores potenciales de la hipótesis que se somete a prueba. Ahora bien, que esto ocurra no prueba que la hipótesis sea verdadera, ni la vuelve más probable, solo la corrobora. Las hipótesis no se aceptan como verdaderas porque no se puede probar la verdad de los enunciados generales, como las hipótesis, a partir de casos observados. Popper tampoco acepta que las hipótesis aumenten su probabilidad, porque eso solo se puede hacer a través de inferencias inductivas y Popper rechaza la aplicación de las inferencias inductivas en la investigación científica. Que la hipótesis quede corroborada quiere decir tan solo que la hipótesis en cuestión ha superado con éxito los intentos de refutación.",
+    "ipc-eb70e4a5dd3d8a20": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. Para ello, es importante que tengas presente que de acuerdo con esta corriente, para que un enunciado pertenezca al ámbito de la ciencia empírica debe tener contenido empírico: debe estar formulado en lenguaje observacional (como el enunciado “Todas las ballenas se alimentan de krill”), o bien debe ser traducible al lenguaje observacional (como el enunciado teórico “El electrón es una partícula subatómica con una carga eléctrica elemental negativa”). Recordá que el positivismo lógico distingue tajantemente los enunciados teóricos de las afirmaciones metafísicas. Así, los enunciados teóricos pueden y deben ser traducibles a afirmaciones empíricas básicas que expresen las propiedades y relaciones observables entre los objetos materiales. Las afirmaciones metafísicas, en cambio, no pueden ser traducidas a afirmaciones empíricas básicas, pues contienen términos metafísicos que refieren a entidades no empíricas (como por ejemplo “ser” y “alma”) tal como sucede en el enunciado “El Ser puro y la nada pura son lo mismo”, y por ello no son admitidas dentro del ámbito de las ciencias empíricas.",
+    "ipc-3433fdb81b604e6f": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico-inductiva, dicha ley debe ser probabilística o estadística. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"Agustín está resfriado\", el único par de enunciados que pueden funcionar como ley estadística y condición antecedente son \"El 70% de las personas que están en contacto cercano con alguien resfriado durante más de una hora también se resfrían\" y \"Agustín estuvo en contacto cercano con su compañero de trabajo, que estaba resfriado, durante toda la tarde\", respectivamente.",
+    "ipc-3677f6450bd242ec": "De acuerdo con Kuhn, en el período de ciencia normal los miembros de la comunidad científica tienen confianza en el paradigma vigente, lo cual les permite abocarse a la resolución de enigmas. El consenso en torno al paradigma incluye la aceptación de algunos presupuestos generales acerca de cómo es el mundo, qué enigmas es relevante resolver, y cómo hacerlo de manera tal de acrecentar los conocimientos en torno a ellos.",
+    "ipc-6ab696bf2e0cfb3b": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación que llamamos \"exclusión y marginalización\": las historiadoras, sociólogas y antropólogas feministas han mostrado que a lo largo de la historia las mujeres han sido privadas de la posibilidad de formarse y ejercer la actividad científica. En ocasiones, esta exclusión se da de manera explícita y legal, como las prohibiciones para estudiar en la universidad y ejercer la actividad científica. También hay formas de exclusión menos explícitas, como la creencia social en que hay carreras \"de varones\" y \"de mujeres\". E incluso en los casos en los que las mujeres logran acceder sin trabas a la carrera científica, es frecuente que padezcan otras formas de marginalización: por ejemplo, progresar académicamente menos que sus pares varones aún con los mismos méritos.",
+    "ipc-0a4d7f9ca4212918": "El empirismo feminista sostiene que la elección de teorías depende de la evidencia disponible y la lógica de la investigación científica, tal y como sostenían los empiristas lógicos. Pero a diferencia de los empiristas lógicos, el empirismo feminista reconoce el rol de los valores como vectores de decisión entre teorías. La idea es que la objetividad se puede salvar, no negando los valores en ciencia, sino explicitándolos y poniéndolos en discusión intersubjetiva por parte de la comunidad científica. Una comunidad científica plural y abierta a la discusión posibilita la detección y atenuación de sesgos. En cambio, la teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y de otros grupos oprimidos, en general) sobre la perspectiva dominante de los varones. Las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan colectivamente insertas, lo que las hace capaces de identificar efectivamente los sesgos androcéntricos en ciencia y de ofrecer una versión de los fenómenos sociales más representativa de los intereses humanos universales.",
+    "ipc-70a7cd48c6ccd66b": "La perspectiva cientificista afirma que se debe priorizar el financiamiento de la ciencia básica, ya que la producción de conocimiento científico tiene un valor intrínseco. El financiamiento de la ciencia no debe estar regido por las necesidades económicas o las demandas sociales inmediatas. En el caso propuesto, se trata de un proyecto de ciencia básica que estudia los factores que impulsaron la gran diversidad de morfologías en los monos platirrinos, por lo que no es necesario prever aplicaciones inmediatas.",
+    "ipc-6e78fdba2ef5e93e": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser” (falacia naturalista). En el ejercicio, las opciones 1, 2 y 3 son juicios de valor. Sin embargo, la opción 1 (\"es correcto implementar tecnologías que previenen enfermedades y aumentan la producción de carne.\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De las otras opciones normativas, no se puede deducir que \"es correcto utilizar antibióticos en animales de granja.\"",
+    "ipc-cfa0cad6ece3abea": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser” (falacia naturalista). En el ejercicio, las opciones 1, 2 y 3 son juicios de valor. Sin embargo, la opción 3 (\"es correcto implementar tecnologías que previenen enfermedades y aumentan la producción de carne.\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De las otras opciones normativas, no se puede deducir que \"es correcto utilizar antibióticos en animales de granja.\"",
+    "ipc-732327a8b123aeda": "En este ejercicio se pide que identifiques la hipótesis auxiliar del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis auxiliar es una hipótesis que cuenta con apoyo independiente previo y que se utiliza en la contrastación como conocimiento presupuesto. La hipótesis fundamental, en cambio, es lo que se pone a prueba. Una consecuencia observacional describe lo que se espera observar si la hipótesis es correcta; no es el supuesto general auxiliar que permite interpretar las mediciones.",
+    "ipc-0548c573b78887a3": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Para ello, es importante que tengas presente que de acuerdo con esta corriente, para que un enunciado pertenezca al ámbito de la ciencia empírica debe ser falsable, esto es, debe tener contenido empírico y debe ser posible formular contra él enunciados básicos que funcionen como falsadores potenciales. Recordá que los falsadores potenciales son enunciados existenciales, singulares, incompatibles con la hipótesis y lógicamente posibles. Un enunciado falsable es, por ejemplo, “Todos los cetáceos carecen de pelo”, ya que es posible formular un enunciado empírico básico que funcione como un falsador potencial suyo como, por ejemplo, “Hay en el lugar x en el tiempo t un cetáceo que no carece de pelo”. Asimismo, es importante que tengas presente qué enunciados o afirmaciones no son falsables: (i) los enunciados de las ciencias formales, (ii) las afirmaciones metafísicas y (iii) los enunciados probabilísticos. Los enunciados del tipo (i) no son falsables porque carecen de contenido empírico, como el ejemplo “Todos los números naturales tienen un único sucesor”, ya que no es posible encontrar un enunciado existencial, singular, incompatible con el enunciado y lógicamente posible para este enunciado. Así, un enunciado como “Hay en el lugar x en el tiempo t un número natural que no tiene un único sucesor” no funciona porque no es lógicamente posible, es contradictorio: dado que una propiedad del número natural es precisamente tener un sucesor. Un enunciado que afirmara tal cosa equivaldría a la afirmación contradictoria de que el número en cuestión tiene y no tiene un único sucesor. Tampoco hay enunciados básicos que funcionen como falsadores potenciales de enunciados del tipo (ii), como por ejemplo “El Ser puro no tiene determinaciones”, pues no hay fenómeno alguno que de observarse permitiría refutar ese enunciado. Finalmente, los enunciados del tipo (iii), esto es, probabilísticos como “La probabilidad de que la ballena Franca Austral quede atrapada en una red de pesca es de 0,7” no son falsables porque ningún enunciado empírico básico es estrictamente incompatible con él, de modo que cualquier intento de formular un falsador potencial será infructuoso. Si examinamos el ejemplo “La probabilidad de que la ballena Franca Austral quede atrapada en una red de pesca es de 0,7”, se advierte que este enunciado es compatible tanto con el enunciado que expresa el caso posible de que la ballena queda atrapada en una red de pesca, como con el enunciado que expresa el caso posible de que no quede atrapada en una red de pesca. Por lo tanto, ninguno de tales enunciados que expresan esos casos posibles son enunciados contrarios a nuestro ejemplo. Si se verificara que no se observó una ballena Franca Austral que quedó atrapada en una red de pesca, la falsedad de la hipótesis probabilística no quedaría lógicamente determinada, pues esta solo indicaba una probabilidad de 0,7.",
+    "ipc-dc3e3f9a48dc479e": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación nomológico-deductiva, dicha ley debe ser universal. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"La ropa de algodón de María se encogió\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"La ropa de algodón se encoge cuando se lava con agua caliente\" y \"María lavó su ropa de algodón con agua caliente\", respectivamente.",
+    "ipc-71aee932fdddd0a1": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En este ejercicio, se trata de la manifestación que llamamos \"teorías sexistas\": la crítica feminista de la historia de la ciencia permite detectar que, en muchas ocasiones, el sesgo androcéntrico se encuentra en las mismas teorías científicas, incluidas algunas de muy amplio alcance y consideradas revolucionarias en su momento. En este caso, encontramos que la teoría psicoanalítica del \"frío materno\" sostenía que las mujeres que no cumplían con los roles tradicionales de género (cuidar de los hijos, no trabajar fuera del hogar etc.) eran responsables del autismo de sus hijos.",
+    "ipc-a41054a15cadfb59": "El empirismo feminista sostiene que la elección de teorías depende de la evidencia disponible y la lógica de la investigación científica, tal y como sostenían los empiristas lógicos. Pero a diferencia de los empiristas lógicos, el empirismo feminista reconoce el rol de los valores como vectores de decisión entre teorías. La idea es que la objetividad se puede salvar, no negando los valores en ciencia, sino explicitándolos y poniéndolos en discusión intersubjetiva por parte de la comunidad científica. Una comunidad científica plural y abierta a la discusión posibilita la objetividad científica y la detección y atenuación de sesgos. Por su parte, el postmodernismo feminista sostiene que la perspectiva de los sujetos cognoscentes es siempre cambiante y contingente, atravesada por distintos factores como el género y la clase. Por lo tanto, el conocimiento producido por dichos sujetos también es cambiante y parcial, es imposible acceder al mundo tal cual y como es de manera independiente. Así, las teorías no son reflejos más o menos objetivos de la realidad, sino más bien relatos determinados por las relaciones de poder de una sociedad y período histórico dado.",
+    "ipc-adbb8edfd79a2482": "La perspectiva cientificista afirma que se debe priorizar el financiamiento de la ciencia básica, ya que la producción de conocimiento científico tiene un valor intrínseco. El financiamiento de la ciencia no debe estar regido por las necesidades económicas o las demandas sociales inmediatas. En el caso propuesto, se trata de un proyecto de ciencia básica que busca comprender el funcionamiento de los ARNlnc y su rol en la regulación de la expresión génica en plantas, por lo que no es necesario prever aplicaciones inmediatas.",
+    "ipc-f665883b5ce59117": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser” (falacia naturalista). En el ejercicio, las opciones 1, 2 y 4 son juicios de valor. Sin embargo, la opción 1 (\"debemos implementar medidas para reducir la dependencia de combustibles fósiles y disminuir las emisiones de carbono\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De las otras opciones normativas, no se puede deducir que \"debemos instalar paneles solares en edificios.\"",
+    "ipc-d3b0b1b6eedec4f3": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación que llamamos \"teorías sexistas\": la crítica feminista de la historia de la ciencia permite detectar que, en muchas ocasiones, el sesgo androcéntrico se encuentra en las mismas teorías científicas, incluidas algunas de muy amplio alcance y consideradas revolucionarias en su momento. En este caso, encontramos que la teoría psicoanalítica del \"frío materno\" sostenía que las mujeres que no cumplían con los roles tradicionales de género (cuidar de los hijos, no trabajar fuera del hogar etc.) eran responsables del autismo de sus hijos.",
+    "ipc-4a7159d8a17bcb44": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser” (falacia naturalista). En el ejercicio, las opciones 1, 2 y 3 son juicios de valor. Sin embargo, la opción 3 (\"debemos implementar medidas para reducir la dependencia de combustibles fósiles y disminuir las emisiones de carbono\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De las otras opciones normativas, no se puede deducir que \"debemos instalar paneles solares en edificios.\"",
+    "ipc-e4c3e4a6fbd137b6": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. Para ello, es importante que tengas presente que de acuerdo con esta corriente, para que un enunciado pertenezca al ámbito de la ciencia empírica debe tener contenido empírico: debe estar formulado en lenguaje observacional (como el enunciado “Todas las ballenas se alimentan de krill”), o bien debe ser traducible al lenguaje observacional (como el enunciado teórico “El electrón es una partícula subatómica con una carga eléctrica elemental negativa”). Recordá que el positivismo lógico distingue tajantemente los enunciados teóricos de las afirmaciones metafísicas. Así, los enunciados teóricos pueden y deben ser traducibles a afirmaciones empíricas básicas que expresen las propiedades y relaciones observables entre los objetos materiales. Las afirmaciones metafísicas, en cambio, no pueden ser traducidas a afirmaciones empíricas básicas, pues contienen términos metafísicos que refieren a entidades no empíricas (como por ejemplo “ser” y “esencia”) tal como sucede en el enunciado “El Ser puro y la nada pura son lo mismo”, y por ello no son admitidas dentro del ámbito de las ciencias empíricas.",
+    "ipc-8ea9b36b42c5df52": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico-inductiva, dicha ley debe ser probabilística o estadística. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"Laura llegó tarde a su trabajo esta mañana\", el único par de enunciados que pueden funcionar como ley estadística y condición antecedente son \"El 85% de los trabajadores que toman el transporte público durante las horas pico llegan tarde a su lugar de trabajo\" y \"Laura tomó el transporte público durante la hora pico esta mañana\", respectivamente.",
+    "ipc-f8292c6ce7eeae7e": "De acuerdo con Kuhn, el período de crisis está caracterizado por una pérdida de confianza en el paradigma vigente y la adopción de un escepticismo motivado por la multiplicación y radicalización de anomalías que ponen en tela de juicio el conocimiento adquirido durante la etapa de ciencia normal.",
+    "ipc-6778a9d8c27c388c": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación que llamamos \"aplicaciones sexistas\": los intereses y el bienestar de las mujeres no son tenidos en cuenta a la hora de diseñar e implementar soluciones científicas y tecnológicas, dando lugar a aplicaciones de la ciencia o la tecnología que llegan a ser perjudiciales para las mujeres (y otros grupos). El ejemplo dado constituye una aplicación sexista de la ciencia de datos, ya que el algoritmo construido para seleccionar personal excluía de entrada a las mujeres.",
+    "ipc-19d8014fefb149f8": "El postmodernismo feminista sostiene que la perspectiva de los sujetos cognoscentes es siempre cambiante y contingente, atravesada por distintos factores como el género y la clase. Por lo tanto, el conocimiento producido por dichos sujetos también es cambiante y parcial, es imposible acceder al mundo tal cual y como es de manera independiente. Así, las teorías no son reflejos más o menos objetivos de la realidad sino más bien relatos determinados por las relaciones de poder de una sociedad y período histórico dado. Por su parte, el empirismo feminista sostiene que la elección de teorías depende de la evidencia disponible y la lógica de la investigación científica, tal y como sostenían los empiristas lógicos. Pero a diferencia de los empiristas lógicos, el empirismo feminista reconoce el rol de los valores como vectores de decisión entre teorías. La idea es que la objetividad se puede salvar, no negando los valores en ciencia, sino explicitándolos y poniéndolos en discusión intersubjetiva por parte de la comunidad científica.",
+    "ipc-2ec0b7b1adab5ab8": "La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde este punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, el proyecto aborda problemas prácticos y contribuye inmediatamente a la producción agrícola al desarrollar un método de entrenamiento para hacer más eficiente la polinización de las abejas.",
+    "ipc-2ad6d674e351b5fc": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser” (falacia naturalista). En el ejercicio, las opciones 3 y 4 son juicios de valor. Sin embargo, la opción 3 (\"es correcto realizar experimentos que puedan ayudar a curar enfermedades graves\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De las otras opciones normativas, no se puede deducir que \"es correcto realizar experimentos con células madre embrionarias.\"",
+    "ipc-0a938c3107ccfec6": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser” (falacia naturalista). En el ejercicio, las opciones 1 y 2 son juicios de valor. Sin embargo, la opción 1 (\"es correcto realizar experimentos que puedan ayudar a curar enfermedades graves\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De las otras opciones normativas, no se puede deducir que \"es correcto realizar experimentos con células madre embrionarias.\"",
+    "ipc-69d0cb469698babe": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación nomológico-deductiva, dicha ley debe ser universal. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"Diego siente dolor de cabeza\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"La exposición por más de una hora a sonidos superiores a los 100 dB produce dolor de cabeza\" y \"Diego pasó la noche entera al lado de un parlante que emitía sonidos a 110 dB\", respectivamente.",
+    "ipc-54bb671feb42308c": "En el período de ciencia normal los miembros de la comunidad científica tienen confianza en el paradigma vigente, lo cual les permite abocarse a la resolución de enigmas. El consenso en torno al paradigma los afianza como comunidad científica, les marca qué fenómenos son considerados relevantes y bajo qué metodologías estudiarlos. Esto les permite progresar en la producción de conocimiento de forma acumulativa. Así, se contrapone al período pre-científico, en el que no hay un paradigma imperante ni una comunidad científica formada, sino múltiples escuelas en competencia. También difiere respecto del período de crisis, caracterizado por la pérdida de confianza en el paradigma y la adopción de un escepticismo motivado por la multiplicación y radicalización de anomalías, que pone en tela de juicio el conocimiento adquirido durante la etapa de ciencia normal.",
+    "ipc-a5fa212a2ec81baf": "La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde ese punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, el descubrimiento mencionado no contribuye directamente a ninguno de estos objetivos.",
+    "ipc-b560e468c7631564": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 1, 2 y 4 son juicios de valor. Sin embargo, la opción 2 (\"El Estado debe fomentar y desarrollar la investigación clínica en casos de emergencia sanitaria.\") es la única que permite, a partir de la premisa 2 de la consigna, inferir la conclusión. De las otras dos opciones normativas, no se puede deducir el deber específico de “fomentar y desarrollar la investigación clínica sobre la Covid-19”.",
+    "ipc-6108d69c8a0c590a": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 2, 3 y 4 son juicios de valor. Sin embargo, la opción 3 (\"El Estado debe fomentar y desarrollar la investigación clínica en casos de emergencia sanitaria.\") es la única que permite, a partir de la premisa 2 de la consigna, inferir la conclusión. De las otras dos opciones normativas, no se puede deducir el deber específico de “fomentar y desarrollar la investigación clínica sobre la Covid-19”.",
+    "ipc-a33f650174d0899d": "El resultado favorable de la contrastación de una hipótesis no permite inferir con certeza deductiva su verdad. Desde el punto de vista falsacionista, un resultado favorable de la contrastación es aquel en donde las investigaciones conducen a rechazar falsadores potenciales de la hipótesis que se somete a prueba. Ahora bien, que ello ocurra no prueba que la hipótesis sea verdadera, ni la vuelve más probable, solo la corrobora. Las hipótesis no se aceptan como verdaderas porque no se puede probar la verdad de los enunciados generales, como las hipótesis, a partir de casos observados. Popper tampoco acepta que las hipótesis aumenten su probabilidad, porque eso solo se puede hacer a través de inferencias inductivas y Popper rechaza la aplicación de las inferencias inductivas en la investigación científica. Que la hipótesis quede corroborada quiere decir tan solo que la hipótesis en cuestión ha superado con éxito los intentos de refutación.",
+    "ipc-cba2e369d28dadb4": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico-inductiva, dicha ley debe ser probabilística o estadística. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"María perdió dinero apostando el jueves\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"La mayoría de las personas que van al casino pierden dinero en las apuestas.\" y \"María fue al casino el jueves.\", respectivamente.",
+    "ipc-6f6d571779dd73ba": "Las revoluciones científicas son episodios no acumulativos en que un antiguo paradigma es reemplazado por otro nuevo e incompatible. De modo que, como resultado de la revolución científica, un antiguo paradigma es sustituido por uno nuevo e inconmensurable. Si los paradigmas son concebidos como una forma común de ver el mundo, y si cada paradigma es inconmensurable con el anterior, entonces las revoluciones científicas conllevan una ruptura absolutamente profunda que vuelve imposible sostener el mundo científico previamente compartido. Esto también impide que podamos dictaminar que los nuevos paradigmas son mejores que los anteriores, dado que carecemos de una medida común (por fuera de los paradigmas) bajo la cual compararlos. Recordemos, además, que los paradigmas no son teorías aisladas, sino que entre sus componentes se encuentran los principios metafísicos, los valores, los modelos, etcétera.",
+    "ipc-69f8c46771ecb40d": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación que llamamos \"teorías sexistas\": la crítica feminista de la historia de la ciencia permite detectar que, en muchas ocasiones, el sesgo androcéntrico se encuentra en las mismas teorías científicas, incluidas algunas de muy amplio alcance y consideradas revolucionarias en su momento. En este caso, encontramos que la teoría freudiana del desarrollo sexual, la cual fue ampliamente aceptada y divulgada, explica reductivamente la sexualidad femenina a partir de la ausencia del pene, entendiendo dicha ausencia como una deficiencia.",
+    "ipc-c65c0798086d6568": "El empirismo feminista sostiene que la elección de teorías depende de la evidencia disponible y la lógica de la investigación científica, tal y como sostenían los empiristas lógicos. Sin embargo, dado que los hechos subdeterminan las teorías posibles que los explican, reconocen el rol de los valores como vectores de decisión. La idea es que la objetividad se puede salvar no negando los valores ni los distintos estándares de aceptación de las teorías en ciencia, sino explicitándolos y poniéndolos a discusión intersubjetiva por parte de la comunidad científica. Una comunidad científica plural y abierta a la discusión posibilita la detección y atenuación de sesgos. En cambio, la teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. Las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan colectivamente insertas, lo que las hace capaces de identificar efectivamente los sesgos androcéntricos en ciencia.",
+    "ipc-14ea7296913a8c7f": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 1 y 4 son juicios de valor. Sin embargo, la opción 1 (\"Para estudiar el bienestar de un país es preferible utilizar mediciones que tomen en cuenta varios factores.\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De la otra opción normativa, no se puede deducir que \"Para estudiar el bienestar de un país es preferible utilizar el índice de pobreza multidimensional.\"",
+    "ipc-321cf60f3aa70eb7": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico-inductiva, dicha ley debe ser probabilística o estadística. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"María perdió dinero apostando el jueves\", el único par de enunciados que pueden funcionar como Ley y condición antecedente son \"La mayoría de las personas que van al casino pierden dinero en las apuestas.\" y \"María fue al casino el jueves.\", respectivamente.",
+    "ipc-33085bd086aa301d": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 2 y 4 son juicios de valor. Sin embargo, la opción 2 (\"Para estudiar el bienestar de un país es preferible utilizar mediciones que tomen en cuenta varios factores.\") es la única que permite, a partir de la Premisa 2, inferir la Conclusión. De la otra opción normativa, no se puede deducir que \"Para estudiar el bienestar de un país es preferible utilizar el índice de pobreza multidimensional.\"",
+    "ipc-435f4c4b5c8816c0": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación nomológico-deductiva, dicha ley debe ser universal. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"Esta mañana el furgón del tren estaba lleno\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"Los furgones se llenan cuando hay demoras en el servicio de trenes\" y \"Esta mañana hubo demoras en el servicio de trenes\", respectivamente.",
+    "ipc-4f75ea8a8ff54564": "En el período de ciencia normal los miembros de la comunidad científica tienen confianza en el paradigma vigente, lo cual les permite abocarse a la resolución de enigmas. El consenso en torno al paradigma los afianza como comunidad científica, les marca qué fenómenos son considerados relevantes, y les permite acrecentar sus conocimientos en torno a ellos de forma acumulativa. Previo a la vigencia de un paradigma que inaugure la primera etapa de ciencia normal de una disciplina, Kuhn indica que hay un período pre-científico, marcado por la ausencia de un paradigma imperante y de una comunidad científica formada. En su lugar, solo existen múltiples escuelas que intentan instalar sus explicaciones respecto de cierto campo de investigación, sin marcos conceptuales o metodológicos compartidos por ellas.",
+    "ipc-d5d1307a90ed7190": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación que llamamos \"Omisiones selectivas en la historia de la ciencia\" o \"efecto Matilda\": la revisión crítica de la historia de la ciencia por parte del feminismo ha permitido detectar que, en muchos casos, el trabajo de una científica es omitido o directamente atribuido a un varón, en general cercano. De esta manera, se invisibilizan los aportes que las mujeres realizan al conocimiento científico, reforzando la idea de que las mujeres no pueden o no quieren hacer ciencia. En este caso, la mayor parte del trabajo de Lillian Gilbreth era atribuida en forma exclusiva a su esposo, Frank Gilbreth, excluyendo del crédito y del prestigio a Lillian.",
+    "ipc-568c935f3f67278e": "El empirismo feminista sostiene que la elección de teorías depende de la evidencia disponible y la lógica de la investigación científica, tal y como sostenían los empiristas lógicos. Sin embargo, dado que los hechos subdeterminan las teorías posibles que los explican, reconocen el rol de los valores como vectores de decisión. La idea es que la objetividad se puede salvar no negando los valores en ciencia sino explicitándolos y poniéndolos en discusión intersubjetiva por parte de la comunidad científica. Una comunidad científica plural y abierta a la discusión posibilita la objetividad científica y la detección y atenuación de sesgos. Por su parte, el postmodernismo feminista, sostiene que la perspectiva de los sujetos cognoscentes es siempre cambiante y contingente, atravesada por distintos factores como el género y la clase. Por lo tanto, el conocimiento producido por dichos sujetos también es cambiante y parcial, es imposible acceder al mundo tal cual y como es de manera independiente. Así, las teorías no son reflejos más o menos objetivos de la realidad, sino más bien relatos determinados por las relaciones de poder de una sociedad y período histórico dado.",
+    "ipc-00fd8139273a5929": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 1, 3 y 4 son juicios de valor. Sin embargo, la opción 1 (\"Deberían modificarse las políticas públicas que no cuenten con evidencia científica favorable con respecto a sus objetivos.\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De las otras opciones normativas, no se puede deducir que \"La política pública de prohibir el consumo de sustancias psicoactivas debería modificarse.\"",
+    "ipc-ca222b76261e4c38": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 2, 3 y 4 son juicios de valor. Sin embargo, la opción 3 (\"Deberían modificarse las políticas públicas que no cuenten con evidencia científica favorable con respecto a sus objetivos.\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De las otras opciones normativas, no se puede deducir que \"La política pública de prohibir el consumo de sustancias psicoactivas debería modificarse.\"",
+    "ipc-ecbf52a547b9aa19": "Según el falsacionismo, si las consecuencias observacionales resultan falsas –es decir, si las observaciones muestran que los fenómenos predichos por la hipótesis fundamental no se cumplen–, entonces la hipótesis debe ser descartada, pues ha sido refutada. En los casos de un resultado desfavorable, el esquema de la contrastación tiene la forma del Modus Tollens, una forma de argumento válida, que nos permite inferir deductivamente que la hipótesis fundamental es falsa.",
+    "ipc-d46ad268b3d58f78": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico-inductiva, dicha ley debe ser probabilística o estadística. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"Las entradas para el partido de esta noche están agotadas\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"Casi siempre que juega un campeón del mundo, las entradas se agotan\" y \"En el partido de esta noche juega un campeón mundial\", respectivamente.",
+    "ipc-070db1a1d015578f": "El período de crisis está caracterizado por la pérdida de confianza en el paradigma vigente y la adopción de un escepticismo motivado por la multiplicación y radicalización de anomalías, que pone en tela de juicio el conocimiento adquirido durante la etapa de ciencia normal. Aunque el paradigma sigue vigente, en este período la comunidad científica tiende a fragmentarse, porque los científicos comienzan a explorar vías de investigación alternativas que permitan responder a las anomalías. Esto no significa que la comunidad científica no exista, como sucede en el período pre-científico, sino que está algo dividida. Si los supuestos del paradigma son revisados y se diluyen las anomalías, entonces se volverá al período de ciencia normal, en el que la comunidad científica se mantiene fiel al paradigma y trabaja de forma unificada. En cambio, si la desconfianza en el paradigma continúa aumentando, se dejará la crisis atrás para dar lugar a una revolución científica, en la que se produce el abandono definitivo del paradigma vigente y su reemplazo por uno nuevo.",
+    "ipc-c2701369f53822c1": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación que llamamos \"aplicaciones sexistas\": los intereses y el bienestar de las mujeres no son tenidos en cuenta a la hora de diseñar e implementar soluciones científicas y tecnológicas, dando lugar a aplicaciones de la ciencia o la tecnología que llegan a ser perjudiciales para las mujeres (y otros grupos). El ejemplo dado constituye una aplicación sexista de la medicina deportiva, ya que prohíbe a las mujeres participar en ciertos deportes, desestimando sus intereses en base a creencias infundandas respecto de la biología femenina.",
+    "ipc-dd85a05957b3f67c": "El postmodernismo feminista sostiene que la perspectiva de los sujetos cognoscentes es siempre cambiante y contingente, atravesada por distintos factores como el género y la clase. Por lo tanto, el conocimiento producido por dichos sujetos también es cambiante y parcial, es imposible acceder al mundo tal cual y como es de manera independiente. Así, las teorías no son reflejos más o menos objetivos de la realidad sino más bien relatos determinados por las relaciones de poder de una sociedad y período histórico dado. Por su parte, el empirismo feminista sostiene que la elección de teorías depende de la evidencia disponible y la lógica de la investigación científica, tal y como sostenían los empiristas lógicos. Sin embargo, dado que los hechos subdeterminan las teorías posibles que los explican, reconocen el rol de los valores como vectores de decisión. La idea es que la objetividad se puede salvar no negando los valores en ciencia sino explicitándolos y poniéndolos a discusión intersubjetiva por parte de la comunidad científica.",
+    "ipc-b58596b53167146d": "La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde ese punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, resulta evidente que el proyecto en cuestión podría contribuir directamente a mejorar el bienestar de la población.",
+    "ipc-b1f6e77c6c1ae14f": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 1 y 3 son juicios de valor. Sin embargo, la opción 3 (\"Los saberes científicos obtenidos mediante formas que incumplen con normativas éticas básicas no deben ser utilizados y divulgados.\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De la otra opción normativa, no se puede deducir que \"El libro de medicina \"Anatomía Topográfica Humana\" de Pernkopf no debería ser utilizado y divulgado.\"",
+    "ipc-b7a6392c31118a91": "El período de crisis está caracterizado por la pérdida de confianza en el paradigma vigente y la adopción de un escepticismo motivado por la multiplicación y radicalización de anomalías, que pone en tela de juicio el conocimiento adquirido durante la etapa de ciencia normal. Aunque el paradigma sigue vigente, en este período la comunidad científica tiende a fragmentarse, porque los científicos comienzan a explorar vías de investigación alternativas que permitan responder a las anomalías. Esto no significa que la comunidad científica no exista, como sucede en el período pre- científico, sino que está algo dividida. Si los supuestos del paradigma son revisados y se diluyen las anomalías, entonces se volverá al período de ciencia normal, en el que la comunidad científica se mantiene fiel al paradigma y trabaja de forma unificada. En cambio, si la desconfianza en el paradigma continúa aumentando, se dejará la crisis atrás para dar lugar a una revolución científica, en la que se produce el abandono definitivo del paradigma vigente y su reemplazo por uno nuevo.",
+    "ipc-e2ad620ce9a62543": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 1 y 4 son juicios de valor. Sin embargo, la opción 1 (\"Los saberes científicos obtenidos mediante formas que incumplen con normativas éticas básicas no deben ser utilizados y divulgados.\") es la única que permite, a partir de la premisa 2, inferir la conclusión. De la otra opción normativa, no se puede deducir que \"El libro de medicina \"Anatomía Topográfica Humana\" de Pernkopf no debería ser utilizado y divulgado.\"",
+    "ipc-25ca710edfb19cbe": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Para ello, es importante que tengas presente que de acuerdo con esta corriente, para que un enunciado pertenezca al ámbito de la ciencia empírica debe ser falsable, esto es, debe tener contenido empírico y debe ser posible formular contra él enunciados básicos que funcionen como falsadores potenciales. Recordá que los falsadores potenciales son enunciados existenciales, singulares, incompatibles con la hipótesis y lógicamente posibles. Un enunciado falsable es, por ejemplo, “Todos los cetáceos carecen de pelo”, ya que es posible formular un enunciado empírico básico que funcione como un falsador potencial suyo como, por ejemplo, “Hay en el lugar x en el tiempo t un cetáceo que no carece de pelo”. Asimismo, es importante que tengas presente qué enunciados o afirmaciones no son falsables: (i) los enunciados de las ciencias formales, (ii) las afirmaciones metafísicas y (iii) los enunciados probabilísticos. Los enunciados del tipo (i) no son falsables porque carecen de contenido empírico, como el ejemplo “Todos los números naturales tienen un único sucesor”, ya que no es posible encontrar un enunciado existencial, singular, incompatible con el enunciado y lógicamente posible para este enunciado. Así, un enunciado como “Hay en el lugar x en el tiempo t un número natural que no tiene un único sucesor” no funciona porque no es lógicamente posible, es contradictorio: dado que una propiedad del número natural es precisamente tener un sucesor, un enunciado que afirmara tal cosa equivaldría a la afirmación contradictoria de que el número en cuestión tiene y no tiene un único sucesor. Tampoco hay enunciados básicos que funcionen como falsadores potenciales de enunciados del tipo (ii), como por ejemplo “El Ser puro no tiene determinaciones”, pues no hay fenómeno alguno que de observarse permitiría refutar ese enunciado. Finalmente, los enunciados del tipo (iii), esto es, probabilísticos como “La probabilidad de que la ballena Franca Austral quede atrapada en una red de pesca es del 0,7” no son falsables porque ningún enunciado empírico básico es estrictamente incompatible con él, de modo que cualquier intento de formular un enunciado empírico básico falsador potencial será infructuoso. Si examinamos el ejemplo “La probabilidad de que la ballena Franca Austral quede atrapada en una red de pesca es del 0,7”, se advierte que este enunciado es compatible tanto con el enunciado que expresa el caso posible de que la ballena queda atrapada en una red de pesca, como con el enunciado que expresa el caso posible de que no quede atrapada en una red de pesca. Por lo tanto, ninguno de tales enunciados que expresan esos casos posibles son enunciados contrarios a nuestro ejemplo. Si se verificara que no se observó una ballena Franca Austral que quedó atrapada en una red de pesca, la falsedad de la hipótesis probabilística no quedaría lógicamente determinada, pues esta solo indicaba una probabilidad de 0,7.",
+    "ipc-9471c7bdffaf746e": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación nomológico-deductiva, dicha ley debe ser universal. La única ley universal que se encuentra entre las opciones es \"Ingerir grandes cantidades de alcohol produce visión borrosa y dificultades para hablar\". Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, el único enunciado que describe una condición antecedente y que, en conjunción con la ley, permite deducir el explanandum es \"María bebió grandes cantidades de alcohol en las últimas horas\".",
+    "ipc-2b81d0523d72696f": "En el período de ciencia normal los miembros de la comunidad científica tienen confianza en el paradigma vigente, lo cual les permite abocarse a la resolución de enigmas. Cuando las anomalías se multiplican y radicalizan comienza a surgir, en la comunidad científica, una nueva actitud ante su tarea: se abandona la confianza que caracteriza el trabajo en la etapa de ciencia normal y, en su lugar, avanza el escepticismo. A esta fase en la que la duda y la sospecha son las características dominantes del trabajo científico, Kuhn la denomina 'período de crisis'. Así, este período de inseguridad profesional profunda implica la puesta en cuestión del paradigma vigente.",
+    "ipc-fbac93285c7bb6a5": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación llamada Omisiones selectivas en la historia de la ciencia/efecto Matilda: la revisión crítica de la historia de la ciencia por parte del feminismo ha permitido detectar que en muchos casos el trabajo de una científica es omitido o directamente atribuido a un varón, en general cercano. De esta manera, se invisibilizan los aportes que las mujeres realizan al conocimiento científico, reforzando la idea de que las mujeres no pueden o no quieren hacer ciencia. En este caso, el trabajo colectivo de los Boveri es atribuido únicamente a Theodor, excluyendo del crédito y del prestigio a Marcella.",
+    "ipc-6a9432fe92b180b8": "La teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. La razón de esta primacía radica en que las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan colectivamente insertas y son capaces de mostrar que estas relaciones opresivas no son resultado de la naturaleza y la necesidad sino de la historia contingente, y por ello pueden ser modificadas. En cambio, el posmodernismo feminista, rechaza la idea de que pueda identificarse una perspectiva unificada de las mujeres ya que esta es cambiante y resultado de otros factores relevantes como la raza y la clase social. Para el posmodernismo feminista no es lícito hablar de \"la mujer\" como una categoría esencial y ahistórica.",
+    "ipc-86852c75ebcaf44a": "La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde ese punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, el proyecto en cuestión podría contribuir a la industria y con ello mejorar las condiciones sociales y económicas de la región de Cuyo.",
+    "ipc-6eeebdb79c0a901c": "Para poder inferir correctamente un juicio de valor en un razonamiento moral, es necesario que entre las premisas de dicho razonamiento se encuentre al menos alguna premisa normativa relevante para la conclusión. En este caso, si bien las premisas de las opciones 2 y 4 son normativas, sólo la premisa de la opción 4 (\"es moralmente aceptable consumir animales si son incapaces de sentir dolor\") es relevante para la conclusión.",
+    "ipc-545d84d39f318250": "Para poder inferir correctamente un juicio de valor en un razonamiento moral, es necesario que entre las premisas de dicho razonamiento se encuentre al menos alguna premisa normativa relevante para la conclusión. En este caso, si bien las premisas de las opciones 1 y 3 son normativas, sólo la premisa de la opción 1 (\"es moralmente aceptable consumir animales si son incapaces de sentir dolor\") es relevante para la conclusión.",
+    "ipc-887f17ca2ec185ed": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. Para ello, es importante que tengas presente que de acuerdo con esta corriente, para que un enunciado pertenezca al ámbito de la ciencia empírica debe tener contenido empírico: debe estar formulado en lenguaje observacional (como el enunciado “Todas las ballenas se alimentan de krill”), o bien debe ser traducible al lenguaje observacional (como el enunciado teórico “El electrón es una partícula subatómica con una carga eléctrica elemental negativa”). Recordá que el positivismo lógico distingue tajantemente los enunciados teóricos de las afirmaciones metafísicas. Así, los enunciados teóricos pueden y deben ser traducibles a afirmaciones empíricas básicas que expresen las propiedades y relaciones observables entre los objetos materiales. Las afirmaciones metafísicas, en cambio, no pueden ser traducibles a afirmaciones empíricas básicas, pues contienen términos metafísicos que refieren a entidades no empíricas (como por ejemplo “ser” y “alma”) tal como sucede en el enunciado “El Ser puro y la nada pura son lo mismo”, y por ello no son admitidas dentro del ámbito de las ciencias empíricas.",
+    "ipc-47b1c3c1823d97c7": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico-inductiva, dicha ley debe ser probabilística o estadística. La única ley que expresa probabilidades que se encuentra entre las opciones es \"la mayoría de los fumadores crónicos de edad avanzada tienen dificultades respiratorias\". Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, el único enunciado que describe una condición antecedente y que, en conjunción con la ley, permite inferir el explanandum es \"Pedro es un fumador crónico de edad avanzada\".",
+    "ipc-ea360ecb448f829f": "Las revoluciones científicas son episodios no acumulativos en que un antiguo paradigma es reemplazado por otro nuevo e incompatible. De modo que, como resultado de la revolución científica, un antiguo paradigma es sustituido por uno nuevo e inconmensurable. Si los paradigmas son concebidos como una forma común de ver el mundo, y si cada paradigma es inconmensurable con el anterior, entonces las revoluciones científicas conllevan una ruptura absolutamente profunda que vuelve imposible sostener el mundo científico previamente compartido. Recordemos, además, que los paradigmas no son teorías aisladas, sino que entre sus componentes se encuentran los principios metafísicos, los valores, los modelos, etcétera.",
+    "ipc-04e8253e497d5889": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación llamada aplicaciones sexistas: los intereses y el bienestar de las mujeres no son tenidos en cuenta a la hora de diseñar e implementar soluciones científicas y tecnológicas, al punto que dichas soluciones llegan a ser perjudiciales para las mujeres (y otros grupos). En este caso, el diseño de una herramienta fundamental para la seguridad como un chaleco antibalas se basó exclusivamente en el cuerpo típico de un varón, llegando a dificultar los movimientos de una mujer.",
+    "ipc-9d2a11e3e7622ef5": "El posmodernismo feminista, rechaza la idea de que pueda identificarse una perspectiva unificada de las mujeres ya que esta es cambiante y resultado de otros factores relevantes como la raza y la clase social. Para el posmodernismo feminista no es lícito hablar de \"la mujer\" como una categoría esencial y ahistórica.La teoría del punto de vista, en cambio, parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. La razón de esta primacía radica en que las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan colectivamente insertas y son capaces de mostrar que estas relaciones opresivas no son resultado de la naturaleza y la necesidad sino de la historia contingente, y por ello pueden ser modificadas.",
+    "ipc-a977012b1a1fedc9": "La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde ese punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, el proyecto en cuestión podría a prevenir fenómenos meteorológicos con consecuencias económicas negativas.",
+    "ipc-1356197eb7dbd56e": "Para poder inferir correctamente un juicio de valor en un razonamiento moral, es necesario que entre las premisas de dicho razonamiento se encuentre al menos alguna premisa normativa relevante para la conclusión Si bien las premisas de las opciones 1 y 2 son normativas, sólo la premisa de la opción 1 (\"las medidas económicas que dificultan el acceso a la tecnología son injustas\") permite establecer la conclusión en este caso.",
+    "ipc-71f46bc52b575461": "La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde ese punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, el proyecto en cuestión podría ayudar a prever fenómenos meteorológicos con consecuencias económicas negativas.",
+    "ipc-43471c849c7f6655": "Para poder inferir correctamente un juicio de valor en un razonamiento moral, es necesario que entre las premisas de dicho razonamiento se encuentre al menos alguna premisa normativa relevante para la conclusión Si bien las premisas de las opcionez 3 y 4 son normativas, sólo la premisa de la opción 3 (\"las medidas económicas que dificultan el acceso a la tecnología son injustas\") permite establecer la conclusión en este caso.",
+    "ipc-893f23b32a975e9e": "Según el inductivismo crítico, si las consecuencias observacionales resultan falsas –es decir, si las observaciones muestran que los fenómenos predichos por la hipótesis fundamental no se cumplen–, entonces la hipótesis debe ser descartada, pues ha sido refutada. En los casos de un resultado desfavorable, el esquema de la contrastación tiene la forma del Modus Tollens, una forma de argumento válida, que nos permite inferir deductivamente que la hipótesis fundamental es falsa.",
+    "ipc-1ada850b8faf3f31": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico inductiva, dicha ley debe ser estadística o probabilística. La única ley estadística o probabilística que se encuentra entre las opciones es \"la mayoría de los mamíferos exóticos víctimas de caza furtiva a gran escala entran en peligro de extinción\". Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, el único enunciado que describe una condición antecedente y que, en conjunción con la ley, permite inferir el explanandum es \"el pangolín es un mamífero exótico víctima de caza furtiva a gran escala.\".",
+    "ipc-1ce33aaf4ee55fbd": "La actividad científica en la etapa de ciencia normal, aquella que se desarrolla gobernada por un paradigma, puede considerarse acumulativa, ya que consiste en acrecentar el cúmulo del conocimiento sobre los fenómenos que el paradigma indica como relevantes. El paradigma no sólo delimita o señala cuáles son los verdaderos problemas (enigmas), sino que indica además caminos pautados respecto de cómo podrían resolverse. Tras la revolución científica, un antiguo paradigma es reemplazado por uno nuevo e inconmensurable con el anterior. De manera que esta discontinuidad entre los paradigmas sucesivos impedirá hablar de un progreso científico acumulativo. En efecto, no se puede decir estrictamente que el nuevo paradigma sea mejor que el anterior ni que esté más cerca de la verdad que aquel paradigma al que reemplaza. Con respecto al período de pre-ciencia, en él ni siquiera hay un paradigma, sino múltiples escuelas en competencia.",
+    "ipc-e483738a2b7ae909": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación llamada teorías sexistas: la crítica feminista de la historia de la ciencia permite detectar que en muchas ocasiones el sesgo androcéntrico se encuentra en las mismas teorías científicas, incluídas algunas de muy amplio alcance y consideradas revolucionarias en su momento. En este caso, y pese a la cantidad de evidencia en contra, se sostiene que las desigualdades sociales entre varones y mujeres se explican por las diferencias cerebrales.",
+    "ipc-e585b8ec258e85c9": "El empirismo feminista sostiene que la elección de teorías depende de la evidencia disponible y la lógica de la investigación científica, tal y como sostenían los empiristas lógicos. Sin embargo, dado que los hechos subdeterminan las teorías posibles que los explican, reconocen el rol de los valores como vectores de decisión. La idea es que la objetividad se puede salvar no negando los valores en ciencia sino explicitándolos y poniéndolos a discusión intersubjetiva por parte de la comunidad científica. Una comunidad científica plural y abierta a la discusión posibilita la objetividad científica. Por su parte, el postmodernismo feminista, sostiene que la perspectiva de los sujetos cognoscentes es siempre cambiante y contingente, atravesada por distintos factores como el género y la clase. Por lo tanto, el conocimiento producido por dichos sujetos también es cambiante y parcial, es imposible acceder al mundo tal cual y como es de manera independiente. Así, las teorías no son reflejos más o menos objetivos de la realidad sino más bien relatos determinados por las relaciones de poder de una sociedad y período histórico dado.",
+    "ipc-8df6f6914b243b0c": "Para poder inferir correctamente un juicio de valor en un razonamiento moral, es necesario que entre las premisas de dicho razonamiento se encuentre al menos alguna premisa normativa relevante para la conclusión. En este caso, las premisas de las opciones 1 y 3 son valorativas, pero sólo la premisa de la opción 3 (\"debe detenerse la investigación en tecnologías que tengan el potencial de extinguir a la humanidad\") es relevante para establecer la conclusión.",
+    "ipc-c2bc8453837074a6": "Para poder inferir correctamente un juicio de valor en un razonamiento moral, es necesario que entre las premisas de dicho razonamiento se encuentre al menos alguna premisa normativa relevante para la conclusión. En este caso, las premisas 1 y 3 son valorativas, pero sólo la premisa 3 (\"debe detenerse la investigación en tecnologías que tengan el potencial de extinguir a la humanidad\") es relevante para establecer la conclusión.",
+    "ipc-dab71fae8441ddb2": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico inductiva, dicha ley debe ser estadística o probabilística. La única ley estadística o probabilística que se encuentra entre las opciones es \"la mayoría de los mamíferos exóticos víctimas de caza furtiva a gran escala entran en peligro de extinción\". Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, el único enunciado que describe una condición antecedente y que, en conjunción con la ley, permite inferir el explanandum es \"el pangolín es un mamífero exótico víctima de caza furtiva a gran escala\".",
+    "ipc-9515d231bcefe39a": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. Para ello, es importante que tengas presente que de acuerdo con esta corriente, para que un enunciado pertenezca al ámbito de la ciencia empírica debe tener contenido empírico: debe estar formulado en lenguaje observacional (como el enunciado “Todas las ballenas se alimentan de krill”), o bien debe ser traducible al lenguaje observacional (como el enunciado teórico “El electrón es una partícula subatómica con una carga eléctrica elemental negativa”). Recordá que el positivismo lógico distingue tajantemente los enunciados teóricos de las afirmaciones metafísicas. Así, los enunciados teóricos pueden y deben ser traducibles a afirmaciones empíricas básicas que expresen las propiedades y relaciones observables entre los objetos materiales. Las afirmaciones metafísicas, en cambio, no pueden ser traducibles a afirmaciones empíricas básicas, pues contienen términos metafísicos que refieren a entidades no empíricas (como por ejemplo “ser” y “esencia”) tal como sucede en el enunciado “El Ser puro y la nada pura son lo mismo”, y por ello no son admitidas dentro del ámbito de las ciencias empíricas.",
+    "ipc-f45d715e9fb71a23": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación estadístico-inductiva, dicha ley debe ser probabilística o estadística. La única ley que expresa probabilidades que se encuentra entre las opciones es \"la mayoría de las veces, las cucarachas anidan en ambientes húmedos y cálidos\". Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, el único enunciado que describe una condición antecedente y que, en conjunción con la ley, permite inferir el explanandum es \"el interior de la máquina de café es húmedo y cálido\".",
+    "ipc-1828bfeea1edb202": "Si bien se le han asignado diversos sentidos al término 'paradigma' a lo largo de La estructura de las revoluciones científicas (1962), en una obra posterior (Posdata, 1969) Kuhn precisa la palabra y aclara que debe abordarse en términos de una matriz disciplinar, que incluye los siguientes componentes: generalizaciones simbólicas (leyes y teorías), principios metafísicos o presupuestos ontológicos, valores y modelos. Es importante reparar en que el paradigma, además de como matriz disciplinar, también puede ser considerado, en un sentido mucho más específico, como ejemplar. Este se entiende en términos de las soluciones concretas que se han encontrado a lo largo de la historia frente a problemas cruciales que luego podrán ser utilizados como modelos de referencia para la resolución de problemas futuros. En resumen, un paradigma no es ni una teoría aislada ni tan sólo un conjunto de presupuestos ontológicos, sino una unidad de análisis mucho más amplia que determina una forma de ver el mundo (cosmovisión), que es compartida por todos los investigadores e investigadoras que conforman la comunidad científica.",
+    "ipc-7b6640e8db2a2fb9": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación llamada \"teorías sexistas\": la crítica feminista de la historia de la ciencia permite detectar que en muchas ocasiones el sesgo androcéntrico se encuentra en las mismas teorías científicas, incluídas algunas de muy amplio alcance y consideradas revolucionarias en su momento. En este caso, se sostiene que las diferencias biológicas entre varones y mujeres (que se manifiestan en la diferecias en las competencias lingüísticas) explican las diferencias en las funciones, profesiones y cargos.",
+    "ipc-f3ffe09b71004541": "La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde ese punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, no queda claro cuál es la importancia práctica o económica de un estudio sobre biodiversidad vegetal.",
+    "ipc-0d35a1c0dfce8357": "Para poder inferir correctamente un juicio de valor en un razonamiento moral, es necesario que entre las premisas de dicho razonamiento se encuentre al menos alguna premisa normativa relevante para la conclusión. En este caso, las premisas de las opciones 1, 2 y 3 son valorativas, pero sólo la premisa de la opción 2 (\"los gobiernos deberían tomar medidas para contribuir a resoler el problema de la falta de vivienda\") es directamente relevante para establecer la conclusión.",
+    "ipc-8f0b61f37299764a": "Para poder inferir correctamente un juicio de valor en un razonamiento moral, es necesario que entre las premisas de dicho razonamiento se encuentre al menos alguna premisa normativa relevante para la conclusión. En este caso, las premisas de las opciones 1, 2 y 3 son valorativas, pero sólo la premisa de la opción 1 (\"los gobiernos deberían tomar medidas para contribuir a resoler el problema de la falta de vivienda\") es directamente relevante para establecer la conclusión."
+  },
+  "examenes": [
+    {
+      "id": "buacar-2025-10-30-recup",
+      "nombre": "Recuperatorio del 2º parcial · 30/10/2025",
+      "catedra": "A · Buacar, Natalia",
+      "fecha": "2025-10-30",
+      "detalle": "Cátedra A · Buacar, Natalia. 10 ejercicios de 1 punto. Sin puntaje parcial.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "IPC_2025_F.pdf",
+          "paginas": [
+            1,
+            4
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis auxiliar. ¿La aterosclerosis es causada únicamente por el colesterol alto? La aterosclerosis, una enfermedad en la que se acumulan placas de lípidos como el colesterol en las arterias, es una de las principales causas de infartos y accidentes cerebrovasculares. Es sabido que una dieta alta en grasas es uno de los principales factores de riesgo de esta enfermedad. Sin embargo, estudios recientes han planteado que otros factores, incluso aquellos que no están relacionados con la dieta, podrían estar involucrados. En esta línea, un equipo de investigadores del Centro Nacional de Investigaciones Cardiovasculares (CNIC) de España se propuso investigar si una molécula en particular, el propionato de imidazol (ImP), producida por ciertas bacterias intestinales, podría ser un agente causante de la enfermedad. Para ello, llevaron a cabo un estudio con 60 ratones que no presentaban placas ateroscleróticas (placas de lípidos en las arterias) al inicio del estudio. Se los dividió en dos grupos. Ambos recibieron una dieta normal. Al grupo 1 se le administró ImP, mientras que al grupo 2 no. Los científicos utilizaron ecografías vasculares en los ratones de ambos grupos, bajo el supuesto de que la observación de mayor cantidad y tamaño de placas ateroscleróticas en las ecografías vasculares indica una mayor gravedad de aterosclerosis. Al final del estudio, las ecografías vasculares indicaron una mayor cantidad de placas ateroscleróticas y de mayor tamaño en los ratones del primer grupo.",
+              "o": [
+                "No habrá diferencias significativas en la cantidad ni el tamaño de placas ateroscleróticas en las ecografías de los dos grupos.",
+                "Los ratones del grupo 1 desarrollarán una mayor cantidad de placas ateroscleróticas de mayor tamaño que los ratones del grupo 2.",
+                "La observación de mayor cantidad y tamaño de placas ateroscleróticas en la ecografía vascular indica una mayor gravedad de aterosclerosis.",
+                "La aterosclerosis puede ser causada por una dieta alta en grasas.",
+                "El propionato de imidazol causa aterosclerosis.",
+                "Los infartos pueden prevenirse, tanto en humanos como en ratones, eliminando las placas ateroscleróticas (placas de lípidos en las arterias).",
+                "La aterosclerosis es la principal causa de infartos y accidentes cerebrovasculares."
+              ],
+              "c": 2,
+              "k": "ipc-ec84030e2532d27e"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique por qué el enunciado que eligió como hipótesis auxiliar puede funcionar como tal en este caso de investigación.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis auxiliar. ¿La aterosclerosis es causada únicamente por el colesterol alto? La aterosclerosis, una enfermedad en la que se acumulan placas de lípidos como el colesterol en las arterias, es una de las principales causas de infartos y accidentes cerebrovasculares. Es sabido que una dieta alta en grasas es uno de los principales factores de riesgo de esta enfermedad. Sin embargo, estudios recientes han planteado que otros factores, incluso aquellos que no están relacionados con la dieta, podrían estar involucrados. En esta línea, un equipo de investigadores del Centro Nacional de Investigaciones Cardiovasculares (CNIC) de España se propuso investigar si una molécula en particular, el propionato de imidazol (ImP), producida por ciertas bacterias intestinales, podría ser un agente causante de la enfermedad. Para ello, llevaron a cabo un estudio con 60 ratones que no presentaban placas ateroscleróticas (placas de lípidos en las arterias) al inicio del estudio. Se los dividió en dos grupos. Ambos recibieron una dieta normal. Al grupo 1 se le administró ImP, mientras que al grupo 2 no. Los científicos utilizaron ecografías vasculares en los ratones de ambos grupos, bajo el supuesto de que la observación de mayor cantidad y tamaño de placas ateroscleróticas en las ecografías vasculares indica una mayor gravedad de aterosclerosis. Al final del estudio, las ecografías vasculares indicaron una mayor cantidad de placas ateroscleróticas y de mayor tamaño en los ratones del primer grupo.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional.",
+                "Porque es un enunciado general que se pone a prueba en la investigación.",
+                "Porque es un enunciado singular o muestral que se deduce de la hipótesis y expresa un hecho que debería suceder en caso de que la hipótesis fuera verdadera."
+              ],
+              "c": 1,
+              "k": "ipc-a972976f660d8019"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis fundamental del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis auxiliar. ¿La aterosclerosis es causada únicamente por el colesterol alto? La aterosclerosis, una enfermedad en la que se acumulan placas de lípidos como el colesterol en las arterias, es una de las principales causas de infartos y accidentes cerebrovasculares. Es sabido que una dieta alta en grasas es uno de los principales factores de riesgo de esta enfermedad. Sin embargo, estudios recientes han planteado que otros factores, incluso aquellos que no están relacionados con la dieta, podrían estar involucrados. En esta línea, un equipo de investigadores del Centro Nacional de Investigaciones Cardiovasculares (CNIC) de España se propuso investigar si una molécula en particular, el propionato de imidazol (ImP), producida por ciertas bacterias intestinales, podría ser un agente causante de la enfermedad. Para ello, llevaron a cabo un estudio con 60 ratones que no presentaban placas ateroscleróticas (placas de lípidos en las arterias) al inicio del estudio. Se los dividió en dos grupos. Ambos recibieron una dieta normal. Al grupo 1 se le administró ImP, mientras que al grupo 2 no. Los científicos utilizaron ecografías vasculares en los ratones de ambos grupos, bajo el supuesto de que la observación de mayor cantidad y tamaño de placas ateroscleróticas en las ecografías vasculares indica una mayor gravedad de aterosclerosis. Al final del estudio, las ecografías vasculares indicaron una mayor cantidad de placas ateroscleróticas y de mayor tamaño en los ratones del primer grupo.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "No habrá diferencias significativas en la cantidad ni el tamaño de placas ateroscleróticas en las ecografías de los dos grupos.",
+                "Los ratones del grupo 1 desarrollarán una mayor cantidad de placas ateroscleróticas de mayor tamaño que los ratones del grupo 2.",
+                "La observación de mayor cantidad y tamaño de placas ateroscleróticas en la ecografía vascular indica una mayor gravedad de aterosclerosis.",
+                "La aterosclerosis puede ser causada por una dieta alta en grasas.",
+                "El propionato de imidazol causa aterosclerosis.",
+                "Los infartos pueden prevenirse, tanto en humanos como en ratones, eliminando las placas ateroscleróticas (placas de lípidos en las arterias).",
+                "La aterosclerosis es la principal causa de infartos y accidentes cerebrovasculares."
+              ],
+              "c": 4,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. Todos los gatos tienen una lengua áspera.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su respuesta",
+                  "o": [
+                    "porque no está suficientemente confirmado.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque tiene falsadores potenciales.",
+                    "porque es válido.",
+                    "porque está formulado estrictamente en lenguaje observacional."
+                  ],
+                  "c": 4
+                }
+              ],
+              "k": "ipc-a53ffb56cff19084"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Esta planta mide 30 cm de alto. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Si esta planta es una petunia, entonces mide 30 cm de alto.",
+                    "Todas las petunias miden menos de 30 cm de alto.",
+                    "Esta planta no recibe suficiente luz solar.",
+                    "La mayoría de las petunias miden 30 cm de alto.",
+                    "Esta planta es una petunia.",
+                    "Esta planta creció en un espacio reducido."
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Si esta planta es una petunia, entonces mide 30 cm de alto.",
+                    "Todas las petunias miden menos de 30 cm de alto.",
+                    "Esta planta no recibe suficiente luz solar.",
+                    "La mayoría de las petunias miden 30 cm de alto.",
+                    "Esta planta es una petunia.",
+                    "Esta planta creció en un espacio reducido."
+                  ],
+                  "c": 4
+                }
+              ],
+              "k": "ipc-b8b7473a9c1b1301"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Dados dos paradigmas rivales, ...",
+              "o": [
+                "ambos contarán con herramientas teóricas y metodológicas idénticas para describir el mundo.",
+                "es posible establecer parámetros exteriores a ellos para determinar cuál es mejor.",
+                "cada uno de ellos utilizará los términos de manera diferente para referir a los mismos fenómenos.",
+                "el nuevo paradigma desplazará al anterior gracias a la incorporación de nuevas tecnologías.",
+                "el más reciente brindará explicaciones más objetivas de los fenómenos que el anterior."
+              ],
+              "c": 2,
+              "k": "ipc-03c0d245106c2556"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y sexismo en ciencia se trata. El sector tecnológico ha estado históricamente dominado por hombres, pero esta desigualdad se acentúa aún más en el campo de la inteligencia artificial (IA). Según un informe reciente de la ONG Chicas en Tecnología, en colaboración con la NCR Foundation, solo 1 de cada 5 profesionales en IA en América Latina son mujeres. Esta cifra evidencia una preocupante brecha de género en el sector. La falta de equidad es especialmente grave si consideramos que muchas herramientas de IA reproducen prejuicios y estereotipos de género: desde algoritmos de selección de empleados que favorecen a candidatos varones hasta generadores de imágenes que hipersexualizan a las mujeres. En este contexto, la participación femenina en el desarrollo de tecnologías de IA no es solo deseable, sino imprescindible, ya que el enfoque de las mujeres trae nuevas perspectivas y experiencias al proceso de desarrollo y promete construir tecnologías más representativas y libres de sesgos.",
+              "o": [
+                "Exclusión y marginalización",
+                "Techo de cristal",
+                "Teorías sexistas",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda",
+                "Invisibilización"
+              ],
+              "c": 0,
+              "k": "ipc-9a313cead65e080c"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista y, a la vez, rechazada por el postmodernismo feminista.",
+              "o": [
+                "La perspectiva de las mujeres es superior epistémicamente para cualquier dimensión del conocimiento.",
+                "La multiplicidad de perspectivas dentro de la comunidad científica permite identificar sesgos sexistas.",
+                "La perspectiva de los científicos es independiente del contexto social y cultural al que pertenecen.",
+                "Existe una perspectiva compartida por las mujeres, resultado de la historia común de opresión y marginalización.",
+                "Las perspectivas son contingentes y cambiantes, es imposible hablar de una perspectiva de las mujeres."
+              ],
+              "c": 3,
+              "k": "ipc-ec9a8f390a598de0"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. En las áridas estepas de la provincia de Neuquén, paleontólogos del Museo de La Plata (CONICET) han desenterrado los restos de lo que parece ser una nueva especie de dinosaurio titanosaurio, un herbívoro colosal que habitó la región hace unos 95 millones de años. El esqueleto parcial, hallado en rocas de la Formación Huincul, incluye varias vértebras gigantes y un fémur de casi 2 metros de largo. El proyecto, que requiere una financiación significativa para su excavación completa y estudio, se centrará en el análisis biomecánico de su locomoción y en la paleohistología ósea para determinar su edad y tasa de crecimiento. Esta investigación apunta a reconstruir una pieza más en el complejo rompecabezas de la vida durante el Cretácico Superior y mejorar nuestra comprensión del mundo natural.",
+              "o": [
+                "Sí, pero solo si el hallazgo puede generar un atractivo turístico para la región, como un nuevo museo, justificando así la inversión.",
+                "No, porque la ciencia debe priorizar el futuro y la innovación, no el estudio del pasado, que tiene poco que ofrecer al desarrollo tecnológico.",
+                "No, porque el estudio de animales extintos es un pasatiempo costoso que no apunta a resolver los problemas más urgentes de la sociedad.",
+                "Sí, porque la reconstrucción de la historia de la vida en la Tierra es un fin en sí mismo que contribuye a nuestra comprensión del mundo natural."
+              ],
+              "c": 3,
+              "k": "ipc-eb38f11f88beef0f"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados tomados como premisa y conclusión del argumento: Premisa 1: ................................................................................................................................... Premisa 2: Los experimentos invasivos en monos permiten desarrollar tratamientos para trastornos de memoria en humanos. Conclusión: Es correcto realizar experimentos invasivos en monos. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Financiar experimentos invasivos en monos permite desarrollar tratamientos para trastornos de memoria en humanos.",
+                "Los monos y los humanos comparten funciones cerebrales como la memoria.",
+                "Es correcto evitar el sufrimiento innecesario de los animales en toda investigación científica.",
+                "Los electrodos permiten registrar la actividad de las neuronas durante tareas de memoria.",
+                "Es correcto realizar experimentos que permitan desarrollar tratamientos para trastornos de memoria en humanos."
+              ],
+              "c": 4,
+              "k": "ipc-0bc11fa262c3327b"
+            }
+          ]
+        },
+        {
+          "id": "t2",
+          "n": "Tema 2",
+          "fuente": "IPC_2025_F.pdf",
+          "paginas": [
+            5,
+            8
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis auxiliar. ¿La aterosclerosis es causada únicamente por el colesterol alto? La aterosclerosis, una enfermedad en la que se acumulan placas de lípidos como el colesterol en las arterias, es una de las principales causas de infartos y accidentes cerebrovasculares. Es sabido que una dieta alta en grasas es uno de los principales factores de riesgo de esta enfermedad. Sin embargo, estudios recientes han planteado que otros factores, incluso aquellos que no están relacionados con la dieta, podrían estar involucrados. En esta línea, un equipo de investigadores del Centro Nacional de Investigaciones Cardiovasculares (CNIC) de España se propuso investigar si una molécula en particular, el propionato de imidazol (ImP), producida por ciertas bacterias intestinales, podría ser un agente causante de la enfermedad. Para ello, llevaron a cabo un estudio con 60 ratones que no presentaban placas ateroscleróticas (placas de lípidos en las arterias) al inicio del estudio. Se los dividió en dos grupos. Ambos recibieron una dieta normal. Al grupo 1 se le administró ImP, mientras que al grupo 2 no. Los científicos utilizaron ecografías vasculares en los ratones de ambos grupos, bajo el supuesto de que la observación de mayor cantidad y tamaño de placas ateroscleróticas en las ecografías vasculares indica una mayor gravedad de aterosclerosis. Al final del estudio, las ecografías vasculares indicaron una mayor cantidad de placas ateroscleróticas y de mayor tamaño en los ratones del primer grupo.",
+              "o": [
+                "La observación de mayor cantidad y tamaño de placas ateroscleróticas en la ecografía vascular indica una mayor gravedad de aterosclerosis.",
+                "La aterosclerosis es la principal causa de infartos y accidentes cerebrovasculares.",
+                "Los ratones del grupo 1 desarrollarán una mayor cantidad de placas ateroscleróticas de mayor tamaño que los ratones del grupo 2.",
+                "No habrá diferencias significativas en la cantidad ni el tamaño de placas ateroscleróticas en las ecografías de los dos grupos.",
+                "La aterosclerosis puede ser causada por una dieta alta en grasas.",
+                "Los infartos pueden prevenirse, tanto en humanos como en ratones, eliminando las placas ateroscleróticas (placas de lípidos en las arterias).",
+                "El propionato de imidazol causa aterosclerosis."
+              ],
+              "c": 0,
+              "k": "ipc-ec84030e2532d27e"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique por qué el enunciado que eligió como hipótesis auxiliar puede funcionar como tal en este caso de investigación.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis auxiliar. ¿La aterosclerosis es causada únicamente por el colesterol alto? La aterosclerosis, una enfermedad en la que se acumulan placas de lípidos como el colesterol en las arterias, es una de las principales causas de infartos y accidentes cerebrovasculares. Es sabido que una dieta alta en grasas es uno de los principales factores de riesgo de esta enfermedad. Sin embargo, estudios recientes han planteado que otros factores, incluso aquellos que no están relacionados con la dieta, podrían estar involucrados. En esta línea, un equipo de investigadores del Centro Nacional de Investigaciones Cardiovasculares (CNIC) de España se propuso investigar si una molécula en particular, el propionato de imidazol (ImP), producida por ciertas bacterias intestinales, podría ser un agente causante de la enfermedad. Para ello, llevaron a cabo un estudio con 60 ratones que no presentaban placas ateroscleróticas (placas de lípidos en las arterias) al inicio del estudio. Se los dividió en dos grupos. Ambos recibieron una dieta normal. Al grupo 1 se le administró ImP, mientras que al grupo 2 no. Los científicos utilizaron ecografías vasculares en los ratones de ambos grupos, bajo el supuesto de que la observación de mayor cantidad y tamaño de placas ateroscleróticas en las ecografías vasculares indica una mayor gravedad de aterosclerosis. Al final del estudio, las ecografías vasculares indicaron una mayor cantidad de placas ateroscleróticas y de mayor tamaño en los ratones del primer grupo.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                "Porque es un enunciado singular o muestral que se deduce de la hipótesis y expresa un hecho que debería suceder en caso de que la hipótesis fuera verdadera.",
+                "Porque es un enunciado general que se pone a prueba en la investigación.",
+                "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional."
+              ],
+              "c": 3,
+              "k": "ipc-a972976f660d8019"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis auxiliar. ¿La aterosclerosis es causada únicamente por el colesterol alto? La aterosclerosis, una enfermedad en la que se acumulan placas de lípidos como el colesterol en las arterias, es una de las principales causas de infartos y accidentes cerebrovasculares. Es sabido que una dieta alta en grasas es uno de los principales factores de riesgo de esta enfermedad. Sin embargo, estudios recientes han planteado que otros factores, incluso aquellos que no están relacionados con la dieta, podrían estar involucrados. En esta línea, un equipo de investigadores del Centro Nacional de Investigaciones Cardiovasculares (CNIC) de España se propuso investigar si una molécula en particular, el propionato de imidazol (ImP), producida por ciertas bacterias intestinales, podría ser un agente causante de la enfermedad. Para ello, llevaron a cabo un estudio con 60 ratones que no presentaban placas ateroscleróticas (placas de lípidos en las arterias) al inicio del estudio. Se los dividió en dos grupos. Ambos recibieron una dieta normal. Al grupo 1 se le administró ImP, mientras que al grupo 2 no. Los científicos utilizaron ecografías vasculares en los ratones de ambos grupos, bajo el supuesto de que la observación de mayor cantidad y tamaño de placas ateroscleróticas en las ecografías vasculares indica una mayor gravedad de aterosclerosis. Al final del estudio, las ecografías vasculares indicaron una mayor cantidad de placas ateroscleróticas y de mayor tamaño en los ratones del primer grupo.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "La observación de mayor cantidad y tamaño de placas ateroscleróticas en la ecografía vascular indica una mayor gravedad de aterosclerosis.",
+                "La aterosclerosis es la principal causa de infartos y accidentes cerebrovasculares.",
+                "Los ratones del grupo 1 desarrollarán una mayor cantidad de placas ateroscleróticas de mayor tamaño que los ratones del grupo 2.",
+                "No habrá diferencias significativas en la cantidad ni el tamaño de placas ateroscleróticas en las ecografías de los dos grupos.",
+                "La aterosclerosis puede ser causada por una dieta alta en grasas.",
+                "Los infartos pueden prevenirse, tanto en humanos como en ratones, eliminando las placas ateroscleróticas (placas de lípidos en las arterias).",
+                "El propionato de imidazol causa aterosclerosis."
+              ],
+              "c": 2,
+              "k": "ipc-3c9ee03fc22b0153"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. Todos los gatos tienen una lengua áspera.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su respuesta",
+                  "o": [
+                    "porque está formulado estrictamente en lenguaje observacional.",
+                    "porque es válido.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque tiene falsadores potenciales.",
+                    "porque no está suficientemente confirmado."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-a53ffb56cff19084"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Esta planta mide 30 cm de alto. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Esta planta es una petunia.",
+                    "Esta planta creció en un espacio reducido.",
+                    "Esta planta no recibe suficiente luz solar.",
+                    "Todas las petunias miden menos de 30 cm de alto.",
+                    "Si esta planta es una petunia, entonces mide 30 cm de alto.",
+                    "La mayoría de las petunias miden 30 cm de alto."
+                  ],
+                  "c": 5
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Esta planta es una petunia.",
+                    "Esta planta creció en un espacio reducido.",
+                    "Esta planta no recibe suficiente luz solar.",
+                    "Todas las petunias miden menos de 30 cm de alto.",
+                    "Si esta planta es una petunia, entonces mide 30 cm de alto.",
+                    "La mayoría de las petunias miden 30 cm de alto."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-0a6baafd47f9ddcc"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Dados dos paradigmas rivales, ...",
+              "o": [
+                "es posible establecer parámetros exteriores a ellos para determinar cuál es mejor.",
+                "cada uno de ellos utilizará los términos de manera diferente para referir a los mismos fenómenos.",
+                "el más reciente brindará explicaciones más objetivas de los fenómenos que el anterior.",
+                "el nuevo paradigma desplazará al anterior gracias a la incorporación de nuevas tecnologías.",
+                "ambos contarán con herramientas teóricas y metodológicas idénticas para describir el mundo."
+              ],
+              "c": 1,
+              "k": "ipc-03c0d245106c2556"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y sexismo en ciencia se trata. El sector tecnológico ha estado históricamente dominado por hombres, pero esta desigualdad se acentúa aún más en el campo de la inteligencia artificial (IA). Según un informe reciente de la ONG Chicas en Tecnología, en colaboración con la NCR Foundation, solo 1 de cada 5 profesionales en IA en América Latina son mujeres. Esta cifra evidencia una preocupante brecha de género en el sector. La falta de equidad es especialmente grave si consideramos que muchas herramientas de IA reproducen prejuicios y estereotipos de género: desde algoritmos de selección de empleados que favorecen a candidatos varones hasta generadores de imágenes que hipersexualizan a las mujeres. En este contexto, la participación femenina en el desarrollo de tecnologías de IA no es solo deseable, sino imprescindible, ya que el enfoque de las mujeres trae nuevas perspectivas y experiencias al proceso de desarrollo y promete construir tecnologías más representativas y libres de sesgos.",
+              "o": [
+                "Teorías sexistas",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda",
+                "Invisibilización",
+                "Exclusión y marginalización",
+                "Techo de cristal"
+              ],
+              "c": 3,
+              "k": "ipc-9a313cead65e080c"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista y, a la vez, rechazada por el postmodernismo feminista.",
+              "o": [
+                "La multiplicidad de perspectivas dentro de la comunidad científica permite identificar sesgos sexistas.",
+                "La perspectiva de los científicos es independiente del contexto social y cultural al que pertenecen.",
+                "Existe una perspectiva compartida por las mujeres, resultado de la historia común de opresión y marginalización.",
+                "Las perspectivas son contingentes y cambiantes, es imposible hablar de una perspectiva de las mujeres.",
+                "La perspectiva de las mujeres es superior epistémicamente para cualquier dimensión del conocimiento."
+              ],
+              "c": 2,
+              "k": "ipc-bab729dc8ddd1f39"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. En las áridas estepas de la provincia de Neuquén, paleontólogos del Museo de La Plata (CONICET) han desenterrado los restos de lo que parece ser una nueva especie de dinosaurio titanosaurio, un herbívoro colosal que habitó la región hace unos 95 millones de años. El esqueleto parcial, hallado en rocas de la Formación Huincul, incluye varias vértebras gigantes y un fémur de casi 2 metros de largo. El proyecto, que requiere una financiación significativa para su excavación completa y estudio, se centrará en el análisis biomecánico de su locomoción y en la paleohistología ósea para determinar su edad y tasa de crecimiento. Esta investigación apunta a reconstruir una pieza más en el complejo rompecabezas de la vida durante el Cretácico Superior y mejorar nuestra comprensión del mundo natural.",
+              "o": [
+                "Sí, porque la reconstrucción de la historia de la vida en la Tierra es un fin en sí mismo que contribuye a nuestra comprensión del mundo natural.",
+                "No, porque el estudio de animales extintos es un pasatiempo costoso que no apunta a resolver los problemas más urgentes de la sociedad.",
+                "No, porque la ciencia debe priorizar el futuro y la innovación, no el estudio del pasado, que tiene poco que ofrecer al desarrollo tecnológico.",
+                "Sí, pero solo si el hallazgo puede generar un atractivo turístico para la región, como un nuevo museo, justificando así la inversión."
+              ],
+              "c": 0,
+              "k": "ipc-eb38f11f88beef0f"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados tomados como premisa y conclusión del argumento: Premisa 1: ................................................................................................................................... Premisa 2: Los experimentos invasivos en monos permiten desarrollar tratamientos para trastornos de memoria en humanos. Conclusión: Es correcto realizar experimentos invasivos en monos. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Los electrodos permiten registrar la actividad de las neuronas durante tareas de memoria.",
+                "Es correcto realizar experimentos que permitan desarrollar tratamientos para trastornos de memoria en humanos.",
+                "Los monos y los humanos comparten funciones cerebrales como la memoria.",
+                "Es correcto evitar el sufrimiento innecesario de los animales en toda investigación científica.",
+                "Financiar experimentos invasivos en monos permite desarrollar tratamientos para trastornos de memoria en humanos."
+              ],
+              "c": 1,
+              "k": "ipc-7b710e3a46ae8862"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gimeno-2025-10-21",
+      "nombre": "2º parcial · 21/10/2025",
+      "catedra": "C · Gimeno",
+      "fecha": "2025-10-21",
+      "detalle": "Cátedra C · Gimeno. 20 consignas; 0,50 por consigna.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "IPC_2025_G.docx",
+          "aviso": "Claves y explicaciones del documento resuelto. Se asigna 0,50 por consigna para completar 10 puntos, ya que el original no indica puntajes.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "El modelo geocéntrico de Ptolomeo describe al universo con la Tierra en el centro y utiliza epiciclos para explicar el movimiento de los planetas. El modelo heliocéntrico de Copérnico, en cambio, sitúa al Sol en el centro. Según lo postulado por Kuhn sobre la estructura de las revoluciones científicas, ¿cuál de los siguientes conceptos define la relación entre el modelo Ptolemaico y el modelo Copernicano?",
+              "o": [
+                "Ciencia normal",
+                "Ciencia extraordinaria",
+                "Inconmensurabilidad",
+                "Ciencia madura"
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-eeed2dbd184d6f23"
+            },
+            {
+              "e": "2",
+              "p": "¿Cuál de las siguientes opciones corresponde al concepto de “matriz disciplinaria”, según lo desarrollado por Kuhn?",
+              "o": [
+                "Se caracteriza por la carencia de modelos particulares, valores compartidos y modelos típicos de resolución de problemas.",
+                "Se caracteriza por la existencia de modelos particulares, valores compartidos y modelos típicos de resolución de problemas, aunque carece de generalizaciones simbólicas de las teorías o leyes.",
+                "Cubre las relaciones que se establecen entre los miembros de la comunidad que comparte el paradigma.",
+                "Se compone de generalizaciones simbólicas de las teorías o leyes y se caracteriza por la existencia de modelos particulares, valores compartidos y modelos típicos de resolución de problemas."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-a13724832f650ca4"
+            },
+            {
+              "e": "3",
+              "p": "Complete la siguiente afirmación: \"Según Harari, la ciencia moderna potenció y aceleró su desarrollo a través de un bucle de realimentación. Para el autor, esto refiere a...\"",
+              "o": [
+                "\"...que el progreso científico depende exclusivamente del talento individual de los investigadores y de su compromiso con la verdad, sin influencia de factores externos como la política o la economía\".",
+                "\"...que la ciencia moderna avanza cuando la política y la economía se subordinan por completo al conocimiento científico y renuncian a sus propios intereses\".",
+                "\"...que la ciencia moderna no produce progreso únicamente a través de la investigación, sino que requiere del refuerzo mutuo entre ciencia, política y economía\".",
+                "\"...que, para poder producir progreso, la ciencia moderna debe subordinarse absolutamente a los intereses de los poderes políticos y económicos de su época\"."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-4a1135fd5cf6b31a"
+            },
+            {
+              "e": "4",
+              "p": "¿Cuál de las siguientes afirmaciones describe adecuadamente la disposición de la ciencia moderna a admitir la ignorancia según Harari?",
+              "o": [
+                "La ciencia moderna no considera que el conocimiento sea acabado, sino que siempre puede ampliarse e, incluso, demostrarse que lo que sabemos es erróneo.",
+                "A diferencia de otras formas de conocimiento, la ciencia moderna busca eliminar la ignorancia por completo, hasta alcanzar verdades definitivas.",
+                "Los científicos modernos priorizan la acumulación de datos por sobre la formulación de teorías, ya que la ignorancia se supera cuantificando la realidad.",
+                "Al admitir la ignorancia, la ciencia moderna se desentiende de la necesidad de ofrecer explicaciones y se limita a describir fenómenos sin interpretarlos."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-a0a0d3d73c78ad2d"
+            },
+            {
+              "e": "5",
+              "p": "¿Cuál de las siguientes opciones se relaciona con los postulados de Larry Laudan sobre el progreso y el desarrollo de la ciencia?",
+              "o": [
+                "Laudan critica la visión kuhniana de paradigmas inconmensurables y propone que el progreso científico se mide por la acumulación de verdades absolutas y revoluciones científicas.",
+                "Laudan adhiere a la visión kuhniana de paradigmas inconmensurables y postula que el progreso científico se mide por la capacidad de las teorías para resolver problemas.",
+                "Laudan critica la visión kuhniana de paradigmas inconmensurables y propone que el progreso científico se mide por la capacidad de las teorías para resolver problemas.",
+                "Laudan adhiere a la visión kuhniana de paradigmas inconmensurables y postula que el progreso científico se mide por la acumulación de verdades absolutas y revoluciones científicas."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-58763a54abd31653"
+            },
+            {
+              "e": "6",
+              "p": "¿Cuál de las siguientes afirmaciones describe mejor al modelo cosmológico de las dos esferas?",
+              "o": [
+                "La Tierra es plana y se encuentra sostenida por una serie de pilares invisibles mientras las estrellas giran sobre una esfera celeste.",
+                "La Tierra es un astro esférico fijo alrededor del cual revolucionan los demás astros y planetas.",
+                "El Sol ocupa el centro del universo y la Tierra gira a su alrededor describiendo una órbita circular perfecta.",
+                "Todos los cuerpos celestes se encuentran estáticos y sólo la Tierra se mueve dentro del universo."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-accd367924422eb2"
+            },
+            {
+              "e": "7",
+              "p": "Según lo visto en el texto de Suarez et al., indique cuál de los estudios más utilizados en la investigación clínica de las ciencias de la salud se corresponde con el siguiente ejemplo: \"La investigación consiste en seguir durante 10 años a fumadores y no fumadores para medir la incidencia del cáncer de pulmón.\"",
+              "o": [
+                "Ensayo clínico",
+                "Estudio de cohortes",
+                "Meta-análisis",
+                "Revisión sistemática"
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-5df77159047642fe"
+            },
+            {
+              "e": "8",
+              "p": "¿Cuál de las siguientes afirmaciones sobre el modelo cosmológico copernicano es correcta?",
+              "o": [
+                "Ciertos fenómenos astronómicos que resultaban anómalos y contradictorios para el modelo de las dos esferas, pudieron ser explicados por el modelo heliocéntrico copernicano.",
+                "Debido a que coincidía con las ideas filosóficas y religiosas de la época, el modelo copernicano fue rápidamente aceptado por toda la comunidad científica.",
+                "En el modelo heliocéntrico de Copérnico, el Sol giraba alrededor de la tierra mientras que los planetas y estrellas se mantenían fijos en una esfera celeste exterior.",
+                "La propuesta de Copérnico propuso un cambio de visión cosmológica, pero no permitió explicar más fenómenos ni de mejor manera que la teoría de las dos esferas."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-d80346427b866574"
+            },
+            {
+              "e": "9",
+              "p": "Bunge (2018) propuso una serie de características del conocimiento científico. Según ellas, ¿Por qué la astrología no puede ser considerada una ciencia?",
+              "o": [
+                "Por su incapacidad de refutación.",
+                "Porque se apoya en observaciones y tiene una base empírica.",
+                "Porque es precisa y clara en sus postulados.",
+                "Porque sus hipótesis son falsables."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-e4715501c5f1b65f"
+            },
+            {
+              "e": "10",
+              "p": "Según el texto de Villarruel-Fuentes, la ciencia como pensamiento organizado se encuentra sujeta a normas y principios que se plasman en la práctica cotidiana del sujeto que piensa y hace investigación. Sumado a ello, ¿por qué factor puede estar afectada la práctica del sujeto que investiga?",
+              "o": [
+                "Ilusiones transferenciales",
+                "Cogniciones anómalas",
+                "Anomalías",
+                "Sesgos cognitivos"
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-9cd026bcbd5b906b"
+            },
+            {
+              "e": "11",
+              "p": "Complete la siguiente afirmación: \"Para Ayala, la verdadera novedad de la teoría darwiniana estriba en...\"",
+              "o": [
+                "\"...la idea de que todas las especies actuales fueron creadas simultáneamente y adaptadas desde el inicio a su entorno\".",
+                "\"...la incorporación de la finalidad natural como motor del desarrollo de las especies más complejas\".",
+                "\"...la afirmación de que la evolución de las especies es completamente aleatoria y no puede ser explicada por ningún mecanismo discernible\".",
+                "\"...la concepción del surgimiento de las especies animales como resultado de un proceso mecánico de diseño sin diseñador\"."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-c22e2be662be2134"
+            },
+            {
+              "e": "12",
+              "p": "Dada la siguiente descripción, ¿a qué componente de una matriz disciplinaria correspondería, según Kuhn? Se trata de expresiones como fórmulas o leyes que los miembros de una comunidad científica aceptan sin discusión y utilizan como base para resolver problemas. Pueden escribirse en forma matemática o verbal, y permiten aplicar técnicas lógicas o cuantitativas dentro del paradigma.",
+              "o": [
+                "Ejemplares.",
+                "Valores.",
+                "Partes metafísicas.",
+                "Generalizaciones simbólicas."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-61577860cd0273f8"
+            },
+            {
+              "e": "13",
+              "p": "Según Richaud, ¿Cuáles de las siguientes opciones forman parte de los requisitos que debe cumplir la observación científica?",
+              "o": [
+                "Que sus resultados no puedan ser presentados sistemáticamente.",
+                "Que sus resultados puedan o no ser presentados sistemáticamente.",
+                "Que sea propósito de una investigación con un problema formulado previamente.",
+                "Que sea propósito de una investigación con un problema que no haya sido formulado previamente."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-414588b4bf61de4b"
+            },
+            {
+              "e": "14",
+              "p": "Teniendo en cuenta las consideraciones de Gibbons et al acerca de los modos de producción del conocimiento actuales, ¿a cuál modo pertenece el siguiente ejemplo y por qué? \"Un historiador especializado en filosofía medieval realiza una investigación individual sobre manuscritos escolásticos del siglo XIII. Su trabajo se desarrolla íntegramente en el ámbito universitario, y sus resultados son evaluados por otros especialistas a través de congresos académicos y publicaciones en revistas científicas de historia\"",
+              "o": [
+                "Pertenece al modo 2 porque involucra fuentes históricas y requiere un alto grado de especialización disciplinar.",
+                "Pertenece al modo 2 porque tiene aplicación social potencial en políticas culturales o educativas.",
+                "Pertenece al modo 1 porque combina distintas disciplinas para resolver problemas concretos en contextos de intervención.",
+                "Pertenece al modo 1 porque se desarrolla dentro de una disciplina específica, en un entorno académico y siguiendo criterios de validación internos a la comunidad científica."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-dafceb4afc4c86bc"
+            },
+            {
+              "e": "15",
+              "p": "En las ciencias de la salud es habitual utilizar la estrategia \"PICO\" para formular la pregunta de investigación. Indique y justifique si es verdadero o falso que el siguiente ejemplo responde a la utilización de dicha estrategia: \"En adultos con depresión mayor, ¿la terapia cognitivo-conductual es más eficaz que los antidepresivos ISRS para reducir los síntomas depresivos?\"",
+              "o": [
+                "Falso. La pregunta de investigación del ejemplo no responde a la estrategia PICO porque, si bien define al paciente, la intervención y la comparación, no define el objeto de estudio.",
+                "Falso. La pregunta de investigación del ejemplo no responde a la estrategia \"PICO\" porque la población que define es demasiado amplia para ser estudiada.",
+                "Verdadero. La pregunta de investigación del ejemplo responde a la estrategia \"PICO\" porque define al paciente, la intervención y la comparación, aunque faltaría especificar aún el objeto de estudio.",
+                "Verdadero. La pregunta de investigación del ejemplo responde a la estrategia \"PICO\" porque define al paciente, la intervención, la comparación y el resultado esperado."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-099f041901310122"
+            },
+            {
+              "e": "16",
+              "p": "Según lo expuesto por Villarruel-Fuentes, determine qué sesgo está evidenciando esta situación: \"Un psicólogo escucha que un paciente fue diagnosticado en otro centro con “trastorno de ansiedad generalizada”. Aunque en la entrevista actual muestra síntomas más compatibles con depresión, el profesional solicita una derivación a psiquiatría con un diagnóstico presuntivo de trastorno de ansiedad generalizada.\"",
+              "o": [
+                "Anclaje",
+                "Correlación ilusoria",
+                "Efecto Halo",
+                "Apofenia"
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-b404b1d6302be42b"
+            },
+            {
+              "e": "17",
+              "p": "Siguiendo lo propuesto por Gibbons et al, ¿cuál de las siguientes características es propia del modo 2 de producción del conocimiento?",
+              "o": [
+                "Evalúa la calidad no solo por criterios científicos, sino también por relevancia social, utilidad y responsabilidad.",
+                "La investigación se realiza dentro de disciplinas específicas.",
+                "El conocimiento se produce en una estructura tradicional, jerárquica y académica.",
+                "El conocimiento se genera principalmente en universidades y centros de investigación."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-b02293440f7730e5"
+            },
+            {
+              "e": "18",
+              "p": "Aplicando las descripciones de Tauro et al acerca de las universidades públicas en nuestro país, ¿a cuál de las funciones de la universidad corresponde el siguiente ejemplo? \"Un grupo de ingenieros de una universidad desarrolla un software de gestión logística para cooperativas de producción, que luego es implementado por varias de ellas con apoyo técnico universitario\"",
+              "o": [
+                "Docencia.",
+                "Extensión universitaria.",
+                "Investigación.",
+                "Transferencia tecnológica."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-514217a1d5ef0653"
+            },
+            {
+              "e": "19",
+              "p": "Desde el punto de vista ético en investigación se postulan tres principios fundamentales y obligatorios para cuidar y evitar daños a las personas participantes. Indique cuál de las siguientes opciones es un ejemplo que contiene la presencia de los tres principios:",
+              "o": [
+                "Se aplica un cuestionario sobre hábitos de estudio a diferentes estudiantes. Los participantes firman un consentimiento informado y luego los resultados se publican con sus nombres para que puedan identificarse a sí mismos y saber qué medidas tomar posteriormente.",
+                "En un estudio sobre manejo del estrés, los participantes firman el consentimiento informado, los datos se registran de forma anónima y solo los investigadores tienen acceso a esa información.",
+                "Un investigador pregunta a pacientes de un hospital público sobre sus hábitos de sueño y registra sus nombres junto con las respuestas, sin explicarles el propósito del estudio hasta que el mismo esté finalizado.",
+                "Un psicólogo observa a niños en clase y comparte grabaciones de video con colegas sin autorización de los padres pero habiendo informado a los docentes responsables del curso."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-0284d41d947d10c0"
+            },
+            {
+              "e": "20",
+              "p": "¿Cuál de las siguientes definiciones se corresponde con la función \"investigación\" de las universidades en nuestro país?",
+              "o": [
+                "Formación de profesionales, científicos y ciudadanos críticos, éticos y comprometidos socialmente, tanto en el nivel de grado como de posgrado.",
+                "Generación de conocimiento original a través de prácticas científicas y académicas, en diversas áreas del saber, con impacto tanto disciplinar como social.",
+                "Interacción con la comunidad para compartir saberes, promover el desarrollo social y cultural, y generar transformaciones en diálogo con actores sociales.",
+                "Aplicación del conocimiento científico y técnico para resolver problemas concretos de sectores productivos, estatales o comunitarios. Incluye innovación, patentes, convenios con empresas u organismos, etc."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-fabfed4e1420b5b4"
+            }
+          ]
+        },
+        {
+          "id": "t2",
+          "n": "Tema 2",
+          "fuente": "IPC_2025_I.docx",
+          "aviso": "Claves y explicaciones del documento resuelto. Se asigna 0,50 por consigna para completar 10 puntos, ya que el original no indica puntajes.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "¿Cuál de las siguientes definiciones se corresponde con la función \"investigación\" de las universidades en nuestro país?",
+              "o": [
+                "Interacción con la comunidad para compartir saberes, promover el desarrollo social y cultural, y generar transformaciones en diálogo con actores sociales.",
+                "Aplicación del conocimiento científico y técnico para resolver problemas concretos de sectores productivos, estatales o comunitarios. Incluye innovación, patentes, convenios con empresas u organismos, etc.",
+                "Formación de profesionales, científicos y ciudadanos críticos, éticos y comprometidos socialmente, tanto en el nivel de grado como de posgrado.",
+                "Generación de conocimiento original a través de prácticas científicas y académicas, en diversas áreas del saber, con impacto tanto disciplinar como social."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-fabfed4e1420b5b4"
+            },
+            {
+              "e": "2",
+              "p": "Bunge (2018) propuso una serie de características del conocimiento científico. Según ellas, ¿Por qué la astrología no puede ser considerada una ciencia?",
+              "o": [
+                "Porque se apoya en observaciones y tiene una base empírica.",
+                "Porque es precisa y clara en sus postulados.",
+                "Porque sus hipótesis son falsables.",
+                "Por su incapacidad de refutación."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-e73c67d25148beb7"
+            },
+            {
+              "e": "3",
+              "p": "Aplicando las descripciones de Tauro et al. acerca de las universidades públicas en nuestro país, ¿a cuál de las funciones de la universidad corresponde el siguiente ejemplo? \"Un grupo de ingenieros de una universidad desarrolla un software de gestión logística para cooperativas de producción, que luego es implementado por varias de ellas con apoyo técnico universitario\"",
+              "o": [
+                "Investigación.",
+                "Transferencia tecnológica.",
+                "Docencia.",
+                "Extensión universitaria."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-514217a1d5ef0653"
+            },
+            {
+              "e": "4",
+              "p": "El modelo geocéntrico de Ptolomeo describe al universo con la Tierra en el centro y utiliza epiciclos para explicar el movimiento de los planetas. El modelo heliocéntrico de Copérnico, en cambio, sitúa al Sol en el centro. Según lo postulado por Kuhn sobre la estructura de las revoluciones científicas, ¿Cuál de los siguientes conceptos define la relación entre el modelo Ptolemaico y el modelo Copernicano?",
+              "o": [
+                "Ciencia extraordinaria",
+                "Inconmensurabilidad",
+                "Ciencia normal",
+                "Ciencia madura"
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-bf047b33145daf9b"
+            },
+            {
+              "e": "5",
+              "p": "¿Cuál de las siguientes opciones corresponde al concepto de “matriz disciplinaria”, según lo desarrollado por Kuhn?",
+              "o": [
+                "Cubre las relaciones que se establecen entre los miembros de la comunidad que comparte el paradigma.",
+                "Se compone de generalizaciones simbólicas de las teorías o leyes y se caracteriza por la existencia de modelos particulares, valores compartidos y modelos típicos de resolución de problemas.",
+                "Se caracteriza por la carencia de modelos particulares, valores compartidos y modelos típicos de resolución de problemas.",
+                "Se caracteriza por la existencia de modelos particulares, valores compartidos y modelos típicos de resolución de problemas, aunque carece de generalizaciones simbólicas de las teorías o leyes."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-a13724832f650ca4"
+            },
+            {
+              "e": "6",
+              "p": "En las ciencias de la salud es habitual utilizar la estrategia \"PICO\" para formular la pregunta de investigación. Indique y justifique si es verdadero o falso que el siguiente ejemplo responde a la utilización de dicha estrategia: \"En adultos con depresión mayor, ¿la terapia cognitivo-conductual es más eficaz que los antidepresivos ISRS para reducir los síntomas depresivos?\"",
+              "o": [
+                "Verdadero. La pregunta de investigación del ejemplo responde a la estrategia \"PICO\" porque define al paciente, la intervención y la comparación, aunque faltaría especificar aún el objeto de estudio.",
+                "Falso. La pregunta de investigación del ejemplo no responde a la estrategia \"PICO\" porque, si bien define al paciente, la intervención y la comparación, no define el objeto de estudio.",
+                "Verdadero. La pregunta de investigación del ejemplo responde a la estrategia \"PICO\" porque define al paciente, la intervención, la comparación y el resultado esperado.",
+                "Falso. La pregunta de investigación del ejemplo no responde a la estrategia \"PICO\" porque la población que define es demasiado amplia para ser estudiada."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-099f041901310122"
+            },
+            {
+              "e": "7",
+              "p": "Siguiendo lo propuesto por Gibbons et al, ¿cuál de las siguientes características es propia del modo 2 de producción del conocimiento?",
+              "o": [
+                "El conocimiento se genera principalmente en universidades y centros de investigación.",
+                "Evalúa la calidad no solo por criterios científicos, sino también por relevancia social, utilidad y responsabilidad.",
+                "La investigación se realiza dentro de disciplinas específicas.",
+                "El conocimiento se produce en una estructura tradicional, jerárquica y académica."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-b02293440f7730e5"
+            },
+            {
+              "e": "8",
+              "p": "¿Cuál de las siguientes opciones se relaciona con los postulados de Larry Laudan sobre el progreso y el desarrollo de la ciencia?",
+              "o": [
+                "Laudan adhiere a la visión kuhniana de paradigmas inconmensurables y postula que el progreso científico se mide por la capacidad de las teorías para resolver problemas.",
+                "Laudan adhiere a la visión kuhniana de paradigmas inconmensurables y postula que el progreso científico se mide por la acumulación de verdades absolutas y revoluciones científicas.",
+                "Laudan critica la visión kuhniana de paradigmas inconmensurables y propone que el progreso científico se mide por la acumulación de verdades absolutas y revoluciones científicas.",
+                "Laudan critica la visión kuhniana de paradigmas inconmensurables y propone que el progreso científico se mide por la capacidad de las teorías para resolver problemas."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-58763a54abd31653"
+            },
+            {
+              "e": "9",
+              "p": "Según lo visto en el texto de Suarez et al., indique cuál de los estudios más utilizados en la investigación clínica de las ciencias de la salud se corresponde con el siguiente ejemplo: \"La investigación consiste en seguir durante 10 años a fumadores y no fumadores para medir la incidencia del cáncer de pulmón.\"",
+              "o": [
+                "Estudio de cohortes",
+                "Ensayo clínico",
+                "Revisión sistemática",
+                "Meta-análisis"
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-5df77159047642fe"
+            },
+            {
+              "e": "10",
+              "p": "Teniendo en cuenta las consideraciones de Gibbons et al. acerca de los modos de producción del conocimiento actuales, ¿a cuál modo pertenece el siguiente ejemplo y por qué? \"Un historiador especializado en filosofía medieval realiza una investigación individual sobre manuscritos escolásticos del siglo XIII. Su trabajo se desarrolla íntegramente en el ámbito universitario, y sus resultados son evaluados por otros especialistas a través de congresos académicos y publicaciones en revistas científicas de historia\"",
+              "o": [
+                "Pertenece al modo 2 porque tiene aplicación social potencial en políticas culturales o educativas.",
+                "Pertenece al modo 1 porque combina distintas disciplinas para resolver problemas concretos en contextos de intervención.",
+                "Pertenece al modo 1 porque se desarrolla dentro de una disciplina específica, en un entorno académico y siguiendo criterios de validación internos a la comunidad científica.",
+                "Pertenece al modo 2 porque involucra fuentes históricas y requiere un alto grado de especialización disciplinar."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-dafceb4afc4c86bc"
+            },
+            {
+              "e": "11",
+              "p": "Dada la siguiente descripción, ¿a qué componente de una matriz disciplinaria correspondería, según Kuhn? Se trata de expresiones como fórmulas o leyes que los miembros de una comunidad científica aceptan sin discusión y utilizan como base para resolver problemas. Pueden escribirse en forma matemática o verbal, y permiten aplicar técnicas lógicas o cuantitativas dentro del paradigma.",
+              "o": [
+                "Partes metafísicas.",
+                "Generalizaciones simbólicas.",
+                "Ejemplares.",
+                "Valores."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-61577860cd0273f8"
+            },
+            {
+              "e": "12",
+              "p": "Según lo expuesto por Villarruel-Fuentes, determine qué sesgo está evidenciando esta situación: \"Un psicólogo escucha que un paciente fue diagnosticado en otro centro con “trastorno de ansiedad generalizada”. Aunque en la entrevista actual muestra síntomas más compatibles con depresión, el profesional solicita una derivación a psiquiatría con un diagnóstico presuntivo de trastorno de ansiedad generalizada.\"",
+              "o": [
+                "Efecto Halo",
+                "Anclaje",
+                "Apofenia",
+                "Correlación ilusoria"
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-b404b1d6302be42b"
+            },
+            {
+              "e": "13",
+              "p": "Complete la siguiente afirmación: \"Para Ayala, la verdadera novedad de la teoría darwiniana estriba en...\"",
+              "o": [
+                "\"...la concepción del surgimiento de las especies animales como resultado de un proceso mecánico de diseño sin diseñador\".",
+                "\"...la idea de que todas las especies actuales fueron creadas simultáneamente y adaptadas desde el inicio a su entorno\".",
+                "\"...la incorporación de la finalidad natural como motor del desarrollo de las especies más complejas\".",
+                "\"...la afirmación de que la evolución de las especies es completamente aleatoria y no puede ser explicada por ningún mecanismo discernible\"."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-c22e2be662be2134"
+            },
+            {
+              "e": "14",
+              "p": "Según el texto de Villaruel-Fuentes, la ciencia como pensamiento organizado se encuentra sujeta a normas y principios que se plasman en la práctica cotidiana del sujeto que piensa y hace investigación. Sumado a ello, ¿por qué factor puede estar afectada la práctica del sujeto que investiga?",
+              "o": [
+                "Anomalías",
+                "Sesgos cognitivos",
+                "Ilusiones transferenciales",
+                "Cogniciones anómalas"
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-9cd026bcbd5b906b"
+            },
+            {
+              "e": "15",
+              "p": "¿Cuál de las siguientes afirmaciones sobre el modelo cosmológico copernicano es correcta?",
+              "o": [
+                "La propuesta de Copérnico propuso un cambio de visión cosmológica, pero no permitió explicar más fenómenos ni de mejor manera que la teoría de las dos esferas.",
+                "Ciertos fenómenos astronómicos que resultaban anómalos y contradictorios para el modelo de las dos esferas, pudieron ser explicados por el modelo heliocéntrico copernicano.",
+                "Debido a que coincidía con las ideas filosóficas y religiosas de la época, el modelo copernicano fue rápidamente aceptado por toda la comunidad científica.",
+                "En el modelo heliocéntrico de Copérnico, el Sol giraba alrededor de la tierra mientras que los planetas y estrellas se mantenían fijos en una esfera celeste exterior."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-d80346427b866574"
+            },
+            {
+              "e": "16",
+              "p": "Desde el punto de vista ético en investigación se postulan tres principios fundamentales y obligatorios para cuidar y evitar daños a las personas participantes. Indique cuál de las siguientes opciones es un ejemplo que contiene la presencia de los tres principios:",
+              "o": [
+                "En un estudio sobre manejo del estrés, los participantes firman el consentimiento informado, los datos se registran de forma anónima y solo los investigadores tienen acceso a esa información.",
+                "Un investigador pregunta a pacientes de un hospital público sobre sus hábitos de sueño y registra sus nombres junto con las respuestas, sin explicarles el propósito del estudio hasta que el mismo esté finalizado.",
+                "Se aplica un cuestionario sobre hábitos de estudio a diferentes estudiantes. Los participantes firman un consentimiento informado y luego los resultados se publican con sus nombres para que puedan identificarse a sí mismos y saber qué medidas tomar posteriormente.",
+                "Un psicólogo observa a niños en clase y comparte grabaciones de video con colegas sin autorización de los padres pero habiendo informado a los docentes responsables del curso."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-0284d41d947d10c0"
+            },
+            {
+              "e": "17",
+              "p": "¿Cuál de las siguientes afirmaciones describe mejor al modelo cosmológico de las dos esferas?",
+              "o": [
+                "Todos los cuerpos celestes se encuentran estáticos y sólo la Tierra se mueve dentro del universo.",
+                "La Tierra es plana y se encuentra sostenida por una serie de pilares invisibles mientras las estrellas giran sobre una esfera celeste.",
+                "La Tierra es un astro esférico fijo alrededor del cual revolucionan los demás astros y planetas.",
+                "El Sol ocupa el centro del universo y la Tierra gira a su alrededor describiendo una órbita circular perfecta."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-accd367924422eb2"
+            },
+            {
+              "e": "18",
+              "p": "¿Cuál de las siguientes afirmaciones describe adecuadamente la disposición de la ciencia moderna a admitir la ignorancia según Harari?",
+              "o": [
+                "Al admitir la ignorancia, la ciencia moderna se desentiende de la necesidad de ofrecer explicaciones y se limita a describir fenómenos sin interpretarlos.",
+                "La ciencia moderna no considera que el conocimiento sea acabado, sino que siempre puede ampliarse e, incluso, demostrarse que lo que sabemos es erróneo.",
+                "A diferencia de otras formas de conocimiento, la ciencia moderna busca eliminar la ignorancia por completo, hasta alcanzar verdades definitivas.",
+                "Los científicos modernos priorizan la acumulación de datos por sobre la formulación de teorías, ya que la ignorancia se supera cuantificando la realidad."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-a0a0d3d73c78ad2d"
+            },
+            {
+              "e": "19",
+              "p": "Complete la siguiente afirmación: \"Según Harari, la ciencia moderna potenció y aceleró su desarrollo a través de un bucle de retroalimentación. Para el autor, esto refiere a...\"",
+              "o": [
+                "\"...que la ciencia moderna no produce progreso únicamente a través de la investigación, sino que requiere del refuerzo mutuo entre ciencia, política y economía\".",
+                "\"...que, para poder producir progreso, la ciencia moderna debe subordinarse absolutamente a los intereses de los poderes políticos y económicos de su época\".",
+                "\"...que el progreso científico depende exclusivamente del talento individual de los investigadores y de su compromiso con la verdad, sin influencia de factores externos como la política o la economía\".",
+                "\"...que la ciencia moderna avanza cuando la política y la economía se subordinan por completo al conocimiento científico y renuncian a sus propios intereses\"."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-4a1135fd5cf6b31a"
+            },
+            {
+              "e": "20",
+              "p": "Según Richaud, ¿cuál de las siguientes opciones forma parte de los requisitos que debe cumplir la observación científica?",
+              "o": [
+                "Que sea propósito de una investigación con un problema formulado previamente.",
+                "Que sea propósito de una investigación con un problema que no haya sido formulado previamente.",
+                "Que sus resultados no puedan ser presentados sistemáticamente.",
+                "Que sus resultados puedan o no ser presentados sistemáticamente."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-414588b4bf61de4b"
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "IPC_2025_H.docx",
+          "aviso": "Claves y explicaciones del documento resuelto. Se asigna 0,50 por consigna para completar 10 puntos, ya que el original no indica puntajes.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "En psicología, a finales del siglo XIX surgió el psicoanálisis. En este paradigma, los síntomas son manifestaciones de conflictos inconscientes no resueltos y el tratamiento se basa en la exploración profunda del inconsciente, el significado simbólico y el análisis de la transferencia. En la década de 1950, el paradigma dominante pasó a ser las Teorías Cognitivo-Conductuales (TCC), y se mantiene en la psicología clínica contemporánea. Las TCC parten del supuesto de que los trastornos mentales son el resultado de pensamientos disfuncionales y conductas aprendidas, y se enfocan en modificarlos de forma directa a través de técnicas estructuradas y medibles. ¿Cómo definiría Kuhn la relación entre el Psicoanálisis y las Teorías Cognitivo-Conductuales?",
+              "o": [
+                "Ciencia normal",
+                "Ciencia extraordinaria",
+                "Ciencia madura",
+                "Inconmensurabilidad"
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-7aaded2f084e694e"
+            },
+            {
+              "e": "2",
+              "p": "Complete la siguiente afirmación: \"Según lo especificado en el texto de Contreras y Ochoa Jiménez, el que un manuscrito reciba la respuesta 'Rechazado' por parte de un editor significa...\"",
+              "o": [
+                "\"...que el texto podrá publicarse si al menos uno de los revisores está de acuerdo en volver a evaluarlo luego de las correcciones\".",
+                "\"...que el manuscrito debe ser desechado por completo y no tiene ninguna esperanza de ser publicado en el futuro, aún cuando se le realicen modificaciones que correspondan con las observaciones de los revisores\".",
+                "\"...que el artículo será publicado si el autor realiza todas las correcciones propuestas por los evaluadores\".",
+                "\"...que el manuscrito no se encuentra en condiciones para ser publicado, aún cuando se realicen modificaciones que se condigan con los comentarios de los revisores\"."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-158e5a2a50b4983e"
+            },
+            {
+              "e": "3",
+              "p": "¿Cuál de las siguientes opciones corresponde al “componente sociológico” que desarrolla Kuhn sobre los esenciales de un paradigma?",
+              "o": [
+                "Corresponde a los modelos típicos de resolución de problemas.",
+                "Cubre las relaciones que se establecen entre los miembros de la comunidad que comparte el paradigma.",
+                "Se compone de generalizaciones simbólicas o expresiones de las teorías o leyes.",
+                "Se caracteriza por la existencia de modelos particulares y valores compartidos como juicios de exactitud y ejemplares."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-a13724832f650ca4"
+            },
+            {
+              "e": "4",
+              "p": "¿Cuál de las siguientes definiciones se corresponde con la función \"docencia\" de las universidades en nuestro país?",
+              "o": [
+                "Formación de profesionales, científicos y ciudadanos críticos, éticos y comprometidos socialmente, tanto en el nivel de grado como de posgrado.",
+                "Generación de conocimiento original a través de prácticas científicas y académicas, en diversas áreas del saber, con impacto tanto disciplinar como social.",
+                "Interacción con la comunidad para compartir saberes, promover el desarrollo social y cultural, y generar transformaciones en diálogo con actores sociales.",
+                "Aplicación del conocimiento científico y técnico para resolver problemas concretos de sectores productivos, estatales o comunitarios. Incluye innovación, patentes, convenios con empresas u organismos, etc."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-be9fb5433482626b"
+            },
+            {
+              "e": "5",
+              "p": "Siguiendo lo propuesto por Gibbons et al, ¿cuál de las siguientes características es propia del modo 1 de producción del conocimiento?",
+              "o": [
+                "Es eminentemente transdisciplinar, incorporando diversas especialidades de manera flexible.",
+                "Está orientado por problemas del mundo real, no solo por la lógica interna de la ciencia.",
+                "Posee un criterio de evaluación heterogéneo y estrechamente vinculado con la responsabilidad social.",
+                "El conocimiento se genera principalmente en universidades y centros de investigación."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-48ab23a8647d0aee"
+            },
+            {
+              "e": "6",
+              "p": "Según lo visto en el texto de Suarez et al., indique cuál de los estudios más utilizados en la investigación clínica de las ciencias de la salud se corresponde con el siguiente ejemplo: \"Esta investigación recopila los resultados de diversos estudios que analizan la efectividad de la meditación mindfulness para reducir la ansiedad en pacientes oncológicos.\"",
+              "o": [
+                "Ensayo clínico",
+                "Revisión sistemática",
+                "Estudio de caso único",
+                "Estudio de cohortes"
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-af71b9149381f352"
+            },
+            {
+              "e": "7",
+              "p": "Teniendo en cuenta las consideraciones de Gibbons et al acerca de los modos de producción del conocimiento actuales, ¿a cuál modo pertenece el siguiente ejemplo y por qué? \"Una empresa de biotecnología, en colaboración con un hospital público y un equipo de investigadores universitarios, desarrolla un test rápido para detectar enfermedades infecciosas en zonas vulnerables. El proyecto incluye especialistas en salud, economía y comunicación, y el éxito del test se mide tanto por su precisión como por su accesibilidad, rapidez y aceptación en la comunidad\"",
+              "o": [
+                "Pertenece al modo 2 porque se desarrolla en un contexto de aplicación, con participación de actores diversos y criterios de evaluación que incluyen eficacia, costo e impacto social.",
+                "Pertenece al modo 1 porque involucra a una universidad y el conocimiento generado se valida mediante publicaciones científicas revisadas por pares.",
+                "Pertenece al modo 2 porque involucra una universidad y utiliza tecnología de punta.",
+                "Pertenece al modo 1 porque se trata de una investigación aplicada orientada a resolver un problema sanitario específico."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-e5d8094f591f0697"
+            },
+            {
+              "e": "8",
+              "p": "Siguiendo las consideraciones de Kuhn acerca de las comunidades científicas y los paradigmas, ¿cuál de las siguientes afirmaciones es correcta?",
+              "o": [
+                "Una comunidad científica puede definirse como un conjunto de profesionales que comparte un paradigma o una matriz disciplinaria.",
+                "Una comunidad científica es un grupo de científicos que estudia el mismo objeto, aunque cada uno lo haga desde marcos teóricos completamente distintos.",
+                "Una comunidad científica se encuentra determinada por la totalidad de los científicos de una determinada época y un determinado lugar, indistintamente de si comparten o no paradigma.",
+                "No existe un criterio único para definir a una comunidad científica, se trata de un concepto dependiente del sentido de pertenencia de sus miembros."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-77b67b2110362f15"
+            },
+            {
+              "e": "9",
+              "p": "Bunge (2018) propuso características del conocimiento científico y características de las pseudociencias. Según ellas, ¿Por qué la astrología es considerada una pseudociencia?",
+              "o": [
+                "Por su incapacidad de refutación.",
+                "Porque se apoya en observaciones y tiene una base empírica.",
+                "Porque es precisa y clara en sus postulados.",
+                "Porque sus hipótesis son falsables."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-e73c67d25148beb7"
+            },
+            {
+              "e": "10",
+              "p": "Teniendo en cuenta lo postulado por Larry Laudan sobre el desarrollo de la ciencia, ¿Cuál de las siguientes opciones es correcta?",
+              "o": [
+                "Los problemas empíricos refieren a las inconsistencias lógicas o incompatibilidades teóricas, mientras que los problemas conceptuales refieren a los hechos que una teoría debe explicar. La minimización de ambos tipos de problemas es necesaria para el desarrollo científico.",
+                "Los problemas empíricos refieren a los hechos que una teoría debe explicar, mientras que los problemas conceptuales refieren a las inconsistencias lógicas o incompatibilidades teóricas. La minimización de los problemas conceptuales es mayormente necesaria para el desarrollo científico.",
+                "Los problemas empíricos refieren a los hechos que una teoría debe explicar, mientras que los problemas conceptuales refieren a las inconsistencias lógicas o incompatibilidades teóricas. La minimización de ambos tipos de problemas es necesaria para el desarrollo científico.",
+                "Los problemas empíricos refieren a las inconsistencias lógicas o incompatibilidades teóricas, mientras que los problemas conceptuales refieren a los hechos que una teoría debe explicar. La minimización de los problemas empíricos es mayormente necesaria para el desarrollo científico."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-6a13cc2a339d84b6"
+            },
+            {
+              "e": "11",
+              "p": "¿Cuál de las siguientes descripciones caracteriza de mejor manera la noción de valores de una matriz disciplinaria para Kuhn?",
+              "o": [
+                "La ecuación V = I R expresa, para la comunidad de físicos y técnicos eléctricos, una relación entre tres magnitudes: tensión (V), corriente (I) y resistencia (R).",
+                "Los físicos comparten la creencia en el modelo ontológico por el cual la materia se encuentra compuesta por átomos.",
+                "La comunidad científica de físicos comparte los criterios de simplicidad y coherencia para evaluar las teorías científicas.",
+                "El problema del péndulo simple constituye, para la comunidad de físicos, un caso que permite transmitir la teoría del movimiento simple y ejercitar su aplicación."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-b697c8815ee6fc9c"
+            },
+            {
+              "e": "12",
+              "p": "Siguiendo a Richaud (2018), ¿Cuál de las siguientes opciones es un ejemplo de la observación natural?",
+              "o": [
+                "El psicólogo observa, sin intervenir, cómo los niños forman grupos de juego en un patio escolar y cómo resuelven conflictos en el recreo para detectar dinámicas de liderazgo y exclusión.",
+                "El psicólogo pregunta directamente a los niños cómo se sienten en el recreo y con quién prefieren jugar, y observa cómo responden.",
+                "El psicólogo observa cómo los niños forman grupos de juego en un patio escolar y genera una situación de conflicto de juego entre los niños para medir cómo negocian las reglas.",
+                "El psicólogo observa una situación de recreo en el patio escolar, para luego seleccionar algunos niños y preguntarles cómo se sintieron en el recreo y con quién jugaron."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-51bd99d96a57ffa0"
+            },
+            {
+              "e": "13",
+              "p": "Según lo expuesto por Villarruel-Fuentes, indique qué sesgo está evidenciando esta situación: \"Un terapeuta recibe a un paciente que llega muy prolijo, se expresa con claridad y es amable en la primera sesión. Posteriormente, el terapeuta lo evalúa como “muy funcional” y con “buen nivel de afrontamiento”, aun cuando aparecieron indicadores de ansiedad intensa o dificultades graves en su vida diaria.\"",
+              "o": [
+                "Efecto Halo",
+                "Anclaje",
+                "Apofenia",
+                "Correlación ilusoria"
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-7dacc43c41359023"
+            },
+            {
+              "e": "14",
+              "p": "¿Qué es el índice de impacto de una revista científica y por qué resulta ser importante para el investigador? Seleccione la respuesta correcta:",
+              "o": [
+                "Es una medida usada para evaluar la relevancia o influencia de una revista científica dentro de un campo académico, pero no es importante para el investigador en sí.",
+                "Es una medida usada para evaluar la relevancia de una revista científica y es importante porque los investigadores van sumando puntaje a partir de las publicaciones científicas que realizan en revistas con un buen índice de impacto.",
+                "Es una medida poco importante porque solo mide el promedio de citas, y no la calidad del contenido.",
+                "Sirve como una medida cualitativa para comparar revistas dentro del mismo campo y es importante para los investigadores porque sí o sí tienen que publicar en ellas para ser validados en dicho campo."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-3e2af269f19fe4ca"
+            },
+            {
+              "e": "15",
+              "p": "Considerando el texto de Ayala, ¿cuál de las siguientes particularidades representa la principal novedad de la teoría de Darwin?",
+              "o": [
+                "Haber demostrado que las especies se transforman únicamente por voluntad propia para adaptarse a su entorno.",
+                "Haber propuesto al proceso de selección natural como mecanismo principal del desarrollo de las adaptaciones animales.",
+                "Haber señalado que las especies no cambian con el tiempo y que las adaptaciones son prueba del diseño perfecto de la naturaleza.",
+                "Haber sostenido que las adaptaciones animales son el producto inevitable del progreso evolutivo hacia formas cada vez más complejas."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-92381028977b9c91"
+            },
+            {
+              "e": "16",
+              "p": "Según lo expuesto por Villarruel-Fuentes, indique qué sesgo está evidenciando esta situación: \"Una psicóloga recibe en el consultorio a un joven de 25 años con Trastorno obsesivo-compulsivo (TOC). El paciente nota que siempre que ve un número impar en una matrícula de auto, luego discute con alguien cercano. Interpreta eso como un signo de que debe evitar los números impares para prevenir conflictos.\"",
+              "o": [
+                "Sesgo de observación selectiva",
+                "Efecto de encuadre",
+                "Ilusión de serie o apofenia",
+                "Sesgo de sujeto experimentador"
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-c03ccf074deeae6c"
+            },
+            {
+              "e": "17",
+              "p": "¿Cuál de las siguientes afirmaciones sobre el modelo cosmológico copernicano es correcta?",
+              "o": [
+                "Dado que el contenido del modelo copernicano no afectaba la visión filosófica o religiosa del mundo, resultó irrelevante fuera del ámbito científico.",
+                "Los pensadores de la época interpretaron en el heliocentrismo de Copérnico una reafirmación del lugar central del ser humano en el universo.",
+                "Debido a que el modelo copernicano ofrecía explicaciones a fenómenos que el modelo de las dos esferas no podía explicar, fue aceptado de inmediato.",
+                "Si bien el modelo heliocéntrico era una teoría científica más entre otras, trajo aparejada una cantidad considerable de consecuencias extra científicas."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-9a902773d752213c"
+            },
+            {
+              "e": "18",
+              "p": "¿Cuál de las siguientes afirmaciones describe mejor el valor que tuvo el modelo cosmológico de las dos esferas?",
+              "o": [
+                "Se trató de un modelo ampliamente aceptado porque establecía una cosmología psicológicamente satisfactoria que además coincidía con los fenómenos observados y los explicaba.",
+                "Se trató de un modelo descartable y rápidamente abandonado al demostrarse que no podía predecir ningún tipo de fenómeno astronómico observable.",
+                "Fue un modelo sin valor práctico, dado que era una construcción simbólica sin poder explicativo, creada únicamente con fines religiosos y sin relación con la observación astronómica.",
+                "Fue un modelo rápidamente aceptado por la sociedad porque era compatible con los fenómenos observables y no entraba en contradicción con las creencias religiosas de su época."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-3fc3496d56492fc6"
+            },
+            {
+              "e": "19",
+              "p": "En las ciencias de la salud es habitual utilizar la estrategia \"PICO\" para formular la pregunta de investigación. ¿Cuáles son los componentes a los que se refieren las siglas PICO?",
+              "o": [
+                "Patience (paciencia), Intervention (intervención), Comparison (comparación) y Outcome (resultado).",
+                "Patient (paciente), Imagination (imaginación), Comparison (comparación) y Outcome (resultado).",
+                "Patient (paciente), Intervention (intervención), Creation (creación) y Outcome (resultado).",
+                "Patient (paciente), Intervention (intervención), Comparison (comparación) y Outcome (resultado)."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-d2741ca0c84a6039"
+            },
+            {
+              "e": "20",
+              "p": "Complete la siguiente afirmación: \"Para Harari, el bucle de retroalimentación de la ciencia significa...\"",
+              "o": [
+                "\"...que la ciencia moderna produce avances importantes, pero rara vez estos resultan útiles para las instituciones políticas o económicas, que operan con lógicas distintas\".",
+                "\"...que los avances científicos son posibles solo cuando las instituciones políticas permiten a los científicos investigar sin ningún tipo de interés económico de por medio\".",
+                "\"...que el desarrollo científico depende exclusivamente del progreso tecnológico que se obtiene por medio de la intervención de la política o de recursos financieros externos\".",
+                "\"...que las instituciones políticas y económicas proporcionan los recursos sin los cuales la investigación científica sería imposible y, a su vez, los descubrimientos científicos aportan nuevos poderes que permiten obtener más y nuevos recursos\"."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-4391eb33ae6ee372"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buacar-2025-05-30",
+      "nombre": "2º parcial · 30/05/2025",
+      "catedra": "A · Buacar, Natalia",
+      "fecha": "2025-05-30",
+      "detalle": "Cátedra A · Buacar, Natalia. 10 ejercicios de 1 punto. Sin puntaje parcial.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "IPC_2025_A.pdf",
+          "paginas": [
+            1,
+            3
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿La ficción nos vuelve más empáticos? El estudio de las emociones tiene una larga historia; distintos aspectos genéticos, culturales, psicológicos y sociales fueron objeto de innumerables estudios científicos. Los investigadores David Kidd y Emanuele Castano se propusieron investigar si la lectura de relatos de ficción mejora las habilidades empáticas. Para ello, realizaron el siguiente experimento. Al inicio del estudio se les tomó a los participantes el test de lectura de la mente en los ojos (RMET), un test donde los participantes deben reconocer, viendo fotografías de distintos rostros, las emociones que están experimentando las personas fotografiadas, y de acuerdo a la cantidad de reconocimientos correctos reciben un puntaje. Un mayor puntaje en el RMET indica mejores habilidades empáticas. Después se los dividió en dos grupos. A los participantes de uno de los grupos se les asignó aleatoriamente la lectura de uno de tres textos breves de ficción, por ejemplo, un cuento de Anton Chéjov, mientras que a los participantes del otro grupo se les asignó uno de tres textos breves de no ficción, como artículos de diario. Luego de la lectura, todos los participantes completaron nuevamente el test RMET y se compararon los resultados. Se registró un mayor aumento en los resultados del RMET con respecto a los iniciales para el grupo que había leído los textos de ficción que para el grupo que no.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "El puntaje del RMET disminuirá con respecto al inicial para las personas empáticas que lean textos de ficción.",
+                    "Distintos aspectos genéticos, culturales, psicológicos y sociales influyen en las habilidades empáticas de las personas.",
+                    "La lectura de relatos de ficción mejora las habilidades empáticas.",
+                    "El puntaje en el RMET aumentará con respecto al inicial en mayor proporción para el grupo que lea los textos de ficción que para el que lea textos de no ficción.",
+                    "Un mayor puntaje en el RMET indica mejores habilidades empáticas.",
+                    "La lectura de relatos de ficción, en comparación con textos no ficcionales, es preferida por las personas más empáticas."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "B. Indique por qué el enunciado que eligió como hipótesis fundamental puede funcionar como tal en este caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional.",
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado general que se pone a prueba en la investigación.",
+                    "Porque es un enunciado singular o muestral que se deduce de la hipótesis y expresa un hecho que debería suceder en caso de que la hipótesis fuera verdadera."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿La ficción nos vuelve más empáticos? El estudio de las emociones tiene una larga historia; distintos aspectos genéticos, culturales, psicológicos y sociales fueron objeto de innumerables estudios científicos. Los investigadores David Kidd y Emanuele Castano se propusieron investigar si la lectura de relatos de ficción mejora las habilidades empáticas. Para ello, realizaron el siguiente experimento. Al inicio del estudio se les tomó a los participantes el test de lectura de la mente en los ojos (RMET), un test donde los participantes deben reconocer, viendo fotografías de distintos rostros, las emociones que están experimentando las personas fotografiadas, y de acuerdo a la cantidad de reconocimientos correctos reciben un puntaje. Un mayor puntaje en el RMET indica mejores habilidades empáticas. Después se los dividió en dos grupos. A los participantes de uno de los grupos se les asignó aleatoriamente la lectura de uno de tres textos breves de ficción, por ejemplo, un cuento de Anton Chéjov, mientras que a los participantes del otro grupo se les asignó uno de tres textos breves de no ficción, como artículos de diario. Luego de la lectura, todos los participantes completaron nuevamente el test RMET y se compararon los resultados. Se registró un mayor aumento en los resultados del RMET con respecto a los iniciales para el grupo que había leído los textos de ficción que para el grupo que no.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "El puntaje del RMET disminuirá con respecto al inicial para las personas empáticas que lean textos de ficción.",
+                "Distintos aspectos genéticos, culturales, psicológicos y sociales influyen en las habilidades empáticas de las personas.",
+                "La lectura de relatos de ficción mejora las habilidades empáticas.",
+                "El puntaje en el RMET aumentará con respecto al inicial en mayor proporción para el grupo que lea los textos de ficción que para el que lea textos de no ficción.",
+                "Un mayor puntaje en el RMET indica mejores habilidades empáticas.",
+                "La lectura de relatos de ficción, en comparación con textos no ficcionales, es preferida por las personas más empáticas."
+              ],
+              "c": 4,
+              "k": "ipc-b61f5077cd1e84d4"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente enunciado y determine cuál de las siguientes opciones explica el fenómeno a partir de la teoría de la selección natural de Darwin. Los búhos tienen una visión muy potente.",
+              "o": [
+                "Para las sucesivas generaciones de los ancestros de los búhos, ejercitar la visión resultaba indispensable para cazar; esto hizo que adquirieran una visión cada vez mejor en el curso de sus vidas y heredaran ese rasgo a sus descendientes.",
+                "Entre los ancestros de los búhos, aquellos con una visión más potente resultaron más aptos para alimentarse y reproducirse, lo que produjo una mayor presencia de ese rasgo entre sus descendientes.",
+                "Los búhos fueron creados siguiendo un arquetipo común al conjunto de las aves rapaces nocturnas; puesto que todas las aves pertenecientes a esa clase deben ser eficaces en el vuelo rapaz, cuentan con una visión potente.",
+                "Disponer de una visión potente representa el grado máximo en la línea evolutiva de los animales, por esa razón en cada una de las etapas evolutivas los búhos van mejorando este rasgo y su visión se vuelve cada vez más potente."
+              ],
+              "c": 1,
+              "k": "ipc-3f8c59de89bac147"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Las rectas paralelas nunca se tocan.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su respuesta",
+                  "o": [
+                    "porque no tiene falsadores potenciales.",
+                    "porque está confirmado.",
+                    "porque es poco probable.",
+                    "porque no puede traducirse al lenguaje observacional."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-f6eac36c7c4e8675"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Este pez puso huevas en el río. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "La mayoría de los salmones ponen huevas en el río.",
+                    "Si este pez está en etapa de reproducción, entonces puso huevas en el río.",
+                    "Este pez es un salmón.",
+                    "Este pez está en etapa de reproducción.",
+                    "Los salmones ponen huevas en los ríos."
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "La mayoría de los salmones ponen huevas en el río.",
+                    "Si este pez está en etapa de reproducción, entonces puso huevas en el río.",
+                    "Este pez es un salmón.",
+                    "Este pez está en etapa de reproducción.",
+                    "Los salmones ponen huevas en los ríos."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-882569d3c55e6991"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Las anomalías en la ciencia normal son...",
+              "o": [
+                "casos y experiencias problemáticas que no pueden resolverse en el marco del paradigma vigente.",
+                "irrelevantes para el desarrollo de la ciencia.",
+                "pruebas definitivas de la falsedad del paradigma.",
+                "problemas fácilmente resolubles con las herramientas del paradigma vigente."
+              ],
+              "c": 0,
+              "k": "ipc-c93f115c1a2aa54a"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Sophie Germain (1776-1831) fue una brillante matemática francesa. Su trabajo incluye un inicio de solución al último teorema de Fermat, un detallado estudio sobre las reglas matemáticas que guían el comportamiento de las vibraciones sobre materiales elásticos y variadas discusiones con los más grandes matemáticos de su tiempo (incluidos Karl Friedrich Gauss y Adrien Marie Legendre). Pese a su gran reconocimiento y a los éxitos cosechados, la carrera de Germain estuvo marcada por los obstáculos que la sociedad de su tiempo le impuso: nunca pudo estudiar en instituciones formales de enseñanza, que estaban exclusivamente reservadas para varones, por lo que fue una autodidacta en matemáticas y tuvo que buscar tutores privados para profundizar su conocimiento. Su familia hizo todo lo posible por evitar que se dedicase a su pasión, llegando a dejarla sin luz, calefacción y ropa por las noches para que no pudiera estudiar ni siquiera a escondidas.",
+              "o": [
+                "Teorías sexistas",
+                "Aplicaciones sexistas",
+                "Exclusión y marginalización",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda"
+              ],
+              "c": 2,
+              "k": "ipc-71086b1e6bd623c9"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "Las mujeres no poseen una perspectiva unificada por el hecho de ser mujeres.",
+                "Solo la perspectiva de las mujeres permite mostrar que las desigualdades de género no son naturales sino social y culturalmente construidas.",
+                "El pluralismo y la crítica intersubjetiva en el seno de la comunidad científica permite detectar sesgos en la investigación.",
+                "La lógica y la evidencia son herramientas suficientes para elegir entre teorías rivales."
+              ],
+              "c": 1,
+              "k": "ipc-3478294bab41a1ef"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. Un equipo de investigadores del Instituto de Agrobiotecnología del Litoral (IAL), dependiente del CONICET y la Universidad Nacional del Litoral, en colaboración con el Ministerio de Ciencia, Tecnología e Innovación, ha desarrollado una variedad de trigo genéticamente modificada que es tolerante a las sequías, conocida como \"HB4\". Este desarrollo fue aprobado para su cultivo y consumo tras la validación por parte de organismos regulatorios. El proyecto permitirá fortalecer la posición del país en materia de innovación tecnológica y permitirá sostener la producción como parte de una estrategia de adaptación al cambio climático.",
+              "o": [
+                "No, porque este tipo de desarrollos responden a intereses económicos y productivos, lo cual no debería ser la prioridad de la ciencia.",
+                "Sí, porque el desarrollo del trigo HB4 tiene un impacto directo en la producción agrícola y responde a necesidades concretas de la sociedad.",
+                "Sí, porque desarrollar variedades de trigo genéticamente modificadas contribuye a ampliar nuestro conocimiento de la estructura genética de los alimentos.",
+                "No, porque desarrollar variedades de trigo genéticamente modificadas no contribuye al avance de la ciencia básica, a la cual debería darse prioridad."
+              ],
+              "c": 1,
+              "k": "ipc-b6cfd938b60a5469"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Estudiar gusanos gigantes en ecosistemas subterráneos permite comprender mejor la biodiversidad y la evolución de especies desconocidas. Conclusión: Es correcto invertir recursos públicos en investigar gusanos gigantes en ecosistemas subterráneos. Premisa 2: Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Es correcto investigar especies desconocidas si esto ayuda a conocer mejor la vida en el planeta.",
+                "Es correcto invertir recursos públicos para comprender mejor la biodiversidad y la evolución de especies desconocidas.",
+                "La inversión pública en ciencia debe centrarse en la protección del medioambiente.",
+                "Invertir recursos públicos permite comprender mejor la biodiversidad y la evolución de especies desconocidas."
+              ],
+              "c": 1,
+              "k": "ipc-09bc59fdf44d8696"
+            }
+          ]
+        },
+        {
+          "id": "t2",
+          "n": "Tema 2",
+          "fuente": "IPC_2025_A.pdf",
+          "paginas": [
+            4,
+            6
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿La ficción nos vuelve más empáticos? El estudio de las emociones tiene una larga historia; distintos aspectos genéticos, culturales, psicológicos y sociales fueron objeto de innumerables estudios científicos. Los investigadores David Kidd y Emanuele Castano se propusieron investigar si la lectura de relatos de ficción mejora las habilidades empáticas. Para ello, realizaron el siguiente experimento. Al inicio del estudio se les tomó a los participantes el test de lectura de la mente en los ojos (RMET), un test donde los participantes deben reconocer, viendo fotografías de distintos rostros, las emociones que están experimentando las personas fotografiadas, y de acuerdo a la cantidad de reconocimientos correctos reciben un puntaje. Un mayor puntaje en el RMET indica mejores habilidades empáticas. Después se los dividió en dos grupos. A los participantes de uno de los grupos se les asignó aleatoriamente la lectura de uno de tres textos breves de ficción, por ejemplo, un cuento de Anton Chéjov, mientras que a los participantes del otro grupo se les asignó uno de tres textos breves de no ficción, como artículos de diario. Luego de la lectura, todos los participantes completaron nuevamente el test RMET y se compararon los resultados. Se registró un mayor aumento en los resultados del RMET con respecto a los iniciales para el grupo que había leído los textos de ficción que para el grupo que no.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "El puntaje del RMET disminuirá con respecto al inicial para las personas empáticas que lean textos de ficción.",
+                    "El puntaje en el RMET aumentará con respecto al inicial en mayor proporción para el grupo que lea los textos de ficción que para el que lea textos de no ficción.",
+                    "La lectura de relatos de ficción, en comparación con textos no ficcionales, es preferida por las personas más empáticas.",
+                    "Un mayor puntaje en el RMET indica mejores habilidades empáticas.",
+                    "Distintos aspectos genéticos, culturales, psicológicos y sociales influyen en las habilidades empáticas de las personas.",
+                    "La lectura de relatos de ficción mejora las habilidades empáticas."
+                  ],
+                  "c": 5
+                },
+                {
+                  "r": "B. Indique por qué el enunciado que eligió como hipótesis fundamental puede funcionar como tal en este caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado general que se pone a prueba en la investigación.",
+                    "Porque es un enunciado singular o muestral que se deduce de la hipótesis y expresa un hecho que debería suceder en caso de que la hipótesis fuera verdadera.",
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿La ficción nos vuelve más empáticos? El estudio de las emociones tiene una larga historia; distintos aspectos genéticos, culturales, psicológicos y sociales fueron objeto de innumerables estudios científicos. Los investigadores David Kidd y Emanuele Castano se propusieron investigar si la lectura de relatos de ficción mejora las habilidades empáticas. Para ello, realizaron el siguiente experimento. Al inicio del estudio se les tomó a los participantes el test de lectura de la mente en los ojos (RMET), un test donde los participantes deben reconocer, viendo fotografías de distintos rostros, las emociones que están experimentando las personas fotografiadas, y de acuerdo a la cantidad de reconocimientos correctos reciben un puntaje. Un mayor puntaje en el RMET indica mejores habilidades empáticas. Después se los dividió en dos grupos. A los participantes de uno de los grupos se les asignó aleatoriamente la lectura de uno de tres textos breves de ficción, por ejemplo, un cuento de Anton Chéjov, mientras que a los participantes del otro grupo se les asignó uno de tres textos breves de no ficción, como artículos de diario. Luego de la lectura, todos los participantes completaron nuevamente el test RMET y se compararon los resultados. Se registró un mayor aumento en los resultados del RMET con respecto a los iniciales para el grupo que había leído los textos de ficción que para el grupo que no.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "El puntaje del RMET disminuirá con respecto al inicial para las personas empáticas que lean textos de ficción.",
+                "El puntaje en el RMET aumentará con respecto al inicial en mayor proporción para el grupo que lea los textos de ficción que para el que lea textos de no ficción.",
+                "La lectura de relatos de ficción, en comparación con textos no ficcionales, es preferida por las personas más empáticas.",
+                "Un mayor puntaje en el RMET indica mejores habilidades empáticas.",
+                "Distintos aspectos genéticos, culturales, psicológicos y sociales influyen en las habilidades empáticas de las personas.",
+                "La lectura de relatos de ficción mejora las habilidades empáticas."
+              ],
+              "c": 1,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente enunciado y determine cuál de las siguientes opciones explica el fenómeno a partir de la teoría de Lamarck. Los búhos tienen una visión muy potente.",
+              "o": [
+                "Entre los ancestros de los búhos, aquellos con una visión más potente resultaron más aptos para alimentarse y reproducirse, lo que produjo una mayor presencia de ese rasgo entre sus descendientes.",
+                "Los búhos fueron creados siguiendo un arquetipo común al conjunto de las aves rapaces nocturnas; puesto que todas las aves pertenecientes a esa clase deben ser eficaces en el vuelo rapaz, cuentan con una visión potente.",
+                "Para las sucesivas generaciones de los ancestros de los búhos, ejercitar la visión resultaba indispensable para cazar; esto hizo que adquirieran una visión cada vez mejor en el curso de sus vidas y heredaran ese rasgo a sus descendientes.",
+                "Los rasgos de los búhos varían aleatoriamente a lo largo de los años. En algún momento azarosamente aparecieron búhos con una visión más potente, lo cual representó una ventaja a la hora de sobrevivir. Por esa razón ese rasgo fue heredado a sucesivas generaciones."
+              ],
+              "c": 2,
+              "k": "ipc-7a179d45d6675df1"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Las rectas paralelas nunca se tocan.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su respuesta",
+                  "o": [
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque está confirmado.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque es poco probable."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-f6eac36c7c4e8675"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Este pez puso huevas en el río. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "La mayoría de los salmones ponen huevas en el río.",
+                    "Si este pez está en etapa de reproducción, entonces puso huevas en el río.",
+                    "Los salmones ponen huevas en los ríos.",
+                    "Este pez está en etapa de reproducción.",
+                    "Este pez es un salmón."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "La mayoría de los salmones ponen huevas en el río.",
+                    "Si este pez está en etapa de reproducción, entonces puso huevas en el río.",
+                    "Los salmones ponen huevas en los ríos.",
+                    "Este pez está en etapa de reproducción.",
+                    "Este pez es un salmón."
+                  ],
+                  "c": 4
+                }
+              ],
+              "k": "ipc-66a83640bbe60319"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Las anomalías en la ciencia normal son...",
+              "o": [
+                "problemas fácilmente resolubles con las herramientas del paradigma vigente.",
+                "pruebas definitivas de la falsedad del paradigma.",
+                "casos y experiencias problemáticas que no pueden resolverse en el marco del paradigma vigente.",
+                "irrelevantes para el desarrollo de la ciencia."
+              ],
+              "c": 2,
+              "k": "ipc-c93f115c1a2aa54a"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Sophie Germain (1776-1831) fue una brillante matemática francesa. Su trabajo incluye un inicio de solución al último teorema de Fermat, un detallado estudio sobre las reglas matemáticas que guían el comportamiento de las vibraciones sobre materiales elásticos y variadas discusiones con los más grandes matemáticos de su tiempo (incluidos Karl Friedrich Gauss y Adrien Marie Legendre). Pese a su gran reconocimiento y a los éxitos cosechados, la carrera de Germain estuvo marcada por los obstáculos que la sociedad de su tiempo le impuso: nunca pudo estudiar en instituciones formales de enseñanza, que estaban exclusivamente reservadas para varones, por lo que fue una autodidacta en matemáticas y tuvo que buscar tutores privados para profundizar su conocimiento. Su familia hizo todo lo posible por evitar que se dedicase a su pasión, llegando a dejarla sin luz, calefacción y ropa por las noches para que no pudiera estudiar ni siquiera a escondidas.",
+              "o": [
+                "Aplicaciones sexistas",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda",
+                "Teorías sexistas",
+                "Exclusión y marginalización"
+              ],
+              "c": 3,
+              "k": "ipc-71086b1e6bd623c9"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "La lógica y la evidencia son herramientas suficientes para elegir entre teorías rivales.",
+                "El pluralismo y la crítica intersubjetiva en el seno de la comunidad científica permite detectar sesgos en la investigación.",
+                "Solo la perspectiva de las mujeres permite mostrar que las desigualdades de género no son naturales sino social y culturalmente construidas.",
+                "Las mujeres no poseen una perspectiva unificada por el hecho de ser mujeres."
+              ],
+              "c": 2,
+              "k": "ipc-3478294bab41a1ef"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. Un equipo de investigadores del Instituto de Agrobiotecnología del Litoral (IAL), dependiente del CONICET y la Universidad Nacional del Litoral, en colaboración con el Ministerio de Ciencia, Tecnología e Innovación, ha desarrollado una variedad de trigo genéticamente modificada que es tolerante a las sequías, conocida como \"HB4\". Este desarrollo fue aprobado para su cultivo y consumo tras la validación por parte de organismos regulatorios. El proyecto permitirá fortalecer la posición del país en materia de innovación tecnológica y permitirá sostener la producción como parte de una estrategia de adaptación al cambio climático.",
+              "o": [
+                "Sí, porque desarrollar variedades de trigo genéticamente modificadas contribuye a ampliar nuestro conocimiento de la estructura genética de los alimentos.",
+                "No, porque este tipo de desarrollos responden a intereses económicos y productivos, lo cual no debería ser la prioridad de la ciencia.",
+                "No, porque desarrollar variedades de trigo genéticamente modificadas no contribuye al avance de la ciencia básica, a la cual debería darse prioridad.",
+                "Sí, porque el desarrollo del trigo HB4 tiene un impacto directo en la producción agrícola y responde a necesidades concretas de la sociedad."
+              ],
+              "c": 3,
+              "k": "ipc-b6cfd938b60a5469"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Estudiar gusanos gigantes en ecosistemas subterráneos permite comprender mejor la biodiversidad y la evolución de especies desconocidas. Conclusión: Es correcto invertir recursos públicos en investigar gusanos gigantes en ecosistemas subterráneos. Premisa 2: Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "La inversión pública en ciencia debe centrarse en la protección del medioambiente.",
+                "Es correcto investigar especies desconocidas si esto ayuda a conocer mejor la vida en el planeta.",
+                "Es correcto invertir recursos públicos para comprender mejor la biodiversidad y la evolución de especies desconocidas.",
+                "Invertir recursos públicos permite comprender mejor la biodiversidad y la evolución de especies desconocidas."
+              ],
+              "c": 2,
+              "k": "ipc-91708d787e8c1c5b"
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "IPC_2025_A.pdf",
+          "paginas": [
+            7,
+            9
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis auxiliar. ¿Resulta beneficioso leer antes de dormir? Estudios recientes sugieren que en los últimos años hubo un aumento en los trastornos del sueño, principalmente el insomnio. En un estudio de 2019, un grupo de investigadores de Irlanda y Reino Unido evaluó si leer libros antes de dormir mejora la calidad del sueño. Esta es una intervención fácil de implementar y de bajo costo. Al principio del estudio los 774 participantes completaron un cuestionario llamado SQS (Escala de calidad del sueño de ítem único), que permite asignar puntaje a la calidad del sueño. En el SQS, un mayor puntaje indica una mejor calidad del sueño. Después fueron divididos en dos grupos, durante 7 días consecutivos el grupo 1 debía leer un libro en la cama por 15 a 30 minutos antes de dormir y el grupo 2 no tenía que leer nada. Pasados los 7 días, los participantes debían evaluar nuevamente la calidad del sueño completando el SQS. Los investigadores compararon los puntajes obtenidos por los participantes en el SQS antes y después de los 7 días. Los puntajes obtenidos por los participantes del grupo 1 aumentaron, mientras que los del grupo 2 se mantuvieron estables.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Leer un libro antes de dormir es una intervención fácil de implementar y de bajo costo.",
+                    "Un mayor puntaje en el cuestionario SQS indica una mejor calidad de sueño.",
+                    "El puntaje en el SQS después de los 7 días aumentará con respecto al resultado inicial para los participantes del grupo 1, mientras que no se incrementará para los del grupo 2.",
+                    "Después de 7 días, todos los participantes obtendrán mayores valores en el SQS.",
+                    "Leer libros antes de dormir mejora la calidad del sueño.",
+                    "El insomnio es el principal trastorno del sueño."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Indique por qué el enunciado que eligió como hipótesis auxiliar puede funcionar como tal en este caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional.",
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado general que se pone a prueba en la investigación.",
+                    "Porque es un enunciado singular o muestral que se deduce de la hipótesis y expresa un hecho que debería suceder en caso de que la hipótesis fuera verdadera."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-b61f5077cd1e84d4"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis auxiliar. ¿Resulta beneficioso leer antes de dormir? Estudios recientes sugieren que en los últimos años hubo un aumento en los trastornos del sueño, principalmente el insomnio. En un estudio de 2019, un grupo de investigadores de Irlanda y Reino Unido evaluó si leer libros antes de dormir mejora la calidad del sueño. Esta es una intervención fácil de implementar y de bajo costo. Al principio del estudio los 774 participantes completaron un cuestionario llamado SQS (Escala de calidad del sueño de ítem único), que permite asignar puntaje a la calidad del sueño. En el SQS, un mayor puntaje indica una mejor calidad del sueño. Después fueron divididos en dos grupos, durante 7 días consecutivos el grupo 1 debía leer un libro en la cama por 15 a 30 minutos antes de dormir y el grupo 2 no tenía que leer nada. Pasados los 7 días, los participantes debían evaluar nuevamente la calidad del sueño completando el SQS. Los investigadores compararon los puntajes obtenidos por los participantes en el SQS antes y después de los 7 días. Los puntajes obtenidos por los participantes del grupo 1 aumentaron, mientras que los del grupo 2 se mantuvieron estables.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Leer un libro antes de dormir es una intervención fácil de implementar y de bajo costo.",
+                "Un mayor puntaje en el cuestionario SQS indica una mejor calidad de sueño.",
+                "El puntaje en el SQS después de los 7 días aumentará con respecto al resultado inicial para los participantes del grupo 1, mientras que no se incrementará para los del grupo 2.",
+                "Después de 7 días, todos los participantes obtendrán mayores valores en el SQS.",
+                "Leer libros antes de dormir mejora la calidad del sueño.",
+                "El insomnio es el principal trastorno del sueño."
+              ],
+              "c": 2,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente enunciado y determine cuál de las siguientes opciones explica el fenómeno a partir de la teoría de la selección natural de Darwin. Los peces linterna tienen una gran capacidad bioluminiscente.",
+              "o": [
+                "Disponer de una luz potente representa el grado máximo en la línea evolutiva de los animales, por esa razón en cada una de las etapas evolutivas los peces linterna van mejorando este rasgo y su luz se vuelve cada vez más potente.",
+                "Para las sucesivas generaciones de los ancestros de los peces linterna, producir luz resultaba indispensable para sobrevivir en la oscuridad del océano; esto hizo que ejercitaran su capacidad de bioluminiscencia para hacerla cada vez más intensa en el curso de sus vidas y heredaran ese rasgo a sus descendientes.",
+                "Los peces linterna fueron creados siguiendo un modelo común al conjunto de las especies abisales que, para contar con mecanismos para orientarse y atraer presas, fueron dotadas de bioluminiscencia.",
+                "Entre los ancestros de los peces linterna, aquellos con bioluminiscencia más brillante resultaron más aptos para sobrevivir y reproducirse, lo que produjo una mayor presencia de ese rasgo entre sus descendientes."
+              ],
+              "c": 3,
+              "k": "ipc-b9a9047460f1316a"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. El ser absoluto existe fuera del espacio y del tiempo.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su respuesta",
+                  "o": [
+                    "porque puede ponerse a prueba con la experiencia.",
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque está verificado."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-8c17f4986b24f205"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Este pez vive en una anémona. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Este pez habita en el océano.",
+                    "Este pez es un pez payaso.",
+                    "Todos los peces payaso viven en anémonas.",
+                    "Si este pez habita en el océano, este pez vive en una anémona.",
+                    "La mayoría de los peces payaso viven en anémonas."
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Este pez habita en el océano.",
+                    "Este pez es un pez payaso.",
+                    "Todos los peces payaso viven en anémonas.",
+                    "Si este pez habita en el océano, este pez vive en una anémona.",
+                    "La mayoría de los peces payaso viven en anémonas."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-e0e8c07a5f3f1748"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Un período de crisis en un paradigma comienza cuando...",
+              "o": [
+                "aparece más de un paradigma rival.",
+                "la comunidad científica se pone de acuerdo en abandonar el paradigma vigente.",
+                "los científicos se encuentran con enigmas a resolver.",
+                "las anomalías se multiplican y la confianza en la capacidad del paradigma para resolver problemas disminuye."
+              ],
+              "c": 3,
+              "k": "ipc-aae71c85c424eb40"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. En 1873, el médico estadounidense Edward H. Clarke publicó \"Sex in Education; or, A Fair Chance for the Girls\", donde argumentaba que el esfuerzo intelectual excesivo perjudicaba la salud reproductiva de las mujeres. Clarke sostenía que el estudio intenso desviaba la energía corporal hacia el cerebro, afectando el desarrollo de órganos reproductivos y causando enfermedades como la amenorrea y la infertilidad. Según su teoría, las mujeres que recibían educación superior podían volverse enfermizas e incapaces de cumplir con su papel biológico de madres. Aunque sus afirmaciones carecían de evidencia científica, fueron ampliamente aceptadas en su época y reforzaron la idea de que las mujeres eran físicamente inadecuadas para la vida académica. Con el tiempo, la ciencia desmintió estas ideas, pero su impacto en la educación para las mujeres persistió durante décadas.",
+              "o": [
+                "Conceptualizaciones sexistas",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda",
+                "Exclusión y marginalización",
+                "Teorías sexistas"
+              ],
+              "c": 3,
+              "k": "ipc-cf10a628321f16ab"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por la teoría feminista del punto de vista.",
+              "o": [
+                "En la actividad científica, los aspectos constitutivos de la subjetividad como la etnia, la clase social o el género no juegan ningún rol determinante a la hora de escoger entre teorías rivales.",
+                "La subjetividad se constituye sólo por la clase social y no es posible encontrar una perspectiva unificada de las mujeres.",
+                "Los sesgos en la investigación científica pueden ser detectados y controlados a partir de la crítica intersubjetiva en el seno de de una comunidad científica plural.",
+                "Solo la perspectiva compartida por las mujeres permite identificar el carácter social y culturalmente construido de las desigualdades de género de las sociedades."
+              ],
+              "c": 2,
+              "k": "ipc-28d734871711bb28"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. Investigadores de la Universidad de Stanford han descubierto recientemente unas estructuras misteriosas en las bacterias de la boca y el intestino humano, denominadas \"obeliscos\". Los obeliscos guardan cierto parecido con los viroides, que son fragmentos diminutos y circulares de ARN monocatenario. Al igual que los virus, los viroides necesitan un huésped para replicarse y pueden infectar y causar enfermedades en organismos con células que tienen núcleo. Pero los obeliscos se diferencian a su vez de los viroides en su forma y estructura. Los obeliscos se enrollan en forma de varilla en lugar de permanecer como un círculo plano, y sus secuencias de ARN no coinciden con ninguna secuencia de viroide conocida. Aunque aún no se conocen sus funciones ni implicaciones para la salud humana, los científicos pretenden realizar un análisis exhaustivo de los obeliscos.",
+              "o": [
+                "Sí, porque el entendimiento de estas estructuras hace posibles avances inmediatos en biotecnología y medicina.",
+                "No, porque los recursos deberían enfocarse en estudios con beneficios médicos o tecnológicos visibles a corto plazo.",
+                "Sí, porque desentrañar nuevas estructuras biológicas amplía el conocimiento sobre la complejidad de la vida, independientemente de su aplicación práctica inmediata.",
+                "No, porque este tipo de investigación no ofrece soluciones directas a una demanda concreta de la sociedad."
+              ],
+              "c": 2,
+              "k": "ipc-eb38f11f88beef0f"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: El desarrollo de la variedad de trigo resistente a la sequía permite aumentar la producción en condiciones adversas. Conclusión: Es correcto financiar con recursos públicos la producción y comercialización del trigo resistente a la sequía. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Es correcto financiar con recursos públicos lo que permita aumentar la producción en condiciones adversas.",
+                "Financiar con recursos públicos la producción y comercialización del trigo resistente a la sequía permite aumentar la producción en condiciones adversas.",
+                "Los cultivos deben adaptarse al cambio climático para garantizar la seguridad alimentaria.",
+                "La sequía afecta a gran parte del país, generando pérdidas económicas."
+              ],
+              "c": 0,
+              "k": "ipc-669d937cad9b7a51"
+            }
+          ]
+        },
+        {
+          "id": "t4",
+          "n": "Tema 4",
+          "fuente": "IPC_2025_A.pdf",
+          "paginas": [
+            10,
+            12
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis auxiliar. ¿Resulta beneficioso leer antes de dormir? Estudios recientes sugieren que en los últimos años hubo un aumento en los trastornos del sueño, principalmente el insomnio. En un estudio de 2019, un grupo de investigadores de Irlanda y Reino Unido evaluó si leer libros antes de dormir mejora la calidad del sueño. Esta es una intervención fácil de implementar y de bajo costo. Al principio del estudio los 774 participantes completaron un cuestionario llamado SQS (Escala de calidad del sueño de ítem único), que permite asignar puntaje a la calidad del sueño. En el SQS, un mayor puntaje indica una mejor calidad del sueño. Después fueron divididos en dos grupos, durante 7 días consecutivos el grupo 1 debía leer un libro en la cama por 15 a 30 minutos antes de dormir y el grupo 2 no tenía que leer nada. Pasados los 7 días, los participantes debían evaluar nuevamente la calidad del sueño completando el SQS. Los investigadores compararon los puntajes obtenidos por los participantes en el SQS antes y después de los 7 días. Los puntajes obtenidos por los participantes del grupo 1 aumentaron, mientras que los del grupo 2 se mantuvieron estables.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Leer libros antes de dormir mejora la calidad del sueño.",
+                    "Leer un libro antes de dormir es una intervención fácil de implementar y de bajo costo.",
+                    "Un mayor puntaje en el cuestionario SQS indica una mejor calidad de sueño.",
+                    "Después de 7 días, todos los participantes obtendrán mayores valores en el SQS.",
+                    "El insomnio es el principal trastorno del sueño.",
+                    "El puntaje en el SQS después de los 7 días aumentará con respecto al resultado inicial para los participantes del grupo 1, mientras que no se incrementará para los del grupo 2."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "B. Indique por qué el enunciado que eligió como hipótesis auxiliar puede funcionar como tal en este caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado general que se pone a prueba en la investigación.",
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional.",
+                    "Porque es un enunciado singular o muestral que se deduce de la hipótesis y expresa un hecho que debería suceder en caso de que la hipótesis fuera verdadera."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-b61f5077cd1e84d4"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis auxiliar. ¿Resulta beneficioso leer antes de dormir? Estudios recientes sugieren que en los últimos años hubo un aumento en los trastornos del sueño, principalmente el insomnio. En un estudio de 2019, un grupo de investigadores de Irlanda y Reino Unido evaluó si leer libros antes de dormir mejora la calidad del sueño. Esta es una intervención fácil de implementar y de bajo costo. Al principio del estudio los 774 participantes completaron un cuestionario llamado SQS (Escala de calidad del sueño de ítem único), que permite asignar puntaje a la calidad del sueño. En el SQS, un mayor puntaje indica una mejor calidad del sueño. Después fueron divididos en dos grupos, durante 7 días consecutivos el grupo 1 debía leer un libro en la cama por 15 a 30 minutos antes de dormir y el grupo 2 no tenía que leer nada. Pasados los 7 días, los participantes debían evaluar nuevamente la calidad del sueño completando el SQS. Los investigadores compararon los puntajes obtenidos por los participantes en el SQS antes y después de los 7 días. Los puntajes obtenidos por los participantes del grupo 1 aumentaron, mientras que los del grupo 2 se mantuvieron estables.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Leer libros antes de dormir mejora la calidad del sueño.",
+                "Leer un libro antes de dormir es una intervención fácil de implementar y de bajo costo.",
+                "Un mayor puntaje en el cuestionario SQS indica una mejor calidad de sueño.",
+                "Después de 7 días, todos los participantes obtendrán mayores valores en el SQS.",
+                "El insomnio es el principal trastorno del sueño.",
+                "El puntaje en el SQS después de los 7 días aumentará con respecto al resultado inicial para los participantes del grupo 1, mientras que no se incrementará para los del grupo 2."
+              ],
+              "c": 5,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente enunciado y determine cuál de las siguientes opciones explica el fenómeno a partir de la teoría de Lamarck. Los peces linterna tienen una gran capacidad bioluminiscente.",
+              "o": [
+                "Para las sucesivas generaciones de los ancestros de los peces linterna, producir luz resultaba indispensable para sobrevivir en la oscuridad del océano; esto hizo que ejercitaran su capacidad de bioluminiscencia para hacerla cada vez más intensa en el curso de sus vidas y heredaran ese rasgo a sus descendientes.",
+                "Entre los ancestros de los peces linterna, aquellos con bioluminiscencia más brillante resultaron más aptos para sobrevivir y reproducirse, lo que produjo una mayor presencia de ese rasgo entre sus descendientes.",
+                "Los peces linterna fueron creados siguiendo un modelo común al conjunto de las especies abisales que, para contar con mecanismos para orientarse y atraer presas, fueron dotadas de bioluminiscencia.",
+                "Los rasgos de los peces linterna varían aleatoriamente a lo largo de los años. En algún momento azarosamente aparecieron peces linterna con una capacidad bioluminiscente más potente, lo cual representó una ventaja a la hora de sobrevivir. Por esa razón ese rasgo fue heredado a sucesivas generaciones."
+              ],
+              "c": 0,
+              "k": "ipc-7a179d45d6675df1"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. El ser absoluto existe fuera del espacio y del tiempo.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su respuesta",
+                  "o": [
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque está verificado.",
+                    "porque puede ponerse a prueba con la experiencia."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-8c17f4986b24f205"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Este pez vive en una anémona. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Este pez es un pez payaso.",
+                    "Todos los peces payaso viven en anémonas.",
+                    "La mayoría de los peces payaso viven en anémonas.",
+                    "Si este pez habita en el océano, este pez vive en una anémona.",
+                    "Este pez habita en el océano."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Este pez es un pez payaso.",
+                    "Todos los peces payaso viven en anémonas.",
+                    "La mayoría de los peces payaso viven en anémonas.",
+                    "Si este pez habita en el océano, este pez vive en una anémona.",
+                    "Este pez habita en el océano."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-8d42d828f3d7b2db"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Un período de crisis en un paradigma comienza cuando...",
+              "o": [
+                "los científicos se encuentran con enigmas a resolver.",
+                "las anomalías se multiplican y la confianza en la capacidad del paradigma para resolver problemas disminuye.",
+                "aparece más de un paradigma rival.",
+                "la comunidad científica se pone de acuerdo en abandonar el paradigma vigente."
+              ],
+              "c": 1,
+              "k": "ipc-0bf8995b7acb033f"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. En 1873, el médico estadounidense Edward H. Clarke publicó \"Sex in Education; or, A Fair Chance for the Girls\", donde argumentaba que el esfuerzo intelectual excesivo perjudicaba la salud reproductiva de las mujeres. Clarke sostenía que el estudio intenso desviaba la energía corporal hacia el cerebro, afectando el desarrollo de órganos reproductivos y causando enfermedades como la amenorrea y la infertilidad. Según su teoría, las mujeres que recibían educación superior podían volverse enfermizas e incapaces de cumplir con su papel biológico de madres. Aunque sus afirmaciones carecían de evidencia científica, fueron ampliamente aceptadas en su época y reforzaron la idea de que las mujeres eran físicamente inadecuadas para la vida académica. Con el tiempo, la ciencia desmintió estas ideas, pero su impacto en la educación para las mujeres persistió durante décadas.",
+              "o": [
+                "Teorías sexistas",
+                "Conceptualizaciones sexistas",
+                "Exclusión y marginalización",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda"
+              ],
+              "c": 0,
+              "k": "ipc-cf10a628321f16ab"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por la teoría feminista del punto de vista.",
+              "o": [
+                "La subjetividad se constituye sólo por la clase social y no es posible encontrar una perspectiva unificada de las mujeres.",
+                "Los sesgos en la investigación científica pueden ser detectados y controlados a partir de la crítica intersubjetiva en el seno de de una comunidad científica plural.",
+                "Solo la perspectiva compartida por las mujeres permite identificar el carácter social y culturalmente construido de las desigualdades de género de las sociedades.",
+                "En la actividad científica, los aspectos constitutivos de la subjetividad como la etnia, la clase social o el género no juegan ningún rol determinante a la hora de escoger entre teorías rivales."
+              ],
+              "c": 1,
+              "k": "ipc-28d734871711bb28"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. Investigadores de la Universidad de Stanford han descubierto recientemente unas estructuras misteriosas en las bacterias de la boca y el intestino humano, denominadas \"obeliscos\". Los obeliscos guardan cierto parecido con los viroides, que son fragmentos diminutos y circulares de ARN monocatenario. Al igual que los virus, los viroides necesitan un huésped para replicarse y pueden infectar y causar enfermedades en organismos con células que tienen núcleo. Pero los obeliscos se diferencian a su vez de los viroides en su forma y estructura. Los obeliscos se enrollan en forma de varilla en lugar de permanecer como un círculo plano, y sus secuencias de ARN no coinciden con ninguna secuencia de viroide conocida. Aunque aún no se conocen sus funciones ni implicaciones para la salud humana, los científicos pretenden realizar un análisis exhaustivo de los obeliscos.",
+              "o": [
+                "Sí, porque desentrañar nuevas estructuras biológicas amplía el conocimiento sobre la complejidad de la vida, independientemente de su aplicación práctica inmediata.",
+                "No, porque los recursos deberían enfocarse en estudios con beneficios médicos o tecnológicos visibles a corto plazo.",
+                "Sí, porque el entendimiento de estas estructuras hace posibles avances inmediatos en biotecnología y medicina.",
+                "No, porque este tipo de investigación no ofrece soluciones directas a una demanda concreta de la sociedad."
+              ],
+              "c": 0,
+              "k": "ipc-eb38f11f88beef0f"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: El desarrollo de la variedad de trigo resistente a la sequía permite aumentar la producción en condiciones adversas. Conclusión: Es correcto financiar con recursos públicos la producción y comercialización del trigo resistente a la sequía. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Financiar con recursos públicos la producción y comercialización del trigo resistente a la sequía permite aumentar la producción en condiciones adversas.",
+                "Es correcto financiar con recursos públicos lo que permita aumentar la producción en condiciones adversas.",
+                "Los cultivos deben adaptarse al cambio climático para garantizar la seguridad alimentaria.",
+                "La sequía afecta a gran parte del país, generando pérdidas económicas."
+              ],
+              "c": 1,
+              "k": "ipc-8e2724d561f4333f"
+            }
+          ]
+        },
+        {
+          "id": "t5",
+          "n": "Tema 5",
+          "fuente": "IPC_2025_A.pdf",
+          "paginas": [
+            13,
+            15
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la consecuencia observacional. ¿Se puede extender la longevidad? El resveratrol es un compuesto químico presente en las uvas y el vino tinto que tiene propiedades antioxidantes y antiinflamatorias. Este compuesto generó gran interés debido a estudios iniciales que sugerían que tiene efectos de retardar el envejecimiento en diversos organismos. Un grupo de genetistas realizó un estudio para determinar si el resveratrol aumenta la longevidad de la levadura. Para esto, se cultivaron cepas de levadura en dos medios de cultivo distintos. Uno contenía una alta concentración de resveratrol, agua y azúcar, mientras que el otro contenía solo agua y azúcar. En los dos medios se cultivó el mismo volumen inicial de levadura. Se midió la longevidad de las células de levadura, definida como el número de divisiones celulares que una célula realiza antes de morir. Se tomó el volumen final de la levadura como indicador del número de divisiones celulares, asumiendo que un mayor aumento de volumen indica un mayor número de divisiones celulares. Al comparar el volumen de levadura en los dos medios de cultivo, no registraron diferencias significativas.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "El volumen final de levadura en el medio de cultivo con resveratrol será mayor que en el medio sin resveratrol.",
+                    "En medios de cultivo con azúcar la levadura adquiere propiedades antioxidantes y antiinflamatorias.",
+                    "Las células de levadura de los dos medios de cultivo realizarán la misma cantidad de divisiones celulares.",
+                    "Un mayor aumento en el volumen de levadura indica un mayor número de divisiones celulares.",
+                    "Las propiedades antioxidantes y antiinflamatorias del resveratrol tienen el efecto de retardar el envejecimiento de la levadura.",
+                    "El resveratrol aumenta la longevidad de la levadura."
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Indique por qué el enunciado que eligió como consecuencia observacional puede funcionar como tal en este caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional.",
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado general que se pone a prueba en la investigación.",
+                    "Porque es un enunciado singular o muestral que se deduce de la hipótesis y expresa un hecho que debería suceder en caso de que la hipótesis fuera verdadera."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis fundamental del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la consecuencia observacional. ¿Se puede extender la longevidad? El resveratrol es un compuesto químico presente en las uvas y el vino tinto que tiene propiedades antioxidantes y antiinflamatorias. Este compuesto generó gran interés debido a estudios iniciales que sugerían que tiene efectos de retardar el envejecimiento en diversos organismos. Un grupo de genetistas realizó un estudio para determinar si el resveratrol aumenta la longevidad de la levadura. Para esto, se cultivaron cepas de levadura en dos medios de cultivo distintos. Uno contenía una alta concentración de resveratrol, agua y azúcar, mientras que el otro contenía solo agua y azúcar. En los dos medios se cultivó el mismo volumen inicial de levadura. Se midió la longevidad de las células de levadura, definida como el número de divisiones celulares que una célula realiza antes de morir. Se tomó el volumen final de la levadura como indicador del número de divisiones celulares, asumiendo que un mayor aumento de volumen indica un mayor número de divisiones celulares. Al comparar el volumen de levadura en los dos medios de cultivo, no registraron diferencias significativas.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "El volumen final de levadura en el medio de cultivo con resveratrol será mayor que en el medio sin resveratrol.",
+                "En medios de cultivo con azúcar la levadura adquiere propiedades antioxidantes y antiinflamatorias.",
+                "Las células de levadura de los dos medios de cultivo realizarán la misma cantidad de divisiones celulares.",
+                "Un mayor aumento en el volumen de levadura indica un mayor número de divisiones celulares.",
+                "Las propiedades antioxidantes y antiinflamatorias del resveratrol tienen el efecto de retardar el envejecimiento de la levadura.",
+                "El resveratrol aumenta la longevidad de la levadura."
+              ],
+              "c": 5,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente enunciado y determine cuál de las siguientes opciones explica el fenómeno a partir de la teoría de la selección natural de Darwin. Los pájaros del paraíso tienen plumas brillantes.",
+              "o": [
+                "Disponer de plumas brillantes representa el grado máximo en la línea evolutiva de los animales, por esa razón en cada una de las etapas evolutivas los pájaros del paraíso van mejorando este rasgo y su plumaje se vuelve cada vez más brillante.",
+                "Para las sucesivas generaciones de los ancestros de los pájaros del paraíso, desplegar sus colores resultaba indispensable para el cortejo; esto hizo que adquirieran plumajes cada vez más vistosos con cada cortejo en el curso de sus vidas y heredaran ese rasgo a sus descendientes.",
+                "Todas las especies pertenecientes al grupo de las aves exóticas atraen pareja mediante su apariencia, motivo por el que fueron diseñadas con plumas brillantes; puesto que pertenece a ese grupo, el pájaro paraíso fue dotado de plumas brillantes.",
+                "Entre los antepasados de los pájaros del paraíso, aquellos con plumas más brillantes resultaron más aptos para atraer pareja y reproducirse, lo que produjo una mayor presencia de ese rasgo entre sus descendientes."
+              ],
+              "c": 3,
+              "k": "ipc-3f8c59de89bac147"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. La probabilidad de éxito de este fármaco es 0,9.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su respuesta",
+                  "o": [
+                    "porque está confirmado.",
+                    "porque no es falsable.",
+                    "porque está verificado mediante la experiencia.",
+                    "porque es falso."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-11997a9a238dbe82"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Este pez espada perdió sus escamas. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Si este pez espada está enfermo, entonces pierde sus escamas.",
+                    "Todos los peces espada pierden sus escamas en la adultez.",
+                    "La mayoría de los peces espada pierden sus escamas en la adultez.",
+                    "Este pez espada es adulto.",
+                    "Este pez espada está enfermo."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Si este pez espada está enfermo, entonces pierde sus escamas.",
+                    "Todos los peces espada pierden sus escamas en la adultez.",
+                    "La mayoría de los peces espada pierden sus escamas en la adultez.",
+                    "Este pez espada es adulto.",
+                    "Este pez espada está enfermo."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-fd30f211bd5bab56"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Un paradigma es...",
+              "o": [
+                "una teoría aislada que sirve para explicar los fenómenos.",
+                "una escuela de pensamiento que compite con otras por el dominio explicativo de un determinado campo de investigación en el período de pre-ciencia.",
+                "un conjunto de presupuestos ontológicos que determinan qué entidades hay en el mundo.",
+                "una forma de ver el mundo que comparten todos los investigadores e investigadoras que conforman la comunidad científica durante el período de ciencia normal."
+              ],
+              "c": 3,
+              "k": "ipc-1267a4961c0c3c12"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Lise Meitner fue una física austriaca pionera en la investigación de la fisión nuclear. Junto con Otto Hahn, descubrió en 1938 que los átomos de uranio podían dividirse, liberando enormes cantidades de energía. Tras huir de la Alemania nazi, Meitner siguió trabajando en torno al problema de la fisión con su sobrino Otto Frisch, logrando explicar teóricamente el fenómeno de la fisión. Pese a todos sus aportes al naciente campo de estudio, el mérito del descubrimiento fue atribuido exclusivamente a Hahn, quien recibió el Premio Nobel de Química en 1944 y minimizó el papel de Meitner. Ella nunca recibió el reconocimiento por su contribución fundamental pese a la insistencia de varios colegas en nominarla al Nobel.",
+              "o": [
+                "Exclusión y marginalización",
+                "Teorías sexistas",
+                "Aplicaciones sexistas",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda"
+              ],
+              "c": 3,
+              "k": "ipc-76dc2bcc939a164c"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por el postmodernismo feminista.",
+              "o": [
+                "Lejos de ser un reflejo neutral de la realidad, las teorías científicas son relatos contingentes que revalidan las relaciones de poder en una sociedad determinada.",
+                "Los sesgos en la investigación científica son controlables a partir de la evidencia, la lógica y la crítica plural e intersubjetiva de la comunidad científica.",
+                "Ni el género, ni la etnia o la clase afectan a la perspectiva del científico cuando lleva adelante sus investigaciones en base a la evidencia empírica disponible.",
+                "La historia compartida de opresión dota a las mujeres de una perspectiva especialmente afinada para señalar el carácter contingente de las desigualdades de género."
+              ],
+              "c": 1,
+              "k": "ipc-4c4564ff08b2fc56"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. Un equipo de científicos de las universidades de Vermont, Tuft y el Wyss Institute de Harvard publicó en el año 2020 un estudio donde describía el proceso de creación de xenobots, pequeñas máquinas biológicas creadas a partir de células madre de ranas. Estos organismos programables pueden moverse, trabajar en conjunto y autorrepararse. Ahora, ese mismo grupo ha descubierto que estos organismos diseñados por computadora pueden unirse entre sí para ensamblar nuevos robots \"bebé\" que unos pocos días después se ven y se mueven igual que sus \"madres\". En esta nueva fase del estudio, centrado en este descubrimiento, los científicos pretenden estudiar el comportamiento reproductivo de los nanobots, abriendo así nuevas fronteras en la comprensión de la biología sintética y la definición de la vida.",
+              "o": [
+                "No, porque este tipo de investigación no aborda problemas sociales o económicos urgentes.",
+                "Sí, porque ganar un mejor conocimiento sobre la definición de la vida podría contribuir a la consolidación de la ciudadanía democrática.",
+                "Sí, porque explorar nuevas formas de vida y su comportamiento amplía el conocimiento fundamental en biología, independientemente de su aplicación inmediata.",
+                "No, porque el estudio de los xenobots no tiene consecuencias inmediatas para la medicina regenerativa y la robótica."
+              ],
+              "c": 2,
+              "k": "ipc-eb38f11f88beef0f"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: El desarrollo de telescopios cuánticos permite ampliar el conocimiento sobre fenómenos astronómicos distantes. Conclusión: Es correcto financiar el desarrollo de telescopios cuánticos. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Es correcto financiar el desarrollo de tecnología que permita ampliar el conocimiento sobre fenómenos astronómicos distantes.",
+                "Es correcto invertir en tecnología avanzada si esto contribuye a aumentar la capacidad científica de un país.",
+                "Se debe explorar el universo si esto mejora nuestra comprensión de la naturaleza.",
+                "Financiar el desarrollo de tecnología permite ampliar el conocimiento sobre fenómenos astronómicos distantes."
+              ],
+              "c": 0,
+              "k": "ipc-4f90c63ef917aba5"
+            }
+          ]
+        },
+        {
+          "id": "t6",
+          "n": "Tema 6",
+          "fuente": "IPC_2025_A.pdf",
+          "paginas": [
+            16,
+            18
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la consecuencia observacional. ¿Se puede extender la longevidad? El resveratrol es un compuesto químico presente en las uvas y el vino tinto que tiene propiedades antioxidantes y antiinflamatorias. Este compuesto generó gran interés debido a estudios iniciales que sugerían que tiene efectos de retardar el envejecimiento en diversos organismos. Un grupo de genetistas realizó un estudio para determinar si el resveratrol aumenta la longevidad de la levadura. Para esto, se cultivaron cepas de levadura en dos medios de cultivo distintos. Uno contenía una alta concentración de resveratrol, agua y azúcar, mientras que el otro contenía solo agua y azúcar. En los dos medios se cultivó el mismo volumen inicial de levadura. Se midió la longevidad de las células de levadura, definida como el número de divisiones celulares que una célula realiza antes de morir. Se tomó el volumen final de la levadura como indicador del número de divisiones celulares, asumiendo que un mayor aumento de volumen indica un mayor número de divisiones celulares. Al comparar el volumen de levadura en los dos medios de cultivo, no registraron diferencias significativas.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Las células de levadura de los dos medios de cultivo realizarán la misma cantidad de divisiones celulares.",
+                    "El resveratrol aumenta la longevidad de la levadura.",
+                    "Un mayor aumento en el volumen de levadura indica un mayor número de divisiones celulares.",
+                    "Las propiedades antioxidantes y antiinflamatorias del resveratrol tienen el efecto de retardar el envejecimiento de la levadura.",
+                    "El volumen final de levadura en el medio de cultivo con resveratrol será mayor que en el medio sin resveratrol.",
+                    "En medios de cultivo con azúcar la levadura adquiere propiedades antioxidantes y antiinflamatorias."
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "B. Indique por qué el enunciado que eligió como consecuencia observacional puede funcionar como tal en este caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional.",
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado singular o muestral que se deduce de la hipótesis y expresa un hecho que debería suceder en caso de que la hipótesis fuera verdadera.",
+                    "Porque es un enunciado general que se pone a prueba en la investigación."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis fundamental del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la consecuencia observacional. ¿Se puede extender la longevidad? El resveratrol es un compuesto químico presente en las uvas y el vino tinto que tiene propiedades antioxidantes y antiinflamatorias. Este compuesto generó gran interés debido a estudios iniciales que sugerían que tiene efectos de retardar el envejecimiento en diversos organismos. Un grupo de genetistas realizó un estudio para determinar si el resveratrol aumenta la longevidad de la levadura. Para esto, se cultivaron cepas de levadura en dos medios de cultivo distintos. Uno contenía una alta concentración de resveratrol, agua y azúcar, mientras que el otro contenía solo agua y azúcar. En los dos medios se cultivó el mismo volumen inicial de levadura. Se midió la longevidad de las células de levadura, definida como el número de divisiones celulares que una célula realiza antes de morir. Se tomó el volumen final de la levadura como indicador del número de divisiones celulares, asumiendo que un mayor aumento de volumen indica un mayor número de divisiones celulares. Al comparar el volumen de levadura en los dos medios de cultivo, no registraron diferencias significativas.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Las células de levadura de los dos medios de cultivo realizarán la misma cantidad de divisiones celulares.",
+                "El resveratrol aumenta la longevidad de la levadura.",
+                "Un mayor aumento en el volumen de levadura indica un mayor número de divisiones celulares.",
+                "Las propiedades antioxidantes y antiinflamatorias del resveratrol tienen el efecto de retardar el envejecimiento de la levadura.",
+                "El volumen final de levadura en el medio de cultivo con resveratrol será mayor que en el medio sin resveratrol.",
+                "En medios de cultivo con azúcar la levadura adquiere propiedades antioxidantes y antiinflamatorias."
+              ],
+              "c": 1,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente enunciado y determine cuál de las siguientes opciones explica el fenómeno a partir de la teoría de Lamarck. Los pájaros del paraíso tienen plumas brillantes.",
+              "o": [
+                "Entre los antepasados de los pájaros del paraíso, aquellos con plumas más brillantes resultaron más aptos para atraer pareja y reproducirse, lo que produjo una mayor presencia de ese rasgo entre sus descendientes.",
+                "Todas las especies pertenecientes al grupo de las aves exóticas atraen pareja mediante su apariencia, motivo por el que fueron diseñadas con plumas brillantes; puesto que pertenece a ese grupo, el pájaro paraíso fue dotado de plumas brillantes.",
+                "Para las sucesivas generaciones de los ancestros de los pájaros del paraíso, desplegar sus colores resultaba indispensable para el cortejo; esto hizo que adquirieran plumajes cada vez más vistosos con cada cortejo en el curso de sus vidas y heredaran ese rasgo a sus descendientes.",
+                "Los rasgos de los pájaros del paraíso varían aleatoriamente a lo largo de los años. En algún momento azarosamente aparecieron pájaros del paraísos con un plumaje más brillate, lo cual representó una ventaja a la hora de sobrevivir. Por esa razón ese rasgo fue heredado a sucesivas generaciones."
+              ],
+              "c": 2,
+              "k": "ipc-7a179d45d6675df1"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. La probabilidad de éxito de este fármaco es 0,9.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su respuesta",
+                  "o": [
+                    "porque es falso.",
+                    "porque está confirmado.",
+                    "porque está verificado mediante la experiencia.",
+                    "porque no es falsable."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-11997a9a238dbe82"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Este pez espada perdió sus escamas. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Si este pez espada está enfermo, entonces pierde sus escamas.",
+                    "Este pez espada está enfermo.",
+                    "Todos los peces espada pierden sus escamas en la adultez.",
+                    "Este pez espada es adulto.",
+                    "La mayoría de los peces espada pierden sus escamas en la adultez."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Si este pez espada está enfermo, entonces pierde sus escamas.",
+                    "Este pez espada está enfermo.",
+                    "Todos los peces espada pierden sus escamas en la adultez.",
+                    "Este pez espada es adulto.",
+                    "La mayoría de los peces espada pierden sus escamas en la adultez."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-a3ebaa15cb9a6718"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Un paradigma es...",
+              "o": [
+                "una escuela de pensamiento que compite con otras por el dominio explicativo de un determinado campo de investigación en el período de pre-ciencia.",
+                "una teoría aislada que sirve para explicar los fenómenos.",
+                "una forma de ver el mundo que comparten todos los investigadores e investigadoras que conforman la comunidad científica durante el período de ciencia normal.",
+                "un conjunto de presupuestos ontológicos que determinan qué entidades hay en el mundo."
+              ],
+              "c": 2,
+              "k": "ipc-1267a4961c0c3c12"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Lise Meitner fue una física austriaca pionera en la investigación de la fisión nuclear. Junto con Otto Hahn, descubrió en 1938 que los átomos de uranio podían dividirse, liberando enormes cantidades de energía. Tras huir de la Alemania nazi, Meitner siguió trabajando en torno al problema de la fisión con su sobrino Otto Frisch, logrando explicar teóricamente el fenómeno de la fisión. Pese a todos sus aportes al naciente campo de estudio, el mérito del descubrimiento fue atribuido exclusivamente a Hahn, quien recibió el Premio Nobel de Química en 1944 y minimizó el papel de Meitner. Ella nunca recibió el reconocimiento por su contribución fundamental pese a la insistencia de varios colegas en nominarla al Nobel.",
+              "o": [
+                "Aplicaciones sexistas",
+                "Teorías sexistas",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda",
+                "Exclusión y marginalización"
+              ],
+              "c": 2,
+              "k": "ipc-76dc2bcc939a164c"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por el postmodernismo feminista.",
+              "o": [
+                "Ni el género, ni la etnia o la clase afectan a la perspectiva del científico cuando lleva adelante sus investigaciones en base a la evidencia empírica disponible.",
+                "La historia compartida de opresión dota a las mujeres de una perspectiva especialmente afinada para señalar el carácter contingente de las desigualdades de género.",
+                "Los sesgos en la investigación científica son controlables a partir de la evidencia, la lógica y la crítica plural e intersubjetiva de la comunidad científica.",
+                "Lejos de ser un reflejo neutral de la realidad, las teorías científicas son relatos contingentes que revalidan las relaciones de poder en una sociedad determinada."
+              ],
+              "c": 2,
+              "k": "ipc-4c4564ff08b2fc56"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. Un equipo de científicos de las universidades de Vermont, Tuft y el Wyss Institute de Harvard publicó en el año 2020 un estudio donde describía el proceso de creación de xenobots, pequeñas máquinas biológicas creadas a partir de células madre de ranas. Estos organismos programables pueden moverse, trabajar en conjunto y autorrepararse. Ahora, ese mismo grupo ha descubierto que estos organismos diseñados por computadora pueden unirse entre sí para ensamblar nuevos robots \"bebé\" que unos pocos días después se ven y se mueven igual que sus \"madres\". En esta nueva fase del estudio, centrado en este descubrimiento, los científicos pretenden estudiar el comportamiento reproductivo de los nanobots, abriendo así nuevas fronteras en la comprensión de la biología sintética y la definición de la vida.",
+              "o": [
+                "No, porque el estudio de los xenobots no tiene consecuencias inmediatas para la medicina regenerativa y la robótica.",
+                "Sí, porque explorar nuevas formas de vida y su comportamiento amplía el conocimiento fundamental en biología, independientemente de su aplicación inmediata.",
+                "Sí, porque ganar un mejor conocimiento sobre la definición de la vida podría contribuir a la consolidación de la ciudadanía democrática.",
+                "No, porque este tipo de investigación no aborda problemas sociales o económicos urgentes."
+              ],
+              "c": 1,
+              "k": "ipc-eb38f11f88beef0f"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: El desarrollo de telescopios cuánticos permite ampliar el conocimiento sobre fenómenos astronómicos distantes. Conclusión: Es correcto financiar el desarrollo de telescopios cuánticos. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Es correcto financiar el desarrollo de tecnología que permita ampliar el conocimiento sobre fenómenos astronómicos distantes.",
+                "Financiar el desarrollo de tecnología permite ampliar el conocimiento sobre fenómenos astronómicos distantes.",
+                "Es correcto invertir en tecnología avanzada si esto contribuye a aumentar la capacidad científica de un país.",
+                "Se debe explorar el universo si esto mejora nuestra comprensión de la naturaleza."
+              ],
+              "c": 0,
+              "k": "ipc-498822bc125e58b9"
+            }
+          ]
+        },
+        {
+          "id": "t7",
+          "n": "Tema 7",
+          "fuente": "IPC_2025_A.pdf",
+          "paginas": [
+            19,
+            21
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿De qué modo nos afecta el uso de smartphones? Diversos estudios sugieren que el uso frecuente de smartphones puede tener efectos en distintos aspectos de nuestra vida, como por ejemplo reducir nuestra capacidad de atención y concentración. Un equipo de investigadores de la Universidad de Stanford decidió investigar si el uso de smartphones antes de dormir tenía un impacto negativo en la calidad del sueño. Para probarlo, realizaron un experimento con participantes que no tenían trastornos del sueño a los que se dividió en dos grupos: uno usó sus smartphones durante 30 minutos antes de dormir, mientras que el otro grupo no los utilizó. Investigaciones independientes habían confirmado que una peor calidad del sueño se manifiesta en más despertares nocturnos, por lo que para evaluar la calidad del sueño los investigadores pidieron a los voluntarios que reporten la cantidad de despertares nocturnos. Los resultados mostraron que el grupo que usó smartphones antes de dormir tuvo más despertares nocturnos comparado con el grupo que no los usó.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "El uso frecuente de smartphones reduce la capacidad de atención y concentración.",
+                    "El grupo que use smartphones antes de dormir tendrá más despertares nocturnos que el grupo que no los use.",
+                    "El grupo que no use smartphones antes de dormir tendrá más despertares nocturnos.",
+                    "Una peor calidad del sueño se manifiesta en más despertares nocturnos.",
+                    "El uso frecuente de smartphones tiene efectos en distintos aspectos de nuestra vida.",
+                    "El uso de smartphones antes de dormir afecta negativamente la calidad del sueño."
+                  ],
+                  "c": 5
+                },
+                {
+                  "r": "B. Indique por qué el enunciado que eligió como hipótesis fundamental puede funcionar como tal en este caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional.",
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado general que se pone a prueba en la investigación.",
+                    "Porque es un enunciado singular o muestral que se deduce de la hipótesis y expresa un hecho que debería suceder en caso de que la hipótesis fuera verdadera."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique qué debería ocurrir para que se refute la hipótesis fundamental del caso presentado en el ejercicio 1.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿De qué modo nos afecta el uso de smartphones? Diversos estudios sugieren que el uso frecuente de smartphones puede tener efectos en distintos aspectos de nuestra vida, como por ejemplo reducir nuestra capacidad de atención y concentración. Un equipo de investigadores de la Universidad de Stanford decidió investigar si el uso de smartphones antes de dormir tenía un impacto negativo en la calidad del sueño. Para probarlo, realizaron un experimento con participantes que no tenían trastornos del sueño a los que se dividió en dos grupos: uno usó sus smartphones durante 30 minutos antes de dormir, mientras que el otro grupo no los utilizó. Investigaciones independientes habían confirmado que una peor calidad del sueño se manifiesta en más despertares nocturnos, por lo que para evaluar la calidad del sueño los investigadores pidieron a los voluntarios que reporten la cantidad de despertares nocturnos. Los resultados mostraron que el grupo que usó smartphones antes de dormir tuvo más despertares nocturnos comparado con el grupo que no los usó.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Ambos grupos reportan una misma cantidad de despertares nocturnos.",
+                "El grupo que usa smartphones antes de dormir tiene más despertares nocturnos que el grupo que no los usa.",
+                "El grupo que use el smartphone más frecuentemente tiene menor capacidad de atención y concentración.",
+                "El grupo que usa smartphones antes de dormir tiene poca capacidad de atención."
+              ],
+              "c": 0,
+              "k": "ipc-1671bceaca291af9"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente enunciado y determine cuál de las siguientes opciones explica el fenómeno a partir de la teoría de la selección natural de Darwin. Los osos polares tienen un olfato muy sensible.",
+              "o": [
+                "Los osos polares fueron creados siguiendo un arquetipo común al conjunto de los mamíferos carnívoros árticos. Puesto que todas las especies pertenecientes a ese grupo deben detectar presas bajo la nieve, cuentan con un olfato extremadamente sensible.",
+                "Disponer de un olfato sensible representa el grado máximo en la línea evolutiva de los animales, por esa razón en cada una de las etapas evolutivas los osos van mejorando este rasgo y su olfato se vuelve cada vez más sensible.",
+                "Entre los ancestros de los osos polares, aquellos con un olfato más sensible tuvieron ventajas para sobrevivir y reproducirse, lo que produjo una mayor presencia de ese rasgo entre sus descendientes.",
+                "Para las sucesivas generaciones de los ancestros de los osos polares, mejorar su capacidad olfativa resultaba indispensable para la caza en su entorno; esto hizo que desarrollaran un olfato cada vez más agudo en el curso de sus vidas y heredaran ese rasgo a sus descendientes."
+              ],
+              "c": 2,
+              "k": "ipc-3f8c59de89bac147"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. El ser es ser en cuanto trasciende toda experiencia sensible.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su respuesta",
+                  "o": [
+                    "porque tiene falsadores potenciales.",
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque no está suficientemente confirmado.",
+                    "porque es válido."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-f1850abbf96a3bce"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Este pez habita en el río Paraná. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "La mayoría de los dorados habitan en el río Paraná.",
+                    "Los dorados habitan en el río Paraná.",
+                    "Este pez es un dorado.",
+                    "Este pez es un pez de agua dulce.",
+                    "Si este pez es de agua dulce, este pez habita en el río Paraná."
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "La mayoría de los dorados habitan en el río Paraná.",
+                    "Los dorados habitan en el río Paraná.",
+                    "Este pez es un dorado.",
+                    "Este pez es un pez de agua dulce.",
+                    "Si este pez es de agua dulce, este pez habita en el río Paraná."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-340eec1382e349ca"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. La observación...",
+              "o": [
+                "está siempre cargada de teoría, influenciada por el paradigma vigente.",
+                "es completamente objetiva y libre de cualquier influencia teórica.",
+                "proporciona una base empírica neutral para juzgar la validez de un paradigma.",
+                "en ciertos casos refleja la realidad como es en sí misma, independientemente de cualquier paradigma."
+              ],
+              "c": 0,
+              "k": "ipc-da85bc1db28eeeb0"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Los algoritmos de reconocimiento de voz han demostrado un sesgo significativo a favor de las voces masculinas. Estudios han revelado que asistentes de voz como Siri, Alexa y Google Assistant tienen mayores tasas de precisión al interpretar comandos emitidos por hombres en comparación con mujeres. Esto se debe a que los modelos de inteligencia artificial utilizados para entrenar estos sistemas han sido alimentados mayormente con datos de voces masculinas, lo que genera una menor capacidad de comprensión para tonos y patrones del habla femeninos por parte de estos sistemas. Como resultado, los asistentes de voz cometen más errores en la transcripción y reconocimiento de comandos cuando las mujeres son las que hablan, lo que afecta la experiencia de usuario y la accesibilidad tecnológica para las mujeres.",
+              "o": [
+                "Exclusión y marginalización",
+                "Aplicaciones sexistas",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda",
+                "Conceptualizaciones sexistas"
+              ],
+              "c": 1,
+              "k": "ipc-8bb86e05fc866407"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el posmodernismo feminista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "Los aspectos constitutivos de la subjetividad del investigador, como la etnia, el género o la clase social, no juegan ningún rol relevante en la actividad científica.",
+                "Por medio de la lógica, la evidencia y la crítica plural intersubjetiva en el seno de la comunidad científica es posible controlar los sesgos de la investigación científica.",
+                "Las mujeres comparten una historia de opresión, lo que garantiza que su perspectiva común les permita identificar el carácter contingente de las desigualdades de género.",
+                "Las teorías científicas no son reflejos neutrales de la realidad, por el contrario, son relatos contingentes que justifican las relaciones de poder en el marco de la sociedad."
+              ],
+              "c": 3,
+              "k": "ipc-a89174e2a28d449b"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. En 2024, un equipo internacional de neurocientíficos logró mapear por completo el cerebro de una larva de Drosophila melanogaster (mosca de la fruta), identificando más de 139.000 neuronas y más de 50 millones de conexiones sinápticas. Este mapa cerebral, conocido como “conectoma”, es el más completo jamás elaborado en un animal de este tipo. El trabajo, que llevó más de una década, busca entender cómo fluye la información en redes neuronales y cómo emerge el comportamiento a partir de la estructura del cerebro.",
+              "o": [
+                "No, porque la investigación en ciencia básica debería ser desarrollada por el sector privado.",
+                "Sí, porque el mapear el cerebro de las moscas podría, en el futuro, conducir a avances en biotecnología o medicina.",
+                "Sí, porque desentrañar nuevas estructuras biológicas amplía el conocimiento sobre la complejidad de la vida.",
+                "No, porque mapear el cerebro de la mosca de la fruta no ofrece soluciones directas a problemas de salud actuales."
+              ],
+              "c": 3,
+              "k": "ipc-3875c496a58d061d"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: Los obeliscos solares son estructuras que contribuyen al uso de energías limpias. Conclusión: Es correcto instalar obeliscos solares en espacios públicos. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Es correcto reducir el consumo energético si esto implica mejorar la calidad de vida.",
+                "Se debe reducir el uso de combustibles fósiles.",
+                "Es correcto instalar estructuras en espacios públicos si contribuyen al uso de energías limpias.",
+                "Instalar obeliscos en espacios públicos contribuye al uso de energías limpias."
+              ],
+              "c": 2,
+              "k": "ipc-aef40b87364192af"
+            }
+          ]
+        },
+        {
+          "id": "t8",
+          "n": "Tema 8",
+          "fuente": "IPC_2025_A.pdf",
+          "paginas": [
+            22,
+            24
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿De qué modo nos afecta el uso de smartphones? Diversos estudios sugieren que el uso frecuente de smartphones puede tener efectos en distintos aspectos de nuestra vida, como por ejemplo reducir nuestra capacidad de atención y concentración. Un equipo de investigadores de la Universidad de Stanford decidió investigar si el uso de smartphones antes de dormir tenía un impacto negativo en la calidad del sueño. Para probarlo, realizaron un experimento con participantes que no tenían trastornos del sueño a los que se dividió en dos grupos: uno usó sus smartphones durante 30 minutos antes de dormir, mientras que el otro grupo no los utilizó. Investigaciones independientes habían confirmado que una peor calidad del sueño se manifiesta en más despertares nocturnos, por lo que para evaluar la calidad del sueño los investigadores pidieron a los voluntarios que reporten la cantidad de despertares nocturnos. Los resultados mostraron que el grupo que usó smartphones antes de dormir tuvo más despertares nocturnos comparado con el grupo que no los usó.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "El grupo que no use smartphones antes de dormir tendrá más despertares nocturnos.",
+                    "El uso de smartphones antes de dormir afecta negativamente la calidad del sueño.",
+                    "Una peor calidad del sueño se manifiesta en más despertares nocturnos.",
+                    "El uso frecuente de smartphones tiene efectos en distintos aspectos de nuestra vida.",
+                    "El uso frecuente de smartphones reduce la capacidad de atención y concentración.",
+                    "El grupo que use smartphones antes de dormir tendrá más despertares nocturnos que el grupo que no los use."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Indique por qué el enunciado que eligió como hipótesis fundamental puede funcionar como tal en este caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional.",
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado singular o muestral que se deduce de la hipótesis y expresa un hecho que debería suceder en caso de que la hipótesis fuera verdadera.",
+                    "Porque es un enunciado general que se pone a prueba en la investigación."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique qué debería ocurrir para que se refute la hipótesis fundamental del caso presentado en el ejercicio 1.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿De qué modo nos afecta el uso de smartphones? Diversos estudios sugieren que el uso frecuente de smartphones puede tener efectos en distintos aspectos de nuestra vida, como por ejemplo reducir nuestra capacidad de atención y concentración. Un equipo de investigadores de la Universidad de Stanford decidió investigar si el uso de smartphones antes de dormir tenía un impacto negativo en la calidad del sueño. Para probarlo, realizaron un experimento con participantes que no tenían trastornos del sueño a los que se dividió en dos grupos: uno usó sus smartphones durante 30 minutos antes de dormir, mientras que el otro grupo no los utilizó. Investigaciones independientes habían confirmado que una peor calidad del sueño se manifiesta en más despertares nocturnos, por lo que para evaluar la calidad del sueño los investigadores pidieron a los voluntarios que reporten la cantidad de despertares nocturnos. Los resultados mostraron que el grupo que usó smartphones antes de dormir tuvo más despertares nocturnos comparado con el grupo que no los usó.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "El grupo que usa smartphones antes de dormir tiene más despertares nocturnos que el grupo que no los usa.",
+                "Ambos grupos reportan una misma cantidad de despertares nocturnos.",
+                "El grupo que use el smartphone más frecuentemente tiene menor capacidad de atención y concentración.",
+                "El grupo que usa smartphones antes de dormir tiene poca capacidad de atención."
+              ],
+              "c": 1,
+              "k": "ipc-1671bceaca291af9"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente enunciado y determine cuál de las siguientes opciones explica el fenómeno a partir de la teoría de Lamarck. Los osos polares tienen un olfato muy sensible.",
+              "o": [
+                "Entre los ancestros de los osos polares, aquellos con un olfato más sensible tuvieron ventajas para sobrevivir y reproducirse, lo que produjo una mayor presencia de ese rasgo entre sus descendientes.",
+                "Para las sucesivas generaciones de los ancestros de los osos polares, mejorar su capacidad olfativa resultaba indispensable para la caza en su entorno; esto hizo que desarrollaran un olfato cada vez más agudo en el curso de sus vidas y heredaran ese rasgo a sus descendientes.",
+                "Los osos polares fueron creados siguiendo un arquetipo común al conjunto de los mamíferos carnívoros árticos. Puesto que todas las especies pertenecientes a ese grupo deben detectar presas bajo la nieve, cuentan con un olfato extremadamente sensible.",
+                "Los rasgos de los osos polares varían aleatoriamente a lo largo de los años. En algún momento azarosamente aparecieron osos polares con un olfato más sensible, lo cual representó una ventaja a la hora de sobrevivir. Por esa razón ese rasgo fue heredado a sucesivas generaciones."
+              ],
+              "c": 1,
+              "k": "ipc-7a179d45d6675df1"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. El ser es ser en cuanto trasciende toda experiencia sensible.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su respuesta",
+                  "o": [
+                    "porque es válido.",
+                    "porque tiene falsadores potenciales.",
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque no está suficientemente confirmado."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-f1850abbf96a3bce"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Este pez habita en el río Paraná. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Los dorados habitan en el río Paraná.",
+                    "Este pez es un dorado.",
+                    "La mayoría de los dorados habitan en el río Paraná.",
+                    "Si este pez es de agua dulce, este pez habita en el río Paraná.",
+                    "Este pez es un pez de agua dulce."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Los dorados habitan en el río Paraná.",
+                    "Este pez es un dorado.",
+                    "La mayoría de los dorados habitan en el río Paraná.",
+                    "Si este pez es de agua dulce, este pez habita en el río Paraná.",
+                    "Este pez es un pez de agua dulce."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-755edd1779bcadb4"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. La observación...",
+              "o": [
+                "en ciertos casos refleja la realidad como es en sí misma, independientemente de cualquier paradigma.",
+                "proporciona una base empírica neutral para juzgar la validez de un paradigma.",
+                "es completamente objetiva y libre de cualquier influencia teórica.",
+                "está siempre cargada de teoría, influenciada por el paradigma vigente."
+              ],
+              "c": 3,
+              "k": "ipc-da85bc1db28eeeb0"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Los algoritmos de reconocimiento de voz han demostrado un sesgo significativo a favor de las voces masculinas. Estudios han revelado que asistentes de voz como Siri, Alexa y Google Assistant tienen mayores tasas de precisión al interpretar comandos emitidos por hombres en comparación con mujeres. Esto se debe a que los modelos de inteligencia artificial utilizados para entrenar estos sistemas han sido alimentados mayormente con datos de voces masculinas, lo que genera una menor capacidad de comprensión para tonos y patrones del habla femeninos por parte de estos sistemas. Como resultado, los asistentes de voz cometen más errores en la transcripción y reconocimiento de comandos cuando las mujeres son las que hablan, lo que afecta la experiencia de usuario y la accesibilidad tecnológica para las mujeres.",
+              "o": [
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda",
+                "Conceptualizaciones sexistas",
+                "Aplicaciones sexistas",
+                "Exclusión y marginalización"
+              ],
+              "c": 2,
+              "k": "ipc-8bb86e05fc866407"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el posmodernismo feminista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "Las teorías científicas no son reflejos neutrales de la realidad, por el contrario, son relatos contingentes que justifican las relaciones de poder en el marco de la sociedad.",
+                "Los aspectos constitutivos de la subjetividad del investigador, como la etnia, el género o la clase social, no juegan ningún rol relevante en la actividad científica.",
+                "Por medio de la lógica, la evidencia y la crítica plural intersubjetiva en el seno de la comunidad científica es posible controlar los sesgos de la investigación científica.",
+                "Las mujeres comparten una historia de opresión, lo que garantiza que su perspectiva común les permita identificar el carácter contingente de las desigualdades de género."
+              ],
+              "c": 0,
+              "k": "ipc-a89174e2a28d449b"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. En 2024, un equipo internacional de neurocientíficos logró mapear por completo el cerebro de una larva de Drosophila melanogaster (mosca de la fruta), identificando más de 139.000 neuronas y más de 50 millones de conexiones sinápticas. Este mapa cerebral, conocido como “conectoma”, es el más completo jamás elaborado en un animal de este tipo. El trabajo, que llevó más de una década, busca entender cómo fluye la información en redes neuronales y cómo emerge el comportamiento a partir de la estructura del cerebro.",
+              "o": [
+                "No, porque la investigación en ciencia básica debería ser desarrollada por el sector privado.",
+                "No, porque mapear el cerebro de la mosca de la fruta no ofrece soluciones directas a problemas de salud actuales.",
+                "Sí, porque el mapear el cerebro de las moscas podría, en el futuro, conducir a avances en biotecnología o medicina.",
+                "Sí, porque desentrañar nuevas estructuras biológicas amplía el conocimiento sobre la complejidad de la vida."
+              ],
+              "c": 1,
+              "k": "ipc-3875c496a58d061d"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: Los obeliscos solares son estructuras que contribuyen al uso de energías limpias. Conclusión: Es correcto instalar obeliscos solares en espacios públicos. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Es correcto instalar estructuras en espacios públicos si contribuyen al uso de energías limpias.",
+                "Instalar obeliscos en espacios públicos contribuye al uso de energías limpias.",
+                "Se debe reducir el uso de combustibles fósiles.",
+                "Es correcto reducir el consumo energético si esto implica mejorar la calidad de vida."
+              ],
+              "c": 0,
+              "k": "ipc-d97dabdf590fd16a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gimeno-2025-05-27",
+      "nombre": "2º parcial · 27/05/2025",
+      "catedra": "C · Gimeno (ex-Vizioli)",
+      "fecha": "2025-05-27",
+      "detalle": "Cátedra C · Gimeno (ex-Vizioli). 20 consignas; 0,50 por consigna.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "IPC_2025_B.docx",
+          "aviso": "Claves y explicaciones del documento resuelto. Se asigna 0,50 por consigna para completar 10 puntos, ya que el original no indica puntajes.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Complete la siguiente afirmación: \"Según Harari, la ciencia moderna se caracteriza por una disposición a admitir la ignorancia. Esto significa que...\"",
+              "o": [
+                "\"...se trata de una tradición que no considera que el conocimiento sea acabado, sino que siempre puede ampliarse e, incluso, demostrarse que lo que sabemos es erróneo\".",
+                "\"...a diferencia de otras formas de conocimiento, la ciencia moderna busca eliminar la ignorancia por completo, hasta alcanzar verdades definitivas\".",
+                "\" ...los científicos modernos priorizan la acumulación de datos por sobre la formulación de teorías, ya que la ignorancia se supera cuantificando la realidad\".",
+                "\"...al admitir la ignorancia, la ciencia moderna se desentiende de la necesidad de ofrecer explicaciones y se limita a describir fenómenos sin interpretarlos\"."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-a0a0d3d73c78ad2d"
+            },
+            {
+              "e": "2",
+              "p": "Según Larry Laudan, ¿cuáles son los rasgos generales y persistentes del cambio científico? Seleccione la opción correcta:",
+              "o": [
+                "La coexistencia de teorías rivales es una excepción, de modo que la evaluación de teorías nunca es un asunto comparativo.",
+                "Los principios específicos de la racionalidad científica con que se evalúan las teorías son fijos y no se han alterado en el curso de la ciencia.",
+                "El surgimiento de anomalías y las propuestas empíricas verificadas de teorías nuevas precipitan el cambio científico.",
+                "Las transiciones de teorías no son acumulativas, es decir, ni el contenido lógico ni el empírico de las teorías anteriores se conservan cuando son suplantadas por las nuevas."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-372c2c48da6a7e35"
+            },
+            {
+              "e": "3",
+              "p": "En 1970, Imre Lakatos reformuló la demarcación científica desde el punto de vista de los Programas de investigación científica (PIC). Seleccione la opción que posee información correcta sobre los PIC:",
+              "o": [
+                "Están formados por un conjunto de hipótesis auxiliares y condiciones iniciales que pueden ser contrastadas para modificar el núcleo duro con las refutaciones empíricas.",
+                "Son un conjunto de teorías que no comparten postulados teóricos en común, no obstante investigan el mismo área de interés.",
+                "Refieren a teorías que se plantean de manera sucesiva y que comparten un núcleo duro compuesto por postulados convencionalmente aceptados.",
+                "Las anomalías, o resultados inesperados que parecen refutar a los programas, necesariamente llevan a su rechazo inmediato."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-ddf3bea76269cc80"
+            },
+            {
+              "e": "4",
+              "p": "¿Cuál de las siguientes descripciones describe adecuadamente el bucle de retroalimentación de la ciencia moderna según Harari?",
+              "o": [
+                "El progreso científico depende exclusivamente del talento individual de los investigadores y de su compromiso con la verdad, sin influencia de factores externos como la política o la economía.",
+                "La ciencia moderna avanza cuando la política y la economía se subordinan por completo al conocimiento científico y renuncian a sus propios intereses.",
+                "La ciencia moderna no produce progreso únicamente a través de la investigación, sino que requiere del refuerzo mutuo entre ciencia, política y economía.",
+                "Para poder producir progreso, la ciencia moderna debe subordinarse absolutamente a los intereses de los poderes políticos y económicos de su época."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-4a1135fd5cf6b31a"
+            },
+            {
+              "e": "5",
+              "p": "Bunge (2018) propuso una serie de características del conocimiento científico. ¿Cuál de las siguientes opciones es una de dichas características? Seleccione la opción correcta:",
+              "o": [
+                "El conocimiento científico no es fáctico.",
+                "El conocimiento científico es contrafáctico.",
+                "El conocimiento científico trasciende los hechos.",
+                "El conocimiento científico no es general."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-07918cd342f7d709"
+            },
+            {
+              "e": "6",
+              "p": "¿Cuál de las siguientes afirmaciones sobre el modelo cosmológico de las dos esferas es correcta?",
+              "o": [
+                "El modelo de las dos esferas afirmaba que la Tierra era plana y estaba sostenida por una serie de pilares invisibles mientras las estrellas giraban sobre una esfera celeste.",
+                "El modelo geocéntrico de las dos esferas establecía que la Tierra era un astro esférico fijo alrededor del cual revolucionaban los demás astros y planetas.",
+                "Según el modelo de las dos esferas, el Sol ocupaba el centro del universo y la Tierra giraba a su alrededor describiendo una órbita circular perfecta.",
+                "El modelo cosmológico de las dos esferas sostenía que todos los cuerpos celestes se encontraban estáticos y que sólo la Tierra se movía dentro del universo."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-accd367924422eb2"
+            },
+            {
+              "e": "7",
+              "p": "Villaruel-Fuentes describe diversos sesgos cognitivos que son frecuentes incluso en las personas que realizan investigación. ¿Cuál de las siguientes opciones describe el sesgo de confirmación que define la autora? Seleccione la opción correcta:",
+              "o": [
+                "Cuando un rasgo positivo de una persona llama poderosamente la atención, al hacer pensar que dicho atributo define la totalidad del personaje.",
+                "Tendencia a buscar, interpretar y recordar información que se relaciona con nuestras creencias preexistentes, e ignorar o desestimar la contraria.",
+                "Cuando noveles de la ciencia suelen fundamentar sus publicaciones –papers- con base en las referencias bibliográficas de personas reconocidas",
+                "La propensión a proponer diferentes conclusiones dependiendo de cómo se presente la evidencia obtenida"
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-52c1627d18e702ab"
+            },
+            {
+              "e": "8",
+              "p": "¿Cuál de las siguientes afirmaciones sobre el modelo cosmológico copernicano es correcta?",
+              "o": [
+                "El modelo heliocéntrico copernicano permitió explicar ciertos fenómenos astronómicos que para el modelo de las dos esferas resultaban anómalos y contradictorios.",
+                "El modelo copernicano fue rápidamente aceptado por toda la comunidad científica, ya que coincidía con las ideas filosóficas y religiosas de la época.",
+                "El modelo heliocéntrico de Copérnico propuso que los planetas y estrellas estaban fijos en una esfera celeste exterior, mientras el Sol giraba alrededor de la Tierra.",
+                "La propuesta de Copérnico no permitió explicar más fenómenos ni de mejor manera que la teoría de las dos esferas, sólo propuso un cambio de visión cosmológica."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-d80346427b866574"
+            },
+            {
+              "e": "9",
+              "p": "“En general, las teorías tradicionales como las propuestas por Jean Piaget y Lev Semiónovich Vygotski dentro del campo educativo, tienden a condicionar el pensamiento dentro del ámbito de la didáctica y el currículo.” Según lo expuesto por Villarruel-Fuentes, ¿qué sesgo está evidenciando esta situación? Seleccione la opción correcta:",
+              "o": [
+                "Anclaje",
+                "Efecto de encuadre",
+                "Sesgo de confirmación",
+                "Efecto Halo"
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-d49a75c94a90afeb"
+            },
+            {
+              "e": "10",
+              "p": "Complete la siguiente afirmación: \"Según Ayala, la publicación de \"El origen de las especies\" de Darwin no constituyó una revolución separada de la copernicana, dado que...\"",
+              "o": [
+                "\"...a diferencia del modelo copernicano, la teoría darwiniana fue exclusivamente biológica y no afectó la cosmovisión general de su tiempo\".",
+                "\"...puede ser vista como la culminación de un proceso que inició con la teoría de Copérnico y modificó la manera de comprender el lugar de la humanidad\".",
+                "\"...ambas teorías pertenecen a campos completamente diferentes y, por lo tanto, no pueden pensarse como parte de un mismo proceso histórico\".",
+                "\"...la teoría de Darwin buscó restaurar la centralidad del ser humano al mostrar su complejidad evolutiva en contraste con el resto de los seres vivos\"."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-441aefc35f990bb1"
+            },
+            {
+              "e": "11",
+              "p": "Dada la siguiente descripción, ¿a qué componente de una matriz disciplinaria correspondería, según Kuhn? Se trata de soluciones concretas a problemas específicos que los científicos aprenden durante su formación, como ejercicios, experimentos de laboratorio o estudios de caso. Funcionan como modelos prácticos que enseñan cómo aplicar teorías, técnicas y criterios en situaciones reales dentro del paradigma.",
+              "o": [
+                "Ejemplares.",
+                "Valores.",
+                "Partes metafísicas.",
+                "Generalizaciones simbólicas."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-dac32bda0cd46296"
+            },
+            {
+              "e": "12",
+              "p": "Una psicóloga realiza un estudio sobre la percepción de rasgos de personalidad en profesores universitarios. Muestra a los participantes videos breves de distintos profesores dando clase y luego les pide que califiquen a cada uno en varios aspectos: inteligencia, simpatía, claridad al explicar y profesionalismo. Uno de los profesores del video habla con entusiasmo y tiene una apariencia carismática. Aunque su contenido no es particularmente claro, los participantes tienden a calificarlo muy alto en inteligencia, claridad y profesionalismo, simplemente porque les parece simpático y agradable al hablar. Según lo expuesto por Villarruel-Fuentes, ¿qué sesgo está evidenciando esta situación? Seleccione la opción correcta:",
+              "o": [
+                "Anclaje",
+                "Correlación ilusoria",
+                "Efecto Halo",
+                "Apofenia"
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-5b1ec41f078fa126"
+            },
+            {
+              "e": "13",
+              "p": "Teniendo en cuenta las consideraciones de Gibbons et al acerca de los modos de producción del conocimiento actuales, ¿a cuál modo pertenece el siguiente ejemplo y por qué? \"Un grupo de físicos teóricos trabaja en una universidad nacional desarrollando modelos matemáticos sobre la estructura del espacio-tiempo. Publican sus resultados en revistas académicas especializadas y sus evaluaciones dependen de comités de pares\"",
+              "o": [
+                "Pertenece al modo 1 porque se desarrolla dentro de una disciplina científica específica, orientada por la lógica interna de la ciencia y evaluada por la comunidad académica.",
+                "Pertenece al modo 2 porque resuelve un problema concreto de alta prioridad social y articula el saber de distintas disciplinas.",
+                "Pertenece al modo 2 porque involucra universidades y se publica en revistas científicas internacionales.",
+                "Pertenece al modo 1 porque integra actores del ámbito económico y gubernamental en la producción del conocimiento."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-813f2b4057b09c98"
+            },
+            {
+              "e": "14",
+              "p": "¿Qué implica que la observación sea una metodología cualitativa de investigación en campo? Elija la opción correcta:",
+              "o": [
+                "Que permite la observación de sucesos en su ámbito natural de manera directa.",
+                "Que se trata de un instrumento cuya aplicación debe quedar restringida para aquellas situaciones en las que no es posible aplicar técnicas más adecuadas",
+                "Que es preferible la utilización de otras técnicas de mayor rigurosidad y control, como las encuestas, para la investigación de campo en su ámbito natural.",
+                "Que es la técnica con mayor rigurosidad y control para la investigación en campo."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-9f91a6384c05460c"
+            },
+            {
+              "e": "15",
+              "p": "Desde el punto de vista ético en investigación, ¿cuáles son los tres principios fundamentales y obligatorios para cuidar y evitar daños a las personas participantes? Seleccione la opción correcta:",
+              "o": [
+                "Anonimato, consentimiento informado y confidencialidad.",
+                "Confidencialidad, resguardo de investigadores y libertad de investigación.",
+                "Consentimiento informado, confidencialidad y publicación de información personal.",
+                "Investigación ética, anonimato y consentimiento informado."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-30f1747ba00c5ddb"
+            },
+            {
+              "e": "16",
+              "p": "Aplicando las descripciones de Tauro et al acerca de las universidades públicas en nuestro país, ¿a cuál de las funciones de la universidad corresponde el siguiente ejemplo? \"Una profesora de Derecho dicta clases en la carrera de abogacía y acompaña a sus estudiantes en la realización de sus tesis de grado\"",
+              "o": [
+                "Docencia.",
+                "Extensión universitaria.",
+                "Investigación.",
+                "Transferencia tecnológica."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-9a9268ab44e311ba"
+            },
+            {
+              "e": "17",
+              "p": "En las Ciencias de la salud es habitual utilizar la estrategia \"PICO\" para formular la pregunta de investigación. ¿Cuáles son los componentes a los que se refieren las siglas PICO? Elija la opción correcta:",
+              "o": [
+                "Patience (paciencia), Intervention (intervención), Comparison (comparación) y Outcome (resultado).",
+                "Patient (paciente), Imagination (imaginación), Comparison (comparación) y Outcome (resultado).",
+                "Patient (paciente), Intervention (intervención), Creation (creación) y Outcome (resultado).",
+                "Patient (paciente), Intervention (intervención), Comparison (comparación) y Outcome (resultado)."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-473d1b433abf16b9"
+            },
+            {
+              "e": "18",
+              "p": "Siguiendo el texto de Tauro et al, ¿cuál de las siguientes afirmaciones acerca de las academias nacionales es correcta?",
+              "o": [
+                "Son organismos universitarios que dependen jerárquicamente de las facultades y secretarías de extensión de las universidades nacionales.",
+                "Funcionan como asociaciones civiles integradas por especialistas y reciben apoyo estatal, pero mantienen independencia de criterio y opinión.",
+                "Están integradas exclusivamente por docentes universitarios activos con título de doctorado, designados por concurso público.",
+                "Son organismos descentralizados dependientes del Poder Ejecutivo dedicados a la transferencia tecnológica."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-04870444becc8aae"
+            },
+            {
+              "e": "19",
+              "p": "Complete la siguiente afirmación: \"Según lo especificado en el texto de Contreras y Ochoa Jiménez, el que un manuscrito reciba la respuesta 'Aceptado sin modificaciones' por parte de un editor significa...\"",
+              "o": [
+                "\"...que el manuscrito fue evaluado por una única persona experta y no necesitó pasar por revisión por pares debido a su alta calidad\".",
+                "\"...que el texto es completamente original, no presenta errores, y por eso no requiere correcciones ni observaciones de ningún tipo, una situación muy común\".",
+                "\"...que el manuscrito ha sido corregido por los editores en sus aspectos básicos, dado que su autor ha pagado los aranceles estipulados para la publicación directa en la revista\".",
+                "\"...que muy probablemente se trate de un manuscrito que haya sido rechazado en otras ocasiones por varias revistas y haya sido mejorado a partir de los comentarios de los revisores\"."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-9916f96f7188627f"
+            },
+            {
+              "e": "20",
+              "p": "¿A qué refiere la idea de inconmensurabilidad para Kuhn? Seleccione la opción correcta:",
+              "o": [
+                "Refiere a lo que ocurre cuando una teoría es refutada mediante la falsación.",
+                "Refiere al conflicto profundo existente entre paradigmas contrapuestos.",
+                "Refiere a la existencia de ataques al núcleo duro de una teoría que puede ser subsanada mediante hipótesis auxiliares.",
+                "Refiere a lo que comparte la comunidad científica dentro de un paradigma."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-7aaded2f084e694e"
+            }
+          ]
+        },
+        {
+          "id": "t2",
+          "n": "Tema 2",
+          "fuente": "IPC_2025_C.docx",
+          "aviso": "Claves y explicaciones del documento resuelto. Se asigna 0,50 por consigna para completar 10 puntos, ya que el original no indica puntajes.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "En 1970, Imre Lakatos reformuló la demarcación científica desde el punto de vista de los Programas de investigación científica (PIC). Seleccione la opción que posee información correcta sobre los PIC:",
+              "o": [
+                "Están formados por un conjunto de hipótesis auxiliares y condiciones iniciales que pueden ser contrastadas para modificar el núcleo duro con las refutaciones empíricas.",
+                "Refieren a teorías que se plantean de manera sucesiva y que comparten un núcleo duro compuesto por postulados convencionalmente aceptados.",
+                "Son un conjunto de teorías que no comparten postulados teóricos en común, no obstante investigan el mismo área de interés.",
+                "Las anomalías, o resultados inesperados que parecen refutar a los programas, necesariamente llevan a su rechazo inmediato."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-ddf3bea76269cc80"
+            },
+            {
+              "e": "2",
+              "p": "Complete la siguiente afirmación: \"Según lo especificado en el texto de Contreras y Ochoa Jiménez, el que un manuscrito reciba la respuesta 'Aceptado sin modificaciones' por parte de un editor significa...\"",
+              "o": [
+                "\"...que el manuscrito ha sido corregido por los editores en sus aspectos básicos, dado que su autor ha pagado los aranceles estipulados para la publicación directa en la revista\".",
+                "\"...que muy probablemente se trate de un manuscrito que haya sido rechazado en otras ocasiones por varias revistas y haya sido mejorado a partir de los comentarios de los revisores\".",
+                "\"...que el manuscrito fue evaluado por una única persona experta y no necesitó pasar por revisión por pares debido a su alta calidad\".",
+                "\"...que el texto es completamente original, no presenta errores, y por eso no requiere correcciones ni observaciones de ningún tipo, una situación muy común\"."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-9916f96f7188627f"
+            },
+            {
+              "e": "3",
+              "p": "Siguiendo el texto de Tauro et al, ¿cuál de las siguientes afirmaciones acerca de las academias nacionales es correcta?",
+              "o": [
+                "Están integradas exclusivamente por docentes universitarios activos con título de doctorado, designados por concurso público.",
+                "Son organismos descentralizados dependientes del Poder Ejecutivo dedicados a la transferencia tecnológica.",
+                "Son organismos universitarios que dependen jerárquicamente de las facultades y secretarías de extensión de las universidades nacionales.",
+                "Funcionan como asociaciones civiles integradas por especialistas y reciben apoyo estatal, pero mantienen independencia de criterio y opinión."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-04870444becc8aae"
+            },
+            {
+              "e": "4",
+              "p": "Según Larry Laudan, ¿cuáles son los rasgos generales y persistentes del cambio científico? Seleccione la opción correcta:",
+              "o": [
+                "Las transiciones de teorías no son acumulativas, es decir, ni el contenido lógico ni el empírico de las teorías anteriores se conservan cuando son suplantadas por las nuevas.",
+                "Los principios específicos de la racionalidad científica con que se evalúan las teorías son fijos y no se han alterado en el curso de la ciencia.",
+                "El surgimiento de anomalías y las propuestas empíricas verificadas de teorías nuevas precipitan el cambio científico.",
+                "La coexistencia de teorías rivales es una excepción, de modo que la evaluación de teorías nunca es un asunto comparativo."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-372c2c48da6a7e35"
+            },
+            {
+              "e": "5",
+              "p": "Aplicando las descripciones de Tauro et al acerca de las universidades públicas en nuestro país, ¿a cuál de las funciones de la universidad corresponde el siguiente ejemplo? \"Una profesora de Derecho dicta clases en la carrera de abogacía y acompaña a sus estudiantes en la realización de sus tesis de grado\"",
+              "o": [
+                "Investigación.",
+                "Transferencia tecnológica.",
+                "Docencia.",
+                "Extensión universitaria."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-9a9268ab44e311ba"
+            },
+            {
+              "e": "6",
+              "p": "Teniendo en cuenta las consideraciones de Gibbons et al acerca de los modos de producción del conocimiento actuales, ¿a cuál modo pertenece el siguiente ejemplo y por qué? \"Un grupo de físicos teóricos trabaja en una universidad nacional desarrollando modelos matemáticos sobre la estructura del espacio-tiempo. Publican sus resultados en revistas académicas especializadas y sus evaluaciones dependen de comités de pares\"",
+              "o": [
+                "Pertenece al modo 2 porque involucra universidades y se publica en revistas científicas internacionales.",
+                "Pertenece al modo 1 porque integra actores del ámbito económico y gubernamental en la producción del conocimiento.",
+                "Pertenece al modo 1 porque se desarrolla dentro de una disciplina científica específica, orientada por la lógica interna de la ciencia y evaluada por la comunidad académica.",
+                "Pertenece al modo 2 porque resuelve un problema concreto de alta prioridad social y articula el saber de distintas disciplinas."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-813f2b4057b09c98"
+            },
+            {
+              "e": "7",
+              "p": "“En general, las teorías tradicionales como las propuestas por Jean Piaget y Lev Semiónovich Vygotski dentro del campo educativo, tienden a condicionar el pensamiento dentro del ámbito de la didáctica y el currículo.” Según lo expuesto por Villarruel-Fuentes, ¿qué sesgo está evidenciando esta situación? Seleccione la opción correcta:",
+              "o": [
+                "Sesgo de confirmación",
+                "Efecto Halo",
+                "Anclaje",
+                "Efecto de encuadre"
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-d49a75c94a90afeb"
+            },
+            {
+              "e": "8",
+              "p": "Bunge (2018) propuso una serie de características del conocimiento científico. ¿Cuál de las siguientes opciones es una de dichas características? Seleccione la opción correcta:",
+              "o": [
+                "El conocimiento científico no es general.",
+                "El conocimiento científico trasciende los hechos.",
+                "El conocimiento científico no es fáctico.",
+                "El conocimiento científico es contrafáctico."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-07918cd342f7d709"
+            },
+            {
+              "e": "9",
+              "p": "Dada la siguiente descripción, ¿a qué componente de una matriz disciplinaria correspondería, según Kuhn? Se trata de soluciones concretas a problemas específicos que los científicos aprenden durante su formación, como ejercicios, experimentos de laboratorio o estudios de caso. Funcionan como modelos prácticos que enseñan cómo aplicar teorías, técnicas y criterios en situaciones reales dentro del paradigma.",
+              "o": [
+                "Partes metafísicas.",
+                "Generalizaciones simbólicas.",
+                "Ejemplares.",
+                "Valores."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-dac32bda0cd46296"
+            },
+            {
+              "e": "10",
+              "p": "Complete la siguiente afirmación: \"Según Ayala, la publicación de \"El origen de las especies\" de Darwin no constituyó una revolución separada de la copernicana, dado que...\"",
+              "o": [
+                "\"...puede ser vista como la culminación de un proceso que inició con la teoría de Copérnico y modificó la manera de comprender el lugar de la humanidad\".",
+                "\"...ambas teorías pertenecen a campos completamente diferentes y, por lo tanto, no pueden pensarse como parte de un mismo proceso histórico\".",
+                "\"...la teoría de Darwin buscó restaurar la centralidad del ser humano al mostrar su complejidad evolutiva en contraste con el resto de los seres vivos\".",
+                "\"...a diferencia del modelo copernicano, la teoría darwiniana fue exclusivamente biológica y no afectó la cosmovisión general de su tiempo\"."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-441aefc35f990bb1"
+            },
+            {
+              "e": "11",
+              "p": "Villaruel-Fuentes describe diversos sesgos cognitivos que son frecuentes incluso en las personas que realizan investigación. ¿Cuál de las siguientes opciones describe el sesgo de confirmación que define la autora? Seleccione la opción correcta:",
+              "o": [
+                "Cuando noveles de la ciencia suelen fundamentar sus publicaciones –papers- con base en las referencias bibliográficas de personas reconocidas",
+                "La propensión a proponer diferentes conclusiones dependiendo de cómo se presente la evidencia obtenida",
+                "Cuando un rasgo positivo de una persona llama poderosamente la atención, al hacer pensar que dicho atributo define la totalidad del personaje.",
+                "Tendencia a buscar, interpretar y recordar información que se relaciona con nuestras creencias preexistentes, e ignorar o desestimar la contraria."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-52c1627d18e702ab"
+            },
+            {
+              "e": "12",
+              "p": "Desde el punto de vista ético en investigación, ¿cuáles son los tres principios fundamentales y obligatorios para cuidar y evitar daños a las personas participantes? Seleccione la opción correcta:",
+              "o": [
+                "Consentimiento informado, confidencialidad y publicación de información personal.",
+                "Confidencialidad, resguardo de investigadores y libertad de investigación.",
+                "Anonimato, consentimiento informado y confidencialidad.",
+                "Investigación ética, anonimato y consentimiento informado."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-30f1747ba00c5ddb"
+            },
+            {
+              "e": "13",
+              "p": "¿Cuál de las siguientes afirmaciones sobre el modelo cosmológico copernicano es correcta?",
+              "o": [
+                "El modelo heliocéntrico de Copérnico propuso que los planetas y estrellas estaban fijos en una esfera celeste exterior, mientras el Sol giraba alrededor de la Tierra.",
+                "La propuesta de Copérnico no permitió explicar más fenómenos ni de mejor manera que la teoría de las dos esferas, sólo propuso un cambio de visión cosmológica.",
+                "El modelo heliocéntrico copernicano permitió explicar ciertos fenómenos astronómicos que para el modelo de las dos esferas resultaban anómalos y contradictorios.",
+                "El modelo copernicano fue rápidamente aceptado por toda la comunidad científica, ya que coincidía con las ideas filosóficas y religiosas de la época."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-d80346427b866574"
+            },
+            {
+              "e": "14",
+              "p": "¿A qué refiere la idea de inconmensurabilidad para Kuhn? Seleccione la opción correcta:",
+              "o": [
+                "Refiere a lo que comparte la comunidad científica dentro de un paradigma.",
+                "Refiere a la existencia de ataques al núcleo duro de una teoría que puede ser subsanada mediante hipótesis auxiliares.",
+                "Refiere a lo que ocurre cuando una teoría es refutada mediante la falsación.",
+                "Refiere al conflicto profundo existente entre paradigmas contrapuestos."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-7aaded2f084e694e"
+            },
+            {
+              "e": "15",
+              "p": "¿Cuál de las siguientes afirmaciones sobre el modelo cosmológico de las dos esferas es correcta?",
+              "o": [
+                "El modelo cosmológico de las dos esferas sostenía que todos los cuerpos celestes se encontraban estáticos y que sólo la Tierra se movía dentro del universo.",
+                "El modelo de las dos esferas afirmaba que la Tierra era plana y estaba sostenida por una serie de pilares invisibles mientras las estrellas giraban sobre una esfera celeste.",
+                "El modelo geocéntrico de las dos esferas establecía que la Tierra era un astro esférico fijo alrededor del cual revolucionaban los demás astros y planetas.",
+                "Según el modelo de las dos esferas, el Sol ocupaba el centro del universo y la Tierra giraba a su alrededor describiendo una órbita circular perfecta."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-accd367924422eb2"
+            },
+            {
+              "e": "16",
+              "p": "Una psicóloga realiza un estudio sobre la percepción de rasgos de personalidad en profesores universitarios. Muestra a los participantes videos breves de distintos profesores dando clase y luego les pide que califiquen a cada uno en varios aspectos: inteligencia, simpatía, claridad al explicar y profesionalismo. Uno de los profesores del video habla con entusiasmo y tiene una apariencia carismática. Aunque su contenido no es particularmente claro, los participantes tienden a calificarlo muy alto en inteligencia, claridad y profesionalismo, simplemente porque les parece simpático y agradable al hablar. Según lo expuesto por Villarruel-Fuentes, ¿qué sesgo está evidenciando esta situación? Seleccione la opción correcta:",
+              "o": [
+                "Efecto Halo",
+                "Anclaje",
+                "Apofenia",
+                "Correlación ilusoria"
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-5b1ec41f078fa126"
+            },
+            {
+              "e": "17",
+              "p": "¿Cuál de las siguientes descripciones describe adecuadamente el bucle de retroalimentación de la ciencia moderna según Harari?",
+              "o": [
+                "La ciencia moderna no produce progreso únicamente a través de la investigación, sino que requiere del refuerzo mutuo entre ciencia, política y economía.",
+                "Para poder producir progreso, la ciencia moderna debe subordinarse absolutamente a los intereses de los poderes políticos y económicos de su época.",
+                "El progreso científico depende exclusivamente del talento individual de los investigadores y de su compromiso con la verdad, sin influencia de factores externos como la política o la economía.",
+                "La ciencia moderna avanza cuando la política y la economía se subordinan por completo al conocimiento científico y renuncian a sus propios intereses."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-4a1135fd5cf6b31a"
+            },
+            {
+              "e": "18",
+              "p": "¿Qué implica que la observación sea una metodología cualitativa de investigación en campo? Elija la opción correcta:",
+              "o": [
+                "Que se trata de un instrumento cuya aplicación debe quedar restringida para aquellas situaciones en las que no es posible aplicar técnicas más adecuadas",
+                "Que es preferible la utilización de otras técnicas de mayor rigurosidad y control, como las encuestas, para la investigación de campo en su ámbito natural.",
+                "Que permite la observación de sucesos en su ámbito natural de manera directa.",
+                "Que es la técnica con mayor rigurosidad y control para la investigación en campo."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-9f91a6384c05460c"
+            },
+            {
+              "e": "19",
+              "p": "Complete la siguiente afirmación: \"Según Harari, la ciencia moderna se caracteriza por una disposición a admitir la ignorancia. Esto significa que...\"",
+              "o": [
+                "\" ...los científicos modernos priorizan la acumulación de datos por sobre la formulación de teorías, ya que la ignorancia se supera cuantificando la realidad\".",
+                "\"...al admitir la ignorancia, la ciencia moderna se desentiende de la necesidad de ofrecer explicaciones y se limita a describir fenómenos sin interpretarlos\".",
+                "\"...se trata de una tradición que no considera que el conocimiento sea acabado, sino que siempre puede ampliarse e, incluso, demostrarse que lo que sabemos es erróneo\".",
+                "\"...a diferencia de otras formas de conocimiento, la ciencia moderna busca eliminar la ignorancia por completo, hasta alcanzar verdades definitivas\"."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-a0a0d3d73c78ad2d"
+            },
+            {
+              "e": "20",
+              "p": "En las Ciencias de la salud es habitual utilizar la estrategia \"PICO\" para formular la pregunta de investigación. ¿Cuáles son los componentes a los que se refieren las siglas PICO? Elija la opción correcta:",
+              "o": [
+                "Patient (paciente), Intervention (intervención), Creation (creación) y Outcome (resultado).",
+                "Patient (paciente), Intervention (intervención), Comparison (comparación) y Outcome (resultado).",
+                "Patient (paciente), Imagination (imaginación), Comparison (comparación) y Outcome (resultado).",
+                "Patience (paciencia), Intervention (intervención), Comparison (comparación) y Outcome (resultado)."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-473d1b433abf16b9"
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "IPC_2025_D.docx",
+          "aviso": "Claves y explicaciones del documento resuelto. Se asigna 0,50 por consigna para completar 10 puntos, ya que el original no indica puntajes.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Complete la siguiente afirmación: \"Según Harari, para la ciencia moderna la observación y las matemáticas son centrales, dado que...\"",
+              "o": [
+                "\"...el conocimiento científico auténtico se produce cuando los fenómenos del mundo pueden describirse completamente mediante fórmulas matemáticas, sin necesidad de observación directa\".",
+                "\"...el método científico requiere observar fenómenos naturales, aunque la interpretación matemática de estos datos no es considerada parte esencial del conocimiento científico\"",
+                "\"...pretende reunir nuevos conocimientos a través de la recolección de datos empíricos y su sistematización en teorías generales mediante el uso de herramientas numéricas\".",
+                "\"...el conocimiento científico surge de la observación directa, sin necesidad de organizar los datos en modelos abstractos o sistemáticos\""
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-68e8930ec5de5a45"
+            },
+            {
+              "e": "2",
+              "p": "¿Cuáles son los dos componentes esenciales del paradigma que desarrolla Kuhn? Elija la opción correcta:",
+              "o": [
+                "Generalizaciones simbólicas y ejemplares.",
+                "Componente empírico y componente teórico.",
+                "Matriz disciplinaria y componente sociológico.",
+                "Juicios de exactitud y valores compartidos."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-9684d51f47550931"
+            },
+            {
+              "e": "3",
+              "p": "Larry Laudan postula un modelo de desarrollo y cambio científico basado en: (Seleccione la respuesta correcta)",
+              "o": [
+                "La falsación de teorías científicas.",
+                "La solución de problemas empíricos y conceptuales.",
+                "El triunfo de un nuevo paradigma sobre el viejo.",
+                "La ciencia madura."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-040969b8a96d771c"
+            },
+            {
+              "e": "4",
+              "p": "¿Cuál de las siguientes descripciones describe adecuadamente el bucle de retroalimentación de la ciencia moderna según Harari?",
+              "o": [
+                "La ciencia moderna produce avances importantes, pero rara vez estos resultan útiles para las instituciones políticas o económicas, que operan en lógicas distintas.",
+                "Los avances científicos son posibles sólo cuando las instituciones políticas permiten a los científicos investigar sin ningún tipo de interés económico de por medio.",
+                "El desarrollo científico depende exclusivamente del progreso tecnológico que se obtiene por medio de la intervención de la política o de recursos financieros externos.",
+                "Las instituciones políticas y económicas proporcionan los recursos sin los cuales la investigación científica sería imposible y, a su vez, los descubrimientos científicos aportan nuevos poderes que permiten obtener más y nuevos recursos."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-4391eb33ae6ee372"
+            },
+            {
+              "e": "5",
+              "p": "¿Cuál de las siguientes afirmaciones sobre el modelo cosmológico de las dos esferas es correcta?",
+              "o": [
+                "La teoría de las dos esferas establecía una cosmología psicológicamente satisfactoria que adicionalmente era coincidente con los fenómenos observados y los explicaba.",
+                "El modelo de las dos esferas fue rápidamente abandonado al demostrarse que no podía predecir ningún tipo de fenómeno astronómico observable.",
+                "El modelo de las dos esferas fue una construcción simbólica sin valor explicativo, creada únicamente con fines religiosos y sin relación con la observación astronómica.",
+                "La teoría de las dos esferas fue rápidamente aceptada socialmente porque era compatible con los fenómenos observables y no entraba en contradicción con las creencias religiosas de su época."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-3fc3496d56492fc6"
+            },
+            {
+              "e": "6",
+              "p": "¿Cómo se caracteriza la demarcación científica según Bunge? Seleccione la opción correcta:",
+              "o": [
+                "Se construyó en base a valores epistémicos como la precisión o la consistencia.",
+                "Refiere a los datos e información provenientes del análisis de la evidencia.",
+                "Se basa en la caracterización detallada de un campo epistémico.",
+                "Excluye actividades científicas que no se ocupan de probar constructos teóricos."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-7a3e8f92d00fb57f"
+            },
+            {
+              "e": "7",
+              "p": "Según lo abordado en el texto de Vizioli et. al., ¿Cuál de las siguientes es una característica de la pseudociencia? Seleccione la opción correcta:",
+              "o": [
+                "Ausencia de conectividad con otras disciplinas.",
+                "Exceso de revisión por pares.",
+                "Falta de hipótesis ad hoc.",
+                "Confianza excesiva en la falsación."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-ada8dc12483fcfe2"
+            },
+            {
+              "e": "8",
+              "p": "¿Cuál de las siguientes afirmaciones sobre el modelo cosmológico copernicano es correcta?",
+              "o": [
+                "El modelo copernicano fue irrelevante fuera del ámbito científico, ya que su contenido no afectaba la visión filosófica o religiosa del mundo.",
+                "El heliocentrismo de Copérnico fue recibido como una reafirmación del lugar central del ser humano en el universo.",
+                "El modelo copernicano fue aceptado de inmediato porque ofrecía explicaciones a fenómenos que el modelo de las dos esferas no podía explicar.",
+                "Si bien el modelo heliocéntrico era una teoría científica más entre otras, trajo aparejada una cantidad considerable de consecuencias extra científicas."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-9a902773d752213c"
+            },
+            {
+              "e": "9",
+              "p": "La revisión sistemática es uno de los estudios más utilizados en la investigación clínica de las ciencias de la salud. ¿En qué consisten las revisiones sistemáticas? Elija la opción correcta:",
+              "o": [
+                "Son estudios prospectivos que comparan el efecto de una intervención con otra o con un control.",
+                "Se realizan seguimientos a grupos de sujetos para determinar el pronóstico o la historia natural de un fenómeno de interés, de presente a futuro, a partir de la exposición a un factor.",
+                "Son revisiones de artículos ya publicados o síntesis de fuentes primarias.",
+                "Se realizan mediciones en una sola ocasión, sin seguimientos"
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-800b5dfd0d06cff4"
+            },
+            {
+              "e": "10",
+              "p": "Un psicólogo está investigando si las personas que meditan regularmente tienen niveles más bajos de ansiedad. Cree firmemente que la meditación es beneficiosa para la salud mental, ya que él mismo medita y ha leído muchos artículos positivos sobre el tema. Durante su estudio, realiza entrevistas y aplica cuestionarios a dos grupos: personas que meditan y personas que no. Al analizar los resultados, da más peso a los datos que muestran menor ansiedad en los meditadores y minimiza o ignora los casos en los que personas que meditan reportan niveles altos de ansiedad. Según lo expuesto por Villarruel-Fuentes, ¿qué sesgo está evidenciando esta situación? Seleccione la opción correcta:",
+              "o": [
+                "Sesgo de confirmación",
+                "Efecto Halo",
+                "Anclaje",
+                "Efecto de encuadre"
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-52c1627d18e702ab"
+            },
+            {
+              "e": "11",
+              "p": "Considerando el texto de Ayala, ¿cuál de las siguientes particularidades representa la principal novedad de la teoría de Darwin?",
+              "o": [
+                "La idea de que todas las especies actuales fueron creadas simultáneamente y adaptadas desde el inicio a su entorno.",
+                "La incorporación de la finalidad natural como motor del desarrollo de las especies más complejas.",
+                "La afirmación de que la evolución de las especies es completamente aleatoria y no puede ser explicada por ningún mecanismo discernible.",
+                "La concepción del surgimiento de las especies animales como resultado de un proceso mecánico de diseño sin diseñador."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-c22e2be662be2134"
+            },
+            {
+              "e": "12",
+              "p": "¿Cuál de las siguientes descripciones caracteriza de mejor manera la noción de las partes metafísicas de una matriz disciplinaria para Kuhn?",
+              "o": [
+                "La ecuación V = I R expresa, para la comunidad de físicos y técnicos eléctricos, una relación entre tres magnitudes: tensión (V), corriente (I) y resistencia (R).",
+                "Los físicos comparten la creencia en el modelo ontológico por el cual la materia se encuentra compuesta por átomos.",
+                "La comunidad científica de físicos comparte los criterios de simplicidad y coherencia para evaluar las teorías científicas.",
+                "El problema del péndulo simple constituye, para la comunidad de físicos, un caso que permite transmitir la teoría del movimiento simple y ejercitar su aplicación."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-1707e2c03a74c935"
+            },
+            {
+              "e": "13",
+              "p": "Según el texto de Villaruel-Fuentes, en el contexto de la investigación científica, ¿cómo se les suele denominar también a los sesgos cognitivos? Seleccione la opción correcta:",
+              "o": [
+                "Artefactos.",
+                "Anomalías.",
+                "Ilusiones inferenciales.",
+                "Heurísticos irracionales."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-5bca03c8a57467e5"
+            },
+            {
+              "e": "14",
+              "p": "Según Richaud, ¿Cuáles son los requisitos que debe cumplir la observación científica? Seleccione la respuesta correcta:",
+              "o": [
+                "Que sea propósito de una investigación con un problema formulado previamente, que haya sido sistemáticamente planificada, que sus resultados se presenten sistemáticamente y se relacionen con proposiciones generales, sin necesidad de que se someta a control respecto de su validez, precisión y confiabilidad.",
+                "Que sea propósito de una indagación con un problema formulado previamente, que permita los hallazgos fortuitos para asociar a otros fenómenos de interés, incluyendo proposiciones generales y datos particulares, que se someta a control respecto de su validez, confiabilidad y precisión.",
+                "Que sea propósito de una investigación con un problema formulado previamente, que permita la integración de hallazgos fortuitos en el contexto de la observación como resultado de la indagación, que sistematice resultados, proposiciones generales y eventos fortuitos, y que se someta a control respecto de su validez, precisión y confiabilidad.",
+                "Que sea propósito de una investigación con un problema formulado previamente, que haya sido sistemáticamente planificada, que sus resultados se presenten sistemáticamente y se relacionen con proposiciones generales, y que se someta a control respecto de su validez, precisión y confiabilidad."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-87da39124c45b375"
+            },
+            {
+              "e": "15",
+              "p": "Según lo expuesto por Villarruel-Fuentes, ¿cómo se denomina el sesgo que se basa en la observación de patrones donde no los hay? Seleccione la opción correcta:",
+              "o": [
+                "Ilusión de serie o apofenia",
+                "Efecto de encuadre",
+                "Sesgo de observación selectiva",
+                "Sesgo de sujeto experimentador"
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-f86e66515bf65066"
+            },
+            {
+              "e": "16",
+              "p": "Siguiendo lo propuesto por Gibbons et al, ¿cuál de las siguientes características es propia del modo 1 de producción del conocimiento?",
+              "o": [
+                "Involucra diversidad de instituciones como universidades, empresas, ONGs, y gobiernos.",
+                "Se produce en contextos de aplicación, en interacción con actores sociales, económicos y políticos.",
+                "La investigación se realiza dentro de disciplinas específicas.",
+                "Evalúa la calidad no solo por criterios científicos, sino también por relevancia social, utilidad y responsabilidad."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-10a2a19af7e3f9a9"
+            },
+            {
+              "e": "17",
+              "p": "¿Cuál de las siguientes definiciones se corresponde con la función \"extensión universitaria\" de las universidades en nuestro país?",
+              "o": [
+                "Formación de profesionales, científicos y ciudadanos críticos, éticos y comprometidos socialmente, tanto en el nivel de grado como de posgrado.",
+                "Generación de conocimiento original a través de prácticas científicas y académicas, en diversas áreas del saber, con impacto tanto disciplinar como social.",
+                "Interacción con la comunidad para compartir saberes, promover el desarrollo social y cultural, y generar transformaciones en diálogo con actores sociales.",
+                "Aplicación del conocimiento científico y técnico para resolver problemas concretos de sectores productivos, estatales o comunitarios. Incluye innovación, patentes, convenios con empresas u organismos, etc."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-e38de7919d8edf23"
+            },
+            {
+              "e": "18",
+              "p": "Roebrt Merton (1938) postuló el concepto de Ethos en la ciencia. Dicho concepto está formado por varias aristas, seleccione la respuesta correcta que incluye tres de ellos:",
+              "o": [
+                "Integridad, ética y moral.",
+                "Confianza, honestidad intelectual y personalización.",
+                "Honestidad intelectual, comunismo gnoseológico e imparcialidad.",
+                "Parcialidad, escepticismo organizado y ética."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-29fa659e8a74bbcb"
+            },
+            {
+              "e": "19",
+              "p": "Siguiendo el texto de Tauro et al, ¿cuál de las siguientes afirmaciones acerca de las academias nacionales es correcta?",
+              "o": [
+                "Las Academias Nacionales están orientadas principalmente a la formación profesional de estudiantes universitarios en carreras científicas.",
+                "Las Academias Nacionales forman parte del sistema científico-tecnológico, pero tienen como misión principal la producción de conocimiento aplicado en contextos productivos",
+                "Las Academias Nacionales reúnen a especialistas de diversas disciplinas que actúan como referentes en sus campos, aportando opiniones fundadas a cuestiones de interés público.",
+                "Las Academias Nacionales tienen un carácter efímero y suelen ser convocadas únicamente en situaciones de emergencia sanitaria o educativa."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-bbc1fe631ced4016"
+            },
+            {
+              "e": "20",
+              "p": "Teniendo en cuenta las consideraciones de Contreras y Ochoa Jiménez, ¿cuál de las siguientes afirmaciones acerca del proceso de revisión por pares es correcta?",
+              "o": [
+                "La revisión por pares consiste en una discusión científica entre autores, editores y revisores, que valida el manuscrito antes de su publicación.",
+                "Las revistas publican todos los manuscritos que pasan por revisión por pares, siempre que los revisores no se opongan.",
+                "Los revisores son seleccionados por el autor del manuscrito y su evaluación tiene un carácter meramente informal.",
+                "El principal objetivo de la revisión por pares es detectar errores de estilo y formato antes de la publicación."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-7f1b1f629e46376a"
+            }
+          ]
+        },
+        {
+          "id": "t4",
+          "n": "Tema 4",
+          "fuente": "IPC_2025_E.docx",
+          "aviso": "Claves y explicaciones del documento resuelto. Se asigna 0,50 por consigna para completar 10 puntos, ya que el original no indica puntajes.",
+          "qs": [
+            {
+              "e": "1",
+              "p": "Teniendo en cuenta las consideraciones de Contreras y Ochoa Jiménez, ¿cuál de las siguientes afirmaciones acerca del proceso de revisión por pares es correcta?",
+              "o": [
+                "Los revisores son seleccionados por el autor del manuscrito y su evaluación tiene un carácter meramente informal.",
+                "El principal objetivo de la revisión por pares es detectar errores de estilo y formato antes de la publicación.",
+                "La revisión por pares consiste en una discusión científica entre autores, editores y revisores, que valida el manuscrito antes de su publicación.",
+                "Las revistas publican todos los manuscritos que pasan por revisión por pares, siempre que los revisores no se opongan."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-14c8461ce8bb369f"
+            },
+            {
+              "e": "2",
+              "p": "Siguiendo el texto de Tauro et al, ¿cuál de las siguientes afirmaciones acerca de las academias nacionales es correcta?",
+              "o": [
+                "Las Academias Nacionales reúnen a especialistas de diversas disciplinas que actúan como referentes en sus campos, aportando opiniones fundadas a cuestiones de interés público.",
+                "Las Academias Nacionales tienen un carácter efímero y suelen ser convocadas únicamente en situaciones de emergencia sanitaria o educativa.",
+                "Las Academias Nacionales están orientadas principalmente a la formación profesional de estudiantes universitarios en carreras científicas.",
+                "Las Academias Nacionales forman parte del sistema científico-tecnológico, pero tienen como misión principal la producción de conocimiento aplicado en contextos productivos"
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-bbc1fe631ced4016"
+            },
+            {
+              "e": "3",
+              "p": "¿Cómo se caracteriza la demarcación científica según Bunge? Seleccione la opción correcta:",
+              "o": [
+                "Se basa en la caracterización detallada de un campo epistémico.",
+                "Refiere a los datos e información provenientes del análisis de la evidencia.",
+                "Se construyó en base a valores epistémicos como la precisión o la consistencia.",
+                "Excluye actividades científicas que no se ocupan de probar constructos teóricos."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-7a3e8f92d00fb57f"
+            },
+            {
+              "e": "4",
+              "p": "¿Cuáles son los dos componentes esenciales del paradigma que desarrolla Kuhn? Elija la opción correcta:",
+              "o": [
+                "Matriz disciplinaria y componente sociológico.",
+                "Juicios de exactitud y valores compartidos.",
+                "Anomalías y generalizaciones simbólicas.",
+                "Componente empírico y componente teórico."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-9684d51f47550931"
+            },
+            {
+              "e": "5",
+              "p": "¿Cuál de las siguientes definiciones se corresponde con la función \"extensión universitaria\" de las universidades en nuestro país?",
+              "o": [
+                "Interacción con la comunidad para compartir saberes, promover el desarrollo social y cultural, y generar transformaciones en diálogo con actores sociales.",
+                "Aplicación del conocimiento científico y técnico para resolver problemas concretos de sectores productivos, estatales o comunitarios. Incluye innovación, patentes, convenios con empresas u organismos, etc.",
+                "Formación de profesionales, científicos y ciudadanos críticos, éticos y comprometidos socialmente, tanto en el nivel de grado como de posgrado.",
+                "Generación de conocimiento original a través de prácticas científicas y académicas, en diversas áreas del saber, con impacto tanto disciplinar como social."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-e38de7919d8edf23"
+            },
+            {
+              "e": "6",
+              "p": "Larry Laudan postula un modelo de desarrollo y cambio científico basado en: (Seleccione la respuesta correcta)",
+              "o": [
+                "La falsación de teorías científicas.",
+                "La ciencia madura.",
+                "El triunfo de un nuevo paradigma sobre el viejo.",
+                "La solución de problemas empíricos y conceptuales."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-040969b8a96d771c"
+            },
+            {
+              "e": "7",
+              "p": "Siguiendo lo propuesto por Gibbons et al, ¿cuál de las siguientes características es propia del modo 1 de producción del conocimiento?",
+              "o": [
+                "Evalúa la calidad no solo por criterios científicos, sino también por relevancia social, utilidad y responsabilidad.",
+                "Involucra diversidad de instituciones como universidades, empresas, ONGs, y gobiernos.",
+                "Se produce en contextos de aplicación, en interacción con actores sociales, económicos y políticos.",
+                "La investigación se realiza dentro de disciplinas específicas."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-10a2a19af7e3f9a9"
+            },
+            {
+              "e": "8",
+              "p": "¿Cuál de las siguientes descripciones caracteriza de mejor manera la noción de las partes metafísicas de una matriz disciplinaria para Kuhn?",
+              "o": [
+                "Los físicos comparten la creencia en el modelo ontológico por el cual la materia se encuentra compuesta por átomos.",
+                "La comunidad científica de físicos comparte los criterios de simplicidad y coherencia para evaluar las teorías científicas.",
+                "El problema del péndulo simple constituye, para la comunidad de físicos, un caso que permite transmitir la teoría del movimiento simple y ejercitar su aplicación.",
+                "La ecuación V = I R expresa, para la comunidad de físicos y técnicos eléctricos, una relación entre tres magnitudes: tensión (V), corriente (I) y resistencia (R)."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-1707e2c03a74c935"
+            },
+            {
+              "e": "9",
+              "p": "Según lo expuesto por Villarruel-Fuentes, ¿cómo se denomina el sesgo que se basa en la observación de patrones donde no los hay? Seleccione la opción correcta:",
+              "o": [
+                "Efecto de encuadre",
+                "Sesgo de sujeto experimentador",
+                "Sesgo de observación selectiva",
+                "Ilusión de serie o apofenia"
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-f86e66515bf65066"
+            },
+            {
+              "e": "10",
+              "p": "Según lo abordado en el texto de Vizioli et. al., ¿Cuál de las siguientes es una característica de la pseudociencia? Seleccione la opción correcta:",
+              "o": [
+                "Confianza excesiva en la falsación.",
+                "Falta de hipótesis ad hoc.",
+                "Ausencia de conectividad con otras disciplinas.",
+                "Exceso de revisión por pares."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-ada8dc12483fcfe2"
+            },
+            {
+              "e": "11",
+              "p": "Considerando el texto de Ayala, ¿cuál de las siguientes particularidades representa la principal novedad de la teoría de Darwin?",
+              "o": [
+                "La afirmación de que la evolución de las especies es completamente aleatoria y no puede ser explicada por ningún mecanismo discernible.",
+                "La concepción del surgimiento de las especies animales como resultado de un proceso mecánico de diseño sin diseñador.",
+                "La idea de que todas las especies actuales fueron creadas simultáneamente y adaptadas desde el inicio a su entorno.",
+                "La incorporación de la finalidad natural como motor del desarrollo de las especies más complejas."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-c22e2be662be2134"
+            },
+            {
+              "e": "12",
+              "p": "La revisión sistemática es uno de los estudios más utilizados en la investigación clínica de las ciencias de la salud. ¿En qué consisten las revisiones sistemáticas? Elija la opción correcta:",
+              "o": [
+                "Son revisiones de artículos ya publicados o síntesis de fuentes primarias.",
+                "Son estudios prospectivos que comparan el efecto de una intervención con otra o con un control.",
+                "Se realizan mediciones en una sola ocasión, sin seguimientos",
+                "Se realizan seguimientos a grupos de sujetos para determinar el pronóstico o la historia natural de un fenómeno de interés, de presente a futuro, a partir de la exposición a un factor."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-800b5dfd0d06cff4"
+            },
+            {
+              "e": "13",
+              "p": "Un psicólogo está investigando si las personas que meditan regularmente tienen niveles más bajos de ansiedad. Cree firmemente que la meditación es beneficiosa para la salud mental, ya que él mismo medita y ha leído muchos artículos positivos sobre el tema. Durante su estudio, realiza entrevistas y aplica cuestionarios a dos grupos: personas que meditan y personas que no. Al analizar los resultados, da más peso a los datos que muestran menor ansiedad en los meditadores y minimiza o ignora los casos en los que personas que meditan reportan niveles altos de ansiedad. Según lo expuesto por Villarruel-Fuentes, ¿qué sesgo está evidenciando esta situación? Seleccione la opción correcta:",
+              "o": [
+                "Anclaje",
+                "Sesgo de confirmación",
+                "Efecto Halo",
+                "Efecto de encuadre"
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-52c1627d18e702ab"
+            },
+            {
+              "e": "14",
+              "p": "¿Cuál de las siguientes afirmaciones sobre el modelo cosmológico copernicano es correcta?",
+              "o": [
+                "El heliocentrismo de Copérnico fue recibido como una reafirmación del lugar central del ser humano en el universo.",
+                "El modelo copernicano fue aceptado de inmediato porque ofrecía explicaciones a fenómenos que el modelo de las dos esferas no podía explicar.",
+                "Si bien el modelo heliocéntrico era una teoría científica más entre otras, trajo aparejada una cantidad considerable de consecuencias extra científicas.",
+                "El modelo copernicano fue irrelevante fuera del ámbito científico, ya que su contenido no afectaba la visión filosófica o religiosa del mundo."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-9a902773d752213c"
+            },
+            {
+              "e": "15",
+              "p": "¿Cuál de las siguientes afirmaciones sobre el modelo cosmológico de las dos esferas es correcta?",
+              "o": [
+                "El modelo de las dos esferas fue rápidamente abandonado al demostrarse que no podía predecir ningún tipo de fenómeno astronómico observable.",
+                "El modelo de las dos esferas fue una construcción simbólica sin valor explicativo, creada únicamente con fines religiosos y sin relación con la observación astronómica.",
+                "La teoría de las dos esferas fue rápidamente aceptada socialmente porque era compatible con los fenómenos observables y no entraba en contradicción con las creencias religiosas de su época.",
+                "La teoría de las dos esferas establecía una cosmología psicológicamente satisfactoria que adicionalmente era coincidente con los fenómenos observados y los explicaba."
+              ],
+              "pts": 0.5,
+              "c": 3,
+              "k": "ipc-3fc3496d56492fc6"
+            },
+            {
+              "e": "16",
+              "p": "Según el texto de Villaruel-Fuentes, en el contexto de la investigación científica, ¿cómo se les suele denominar también a los sesgos cognitivos? Seleccione la opción correcta:",
+              "o": [
+                "Heurísticos irracionales.",
+                "Ilusiones inferenciales.",
+                "Artefactos.",
+                "Anomalías."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-5bca03c8a57467e5"
+            },
+            {
+              "e": "17",
+              "p": "Según Richaud, ¿Cuáles son los requisitos que debe cumplir la observación científica? Seleccione la respuesta correcta:",
+              "o": [
+                "Que sea propósito de una indagación con un problema formulado previamente, que permita los hallazgos fortuitos para asociar a otros fenómenos de interés, incluyendo proposiciones generales y datos particulares, que se someta a control respecto de su validez, confiabilidad y precisión.",
+                "Que sea propósito de una investigación con un problema formulado previamente, que permita la integración de hallazgos fortuitos en el contexto de la observación como resultado de la indagación, que sistematice resultados, proposiciones generales y eventos fortuitos, y que se someta a control respecto de su validez, precisión y confiabilidad.",
+                "Que sea propósito de una investigación con un problema formulado previamente, que haya sido sistemáticamente planificada, que sus resultados se presenten sistemáticamente y se relacionen con proposiciones generales, y que se someta a control respecto de su validez, precisión y confiabilidad.",
+                "Que sea propósito de una investigación con un problema formulado previamente, que haya sido sistemáticamente planificada, que sus resultados se presenten sistemáticamente y se relacionen con proposiciones generales, sin necesidad de que se someta a control respecto de su validez, precisión y confiabilidad."
+              ],
+              "pts": 0.5,
+              "c": 2,
+              "k": "ipc-87da39124c45b375"
+            },
+            {
+              "e": "18",
+              "p": "¿Cuál de las siguientes descripciones describe adecuadamente el bucle de retroalimentación de la ciencia moderna según Harari?",
+              "o": [
+                "El desarrollo científico depende exclusivamente del progreso tecnológico que se obtiene por medio de la intervención de la política o de recursos financieros externos.",
+                "Las instituciones políticas y económicas proporcionan los recursos sin los cuales la investigación científica sería imposible y, a su vez, los descubrimientos científicos aportan nuevos poderes que permiten obtener más y nuevos recursos.",
+                "La ciencia moderna produce avances importantes, pero rara vez estos resultan útiles para las instituciones políticas o económicas, que operan en lógicas distintas.",
+                "Los avances científicos son posibles sólo cuando las instituciones políticas permiten a los científicos investigar sin ningún tipo de interés económico de por medio."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-4391eb33ae6ee372"
+            },
+            {
+              "e": "19",
+              "p": "Complete la siguiente afirmación: \"Según Harari, para la ciencia moderna la observación y las matemáticas son centrales, dado que...\"",
+              "o": [
+                "\"...el método científico requiere observar fenómenos naturales, aunque la interpretación matemática de estos datos no es considerada parte esencial del conocimiento científico\"",
+                "\"...pretende reunir nuevos conocimientos a través de la recolección de datos empíricos y su sistematización en teorías generales mediante el uso de herramientas numéricas\".",
+                "\"...el conocimiento científico surge de la observación directa, sin necesidad de organizar los datos en modelos abstractos o sistemáticos\"",
+                "\"...el conocimiento científico auténtico se produce cuando los fenómenos del mundo pueden describirse completamente mediante fórmulas matemáticas, sin necesidad de observación directa\"."
+              ],
+              "pts": 0.5,
+              "c": 1,
+              "k": "ipc-68e8930ec5de5a45"
+            },
+            {
+              "e": "20",
+              "p": "Roebrt Merton (1938) postuló el concepto de Ethos en la ciencia. Dicho concepto está formado por varias aristas, seleccione la respuesta correcta que incluye tres de ellos:",
+              "o": [
+                "Honestidad intelectual, comunismo gnoseológico e imparcialidad.",
+                "Parcialidad, escepticismo organizado y ética.",
+                "Confianza, honestidad intelectual y personalización.",
+                "Integridad, ética y moral."
+              ],
+              "pts": 0.5,
+              "c": 0,
+              "k": "ipc-29fa659e8a74bbcb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buacar-2024-10-25",
+      "nombre": "2º parcial · 25/10/2024",
+      "catedra": "A · Buacar, Natalia",
+      "fecha": "2024-10-25",
+      "detalle": "Cátedra A · Buacar, Natalia. 10 ejercicios de 1 punto. Sin puntaje parcial.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "IPC_2024_B.pdf",
+          "paginas": [
+            1,
+            3
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿La reducción del consumo de sodio disminuye la presión arterial en adultos? Preocupados por la salud cardiovascular de los adultos, investigadores de la Universidad de Harvard realizaron un estudio para determinar si se puede disminuir su presión arterial mediante la reducción del consumo de un mineral que se presenta de manera natural en la mayoría de los alimentos, el sodio. Para probarlo, entre voluntarios adultos seleccionaron un grupo y le indicaron una dieta baja en sodio, mientras que otro grupo mantuvo su dieta habitual con niveles medios de sodio. Asumiendo que un mes era suficiente para que se manifestaran los efectos de un cambio en la dieta sobre la presión arterial, al cabo de ese tiempo midieron los valores de las presiones arteriales de ambos grupos y los compararon con los valores originales. Los resultados mostraron que el grupo que siguió la dieta baja en sodio experimentó una disminución significativa en los valores de su presión arterial que no se registró en el grupo de control.",
+              "o": [
+                "El grupo de control no modificará su dieta habitual.",
+                "La reducción del consumo de sodio disminuye la presión arterial en adultos.",
+                "El sodio es un mineral que se presenta de manera natural en la mayoría de los alimentos.",
+                "El grupo que siga una dieta baja en sodio experimentará una disminución en los valores de su presión arterial.",
+                "El control periódico de la presión arterial mejora la salud cardiovascular de los adultos.",
+                "Un mes es un tiempo suficiente para que se manifiesten los efectos de un cambio en la dieta sobre la presión arterial."
+              ],
+              "c": 1,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿La reducción del consumo de sodio disminuye la presión arterial en adultos? Preocupados por la salud cardiovascular de los adultos, investigadores de la Universidad de Harvard realizaron un estudio para determinar si se puede disminuir su presión arterial mediante la reducción del consumo de un mineral que se presenta de manera natural en la mayoría de los alimentos, el sodio. Para probarlo, entre voluntarios adultos seleccionaron un grupo y le indicaron una dieta baja en sodio, mientras que otro grupo mantuvo su dieta habitual con niveles medios de sodio. Asumiendo que un mes era suficiente para que se manifestaran los efectos de un cambio en la dieta sobre la presión arterial, al cabo de ese tiempo midieron los valores de las presiones arteriales de ambos grupos y los compararon con los valores originales. Los resultados mostraron que el grupo que siguió la dieta baja en sodio experimentó una disminución significativa en los valores de su presión arterial que no se registró en el grupo de control.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "El grupo de control no modificará su dieta habitual.",
+                "La reducción del consumo de sodio disminuye la presión arterial en adultos.",
+                "El sodio es un mineral que se presenta de manera natural en la mayoría de los alimentos.",
+                "El grupo que siga una dieta baja en sodio experimentará una disminución en los valores de su presión arterial.",
+                "El control periódico de la presión arterial mejora la salud cardiovascular de los adultos.",
+                "Un mes es un tiempo suficiente para que se manifiesten los efectos de un cambio en la dieta sobre la presión arterial."
+              ],
+              "c": 5,
+              "k": "ipc-b61f5077cd1e84d4"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con la postura inductivista crítica de Hempel.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿La reducción del consumo de sodio disminuye la presión arterial en adultos? Preocupados por la salud cardiovascular de los adultos, investigadores de la Universidad de Harvard realizaron un estudio para determinar si se puede disminuir su presión arterial mediante la reducción del consumo de un mineral que se presenta de manera natural en la mayoría de los alimentos, el sodio. Para probarlo, entre voluntarios adultos seleccionaron un grupo y le indicaron una dieta baja en sodio, mientras que otro grupo mantuvo su dieta habitual con niveles medios de sodio. Asumiendo que un mes era suficiente para que se manifestaran los efectos de un cambio en la dieta sobre la presión arterial, al cabo de ese tiempo midieron los valores de las presiones arteriales de ambos grupos y los compararon con los valores originales. Los resultados mostraron que el grupo que siguió la dieta baja en sodio experimentó una disminución significativa en los valores de su presión arterial que no se registró en el grupo de control.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "verdadera",
+                    "verificada",
+                    "válida",
+                    "corroborada",
+                    "confirmada"
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque las consecuencias observacionales verificadas solo permiten afirmar que la hipótesis de la que se deducen no ha sido refutada hasta ahora.",
+                    "porque la hipótesis recibe apoyo inductivo a partir de los casos favorables observados.",
+                    "porque la validez de la hipótesis queda establecida de modo concluyente cuando supera varios intentos de refutación.",
+                    "porque ante el hallazgo de suficientes casos favorables la hipótesis contrastada se considera verdadera de modo definitivo."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-921d1833e114855f"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Los tres lados de un triángulo equilátero tienen igual longitud.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque está confirmado.",
+                    "porque está verificado mediante la experiencia.",
+                    "porque no tiene falsadores potenciales."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-33a6c6a730a09433"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Camila está sintiendo dolor de estómago. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Comer alimentos en mal estado produce dolor de estómago al día siguiente.",
+                    "Camila comió sushi en mal estado anoche.",
+                    "Camila suele ir a restaurantes que no preparan comida saludable.",
+                    "Casi siempre, comer alimentos en mal estado produce dolor de estómago un día después.",
+                    "Camila está extremadamente estresada desde hace unos días."
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Comer alimentos en mal estado produce dolor de estómago al día siguiente.",
+                    "Camila comió sushi en mal estado anoche.",
+                    "Camila suele ir a restaurantes que no preparan comida saludable.",
+                    "Casi siempre, comer alimentos en mal estado produce dolor de estómago un día después.",
+                    "Camila está extremadamente estresada desde hace unos días."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-1c89178736f7d4c4"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. En el período pre-científico...",
+              "o": [
+                "existen marcos conceptuales o metodológicos comunes y unificados.",
+                "las diversas escuelas de investigación trabajan bajo un mismo paradigma.",
+                "hay una comunidad científica.",
+                "cada escuela posee sus propios presupuestos y creencias acerca de la labor científica."
+              ],
+              "c": 3,
+              "k": "ipc-1c87cba8c9cb679a"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Jocelyn Bell Burnell es una astrofísica británica nacida en 1943, reconocida principalmente por su descubrimiento de los púlsares, un tipo de estrella de neutrones altamente magnetizada que emite radiación en intervalos regulares. En 1967, mientras trabajaba como estudiante de posgrado bajo la supervisión de Antony Hewish en la Universidad de Cambridge, Bell Burnell detectó una señal inusual en los datos de un radiotelescopio que ella misma había ayudado a construir. Esta señal resultó ser la primera observación de un púlsar. Pese a ser la responsable de este descubrimiento fundamental para la astrofísica, quienes recibieron el premio Nobel por el descubrimiento de los púlsares fueron su antiguo director de posgrado, Hewish, y su compañero de laboratorio, Martin Ryle.",
+              "o": [
+                "Omisiones selectivas en la historia de la ciencia / efecto Matilda.",
+                "Aplicaciones sexistas.",
+                "Exclusión y marginalización.",
+                "Teorías sexistas."
+              ],
+              "c": 0,
+              "k": "ipc-848e29295906b657"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "La crítica intersubjetiva dentro de la comunidad científica permite detectar los sesgos en la ciencia.",
+                "Basta con apelar a la lógica y la evidencia empírica para que la ciencia sea objetiva.",
+                "Solo la perspectiva de las mujeres puede identificar la desigualdad de género como una construcción social contingente.",
+                "La figura del científico individual, objetivo y neutral no existe."
+              ],
+              "c": 2,
+              "k": "ipc-9770fc0fea87b10e"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. La depresión es una de las enfermedades mentales más frecuentes en el mundo. En esta situación, crece la evidencia que sugiere una relación entre el sistema inmunológico y la depresión. Un equipo de investigación liderado por Federico Daray y Andrea Errasti, especialistas del CONICET en el Instituto de Farmacología (UBA), analiza si es posible diagnosticar a los pacientes con depresión a través del análisis de la respuesta inmune en sangre. En un primer resultado de su investigación lograron, a partir de marcadores en sangre, diagnosticarla con una precisión de más del 80 por ciento. Esta investigación en ciencia aplicada se propone complementar las evaluaciones clínicas para el diagnóstico de la depresión y lograr formas más personalizadas de tratamientos inmunológicos en pacientes depresivos.",
+              "o": [
+                "No, porque investigaciones enfocadas en el desarrollo de un nuevo método de diagnóstico de la depresión no promueven el pensamiento crítico y la formación de ciudadanos para una democracia.",
+                "Sí, porque mejorar las formas de diagnóstico de la depresión tiene un impacto sobre un problema de salud mental muy extendido en la población.",
+                "No, porque el desarrollo de un nuevo método de diagnóstico de la depresión no contribuye inmediatamente al desarrollo económico del país.",
+                "Sí, porque es valioso en sí mismo, con independencia de su utilidad, estudiar la relación entre el sistema inmunitario y la depresión."
+              ],
+              "c": 1,
+              "k": "ipc-d8d0f93b875036c7"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: Los fertilizantes químicos son una tecnología que mejora el rendimiento agrícola. Conclusión: Es correcto aplicar fertilizantes químicos a los cultivos agrícolas. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "El uso de fertilizantes químicos debe ser controlado para evitar daños ambientales.",
+                "Debemos implementar tecnologías que mejoren el rendimiento agrícola.",
+                "Los cultivos transgénicos son más resistentes a las plagas que los cultivos tradicionales.",
+                "El rendimiento agrícola es una prioridad para la seguridad alimentaria."
+              ],
+              "c": 1,
+              "k": "ipc-7a924a307e359737"
+            }
+          ]
+        },
+        {
+          "id": "t2",
+          "n": "Tema 2",
+          "fuente": "IPC_2024_B.pdf",
+          "paginas": [
+            4,
+            6
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿La reducción del consumo de sodio disminuye la presión arterial en adultos? Preocupados por la salud cardiovascular de los adultos, investigadores de la Universidad de Harvard realizaron un estudio para determinar si se puede disminuir su presión arterial mediante la reducción del consumo de un mineral que se presenta de manera natural en la mayoría de los alimentos, el sodio. Para probarlo, entre voluntarios adultos seleccionaron un grupo y le indicaron una dieta baja en sodio, mientras que otro grupo mantuvo su dieta habitual con niveles medios de sodio. Asumiendo que un mes era suficiente para que se manifestaran los efectos de un cambio en la dieta sobre la presión arterial, al cabo de ese tiempo midieron los valores de las presiones arteriales de ambos grupos y los compararon con los valores originales. Los resultados mostraron que el grupo que siguió la dieta baja en sodio experimentó una disminución significativa en los valores de su presión arterial que no se registró en el grupo de control.",
+              "o": [
+                "El grupo de control no modificará su dieta habitual.",
+                "El grupo que siga una dieta baja en sodio experimentará una disminución en los valores de su presión arterial.",
+                "Un mes es un tiempo suficiente para que se manifiesten los efectos de un cambio en la dieta sobre la presión arterial.",
+                "El control periódico de la presión arterial mejora la salud cardiovascular de los adultos.",
+                "El sodio es un mineral que se presenta de manera natural en la mayoría de los alimentos.",
+                "La reducción del consumo de sodio disminuye la presión arterial en adultos."
+              ],
+              "c": 5,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿La reducción del consumo de sodio disminuye la presión arterial en adultos? Preocupados por la salud cardiovascular de los adultos, investigadores de la Universidad de Harvard realizaron un estudio para determinar si se puede disminuir su presión arterial mediante la reducción del consumo de un mineral que se presenta de manera natural en la mayoría de los alimentos, el sodio. Para probarlo, entre voluntarios adultos seleccionaron un grupo y le indicaron una dieta baja en sodio, mientras que otro grupo mantuvo su dieta habitual con niveles medios de sodio. Asumiendo que un mes era suficiente para que se manifestaran los efectos de un cambio en la dieta sobre la presión arterial, al cabo de ese tiempo midieron los valores de las presiones arteriales de ambos grupos y los compararon con los valores originales. Los resultados mostraron que el grupo que siguió la dieta baja en sodio experimentó una disminución significativa en los valores de su presión arterial que no se registró en el grupo de control.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "El grupo de control no modificará su dieta habitual.",
+                "El grupo que siga una dieta baja en sodio experimentará una disminución en los valores de su presión arterial.",
+                "Un mes es un tiempo suficiente para que se manifiesten los efectos de un cambio en la dieta sobre la presión arterial.",
+                "El control periódico de la presión arterial mejora la salud cardiovascular de los adultos.",
+                "El sodio es un mineral que se presenta de manera natural en la mayoría de los alimentos.",
+                "La reducción del consumo de sodio disminuye la presión arterial en adultos."
+              ],
+              "c": 1,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con la postura inductivista crítica de Hempel.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿La reducción del consumo de sodio disminuye la presión arterial en adultos? Preocupados por la salud cardiovascular de los adultos, investigadores de la Universidad de Harvard realizaron un estudio para determinar si se puede disminuir su presión arterial mediante la reducción del consumo de un mineral que se presenta de manera natural en la mayoría de los alimentos, el sodio. Para probarlo, entre voluntarios adultos seleccionaron un grupo y le indicaron una dieta baja en sodio, mientras que otro grupo mantuvo su dieta habitual con niveles medios de sodio. Asumiendo que un mes era suficiente para que se manifestaran los efectos de un cambio en la dieta sobre la presión arterial, al cabo de ese tiempo midieron los valores de las presiones arteriales de ambos grupos y los compararon con los valores originales. Los resultados mostraron que el grupo que siguió la dieta baja en sodio experimentó una disminución significativa en los valores de su presión arterial que no se registró en el grupo de control.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "válida",
+                    "verdadera",
+                    "confirmada",
+                    "corroborada",
+                    "verificada"
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque la hipótesis recibe apoyo inductivo a partir de los casos favorables observados.",
+                    "porque ante el hallazgo de suficientes casos favorables la hipótesis contrastada se considera verdadera de modo definitivo.",
+                    "porque la validez de la hipótesis queda establecida de modo concluyente cuando supera varios intentos de refutación.",
+                    "porque las consecuencias observacionales verificadas solo permiten afirmar que la hipótesis de la que se deducen no ha sido refutada hasta ahora."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-921d1833e114855f"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Los tres lados de un triángulo equilátero tienen igual longitud.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque no tiene falsadores potenciales.",
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque está confirmado.",
+                    "porque está verificado mediante la experiencia."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-33a6c6a730a09433"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Camila está sintiendo dolor de estómago. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Casi siempre, comer alimentos en mal estado produce dolor de estómago un día después.",
+                    "Camila suele ir a restaurantes que no preparan comida saludable.",
+                    "Comer alimentos en mal estado produce dolor de estómago al día siguiente.",
+                    "Camila está extremadamente estresada desde hace unos días.",
+                    "Camila comió sushi en mal estado anoche."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Casi siempre, comer alimentos en mal estado produce dolor de estómago un día después.",
+                    "Camila suele ir a restaurantes que no preparan comida saludable.",
+                    "Comer alimentos en mal estado produce dolor de estómago al día siguiente.",
+                    "Camila está extremadamente estresada desde hace unos días.",
+                    "Camila comió sushi en mal estado anoche."
+                  ],
+                  "c": 4
+                }
+              ],
+              "k": "ipc-1c89178736f7d4c4"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. En el período pre-científico...",
+              "o": [
+                "existen marcos conceptuales o metodológicos comunes y unificados.",
+                "cada escuela posee sus propios presupuestos y creencias acerca de la labor científica.",
+                "hay una comunidad científica.",
+                "las diversas escuelas de investigación trabajan bajo un mismo paradigma."
+              ],
+              "c": 1,
+              "k": "ipc-1c87cba8c9cb679a"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Jocelyn Bell Burnell es una astrofísica británica nacida en 1943, reconocida principalmente por su descubrimiento de los púlsares, un tipo de estrella de neutrones altamente magnetizada que emite radiación en intervalos regulares. En 1967, mientras trabajaba como estudiante de posgrado bajo la supervisión de Antony Hewish en la Universidad de Cambridge, Bell Burnell detectó una señal inusual en los datos de un radiotelescopio que ella misma había ayudado a construir. Esta señal resultó ser la primera observación de un púlsar. Pese a ser la responsable de este descubrimiento fundamental para la astrofísica, quienes recibieron el premio Nobel por el descubrimiento de los púlsares fueron su antiguo director de posgrado, Hewish, y su compañero de laboratorio, Martin Ryle.",
+              "o": [
+                "Aplicaciones sexistas.",
+                "Teorías sexistas.",
+                "Omisiones selectivas en la historia de la ciencia / efecto Matilda.",
+                "Exclusión y marginalización."
+              ],
+              "c": 2,
+              "k": "ipc-848e29295906b657"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "La figura del científico individual, objetivo y neutral no existe.",
+                "Basta con apelar a la lógica y la evidencia empírica para que la ciencia sea objetiva.",
+                "La crítica intersubjetiva dentro de la comunidad científica permite detectar los sesgos en la ciencia.",
+                "Solo la perspectiva de las mujeres puede identificar la desigualdad de género como una construcción social contingente."
+              ],
+              "c": 3,
+              "k": "ipc-9770fc0fea87b10e"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. La depresión es una de las enfermedades mentales más frecuentes en el mundo. En esta situación, crece la evidencia que sugiere una relación entre el sistema inmunológico y la depresión. Un equipo de investigación liderado por Federico Daray y Andrea Errasti, especialistas del CONICET en el Instituto de Farmacología (UBA), analiza si es posible diagnosticar a los pacientes con depresión a través del análisis de la respuesta inmune en sangre. En un primer resultado de su investigación lograron, a partir de marcadores en sangre, diagnosticarla con una precisión de más del 80 por ciento. Esta investigación en ciencia aplicada se propone complementar las evaluaciones clínicas para el diagnóstico de la depresión y lograr formas más personalizadas de tratamientos inmunológicos en pacientes depresivos.",
+              "o": [
+                "No, porque el desarrollo de un nuevo método de diagnóstico de la depresión no contribuye inmediatamente al desarrollo económico del país.",
+                "No, porque investigaciones enfocadas en el desarrollo de un nuevo método de diagnóstico de la depresión no promueven el pensamiento crítico y la formación de ciudadanos para una democracia.",
+                "Sí, porque mejorar las formas de diagnóstico de la depresión tiene un impacto sobre un problema de salud mental muy extendido en la población.",
+                "Sí, porque es valioso en sí mismo, con independencia de su utilidad, estudiar la relación entre el sistema inmunitario y la depresión."
+              ],
+              "c": 2,
+              "k": "ipc-d8d0f93b875036c7"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: Los fertilizantes químicos son una tecnología que mejora el rendimiento agrícola. Conclusión: Es correcto aplicar fertilizantes químicos a los cultivos agrícolas. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Los cultivos transgénicos son más resistentes a las plagas que los cultivos tradicionales.",
+                "El uso de fertilizantes químicos debe ser controlado para evitar daños ambientales.",
+                "Debemos implementar tecnologías que mejoren el rendimiento agrícola.",
+                "El rendimiento agrícola es una prioridad para la seguridad alimentaria."
+              ],
+              "c": 2,
+              "k": "ipc-300ae49b4356da53"
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "IPC_2024_B.pdf",
+          "paginas": [
+            7,
+            9
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Recientemente se ha buscado determinar si el fenómeno de los influencers en las redes sociales puede ser la causa de la baja autoestima que exhiben sus usuarios. En particular, el malestar en los usuarios podría deberse al tipo de contenido que muestran las publicaciones de los influencers, o podría deberse a su popularidad, que se manifiesta en grandes cantidades de reacciones tales como los “me gusta”. Según investigadoras de la Universidad de Tasmania, es la visualización de imágenes con contenido idealizado la que afecta de manera negativa el estado de ánimo. Estas imágenes muestran a personas en situaciones deseables y difíciles de alcanzar para la mayoría de la gente. Para probarlo, realizaron el siguiente experimento: mostraron a un grupo de personas imágenes con contenido idealizado y que contaban con muchas reacciones. A un segundo grupo le mostraron las mismas imágenes pero con pocas reacciones. Por último, a un tercer grupo le mostraron imágenes distintas, sin contenido idealizado y con pocas reacciones. Antes y después de ver las imágenes, les pidieron a los participantes que comunicaran su estado anímico mediante un formulario, puntuando en una escala del 1 al 5 según cuán conformes se sentían con ellos mismos. Asumieron que cuanto mayor es el puntaje en el cuestionario de un individuo mejor es su estado anímico y cuanto menor, peor. En los cuestionarios del primer y segundo grupo se observó un descenso de los puntajes con respecto a los iniciales, mientras que en los del tercero no.",
+              "o": [
+                "Los puntajes en los cuestionarios del primer y del segundo grupo descenderán con respecto a los iniciales, mientras que los del tercero no.",
+                "La publicación de imágenes con contenido idealizado genera más popularidad.",
+                "La visualización de imágenes con contenido idealizado afecta negativamente el estado de ánimo.",
+                "Los puntajes de los cuestionarios del tercer grupo descenderán con respecto a los iniciales, mientras que los del primero y el segundo no.",
+                "Cuanto mayor es el puntaje en el cuestionario de un individuo mejor es su estado anímico y cuanto menor, peor.",
+                "Los influencers tienen muchos seguidores."
+              ],
+              "c": 2,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Recientemente se ha buscado determinar si el fenómeno de los influencers en las redes sociales puede ser la causa de la baja autoestima que exhiben sus usuarios. En particular, el malestar en los usuarios podría deberse al tipo de contenido que muestran las publicaciones de los influencers, o podría deberse a su popularidad, que se manifiesta en grandes cantidades de reacciones tales como los “me gusta”. Según investigadoras de la Universidad de Tasmania, es la visualización de imágenes con contenido idealizado la que afecta de manera negativa el estado de ánimo. Estas imágenes muestran a personas en situaciones deseables y difíciles de alcanzar para la mayoría de la gente. Para probarlo, realizaron el siguiente experimento: mostraron a un grupo de personas imágenes con contenido idealizado y que contaban con muchas reacciones. A un segundo grupo le mostraron las mismas imágenes pero con pocas reacciones. Por último, a un tercer grupo le mostraron imágenes distintas, sin contenido idealizado y con pocas reacciones. Antes y después de ver las imágenes, les pidieron a los participantes que comunicaran su estado anímico mediante un formulario, puntuando en una escala del 1 al 5 según cuán conformes se sentían con ellos mismos. Asumieron que cuanto mayor es el puntaje en el cuestionario de un individuo mejor es su estado anímico y cuanto menor, peor. En los cuestionarios del primer y segundo grupo se observó un descenso de los puntajes con respecto a los iniciales, mientras que en los del tercero no.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Los puntajes en los cuestionarios del primer y del segundo grupo descenderán con respecto a los iniciales, mientras que los del tercero no.",
+                "La publicación de imágenes con contenido idealizado genera más popularidad.",
+                "La visualización de imágenes con contenido idealizado afecta negativamente el estado de ánimo.",
+                "Los puntajes de los cuestionarios del tercer grupo descenderán con respecto a los iniciales, mientras que los del primero y el segundo no.",
+                "Cuanto mayor es el puntaje en el cuestionario de un individuo mejor es su estado anímico y cuanto menor, peor.",
+                "Los influencers tienen muchos seguidores."
+              ],
+              "c": 4,
+              "k": "ipc-b61f5077cd1e84d4"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con el falsacionismo de Popper.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Recientemente se ha buscado determinar si el fenómeno de los influencers en las redes sociales puede ser la causa de la baja autoestima que exhiben sus usuarios. En particular, el malestar en los usuarios podría deberse al tipo de contenido que muestran las publicaciones de los influencers, o podría deberse a su popularidad, que se manifiesta en grandes cantidades de reacciones tales como los “me gusta”. Según investigadoras de la Universidad de Tasmania, es la visualización de imágenes con contenido idealizado la que afecta de manera negativa el estado de ánimo. Estas imágenes muestran a personas en situaciones deseables y difíciles de alcanzar para la mayoría de la gente. Para probarlo, realizaron el siguiente experimento: mostraron a un grupo de personas imágenes con contenido idealizado y que contaban con muchas reacciones. A un segundo grupo le mostraron las mismas imágenes pero con pocas reacciones. Por último, a un tercer grupo le mostraron imágenes distintas, sin contenido idealizado y con pocas reacciones. Antes y después de ver las imágenes, les pidieron a los participantes que comunicaran su estado anímico mediante un formulario, puntuando en una escala del 1 al 5 según cuán conformes se sentían con ellos mismos. Asumieron que cuanto mayor es el puntaje en el cuestionario de un individuo mejor es su estado anímico y cuanto menor, peor. En los cuestionarios del primer y segundo grupo se observó un descenso de los puntajes con respecto a los iniciales, mientras que en los del tercero no.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "verdadera",
+                    "verificada",
+                    "corroborada",
+                    "confirmada",
+                    "válida"
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque las consecuencias observacionales verificadas ofrecen apoyo inductivo a la hipótesis de la que se deducen.",
+                    "porque la validez de la hipótesis queda establecida luego de varios intentos de refutación.",
+                    "porque los casos favorables observados permiten establecer la verdad de la hipótesis de modo definitivo.",
+                    "porque se acepta provisoriamente la hipótesis luego del intento fallido de refutación."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-755d14dab5d84301"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. La fuerza vital fluye a través de los chakras energéticos.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque no tiene falsadores potenciales.",
+                    "porque puede ponerse a prueba con la experiencia.",
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque está verificado."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-eb70e4a5dd3d8a20"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Agustín está resfriado. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Agustín estuvo expuesto a bajas temperaturas durante la mañana de ayer.",
+                    "Agustín suele padecer mucho el frío.",
+                    "El 70% de las personas que están en contacto cercano con alguien resfriado durante más de una hora también se resfrían.",
+                    "Agustín estuvo en contacto cercano con su compañero de trabajo, que estaba resfriado, durante toda la tarde.",
+                    "Todas las personas que están en contacto cercano con alguien resfriado durante más de una hora también se resfrían."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Agustín estuvo expuesto a bajas temperaturas durante la mañana de ayer.",
+                    "Agustín suele padecer mucho el frío.",
+                    "El 70% de las personas que están en contacto cercano con alguien resfriado durante más de una hora también se resfrían.",
+                    "Agustín estuvo en contacto cercano con su compañero de trabajo, que estaba resfriado, durante toda la tarde.",
+                    "Todas las personas que están en contacto cercano con alguien resfriado durante más de una hora también se resfrían."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-3433fdb81b604e6f"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. En una comunidad científica...",
+              "o": [
+                "cada grupo de investigación sigue su propio paradigma.",
+                "no existen consensos acerca de cuáles son las teorías que permiten abordar mejor el mundo.",
+                "se comparten presupuestos generales acerca de cómo es el mundo.",
+                "se desarrollan diversas metodologías incompatibles entre sí."
+              ],
+              "c": 2,
+              "k": "ipc-3677f6450bd242ec"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Emmy Noether (1882-1935) fue una matemática alemana que revolucionó el campo del álgebra abstracta y la física teórica, siendo especialmente famosa por el Teorema de Noether, que vincula las simetrías en las leyes físicas con las leyes de conservación. A pesar de su brillantez, Noether enfrentó una fuerte discriminación a lo largo de su carrera por ser mujer: no pudo inscribirse como alumna regular y durante años trabajó como asistente no remunerada en la Universidad de Göttingen, debiendo ocultar su género. Pese a esta permanente desventaja, su trabajo ha sido tan significativo que hoy en día se la considera como una de las fundadoras de la matemática moderna.",
+              "o": [
+                "Teorías sexistas.",
+                "Omisiones selectivas en la historia de la ciencia / efecto Matilda.",
+                "Aplicaciones sexistas.",
+                "Exclusión y marginalización."
+              ],
+              "c": 3,
+              "k": "ipc-6ab696bf2e0cfb3b"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por la teoría feminista del punto de vista.",
+              "o": [
+                "El género es una faceta relevante del sujeto cognoscente cuando se produce conocimiento.",
+                "La interacción crítica dentro de la comunidad científica es necesaria para que la ciencia sea objetiva.",
+                "La lógica y la base empírica son suficientes para garantizar la objetividad de la ciencia.",
+                "Solo la perspectiva de la mujer puede representar correctamente intereses humanos universales."
+              ],
+              "c": 1,
+              "k": "ipc-0a4d7f9ca4212918"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. La bióloga Blumina Romero, becaria en el equipo de Estudios en Neurociencias y Sistemas Complejos (CONICET-UNAJ), busca estudiar los factores que impulsaron la diversidad fenotípica a lo largo de la evolución de los monos platirrinos (por ejemplo, los monos capuchinos, aulladores y titís pigmeos). Los órganos sensoriales (órganos de la visión, del olfato y de la audición) son un punto de partida muy útil para entender la relación entre la ecología y la morfología (la forma del organismo) de un grupo animal. Por ende, el objetivo de este proyecto de ciencia básica es descubrir y comprender algunos de los factores que impulsaron las diversas morfologías en los sistemas sensoriales a lo largo de la evolución de estos primates.",
+              "o": [
+                "No, porque el estudio de los monos platirrinos y su evolución no es el resultado de una demanda que la sociedad hace a la comunidad científica.",
+                "Sí, porque este tipo de trabajos son efectivos para promover el pensamiento crítico y la formación de ciudadanos para una democracia.",
+                "No, porque entender la relación entre la ecología y la morfología de un grupo animal no resuelve problemas prácticos ni contribuye inmediatamente al desarrollo económico del país.",
+                "Sí, porque es valioso en sí mismo comprender los factores que impulsaron la diversidad morfológica a lo largo de la evolución de los monos platirrinos, independientemente de si tendrá alguna aplicación en el futuro."
+              ],
+              "c": 3,
+              "k": "ipc-70a7cd48c6ccd66b"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: Utilizar antibióticos en animales de granja previene enfermedades y aumenta la producción de carne. Conclusión: Es correcto utilizar antibióticos en animales de granja. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Es correcto implementar tecnologías que previenen enfermedades y aumentan la producción de carne.",
+                "La prevención de enfermedades en animales de granja es crucial para la salud pública.",
+                "Los antibióticos deben ser utilizados con moderación para evitar efectos adversos.",
+                "El uso de antibióticos en animales de granja puede generar resistencia bacteriana."
+              ],
+              "c": 0,
+              "k": "ipc-6e78fdba2ef5e93e"
+            }
+          ]
+        },
+        {
+          "id": "t4",
+          "n": "Tema 4",
+          "fuente": "IPC_2024_B.pdf",
+          "paginas": [
+            10,
+            12
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Recientemente se ha buscado determinar si el fenómeno de los influencers en las redes sociales puede ser la causa de la baja autoestima que exhiben sus usuarios. En particular, el malestar en los usuarios podría deberse al tipo de contenido que muestran las publicaciones de los influencers, o podría deberse a su popularidad, que se manifiesta en grandes cantidades de reacciones tales como los “me gusta”. Según investigadoras de la Universidad de Tasmania, es la visualización de imágenes con contenido idealizado la que afecta de manera negativa el estado de ánimo. Estas imágenes muestran a personas en situaciones deseables y difíciles de alcanzar para la mayoría de la gente. Para probarlo, realizaron el siguiente experimento: mostraron a un grupo de personas imágenes con contenido idealizado y que contaban con muchas reacciones. A un segundo grupo le mostraron las mismas imágenes pero con pocas reacciones. Por último, a un tercer grupo le mostraron imágenes distintas, sin contenido idealizado y con pocas reacciones. Antes y después de ver las imágenes, les pidieron a los participantes que comunicaran su estado anímico mediante un formulario, puntuando en una escala del 1 al 5 según cuán conformes se sentían con ellos mismos. Asumieron que cuanto mayor es el puntaje en el cuestionario de un individuo mejor es su estado anímico y cuanto menor, peor. En los cuestionarios del primer y segundo grupo se observó un descenso de los puntajes con respecto a los iniciales, mientras que en los del tercero no.",
+              "o": [
+                "Los puntajes en los cuestionarios del primer y del segundo grupo descenderán con respecto a los iniciales, mientras que los del tercero no.",
+                "La publicación de imágenes con contenido idealizado genera más popularidad.",
+                "Cuanto mayor es el puntaje en el cuestionario de un individuo mejor es su estado anímico y cuanto menor, peor.",
+                "Los puntajes de los cuestionarios del tercer grupo descenderán con respecto a los iniciales, mientras que los del primero y el segundo no.",
+                "Los influencers tienen muchos seguidores.",
+                "La visualización de imágenes con contenido idealizado afecta negativamente el estado de ánimo."
+              ],
+              "c": 5,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Recientemente se ha buscado determinar si el fenómeno de los influencers en las redes sociales puede ser la causa de la baja autoestima que exhiben sus usuarios. En particular, el malestar en los usuarios podría deberse al tipo de contenido que muestran las publicaciones de los influencers, o podría deberse a su popularidad, que se manifiesta en grandes cantidades de reacciones tales como los “me gusta”. Según investigadoras de la Universidad de Tasmania, es la visualización de imágenes con contenido idealizado la que afecta de manera negativa el estado de ánimo. Estas imágenes muestran a personas en situaciones deseables y difíciles de alcanzar para la mayoría de la gente. Para probarlo, realizaron el siguiente experimento: mostraron a un grupo de personas imágenes con contenido idealizado y que contaban con muchas reacciones. A un segundo grupo le mostraron las mismas imágenes pero con pocas reacciones. Por último, a un tercer grupo le mostraron imágenes distintas, sin contenido idealizado y con pocas reacciones. Antes y después de ver las imágenes, les pidieron a los participantes que comunicaran su estado anímico mediante un formulario, puntuando en una escala del 1 al 5 según cuán conformes se sentían con ellos mismos. Asumieron que cuanto mayor es el puntaje en el cuestionario de un individuo mejor es su estado anímico y cuanto menor, peor. En los cuestionarios del primer y segundo grupo se observó un descenso de los puntajes con respecto a los iniciales, mientras que en los del tercero no.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Los puntajes en los cuestionarios del primer y del segundo grupo descenderán con respecto a los iniciales, mientras que los del tercero no.",
+                "La publicación de imágenes con contenido idealizado genera más popularidad.",
+                "Cuanto mayor es el puntaje en el cuestionario de un individuo mejor es su estado anímico y cuanto menor, peor.",
+                "Los puntajes de los cuestionarios del tercer grupo descenderán con respecto a los iniciales, mientras que los del primero y el segundo no.",
+                "Los influencers tienen muchos seguidores.",
+                "La visualización de imágenes con contenido idealizado afecta negativamente el estado de ánimo."
+              ],
+              "c": 0,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con el falsacionismo de Popper.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Recientemente se ha buscado determinar si el fenómeno de los influencers en las redes sociales puede ser la causa de la baja autoestima que exhiben sus usuarios. En particular, el malestar en los usuarios podría deberse al tipo de contenido que muestran las publicaciones de los influencers, o podría deberse a su popularidad, que se manifiesta en grandes cantidades de reacciones tales como los “me gusta”. Según investigadoras de la Universidad de Tasmania, es la visualización de imágenes con contenido idealizado la que afecta de manera negativa el estado de ánimo. Estas imágenes muestran a personas en situaciones deseables y difíciles de alcanzar para la mayoría de la gente. Para probarlo, realizaron el siguiente experimento: mostraron a un grupo de personas imágenes con contenido idealizado y que contaban con muchas reacciones. A un segundo grupo le mostraron las mismas imágenes pero con pocas reacciones. Por último, a un tercer grupo le mostraron imágenes distintas, sin contenido idealizado y con pocas reacciones. Antes y después de ver las imágenes, les pidieron a los participantes que comunicaran su estado anímico mediante un formulario, puntuando en una escala del 1 al 5 según cuán conformes se sentían con ellos mismos. Asumieron que cuanto mayor es el puntaje en el cuestionario de un individuo mejor es su estado anímico y cuanto menor, peor. En los cuestionarios del primer y segundo grupo se observó un descenso de los puntajes con respecto a los iniciales, mientras que en los del tercero no.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "verificada",
+                    "corroborada",
+                    "confirmada",
+                    "válida",
+                    "verdadera"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque los casos favorables observados permiten establecer la verdad de la hipótesis de modo definitivo.",
+                    "porque se acepta provisoriamente la hipótesis luego del intento fallido de refutación.",
+                    "porque las consecuencias observacionales verificadas ofrecen apoyo inductivo a la hipótesis de la que se deducen.",
+                    "porque la validez de la hipótesis queda establecida luego de varios intentos de refutación."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-755d14dab5d84301"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. La fuerza vital fluye a través de los chakras energéticos.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque está verificado.",
+                    "porque puede ponerse a prueba con la experiencia."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-eb70e4a5dd3d8a20"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Agustín está resfriado. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Todas las personas que están en contacto cercano con alguien resfriado durante más de una hora también se resfrían.",
+                    "El 70% de las personas que están en contacto cercano con alguien resfriado durante más de una hora también se resfrían.",
+                    "Agustín suele padecer mucho el frío.",
+                    "Agustín estuvo expuesto a bajas temperaturas durante la mañana de ayer.",
+                    "Agustín estuvo en contacto cercano con su compañero de trabajo, que estaba resfriado, durante toda la tarde."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Todas las personas que están en contacto cercano con alguien resfriado durante más de una hora también se resfrían.",
+                    "El 70% de las personas que están en contacto cercano con alguien resfriado durante más de una hora también se resfrían.",
+                    "Agustín suele padecer mucho el frío.",
+                    "Agustín estuvo expuesto a bajas temperaturas durante la mañana de ayer.",
+                    "Agustín estuvo en contacto cercano con su compañero de trabajo, que estaba resfriado, durante toda la tarde."
+                  ],
+                  "c": 4
+                }
+              ],
+              "k": "ipc-3433fdb81b604e6f"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. En una comunidad científica...",
+              "o": [
+                "se comparten presupuestos generales acerca de cómo es el mundo.",
+                "no existen consensos acerca de cuáles son las teorías que permiten abordar mejor el mundo.",
+                "cada grupo de investigación sigue su propio paradigma.",
+                "se desarrollan diversas metodologías incompatibles entre sí."
+              ],
+              "c": 0,
+              "k": "ipc-3677f6450bd242ec"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Emmy Noether (1882-1935) fue una matemática alemana que revolucionó el campo del álgebra abstracta y la física teórica, siendo especialmente famosa por el Teorema de Noether, que vincula las simetrías en las leyes físicas con las leyes de conservación. A pesar de su brillantez, Noether enfrentó una fuerte discriminación a lo largo de su carrera por ser mujer: no pudo inscribirse como alumna regular y durante años trabajó como asistente no remunerada en la Universidad de Göttingen, debiendo ocultar su género. Pese a esta permanente desventaja, su trabajo ha sido tan significativo que hoy en día se la considera como una de las fundadoras de la matemática moderna.",
+              "o": [
+                "Teorías sexistas.",
+                "Exclusión y marginalización.",
+                "Aplicaciones sexistas.",
+                "Omisiones selectivas en la historia de la ciencia / efecto Matilda."
+              ],
+              "c": 1,
+              "k": "ipc-6ab696bf2e0cfb3b"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por la teoría feminista del punto de vista.",
+              "o": [
+                "La interacción crítica dentro de la comunidad científica es necesaria para que la ciencia sea objetiva.",
+                "Solo la perspectiva de la mujer puede representar correctamente intereses humanos universales.",
+                "La lógica y la base empírica son suficientes para garantizar la objetividad de la ciencia.",
+                "El género es una faceta relevante del sujeto cognoscente cuando se produce conocimiento."
+              ],
+              "c": 0,
+              "k": "ipc-0a4d7f9ca4212918"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. La bióloga Blumina Romero, becaria en el equipo de Estudios en Neurociencias y Sistemas Complejos (CONICET-UNAJ), busca estudiar los factores que impulsaron la diversidad fenotípica a lo largo de la evolución de los monos platirrinos (por ejemplo, los monos capuchinos, aulladores y titís pigmeos). Los órganos sensoriales (órganos de la visión, del olfato y de la audición) son un punto de partida muy útil para entender la relación entre la ecología y la morfología (la forma del organismo) de un grupo animal. Por ende, el objetivo de este proyecto de ciencia básica es descubrir y comprender algunos de los factores que impulsaron las diversas morfologías en los sistemas sensoriales a lo largo de la evolución de estos primates.",
+              "o": [
+                "No, porque el estudio de los monos platirrinos y su evolución no es el resultado de una demanda que la sociedad hace a la comunidad científica.",
+                "Sí, porque es valioso en sí mismo comprender los factores que impulsaron la diversidad morfológica a lo largo de la evolución de los monos platirrinos, independientemente de si tendrá alguna aplicación en el futuro.",
+                "No, porque entender la relación entre la ecología y la morfología de un grupo animal no resuelve problemas prácticos ni contribuye inmediatamente al desarrollo económico del país.",
+                "Sí, porque este tipo de trabajos son efectivos para promover el pensamiento crítico y la formación de ciudadanos para una democracia."
+              ],
+              "c": 1,
+              "k": "ipc-70a7cd48c6ccd66b"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: Utilizar antibióticos en animales de granja previene enfermedades y aumenta la producción de carne. Conclusión: Es correcto utilizar antibióticos en animales de granja. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "La prevención de enfermedades en animales de granja es crucial para la salud pública.",
+                "Los antibióticos deben ser utilizados con moderación para evitar efectos adversos.",
+                "Es correcto implementar tecnologías que previenen enfermedades y aumentan la producción de carne.",
+                "El uso de antibióticos en animales de granja puede generar resistencia bacteriana."
+              ],
+              "c": 2,
+              "k": "ipc-cfa0cad6ece3abea"
+            }
+          ]
+        },
+        {
+          "id": "t5",
+          "n": "Tema 5",
+          "fuente": "IPC_2024_B.pdf",
+          "paginas": [
+            13,
+            15
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿Enseñar técnicas de creatividad hace a los niños más resilientes? Según Angus Fletcher, profesor de la Universidad de Ohio, la respuesta es afirmativa. En particular, él y su equipo se propusieron mostrar que enseñar técnicas de creatividad narrativa vuelve a los niños más capaces de adaptarse a la adversidad. Para probarlo, tomaron un grupo de 32 niños y lo dividieron en dos. A ambos grupos se les presentaron problemas típicos de la edad como no poder ir a un cumpleaños porque la familia saldrá de la ciudad y se les pidió que los resolvieran, bajo el supuesto de que la capacidad para resolver problemas es un indicador fiable de la capacidad para responder a la adversidad. El grupo de control no recibió ninguna instrucción adicional, mientras que a los niños del otro grupo se les enseñó una técnica usada en literatura llamada “cambio de perspectiva”, en la que se les pide que miren el problema con los ojos de un amigo que haya hecho algo especial y que piensen que podría ayudarlos a resolver cualquier problema. La expectativa era que el porcentaje de niños que aportarían una solución a los problemas sería mayor en el grupo formado en cambio de perspectiva que en el grupo de control. Los resultados mostraron que, en efecto, sin la formación en cambio de perspectiva, menos de la mitad de los niños fueron capaces de dar una solución a los problemas típicos de su edad. Sin embargo, el 94% de los que recibieron formación sobre el cambio de perspectiva aportaron una solución a los problemas.",
+              "o": [
+                "El porcentaje de niños que aportará una solución a los problemas será mayor en el grupo formado en cambio de perspectiva que en el grupo de control.",
+                "La capacidad para resolver problemas típicos de su edad es un indicador fiable de inteligencia.",
+                "El porcentaje de niños que aportará una solución a los problemas será igual en el grupo formado en cambio de perspectiva y en el grupo de control.",
+                "La capacidad para resolver problemas es un indicador fiable de la capacidad para responder a la adversidad.",
+                "Enseñar técnicas de creatividad narrativa vuelve a los niños más inteligentes.",
+                "Enseñar técnicas de creatividad narrativa vuelve a los niños más capaces de adaptarse a la adversidad."
+              ],
+              "c": 5,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿Enseñar técnicas de creatividad hace a los niños más resilientes? Según Angus Fletcher, profesor de la Universidad de Ohio, la respuesta es afirmativa. En particular, él y su equipo se propusieron mostrar que enseñar técnicas de creatividad narrativa vuelve a los niños más capaces de adaptarse a la adversidad. Para probarlo, tomaron un grupo de 32 niños y lo dividieron en dos. A ambos grupos se les presentaron problemas típicos de la edad como no poder ir a un cumpleaños porque la familia saldrá de la ciudad y se les pidió que los resolvieran, bajo el supuesto de que la capacidad para resolver problemas es un indicador fiable de la capacidad para responder a la adversidad. El grupo de control no recibió ninguna instrucción adicional, mientras que a los niños del otro grupo se les enseñó una técnica usada en literatura llamada “cambio de perspectiva”, en la que se les pide que miren el problema con los ojos de un amigo que haya hecho algo especial y que piensen que podría ayudarlos a resolver cualquier problema. La expectativa era que el porcentaje de niños que aportarían una solución a los problemas sería mayor en el grupo formado en cambio de perspectiva que en el grupo de control. Los resultados mostraron que, en efecto, sin la formación en cambio de perspectiva, menos de la mitad de los niños fueron capaces de dar una solución a los problemas típicos de su edad. Sin embargo, el 94% de los que recibieron formación sobre el cambio de perspectiva aportaron una solución a los problemas.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "El porcentaje de niños que aportará una solución a los problemas será mayor en el grupo formado en cambio de perspectiva que en el grupo de control.",
+                "La capacidad para resolver problemas típicos de su edad es un indicador fiable de inteligencia.",
+                "El porcentaje de niños que aportará una solución a los problemas será igual en el grupo formado en cambio de perspectiva y en el grupo de control.",
+                "La capacidad para resolver problemas es un indicador fiable de la capacidad para responder a la adversidad.",
+                "Enseñar técnicas de creatividad narrativa vuelve a los niños más inteligentes.",
+                "Enseñar técnicas de creatividad narrativa vuelve a los niños más capaces de adaptarse a la adversidad."
+              ],
+              "c": 3,
+              "k": "ipc-732327a8b123aeda"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con la postura inductivista crítica de Hempel.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿Enseñar técnicas de creatividad hace a los niños más resilientes? Según Angus Fletcher, profesor de la Universidad de Ohio, la respuesta es afirmativa. En particular, él y su equipo se propusieron mostrar que enseñar técnicas de creatividad narrativa vuelve a los niños más capaces de adaptarse a la adversidad. Para probarlo, tomaron un grupo de 32 niños y lo dividieron en dos. A ambos grupos se les presentaron problemas típicos de la edad como no poder ir a un cumpleaños porque la familia saldrá de la ciudad y se les pidió que los resolvieran, bajo el supuesto de que la capacidad para resolver problemas es un indicador fiable de la capacidad para responder a la adversidad. El grupo de control no recibió ninguna instrucción adicional, mientras que a los niños del otro grupo se les enseñó una técnica usada en literatura llamada “cambio de perspectiva”, en la que se les pide que miren el problema con los ojos de un amigo que haya hecho algo especial y que piensen que podría ayudarlos a resolver cualquier problema. La expectativa era que el porcentaje de niños que aportarían una solución a los problemas sería mayor en el grupo formado en cambio de perspectiva que en el grupo de control. Los resultados mostraron que, en efecto, sin la formación en cambio de perspectiva, menos de la mitad de los niños fueron capaces de dar una solución a los problemas típicos de su edad. Sin embargo, el 94% de los que recibieron formación sobre el cambio de perspectiva aportaron una solución a los problemas.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "verificada",
+                    "verdadera",
+                    "corroborada",
+                    "válida",
+                    "confirmada"
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque ante el hallazgo de suficientes casos favorables la hipótesis contrastada se considera verdadera de modo definitivo.",
+                    "porque la hipótesis recibe apoyo inductivo a partir de los casos favorables observados.",
+                    "porque las consecuencias observacionales verificadas solo permiten afirmar que la hipótesis de la que se deducen no ha sido refutada hasta ahora.",
+                    "porque la validez de la hipótesis queda establecida de modo concluyente cuando supera varios intentos de refutación."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-921d1833e114855f"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. El 75% de los pacientes de una terapia cognitivo-conductual ven reducida su ansiedad.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque está confirmado.",
+                    "porque está verificado mediante la experiencia.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque es falso."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-0548c573b78887a3"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: La ropa de algodón de María se encogió. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "La ropa de algodón se encoge cuando se lava con agua caliente.",
+                    "8 de cada 10 prendas de algodón se encogen cuando se lavan con agua caliente.",
+                    "Los productos de mala calidad dañan las prendas de algodón.",
+                    "María usó productos de mala calidad al lavar su ropa de algodón.",
+                    "María lavó su ropa de algodón con agua caliente."
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "La ropa de algodón se encoge cuando se lava con agua caliente.",
+                    "8 de cada 10 prendas de algodón se encogen cuando se lavan con agua caliente.",
+                    "Los productos de mala calidad dañan las prendas de algodón.",
+                    "María usó productos de mala calidad al lavar su ropa de algodón.",
+                    "María lavó su ropa de algodón con agua caliente."
+                  ],
+                  "c": 4
+                }
+              ],
+              "k": "ipc-dc3e3f9a48dc479e"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. En el período de ciencia normal, la comunidad científica...",
+              "o": [
+                "pierde la confianza en la capacidad resolutiva del paradigma.",
+                "desarrolla teorías para resolver anomalías por fuera del paradigma vigente.",
+                "resuelve todas las anomalías que surgen bajo la guía de un paradigma.",
+                "resuelve enigmas bajo la guía de un paradigma."
+              ],
+              "c": 3,
+              "k": "ipc-3677f6450bd242ec"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. En la década de 1940, el psicoanalista Leo Kanner popularizó la idea de que el autismo en los niños era causado por madres \"frías\" y emocionalmente distantes, conocidas como \"madres desalmadas\". Según esta teoría, las madres que no mostraban suficiente afecto a sus hijos eran responsables del desarrollo de trastornos mentales en ellos. Esta teoría del “frío materno” culpabilizaba a las madres que dedicaban menos tiempo a la crianza por trabajar o tener otras ocupaciones, ignorando las verdaderas causas del autismo, que más tarde se entenderían como de origen neurológico y genético.",
+              "o": [
+                "Omisiones selectivas en la historia de la ciencia / efecto Matilda.",
+                "Persecución de género.",
+                "Teorías sexistas.",
+                "Exclusión y marginalización."
+              ],
+              "c": 2,
+              "k": "ipc-71aee932fdddd0a1"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por el postmodernismo feminista.",
+              "o": [
+                "La objetividad de la ciencia está garantizada por el recurso a la base empírica.",
+                "No existe el científico individual, objetivo y neutral como sujeto de conocimiento.",
+                "La objetividad se logra mediante la interacción social y crítica dentro de la comunidad científica.",
+                "La diversidad de experiencias hace imposible que hablemos de la perspectiva de “la mujer”."
+              ],
+              "c": 2,
+              "k": "ipc-a41054a15cadfb59"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. El Laboratorio de Epigenética y ARNs no codificantes (EPILAB) dirigido por Federico Ariel en el Instituto de Agrobiotecnología del Litoral (CONICET-UNL) se centra en el estudio de los ARN largos no codificantes (ARNlnc) y su rol en la regulación de la expresión génica en plantas. A diferencia de otros tipos de ARN que ayudan a producir proteínas, los ARNlnc no lo hacen, pero tienen un papel importante en cómo los genes se activan o desactivan. El laboratorio investiga el modo en que estos ARNlnc pueden influir en la forma en que los genes se organizan y se modifican dentro de las plantas. Aunque se centra en comprender el funcionamiento de estos ARN, esta investigación en ciencia básica podría permitir, en el futuro, desarrollar nuevas tecnologías para la agricultura.",
+              "o": [
+                "No, porque el estudio de los ARN largos no codificantes en las plantas no es el resultado una demanda que la sociedad hace a la comunidad científica.",
+                "Sí, porque este tipo de trabajos son efectivos para promover el pensamiento crítico y la formación de ciudadanos para una democracia.",
+                "No, porque comprender cómo los ARNlnc pueden influir en la forma en que los genes se organizan y se modifican dentro de las plantas no resuelve problemas prácticos ni contribuye inmediatamente al desarrollo económico del país.",
+                "Sí, porque es valioso en sí mismo comprender el funcionamiento de los ARNlnc y su rol en la regulación de la expresión génica en plantas, independientemente de si tendrá alguna aplicación en el futuro."
+              ],
+              "c": 3,
+              "k": "ipc-adbb8edfd79a2482"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: Instalar paneles solares en edificios reduce la dependencia de combustibles fósiles y disminuye las emisiones de carbono. Conclusión: Debemos instalar paneles solares en edificios. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Debemos implementar medidas para reducir la dependencia de combustibles fósiles y disminuir las emisiones de carbono.",
+                "La reducción de emisiones de carbono es crucial para combatir el cambio climático.",
+                "Los paneles solares son una fuente de energía renovable y sostenible.",
+                "Disminuir la dependencia de combustibles fósiles es una prioridad para la transición energética."
+              ],
+              "c": 0,
+              "k": "ipc-f665883b5ce59117"
+            }
+          ]
+        },
+        {
+          "id": "t6",
+          "n": "Tema 6",
+          "fuente": "IPC_2024_B.pdf",
+          "paginas": [
+            16,
+            18
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿Enseñar técnicas de creatividad hace a los niños más resilientes? Según Angus Fletcher, profesor de la Universidad de Ohio, la respuesta es afirmativa. En particular, él y su equipo se propusieron mostrar que enseñar técnicas de creatividad narrativa vuelve a los niños más capaces de adaptarse a la adversidad. Para probarlo, tomaron un grupo de 32 niños y lo dividieron en dos. A ambos grupos se les presentaron problemas típicos de la edad como no poder ir a un cumpleaños porque la familia saldrá de la ciudad y se les pidió que los resolvieran, bajo el supuesto de que la capacidad para resolver problemas es un indicador fiable de la capacidad para responder a la adversidad. El grupo de control no recibió ninguna instrucción adicional, mientras que a los niños del otro grupo se les enseñó una técnica usada en literatura llamada “cambio de perspectiva”, en la que se les pide que miren el problema con los ojos de un amigo que haya hecho algo especial y que piensen que podría ayudarlos a resolver cualquier problema. La expectativa era que el porcentaje de niños que aportarían una solución a los problemas sería mayor en el grupo formado en cambio de perspectiva que en el grupo de control. Los resultados mostraron que, en efecto, sin la formación en cambio de perspectiva, menos de la mitad de los niños fueron capaces de dar una solución a los problemas típicos de su edad. Sin embargo, el 94% de los que recibieron formación sobre el cambio de perspectiva aportaron una solución a los problemas.",
+              "o": [
+                "El porcentaje de niños que aportará una solución a los problemas será igual en el grupo formado en cambio de perspectiva y en el grupo de control.",
+                "La capacidad para resolver problemas es un indicador fiable de la capacidad para responder a la adversidad.",
+                "Enseñar técnicas de creatividad narrativa vuelve a los niños más capaces de adaptarse a la adversidad.",
+                "Enseñar técnicas de creatividad narrativa vuelve a los niños más inteligentes.",
+                "El porcentaje de niños que aportará una solución a los problemas será mayor en el grupo formado en cambio de perspectiva que en el grupo de control.",
+                "La capacidad para resolver problemas típicos de su edad es un indicador fiable de inteligencia."
+              ],
+              "c": 2,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿Enseñar técnicas de creatividad hace a los niños más resilientes? Según Angus Fletcher, profesor de la Universidad de Ohio, la respuesta es afirmativa. En particular, él y su equipo se propusieron mostrar que enseñar técnicas de creatividad narrativa vuelve a los niños más capaces de adaptarse a la adversidad. Para probarlo, tomaron un grupo de 32 niños y lo dividieron en dos. A ambos grupos se les presentaron problemas típicos de la edad como no poder ir a un cumpleaños porque la familia saldrá de la ciudad y se les pidió que los resolvieran, bajo el supuesto de que la capacidad para resolver problemas es un indicador fiable de la capacidad para responder a la adversidad. El grupo de control no recibió ninguna instrucción adicional, mientras que a los niños del otro grupo se les enseñó una técnica usada en literatura llamada “cambio de perspectiva”, en la que se les pide que miren el problema con los ojos de un amigo que haya hecho algo especial y que piensen que podría ayudarlos a resolver cualquier problema. La expectativa era que el porcentaje de niños que aportarían una solución a los problemas sería mayor en el grupo formado en cambio de perspectiva que en el grupo de control. Los resultados mostraron que, en efecto, sin la formación en cambio de perspectiva, menos de la mitad de los niños fueron capaces de dar una solución a los problemas típicos de su edad. Sin embargo, el 94% de los que recibieron formación sobre el cambio de perspectiva aportaron una solución a los problemas.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "El porcentaje de niños que aportará una solución a los problemas será igual en el grupo formado en cambio de perspectiva y en el grupo de control.",
+                "La capacidad para resolver problemas es un indicador fiable de la capacidad para responder a la adversidad.",
+                "Enseñar técnicas de creatividad narrativa vuelve a los niños más capaces de adaptarse a la adversidad.",
+                "Enseñar técnicas de creatividad narrativa vuelve a los niños más inteligentes.",
+                "El porcentaje de niños que aportará una solución a los problemas será mayor en el grupo formado en cambio de perspectiva que en el grupo de control.",
+                "La capacidad para resolver problemas típicos de su edad es un indicador fiable de inteligencia."
+              ],
+              "c": 4,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con la postura inductivista crítica de Hempel.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. ¿Enseñar técnicas de creatividad hace a los niños más resilientes? Según Angus Fletcher, profesor de la Universidad de Ohio, la respuesta es afirmativa. En particular, él y su equipo se propusieron mostrar que enseñar técnicas de creatividad narrativa vuelve a los niños más capaces de adaptarse a la adversidad. Para probarlo, tomaron un grupo de 32 niños y lo dividieron en dos. A ambos grupos se les presentaron problemas típicos de la edad como no poder ir a un cumpleaños porque la familia saldrá de la ciudad y se les pidió que los resolvieran, bajo el supuesto de que la capacidad para resolver problemas es un indicador fiable de la capacidad para responder a la adversidad. El grupo de control no recibió ninguna instrucción adicional, mientras que a los niños del otro grupo se les enseñó una técnica usada en literatura llamada “cambio de perspectiva”, en la que se les pide que miren el problema con los ojos de un amigo que haya hecho algo especial y que piensen que podría ayudarlos a resolver cualquier problema. La expectativa era que el porcentaje de niños que aportarían una solución a los problemas sería mayor en el grupo formado en cambio de perspectiva que en el grupo de control. Los resultados mostraron que, en efecto, sin la formación en cambio de perspectiva, menos de la mitad de los niños fueron capaces de dar una solución a los problemas típicos de su edad. Sin embargo, el 94% de los que recibieron formación sobre el cambio de perspectiva aportaron una solución a los problemas.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "corroborada",
+                    "válida",
+                    "verificada",
+                    "confirmada",
+                    "verdadera"
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque la validez de la hipótesis queda establecida de modo concluyente cuando supera varios intentos de refutación.",
+                    "porque ante el hallazgo de suficientes casos favorables la hipótesis contrastada se considera verdadera de modo definitivo.",
+                    "porque la hipótesis recibe apoyo inductivo a partir de los casos favorables observados.",
+                    "porque las consecuencias observacionales verificadas solo permiten afirmar que la hipótesis de la que se deducen no ha sido refutada hasta ahora."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-921d1833e114855f"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. El 75% de los pacientes de una terapia cognitivo-conductual ven reducida su ansiedad.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque es falso.",
+                    "porque está confirmado.",
+                    "porque está verificado mediante la experiencia.",
+                    "porque no tiene falsadores potenciales."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-0548c573b78887a3"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: La ropa de algodón de María se encogió. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Los productos de mala calidad dañan las prendas de algodón.",
+                    "María usó productos de mala calidad al lavar su ropa de algodón.",
+                    "8 de cada 10 prendas de algodón se encogen cuando se lavan con agua caliente.",
+                    "María lavó su ropa de algodón con agua caliente.",
+                    "La ropa de algodón se encoge cuando se lava con agua caliente."
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Los productos de mala calidad dañan las prendas de algodón.",
+                    "María usó productos de mala calidad al lavar su ropa de algodón.",
+                    "8 de cada 10 prendas de algodón se encogen cuando se lavan con agua caliente.",
+                    "María lavó su ropa de algodón con agua caliente.",
+                    "La ropa de algodón se encoge cuando se lava con agua caliente."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-dc3e3f9a48dc479e"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. En el período de ciencia normal, la comunidad científica...",
+              "o": [
+                "desarrolla teorías para resolver anomalías por fuera del paradigma vigente.",
+                "resuelve enigmas bajo la guía de un paradigma.",
+                "pierde la confianza en la capacidad resolutiva del paradigma.",
+                "resuelve todas las anomalías que surgen bajo la guía de un paradigma."
+              ],
+              "c": 1,
+              "k": "ipc-3677f6450bd242ec"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. En la década de 1940, el psicoanalista Leo Kanner popularizó la idea de que el autismo en los niños era causado por madres \"frías\" y emocionalmente distantes, conocidas como \"madres desalmadas\". Según esta teoría, las madres que no mostraban suficiente afecto a sus hijos eran responsables del desarrollo de trastornos mentales en ellos. Esta teoría del “frío materno” culpabilizaba a las madres que dedicaban menos tiempo a la crianza por trabajar o tener otras ocupaciones, ignorando las verdaderas causas del autismo, que más tarde se entenderían como de origen neurológico y genético.",
+              "o": [
+                "Teorías sexistas.",
+                "Persecución de género.",
+                "Exclusión y marginalización.",
+                "Omisiones selectivas en la historia de la ciencia / efecto Matilda."
+              ],
+              "c": 0,
+              "k": "ipc-d3b0b1b6eedec4f3"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por el postmodernismo feminista.",
+              "o": [
+                "No existe el científico individual, objetivo y neutral como sujeto de conocimiento.",
+                "La diversidad de experiencias hace imposible que hablemos de la perspectiva de “la mujer”.",
+                "La objetividad de la ciencia está garantizada por el recurso a la base empírica.",
+                "La objetividad se logra mediante la interacción social y crítica dentro de la comunidad científica."
+              ],
+              "c": 3,
+              "k": "ipc-a41054a15cadfb59"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. El Laboratorio de Epigenética y ARNs no codificantes (EPILAB) dirigido por Federico Ariel en el Instituto de Agrobiotecnología del Litoral (CONICET-UNL) se centra en el estudio de los ARN largos no codificantes (ARNlnc) y su rol en la regulación de la expresión génica en plantas. A diferencia de otros tipos de ARN que ayudan a producir proteínas, los ARNlnc no lo hacen, pero tienen un papel importante en cómo los genes se activan o desactivan. El laboratorio investiga el modo en que estos ARNlnc pueden influir en la forma en que los genes se organizan y se modifican dentro de las plantas. Aunque se centra en comprender el funcionamiento de estos ARN, esta investigación en ciencia básica podría permitir, en el futuro, desarrollar nuevas tecnologías para la agricultura.",
+              "o": [
+                "Sí, porque es valioso en sí mismo comprender el funcionamiento de los ARNlnc y su rol en la regulación de la expresión génica en plantas, independientemente de si tendrá alguna aplicación en el futuro.",
+                "No, porque comprender cómo los ARNlnc pueden influir en la forma en que los genes se organizan y se modifican dentro de las plantas no resuelve problemas prácticos ni contribuye inmediatamente al desarrollo económico del país.",
+                "Sí, porque este tipo de trabajos son efectivos para promover el pensamiento crítico y la formación de ciudadanos para una democracia.",
+                "No, porque el estudio de los ARN largos no codificantes en las plantas no es el resultado una demanda que la sociedad hace a la comunidad científica."
+              ],
+              "c": 0,
+              "k": "ipc-adbb8edfd79a2482"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: Instalar paneles solares en edificios reduce la dependencia de combustibles fósiles y disminuye las emisiones de carbono. Conclusión: Debemos instalar paneles solares en edificios. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "La reducción de emisiones de carbono es crucial para combatir el cambio climático.",
+                "Disminuir la dependencia de combustibles fósiles es una prioridad para la transición energética.",
+                "Debemos implementar medidas para reducir la dependencia de combustibles fósiles y disminuir las emisiones de carbono.",
+                "Los paneles solares son una fuente de energía renovable y sostenible."
+              ],
+              "c": 2,
+              "k": "ipc-4a7159d8a17bcb44"
+            }
+          ]
+        },
+        {
+          "id": "t7",
+          "n": "Tema 7",
+          "fuente": "IPC_2024_B.pdf",
+          "paginas": [
+            19,
+            21
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Aunque muchas veces se considera que los gatos son independientes y solitarios, son animales sociables que establecen fuertes lazos con sus tutores. Los gatos pueden establecer relaciones de confianza y lealtad, percibiendo a sus tutores como figuras parentales. Cuando los gatos son cachorros, pasan mucho tiempo con la madre y sus hermanos de camada, donde aprenden habilidades sociales y reciben placenteramente grandes cuidados maternales, que influyen en cómo llegarán a percibir a los seres humanos durante el resto de su vida. Sin embargo, solo algunos gatos conservan algunas conductas instintivas durante su adultez. Esto motivó la investigación de Jennifer Vonk y Moriah Galvan, investigadoras de la Universidad de Oakland en Michigan, quienes se preguntaron si la conducta de amasado (un movimiento con las patas delanteras que se asemeja al amasado de pan) en gatos adultos es consecuencia del destete precoz de los cachorros. Asumiendo que el destete en la quinta semana de vida es un destete temprano, las investigadoras entrevistaron a 50 familias que tenían gatos adultos, consultándoles sobre la adopción de los gatos, sobre la semana en que habían sido destetados y acerca de la conducta de amasado de esos gatos. Organizaron a las familias de los gatos en dos grupos: el Grupo A estaba conformado por los gatos que habían sido destetados antes de la semana 5 y el grupo B por aquellos gatos que se habían alimentado de la madre felina hasta, por lo menos, la sexta semana de vida. Las familias del grupo A reportaron con más frecuencia la conducta de amasado que las del Grupo B.",
+              "o": [
+                "Los gatos pueden establecer relaciones de confianza y lealtad, percibiendo a sus tutores como figuras parentales.",
+                "Las familias del grupo A reportarán con más frecuencia que sus gatos presentan conductas de amasado que las familias del grupo B.",
+                "El Grupo A estará conformado por los gatos destetados antes de la semana 5 y el grupo B por aquellos gatos alimentados de la madre felina hasta, por lo menos, la sexta semana de vida.",
+                "El destete en la quinta semana de vida es un destete temprano.",
+                "La conducta de amasado en gatos adultos es consecuencia del destete precoz de los cachorros.",
+                "Cuando los gatos son cachorros, pasan mucho tiempo con la madre y sus hermanos de camada, donde aprenden habilidades sociales y reciben placenteramente grandes cuidados maternales."
+              ],
+              "c": 4,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Aunque muchas veces se considera que los gatos son independientes y solitarios, son animales sociables que establecen fuertes lazos con sus tutores. Los gatos pueden establecer relaciones de confianza y lealtad, percibiendo a sus tutores como figuras parentales. Cuando los gatos son cachorros, pasan mucho tiempo con la madre y sus hermanos de camada, donde aprenden habilidades sociales y reciben placenteramente grandes cuidados maternales, que influyen en cómo llegarán a percibir a los seres humanos durante el resto de su vida. Sin embargo, solo algunos gatos conservan algunas conductas instintivas durante su adultez. Esto motivó la investigación de Jennifer Vonk y Moriah Galvan, investigadoras de la Universidad de Oakland en Michigan, quienes se preguntaron si la conducta de amasado (un movimiento con las patas delanteras que se asemeja al amasado de pan) en gatos adultos es consecuencia del destete precoz de los cachorros. Asumiendo que el destete en la quinta semana de vida es un destete temprano, las investigadoras entrevistaron a 50 familias que tenían gatos adultos, consultándoles sobre la adopción de los gatos, sobre la semana en que habían sido destetados y acerca de la conducta de amasado de esos gatos. Organizaron a las familias de los gatos en dos grupos: el Grupo A estaba conformado por los gatos que habían sido destetados antes de la semana 5 y el grupo B por aquellos gatos que se habían alimentado de la madre felina hasta, por lo menos, la sexta semana de vida. Las familias del grupo A reportaron con más frecuencia la conducta de amasado que las del Grupo B.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Los gatos pueden establecer relaciones de confianza y lealtad, percibiendo a sus tutores como figuras parentales.",
+                "Las familias del grupo A reportarán con más frecuencia que sus gatos presentan conductas de amasado que las familias del grupo B.",
+                "El Grupo A estará conformado por los gatos destetados antes de la semana 5 y el grupo B por aquellos gatos alimentados de la madre felina hasta, por lo menos, la sexta semana de vida.",
+                "El destete en la quinta semana de vida es un destete temprano.",
+                "La conducta de amasado en gatos adultos es consecuencia del destete precoz de los cachorros.",
+                "Cuando los gatos son cachorros, pasan mucho tiempo con la madre y sus hermanos de camada, donde aprenden habilidades sociales y reciben placenteramente grandes cuidados maternales."
+              ],
+              "c": 3,
+              "k": "ipc-732327a8b123aeda"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con el falsacionismo de Popper.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Aunque muchas veces se considera que los gatos son independientes y solitarios, son animales sociables que establecen fuertes lazos con sus tutores. Los gatos pueden establecer relaciones de confianza y lealtad, percibiendo a sus tutores como figuras parentales. Cuando los gatos son cachorros, pasan mucho tiempo con la madre y sus hermanos de camada, donde aprenden habilidades sociales y reciben placenteramente grandes cuidados maternales, que influyen en cómo llegarán a percibir a los seres humanos durante el resto de su vida. Sin embargo, solo algunos gatos conservan algunas conductas instintivas durante su adultez. Esto motivó la investigación de Jennifer Vonk y Moriah Galvan, investigadoras de la Universidad de Oakland en Michigan, quienes se preguntaron si la conducta de amasado (un movimiento con las patas delanteras que se asemeja al amasado de pan) en gatos adultos es consecuencia del destete precoz de los cachorros. Asumiendo que el destete en la quinta semana de vida es un destete temprano, las investigadoras entrevistaron a 50 familias que tenían gatos adultos, consultándoles sobre la adopción de los gatos, sobre la semana en que habían sido destetados y acerca de la conducta de amasado de esos gatos. Organizaron a las familias de los gatos en dos grupos: el Grupo A estaba conformado por los gatos que habían sido destetados antes de la semana 5 y el grupo B por aquellos gatos que se habían alimentado de la madre felina hasta, por lo menos, la sexta semana de vida. Las familias del grupo A reportaron con más frecuencia la conducta de amasado que las del Grupo B.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "confirmada",
+                    "verdadera",
+                    "corroborada",
+                    "válida",
+                    "verificada"
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque se puede asignar un grado de probabilidad a la hipótesis si las consecuencias observacionales que se deducen de ella son verificadas.",
+                    "porque la validez de la hipótesis queda establecida luego de varios intentos de refutación.",
+                    "porque la verificación de las consecuencias observacionales constituye un apoyo concluyente para la hipótesis.",
+                    "porque la hipótesis ha resistido por el momento los intentos de refutación."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-755d14dab5d84301"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. La fuerza del karma influye en el destino de las almas.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque tiene falsadores potenciales.",
+                    "porque no está suficientemente confirmado.",
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque es válido."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-e4c3e4a6fbd137b6"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Laura llegó tarde a su trabajo esta mañana. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Laura tomó el transporte público durante la hora pico esta mañana.",
+                    "Laura se despertó 15 minutos antes de salir de su casa para ir a trabajar.",
+                    "Los trabajadores que toman el transporte público durante las horas pico llegan tarde a su lugar de trabajo.",
+                    "El 85% de los trabajadores que toman el transporte público durante las horas pico llegan tarde a su lugar de trabajo.",
+                    "Laura olvidó revisar el pronóstico del clima antes de salir de casa."
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Laura tomó el transporte público durante la hora pico esta mañana.",
+                    "Laura se despertó 15 minutos antes de salir de su casa para ir a trabajar.",
+                    "Los trabajadores que toman el transporte público durante las horas pico llegan tarde a su lugar de trabajo.",
+                    "El 85% de los trabajadores que toman el transporte público durante las horas pico llegan tarde a su lugar de trabajo.",
+                    "Laura olvidó revisar el pronóstico del clima antes de salir de casa."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-8ea9b36b42c5df52"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. En el período de crisis....",
+              "o": [
+                "la comunidad científica confía en que el paradigma provee herramientas adecuadas para resolver las anomalías.",
+                "la comunidad científica pierde la confianza en la capacidad resolutiva del paradigma.",
+                "dos paradigmas incomensurables gozan de consenso en la comunidad científica.",
+                "un paradigma comienza a ser reemplazado por otro superior."
+              ],
+              "c": 1,
+              "k": "ipc-f8292c6ce7eeae7e"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. La empresa norteamericana Amazon fue pionera en el uso de la inteligencia artificial para distintas funciones clave, como la revisión y calificación de los currículums de los aspirantes a trabajar en la empresa. Sin embargo, en 2018 abandonó el uso de un sistema de inteligencia artificial para revisar currículums porque el algoritmo penalizaba automáticamente las solicitudes que contenían la palabra \"mujer\". Esto sucedió porque el sistema algorítmico fue entrenado con datos históricos de contrataciones, donde los hombres predominaban en los roles tecnológicos, lo que llevó al algoritmo a asociar características masculinas con mejores candidatos.",
+              "o": [
+                "Persecución de género.",
+                "Omisiones selectivas en la historia de la ciencia / efecto Matilda.",
+                "Aplicaciones sexistas.",
+                "Exclusión y marginalización."
+              ],
+              "c": 2,
+              "k": "ipc-6778a9d8c27c388c"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el posmodernismo feminista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "El diálogo dentro de una comunidad científica plural e inclusiva puede desarmar los sesgos en la ciencia.",
+                "El sujeto de conocimiento es la comunidad científica y no el científico individual.",
+                "Solo la ciencia hecha por mujeres puede evitar replicar las relaciones de poder imperantes.",
+                "La ciencia es un conjunto de relatos que reproduce las relaciones de poder existentes."
+              ],
+              "c": 3,
+              "k": "ipc-19d8014fefb149f8"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. Las abejas son las protagonistas de la polinización, el proceso por el cual el polen es trasladado de una planta a otra, lo que permite la aparición de nuevos frutos y semillas. Esta tarea es fundamental para la agricultura y la apicultura, pero las abejas la realizan sin distinguir entre plantas. Un equipo de UBA/CONICET, liderado por el profesor Walter Farina, desarrolló un método de “entrenamiento” a través de fragancias para incentivar a las abejas a que prioricen la polinización de ciertas especies vegetales. La “polinización dirigida”, patentada por el grupo de investigadores, no solo mejora la eficacia de la polinización, sino que también tiene implicaciones económicas significativas porque contribuye a la producción agrícola, beneficiando tanto a apicultores como a agricultores.",
+              "o": [
+                "Sí, porque el desarrollo de un método de “polinización dirigida” resuelve problemas prácticos y contribuye inmediatamente a la producción agrícola en el país.",
+                "No, porque una investigación que busca desarrollar un método de entrenamiento de abejas no es efectiva para promover el pensamiento crítico y la formación de ciudadanos para una democracia.",
+                "Sí, porque es valioso en sí mismo, con independencia de alguna aplicación práctica, comprender mejor el proceso de polinización de las abejas y su importancia en la aparición de nuevos frutos y semillas.",
+                "No, porque el desarrollo de un método de entrenamiento de abejas a través de fragancias no atiende una demanda que la sociedad hace a la comunidad científica."
+              ],
+              "c": 0,
+              "k": "ipc-2ec0b7b1adab5ab8"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: Realizar experimentos con células madre embrionarias puede ayudar a curar enfermedades graves. Conclusión: Es correcto realizar experimentos con células madre embrionarias. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Algunos grupos religiosos se oponen al uso médico de células madre embrionarias.",
+                "Las células madre embrionarias tienen un mayor potencial de curación que otras células.",
+                "Es correcto realizar experimentos que puedan ayudar a curar enfermedades graves.",
+                "Los experimentos con células madre embrionarias deben ser aprobados por un comité ético."
+              ],
+              "c": 2,
+              "k": "ipc-2ad6d674e351b5fc"
+            }
+          ]
+        },
+        {
+          "id": "t8",
+          "n": "Tema 8",
+          "fuente": "IPC_2024_B.pdf",
+          "paginas": [
+            22,
+            24
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Aunque muchas veces se considera que los gatos son independientes y solitarios, son animales sociables que establecen fuertes lazos con sus tutores. Los gatos pueden establecer relaciones de confianza y lealtad, percibiendo a sus tutores como figuras parentales. Cuando los gatos son cachorros, pasan mucho tiempo con la madre y sus hermanos de camada, donde aprenden habilidades sociales y reciben placenteramente grandes cuidados maternales, que influyen en cómo llegarán a percibir a los seres humanos durante el resto de su vida. Sin embargo, solo algunos gatos conservan algunas conductas instintivas durante su adultez. Esto motivó la investigación de Jennifer Vonk y Moriah Galvan, investigadoras de la Universidad de Oakland en Michigan, quienes se preguntaron si la conducta de amasado (un movimiento con las patas delanteras que se asemeja al amasado de pan) en gatos adultos es consecuencia del destete precoz de los cachorros. Asumiendo que el destete en la quinta semana de vida es un destete temprano, las investigadoras entrevistaron a 50 familias que tenían gatos adultos, consultándoles sobre la adopción de los gatos, sobre la semana en que habían sido destetados y acerca de la conducta de amasado de esos gatos. Organizaron a las familias de los gatos en dos grupos: el Grupo A estaba conformado por los gatos que habían sido destetados antes de la semana 5 y el grupo B por aquellos gatos que se habían alimentado de la madre felina hasta, por lo menos, la sexta semana de vida. Las familias del grupo A reportaron con más frecuencia la conducta de amasado que las del Grupo B.",
+              "o": [
+                "El Grupo A estará conformado por los gatos destetados antes de la semana 5 y el grupo B por aquellos gatos alimentados de la madre felina hasta, por lo menos, la sexta semana de vida.",
+                "El destete en la quinta semana de vida es un destete temprano.",
+                "La conducta de amasado en gatos adultos es consecuencia del destete precoz de los cachorros.",
+                "Cuando los gatos son cachorros, pasan mucho tiempo con la madre y sus hermanos de camada, donde aprenden habilidades sociales y reciben placenteramente grandes cuidados maternales.",
+                "Los gatos pueden establecer relaciones de confianza y lealtad, percibiendo a sus tutores como figuras parentales.",
+                "Las familias del grupo A reportarán con más frecuencia que sus gatos presentan conductas de amasado que las familias del grupo B."
+              ],
+              "c": 2,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Aunque muchas veces se considera que los gatos son independientes y solitarios, son animales sociables que establecen fuertes lazos con sus tutores. Los gatos pueden establecer relaciones de confianza y lealtad, percibiendo a sus tutores como figuras parentales. Cuando los gatos son cachorros, pasan mucho tiempo con la madre y sus hermanos de camada, donde aprenden habilidades sociales y reciben placenteramente grandes cuidados maternales, que influyen en cómo llegarán a percibir a los seres humanos durante el resto de su vida. Sin embargo, solo algunos gatos conservan algunas conductas instintivas durante su adultez. Esto motivó la investigación de Jennifer Vonk y Moriah Galvan, investigadoras de la Universidad de Oakland en Michigan, quienes se preguntaron si la conducta de amasado (un movimiento con las patas delanteras que se asemeja al amasado de pan) en gatos adultos es consecuencia del destete precoz de los cachorros. Asumiendo que el destete en la quinta semana de vida es un destete temprano, las investigadoras entrevistaron a 50 familias que tenían gatos adultos, consultándoles sobre la adopción de los gatos, sobre la semana en que habían sido destetados y acerca de la conducta de amasado de esos gatos. Organizaron a las familias de los gatos en dos grupos: el Grupo A estaba conformado por los gatos que habían sido destetados antes de la semana 5 y el grupo B por aquellos gatos que se habían alimentado de la madre felina hasta, por lo menos, la sexta semana de vida. Las familias del grupo A reportaron con más frecuencia la conducta de amasado que las del Grupo B.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "El Grupo A estará conformado por los gatos destetados antes de la semana 5 y el grupo B por aquellos gatos alimentados de la madre felina hasta, por lo menos, la sexta semana de vida.",
+                "El destete en la quinta semana de vida es un destete temprano.",
+                "La conducta de amasado en gatos adultos es consecuencia del destete precoz de los cachorros.",
+                "Cuando los gatos son cachorros, pasan mucho tiempo con la madre y sus hermanos de camada, donde aprenden habilidades sociales y reciben placenteramente grandes cuidados maternales.",
+                "Los gatos pueden establecer relaciones de confianza y lealtad, percibiendo a sus tutores como figuras parentales.",
+                "Las familias del grupo A reportarán con más frecuencia que sus gatos presentan conductas de amasado que las familias del grupo B."
+              ],
+              "c": 5,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con el falsacionismo de Popper.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Aunque muchas veces se considera que los gatos son independientes y solitarios, son animales sociables que establecen fuertes lazos con sus tutores. Los gatos pueden establecer relaciones de confianza y lealtad, percibiendo a sus tutores como figuras parentales. Cuando los gatos son cachorros, pasan mucho tiempo con la madre y sus hermanos de camada, donde aprenden habilidades sociales y reciben placenteramente grandes cuidados maternales, que influyen en cómo llegarán a percibir a los seres humanos durante el resto de su vida. Sin embargo, solo algunos gatos conservan algunas conductas instintivas durante su adultez. Esto motivó la investigación de Jennifer Vonk y Moriah Galvan, investigadoras de la Universidad de Oakland en Michigan, quienes se preguntaron si la conducta de amasado (un movimiento con las patas delanteras que se asemeja al amasado de pan) en gatos adultos es consecuencia del destete precoz de los cachorros. Asumiendo que el destete en la quinta semana de vida es un destete temprano, las investigadoras entrevistaron a 50 familias que tenían gatos adultos, consultándoles sobre la adopción de los gatos, sobre la semana en que habían sido destetados y acerca de la conducta de amasado de esos gatos. Organizaron a las familias de los gatos en dos grupos: el Grupo A estaba conformado por los gatos que habían sido destetados antes de la semana 5 y el grupo B por aquellos gatos que se habían alimentado de la madre felina hasta, por lo menos, la sexta semana de vida. Las familias del grupo A reportaron con más frecuencia la conducta de amasado que las del Grupo B.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "corroborada",
+                    "confirmada",
+                    "verdadera",
+                    "verificada",
+                    "válida"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque la validez de la hipótesis queda establecida luego de varios intentos de refutación.",
+                    "porque se puede asignar un grado de probabilidad a la hipótesis si las consecuencias observacionales que se deducen de ella son verificadas.",
+                    "porque la hipótesis ha resistido por el momento los intentos de refutación.",
+                    "porque la verificación de las consecuencias observacionales constituye un apoyo concluyente para la hipótesis."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-755d14dab5d84301"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. La fuerza del karma influye en el destino de las almas.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque es válido.",
+                    "porque tiene falsadores potenciales.",
+                    "porque no está suficientemente confirmado.",
+                    "porque no puede traducirse al lenguaje observacional."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-e4c3e4a6fbd137b6"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Laura llegó tarde a su trabajo esta mañana. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Los trabajadores que toman el transporte público durante las horas pico llegan tarde a su lugar de trabajo.",
+                    "El 85% de los trabajadores que toman el transporte público durante las horas pico llegan tarde a su lugar de trabajo.",
+                    "Laura olvidó revisar el pronóstico del clima antes de salir de casa.",
+                    "Laura se despertó 15 minutos antes de salir de su casa para ir a trabajar.",
+                    "Laura tomó el transporte público durante la hora pico esta mañana."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Los trabajadores que toman el transporte público durante las horas pico llegan tarde a su lugar de trabajo.",
+                    "El 85% de los trabajadores que toman el transporte público durante las horas pico llegan tarde a su lugar de trabajo.",
+                    "Laura olvidó revisar el pronóstico del clima antes de salir de casa.",
+                    "Laura se despertó 15 minutos antes de salir de su casa para ir a trabajar.",
+                    "Laura tomó el transporte público durante la hora pico esta mañana."
+                  ],
+                  "c": 4
+                }
+              ],
+              "k": "ipc-8ea9b36b42c5df52"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. En el período de crisis....",
+              "o": [
+                "la comunidad científica pierde la confianza en la capacidad resolutiva del paradigma.",
+                "dos paradigmas incomensurables gozan de consenso en la comunidad científica.",
+                "la comunidad científica confía en que el paradigma provee herramientas adecuadas para resolver las anomalías.",
+                "un paradigma comienza a ser reemplazado por otro superior."
+              ],
+              "c": 0,
+              "k": "ipc-f8292c6ce7eeae7e"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. La empresa norteamericana Amazon fue pionera en el uso de la inteligencia artificial para distintas funciones clave, como la revisión y calificación de los currículums de los aspirantes a trabajar en la empresa. Sin embargo, en 2018 abandonó el uso de un sistema de inteligencia artificial para revisar currículums porque el algoritmo penalizaba automáticamente las solicitudes que contenían la palabra \"mujer\". Esto sucedió porque el sistema algorítmico fue entrenado con datos históricos de contrataciones, donde los hombres predominaban en los roles tecnológicos, lo que llevó al algoritmo a asociar características masculinas con mejores candidatos.",
+              "o": [
+                "Omisiones selectivas en la historia de la ciencia / efecto Matilda.",
+                "Aplicaciones sexistas.",
+                "Exclusión y marginalización.",
+                "Persecución de género."
+              ],
+              "c": 1,
+              "k": "ipc-6778a9d8c27c388c"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el posmodernismo feminista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "La ciencia es un conjunto de relatos que reproduce las relaciones de poder existentes.",
+                "El diálogo dentro de una comunidad científica plural e inclusiva puede desarmar los sesgos en la ciencia.",
+                "El sujeto de conocimiento es la comunidad científica y no el científico individual.",
+                "Solo la ciencia hecha por mujeres puede evitar replicar las relaciones de poder imperantes."
+              ],
+              "c": 0,
+              "k": "ipc-19d8014fefb149f8"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. Las abejas son las protagonistas de la polinización, el proceso por el cual el polen es trasladado de una planta a otra, lo que permite la aparición de nuevos frutos y semillas. Esta tarea es fundamental para la agricultura y la apicultura, pero las abejas la realizan sin distinguir entre plantas. Un equipo de UBA/CONICET, liderado por el profesor Walter Farina, desarrolló un método de “entrenamiento” a través de fragancias para incentivar a las abejas a que prioricen la polinización de ciertas especies vegetales. La “polinización dirigida”, patentada por el grupo de investigadores, no solo mejora la eficacia de la polinización, sino que también tiene implicaciones económicas significativas porque contribuye a la producción agrícola, beneficiando tanto a apicultores como a agricultores.",
+              "o": [
+                "No, porque el desarrollo de un método de entrenamiento de abejas a través de fragancias no atiende una demanda que la sociedad hace a la comunidad científica.",
+                "Sí, porque es valioso en sí mismo, con independencia de alguna aplicación práctica, comprender mejor el proceso de polinización de las abejas y su importancia en la aparición de nuevos frutos y semillas.",
+                "No, porque una investigación que busca desarrollar un método de entrenamiento de abejas no es efectiva para promover el pensamiento crítico y la formación de ciudadanos para una democracia.",
+                "Sí, porque el desarrollo de un método de “polinización dirigida” resuelve problemas prácticos y contribuye inmediatamente a la producción agrícola en el país."
+              ],
+              "c": 3,
+              "k": "ipc-2ec0b7b1adab5ab8"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: Realizar experimentos con células madre embrionarias puede ayudar a curar enfermedades graves. Conclusión: Es correcto realizar experimentos con células madre embrionarias. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Es correcto realizar experimentos que puedan ayudar a curar enfermedades graves.",
+                "Los experimentos con células madre embrionarias deben ser aprobados por un comité ético.",
+                "Las células madre embrionarias tienen un mayor potencial de curación que otras células.",
+                "Algunos grupos religiosos se oponen al uso médico de células madre embrionarias."
+              ],
+              "c": 0,
+              "k": "ipc-0a938c3107ccfec6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buacar-2024-05-31",
+      "nombre": "2º parcial · 31/05/2024",
+      "catedra": "A · Buacar, Natalia",
+      "fecha": "2024-05-31",
+      "detalle": "Cátedra A · Buacar, Natalia. 10 ejercicios de 1 punto. Sin puntaje parcial.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "IPC_2024_A.pdf",
+          "paginas": [
+            1,
+            3
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Aunque el envejecimiento suele asociarse con disminución de la memoria, existen los llamados “súper ancianos cognitivos”, personas mayores de 80 años que parecen inmunes a ese deterioro por su extraordinaria capacidad de recordar. En 2012 un estudio del Centro de Neurología Cognitiva de la Universidad de Northwestern investigó si esos “super ancianos cognitivos” son resistentes a la pérdida de volumen cerebral cortical relacionada con la edad. Se formaron tres grupos de personas sanas clasificadas según su edad y puntaje en el test de memoria “RAVLT”. El Grupo 1 fue integrado por personas de mediana edad (de alrededor de 61 años con puntajes de memoria normales para su edad), el Grupo 2 se formó con “super ancianos cognitivos” (de alrededor de 83 años con puntaje muy superior al normal para su edad y muy similar al puntaje de las personas de mediana edad) y el Grupo 3 se compuso con ancianos de alrededor de 83 años con puntajes normales para esa edad. Asumiendo que las imágenes obtenidas por resonancia magnética informan el volumen cerebral cortical, se practicó ese estudio a cada participante. Las imágenes resultantes mostraron que el volumen promedio de la corteza cerebral de las personas del Grupo 2 era mayor que el de las personas del Grupo 3 y semejante al de las del Grupo 1.",
+              "o": [
+                "Las imágenes obtenidas por resonancia magnética mostrarán que el volumen promedio de la corteza cerebral de las personas del Grupo 2 es inferior al del Grupo 1 y al de las del Grupo 3.",
+                "Las imágenes obtenidas por resonancia magnética informan la capacidad de la memoria.",
+                "Los “super ancianos cognitivos” son resistentes a la pérdida de volumen cerebral cortical relacionada con la edad.",
+                "Las imágenes obtenidas por resonancia magnética mostrarán que el volumen promedio de la corteza cerebral de las personas del Grupo 2 es mayor que el de las personas del Grupo 3 y semejante al de las del Grupo 1.",
+                "Las personas de mediana edad son más resistentes a la pérdida de memoria que las personas ancianas.",
+                "Las imágenes obtenidas por resonancia magnética informan el volumen cerebral cortical."
+              ],
+              "c": 2,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Aunque el envejecimiento suele asociarse con disminución de la memoria, existen los llamados “súper ancianos cognitivos”, personas mayores de 80 años que parecen inmunes a ese deterioro por su extraordinaria capacidad de recordar. En 2012 un estudio del Centro de Neurología Cognitiva de la Universidad de Northwestern investigó si esos “super ancianos cognitivos” son resistentes a la pérdida de volumen cerebral cortical relacionada con la edad. Se formaron tres grupos de personas sanas clasificadas según su edad y puntaje en el test de memoria “RAVLT”. El Grupo 1 fue integrado por personas de mediana edad (de alrededor de 61 años con puntajes de memoria normales para su edad), el Grupo 2 se formó con “super ancianos cognitivos” (de alrededor de 83 años con puntaje muy superior al normal para su edad y muy similar al puntaje de las personas de mediana edad) y el Grupo 3 se compuso con ancianos de alrededor de 83 años con puntajes normales para esa edad. Asumiendo que las imágenes obtenidas por resonancia magnética informan el volumen cerebral cortical, se practicó ese estudio a cada participante. Las imágenes resultantes mostraron que el volumen promedio de la corteza cerebral de las personas del Grupo 2 era mayor que el de las personas del Grupo 3 y semejante al de las del Grupo 1.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Las imágenes obtenidas por resonancia magnética mostrarán que el volumen promedio de la corteza cerebral de las personas del Grupo 2 es inferior al del Grupo 1 y al de las del Grupo 3.",
+                "Las imágenes obtenidas por resonancia magnética informan la capacidad de la memoria.",
+                "Los “super ancianos cognitivos” son resistentes a la pérdida de volumen cerebral cortical relacionada con la edad.",
+                "Las imágenes obtenidas por resonancia magnética mostrarán que el volumen promedio de la corteza cerebral de las personas del Grupo 2 es mayor que el de las personas del Grupo 3 y semejante al de las del Grupo 1.",
+                "Las personas de mediana edad son más resistentes a la pérdida de memoria que las personas ancianas.",
+                "Las imágenes obtenidas por resonancia magnética informan el volumen cerebral cortical."
+              ],
+              "c": 5,
+              "k": "ipc-b61f5077cd1e84d4"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con la postura inductivista crítica de Hempel.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Aunque el envejecimiento suele asociarse con disminución de la memoria, existen los llamados “súper ancianos cognitivos”, personas mayores de 80 años que parecen inmunes a ese deterioro por su extraordinaria capacidad de recordar. En 2012 un estudio del Centro de Neurología Cognitiva de la Universidad de Northwestern investigó si esos “super ancianos cognitivos” son resistentes a la pérdida de volumen cerebral cortical relacionada con la edad. Se formaron tres grupos de personas sanas clasificadas según su edad y puntaje en el test de memoria “RAVLT”. El Grupo 1 fue integrado por personas de mediana edad (de alrededor de 61 años con puntajes de memoria normales para su edad), el Grupo 2 se formó con “super ancianos cognitivos” (de alrededor de 83 años con puntaje muy superior al normal para su edad y muy similar al puntaje de las personas de mediana edad) y el Grupo 3 se compuso con ancianos de alrededor de 83 años con puntajes normales para esa edad. Asumiendo que las imágenes obtenidas por resonancia magnética informan el volumen cerebral cortical, se practicó ese estudio a cada participante. Las imágenes resultantes mostraron que el volumen promedio de la corteza cerebral de las personas del Grupo 2 era mayor que el de las personas del Grupo 3 y semejante al de las del Grupo 1.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "verdadera",
+                    "verificada",
+                    "válida",
+                    "corroborada",
+                    "confirmada"
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque las consecuencias observacionales verificadas solo permiten afirmar que la hipótesis de la que se deducen no ha sido refutada hasta ahora.",
+                    "porque la hipótesis recibe apoyo inductivo a partir de los casos favorables observados.",
+                    "porque la validez de la hipótesis queda establecida de modo concluyente cuando supera varios intentos de refutación.",
+                    "porque ante el hallazgo de suficientes casos favorables la hipótesis contrastada se considera verdadera de modo definitivo."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-921d1833e114855f"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. La probabilidad de que una tortuga marina sea afectada por la contaminación plástica es del 0,3.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque no tiene falsadores potenciales.",
+                    "porque está confirmado.",
+                    "porque es poco probable.",
+                    "porque no puede traducirse al lenguaje observacional."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-33a6c6a730a09433"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Diego siente dolor de cabeza. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Casi siempre la exposición a sonidos por encima de los 100 dB produce dolor de cabeza.",
+                    "Diego pasó la noche entera al lado de un parlante que emitía sonidos a 110 dB.",
+                    "Los parlantes en los locales de entretenimiento a los que asiste Diego suelen emitir sonido por encima de los 100dB.",
+                    "La exposición por más de una hora a sonidos superiores a los 100 dB produce dolor de cabeza.",
+                    "El parlante emite sonidos superiores a los 100 dB."
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Casi siempre la exposición a sonidos por encima de los 100 dB produce dolor de cabeza.",
+                    "Diego pasó la noche entera al lado de un parlante que emitía sonidos a 110 dB.",
+                    "Los parlantes en los locales de entretenimiento a los que asiste Diego suelen emitir sonido por encima de los 100dB.",
+                    "La exposición por más de una hora a sonidos superiores a los 100 dB produce dolor de cabeza.",
+                    "El parlante emite sonidos superiores a los 100 dB."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-69d0cb469698babe"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. En el período de ciencia normal...",
+              "o": [
+                "no existe consenso sobre los compromisos metodológicos que deben guiar la producción de conocimiento.",
+                "se produce el reemplazo de un paradigma por otro.",
+                "existe una sospecha generalizada respecto de la capacidad resolutiva del paradigma vigente.",
+                "hay un progreso acumulativo del conocimiento."
+              ],
+              "c": 3,
+              "k": "ipc-54bb671feb42308c"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Hertha Ayrton (1854-1923) fue una ingeniera e inventora. A fines del siglo XIX, el alumbrado público europeo consistía en arcos eléctricos que emitían ruidosos silbidos. En respuesta a este problema, ella diseñó una luminaria que no producía chasquidos, explicando que éstos se producían cuando el oxígeno entra en contacto con las varillas de carbono. No obstante, Hertha no fue bien recibida por las sociedades científicas de la época, las cuales no permitían que mujeres casadas fueran socias ni que presentaran sus trabajos, de modo que colegas varones debían leer sus aportes en su nombre. De hecho, el presidente de la Royal Society, William Huggins, prohibió su participación alegando que la presencia de mujeres terminaría por “trivializar una institución científica de élite”. Eventualmente, su trabajo ganó una notoriedad imposible de ignorar, y tanto la Royal Society como la Institution of Electrical Engineers, la Physical Society y la British Association le permitieron dar disertaciones públicas. Su contribución ayudó a que varias de estas sociedades permitan la participación femenina.",
+              "o": [
+                "Teorías sexistas.",
+                "Aplicaciones sexistas.",
+                "Exclusión y marginalización.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda."
+              ],
+              "c": 2,
+              "k": "ipc-6ab696bf2e0cfb3b"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "No existe un punto de vista unificado que constituya la perspectiva de las mujeres.",
+                "Las mujeres cuentan con un privilegio epistémico con respecto a ciertos fenómenos.",
+                "La decisión de cuáles teorías científicas aceptamos solo depende de elementos lógicos y empíricos.",
+                "No existe un sujeto epistémico neutral ni una mirada universal."
+              ],
+              "c": 1,
+              "k": "ipc-3478294bab41a1ef"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. Utilizando el telescopio espacial James Webb, un equipo internacional de astrónomos dirigido por la Universidad de Cambridge ha descubierto una galaxia que \"murió\" cuando el universo tenía sólo 700 millones de años, la más antigua de este tipo jamás observada. Los resultados de esta investigación en ciencia básica, publicados en la revista Nature, podrían ser importantes para ayudar a los astrónomos a comprender cómo y por qué las galaxias dejan de formar nuevas estrellas, y si los factores que afectan a la formación estelar han cambiado a lo largo de miles de millones de años. Hasta ahora, los modelos para comprender el universo primitivo se basaban en modelos del universo moderno. Sin embargo, los telescopios que permiten ver parte del universo antiguo y observar la formación de estrellas en galaxias primitivas podrían llevar a los científicos a revisar estos modelos.",
+              "o": [
+                "Sí, porque mejorar nuestra comprensión de los procesos de formación de estrellas es algo valioso en sí mismo, independientemente de si tendrá alguna aplicación en el futuro.",
+                "No, porque mejorar nuestra comprensión de los procesos de formación de estrellas no contribuye al pensamiento crítico ni a la formación de ciudadanos democráticos.",
+                "No, porque mejorar nuestra comprensión de los procesos de formación de estrellas no contribuye directamente a resolver problemas vinculados al desarrollo económico y social de un país.",
+                "Sí, porque mejorar nuestra comprensión de los procesos de formación de estrellas contribuye indirectamente al desarrollo cultural y económico del país."
+              ],
+              "c": 2,
+              "k": "ipc-a5fa212a2ec81baf"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: La pandemia de Covid-19 es un caso de emergencia sanitaria que pone en riesgo el derecho a la salud. Conclusión: El Estado debe fomentar y desarrollar la investigación clínica sobre la Covid-19. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "La pandemia de la Covid-19 debe considerarse un caso de emergencia sanitaria.",
+                "El Estado debe fomentar y desarrollar la investigación clínica en casos de emergencia sanitaria.",
+                "Fomentar la investigación clínica sobre la Covid-19 contribuye al conocimiento de la enfermedad.",
+                "El Estado debe proteger el derecho a la salud de su población."
+              ],
+              "c": 1,
+              "k": "ipc-b560e468c7631564"
+            }
+          ]
+        },
+        {
+          "id": "t2",
+          "n": "Tema 2",
+          "fuente": "IPC_2024_A.pdf",
+          "paginas": [
+            4,
+            6
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Aunque el envejecimiento suele asociarse con disminución de la memoria, existen los llamados “súper ancianos cognitivos”, personas mayores de 80 años que parecen inmunes a ese deterioro por su extraordinaria capacidad de recordar. En 2012 un estudio del Centro de Neurología Cognitiva de la Universidad de Northwestern investigó si esos “super ancianos cognitivos” son resistentes a la pérdida de volumen cerebral cortical relacionada con la edad. Se formaron tres grupos de personas sanas clasificadas según su edad y puntaje en el test de memoria “RAVLT”. El Grupo 1 fue integrado por personas de mediana edad (de alrededor de 61 años con puntajes de memoria normales para su edad), el Grupo 2 se formó con “super ancianos cognitivos” (de alrededor de 83 años con puntaje muy superior al normal para su edad y muy similar al puntaje de las personas de mediana edad) y el Grupo 3 se compuso con ancianos de alrededor de 83 años con puntajes normales para esa edad. Asumiendo que las imágenes obtenidas por resonancia magnética informan el volumen cerebral cortical, se practicó ese estudio a cada participante. Las imágenes resultantes mostraron que el volumen promedio de la corteza cerebral de las personas del Grupo 2 era mayor que el de las personas del Grupo 3 y semejante al de las del Grupo 1.",
+              "o": [
+                "Las imágenes obtenidas por resonancia magnética mostrarán que el volumen promedio de la corteza cerebral de las personas del Grupo 2 es inferior al del Grupo 1 y al de las del Grupo 3.",
+                "Las imágenes obtenidas por resonancia magnética mostrarán que el volumen promedio de la corteza cerebral de las personas del Grupo 2 es mayor que el de las personas del Grupo 3 y semejante al de las del Grupo 1.",
+                "Las imágenes obtenidas por resonancia magnética informan el volumen cerebral cortical.",
+                "Las personas de mediana edad son más resistentes a la pérdida de memoria que las personas ancianas.",
+                "Las imágenes obtenidas por resonancia magnética informan la capacidad de la memoria.",
+                "Los “super ancianos cognitivos” son resistentes a la pérdida de volumen cerebral cortical relacionada con la edad."
+              ],
+              "c": 5,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Aunque el envejecimiento suele asociarse con disminución de la memoria, existen los llamados “súper ancianos cognitivos”, personas mayores de 80 años que parecen inmunes a ese deterioro por su extraordinaria capacidad de recordar. En 2012 un estudio del Centro de Neurología Cognitiva de la Universidad de Northwestern investigó si esos “super ancianos cognitivos” son resistentes a la pérdida de volumen cerebral cortical relacionada con la edad. Se formaron tres grupos de personas sanas clasificadas según su edad y puntaje en el test de memoria “RAVLT”. El Grupo 1 fue integrado por personas de mediana edad (de alrededor de 61 años con puntajes de memoria normales para su edad), el Grupo 2 se formó con “super ancianos cognitivos” (de alrededor de 83 años con puntaje muy superior al normal para su edad y muy similar al puntaje de las personas de mediana edad) y el Grupo 3 se compuso con ancianos de alrededor de 83 años con puntajes normales para esa edad. Asumiendo que las imágenes obtenidas por resonancia magnética informan el volumen cerebral cortical, se practicó ese estudio a cada participante. Las imágenes resultantes mostraron que el volumen promedio de la corteza cerebral de las personas del Grupo 2 era mayor que el de las personas del Grupo 3 y semejante al de las del Grupo 1.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Las imágenes obtenidas por resonancia magnética mostrarán que el volumen promedio de la corteza cerebral de las personas del Grupo 2 es inferior al del Grupo 1 y al de las del Grupo 3.",
+                "Las imágenes obtenidas por resonancia magnética mostrarán que el volumen promedio de la corteza cerebral de las personas del Grupo 2 es mayor que el de las personas del Grupo 3 y semejante al de las del Grupo 1.",
+                "Las imágenes obtenidas por resonancia magnética informan el volumen cerebral cortical.",
+                "Las personas de mediana edad son más resistentes a la pérdida de memoria que las personas ancianas.",
+                "Las imágenes obtenidas por resonancia magnética informan la capacidad de la memoria.",
+                "Los “super ancianos cognitivos” son resistentes a la pérdida de volumen cerebral cortical relacionada con la edad."
+              ],
+              "c": 1,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con la postura inductivista crítica de Hempel.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Aunque el envejecimiento suele asociarse con disminución de la memoria, existen los llamados “súper ancianos cognitivos”, personas mayores de 80 años que parecen inmunes a ese deterioro por su extraordinaria capacidad de recordar. En 2012 un estudio del Centro de Neurología Cognitiva de la Universidad de Northwestern investigó si esos “super ancianos cognitivos” son resistentes a la pérdida de volumen cerebral cortical relacionada con la edad. Se formaron tres grupos de personas sanas clasificadas según su edad y puntaje en el test de memoria “RAVLT”. El Grupo 1 fue integrado por personas de mediana edad (de alrededor de 61 años con puntajes de memoria normales para su edad), el Grupo 2 se formó con “super ancianos cognitivos” (de alrededor de 83 años con puntaje muy superior al normal para su edad y muy similar al puntaje de las personas de mediana edad) y el Grupo 3 se compuso con ancianos de alrededor de 83 años con puntajes normales para esa edad. Asumiendo que las imágenes obtenidas por resonancia magnética informan el volumen cerebral cortical, se practicó ese estudio a cada participante. Las imágenes resultantes mostraron que el volumen promedio de la corteza cerebral de las personas del Grupo 2 era mayor que el de las personas del Grupo 3 y semejante al de las del Grupo 1.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "válida",
+                    "verdadera",
+                    "confirmada",
+                    "corroborada",
+                    "verificada"
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque las consecuencias observacionales verificadas solo permiten afirmar que la hipótesis de la que se deducen no ha sido refutada hasta ahora.",
+                    "porque ante el hallazgo de suficientes casos favorables la hipótesis contrastada se considera verdadera de modo definitivo.",
+                    "porque la validez de la hipótesis queda establecida de modo concluyente cuando supera varios intentos de refutación.",
+                    "porque la hipótesis recibe apoyo inductivo a partir de los casos favorables observados."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-921d1833e114855f"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. La probabilidad de que una tortuga marina sea afectada por la contaminación plástica es del 0,3.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque está confirmado.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque es poco probable."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-33a6c6a730a09433"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Diego siente dolor de cabeza. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Casi siempre la exposición a sonidos por encima de los 100 dB produce dolor de cabeza.",
+                    "Los parlantes en los locales de entretenimiento a los que asiste Diego suelen emitir sonido por encima de los 100dB.",
+                    "El parlante emite sonidos superiores a los 100 dB.",
+                    "Diego pasó la noche entera al lado de un parlante que emitía sonidos a 110 dB.",
+                    "La exposición por más de una hora a sonidos superiores a los 100 dB produce dolor de cabeza."
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Casi siempre la exposición a sonidos por encima de los 100 dB produce dolor de cabeza.",
+                    "Los parlantes en los locales de entretenimiento a los que asiste Diego suelen emitir sonido por encima de los 100dB.",
+                    "El parlante emite sonidos superiores a los 100 dB.",
+                    "Diego pasó la noche entera al lado de un parlante que emitía sonidos a 110 dB.",
+                    "La exposición por más de una hora a sonidos superiores a los 100 dB produce dolor de cabeza."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-69d0cb469698babe"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. En el período de ciencia normal...",
+              "o": [
+                "no existe consenso sobre los compromisos metodológicos que deben guiar la producción de conocimiento.",
+                "hay un progreso acumulativo del conocimiento.",
+                "existe una sospecha generalizada respecto de la capacidad resolutiva del paradigma vigente.",
+                "se produce el reemplazo de un paradigma por otro."
+              ],
+              "c": 1,
+              "k": "ipc-54bb671feb42308c"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Hertha Ayrton (1854-1923) fue una ingeniera e inventora. A fines del siglo XIX, el alumbrado público europeo consistía en arcos eléctricos que emitían ruidosos silbidos. En respuesta a este problema, ella diseñó una luminaria que no producía chasquidos, explicando que éstos se producían cuando el oxígeno entra en contacto con las varillas de carbono. No obstante, Hertha no fue bien recibida por las sociedades científicas de la época, las cuales no permitían que mujeres casadas fueran socias ni que presentaran sus trabajos, de modo que colegas varones debían leer sus aportes en su nombre. De hecho, el presidente de la Royal Society, William Huggins, prohibió su participación alegando que la presencia de mujeres terminaría por “trivializar una institución científica de élite”. Eventualmente, su trabajo ganó una notoriedad imposible de ignorar, y tanto la Royal Society como la Institution of Electrical Engineers, la Physical Society y la British Association le permitieron dar disertaciones públicas. Su contribución ayudó a que varias de estas sociedades permitan la participación femenina.",
+              "o": [
+                "Aplicaciones sexistas.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Teorías sexistas.",
+                "Exclusión y marginalización."
+              ],
+              "c": 3,
+              "k": "ipc-6ab696bf2e0cfb3b"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "No existe un sujeto epistémico neutral ni una mirada universal.",
+                "La decisión de cuáles teorías científicas aceptamos solo depende de elementos lógicos y empíricos.",
+                "Las mujeres cuentan con un privilegio epistémico con respecto a ciertos fenómenos.",
+                "No existe un punto de vista unificado que constituya la perspectiva de las mujeres."
+              ],
+              "c": 2,
+              "k": "ipc-3478294bab41a1ef"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. Utilizando el telescopio espacial James Webb, un equipo internacional de astrónomos dirigido por la Universidad de Cambridge ha descubierto una galaxia que \"murió\" cuando el universo tenía sólo 700 millones de años, la más antigua de este tipo jamás observada. Los resultados de esta investigación en ciencia básica, publicados en la revista Nature, podrían ser importantes para ayudar a los astrónomos a comprender cómo y por qué las galaxias dejan de formar nuevas estrellas, y si los factores que afectan a la formación estelar han cambiado a lo largo de miles de millones de años. Hasta ahora, los modelos para comprender el universo primitivo se basaban en modelos del universo moderno. Sin embargo, los telescopios que permiten ver parte del universo antiguo y observar la formación de estrellas en galaxias primitivas podrían llevar a los científicos a revisar estos modelos.",
+              "o": [
+                "No, porque mejorar nuestra comprensión de los procesos de formación de estrellas no contribuye al pensamiento crítico ni a la formación de ciudadanos democráticos.",
+                "No, porque mejorar nuestra comprensión de los procesos de formación de estrellas no contribuye directamente a resolver problemas vinculados al desarrollo económico y social de un país.",
+                "Sí, porque mejorar nuestra comprensión de los procesos de formación de estrellas contribuye indirectamente al desarrollo cultural y económico del país.",
+                "Sí, porque mejorar nuestra comprensión de los procesos de formación de estrellas es algo valioso en sí mismo, independientemente de si tendrá alguna aplicación en el futuro."
+              ],
+              "c": 1,
+              "k": "ipc-a5fa212a2ec81baf"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: La pandemia de Covid-19 es un caso de emergencia sanitaria que pone en riesgo el derecho a la salud. Conclusión: El Estado debe fomentar y desarrollar la investigación clínica sobre la Covid-19. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Fomentar la investigación clínica sobre la Covid-19 contribuye al conocimiento de la enfermedad.",
+                "La pandemia de la Covid-19 debe considerarse un caso de emergencia sanitaria.",
+                "El Estado debe fomentar y desarrollar la investigación clínica en casos de emergencia sanitaria.",
+                "El Estado debe proteger el derecho a la salud de su población."
+              ],
+              "c": 2,
+              "k": "ipc-6108d69c8a0c590a"
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "IPC_2024_A.pdf",
+          "paginas": [
+            7,
+            9
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. El efecto estimulante del café suele atribuirse a la cafeína. Sin embargo, recientemente un grupo de investigadores españoles y portugueses propuso que el café produce un mayor estado de alerta a los estímulos externos que la cafeína sola. Para probarlo, llevaron a cabo un estudio en el que dividieron a los participantes en dos grupos. El grupo 1 debía tomar una taza de café y el grupo 2 debía tomar una dosis de cafeína en pastilla equivalente a la de una taza de café. Asumiendo que la observación en resonancias magnéticas de un aumento de conectividad en las redes neuronales encargadas del control ejecutivo indica un mayor estado de alerta a los estímulos externos, realizaron resonancias magnéticas a todos los participantes, registrando la actividad cerebral 30 minutos antes y 30 minutos después de tomar la taza de café o la pastilla de cafeína. En los participantes del grupo 1 observaron un aumento en la conectividad en las redes neuronales encargadas del control ejecutivo significativamente mayor que en los participantes del grupo 2.",
+              "o": [
+                "Las resonancias magnéticas de los participantes del grupo 1 mostrarán un aumento en la conectividad en las redes neuronales encargadas del control ejecutivo significativamente mayor que las del grupo 2.",
+                "El café produce un mayor estado de alerta a los estímulos externos que la cafeína sola.",
+                "El efecto estimulante del café se debe a la cafeína.",
+                "Los participantes del grupo 2 estarán en un mayor estado de alerta a los estímulos externos que los del grupo 1.",
+                "La observación en resonancias magnéticas de un aumento de conectividad en las redes neuronales encargadas del control ejecutivo indica un mayor estado de alerta a los estímulos externos.",
+                "El grupo 1 debía tomar una taza de café y el grupo 2 debía tomar una pastilla de cafeína."
+              ],
+              "c": 1,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. El efecto estimulante del café suele atribuirse a la cafeína. Sin embargo, recientemente un grupo de investigadores españoles y portugueses propuso que el café produce un mayor estado de alerta a los estímulos externos que la cafeína sola. Para probarlo, llevaron a cabo un estudio en el que dividieron a los participantes en dos grupos. El grupo 1 debía tomar una taza de café y el grupo 2 debía tomar una dosis de cafeína en pastilla equivalente a la de una taza de café. Asumiendo que la observación en resonancias magnéticas de un aumento de conectividad en las redes neuronales encargadas del control ejecutivo indica un mayor estado de alerta a los estímulos externos, realizaron resonancias magnéticas a todos los participantes, registrando la actividad cerebral 30 minutos antes y 30 minutos después de tomar la taza de café o la pastilla de cafeína. En los participantes del grupo 1 observaron un aumento en la conectividad en las redes neuronales encargadas del control ejecutivo significativamente mayor que en los participantes del grupo 2.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Las resonancias magnéticas de los participantes del grupo 1 mostrarán un aumento en la conectividad en las redes neuronales encargadas del control ejecutivo significativamente mayor que las del grupo 2.",
+                "El café produce un mayor estado de alerta a los estímulos externos que la cafeína sola.",
+                "El efecto estimulante del café se debe a la cafeína.",
+                "Los participantes del grupo 2 estarán en un mayor estado de alerta a los estímulos externos que los del grupo 1.",
+                "La observación en resonancias magnéticas de un aumento de conectividad en las redes neuronales encargadas del control ejecutivo indica un mayor estado de alerta a los estímulos externos.",
+                "El grupo 1 debía tomar una taza de café y el grupo 2 debía tomar una pastilla de cafeína."
+              ],
+              "c": 4,
+              "k": "ipc-b61f5077cd1e84d4"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con el falsacionismo de Popper.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. El efecto estimulante del café suele atribuirse a la cafeína. Sin embargo, recientemente un grupo de investigadores españoles y portugueses propuso que el café produce un mayor estado de alerta a los estímulos externos que la cafeína sola. Para probarlo, llevaron a cabo un estudio en el que dividieron a los participantes en dos grupos. El grupo 1 debía tomar una taza de café y el grupo 2 debía tomar una dosis de cafeína en pastilla equivalente a la de una taza de café. Asumiendo que la observación en resonancias magnéticas de un aumento de conectividad en las redes neuronales encargadas del control ejecutivo indica un mayor estado de alerta a los estímulos externos, realizaron resonancias magnéticas a todos los participantes, registrando la actividad cerebral 30 minutos antes y 30 minutos después de tomar la taza de café o la pastilla de cafeína. En los participantes del grupo 1 observaron un aumento en la conectividad en las redes neuronales encargadas del control ejecutivo significativamente mayor que en los participantes del grupo 2.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "verdadera",
+                    "verificada",
+                    "corroborada",
+                    "confirmada",
+                    "válida"
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque las consecuencias observacionales verificadas ofrecen apoyo inductivo a la hipótesis de la que se deducen.",
+                    "porque la validez de la hipótesis queda establecida luego de varios intentos de refutación.",
+                    "porque los casos favorables observados permiten establecer la verdad de la hipótesis de modo definitivo.",
+                    "porque se acepta provisoriamente la hipótesis luego del intento fallido de refutación."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-a33f650174d0899d"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. El ser es un límite último y es semejante a la masa de una esfera redonda.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque puede ponerse a prueba con la experiencia.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque está verificado."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-eb70e4a5dd3d8a20"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: María perdió dinero apostando el jueves. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "El casino abrió el jueves.",
+                    "A menudo María va al casino.",
+                    "La mayoría de las personas que van al casino pierden dinero en las apuestas.",
+                    "María fue al casino el jueves.",
+                    "Los casinos siempre ganan dinero."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "El casino abrió el jueves.",
+                    "A menudo María va al casino.",
+                    "La mayoría de las personas que van al casino pierden dinero en las apuestas.",
+                    "María fue al casino el jueves.",
+                    "Los casinos siempre ganan dinero."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-cba2e369d28dadb4"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Cuando un paradigma es reemplazado por otro, ...",
+              "o": [
+                "el conocimiento producido bajo el nuevo paradigma complementa al que ya había acumulado el anterior.",
+                "el nuevo paradigma puede responder a todos los enigmas del anterior.",
+                "se produce una ruptura respecto al conocimiento científico producido hasta el momento.",
+                "se produce conocimiento más comprobado que el que existía bajo el paradigma abandonado."
+              ],
+              "c": 2,
+              "k": "ipc-6f6d571779dd73ba"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. En Teorías sexuales infantiles (1908), Sigmund Freud presenta su visión acerca del desarrollo psicosexual femenino. Allí afirma que, una vez que la niña advierte que no posee un pene, surge en ella una aversión hacia la madre por no haberle dado uno, a la vez que desarrolla un sentimiento de envidia fálica que servirá como motor de su libido e impactará en la formación de su carácter. Como consecuencia de esta envidia, las mujeres suelen exhibir un sentido débil de la justicia, rasgos narcisistas y una prevalencia de la envidia y los celos en su vida anímica. Sin embargo, al día de hoy no hay evidencia empírica que apoye la existencia de envidia del pene en mujeres y niñas. A su vez, la postura freudiana recibió numerosas críticas por parte de círculos neofreudianos. Por un lado, Karen Horney mantiene que la envidia fálica se puede explicar a partir de la desigualdad entre géneros: lo que las mujeres envidian en los hombres no es su órgano sexual, sino su rol en la sociedad. Por su parte, Luce Irigaray critica que la teoría del desarrollo psicosexual de Freud está propiamente pensada para uno de los sexos, el masculino, y el femenino queda erróneamente reducido a una privación de este.",
+              "o": [
+                "Conceptualizaciones sexistas.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Exclusión y marginalización.",
+                "Teorías sexistas."
+              ],
+              "c": 3,
+              "k": "ipc-69f8c46771ecb40d"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por la teoría feminista del punto de vista.",
+              "o": [
+                "No existe un sujeto epistémico neutral ni una mirada universal.",
+                "Cuando se trata de fenómenos relacionados con el género, son prefereibles las teorías producidas por mujeres, que son epistémicamente superiores.",
+                "Son preferibles aquellas teorías que son sometidas a la crítica intersubjetiva de una comunidad científica plural.",
+                "La decisión de cuáles teorías científicas aceptamos solo depende de elementos lógicos y empíricos."
+              ],
+              "c": 2,
+              "k": "ipc-c65c0798086d6568"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. Utilizando el telescopio espacial James Webb, un equipo internacional de astrónomos dirigido por la Universidad de Cambridge ha descubierto una galaxia que \"murió\" cuando el universo tenía sólo 700 millones de años, la más antigua de este tipo jamás observada. Los resultados de esta investigación en ciencia básica, publicados en la revista Nature, podrían ser importantes para ayudar a los astrónomos a comprender cómo y por qué las galaxias dejan de formar nuevas estrellas, y si los factores que afectan a la formación estelar han cambiado a lo largo de miles de millones de años. Hasta ahora, los modelos para comprender el universo primitivo se basaban en modelos del universo moderno. Sin embargo, los telescopios que permiten ver parte del universo antiguo y observar la formación de estrellas en galaxias primitivas podrían llevar a los científicos a revisar estos modelos.",
+              "o": [
+                "No, porque mejorar nuestra comprensión de los procesos de formación de estrellas no contribuye al pensamiento crítico y a la formación de ciudadanos democráticos.",
+                "Sí, porque mejorar nuestra comprensión de los procesos de formación de estrellas es algo valioso en sí mismo, independientemente de si tendrá alguna aplicación en el futuro.",
+                "No, porque mejorar nuestra comprensión de los procesos de formación de estrellas no contribuye directamente a resolver problemas prácticos vinculados al desarrollo económico y social de un país.",
+                "Sí, porque mejorar nuestra comprensión de los procesos de formación de estrellas contribuye directamente al desarrollo cultural y económico del país."
+              ],
+              "c": 1,
+              "k": "ipc-eb38f11f88beef0f"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... El índice de pobreza multidimensional toma en cuenta más factores que la medición de la pobreza por ingreso. Conclusión: Para estudiar el bienestar de un país es preferible utilizar el índice de pobreza multidimensional. Premisa 2: Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Para estudiar el bienestar de un país es preferible utilizar mediciones que tomen en cuenta varios factores.",
+                "El índice de pobreza multidimensional requiere un trabajo más extenso de recopilación de datos.",
+                "La medición de la pobreza por ingreso no ofrece información respecto al acceso a la salud y a la educación.",
+                "Para estudiar el bienestar de un país es necesario medir el nivel de su pobreza."
+              ],
+              "c": 0,
+              "k": "ipc-14ea7296913a8c7f"
+            }
+          ]
+        },
+        {
+          "id": "t4",
+          "n": "Tema 4",
+          "fuente": "IPC_2024_A.pdf",
+          "paginas": [
+            10,
+            12
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. El efecto estimulante del café suele atribuirse a la cafeína. Sin embargo, recientemente un grupo de investigadores españoles y portugueses propuso que el café produce un mayor estado de alerta a los estímulos externos que la cafeína sola. Para probarlo, llevaron a cabo un estudio en el que dividieron a los participantes en dos grupos. El grupo 1 debía tomar una taza de café y el grupo 2 debía tomar una dosis de cafeína en pastilla equivalente a la de una taza de café. Asumiendo que la observación en resonancias magnéticas de un aumento de conectividad en las redes neuronales encargadas del control ejecutivo indica un mayor estado de alerta a los estímulos externos, realizaron resonancias magnéticas a todos los participantes, registrando la actividad cerebral 30 minutos antes y 30 minutos después de tomar la taza de café o la pastilla de cafeína. En los participantes del grupo 1 observaron un aumento en la conectividad en las redes neuronales encargadas del control ejecutivo significativamente mayor que en los participantes del grupo 2.",
+              "o": [
+                "Las resonancias magnéticas de los participantes del grupo 1 mostrarán un aumento en la conectividad en las redes neuronales encargadas del control ejecutivo significativamente mayor que las del grupo 2.",
+                "El efecto estimulante del café se debe a la cafeína.",
+                "La observación en resonancias magnéticas de un aumento de conectividad en las redes neuronales encargadas del control ejecutivo indica un mayor estado de alerta a los estímulos externos.",
+                "Los participantes del grupo 2 estarán en un mayor estado de alerta a los estímulos externos que los del grupo 1.",
+                "El grupo 1 debía tomar una taza de café y el grupo 2 debía tomar una pastilla de cafeína.",
+                "El café produce un mayor estado de alerta a los estímulos externos que la cafeína sola."
+              ],
+              "c": 5,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. El efecto estimulante del café suele atribuirse a la cafeína. Sin embargo, recientemente un grupo de investigadores españoles y portugueses propuso que el café produce un mayor estado de alerta a los estímulos externos que la cafeína sola. Para probarlo, llevaron a cabo un estudio en el que dividieron a los participantes en dos grupos. El grupo 1 debía tomar una taza de café y el grupo 2 debía tomar una dosis de cafeína en pastilla equivalente a la de una taza de café. Asumiendo que la observación en resonancias magnéticas de un aumento de conectividad en las redes neuronales encargadas del control ejecutivo indica un mayor estado de alerta a los estímulos externos, realizaron resonancias magnéticas a todos los participantes, registrando la actividad cerebral 30 minutos antes y 30 minutos después de tomar la taza de café o la pastilla de cafeína. En los participantes del grupo 1 observaron un aumento en la conectividad en las redes neuronales encargadas del control ejecutivo significativamente mayor que en los participantes del grupo 2.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Las resonancias magnéticas de los participantes del grupo 1 mostrarán un aumento en la conectividad en las redes neuronales encargadas del control ejecutivo significativamente mayor que las del grupo 2.",
+                "El efecto estimulante del café se debe a la cafeína.",
+                "La observación en resonancias magnéticas de un aumento de conectividad en las redes neuronales encargadas del control ejecutivo indica un mayor estado de alerta a los estímulos externos.",
+                "Los participantes del grupo 2 estarán en un mayor estado de alerta a los estímulos externos que los del grupo 1.",
+                "El grupo 1 debía tomar una taza de café y el grupo 2 debía tomar una pastilla de cafeína.",
+                "El café produce un mayor estado de alerta a los estímulos externos que la cafeína sola."
+              ],
+              "c": 0,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con el falsacionismo de Popper.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. El efecto estimulante del café suele atribuirse a la cafeína. Sin embargo, recientemente un grupo de investigadores españoles y portugueses propuso que el café produce un mayor estado de alerta a los estímulos externos que la cafeína sola. Para probarlo, llevaron a cabo un estudio en el que dividieron a los participantes en dos grupos. El grupo 1 debía tomar una taza de café y el grupo 2 debía tomar una dosis de cafeína en pastilla equivalente a la de una taza de café. Asumiendo que la observación en resonancias magnéticas de un aumento de conectividad en las redes neuronales encargadas del control ejecutivo indica un mayor estado de alerta a los estímulos externos, realizaron resonancias magnéticas a todos los participantes, registrando la actividad cerebral 30 minutos antes y 30 minutos después de tomar la taza de café o la pastilla de cafeína. En los participantes del grupo 1 observaron un aumento en la conectividad en las redes neuronales encargadas del control ejecutivo significativamente mayor que en los participantes del grupo 2.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "verificada",
+                    "corroborada",
+                    "confirmada",
+                    "válida",
+                    "verdadera"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque los casos favorables observados permiten establecer la verdad de la hipótesis de modo definitivo.",
+                    "porque se acepta provisoriamente la hipótesis luego del intento fallido de refutación.",
+                    "porque las consecuencias observacionales verificadas ofrecen apoyo inductivo a la hipótesis de la que se deducen.",
+                    "porque la validez de la hipótesis queda establecida luego de varios intentos de refutación."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-a33f650174d0899d"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. El ser es un límite último y es semejante a la masa de una esfera redonda.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque está verificado.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque puede ponerse a prueba con la experiencia."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-eb70e4a5dd3d8a20"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: María perdió dinero apostando el jueves. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Los casinos siempre ganan dinero.",
+                    "María fue al casino el jueves.",
+                    "A menudo María va al casino.",
+                    "La mayoría de las personas que van al casino pierden dinero en las apuestas.",
+                    "El casino abrió el jueves."
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Los casinos siempre ganan dinero.",
+                    "María fue al casino el jueves.",
+                    "A menudo María va al casino.",
+                    "La mayoría de las personas que van al casino pierden dinero en las apuestas.",
+                    "El casino abrió el jueves."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-321cf60f3aa70eb7"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Cuando un paradigma es reemplazado por otro, ...",
+              "o": [
+                "se produce conocimiento más comprobado que el que existía bajo el paradigma abandonado.",
+                "el nuevo paradigma puede responder a todos los enigmas del anterior.",
+                "el conocimiento producido bajo el nuevo paradigma complementa al que ya había acumulado el anterior.",
+                "se produce una ruptura respecto al conocimiento científico producido hasta el momento."
+              ],
+              "c": 3,
+              "k": "ipc-6f6d571779dd73ba"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. En Teorías sexuales infantiles (1908), Sigmund Freud presenta su visión acerca del desarrollo psicosexual femenino. Allí afirma que, una vez que la niña advierte que no posee un pene, surge en ella una aversión hacia la madre por no haberle dado uno, a la vez que desarrolla un sentimiento de envidia fálica que servirá como motor de su libido e impactará en la formación de su carácter. Como consecuencia de esta envidia, las mujeres suelen exhibir un sentido débil de la justicia, rasgos narcisistas y una prevalencia de la envidia y los celos en su vida anímica. Sin embargo, al día de hoy no hay evidencia empírica que apoye la existencia de envidia del pene en mujeres y niñas. A su vez, la postura freudiana recibió numerosas críticas por parte de círculos neofreudianos. Por un lado, Karen Horney mantiene que la envidia fálica se puede explicar a partir de la desigualdad entre géneros: lo que las mujeres envidian en los hombres no es su órgano sexual, sino su rol en la sociedad. Por su parte, Luce Irigaray critica que la teoría del desarrollo psicosexual de Freud está propiamente pensada para uno de los sexos, el masculino, y el femenino queda erróneamente reducido a una privación de este.",
+              "o": [
+                "Teorías sexistas.",
+                "Conceptualizaciones sexistas.",
+                "Exclusión y marginalización.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda."
+              ],
+              "c": 0,
+              "k": "ipc-69f8c46771ecb40d"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por la teoría feminista del punto de vista.",
+              "o": [
+                "Cuando se trata de fenómenos relacionados con el género, son prefereibles las teorías producidas por mujeres, que son epistémicamente superiores.",
+                "Son preferibles aquellas teorías que son sometidas a la crítica intersubjetiva de una comunidad científica plural.",
+                "La decisión de cuáles teorías científicas aceptamos solo depende de elementos lógicos y empíricos.",
+                "No existe un sujeto epistémico neutral ni una mirada universal."
+              ],
+              "c": 1,
+              "k": "ipc-c65c0798086d6568"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. Utilizando el telescopio espacial James Webb, un equipo internacional de astrónomos dirigido por la Universidad de Cambridge ha descubierto una galaxia que \"murió\" cuando el universo tenía sólo 700 millones de años, la más antigua de este tipo jamás observada. Los resultados de esta investigación en ciencia básica, publicados en la revista Nature, podrían ser importantes para ayudar a los astrónomos a comprender cómo y por qué las galaxias dejan de formar nuevas estrellas, y si los factores que afectan a la formación estelar han cambiado a lo largo de miles de millones de años. Hasta ahora, los modelos para comprender el universo primitivo se basaban en modelos del universo moderno. Sin embargo, los telescopios que permiten ver parte del universo antiguo y observar la formación de estrellas en galaxias primitivas podrían llevar a los científicos a revisar estos modelos.",
+              "o": [
+                "No, porque mejorar nuestra comprensión de los procesos de formación de estrellas no contribuye al pensamiento crítico y a la formación de ciudadanos democráticos.",
+                "No, porque mejorar nuestra comprensión de los procesos de formación de estrellas no contribuye directamente a resolver problemas prácticos vinculados al desarrollo económico y social de un país.",
+                "Sí, porque mejorar nuestra comprensión de los procesos de formación de estrellas es algo valioso en sí mismo, independientemente de si tendrá alguna aplicación en el futuro.",
+                "Sí, porque mejorar nuestra comprensión de los procesos de formación de estrellas contribuye directamente al desarrollo cultural y económico del país."
+              ],
+              "c": 2,
+              "k": "ipc-eb38f11f88beef0f"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... El índice de pobreza multidimensional toma en cuenta más factores que la medición de la pobreza por ingreso. Conclusión: Para estudiar el bienestar de un país es preferible utilizar el índice de pobreza multidimensional. Premisa 2: Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "El índice de pobreza multidimensional requiere un trabajo más extenso de recopilación de datos.",
+                "Para estudiar el bienestar de un país es preferible utilizar mediciones que tomen en cuenta varios factores.",
+                "La medición de la pobreza por ingreso no ofrece información respecto al acceso a la salud y a la educación.",
+                "Para estudiar el bienestar de un país es necesario medir el nivel de su pobreza."
+              ],
+              "c": 1,
+              "k": "ipc-33085bd086aa301d"
+            }
+          ]
+        },
+        {
+          "id": "t5",
+          "n": "Tema 5",
+          "fuente": "IPC_2024_A.pdf",
+          "paginas": [
+            13,
+            15
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Algunos estudios han propuesto examinar cuáles pueden ser las causas de la distribución desigual de problemas de visión en personas de edad avanzada. Ahora, un nuevo estudio publicado en la revista “Ophthalmic Epidemiology” se propuso investigar si hay una correlación entre la temperatura promedio de la ciudad y la discapacidad visual severa. Los autores quisieron probar que quienes viven en regiones más cálidas tienen más probabilidades de tener una discapacidad visual grave que quienes residen en zonas más frías. Para eso, asumiendo que 10 grados de diferencia entre las zonas relevadas eran suficiente para establecer una adecuada comparación, la autora Elysia Fuller-Thomson entrevistó a dos grupos de personas, el grupo de Toronto, con temperaturas promedio menores a los 8° C, y el grupo de San Diego, con temperaturas promedio mayores los 18° C. El resultado de la investigación arrojó que el grupo de Toronto reportó menos casos de discapacidad visual que el grupo de San Diego.",
+              "o": [
+                "El grupo de Toronto reportará menos casos de discapacidad visual que el grupo de San Diego.",
+                "El grupo de San Diego vive en zonas con temperaturas promedio mayores a los 18° C.",
+                "El grupo de Toronto reportará más casos de discapacidad visual que el grupo de San Diego.",
+                "Una diferencia de 10 grados entre las zonas relevadas es suficiente para establecer una adecuada comparación.",
+                "La distribución de problemas de visión en personas de edad avanzada es desigual.",
+                "Quienes viven en regiones más cálidas tienen más probabilidades de tener una discapacidad visual grave que quienes residen en zonas más frías."
+              ],
+              "c": 5,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Algunos estudios han propuesto examinar cuáles pueden ser las causas de la distribución desigual de problemas de visión en personas de edad avanzada. Ahora, un nuevo estudio publicado en la revista “Ophthalmic Epidemiology” se propuso investigar si hay una correlación entre la temperatura promedio de la ciudad y la discapacidad visual severa. Los autores quisieron probar que quienes viven en regiones más cálidas tienen más probabilidades de tener una discapacidad visual grave que quienes residen en zonas más frías. Para eso, asumiendo que 10 grados de diferencia entre las zonas relevadas eran suficiente para establecer una adecuada comparación, la autora Elysia Fuller-Thomson entrevistó a dos grupos de personas, el grupo de Toronto, con temperaturas promedio menores a los 8° C, y el grupo de San Diego, con temperaturas promedio mayores los 18° C. El resultado de la investigación arrojó que el grupo de Toronto reportó menos casos de discapacidad visual que el grupo de San Diego.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "El grupo de Toronto reportará menos casos de discapacidad visual que el grupo de San Diego.",
+                "El grupo de San Diego vive en zonas con temperaturas promedio mayores a los 18° C.",
+                "El grupo de Toronto reportará más casos de discapacidad visual que el grupo de San Diego.",
+                "Una diferencia de 10 grados entre las zonas relevadas es suficiente para establecer una adecuada comparación.",
+                "La distribución de problemas de visión en personas de edad avanzada es desigual.",
+                "Quienes viven en regiones más cálidas tienen más probabilidades de tener una discapacidad visual grave que quienes residen en zonas más frías."
+              ],
+              "c": 3,
+              "k": "ipc-b61f5077cd1e84d4"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con la postura inductivista crítica de Hempel.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Algunos estudios han propuesto examinar cuáles pueden ser las causas de la distribución desigual de problemas de visión en personas de edad avanzada. Ahora, un nuevo estudio publicado en la revista “Ophthalmic Epidemiology” se propuso investigar si hay una correlación entre la temperatura promedio de la ciudad y la discapacidad visual severa. Los autores quisieron probar que quienes viven en regiones más cálidas tienen más probabilidades de tener una discapacidad visual grave que quienes residen en zonas más frías. Para eso, asumiendo que 10 grados de diferencia entre las zonas relevadas eran suficiente para establecer una adecuada comparación, la autora Elysia Fuller-Thomson entrevistó a dos grupos de personas, el grupo de Toronto, con temperaturas promedio menores a los 8° C, y el grupo de San Diego, con temperaturas promedio mayores los 18° C. El resultado de la investigación arrojó que el grupo de Toronto reportó menos casos de discapacidad visual que el grupo de San Diego.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "verificada",
+                    "verdadera",
+                    "corroborada",
+                    "válida",
+                    "confirmada"
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque ante el hallazgo de suficientes casos favorables la hipótesis contrastada se considera verdadera de modo definitivo.",
+                    "porque la hipótesis recibe apoyo inductivo a partir de los casos favorables observados.",
+                    "porque las consecuencias observacionales verificadas solo permiten afirmar que la hipótesis de la que se deducen no ha sido refutada hasta ahora.",
+                    "porque la validez de la hipótesis queda establecida de modo concluyente cuando supera varios intentos de refutación."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-921d1833e114855f"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Los ángulos internos de un triángulo suman 180 grados.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque está confirmado.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque está verificado mediante la experiencia.",
+                    "porque es falso."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-33a6c6a730a09433"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Esta mañana el furgón del tren estaba lleno. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Frecuentemente el servicio de trenes tiene demoras.",
+                    "La mayoría de las veces los furgones de los trenes están llenos.",
+                    "Los furgones se llenan cuando hay demoras en el servicio de trenes.",
+                    "El tren pasó esta mañana.",
+                    "Esta mañana hubo demoras en el servicio de trenes."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Frecuentemente el servicio de trenes tiene demoras.",
+                    "La mayoría de las veces los furgones de los trenes están llenos.",
+                    "Los furgones se llenan cuando hay demoras en el servicio de trenes.",
+                    "El tren pasó esta mañana.",
+                    "Esta mañana hubo demoras en el servicio de trenes."
+                  ],
+                  "c": 4
+                }
+              ],
+              "k": "ipc-435f4c4b5c8816c0"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. En el período pre-científico...",
+              "o": [
+                "existe una comunidad científica unificada, aunque todavía no dispone de ningún paradigma.",
+                "hay múltiples teorías que compiten en el marco de un mismo paradigma.",
+                "no existen marcos conceptuales o metodológicos compartidos por todos los científicos.",
+                "prevalece la desconfianza respecto de los supuestos propios del paradigma vigente."
+              ],
+              "c": 2,
+              "k": "ipc-4f75ea8a8ff54564"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Lillian Gilbreth (1878-1972) fue una ingeniera industrial y psicóloga estadounidense, especialista en organización, moción y eficiencia. Junto con su esposo, Frank Gilbreth, dirigían una consultora en la que se encargaban de estudiar las tareas de los empleados para hacerlos más eficientes en ellas, reduciendo el movimiento y la fatiga, resultando en un aumento de la productividad. Ambos contribuyeron al campo de la ingeniería industrial con estudios acerca del movimiento, la ergonomía y los factores humanos. Juntos escribieron múltiples libros y más de 50 artículos. Sin embargo, Lillian no aparecía listada como coautora en casi ninguno de los libros, ya que los editores consideraban que incluir una autora mujer le quitaría credibilidad a su trabajo conjunto, a pesar de que ella tenía un doctorado en psicología y su esposo no ostentaba ningún título universitario. Hoy, se la considera la fundadora de la psicología industrial y de las organizaciones.",
+              "o": [
+                "Exclusión y marginalización.",
+                "Teorías sexistas.",
+                "Aplicaciones sexistas.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda."
+              ],
+              "c": 3,
+              "k": "ipc-d5d1307a90ed7190"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por el postmodernismo feminista.",
+              "o": [
+                "La decisión de cuáles teorías científicas aceptamos solo depende de elementos lógicos y empíricos.",
+                "La objetividad debe buscarse a través de la crítica mutua dentro de una comunidad científica diversa.",
+                "No existe un sujeto epistémico neutral ni una mirada universal.",
+                "La ciencia es un conjunto de relatos cuya aceptación depende principalmente de las relaciones de poder."
+              ],
+              "c": 1,
+              "k": "ipc-568c935f3f67278e"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. La expansión urbana hacia áreas rurales y naturales es un proceso global. La mayoría de los estudios sobre efectos de la urbanización muestran que con la urbanización cambia la abundancia relativa, composición y riqueza de especies de aves. Un equipo de investigadores se propone indagar sobre el modo en que la urbanización ha afectado la composición y estabilidad de las comunidades de aves urbanas y suburbanas del Área Metropolitana de Mendoza. Este proyecto de ciencia básica busca determinar la composición, abundancia y riqueza de especies de aves nativas y exóticas en la región; clasificar las especies según cuánto se adaptan al medio urbano; y determinar cómo la urbanización afecta las migraciones de las aves a lo largo del año.",
+              "o": [
+                "No, porque no queda claro cuál es la aplicación práctica de una investigación sobre los patrones migratorios de las aves.",
+                "Sí, porque la investigación sobre los patrones migratorios de las aves tiene aplicaciones prácticas inmediatas.",
+                "No, porque estudiar el comportamiento de las aves no es tarea de la matemática, la física o la química.",
+                "Sí, porque el conocimiento sobre los patrones migratorios de las aves es intrínsecamente valioso, más allá de sus eventuales aplicaciones."
+              ],
+              "c": 3,
+              "k": "ipc-eb38f11f88beef0f"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: La política pública de prohibir el consumo de sustancias psicoactivas no ha mostrado evidencia científica favorable con respecto a su objetivo de reducir el daño social. Conclusión: La política pública de prohibir el consumo de sustancias psicoactivas debería modificarse. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Deberían modificarse las políticas públicas que no cuenten con evidencia científica favorable con respecto a sus objetivos.",
+                "La política pública de prohibir el consumo de sustancias psicoactivas no ha conseguido los objetivos que se proponía.",
+                "Deberían modificarse las políticas públicas que atenten contra la libertad de los consumidores.",
+                "El consumo de sustancias psicoativas debería considerarse un problema de Salud Pública."
+              ],
+              "c": 0,
+              "k": "ipc-00fd8139273a5929"
+            }
+          ]
+        },
+        {
+          "id": "t6",
+          "n": "Tema 6",
+          "fuente": "IPC_2024_A.pdf",
+          "paginas": [
+            16,
+            18
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Algunos estudios han propuesto examinar cuáles pueden ser las causas de la distribución desigual de problemas de visión en personas de edad avanzada. Ahora, un nuevo estudio publicado en la revista “Ophthalmic Epidemiology” se propuso investigar si hay una correlación entre la temperatura promedio de la ciudad y la discapacidad visual severa. Los autores quisieron probar que quienes viven en regiones más cálidas tienen más probabilidades de tener una discapacidad visual grave que quienes residen en zonas más frías. Para eso, asumiendo que 10 grados de diferencia entre las zonas relevadas eran suficiente para establecer una adecuada comparación, la autora Elysia Fuller-Thomson entrevistó a dos grupos de personas, el grupo de Toronto, con temperaturas promedio menores a los 8° C, y el grupo de San Diego, con temperaturas promedio mayores los 18° C. El resultado de la investigación arrojó que el grupo de Toronto reportó menos casos de discapacidad visual que el grupo de San Diego.",
+              "o": [
+                "El grupo de Toronto reportará más casos de discapacidad visual que el grupo de San Diego.",
+                "Quienes viven en regiones más cálidas tienen más probabilidades de tener una discapacidad visual grave que quienes residen en zonas más frías.",
+                "Una diferencia de 10 grados entre las zonas relevadas es suficiente para establecer una adecuada comparación.",
+                "La distribución de problemas de visión en personas de edad avanzada es desigual.",
+                "El grupo de Toronto reportará menos casos de discapacidad visual que el grupo de San Diego.",
+                "El grupo de San Diego vive en zonas con temperaturas promedio mayores a los 18° C."
+              ],
+              "c": 1,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Algunos estudios han propuesto examinar cuáles pueden ser las causas de la distribución desigual de problemas de visión en personas de edad avanzada. Ahora, un nuevo estudio publicado en la revista “Ophthalmic Epidemiology” se propuso investigar si hay una correlación entre la temperatura promedio de la ciudad y la discapacidad visual severa. Los autores quisieron probar que quienes viven en regiones más cálidas tienen más probabilidades de tener una discapacidad visual grave que quienes residen en zonas más frías. Para eso, asumiendo que 10 grados de diferencia entre las zonas relevadas eran suficiente para establecer una adecuada comparación, la autora Elysia Fuller-Thomson entrevistó a dos grupos de personas, el grupo de Toronto, con temperaturas promedio menores a los 8° C, y el grupo de San Diego, con temperaturas promedio mayores los 18° C. El resultado de la investigación arrojó que el grupo de Toronto reportó menos casos de discapacidad visual que el grupo de San Diego.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "El grupo de Toronto reportará más casos de discapacidad visual que el grupo de San Diego.",
+                "Quienes viven en regiones más cálidas tienen más probabilidades de tener una discapacidad visual grave que quienes residen en zonas más frías.",
+                "Una diferencia de 10 grados entre las zonas relevadas es suficiente para establecer una adecuada comparación.",
+                "La distribución de problemas de visión en personas de edad avanzada es desigual.",
+                "El grupo de Toronto reportará menos casos de discapacidad visual que el grupo de San Diego.",
+                "El grupo de San Diego vive en zonas con temperaturas promedio mayores a los 18° C."
+              ],
+              "c": 4,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con la postura inductivista crítica de Hempel.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Algunos estudios han propuesto examinar cuáles pueden ser las causas de la distribución desigual de problemas de visión en personas de edad avanzada. Ahora, un nuevo estudio publicado en la revista “Ophthalmic Epidemiology” se propuso investigar si hay una correlación entre la temperatura promedio de la ciudad y la discapacidad visual severa. Los autores quisieron probar que quienes viven en regiones más cálidas tienen más probabilidades de tener una discapacidad visual grave que quienes residen en zonas más frías. Para eso, asumiendo que 10 grados de diferencia entre las zonas relevadas eran suficiente para establecer una adecuada comparación, la autora Elysia Fuller-Thomson entrevistó a dos grupos de personas, el grupo de Toronto, con temperaturas promedio menores a los 8° C, y el grupo de San Diego, con temperaturas promedio mayores los 18° C. El resultado de la investigación arrojó que el grupo de Toronto reportó menos casos de discapacidad visual que el grupo de San Diego.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "corroborada",
+                    "válida",
+                    "verificada",
+                    "confirmada",
+                    "verdadera"
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque la validez de la hipótesis queda establecida de modo concluyente cuando supera varios intentos de refutación.",
+                    "porque ante el hallazgo de suficientes casos favorables la hipótesis contrastada se considera verdadera de modo definitivo.",
+                    "porque la hipótesis recibe apoyo inductivo a partir de los casos favorables observados.",
+                    "porque las consecuencias observacionales verificadas solo permiten afirmar que la hipótesis de la que se deducen no ha sido refutada hasta ahora."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-921d1833e114855f"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Los ángulos internos de un triángulo suman 180 grados.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque es falso.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque está verificado mediante la experiencia.",
+                    "porque está confirmado."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-33a6c6a730a09433"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Esta mañana el furgón del tren estaba lleno. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Frecuentemente el servicio de trenes tiene demoras.",
+                    "Esta mañana hubo demoras en el servicio de trenes.",
+                    "La mayoría de las veces los furgones de los trenes están llenos.",
+                    "El tren pasó esta mañana.",
+                    "Los furgones se llenan cuando hay demoras en el servicio de trenes."
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Frecuentemente el servicio de trenes tiene demoras.",
+                    "Esta mañana hubo demoras en el servicio de trenes.",
+                    "La mayoría de las veces los furgones de los trenes están llenos.",
+                    "El tren pasó esta mañana.",
+                    "Los furgones se llenan cuando hay demoras en el servicio de trenes."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-435f4c4b5c8816c0"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. En el período pre-científico...",
+              "o": [
+                "hay múltiples teorías que compiten en el marco de un mismo paradigma.",
+                "no existen marcos conceptuales o metodológicos compartidos por todos los científicos.",
+                "existe una comunidad científica unificada, aunque todavía no dispone de ningún paradigma.",
+                "prevalece la desconfianza respecto de los supuestos propios del paradigma vigente."
+              ],
+              "c": 1,
+              "k": "ipc-4f75ea8a8ff54564"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Lillian Gilbreth (1878-1972) fue una ingeniera industrial y psicóloga estadounidense, especialista en organización, moción y eficiencia. Junto con su esposo, Frank Gilbreth, dirigían una consultora en la que se encargaban de estudiar las tareas de los empleados para hacerlos más eficientes en ellas, reduciendo el movimiento y la fatiga, resultando en un aumento de la productividad. Ambos contribuyeron al campo de la ingeniería industrial con estudios acerca del movimiento, la ergonomía y los factores humanos. Juntos escribieron múltiples libros y más de 50 artículos. Sin embargo, Lillian no aparecía listada como coautora en casi ninguno de los libros, ya que los editores consideraban que incluir una autora mujer le quitaría credibilidad a su trabajo conjunto, a pesar de que ella tenía un doctorado en psicología y su esposo no ostentaba ningún título universitario. Hoy, se la considera la fundadora de la psicología industrial y de las organizaciones.",
+              "o": [
+                "Aplicaciones sexistas.",
+                "Teorías sexistas.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Exclusión y marginalización."
+              ],
+              "c": 2,
+              "k": "ipc-d5d1307a90ed7190"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por el postmodernismo feminista.",
+              "o": [
+                "No existe un sujeto epistémico neutral ni una mirada universal.",
+                "La ciencia es un conjunto de relatos cuya aceptación depende principalmente de las relaciones de poder.",
+                "La objetividad debe buscarse a través de la crítica mutua dentro de una comunidad científica diversa.",
+                "La decisión de cuáles teorías científicas aceptamos solo depende de elementos lógicos y empíricos."
+              ],
+              "c": 2,
+              "k": "ipc-568c935f3f67278e"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. La expansión urbana hacia áreas rurales y naturales es un proceso global. La mayoría de los estudios sobre efectos de la urbanización muestran que con la urbanización cambia la abundancia relativa, composición y riqueza de especies de aves. Un equipo de investigadores se propone indagar sobre el modo en que la urbanización ha afectado la composición y estabilidad de las comunidades de aves urbanas y suburbanas del Área Metropolitana de Mendoza. Este proyecto de ciencia básica busca determinar la composición, abundancia y riqueza de especies de aves nativas y exóticas en la región; clasificar las especies según cuánto se adaptan al medio urbano; y determinar cómo la urbanización afecta las migraciones de las aves a lo largo del año.",
+              "o": [
+                "Sí, porque el conocimiento sobre los patrones migratorios de las aves es intrínsecamente valioso, más allá de sus eventuales aplicaciones.",
+                "No, porque estudiar el comportamiento de las aves no es tarea de la matemática, la física o la química.",
+                "Sí, porque la investigación sobre los patrones migratorios de las aves tiene aplicaciones prácticas inmediatas.",
+                "No, porque no queda claro cuál es la aplicación práctica de una investigación sobre los patrones migratorios de las aves."
+              ],
+              "c": 0,
+              "k": "ipc-eb38f11f88beef0f"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: La política pública de prohibir el consumo de sustancias psicoactivas no ha mostrado evidencia científica favorable con respecto a su objetivo de reducir el daño social. Conclusión: La política pública de prohibir el consumo de sustancias psicoactivas debería modificarse. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "La política pública de prohibir el consumo de sustancias psicoactivas no ha conseguido los objetivos que se proponía.",
+                "El consumo de sustancias psicoativas debería considerarse un problema de Salud Pública.",
+                "Deberían modificarse las políticas públicas que no cuenten con evidencia científica favorable con respecto a sus objetivos.",
+                "Deberían modificarse las políticas públicas que atenten contra la libertad de los consumidores."
+              ],
+              "c": 2,
+              "k": "ipc-ca222b76261e4c38"
+            }
+          ]
+        },
+        {
+          "id": "t7",
+          "n": "Tema 7",
+          "fuente": "IPC_2024_A.pdf",
+          "paginas": [
+            19,
+            21
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. En los países donde es frecuente su consumo (Paraguay, Argentina, Uruguay, Brasil, etc.) existe la creencia popular de que la yerba mate es responsable de problemas estomacales como la gastritis producto de la irritación de la mucosa gástrica. Laureana Villaroel y su equipo de la Facultad de Ciencias Médicas de la Universidad Nacional de Rosario decidieron poner a prueba la idea de que el consumo de yerba mate genera irritación en la mucosa gástrica. Para ello, utilizaron ratas de laboratorio. Se dividió a las ratas en dos grupos. Al grupo A se le dio de beber agua. Al grupo B se le dio mate cocido en una concentración de 50 gramos de yerba mate cada 500 mililitros. Ambos grupos consumieron agua o mate cocido durante 90 días. Pasados los 90 días, los investigadores examinaron el estado de la mucosa gástrica de las ratas mediante endoscopía. Asumieron que el estudio de imágenes por endoscopía permite detectar el estado de irritación de la mucosa gástrica. Esperaban que las imágenes de la endoscopia mostraran alteraciones en la mucosa gástrica del grupo B pero no del A. Sin embargo, las imágenes de la endoscopía no presentaron diferencias notables en el estado de la mucosa gástrica de los grupos.",
+              "o": [
+                "La gastritis es frecuente en Paraguay, Argentina, Uruguay y Brasil.",
+                "Las imágenes de la endoscopía de las ratas del grupo B mostrarán irritación en la mucosa gástrica y las del grupo A no.",
+                "Las imágenes de la endoscopía de las ratas de los distintos grupos no mostrarán diferencias en el estado de la mucosa gástrica.",
+                "El estudio de imágenes por endoscopía permite detectar el estado de irritación de la mucosa gástrica.",
+                "El consumo de yerba mate genera irritación de la mucosa gástrica.",
+                "Los estómagos de las ratas son más sensibles que los estómagos de los humanos."
+              ],
+              "c": 4,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. En los países donde es frecuente su consumo (Paraguay, Argentina, Uruguay, Brasil, etc.) existe la creencia popular de que la yerba mate es responsable de problemas estomacales como la gastritis producto de la irritación de la mucosa gástrica. Laureana Villaroel y su equipo de la Facultad de Ciencias Médicas de la Universidad Nacional de Rosario decidieron poner a prueba la idea de que el consumo de yerba mate genera irritación en la mucosa gástrica. Para ello, utilizaron ratas de laboratorio. Se dividió a las ratas en dos grupos. Al grupo A se le dio de beber agua. Al grupo B se le dio mate cocido en una concentración de 50 gramos de yerba mate cada 500 mililitros. Ambos grupos consumieron agua o mate cocido durante 90 días. Pasados los 90 días, los investigadores examinaron el estado de la mucosa gástrica de las ratas mediante endoscopía. Asumieron que el estudio de imágenes por endoscopía permite detectar el estado de irritación de la mucosa gástrica. Esperaban que las imágenes de la endoscopia mostraran alteraciones en la mucosa gástrica del grupo B pero no del A. Sin embargo, las imágenes de la endoscopía no presentaron diferencias notables en el estado de la mucosa gástrica de los grupos.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "La gastritis es frecuente en Paraguay, Argentina, Uruguay y Brasil.",
+                "Las imágenes de la endoscopía de las ratas del grupo B mostrarán irritación en la mucosa gástrica y las del grupo A no.",
+                "Las imágenes de la endoscopía de las ratas de los distintos grupos no mostrarán diferencias en el estado de la mucosa gástrica.",
+                "El estudio de imágenes por endoscopía permite detectar el estado de irritación de la mucosa gástrica.",
+                "El consumo de yerba mate genera irritación de la mucosa gástrica.",
+                "Los estómagos de las ratas son más sensibles que los estómagos de los humanos."
+              ],
+              "c": 3,
+              "k": "ipc-b61f5077cd1e84d4"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con el falsacionismo de Popper.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. En los países donde es frecuente su consumo (Paraguay, Argentina, Uruguay, Brasil, etc.) existe la creencia popular de que la yerba mate es responsable de problemas estomacales como la gastritis producto de la irritación de la mucosa gástrica. Laureana Villaroel y su equipo de la Facultad de Ciencias Médicas de la Universidad Nacional de Rosario decidieron poner a prueba la idea de que el consumo de yerba mate genera irritación en la mucosa gástrica. Para ello, utilizaron ratas de laboratorio. Se dividió a las ratas en dos grupos. Al grupo A se le dio de beber agua. Al grupo B se le dio mate cocido en una concentración de 50 gramos de yerba mate cada 500 mililitros. Ambos grupos consumieron agua o mate cocido durante 90 días. Pasados los 90 días, los investigadores examinaron el estado de la mucosa gástrica de las ratas mediante endoscopía. Asumieron que el estudio de imágenes por endoscopía permite detectar el estado de irritación de la mucosa gástrica. Esperaban que las imágenes de la endoscopia mostraran alteraciones en la mucosa gástrica del grupo B pero no del A. Sin embargo, las imágenes de la endoscopía no presentaron diferencias notables en el estado de la mucosa gástrica de los grupos.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "contradictoria",
+                    "inválida",
+                    "refutada",
+                    "corroborada",
+                    "verificada"
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque la validez de la hipótesis queda establecida cuando supera varios intentos de refutación.",
+                    "porque siempre puede aparecer un caso refutatorio.",
+                    "porque la falsedad de la hipótesis se obtiene únicamente apelando a la estructura de la falacia de afirmación del consecuente.",
+                    "porque ante resultados desfavorables, la hipótesis de la cual se deducen las consecuencias observacionales se considera falsa."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-ecbf52a547b9aa19"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. El alma es inmortal y persiste más allá de la muerte física del cuerpo.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque tiene falsadores potenciales.",
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque no está suficientemente confirmado.",
+                    "porque es válido."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-e4c3e4a6fbd137b6"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Las entradas para el partido de esta noche están agotadas. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "En el partido de esta noche juega un campeón mundial.",
+                    "Casi siempre que juega un campeón del mundo, las entradas se agotan.",
+                    "Los campeones mundiales son muy admirados por el público.",
+                    "El partido de esta noche es importante.",
+                    "Los campeones mundiales casi nunca juegan partidos sin importancia."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "En el partido de esta noche juega un campeón mundial.",
+                    "Casi siempre que juega un campeón del mundo, las entradas se agotan.",
+                    "Los campeones mundiales son muy admirados por el público.",
+                    "El partido de esta noche es importante.",
+                    "Los campeones mundiales casi nunca juegan partidos sin importancia."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-d46ad268b3d58f78"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Durante el período de crisis...",
+              "o": [
+                "no existe ningún paradigma vigente debido al abandono definitivo del que generaba consenso hasta el momento.",
+                "se produce el reemplazo del paradigma vigente por uno mejor.",
+                "no existe una comunidad científica como tal, sino únicamente escuelas en competencia.",
+                "la comunidad científica tiende a fragmentarse por la desconfianza en el paradigma actual."
+              ],
+              "c": 3,
+              "k": "ipc-070db1a1d015578f"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. En 1898, el doctor alemán Karl Gerson publica en el German Journal of Physical Education un artículo defendiendo que la actividad física de alto rendimiento debe ser contraindicada en mujeres. El fundamento detrás de dicha recomendación clínica era que repetidos movimientos violentos del cuerpo pueden provocar un cambio en la posición del útero, lo cual conduciría a un prolapso uterino (condición en la que el útero se desliza y sobresale de la vagina) e infertilidad. Hasta la década de 1950, esta contraindicación médica fue usada por varias instituciones deportivas para negar la participación femenina en deportes físicamente demandantes. Por ejemplo, si bien las mujeres participan de las Olimpíadas desde 1928, sólo podían realizar deportes tradicionalmente femeninos, de bajo impacto, como croquet o equitación. Las categorías femeninas recién harían su debut en carreras de larga distancia en 1986, en esquí en 1994, y en lucha en 2004. Al día de hoy, no se ha encontrado evidencia de que practicar regularmente esta clase de deportes aumente las chances de sufrir prolapso del útero.",
+              "o": [
+                "Exclusión y marginalización.",
+                "Aplicaciones sexistas.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Conceptualizaciones sexistas."
+              ],
+              "c": 1,
+              "k": "ipc-c2701369f53822c1"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el posmodernismo feminista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "Son preferibles aquellas teorías que son sometidas a la crítica intersubjetiva de una comunidad científica plural.",
+                "La decisión de cuáles teorías científicas aceptamos solo depende de elementos lógicos y empíricos.",
+                "No existe un sujeto epistémico neutral ni una mirada universal.",
+                "La ciencia es un conjunto de relatos cuya aceptación depende principalmente de las relaciones de poder."
+              ],
+              "c": 3,
+              "k": "ipc-dd85a05957b3f67c"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. El cáncer de pulmón es una de las formas de cáncer más prevalentes en todo el mundo, con una tasa de supervivencia alarmantemente baja. A pesar del potencial de citocinas (un tipo de proteína) como la interleucina-12 (IL-12) de suprimir tumores, su eficacia sigue limitada por sus graves efectos secundarios. Sin embargo, un innovador estudio en ciencia aplicada publicado en Nature Nanotechnology por el catedrático de Ingeniería Biomédica Ke Cheng y su equipo presenta un nuevo enfoque. Aprovechando unas burbujas microscópicas conocidas como exosomas, idearon una terapia de inhalación para administrar directamente ARN mensajero (ARNm) de IL-12 a los pulmones. Este ARNm sirve de modelo para la producción de proteínas específicas cruciales para las funciones celulares. A diferencia de los métodos anteriores, que consistían en inyecciones, su técnica de inhalación no sólo concentra mejor la IL-12 en los pulmones, sino que también mejora la eficacia del tratamiento del cáncer al tiempo que minimiza los efectos adversos.",
+              "o": [
+                "Sí, porque desarrollar nuevas terapias para el tratamiento del cáncer busca atender una demanda social de mejores tratamientos y contribuye directamente al bienestar de la población.",
+                "Sí, porque el desarrollo de aplicaciones concretas como una nueva terapia contra el cáncer contribuye al desarrollo de la ciencia básica, que resulta valiosa por sí misma.",
+                "No, porque desarrollar nuevas terapias para el tratamiento del cáncer concierne a la ciencia aplicada, mientras que la prioridad en la asignación de recursos debería darse a la ciencia básica, que es valiosa en sí misma con independencia de sus consecuencias prácticas.",
+                "No, porque el desarrollo de nuevas terapias contra el cáncer es algo que podría hacer el sector privado y no ser financiado por el Estado."
+              ],
+              "c": 0,
+              "k": "ipc-b58596b53167146d"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... El libro de medicina \"Anatomía Topográfica Humana\" de Pernkopf compila un saber científico que se obtuvo con métodos que incumplen con normativas éticas básicas. Conclusión: El libro de medicina \"Anatomía Topográfica Humana\" de Pernkopf no debería ser utilizado y divulgado. Premisa 2: Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "No se deben obtener saberes científicos mediante prácticas que incumplen normativas éticas básicas.",
+                "El libro \"Anatomía Topográfica Humana\" de Pernkopf se puede encontrar en la biblioteca de muchas universidades de medicina.",
+                "Los saberes científicos obtenidos mediante formas que incumplen con normativas éticas básicas no deben ser utilizados y divulgados.",
+                "Los médicos cirujanos utilizan en ciertas ocasiones el libro \"Anatomía Topográfica Humana\" de Pernkopf."
+              ],
+              "c": 2,
+              "k": "ipc-b1f6e77c6c1ae14f"
+            }
+          ]
+        },
+        {
+          "id": "t8",
+          "n": "Tema 8",
+          "fuente": "IPC_2024_A.pdf",
+          "paginas": [
+            22,
+            24
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. En los países donde es frecuente su consumo (Paraguay, Argentina, Uruguay, Brasil, etc.) existe la creencia popular de que la yerba mate es responsable de problemas estomacales como la gastritis producto de la irritación de la mucosa gástrica. Laureana Villaroel y su equipo de la Facultad de Ciencias Médicas de la Universidad Nacional de Rosario decidieron poner a prueba la idea de que el consumo de yerba mate genera irritación en la mucosa gástrica. Para ello, utilizaron ratas de laboratorio. Se dividió a las ratas en dos grupos. Al grupo A se le dio de beber agua. Al grupo B se le dio mate cocido en una concentración de 50 gramos de yerba mate cada 500 mililitros. Ambos grupos consumieron agua o mate cocido durante 90 días. Pasados los 90 días, los investigadores examinaron el estado de la mucosa gástrica de las ratas mediante endoscopía. Asumieron que el estudio de imágenes por endoscopía permite detectar el estado de irritación de la mucosa gástrica. Esperaban que las imágenes de la endoscopia mostraran alteraciones en la mucosa gástrica del grupo B pero no del A. Sin embargo, las imágenes de la endoscopía no presentaron diferencias notables en el estado de la mucosa gástrica de los grupos.",
+              "o": [
+                "Las imágenes de la endoscopía de las ratas de los distintos grupos no mostrarán diferencias en el estado de la mucosa gástrica.",
+                "El estudio de imágenes por endoscopía permite detectar el estado de irritación de la mucosa gástrica.",
+                "El consumo de yerba mate genera irritación de la mucosa gástrica.",
+                "Los estómagos de las ratas son más sensibles que los estómagos de los humanos.",
+                "La gastritis es frecuente en Paraguay, Argentina, Uruguay y Brasil.",
+                "Las imágenes de la endoscopía de las ratas del grupo B mostrarán irritación en la mucosa gástrica y las del grupo A no."
+              ],
+              "c": 2,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. En los países donde es frecuente su consumo (Paraguay, Argentina, Uruguay, Brasil, etc.) existe la creencia popular de que la yerba mate es responsable de problemas estomacales como la gastritis producto de la irritación de la mucosa gástrica. Laureana Villaroel y su equipo de la Facultad de Ciencias Médicas de la Universidad Nacional de Rosario decidieron poner a prueba la idea de que el consumo de yerba mate genera irritación en la mucosa gástrica. Para ello, utilizaron ratas de laboratorio. Se dividió a las ratas en dos grupos. Al grupo A se le dio de beber agua. Al grupo B se le dio mate cocido en una concentración de 50 gramos de yerba mate cada 500 mililitros. Ambos grupos consumieron agua o mate cocido durante 90 días. Pasados los 90 días, los investigadores examinaron el estado de la mucosa gástrica de las ratas mediante endoscopía. Asumieron que el estudio de imágenes por endoscopía permite detectar el estado de irritación de la mucosa gástrica. Esperaban que las imágenes de la endoscopia mostraran alteraciones en la mucosa gástrica del grupo B pero no del A. Sin embargo, las imágenes de la endoscopía no presentaron diferencias notables en el estado de la mucosa gástrica de los grupos.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Las imágenes de la endoscopía de las ratas de los distintos grupos no mostrarán diferencias en el estado de la mucosa gástrica.",
+                "El estudio de imágenes por endoscopía permite detectar el estado de irritación de la mucosa gástrica.",
+                "El consumo de yerba mate genera irritación de la mucosa gástrica.",
+                "Los estómagos de las ratas son más sensibles que los estómagos de los humanos.",
+                "La gastritis es frecuente en Paraguay, Argentina, Uruguay y Brasil.",
+                "Las imágenes de la endoscopía de las ratas del grupo B mostrarán irritación en la mucosa gástrica y las del grupo A no."
+              ],
+              "c": 5,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con el falsacionismo de Popper.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. En los países donde es frecuente su consumo (Paraguay, Argentina, Uruguay, Brasil, etc.) existe la creencia popular de que la yerba mate es responsable de problemas estomacales como la gastritis producto de la irritación de la mucosa gástrica. Laureana Villaroel y su equipo de la Facultad de Ciencias Médicas de la Universidad Nacional de Rosario decidieron poner a prueba la idea de que el consumo de yerba mate genera irritación en la mucosa gástrica. Para ello, utilizaron ratas de laboratorio. Se dividió a las ratas en dos grupos. Al grupo A se le dio de beber agua. Al grupo B se le dio mate cocido en una concentración de 50 gramos de yerba mate cada 500 mililitros. Ambos grupos consumieron agua o mate cocido durante 90 días. Pasados los 90 días, los investigadores examinaron el estado de la mucosa gástrica de las ratas mediante endoscopía. Asumieron que el estudio de imágenes por endoscopía permite detectar el estado de irritación de la mucosa gástrica. Esperaban que las imágenes de la endoscopia mostraran alteraciones en la mucosa gástrica del grupo B pero no del A. Sin embargo, las imágenes de la endoscopía no presentaron diferencias notables en el estado de la mucosa gástrica de los grupos.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "refutada",
+                    "contradictoria",
+                    "inválida",
+                    "verificada",
+                    "corroborada"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque siempre puede aparecer un caso refutatorio.",
+                    "porque la validez de la hipótesis queda establecida cuando supera varios intentos de refutación.",
+                    "porque ante resultados desfavorables, la hipótesis de la cual se deducen las consecuencias observacionales se considera falsa.",
+                    "porque la falsedad de la hipótesis se obtiene únicamente apelando a la estructura de la falacia de afirmación del consecuente."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-ecbf52a547b9aa19"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. El alma es inmortal y persiste más allá de la muerte física del cuerpo.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque es válido.",
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque no está suficientemente confirmado.",
+                    "porque tiene falsadores potenciales."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-e4c3e4a6fbd137b6"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Las entradas para el partido de esta noche están agotadas. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Los campeones mundiales son muy admirados por el público.",
+                    "El partido de esta noche es importante.",
+                    "Los campeones mundiales casi nunca juegan partidos sin importancia.",
+                    "Casi siempre que juega un campeón del mundo, las entradas se agotan.",
+                    "En el partido de esta noche juega un campeón mundial."
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Los campeones mundiales son muy admirados por el público.",
+                    "El partido de esta noche es importante.",
+                    "Los campeones mundiales casi nunca juegan partidos sin importancia.",
+                    "Casi siempre que juega un campeón del mundo, las entradas se agotan.",
+                    "En el partido de esta noche juega un campeón mundial."
+                  ],
+                  "c": 4
+                }
+              ],
+              "k": "ipc-d46ad268b3d58f78"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Durante el período de crisis...",
+              "o": [
+                "no existe una comunidad científica como tal, sino únicamente escuelas en competencia.",
+                "la comunidad científica tiende a fragmentarse por la desconfianza en el paradigma actual.",
+                "no existe ningún paradigma vigente debido al abandono definitivo del que generaba consenso hasta el momento.",
+                "se produce el reemplazo del paradigma vigente por uno mejor."
+              ],
+              "c": 1,
+              "k": "ipc-b7a6392c31118a91"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. En 1898, el doctor alemán Karl Gerson publica en el German Journal of Physical Education un artículo defendiendo que la actividad física de alto rendimiento debe ser contraindicada en mujeres. El fundamento detrás de dicha recomendación clínica era que repetidos movimientos violentos del cuerpo pueden provocar un cambio en la posición del útero, lo cual conduciría a un prolapso uterino (condición en la que el útero se desliza y sobresale de la vagina) e infertilidad. Hasta la década de 1950, esta contraindicación médica fue usada por varias instituciones deportivas para negar la participación femenina en deportes físicamente demandantes. Por ejemplo, si bien las mujeres participan de las Olimpíadas desde 1928, sólo podían realizar deportes tradicionalmente femeninos, de bajo impacto, como croquet o equitación. Las categorías femeninas recién harían su debut en carreras de larga distancia en 1986, en esquí en 1994, y en lucha en 2004. Al día de hoy, no se ha encontrado evidencia de que practicar regularmente esta clase de deportes aumente las chances de sufrir prolapso del útero.",
+              "o": [
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Conceptualizaciones sexistas.",
+                "Aplicaciones sexistas.",
+                "Exclusión y marginalización."
+              ],
+              "c": 2,
+              "k": "ipc-c2701369f53822c1"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el posmodernismo feminista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "La ciencia es un conjunto de relatos cuya aceptación depende principalmente de las relaciones de poder.",
+                "Son preferibles aquellas teorías que son sometidas a la crítica intersubjetiva de una comunidad científica plural.",
+                "La decisión de cuáles teorías científicas aceptamos solo depende de elementos lógicos y empíricos.",
+                "No existe un sujeto epistémico neutral ni una mirada universal."
+              ],
+              "c": 0,
+              "k": "ipc-dd85a05957b3f67c"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. El cáncer de pulmón es una de las formas de cáncer más prevalentes en todo el mundo, con una tasa de supervivencia alarmantemente baja. A pesar del potencial de citocinas (un tipo de proteína) como la interleucina-12 (IL-12) de suprimir tumores, su eficacia sigue limitada por sus graves efectos secundarios. Sin embargo, un innovador estudio en ciencia aplicada publicado en Nature Nanotechnology por el catedrático de Ingeniería Biomédica Ke Cheng y su equipo presenta un nuevo enfoque. Aprovechando unas burbujas microscópicas conocidas como exosomas, idearon una terapia de inhalación para administrar directamente ARN mensajero (ARNm) de IL-12 a los pulmones. Este ARNm sirve de modelo para la producción de proteínas específicas cruciales para las funciones celulares. A diferencia de los métodos anteriores, que consistían en inyecciones, su técnica de inhalación no sólo concentra mejor la IL-12 en los pulmones, sino que también mejora la eficacia del tratamiento del cáncer al tiempo que minimiza los efectos adversos.",
+              "o": [
+                "No, porque el desarrollo de nuevas terapias contra el cáncer es algo que podría hacer el sector privado y no ser financiado por el Estado.",
+                "No, porque desarrollar nuevas terapias para el tratamiento del cáncer concierne a la ciencia aplicada, mientras que la prioridad en la asignación de recursos debería darse a la ciencia básica, que es valiosa en sí misma con independencia de sus consecuencias prácticas.",
+                "Sí, porque el desarrollo de aplicaciones concretas como una nueva terapia contra el cáncer contribuye al desarrollo de la ciencia básica, que resulta valiosa por sí misma.",
+                "Sí, porque desarrollar nuevas terapias para el tratamiento del cáncer busca atender una demanda social de mejores tratamientos y contribuye directamente al bienestar de la población."
+              ],
+              "c": 3,
+              "k": "ipc-b58596b53167146d"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... El libro de medicina \"Anatomía Topográfica Humana\" de Pernkopf compila un saber científico que se obtuvo con métodos que incumplen con normativas éticas básicas. Conclusión: El libro de medicina \"Anatomía Topográfica Humana\" de Pernkopf no debería ser utilizado y divulgado. Premisa 2: Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Los saberes científicos obtenidos mediante formas que incumplen con normativas éticas básicas no deben ser utilizados y divulgados.",
+                "Los médicos cirujanos utilizan en ciertas ocasiones el libro \"Anatomía Topográfica Humana\" de Pernkopf.",
+                "El libro \"Anatomía Topográfica Humana\" de Pernkopf se puede encontrar en la biblioteca de muchas universidades de medicina.",
+                "No se deben obtener saberes científicos mediante prácticas que incumplen normativas éticas básicas."
+              ],
+              "c": 0,
+              "k": "ipc-e2ad620ce9a62543"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buacar-2023-06-02",
+      "nombre": "2º parcial · 02/06/2023",
+      "catedra": "A · Buacar, Natalia",
+      "fecha": "2023-06-02",
+      "detalle": "Cátedra A · Buacar, Natalia. 10 ejercicios de 1 punto. Sin puntaje parcial.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "IPC_2023_A.pdf",
+          "paginas": [
+            1,
+            3
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Por mucho tiempo se pensó que para aprender algo nuevo se debe practicar de manera continua. Pero varios estudios científicos han señalado que la práctica incesante puede no ser la forma más eficiente de aprender una nueva habilidad. Según el investigador brasileño Leonardo Claudino, intercalar breves descansos cuando aprendemos una nueva habilidad mejora el aprendizaje. Para probar esto, Claudino y otros investigadores convocaron a 33 voluntarios diestros y les pidieron que escribieran una secuencia de números con la mano izquierda en el teclado. Asumieron que mayor velocidad y precisión en la ejecución de una actividad indican un mejor aprendizaje de una nueva habilidad. Se separó a los voluntarios en dos grupos. Los del primer grupo tenían que escribir tantas secuencias como fuera posible durante diez segundos y luego tomar un descanso de diez segundos. Los del segundo grupo también tenían que realizar la misma tarea pero sin tomar los descansos. Los investigadores observaron que luego de un mismo lapso de tiempo de 5 minutos, los voluntarios del primer grupo mejoraron la velocidad y precisión con la que escribían secuencias numéricas con la mano izquierda en mayor grado que los del segundo.",
+              "o": [
+                "Los voluntarios del segundo grupo mejorarán la velocidad y precisión con la que escriben secuencias numéricas con la mano izquierda en mayor grado que los del primer grupo.",
+                "Quienes escriben secuencias numéricas con la mano izquierda no son veloces ni precisos.",
+                "Los voluntarios del primer grupo mejorarán la velocidad y precisión con la que escriben secuencias numéricas con la mano izquierda en mayor grado que los del segundo grupo.",
+                "Intercalar breves descansos cuando aprendemos una nueva habilidad mejora el aprendizaje.",
+                "La práctica incesante hace que las personas diestras escriban con la misma velocidad con su mano izquierda.",
+                "Mayor velocidad y precisión en la ejecución de una actividad indican un mejor aprendizaje de una nueva habilidad."
+              ],
+              "c": 3,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Por mucho tiempo se pensó que para aprender algo nuevo se debe practicar de manera continua. Pero varios estudios científicos han señalado que la práctica incesante puede no ser la forma más eficiente de aprender una nueva habilidad. Según el investigador brasileño Leonardo Claudino, intercalar breves descansos cuando aprendemos una nueva habilidad mejora el aprendizaje. Para probar esto, Claudino y otros investigadores convocaron a 33 voluntarios diestros y les pidieron que escribieran una secuencia de números con la mano izquierda en el teclado. Asumieron que mayor velocidad y precisión en la ejecución de una actividad indican un mejor aprendizaje de una nueva habilidad. Se separó a los voluntarios en dos grupos. Los del primer grupo tenían que escribir tantas secuencias como fuera posible durante diez segundos y luego tomar un descanso de diez segundos. Los del segundo grupo también tenían que realizar la misma tarea pero sin tomar los descansos. Los investigadores observaron que luego de un mismo lapso de tiempo de 5 minutos, los voluntarios del primer grupo mejoraron la velocidad y precisión con la que escribían secuencias numéricas con la mano izquierda en mayor grado que los del segundo.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Los voluntarios del segundo grupo mejorarán la velocidad y precisión con la que escriben secuencias numéricas con la mano izquierda en mayor grado que los del primer grupo.",
+                "Quienes escriben secuencias numéricas con la mano izquierda no son veloces ni precisos.",
+                "Los voluntarios del primer grupo mejorarán la velocidad y precisión con la que escriben secuencias numéricas con la mano izquierda en mayor grado que los del segundo grupo.",
+                "Intercalar breves descansos cuando aprendemos una nueva habilidad mejora el aprendizaje.",
+                "La práctica incesante hace que las personas diestras escriban con la misma velocidad con su mano izquierda.",
+                "Mayor velocidad y precisión en la ejecución de una actividad indican un mejor aprendizaje de una nueva habilidad."
+              ],
+              "c": 5,
+              "k": "ipc-b61f5077cd1e84d4"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con la postura inductivista crítica de Hempel.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Por mucho tiempo se pensó que para aprender algo nuevo se debe practicar de manera continua. Pero varios estudios científicos han señalado que la práctica incesante puede no ser la forma más eficiente de aprender una nueva habilidad. Según el investigador brasileño Leonardo Claudino, intercalar breves descansos cuando aprendemos una nueva habilidad mejora el aprendizaje. Para probar esto, Claudino y otros investigadores convocaron a 33 voluntarios diestros y les pidieron que escribieran una secuencia de números con la mano izquierda en el teclado. Asumieron que mayor velocidad y precisión en la ejecución de una actividad indican un mejor aprendizaje de una nueva habilidad. Se separó a los voluntarios en dos grupos. Los del primer grupo tenían que escribir tantas secuencias como fuera posible durante diez segundos y luego tomar un descanso de diez segundos. Los del segundo grupo también tenían que realizar la misma tarea pero sin tomar los descansos. Los investigadores observaron que luego de un mismo lapso de tiempo de 5 minutos, los voluntarios del primer grupo mejoraron la velocidad y precisión con la que escribían secuencias numéricas con la mano izquierda en mayor grado que los del segundo.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "verdadera",
+                    "verificada",
+                    "válida",
+                    "corroborada",
+                    "confirmada"
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque las consecuencias observacionales verificadas solo permiten afirmar que la hipótesis de la que se deducen no ha sido refutada hasta ahora.",
+                    "porque la validez de la hipótesis queda establecida de modo concluyente cuando supera varios intentos de refutación.",
+                    "porque la hipótesis recibió apoyo inductivo a partir de los casos favorables observados.",
+                    "porque ante el hallazgo de suficientes casos favorables la hipótesis contrastada se considera verdadera de modo definitivo."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-921d1833e114855f"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Los lunes llueve o no llueve.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque no tiene falsadores potenciales.",
+                    "porque está confirmado.",
+                    "porque es poco probable.",
+                    "porque no puede traducirse al lenguaje observacional."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-25ca710edfb19cbe"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: María tiene la vista borrosa y dificultades para hablar. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Ingerir grandes cantidades de alcohol suele producir visión borrosa y dificultades en el habla.",
+                    "María bebió grandes cantidades de alcohol en las últimas horas.",
+                    "Ingerir grandes cantidades de alcohol produce visión borrosa y dificultades para hablar.",
+                    "María no acompañó su bebida alcohólica con agua ni alimento.",
+                    "María es miope."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Ingerir grandes cantidades de alcohol suele producir visión borrosa y dificultades en el habla.",
+                    "María bebió grandes cantidades de alcohol en las últimas horas.",
+                    "Ingerir grandes cantidades de alcohol produce visión borrosa y dificultades para hablar.",
+                    "María no acompañó su bebida alcohólica con agua ni alimento.",
+                    "María es miope."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-9471c7bdffaf746e"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. El período de crisis se desencadena cuando...",
+              "o": [
+                "surgen demasiados enigmas.",
+                "el paradigma no brinda herramientas para resolver todos los problemas que surgen.",
+                "surge alguna anomalía que no se puede resolver utilizando los elementos del paradigma.",
+                "las anomalías se multiplican y radicalizan, de manera que los miembros de la comunidad científica pierden confianza en el paradigma vigente."
+              ],
+              "c": 3,
+              "k": "ipc-2b81d0523d72696f"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Marcella O’Grady (más conocida por su apellido de casada, Boveri) fue una brillante bióloga nacida en Boston en 1863. Al proceder de una familia acomodada, pudo completar sus estudios de grado en el prestigioso MIT y luego dedicarse a la docencia en el Bryn Mawr College y en el Vassar College. Además, llevó adelante una exitosa investigación en las áreas de embriología y biología marina, resultando en varios descubrimientos importantes. En 1896, fue aceptada en la prestigiosa Universidad de Würzburg, en Alemania, para realizar sus estudios de doctorado. Allí conoció al profesor Theodor Boveri con quien contraería matrimonio un año después. Si bien los Boveri trabajaron en conjunto, realizando importantes aportes en el área de los cromosomas, todos los artículos y libros producidos durante esa década de trabajo fueron publicados exclusivamente con el nombre de Theodor.",
+              "o": [
+                "Exclusión y marginalización.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Aplicaciones sexistas.",
+                "Teorías sexistas."
+              ],
+              "c": 1,
+              "k": "ipc-fbac93285c7bb6a5"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista pero rechazada por el postmodernismo feminista.",
+              "o": [
+                "Las mujeres comparten una perspectiva o punto de vista común debido a la experiencia compartida de opresión.",
+                "No hay una perspectiva unificada de las mujeres, esta es cambiante y depende de factores como la clase o la raza.",
+                "No hay diferencias relevantes entre el punto de vista de las mujeres y el de los varones.",
+                "Independientemente del punto de vista de cada persona, es posible acceder al mundo tal cual y como es a partir de la evidencia y la lógica."
+              ],
+              "c": 0,
+              "k": "ipc-6a9432fe92b180b8"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. En la actualidad las empresas procesadoras de frutas regionales, como el durazno, la ciruela y el damasco desechan grandes cantidades de materia orgánica que no es adecuadamente aprovechada, debido a que sólo se procesa la pulpa para la realización de productos alimenticios de mayor valor agregado. Un equipo de la Universidad Nacional de Cuyo investiga la posibilidad de extraer aceites de la pepita o almendra, contenida en el carozo, para que sean empleados como producto con alto valor agregado en la industria cosmetológica, farmacéutica o de biocombustibles. Este proyecto de ciencia aplicada propone evaluar el rendimiento de extracción de aceite en distintas condiciones de temperatura y presión, generando modelos matemáticos para mejorar las aplicaciones industriales.",
+              "o": [
+                "No, porque el objetivo del proyecto es desarrollar una tecnología que sea útil y lucrativa para las empresas que operan en el sector de la fruticultura.",
+                "Si, porque la investigación sobre la extracción de aceites de pepitas es un proyecto en el que se busca entender un problema independientemente de sus aplicaciones prácticas.",
+                "Si, porque el resultado de investigar la extracción de aceites sería económica y socialmente valioso para la región de Cuyo.",
+                "No, porque el conocimiento sobre las frutas y sus carozos es intrínsecamente valioso, y mejora nuestra información sobre el mundo natural."
+              ],
+              "c": 2,
+              "k": "ipc-86852c75ebcaf44a"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Premisa 1: ......................................................................................................................... Dado el siguiente conjunto de enunciados: Algunos animales, como almejas, ostras y mejillones, son incapaces de sentir dolor. Conclusión: Comer ostras es moralmente aceptable. Premisa 2: Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Las ostras son un producto de lujo, sólo accesible para las clases más altas.",
+                "La única dieta moralmente aceptable es la vegetariana.",
+                "Todas las ostras son bivalvos.",
+                "Es moralmente aceptable consumir animales si son incapaces de sentir dolor."
+              ],
+              "c": 3,
+              "k": "ipc-6eeebdb79c0a901c"
+            }
+          ]
+        },
+        {
+          "id": "t2",
+          "n": "Tema 2",
+          "fuente": "IPC_2023_A.pdf",
+          "paginas": [
+            4,
+            6
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Marcella O’Grady (más conocida por su apellido de casada, Boveri) fue una brillante bióloga nacida en Boston en 1863. Al proceder de una familia acomodada, pudo completar sus estudios de grado en el prestigioso MIT y luego dedicarse a la docencia en el Bryn Mawr College y en el Vassar College. Además, llevó adelante una exitosa investigación en las áreas de embriología y biología marina, resultando en varios descubrimientos importantes. En 1896, fue aceptada en la prestigiosa Universidad de Würzburg, en Alemania, para realizar sus estudios de doctorado. Allí conoció al profesor Theodor Boveri con quien contraería matrimonio un año después. Si bien los Boveri trabajaron en conjunto, realizando importantes aportes en el área de los cromosomas, todos los artículos y libros producidos durante esa década de trabajo fueron publicados exclusivamente con el nombre de Theodor.",
+              "o": [
+                "Exclusión y marginalización.",
+                "Teorías sexistas.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Aplicaciones sexistas."
+              ],
+              "c": 2,
+              "k": "ipc-fbac93285c7bb6a5"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista pero rechazada por el postmodernismo feminista.",
+              "o": [
+                "No hay diferencias relevantes entre el punto de vista de las mujeres y el de los varones.",
+                "Las mujeres comparten una perspectiva o punto de vista común debido a la experiencia compartida de opresión.",
+                "Independientemente del punto de vista de cada persona, es posible acceder al mundo tal cual y como es a partir de la evidencia y la lógica.",
+                "No hay una perspectiva unificada de las mujeres, esta es cambiante y depende de factores como la clase o la raza."
+              ],
+              "c": 1,
+              "k": "ipc-6a9432fe92b180b8"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. En la actualidad las empresas procesadoras de frutas regionales, como el durazno, la ciruela y el damasco desechan grandes cantidades de materia orgánica que no es adecuadamente aprovechada, debido a que sólo se procesa la pulpa para la realización de productos alimenticios de mayor valor agregado. Un equipo de la Universidad Nacional de Cuyo investiga la posibilidad de extraer aceites de la pepita o almendra, contenida en el carozo, para que sean empleados como producto con alto valor agregado en la industria cosmetológica, farmacéutica o de biocombustibles. Este proyecto de ciencia aplicada propone evaluar el rendimiento de extracción de aceite en distintas condiciones de temperatura y presión, generando modelos matemáticos para mejorar las aplicaciones industriales.",
+              "o": [
+                "No, porque el objetivo del proyecto es desarrollar una tecnología que sea útil y lucrativa para las empresas que operan en el sector de la fruticultura.",
+                "Si, porque el resultado de investigar la extracción de aceites sería económica y socialmente valioso para la región de Cuyo.",
+                "Si, porque la investigación sobre la extracción de aceites de pepitas es un proyecto en el que se busca entender un problema independientemente de sus aplicaciones prácticas.",
+                "No, porque el conocimiento sobre las frutas y sus carozos es intrínsecamente valioso, y mejora nuestra información sobre el mundo natural."
+              ],
+              "c": 1,
+              "k": "ipc-86852c75ebcaf44a"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. El período de crisis se desencadena cuando...",
+              "o": [
+                "surge alguna anomalía que no se puede resolver utilizando los elementos del paradigma.",
+                "el paradigma no brinda herramientas para resolver todos los problemas que surgen.",
+                "surgen demasiados enigmas.",
+                "las anomalías se multiplican y radicalizan, de manera que los miembros de la comunidad científica pierden confianza en el paradigma vigente."
+              ],
+              "c": 3,
+              "k": "ipc-2b81d0523d72696f"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Premisa 1: ......................................................................................................................... Dado el siguiente conjunto de enunciados: Algunos animales, como almejas, ostras y mejillones, son incapaces de sentir dolor. Conclusión: Comer ostras es moralmente aceptable. Premisa 2: Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Es moralmente aceptable consumir animales si son incapaces de sentir dolor.",
+                "Las ostras son un producto de lujo, sólo accesible para las clases más altas.",
+                "La única dieta moralmente aceptable es la vegetariana.",
+                "Todas las ostras son bivalvos."
+              ],
+              "c": 0,
+              "k": "ipc-545d84d39f318250"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Por mucho tiempo se pensó que para aprender algo nuevo se debe practicar de manera continua. Pero varios estudios científicos han señalado que la práctica incesante puede no ser la forma más eficiente de aprender una nueva habilidad. Según el investigador brasileño Leonardo Claudino, intercalar breves descansos cuando aprendemos una nueva habilidad mejora el aprendizaje. Para probar esto, Claudino y otros investigadores convocaron a 33 voluntarios diestros y les pidieron que escribieran una secuencia de números con la mano izquierda en el teclado. Asumieron que mayor velocidad y precisión en la ejecución de una actividad indican un mejor aprendizaje de una nueva habilidad. Se separó a los voluntarios en dos grupos. Los del primer grupo tenían que escribir tantas secuencias como fuera posible durante diez segundos y luego tomar un descanso de diez segundos. Los del segundo grupo también tenían que realizar la misma tarea pero sin tomar los descansos. Los investigadores observaron que luego de un mismo lapso de tiempo de 5 minutos, los voluntarios del primer grupo mejoraron la velocidad y precisión con la que escribían secuencias numéricas con la mano izquierda en mayor grado que los del segundo.",
+              "o": [
+                "Mayor velocidad y precisión en la ejecución de una actividad indican un mejor aprendizaje de una nueva habilidad.",
+                "La práctica incesante hace que las personas diestras escriban con la misma velocidad con su mano izquierda.",
+                "Los voluntarios del segundo grupo mejorarán la velocidad y precisión con la que escriben secuencias numéricas con la mano izquierda en mayor grado que los del primer grupo.",
+                "Los voluntarios del primer grupo mejorarán la velocidad y precisión con la que escriben secuencias numéricas con la mano izquierda en mayor grado que los del segundo grupo.",
+                "Quienes escriben secuencias numéricas con la mano izquierda no son veloces ni precisos.",
+                "Intercalar breves descansos cuando aprendemos una nueva habilidad mejora el aprendizaje."
+              ],
+              "c": 5,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 6. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 6:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Por mucho tiempo se pensó que para aprender algo nuevo se debe practicar de manera continua. Pero varios estudios científicos han señalado que la práctica incesante puede no ser la forma más eficiente de aprender una nueva habilidad. Según el investigador brasileño Leonardo Claudino, intercalar breves descansos cuando aprendemos una nueva habilidad mejora el aprendizaje. Para probar esto, Claudino y otros investigadores convocaron a 33 voluntarios diestros y les pidieron que escribieran una secuencia de números con la mano izquierda en el teclado. Asumieron que mayor velocidad y precisión en la ejecución de una actividad indican un mejor aprendizaje de una nueva habilidad. Se separó a los voluntarios en dos grupos. Los del primer grupo tenían que escribir tantas secuencias como fuera posible durante diez segundos y luego tomar un descanso de diez segundos. Los del segundo grupo también tenían que realizar la misma tarea pero sin tomar los descansos. Los investigadores observaron que luego de un mismo lapso de tiempo de 5 minutos, los voluntarios del primer grupo mejoraron la velocidad y precisión con la que escribían secuencias numéricas con la mano izquierda en mayor grado que los del segundo.",
+              "contextoTitulo": "Caso de referencia · ejercicio 6",
+              "o": [
+                "Mayor velocidad y precisión en la ejecución de una actividad indican un mejor aprendizaje de una nueva habilidad.",
+                "La práctica incesante hace que las personas diestras escriban con la misma velocidad con su mano izquierda.",
+                "Los voluntarios del segundo grupo mejorarán la velocidad y precisión con la que escriben secuencias numéricas con la mano izquierda en mayor grado que los del primer grupo.",
+                "Los voluntarios del primer grupo mejorarán la velocidad y precisión con la que escriben secuencias numéricas con la mano izquierda en mayor grado que los del segundo grupo.",
+                "Quienes escriben secuencias numéricas con la mano izquierda no son veloces ni precisos.",
+                "Intercalar breves descansos cuando aprendemos una nueva habilidad mejora el aprendizaje."
+              ],
+              "c": 3,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 6 de acuerdo con la postura inductivista crítica de Hempel.",
+              "ctx": "Caso del ejercicio 6:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Por mucho tiempo se pensó que para aprender algo nuevo se debe practicar de manera continua. Pero varios estudios científicos han señalado que la práctica incesante puede no ser la forma más eficiente de aprender una nueva habilidad. Según el investigador brasileño Leonardo Claudino, intercalar breves descansos cuando aprendemos una nueva habilidad mejora el aprendizaje. Para probar esto, Claudino y otros investigadores convocaron a 33 voluntarios diestros y les pidieron que escribieran una secuencia de números con la mano izquierda en el teclado. Asumieron que mayor velocidad y precisión en la ejecución de una actividad indican un mejor aprendizaje de una nueva habilidad. Se separó a los voluntarios en dos grupos. Los del primer grupo tenían que escribir tantas secuencias como fuera posible durante diez segundos y luego tomar un descanso de diez segundos. Los del segundo grupo también tenían que realizar la misma tarea pero sin tomar los descansos. Los investigadores observaron que luego de un mismo lapso de tiempo de 5 minutos, los voluntarios del primer grupo mejoraron la velocidad y precisión con la que escribían secuencias numéricas con la mano izquierda en mayor grado que los del segundo.",
+              "contextoTitulo": "Caso de referencia · ejercicio 6",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "corroborada",
+                    "verificada",
+                    "confirmada",
+                    "válida",
+                    "verdadera"
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque ante el hallazgo de suficientes casos favorables la hipótesis contrastada se considera verdadera de modo definitivo.",
+                    "porque la hipótesis recibió apoyo inductivo a partir de los casos favorables observados.",
+                    "porque la validez de la hipótesis queda establecida de modo concluyente cuando supera varios intentos de refutación.",
+                    "porque las consecuencias observacionales verificadas solo permiten afirmar que la hipótesis de la que se deducen no ha sido refutada hasta ahora."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-921d1833e114855f"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Los lunes llueve o no llueve.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque es poco probable.",
+                    "porque está confirmado.",
+                    "porque no tiene falsadores potenciales."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-25ca710edfb19cbe"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: María tiene la vista borrosa y dificultades para hablar. Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "María es miope.",
+                    "María no acompañó su bebida alcohólica con agua ni alimento.",
+                    "María bebió grandes cantidades de alcohol en las últimas horas.",
+                    "Ingerir grandes cantidades de alcohol produce visión borrosa y dificultades para hablar.",
+                    "Ingerir grandes cantidades de alcohol suele producir visión borrosa y dificultades en el habla."
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "María es miope.",
+                    "María no acompañó su bebida alcohólica con agua ni alimento.",
+                    "María bebió grandes cantidades de alcohol en las últimas horas.",
+                    "Ingerir grandes cantidades de alcohol produce visión borrosa y dificultades para hablar.",
+                    "Ingerir grandes cantidades de alcohol suele producir visión borrosa y dificultades en el habla."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-9471c7bdffaf746e"
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "IPC_2023_A.pdf",
+          "paginas": [
+            7,
+            9
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. La marihuana (Cannabis sativa) es una planta muy compleja, con múltiples principios activos, entre los cuales están los cannabinoides, unos compuestos pertenecientes a la familia de los terpenofenoles. Entre estas moléculas, los más destacados desde el punto de vista terapéutico son el THC o tetrahidrocannabinol y el CBD o cannabidol. Mientras que el THC posee efectos psicoactivos, el CBD posee un efecto general calmante y puede inducir cierta somnolencia. Un grupo de investigadores del Laboratorio DNBA se propuso poner a prueba la eficacia del CBD para reducir las molestias y dolores relacionados con la artritis y otras afecciones crónicas de las articulaciones. Para ello, se convocó a un grupo de voluntarios con artritis o dolores crónicos en las articulaciones, los participantes voluntarios fueron divididos en dos grupos (A y B). Al grupo A se le aplicó diariamente un gel de CBD al 5% de concentración en las articulaciones, asumiendo que ésta es la concentración suficiente para que la sustancia produzca sus efectos; mientras que al grupo B se le aplicó un gel sin ningún principio activo. Luego de una semana se consultó con los participantes, los miembros del grupo A reportaron un descenso en las molestias, mientras que los del grupo B no reportaron cambios.",
+              "o": [
+                "Los voluntarios del grupo A reportarán un descenso en las molestias en sus articulaciones.",
+                "El CBD posee un efecto general calmante y puede inducir cierta somnolencia.",
+                "El CBD es eficaz para reducir las molestias de la artritis.",
+                "Los voluntarios del grupo B reportarán un descenso en las molestias en sus articulaciones.",
+                "La concentración de CBD del 5% es suficiente para que la sustancia produzca sus efectos.",
+                "A los voluntarios del grupo A se les aplicó gel de CBD una vez por día."
+              ],
+              "c": 2,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. La marihuana (Cannabis sativa) es una planta muy compleja, con múltiples principios activos, entre los cuales están los cannabinoides, unos compuestos pertenecientes a la familia de los terpenofenoles. Entre estas moléculas, los más destacados desde el punto de vista terapéutico son el THC o tetrahidrocannabinol y el CBD o cannabidol. Mientras que el THC posee efectos psicoactivos, el CBD posee un efecto general calmante y puede inducir cierta somnolencia. Un grupo de investigadores del Laboratorio DNBA se propuso poner a prueba la eficacia del CBD para reducir las molestias y dolores relacionados con la artritis y otras afecciones crónicas de las articulaciones. Para ello, se convocó a un grupo de voluntarios con artritis o dolores crónicos en las articulaciones, los participantes voluntarios fueron divididos en dos grupos (A y B). Al grupo A se le aplicó diariamente un gel de CBD al 5% de concentración en las articulaciones, asumiendo que ésta es la concentración suficiente para que la sustancia produzca sus efectos; mientras que al grupo B se le aplicó un gel sin ningún principio activo. Luego de una semana se consultó con los participantes, los miembros del grupo A reportaron un descenso en las molestias, mientras que los del grupo B no reportaron cambios.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Los voluntarios del grupo A reportarán un descenso en las molestias en sus articulaciones.",
+                "El CBD posee un efecto general calmante y puede inducir cierta somnolencia.",
+                "El CBD es eficaz para reducir las molestias de la artritis.",
+                "Los voluntarios del grupo B reportarán un descenso en las molestias en sus articulaciones.",
+                "La concentración de CBD del 5% es suficiente para que la sustancia produzca sus efectos.",
+                "A los voluntarios del grupo A se les aplicó gel de CBD una vez por día."
+              ],
+              "c": 4,
+              "k": "ipc-b61f5077cd1e84d4"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con el falsacionismo de Popper.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. La marihuana (Cannabis sativa) es una planta muy compleja, con múltiples principios activos, entre los cuales están los cannabinoides, unos compuestos pertenecientes a la familia de los terpenofenoles. Entre estas moléculas, los más destacados desde el punto de vista terapéutico son el THC o tetrahidrocannabinol y el CBD o cannabidol. Mientras que el THC posee efectos psicoactivos, el CBD posee un efecto general calmante y puede inducir cierta somnolencia. Un grupo de investigadores del Laboratorio DNBA se propuso poner a prueba la eficacia del CBD para reducir las molestias y dolores relacionados con la artritis y otras afecciones crónicas de las articulaciones. Para ello, se convocó a un grupo de voluntarios con artritis o dolores crónicos en las articulaciones, los participantes voluntarios fueron divididos en dos grupos (A y B). Al grupo A se le aplicó diariamente un gel de CBD al 5% de concentración en las articulaciones, asumiendo que ésta es la concentración suficiente para que la sustancia produzca sus efectos; mientras que al grupo B se le aplicó un gel sin ningún principio activo. Luego de una semana se consultó con los participantes, los miembros del grupo A reportaron un descenso en las molestias, mientras que los del grupo B no reportaron cambios.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "verdadera",
+                    "verificada",
+                    "válida",
+                    "confirmada",
+                    "corroborada"
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque las consecuencias observacionales verificadas ofrecen apoyo inductivo a la hipótesis de la que se deducen.",
+                    "porque se acepta provisoriamente la hipótesis luego del intento fallido de refutación.",
+                    "porque la validez de la hipótesis queda establecida luego de varios intentos de refutación.",
+                    "porque los casos favorables observados permiten establecer la verdad de la hipótesis de modo definitivo."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-a33f650174d0899d"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. El alma sobrevive al cuerpo.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque está verificado.",
+                    "porque puede ponerse a prueba con la experiencia.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque no puede traducirse al lenguaje observacional."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-887f17ca2ec185ed"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Pedro tiene dificultades respiratorias. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Pedro es un fumador crónico de edad avanzada.",
+                    "Pedro nunca intentó dejar de fumar.",
+                    "Todos los fumadores crónicos de edad avanzada tienen dificultades respiratorias.",
+                    "La mayoría de los fumadores crónicos de edad avanzada tienen dificultades respiratorias.",
+                    "Pedro fumó mucho ayer."
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Pedro es un fumador crónico de edad avanzada.",
+                    "Pedro nunca intentó dejar de fumar.",
+                    "Todos los fumadores crónicos de edad avanzada tienen dificultades respiratorias.",
+                    "La mayoría de los fumadores crónicos de edad avanzada tienen dificultades respiratorias.",
+                    "Pedro fumó mucho ayer."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-47b1c3c1823d97c7"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Una revolución científica implica...",
+              "o": [
+                "que diversas escuelas acepten por primera vez un paradigma.",
+                "la sustitución de un paradigma falso por un nuevo paradigma verdadero.",
+                "un cambio de paradigma.",
+                "el cambio de una teoría por otra."
+              ],
+              "c": 2,
+              "k": "ipc-ea360ecb448f829f"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. La agente de la Guardia Civil (cuerpo policial de España) Pilar Villacorta fue suspendida un mes de empleo y sueldo por negarse a usar el chaleco antibalas en un ejercicio de tiro durante 2016. Las razones que llevaron a Villacorta a negarse a usar el chaleco son conocidas por la inmensa mayoría de mujeres que utilizan elementos de seguridad personal en sus trabajos: este equipamiento resulta inadecuado para los cuerpos de las mujeres. Como señala Caroline Criado Pérez en su libro “La Mujer Invisible” la mayor parte de los estudios científicos sobre los que se basa el diseño de equipos de seguridad toman como referencia el cuerpo típico de los varones, lo que hace que el producto final no se adapte a las necesidades de las mujeres.",
+              "o": [
+                "Teorías sexistas.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Exclusión y marginalización.",
+                "Aplicaciones sexistas."
+              ],
+              "c": 3,
+              "k": "ipc-04e8253e497d5889"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el postmodernismo feminista pero rechazada por la teoría feminista del punto de vista.",
+              "o": [
+                "Las mujeres comparten una perspectiva o punto de vista común debido a la experiencia compartida de opresión.",
+                "No hay diferencias relevantes entre el punto de vista de las mujeres y el de los varones.",
+                "No hay una perspectiva unificada de las mujeres, esta es cambiante y depende de factores como la clase o la raza.",
+                "Independientemente del punto de vista de cada persona, es posible acceder al mundo tal cual y como es a partir de la evidencia y la lógica."
+              ],
+              "c": 2,
+              "k": "ipc-9d2a11e3e7622ef5"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. Los cambios en las condiciones climáticas han tenido un fuerte impacto sobre la magnitud y frecuencia de precipitaciones extremas. Estos eventos suelen afectar áreas extensas provocando daños severos en la población, su economía y su ambiente. La predicción de este tipo de fenómenos meteorológicos severos es primordial para la elaboración de estrategias que permitan mitigar los daños económicos y, en algunos casos, evitar la pérdida de vidas humanas en determinadas regiones. La aplicación de técnicas de aprendizaje de máquinas (machine learning) permite construir modelos predictivos precisos a partir de la detección de patrones existentes en los datos. Un proyecto de científicos mendocinos propone estudiar técnicas de aprendizaje de máquinas en el contexto de la predicción de fenómenos meteorológicos severos. Este proyecto de ciencia aplicada ayudaría a prevenir fenómenos climáticos extremos y evitar las consecuencias económicas negativas.",
+              "o": [
+                "Sí, porque las preocupaciones por las pérdidas de vidas debidas a condiciones meteorológicas extremas están vinculadas con el desarrollo de las ciencias sociales y humanas.",
+                "No, porque se trata de una investigación meteorológica, donde la prioridad es ampliar el conocimiento por el conocimiento mismo.",
+                "No, porque no existe una demanda concreta de la sociedad para estudiar fenómenos meteorológicos.",
+                "Sí, porque la predicción de fenómenos meteorológicos tiene una evidente relevancia social y económica."
+              ],
+              "c": 3,
+              "k": "ipc-a977012b1a1fedc9"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Premisa 1: ......................................................................................................................... Dado el siguiente conjunto de enunciados: Aumentar los impuestos a las laptops dificulta el acceso a la tecnología, al aumentar su precio para el consumidor. Conclusión: El aumento de los impuestos a las laptops es injusto. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión. Premisa 2:",
+              "o": [
+                "Las medidas económicas que dificulten el acceso a tecnología son injustas.",
+                "Los impuestos son justos si todos pagan el mismo porcentaje por los mismos bienes.",
+                "El Estado puede decidir a qué productos cobrarles impuestos y a cuáles no.",
+                "Las laptops son un insumo necesario para trabajar como programador."
+              ],
+              "c": 0,
+              "k": "ipc-1356197eb7dbd56e"
+            }
+          ]
+        },
+        {
+          "id": "t4",
+          "n": "Tema 4",
+          "fuente": "IPC_2023_A.pdf",
+          "paginas": [
+            10,
+            12
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. La agente de la Guardia Civil (cuerpo policial de España) Pilar Villacorta fue suspendida un mes de empleo y sueldo por negarse a usar el chaleco antibalas en un ejercicio de tiro durante 2016. Las razones que llevaron a Villacorta a negarse a usar el chaleco son conocidas por la inmensa mayoría de mujeres que utilizan elementos de seguridad personal en sus trabajos: este equipamiento resulta inadecuado para los cuerpos de las mujeres. Como señala Caroline Criado Pérez en su libro “La Mujer Invisible” la mayor parte de los estudios científicos sobre los que se basa el diseño de equipos de seguridad toman como referencia el cuerpo típico de los varones, lo que hace que el producto final no se adapte a las necesidades de las mujeres.",
+              "o": [
+                "Exclusión y marginalización.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Teorías sexistas.",
+                "Aplicaciones sexistas."
+              ],
+              "c": 3,
+              "k": "ipc-04e8253e497d5889"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el postmodernismo feminista pero rechazada por la teoría feminista del punto de vista.",
+              "o": [
+                "No hay una perspectiva unificada de las mujeres, esta es cambiante y depende de factores como la clase o la raza.",
+                "Independientemente del punto de vista de cada persona, es posible acceder al mundo tal cual y como es a partir de la evidencia y la lógica.",
+                "No hay diferencias relevantes entre el punto de vista de las mujeres y el de los varones.",
+                "Las mujeres comparten una perspectiva o punto de vista común debido a la experiencia compartida de opresión."
+              ],
+              "c": 0,
+              "k": "ipc-9d2a11e3e7622ef5"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. Los cambios en las condiciones climáticas han tenido un fuerte impacto sobre la magnitud y frecuencia de precipitaciones extremas. Estos eventos suelen afectar áreas extensas provocando daños severos en la población, su economía y su ambiente. La predicción de este tipo de fenómenos meteorológicos severos es primordial para la elaboración de estrategias que permitan mitigar los daños económicos y, en algunos casos, evitar la pérdida de vidas humanas en determinadas regiones. La aplicación de técnicas de aprendizaje de máquinas (machine learning) permite construir modelos predictivos precisos a partir de la detección de patrones existentes en los datos. Un proyecto de científicos mendocinos propone estudiar técnicas de aprendizaje de máquinas en el contexto de la predicción de fenómenos meteorológicos severos. Este proyecto de ciencia aplicada ayudaría a prevenir fenómenos climáticos extremos y evitar las consecuencias económicas negativas.",
+              "o": [
+                "Sí, porque las preocupaciones por las pérdidas de vidas debidas a condiciones meteorológicas extremas están vinculadas con el desarrollo de las ciencias sociales y humanas.",
+                "No, porque no existe una demanda concreta de la sociedad para estudiar fenómenos meteorológicos.",
+                "Sí, porque la predicción de fenómenos meteorológicos tiene una evidente relevancia social y económica.",
+                "No, porque se trata de una investigación meteorológica, donde la prioridad es ampliar el conocimiento por el conocimiento mismo."
+              ],
+              "c": 2,
+              "k": "ipc-71f46bc52b575461"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Una revolución científica implica...",
+              "o": [
+                "un cambio de paradigma.",
+                "el cambio de una teoría por otra.",
+                "que diversas escuelas acepten por primera vez un paradigma.",
+                "la sustitución de un paradigma falso por un nuevo paradigma verdadero."
+              ],
+              "c": 0,
+              "k": "ipc-ea360ecb448f829f"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Premisa 1: ......................................................................................................................... Dado el siguiente conjunto de enunciados: Aumentar los impuestos a las laptops dificulta el acceso a la tecnología, al aumentar su precio para el consumidor. Conclusión: El aumento de los impuestos a las laptops es injusto. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión. Premisa 2:",
+              "o": [
+                "Las laptops son un insumo necesario para trabajar como programador.",
+                "El Estado puede decidir a qué productos cobrarles impuestos y a cuáles no.",
+                "Las medidas económicas que dificulten el acceso a tecnología son injustas.",
+                "Los impuestos son justos si todos pagan el mismo porcentaje por los mismos bienes."
+              ],
+              "c": 2,
+              "k": "ipc-43471c849c7f6655"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. La marihuana (Cannabis sativa) es una planta muy compleja, con múltiples principios activos, entre los cuales están los cannabinoides, unos compuestos pertenecientes a la familia de los terpenofenoles. Entre estas moléculas, los más destacados desde el punto de vista terapéutico son el THC o tetrahidrocannabinol y el CBD o cannabidol. Mientras que el THC posee efectos psicoactivos, el CBD posee un efecto general calmante y puede inducir cierta somnolencia. Un grupo de investigadores del Laboratorio DNBA se propuso poner a prueba la eficacia del CBD para reducir las molestias y dolores relacionados con la artritis y otras afecciones crónicas de las articulaciones. Para ello, se convocó a un grupo de voluntarios con artritis o dolores crónicos en las articulaciones, los participantes voluntarios fueron divididos en dos grupos (A y B). Al grupo A se le aplicó diariamente un gel de CBD al 5% de concentración en las articulaciones, asumiendo que ésta es la concentración suficiente para que la sustancia produzca sus efectos; mientras que al grupo B se le aplicó un gel sin ningún principio activo. Luego de una semana se consultó con los participantes, los miembros del grupo A reportaron un descenso en las molestias, mientras que los del grupo B no reportaron cambios.",
+              "o": [
+                "El CBD posee un efecto general calmante y puede inducir cierta somnolencia.",
+                "Los voluntarios del grupo A reportarán un descenso en las molestias en sus articulaciones.",
+                "Los voluntarios del grupo B reportarán un descenso en las molestias en sus articulaciones.",
+                "El CBD es eficaz para reducir las molestias de la artritis.",
+                "A los voluntarios del grupo A se les aplicó gel de CBD una vez por día.",
+                "La concentración de CBD del 5% es suficiente para que la sustancia produzca sus efectos."
+              ],
+              "c": 3,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 6. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 6:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. La marihuana (Cannabis sativa) es una planta muy compleja, con múltiples principios activos, entre los cuales están los cannabinoides, unos compuestos pertenecientes a la familia de los terpenofenoles. Entre estas moléculas, los más destacados desde el punto de vista terapéutico son el THC o tetrahidrocannabinol y el CBD o cannabidol. Mientras que el THC posee efectos psicoactivos, el CBD posee un efecto general calmante y puede inducir cierta somnolencia. Un grupo de investigadores del Laboratorio DNBA se propuso poner a prueba la eficacia del CBD para reducir las molestias y dolores relacionados con la artritis y otras afecciones crónicas de las articulaciones. Para ello, se convocó a un grupo de voluntarios con artritis o dolores crónicos en las articulaciones, los participantes voluntarios fueron divididos en dos grupos (A y B). Al grupo A se le aplicó diariamente un gel de CBD al 5% de concentración en las articulaciones, asumiendo que ésta es la concentración suficiente para que la sustancia produzca sus efectos; mientras que al grupo B se le aplicó un gel sin ningún principio activo. Luego de una semana se consultó con los participantes, los miembros del grupo A reportaron un descenso en las molestias, mientras que los del grupo B no reportaron cambios.",
+              "contextoTitulo": "Caso de referencia · ejercicio 6",
+              "o": [
+                "El CBD posee un efecto general calmante y puede inducir cierta somnolencia.",
+                "Los voluntarios del grupo A reportarán un descenso en las molestias en sus articulaciones.",
+                "Los voluntarios del grupo B reportarán un descenso en las molestias en sus articulaciones.",
+                "El CBD es eficaz para reducir las molestias de la artritis.",
+                "A los voluntarios del grupo A se les aplicó gel de CBD una vez por día.",
+                "La concentración de CBD del 5% es suficiente para que la sustancia produzca sus efectos."
+              ],
+              "c": 1,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 6 de acuerdo con el falsacionismo de Popper.",
+              "ctx": "Caso del ejercicio 6:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. La marihuana (Cannabis sativa) es una planta muy compleja, con múltiples principios activos, entre los cuales están los cannabinoides, unos compuestos pertenecientes a la familia de los terpenofenoles. Entre estas moléculas, los más destacados desde el punto de vista terapéutico son el THC o tetrahidrocannabinol y el CBD o cannabidol. Mientras que el THC posee efectos psicoactivos, el CBD posee un efecto general calmante y puede inducir cierta somnolencia. Un grupo de investigadores del Laboratorio DNBA se propuso poner a prueba la eficacia del CBD para reducir las molestias y dolores relacionados con la artritis y otras afecciones crónicas de las articulaciones. Para ello, se convocó a un grupo de voluntarios con artritis o dolores crónicos en las articulaciones, los participantes voluntarios fueron divididos en dos grupos (A y B). Al grupo A se le aplicó diariamente un gel de CBD al 5% de concentración en las articulaciones, asumiendo que ésta es la concentración suficiente para que la sustancia produzca sus efectos; mientras que al grupo B se le aplicó un gel sin ningún principio activo. Luego de una semana se consultó con los participantes, los miembros del grupo A reportaron un descenso en las molestias, mientras que los del grupo B no reportaron cambios.",
+              "contextoTitulo": "Caso de referencia · ejercicio 6",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "confirmada",
+                    "verdadera",
+                    "verificada",
+                    "corroborada",
+                    "válida"
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque la validez de la hipótesis queda establecida luego de varios intentos de refutación.",
+                    "porque se acepta provisoriamente la hipótesis luego del intento fallido de refutación.",
+                    "porque las consecuencias observacionales verificadas ofrecen apoyo inductivo a la hipótesis de la que se deducen.",
+                    "porque los casos favorables observados permiten establecer la verdad de la hipótesis de modo definitivo."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-a33f650174d0899d"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. El alma sobrevive al cuerpo.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque está verificado.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque puede ponerse a prueba con la experiencia."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-887f17ca2ec185ed"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Pedro tiene dificultades respiratorias. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Pedro nunca intentó dejar de fumar.",
+                    "Pedro es un fumador crónico de edad avanzada.",
+                    "Pedro fumó mucho ayer.",
+                    "Todos los fumadores crónicos de edad avanzada tienen dificultades respiratorias.",
+                    "La mayoría de los fumadores crónicos de edad avanzada tienen dificultades respiratorias."
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Pedro nunca intentó dejar de fumar.",
+                    "Pedro es un fumador crónico de edad avanzada.",
+                    "Pedro fumó mucho ayer.",
+                    "Todos los fumadores crónicos de edad avanzada tienen dificultades respiratorias.",
+                    "La mayoría de los fumadores crónicos de edad avanzada tienen dificultades respiratorias."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-47b1c3c1823d97c7"
+            }
+          ]
+        },
+        {
+          "id": "t5",
+          "n": "Tema 5",
+          "fuente": "IPC_2023_A.pdf",
+          "paginas": [
+            13,
+            15
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Investigadores de la División de Ciencias de la salud pública del Cancer Research Center, en Seattle, Washington, realizaron una investigación para determinar si el uso del sostén incrementa el riesgo de padecer cáncer de mama. Tomando como punto de partida el conocimiento de que el carcinoma ductal invasivo y el carcinoma lobulillar invasivo son los dos tipos más comunes de cáncer de mama en mujeres posmenopáusicas, los investigadores realizaron un estudio comparativo entrevistando a 1513 participantes mujeres de entre 55 y 74 años. Entre las voluntarias, 454 padecían carcinoma ductal invasivo, 590 padecían carcinoma lobulillar invasivo y 469 no presentaban patologías mamarias. A cada entrevistada se le preguntó acerca del uso del sostén. Con esta información, se compararon los registros de las entrevistas y se halló que, en todos los promedios de horas diarias de uso del sostén, (incluyendo los casos en los que las mujeres no usaban sostén) el porcentaje de casos de cáncer era prácticamente el mismo. Tampoco se encontraron diferencias relativas a los tamaños y formas de sostén, las edades de comienzo de uso y el uso de un sostén con o sin aros.",
+              "o": [
+                "Los casos de carcinoma ductal invasivo y carcinoma lobulillar invasivo serán más frecuentes entre las mujeres posmenopáusicas entrevistadas que usan más el sostén.",
+                "El carcinoma ductal invasivo y el carcinoma lobulillar invasivo son los dos tipos más comunes de cáncer de mama en mujeres posmenopáusicas.",
+                "Las mujeres posmenopáusicas utilizan sostén en mayor medida que las mujeres en edad fértil.",
+                "Los casos de carcinoma ductal invasivo y carcinoma lobulillar invasivo serán más frecuentes entre las entrevistadas posmenopáusicas que entre las premenopáusicas.",
+                "Las mujeres posmenopáusicas tienen mayor probabilidad de padecer cáncer de mama.",
+                "El uso de sostén incrementa el riesgo de padecer los tipos más comunes de cáncer de mama."
+              ],
+              "c": 5,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Investigadores de la División de Ciencias de la salud pública del Cancer Research Center, en Seattle, Washington, realizaron una investigación para determinar si el uso del sostén incrementa el riesgo de padecer cáncer de mama. Tomando como punto de partida el conocimiento de que el carcinoma ductal invasivo y el carcinoma lobulillar invasivo son los dos tipos más comunes de cáncer de mama en mujeres posmenopáusicas, los investigadores realizaron un estudio comparativo entrevistando a 1513 participantes mujeres de entre 55 y 74 años. Entre las voluntarias, 454 padecían carcinoma ductal invasivo, 590 padecían carcinoma lobulillar invasivo y 469 no presentaban patologías mamarias. A cada entrevistada se le preguntó acerca del uso del sostén. Con esta información, se compararon los registros de las entrevistas y se halló que, en todos los promedios de horas diarias de uso del sostén, (incluyendo los casos en los que las mujeres no usaban sostén) el porcentaje de casos de cáncer era prácticamente el mismo. Tampoco se encontraron diferencias relativas a los tamaños y formas de sostén, las edades de comienzo de uso y el uso de un sostén con o sin aros.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "Los casos de carcinoma ductal invasivo y carcinoma lobulillar invasivo serán más frecuentes entre las mujeres posmenopáusicas entrevistadas que usan más el sostén.",
+                "El carcinoma ductal invasivo y el carcinoma lobulillar invasivo son los dos tipos más comunes de cáncer de mama en mujeres posmenopáusicas.",
+                "Las mujeres posmenopáusicas utilizan sostén en mayor medida que las mujeres en edad fértil.",
+                "Los casos de carcinoma ductal invasivo y carcinoma lobulillar invasivo serán más frecuentes entre las entrevistadas posmenopáusicas que entre las premenopáusicas.",
+                "Las mujeres posmenopáusicas tienen mayor probabilidad de padecer cáncer de mama.",
+                "El uso de sostén incrementa el riesgo de padecer los tipos más comunes de cáncer de mama."
+              ],
+              "c": 1,
+              "k": "ipc-b61f5077cd1e84d4"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con la postura inductivista crítica de Hempel.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Investigadores de la División de Ciencias de la salud pública del Cancer Research Center, en Seattle, Washington, realizaron una investigación para determinar si el uso del sostén incrementa el riesgo de padecer cáncer de mama. Tomando como punto de partida el conocimiento de que el carcinoma ductal invasivo y el carcinoma lobulillar invasivo son los dos tipos más comunes de cáncer de mama en mujeres posmenopáusicas, los investigadores realizaron un estudio comparativo entrevistando a 1513 participantes mujeres de entre 55 y 74 años. Entre las voluntarias, 454 padecían carcinoma ductal invasivo, 590 padecían carcinoma lobulillar invasivo y 469 no presentaban patologías mamarias. A cada entrevistada se le preguntó acerca del uso del sostén. Con esta información, se compararon los registros de las entrevistas y se halló que, en todos los promedios de horas diarias de uso del sostén, (incluyendo los casos en los que las mujeres no usaban sostén) el porcentaje de casos de cáncer era prácticamente el mismo. Tampoco se encontraron diferencias relativas a los tamaños y formas de sostén, las edades de comienzo de uso y el uso de un sostén con o sin aros.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "confirmada",
+                    "verificada",
+                    "contradictoria",
+                    "refutada",
+                    "inválida"
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque siempre puede aparecer un caso refutatorio.",
+                    "porque ante resultados desfavorables, la hipótesis de la cual se deducen las consecuencias observacionales se considera falsa.",
+                    "porque la validez de la hipótesis queda establecida cuando supera varios intentos de refutación.",
+                    "porque la falsedad de la hipótesis se obtiene únicamente apelando a la estructura de la falacia de afirmación del consecuente."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-893f23b32a975e9e"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. La probabilidad de fallecer en un accidente vial es 26 veces mayor en motociclistas que en automovilistas.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque está confirmado.",
+                    "porque no tiene falsadores potenciales.",
+                    "porque está verificado mediante la experiencia.",
+                    "porque es falso."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-25ca710edfb19cbe"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: El pangolín está en peligro de extinción. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "El pangolín es un mamífero exótico víctima de caza furtiva a gran escala.",
+                    "Todos los mamíferos exóticos víctimas de caza furtiva a gran escala entran en peligro de extinción.",
+                    "El hábitat natural de los pangolines ha sido invadido por nuevas aglomeraciones urbanas.",
+                    "La mayoría de los mamíferos exóticos víctimas de caza furtiva a gran escala entran en peligro de extinción.",
+                    "Las escamas del pangolín se usan para productos con supuestas propiedades medicinales."
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "El pangolín es un mamífero exótico víctima de caza furtiva a gran escala.",
+                    "Todos los mamíferos exóticos víctimas de caza furtiva a gran escala entran en peligro de extinción.",
+                    "El hábitat natural de los pangolines ha sido invadido por nuevas aglomeraciones urbanas.",
+                    "La mayoría de los mamíferos exóticos víctimas de caza furtiva a gran escala entran en peligro de extinción.",
+                    "Las escamas del pangolín se usan para productos con supuestas propiedades medicinales."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-1ada850b8faf3f31"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. El progreso científico es acumulativo durante...",
+              "o": [
+                "la revolución científica.",
+                "el período de crisis.",
+                "el período de ciencia normal.",
+                "el período de pre-ciencia."
+              ],
+              "c": 2,
+              "k": "ipc-1ce33aaf4ee55fbd"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. A lo largo de la historia, ha primado la idea de que las mujeres son más dadas a las tareas vinculadas con la empatía y con el cuidado del otro, mientras que los varones tienden a preferir ocupaciones competitivas y productivas. Ahora bien, estas diferencias ¿son algo natural o resultado de la crianza diferencial entre varones y mujeres? La versión moderna de los que abogan por la naturalidad de las diferencias señala como causa la diferencia de los cerebros entre mujeres y varones. Quienes defienden esta idea, argumentan que el cerebro masculino es más grande que el de las mujeres y además, que las mujeres presentan un mayor desarrollo en las áreas vinculadas con la empatía o la creatividad. Sin embargo, en su libro “The Gendered Brain” la neurocientífica Gina Rippon, muestra cómo estas ideas sobre las diferencias en el cerebro se repiten cada cierta cantidad de años y son siempre descartadas. En primer lugar, las diferencias entre el cerebro de mujeres y varones no son absolutas: hay mujeres con cerebros grandes y varones con cerebros pequeños. En segundo lugar, es cierto que hay estructuras cerebrales que son más frecuentes en mujeres que en varones y viceversa, pero cada cerebro particular no es exclusivamente masculino o exclusivamente femenino sino más bien un mosaico de estructuras típicamente femeninas y típicamente masculinas. Es decir, tomando un cerebro cualquiera no podríamos determinar si pertenece a un varón o a una mujer.",
+              "o": [
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Teorías sexistas.",
+                "Aplicaciones sexistas.",
+                "Exclusión y marginalización."
+              ],
+              "c": 1,
+              "k": "ipc-e483738a2b7ae909"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista pero rechazada por el postmodernismo feminista.",
+              "o": [
+                "La discusión abierta de los estándares de aceptación de las teorías permite, junto con la evidencia y la lógica, identificar los sesgos androcéntricos y construir una ciencia mejor.",
+                "La lógica y la evidencia no juegan ningún rol relevante en la elección entre teorías rivales.",
+                "La perspectiva de las mujeres tiene un privilegio epistémico respecto a la de los varones para detectar las teorías científicas androcéntricas.",
+                "El punto de vista del sujeto cognoscente es siempre cambiante. No es posible determinar qué teorías son mejores que otras."
+              ],
+              "c": 0,
+              "k": "ipc-e585b8ec258e85c9"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. La expansión urbana hacia áreas rurales y naturales es un proceso global. La mayoría de los estudios sobre efectos de la urbanización muestran que con la urbanización cambia la abundancia relativa, composición y riqueza de especies de aves. Un equipo de investigadores se propone indagar sobre el modo en que la urbanización ha afectado la composición y estabilidad de las comunidades de aves urbanas y suburbanas del Área Metropolitana de Mendoza. Este proyecto de ciencia básica busca determinar la composición, abundancia y riqueza de especies de aves nativas y exóticas en la región; clasificar las especies según cuánto se adaptan al medio urbano; y determinar cómo la urbanización afecta las migraciones de las aves a lo largo del año.",
+              "o": [
+                "No, porque no queda claro cuál es la aplicación práctica de una investigación sobre los patrones migratorios de las aves.",
+                "Sí, porque el conocimiento sobre los patrones migratorios de las aves es intrínsecamente valioso, más allá de sus eventuales aplicaciones.",
+                "Sí, porque la investigación sobre los patrones migratorios de las aves tiene aplicaciones prácticas inmediatas.",
+                "No, porque estudiar el comportamiento de las aves no es tarea de la matemática, la física o la química."
+              ],
+              "c": 1,
+              "k": "ipc-eb38f11f88beef0f"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Premisa 1: ......................................................................................................................... Dado el siguiente conjunto de enunciados: El desarrollo de herramientas de inteligencia artificial como ChatGPT tiene el potencial de extinguir a toda la humanidad. Conclusión: Es necesario detener la investigación en tecnologías como ChatGPT. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión. Premisa 2:",
+              "o": [
+                "Es necesario conocer en profundidad una tecnología antes de desarrollarla.",
+                "Debe detenerse la investigación en tecnologías que tengan el potencial de extinguir a la humanidad.",
+                "En el pasado, los países del mundo se pusieron de acuerdo para detener la proliferación de tecnología nuclear.",
+                "ChatGPT es una red neuronal entrenada sobre grandes cantidades de textos escritos."
+              ],
+              "c": 1,
+              "k": "ipc-8df6f6914b243b0c"
+            }
+          ]
+        },
+        {
+          "id": "t6",
+          "n": "Tema 6",
+          "fuente": "IPC_2023_A.pdf",
+          "paginas": [
+            16,
+            18
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. A lo largo de la historia, ha primado la idea de que las mujeres son más dadas a las tareas vinculadas con la empatía y con el cuidado del otro, mientras que los varones tienden a preferir ocupaciones competitivas y productivas. Ahora bien, estas diferencias ¿son algo natural o resultado de la crianza diferencial entre varones y mujeres? La versión moderna de los que abogan por la naturalidad de las diferencias señala como causa la diferencia de los cerebros entre mujeres y varones. Quienes defienden esta idea, argumentan que el cerebro masculino es más grande que el de las mujeres y además, que las mujeres presentan un mayor desarrollo en las áreas vinculadas con la empatía o la creatividad. Sin embargo, en su libro “The Gendered Brain” la neurocientífica Gina Rippon, muestra cómo estas ideas sobre las diferencias en el cerebro se repiten cada cierta cantidad de años y son siempre descartadas. En primer lugar, las diferencias entre el cerebro de mujeres y varones no son absolutas: hay mujeres con cerebros grandes y varones con cerebros pequeños. En segundo lugar, es cierto que hay estructuras cerebrales que son más frecuentes en mujeres que en varones y viceversa, pero cada cerebro particular no es exclusivamente masculino o exclusivamente femenino sino más bien un mosaico de estructuras típicamente femeninas y típicamente masculinas. Es decir, tomando un cerebro cualquiera no podríamos determinar si pertenece a un varón o a una mujer.",
+              "o": [
+                "Teorías sexistas.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Exclusión y marginalización.",
+                "Aplicaciones sexistas."
+              ],
+              "c": 0,
+              "k": "ipc-e483738a2b7ae909"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista pero rechazada por el postmodernismo feminista.",
+              "o": [
+                "La perspectiva de las mujeres tiene un privilegio epistémico respecto a la de los varones para detectar las teorías científicas androcéntricas.",
+                "La lógica y la evidencia no juegan ningún rol relevante en la elección entre teorías rivales.",
+                "El punto de vista del sujeto cognoscente es siempre cambiante. No es posible determinar qué teorías son mejores que otras.",
+                "La discusión abierta de los estándares de aceptación de las teorías permite, junto con la evidencia y la lógica, identificar los sesgos androcéntricos y construir una ciencia mejor."
+              ],
+              "c": 3,
+              "k": "ipc-e585b8ec258e85c9"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el cientificismo daría prioridad al financiamiento del mismo y por qué. La expansión urbana hacia áreas rurales y naturales es un proceso global. La mayoría de los estudios sobre efectos de la urbanización muestran que con la urbanización cambia la abundancia relativa, composición y riqueza de especies de aves. Un equipo de investigadores se propone indagar sobre el modo en que la urbanización ha afectado la composición y estabilidad de las comunidades de aves urbanas y suburbanas del Área Metropolitana de Mendoza. Este proyecto de ciencia básica busca determinar la composición, abundancia y riqueza de especies de aves nativas y exóticas en la región; clasificar las especies según cuánto se adaptan al medio urbano; y determinar cómo la urbanización afecta las migraciones de las aves a lo largo del año.",
+              "o": [
+                "No, porque no queda claro cuál es la aplicación práctica de una investigación sobre los patrones migratorios de las aves.",
+                "Sí, porque la investigación sobre los patrones migratorios de las aves tiene aplicaciones prácticas inmediatas.",
+                "Sí, porque el conocimiento sobre los patrones migratorios de las aves es intrínsecamente valioso, más allá de sus eventuales aplicaciones.",
+                "No, porque estudiar el comportamiento de las aves no es tarea de la matemática, la física o la química."
+              ],
+              "c": 2,
+              "k": "ipc-eb38f11f88beef0f"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. El progreso científico es acumulativo durante...",
+              "o": [
+                "el período de ciencia normal.",
+                "el período de pre-ciencia.",
+                "la revolución científica.",
+                "el período de crisis."
+              ],
+              "c": 0,
+              "k": "ipc-1ce33aaf4ee55fbd"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... El desarrollo de herramientas de inteligencia artificial como ChatGPT tiene el potencial de extinguir a toda la humanidad. Conclusión: Es necesario detener la investigación en tecnologías como ChatGPT. Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión. Premisa 2:",
+              "o": [
+                "Es necesario conocer en profundidad una tecnología antes de desarrollarla.",
+                "En el pasado, los países del mundo se pusieron de acuerdo para detener la proliferación de tecnología nuclear.",
+                "Debe detenerse la investigación en tecnologías que tengan el potencial de extinguir a la humanidad.",
+                "ChatGPT es una red neuronal entrenada sobre grandes cantidades de textos escritos."
+              ],
+              "c": 2,
+              "k": "ipc-c2bc8453837074a6"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Investigadores de la División de Ciencias de la salud pública del Cancer Research Center, en Seattle, Washington, realizaron una investigación para determinar si el uso del sostén incrementa el riesgo de padecer cáncer de mama. Tomando como punto de partida el conocimiento de que el carcinoma ductal invasivo y el carcinoma lobulillar invasivo son los dos tipos más comunes de cáncer de mama en mujeres posmenopáusicas, los investigadores realizaron un estudio comparativo entrevistando a 1513 participantes mujeres de entre 55 y 74 años. Entre las voluntarias, 454 padecían carcinoma ductal invasivo, 590 padecían carcinoma lobulillar invasivo y 469 no presentaban patologías mamarias. A cada entrevistada se le preguntó acerca del uso del sostén. Con esta información, se compararon los registros de las entrevistas y se halló que, en todos los promedios de horas diarias de uso del sostén, (incluyendo los casos en los que las mujeres no usaban sostén) el porcentaje de casos de cáncer era prácticamente el mismo. Tampoco se encontraron diferencias relativas a los tamaños y formas de sostén, las edades de comienzo de uso y el uso de un sostén con o sin aros.",
+              "o": [
+                "El uso de sostén incrementa el riesgo de padecer los tipos más comunes de cáncer de mama.",
+                "Las mujeres posmenopáusicas tienen mayor probabilidad de padecer cáncer de mama.",
+                "Los casos de carcinoma ductal invasivo y carcinoma lobulillar invasivo serán más frecuentes entre las entrevistadas posmenopáusicas que entre las premenopáusicas.",
+                "Las mujeres posmenopáusicas utilizan sostén en mayor medida que las mujeres en edad fértil.",
+                "Los casos de carcinoma ductal invasivo y carcinoma lobulillar invasivo serán más frecuentes entre las mujeres posmenopáusicas entrevistadas que usan más el sostén.",
+                "El carcinoma ductal invasivo y el carcinoma lobulillar invasivo son los dos tipos más comunes de cáncer de mama en mujeres posmenopáusicas."
+              ],
+              "c": 0,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 6. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 6:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Investigadores de la División de Ciencias de la salud pública del Cancer Research Center, en Seattle, Washington, realizaron una investigación para determinar si el uso del sostén incrementa el riesgo de padecer cáncer de mama. Tomando como punto de partida el conocimiento de que el carcinoma ductal invasivo y el carcinoma lobulillar invasivo son los dos tipos más comunes de cáncer de mama en mujeres posmenopáusicas, los investigadores realizaron un estudio comparativo entrevistando a 1513 participantes mujeres de entre 55 y 74 años. Entre las voluntarias, 454 padecían carcinoma ductal invasivo, 590 padecían carcinoma lobulillar invasivo y 469 no presentaban patologías mamarias. A cada entrevistada se le preguntó acerca del uso del sostén. Con esta información, se compararon los registros de las entrevistas y se halló que, en todos los promedios de horas diarias de uso del sostén, (incluyendo los casos en los que las mujeres no usaban sostén) el porcentaje de casos de cáncer era prácticamente el mismo. Tampoco se encontraron diferencias relativas a los tamaños y formas de sostén, las edades de comienzo de uso y el uso de un sostén con o sin aros.",
+              "contextoTitulo": "Caso de referencia · ejercicio 6",
+              "o": [
+                "El uso de sostén incrementa el riesgo de padecer los tipos más comunes de cáncer de mama.",
+                "Las mujeres posmenopáusicas tienen mayor probabilidad de padecer cáncer de mama.",
+                "Los casos de carcinoma ductal invasivo y carcinoma lobulillar invasivo serán más frecuentes entre las entrevistadas posmenopáusicas que entre las premenopáusicas.",
+                "Las mujeres posmenopáusicas utilizan sostén en mayor medida que las mujeres en edad fértil.",
+                "Los casos de carcinoma ductal invasivo y carcinoma lobulillar invasivo serán más frecuentes entre las mujeres posmenopáusicas entrevistadas que usan más el sostén.",
+                "El carcinoma ductal invasivo y el carcinoma lobulillar invasivo son los dos tipos más comunes de cáncer de mama en mujeres posmenopáusicas."
+              ],
+              "c": 4,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 6 de acuerdo con la postura inductivista crítica de Hempel.",
+              "ctx": "Caso del ejercicio 6:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. Investigadores de la División de Ciencias de la salud pública del Cancer Research Center, en Seattle, Washington, realizaron una investigación para determinar si el uso del sostén incrementa el riesgo de padecer cáncer de mama. Tomando como punto de partida el conocimiento de que el carcinoma ductal invasivo y el carcinoma lobulillar invasivo son los dos tipos más comunes de cáncer de mama en mujeres posmenopáusicas, los investigadores realizaron un estudio comparativo entrevistando a 1513 participantes mujeres de entre 55 y 74 años. Entre las voluntarias, 454 padecían carcinoma ductal invasivo, 590 padecían carcinoma lobulillar invasivo y 469 no presentaban patologías mamarias. A cada entrevistada se le preguntó acerca del uso del sostén. Con esta información, se compararon los registros de las entrevistas y se halló que, en todos los promedios de horas diarias de uso del sostén, (incluyendo los casos en los que las mujeres no usaban sostén) el porcentaje de casos de cáncer era prácticamente el mismo. Tampoco se encontraron diferencias relativas a los tamaños y formas de sostén, las edades de comienzo de uso y el uso de un sostén con o sin aros.",
+              "contextoTitulo": "Caso de referencia · ejercicio 6",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "refutada",
+                    "confirmada",
+                    "verificada",
+                    "contradictoria",
+                    "inválida"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque la falsedad de la hipótesis se obtiene únicamente apelando a la estructura de la falacia de afirmación del consecuente.",
+                    "porque la validez de la hipótesis queda establecida cuando supera varios intentos de refutación.",
+                    "porque siempre puede aparecer un caso refutatorio.",
+                    "porque ante resultados desfavorables, la hipótesis de la cual se deducen las consecuencias observacionales se considera falsa."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-893f23b32a975e9e"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. La probabilidad de fallecer en un accidente vial es 26 veces mayor en motociclistas que en automovilistas.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque es falso.",
+                    "porque está verificado mediante la experiencia.",
+                    "porque está confirmado.",
+                    "porque no tiene falsadores potenciales."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-25ca710edfb19cbe"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: El pangolín está en peligro de extinción. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Todos los mamíferos exóticos víctimas de caza furtiva a gran escala entran en peligro de extinción.",
+                    "El pangolín es un mamífero exótico víctima de caza furtiva a gran escala.",
+                    "El hábitat natural de los pangolines ha sido invadido por nuevas aglomeraciones urbanas.",
+                    "Las escamas del pangolín se usan para productos con supuestas propiedades medicinales.",
+                    "La mayoría de los mamíferos exóticos víctimas de caza furtiva a gran escala entran en peligro de extinción."
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Todos los mamíferos exóticos víctimas de caza furtiva a gran escala entran en peligro de extinción.",
+                    "El pangolín es un mamífero exótico víctima de caza furtiva a gran escala.",
+                    "El hábitat natural de los pangolines ha sido invadido por nuevas aglomeraciones urbanas.",
+                    "Las escamas del pangolín se usan para productos con supuestas propiedades medicinales.",
+                    "La mayoría de los mamíferos exóticos víctimas de caza furtiva a gran escala entran en peligro de extinción."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-dab71fae8441ddb2"
+            }
+          ]
+        },
+        {
+          "id": "t7",
+          "n": "Tema 7",
+          "fuente": "IPC_2023_A.pdf",
+          "paginas": [
+            19,
+            21
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. La capacidad de autorreconocimiento es diferente de la capacidad de reconocer a otros individuos de la misma especie. Es una función cognitiva que consiste, por ejemplo, en ser capaz de reconocer la imagen reflejada en el espejo como propia. Esta capacidad fue observada en humanos y otros mamíferos superiores, pero, ¿está presente en otras especies? Zoólogos de la Universidad de Delhi intentaron probar que los cuervos también tienen capacidad de autorreconocimiento. Para ello, tomaron seis cuervos, los ubicaron de a uno por vez en un espacio de cuatro paredes con un espejo, y les colocaron marcas adhesivas amarillas en el cuello; luego, repitieron el procedimiento pero esta vez con marcas negras. Los investigadores asumían que los cuervos no podían ver marcas negras sobre su plumaje pero sí podían ver marcas amarillas. Entonces, esperaban que, al verse en el espejo, los cuervos realizaran acciones sobre su cuello con más frecuencia cuando tenían una marca amarilla que cuando la marca era negra. Efectivamente, observaron que 4 de los 6 cuervos intentaron remover la marca amarilla, mientras que ninguno de los cuervos lo hizo con la marca negra. Este resultado indica que los cuervos sí tienen la capacidad de autorreconocimiento.",
+              "o": [
+                "La capacidad de autorreconocimiento fue observada en humanos y otros mamíferos superiores.",
+                "Al verse en el espejo, los cuervos realizarán acciones sobre su cuello con más frecuencia cuando tengan una marca amarilla que cuando la marca sea negra.",
+                "Los cuervos serán marcados en el cuello con adhesivos amarillos y luego con adhesivos negros.",
+                "Los cuervos tienen la capacidad de reconocer a otros individuos de su misma especie.",
+                "Los cuervos no son capaces de ver marcas negras sobre su plumaje, pero sí pueden ver marcas amarillas.",
+                "Los cuervos tienen capacidad de autorreconocimiento."
+              ],
+              "c": 5,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. La capacidad de autorreconocimiento es diferente de la capacidad de reconocer a otros individuos de la misma especie. Es una función cognitiva que consiste, por ejemplo, en ser capaz de reconocer la imagen reflejada en el espejo como propia. Esta capacidad fue observada en humanos y otros mamíferos superiores, pero, ¿está presente en otras especies? Zoólogos de la Universidad de Delhi intentaron probar que los cuervos también tienen capacidad de autorreconocimiento. Para ello, tomaron seis cuervos, los ubicaron de a uno por vez en un espacio de cuatro paredes con un espejo, y les colocaron marcas adhesivas amarillas en el cuello; luego, repitieron el procedimiento pero esta vez con marcas negras. Los investigadores asumían que los cuervos no podían ver marcas negras sobre su plumaje pero sí podían ver marcas amarillas. Entonces, esperaban que, al verse en el espejo, los cuervos realizaran acciones sobre su cuello con más frecuencia cuando tenían una marca amarilla que cuando la marca era negra. Efectivamente, observaron que 4 de los 6 cuervos intentaron remover la marca amarilla, mientras que ninguno de los cuervos lo hizo con la marca negra. Este resultado indica que los cuervos sí tienen la capacidad de autorreconocimiento.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "o": [
+                "La capacidad de autorreconocimiento fue observada en humanos y otros mamíferos superiores.",
+                "Al verse en el espejo, los cuervos realizarán acciones sobre su cuello con más frecuencia cuando tengan una marca amarilla que cuando la marca sea negra.",
+                "Los cuervos serán marcados en el cuello con adhesivos amarillos y luego con adhesivos negros.",
+                "Los cuervos tienen la capacidad de reconocer a otros individuos de su misma especie.",
+                "Los cuervos no son capaces de ver marcas negras sobre su plumaje, pero sí pueden ver marcas amarillas.",
+                "Los cuervos tienen capacidad de autorreconocimiento."
+              ],
+              "c": 4,
+              "k": "ipc-b61f5077cd1e84d4"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 1 de acuerdo con el falsacionismo de Popper.",
+              "ctx": "Caso del ejercicio 1:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. La capacidad de autorreconocimiento es diferente de la capacidad de reconocer a otros individuos de la misma especie. Es una función cognitiva que consiste, por ejemplo, en ser capaz de reconocer la imagen reflejada en el espejo como propia. Esta capacidad fue observada en humanos y otros mamíferos superiores, pero, ¿está presente en otras especies? Zoólogos de la Universidad de Delhi intentaron probar que los cuervos también tienen capacidad de autorreconocimiento. Para ello, tomaron seis cuervos, los ubicaron de a uno por vez en un espacio de cuatro paredes con un espejo, y les colocaron marcas adhesivas amarillas en el cuello; luego, repitieron el procedimiento pero esta vez con marcas negras. Los investigadores asumían que los cuervos no podían ver marcas negras sobre su plumaje pero sí podían ver marcas amarillas. Entonces, esperaban que, al verse en el espejo, los cuervos realizaran acciones sobre su cuello con más frecuencia cuando tenían una marca amarilla que cuando la marca era negra. Efectivamente, observaron que 4 de los 6 cuervos intentaron remover la marca amarilla, mientras que ninguno de los cuervos lo hizo con la marca negra. Este resultado indica que los cuervos sí tienen la capacidad de autorreconocimiento.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "contradictoria",
+                    "válida",
+                    "corroborada",
+                    "confirmada",
+                    "verificada"
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque la validez de la hipótesis queda establecida cuando supera varios intentos de refutación.",
+                    "porque las pruebas empíricas favorables demuestran que la hipótesis es verdadera.",
+                    "porque la falsedad de la hipótesis se obtiene únicamente apelando a la estructura de la falacia de afirmación del consecuente.",
+                    "porque se acepta provisoriamente la hipótesis luego del intento fallido de refutación."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-a33f650174d0899d"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. Los animales vertebrados tienen alma.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque tiene falsadores potenciales.",
+                    "porque no puede traducirse al lenguaje observacional.",
+                    "porque no está suficientemente confirmado.",
+                    "porque es válido."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-9515d231bcefe39a"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: La maquina de café tenía cucarachas en su interior. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "El interior de la máquina de café es húmedo y cálido.",
+                    "Las cucarachas siempre anidan en ambientes húmedos y cálidos.",
+                    "La mayoría de las veces, las cucarachas anidan en ambientes húmedos y cálidos.",
+                    "El interior de la máquina de café no recibía una limpieza hace mucho tiempo.",
+                    "Las cucarachas sienten atracción por el azúcar presente en la máquina."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "El interior de la máquina de café es húmedo y cálido.",
+                    "Las cucarachas siempre anidan en ambientes húmedos y cálidos.",
+                    "La mayoría de las veces, las cucarachas anidan en ambientes húmedos y cálidos.",
+                    "El interior de la máquina de café no recibía una limpieza hace mucho tiempo.",
+                    "Las cucarachas sienten atracción por el azúcar presente en la máquina."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-f45d715e9fb71a23"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Un paradigma es...",
+              "o": [
+                "solo un conjunto de presupuestos ontológicos que determinan qué entidades hay en el mundo.",
+                "una escuela de pensamiento que compite con otras por el dominio explicativo de un determinado campo de investigación en el período de pre-ciencia.",
+                "una teoría aislada que sirve para explicar los fenómenos.",
+                "una forma de ver el mundo que comparten todos los investigadores e investigadoras que conforman la comunidad científica durante el período de ciencia normal."
+              ],
+              "c": 3,
+              "k": "ipc-1828bfeea1edb202"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. En 2006, la científica y divulgadora Luan Brizendine publicó el libro \"El cerebro femenino\", que resultaría un gran éxito editorial. Entre otras ideas, Brizendine sostuvo que el cerebro de las mujeres las predispone mejor para la comunicación interpersonal y la empatía, mientras que el cerebro de los varones los hace especialmente hábiles para el pensamiento y la acción racional. De esta manera, las diferencias en las funciones, profesiones y cargos entre varones y mujeres serían resultado de sus diferencias biológicas. La base sobre la que realizó semejantes afirmaciones fue un estudio realizado por ella misma en el que halló que las mujeres emiten unas 20000 palabras por día y los varones apenas 7000. Lo interesante es que el estudio sobre el número de palabras se realizó sobre 5 niñas y 5 niños. A partir de esa muestra ínfima, Brizendine extrapola sus resultados de manera universal. Especialistas en el estudio del lenguaje como Mark Liberman cuestionaron duramente las conclusiones de Brizendine, que terminó retractándose. Liberman mostró que la inmensa mayoría de estudios empíricos serios concluyen que no hay diferencias entre las habilidades lingüísticas entre varones y mujeres.",
+              "o": [
+                "Aplicaciones sexistas.",
+                "Teorías sexistas.",
+                "Exclusión y marginalización.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda."
+              ],
+              "c": 1,
+              "k": "ipc-7b6640e8db2a2fb9"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el posmodernismo feminista pero rechazada por el empirismo feminista.",
+              "o": [
+                "La perspectiva de las mujeres tiene un privilegio epistémico respecto a la de los varones para detectar las teorías androcéntricas.",
+                "La discusión abierta de los estándares de aceptación de las teorías permite, junto con la evidencia y la lógica, identificar los sesgos androcéntricos y construir una ciencia mejor.",
+                "Las teorías científicas androcéndricas no son reflejos neutrales sobre la realidad, sino relatos entre otros posibles. La elección de estos relatos sobre otros es un ejercicio de poder.",
+                "Las teorías científicas no son androcéntricas, la ideología de los científicos no juegan ningún rol en la producción y elección de teorías."
+              ],
+              "c": 2,
+              "k": "ipc-dd85a05957b3f67c"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. Un proyecto llevado adelante por investigadores de la Universidad Nacional de Cuyo busca comprender los efectos del cambio climático global sobre la biodiversidad vegetal en las zonas montañosas. El proyecto de ciencia básica se propone llevar a cabo estudios observacionales a distintas alturas, a lo largo de los caminos vehiculares de montaña de los Andes Centrales, para así cuantificar los niveles de vegetación invasiva, como también evaluar procesos y mecanismos que están dando forma a las comunidades vegetales de montaña. El objetivo general es generar información y contribuir a la red de investigación MIREN (Mountain Invasion Research Network), de modo de ampliar el conocimiento global sobre las especies de plantas invasivas en zonas de montaña.",
+              "o": [
+                "No, un proyecto sobre biodiversidad vegetal no tiene inmediata aplicación económica o relevancia práctica.",
+                "No, porque el estudio de la biodiversidad vegetal no es tarea de la matemática, la física o la química.",
+                "Sí, porque el conocimiento sobre la diversidad vegetal es valioso en sí mismo, más allá de si existe una demanda social de producirlo.",
+                "Sí, porque todas las investigaciones científicas producen eventualmente resultados socialmente relevantes."
+              ],
+              "c": 0,
+              "k": "ipc-f3ffe09b71004541"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: Construir edificios más altos contribuye a resolver el problema de la falta de vivienda. Los gobiernos deberían tomar medidas para contribuir a la construcción de edificios más altos. Conclusión: Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Los gobiernos deberían destinar parte de la recaudación de impuestos a construir viviendas.",
+                "Los gobiernos deberían tomar medidas para contribuir a resolver el problema de la falta de vivienda.",
+                "Las constructoras e inmobiliarias deberían colaborar para resolver la crisis habitacional.",
+                "Los edificios más altos permiten albergar más unidades, alojando a más personas."
+              ],
+              "c": 1,
+              "k": "ipc-0d35a1c0dfce8357"
+            }
+          ]
+        },
+        {
+          "id": "t8",
+          "n": "Tema 8",
+          "fuente": "IPC_2023_A.pdf",
+          "paginas": [
+            22,
+            24
+          ],
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. En 2006, la científica y divulgadora Luan Brizendine publicó el libro \"El cerebro femenino\", que resultaría un gran éxito editorial. Entre otras ideas, Brizendine sostuvo que el cerebro de las mujeres las predispone mejor para la comunicación interpersonal y la empatía, mientras que el cerebro de los varones los hace especialmente hábiles para el pensamiento y la acción racional. De esta manera, las diferencias en las funciones, profesiones y cargos entre varones y mujeres serían resultado de sus diferencias biológicas. La base sobre la que realizó semejantes afirmaciones fue un estudio realizado por ella misma en el que halló que las mujeres emiten unas 20000 palabras por día y los varones apenas 7000. Lo interesante es que el estudio sobre el número de palabras se realizó sobre 5 niñas y 5 niños. A partir de esa muestra ínfima, Brizendine extrapola sus resultados de manera universal. Especialistas en el estudio del lenguaje como Mark Liberman cuestionaron duramente las conclusiones de Brizendine, que terminó retractándose. Liberman mostró que la inmensa mayoría de estudios empíricos serios concluyen que no hay diferencias entre las habilidades lingüísticas entre varones y mujeres.",
+              "o": [
+                "Teorías sexistas.",
+                "Aplicaciones sexistas.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Exclusión y marginalización."
+              ],
+              "c": 0,
+              "k": "ipc-7b6640e8db2a2fb9"
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el posmodernismo feminista pero rechazada por el empirismo feminista.",
+              "o": [
+                "La discusión abierta de los estándares de aceptación de las teorías permite, junto con la evidencia y la lógica, identificar los sesgos androcéntricos y construir una ciencia mejor.",
+                "Las teorías científicas no son androcéntricas, la ideología de los científicos no juegan ningún rol en la producción y elección de teorías.",
+                "Las teorías científicas androcéndricas no son reflejos neutrales sobre la realidad, sino relatos entre otros posibles. La elección de estos relatos sobre otros es un ejercicio de poder.",
+                "La perspectiva de las mujeres tiene un privilegio epistémico respecto a la de los varones para detectar las teorías androcéntricas."
+              ],
+              "c": 2,
+              "k": "ipc-dd85a05957b3f67c"
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. Un proyecto llevado adelante por investigadores de la Universidad Nacional de Cuyo busca comprender los efectos del cambio climático global sobre la biodiversidad vegetal en las zonas montañosas. El proyecto de ciencia básica se propone llevar a cabo estudios observacionales a distintas alturas, a lo largo de los caminos vehiculares de montaña de los Andes Centrales, para así cuantificar los niveles de vegetación invasiva, como también evaluar procesos y mecanismos que están dando forma a las comunidades vegetales de montaña. El objetivo general es generar información y contribuir a la red de investigación MIREN (Mountain Invasion Research Network), de modo de ampliar el conocimiento global sobre las especies de plantas invasivas en zonas de montaña.",
+              "o": [
+                "No, porque el estudio de la biodiversidad vegetal no es tarea de la matemática, la física o la química.",
+                "No, un proyecto sobre biodiversidad vegetal no tiene inmediata aplicación económica o relevancia práctica.",
+                "Sí, porque el conocimiento sobre la diversidad vegetal es valioso en sí mismo, más allá de si existe una demanda social de producirlo.",
+                "Sí, porque todas las investigaciones científicas producen eventualmente resultados socialmente relevantes."
+              ],
+              "c": 1,
+              "k": "ipc-f3ffe09b71004541"
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Un paradigma es...",
+              "o": [
+                "una teoría aislada que sirve para explicar los fenómenos.",
+                "una forma de ver el mundo que comparten todos los investigadores e investigadoras que conforman la comunidad científica durante el período de ciencia normal.",
+                "solo un conjunto de presupuestos ontológicos que determinan qué entidades hay en el mundo.",
+                "una escuela de pensamiento que compite con otras por el dominio explicativo de un determinado campo de investigación en el período de pre-ciencia."
+              ],
+              "c": 1,
+              "k": "ipc-1828bfeea1edb202"
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente conjunto de enunciados: Premisa 1: ......................................................................................................................... Premisa 2: Construir edificios más altos contribuye a resolver el problema de la falta de vivienda. Los gobiernos deberían tomar medidas para contribuir a la construcción de edificios más altos. Conclusión: Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión.",
+              "o": [
+                "Los gobiernos deberían tomar medidas para contribuir a resolver el problema de la falta de vivienda.",
+                "Las constructoras e inmobiliarias deberían colaborar para resolver la crisis habitacional.",
+                "Los gobiernos deberían destinar parte de la recaudación de impuestos a construir viviendas.",
+                "Los edificios más altos permiten albergar más unidades, alojando a más personas."
+              ],
+              "c": 0,
+              "k": "ipc-8f0b61f37299764a"
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. La capacidad de autorreconocimiento es diferente de la capacidad de reconocer a otros individuos de la misma especie. Es una función cognitiva que consiste, por ejemplo, en ser capaz de reconocer la imagen reflejada en el espejo como propia. Esta capacidad fue observada en humanos y otros mamíferos superiores, pero, ¿está presente en otras especies? Zoólogos de la Universidad de Delhi intentaron probar que los cuervos también tienen capacidad de autorreconocimiento. Para ello, tomaron seis cuervos, los ubicaron de a uno por vez en un espacio de cuatro paredes con un espejo, y les colocaron marcas adhesivas amarillas en el cuello; luego, repitieron el procedimiento pero esta vez con marcas negras. Los investigadores asumían que los cuervos no podían ver marcas negras sobre su plumaje pero sí podían ver marcas amarillas. Entonces, esperaban que, al verse en el espejo, los cuervos realizaran acciones sobre su cuello con más frecuencia cuando tenían una marca amarilla que cuando la marca era negra. Efectivamente, observaron que 4 de los 6 cuervos intentaron remover la marca amarilla, mientras que ninguno de los cuervos lo hizo con la marca negra. Este resultado indica que los cuervos sí tienen la capacidad de autorreconocimiento.",
+              "o": [
+                "Los cuervos tienen capacidad de autorreconocimiento.",
+                "Los cuervos tienen la capacidad de reconocer a otros individuos de su misma especie.",
+                "Los cuervos no son capaces de ver marcas negras sobre su plumaje, pero sí pueden ver marcas amarillas.",
+                "Al verse en el espejo, los cuervos realizarán acciones sobre su cuello con más frecuencia cuando tengan una marca amarilla que cuando la marca sea negra.",
+                "Los cuervos serán marcados en el cuello con adhesivos amarillos y luego con adhesivos negros.",
+                "La capacidad de autorreconocimiento fue observada en humanos y otros mamíferos superiores."
+              ],
+              "c": 0,
+              "k": "ipc-c9154d53a9379611"
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Identifique la consecuencia observacional del caso presentado en el ejercicio 6. Las opciones se reproducen aquí para que no necesites volver al ejercicio anterior.",
+              "ctx": "Caso del ejercicio 6:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. La capacidad de autorreconocimiento es diferente de la capacidad de reconocer a otros individuos de la misma especie. Es una función cognitiva que consiste, por ejemplo, en ser capaz de reconocer la imagen reflejada en el espejo como propia. Esta capacidad fue observada en humanos y otros mamíferos superiores, pero, ¿está presente en otras especies? Zoólogos de la Universidad de Delhi intentaron probar que los cuervos también tienen capacidad de autorreconocimiento. Para ello, tomaron seis cuervos, los ubicaron de a uno por vez en un espacio de cuatro paredes con un espejo, y les colocaron marcas adhesivas amarillas en el cuello; luego, repitieron el procedimiento pero esta vez con marcas negras. Los investigadores asumían que los cuervos no podían ver marcas negras sobre su plumaje pero sí podían ver marcas amarillas. Entonces, esperaban que, al verse en el espejo, los cuervos realizaran acciones sobre su cuello con más frecuencia cuando tenían una marca amarilla que cuando la marca era negra. Efectivamente, observaron que 4 de los 6 cuervos intentaron remover la marca amarilla, mientras que ninguno de los cuervos lo hizo con la marca negra. Este resultado indica que los cuervos sí tienen la capacidad de autorreconocimiento.",
+              "contextoTitulo": "Caso de referencia · ejercicio 6",
+              "o": [
+                "Los cuervos tienen capacidad de autorreconocimiento.",
+                "Los cuervos tienen la capacidad de reconocer a otros individuos de su misma especie.",
+                "Los cuervos no son capaces de ver marcas negras sobre su plumaje, pero sí pueden ver marcas amarillas.",
+                "Al verse en el espejo, los cuervos realizarán acciones sobre su cuello con más frecuencia cuando tengan una marca amarilla que cuando la marca sea negra.",
+                "Los cuervos serán marcados en el cuello con adhesivos amarillos y luego con adhesivos negros.",
+                "La capacidad de autorreconocimiento fue observada en humanos y otros mamíferos superiores."
+              ],
+              "c": 3,
+              "k": "ipc-88b2a6c6218a2429"
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine cómo ha resultado la hipótesis fundamental en el caso de contrastación presentado en el ejercicio 6 de acuerdo con el falsacionismo de Popper.",
+              "ctx": "Caso del ejercicio 6:\n\nDado el siguiente caso de investigación, identifique la hipótesis fundamental. La capacidad de autorreconocimiento es diferente de la capacidad de reconocer a otros individuos de la misma especie. Es una función cognitiva que consiste, por ejemplo, en ser capaz de reconocer la imagen reflejada en el espejo como propia. Esta capacidad fue observada en humanos y otros mamíferos superiores, pero, ¿está presente en otras especies? Zoólogos de la Universidad de Delhi intentaron probar que los cuervos también tienen capacidad de autorreconocimiento. Para ello, tomaron seis cuervos, los ubicaron de a uno por vez en un espacio de cuatro paredes con un espejo, y les colocaron marcas adhesivas amarillas en el cuello; luego, repitieron el procedimiento pero esta vez con marcas negras. Los investigadores asumían que los cuervos no podían ver marcas negras sobre su plumaje pero sí podían ver marcas amarillas. Entonces, esperaban que, al verse en el espejo, los cuervos realizaran acciones sobre su cuello con más frecuencia cuando tenían una marca amarilla que cuando la marca era negra. Efectivamente, observaron que 4 de los 6 cuervos intentaron remover la marca amarilla, mientras que ninguno de los cuervos lo hizo con la marca negra. Este resultado indica que los cuervos sí tienen la capacidad de autorreconocimiento.",
+              "contextoTitulo": "Caso de referencia · ejercicio 6",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "confirmada",
+                    "contradictoria",
+                    "válida",
+                    "verificada",
+                    "corroborada"
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque las pruebas empíricas favorables demuestran que la hipótesis es verdadera.",
+                    "porque la falsedad de la hipótesis se obtiene únicamente apelando a la estructura de la falacia de afirmación del consecuente.",
+                    "porque la validez de la hipótesis queda establecida cuando supera varios intentos de refutación.",
+                    "porque se acepta provisoriamente la hipótesis luego del intento fallido de refutación."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-a33f650174d0899d"
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del positivismo lógico. Los animales vertebrados tienen alma.",
+              "partes": [
+                {
+                  "r": "A. ¿Pertenece al ámbito de la ciencia empírica?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Seleccione la opción que justifica su elección",
+                  "o": [
+                    "porque es válido.",
+                    "porque no está suficientemente confirmado.",
+                    "porque tiene falsadores potenciales.",
+                    "porque no puede traducirse al lenguaje observacional."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-9515d231bcefe39a"
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: La maquina de café tenía cucarachas en su interior. Complete la siguiente explicación de modo que resulte una explicación estadístico inductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Las cucarachas siempre anidan en ambientes húmedos y cálidos.",
+                    "El interior de la máquina de café es húmedo y cálido.",
+                    "El interior de la máquina de café no recibía una limpieza hace mucho tiempo.",
+                    "Las cucarachas sienten atracción por el azúcar presente en la máquina.",
+                    "La mayoría de las veces, las cucarachas anidan en ambientes húmedos y cálidos."
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Las cucarachas siempre anidan en ambientes húmedos y cálidos.",
+                    "El interior de la máquina de café es húmedo y cálido.",
+                    "El interior de la máquina de café no recibía una limpieza hace mucho tiempo.",
+                    "Las cucarachas sienten atracción por el azúcar presente en la máquina.",
+                    "La mayoría de las veces, las cucarachas anidan en ambientes húmedos y cálidos."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-f45d715e9fb71a23"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+});

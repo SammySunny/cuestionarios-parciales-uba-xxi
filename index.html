@@ -366,6 +366,8 @@ function resumen(t){
 const num = x => (Math.round(x * 100) / 100).toString().replace(".", ",");
 const ptsTxt = p => num(p) + (p === 1 ? " punto" : " puntos");
 const etiqueta = (q, i) => q.e || String(i + 1);
+const etiquetaOpcion = (q, b, i) => b.formato === "texto" ? b.o[i]
+  : (b.formato || q.formato) === "numeros" ? String(i + 1) : L[i];
 
 /* ---------- utilidades de DOM ---------- */
 function el(tag, props, ...hijos){
@@ -615,7 +617,7 @@ function pintarConsigna(m, t, idx, a){
     const grupo = t.qs.filter(x => x.ctx === q.ctx).map(x => etiqueta(x, t.qs.indexOf(x)));
     const det = el("details", {class: "ctx"},
       el("summary", {}, ico("libro"),
-        el("span", {text: "Texto para " + (grupo.length > 1 ? "los ejercicios " + grupo.slice(0, -1).join(", ") + " y " + grupo[grupo.length - 1] : "este ejercicio")}),
+        el("span", {text: q.contextoTitulo || "Texto para " + (grupo.length > 1 ? "los ejercicios " + grupo.slice(0, -1).join(", ") + " y " + grupo[grupo.length - 1] : "este ejercicio")}),
         ico("adelante", "chev")),
       ...q.ctx.split(/\n\s*\n/).map(p => el("p", {text: p})));
     if (!lista) det.open = true;
@@ -630,11 +632,13 @@ function pintarConsigna(m, t, idx, a){
     } else r[idx] = i;
     guardar(); a(idx);
   };
-  const botones = (o, c, marcada, j) => el("div", {class: "ops"}, o.map((txt, i) => {
-    const b = el("button", {class: "op"}, el("span", {class: "l", text: L[i] + "."}), el("span", {class: "t", text: txt}));
+  const botones = (bloque, marcada, j) => el("div", {class: "ops"}, bloque.o.map((txt, i) => {
+    const b = el("button", {class: "op"},
+      bloque.formato === "texto" ? null : el("span", {class: "l", text: etiquetaOpcion(q, bloque, i) + "."}),
+      el("span", {class: "t", text: txt}));
     if (lista) {
       b.disabled = true;
-      b.className = "op " + (i === c ? "ok" : i === marcada ? "bad" : "resto");
+      b.className = "op " + (i === bloque.c ? "ok" : i === marcada ? "bad" : "resto");
     } else {
       if (i === marcada) b.className = "op sel";
       b.onclick = () => elegir(j, i);
@@ -648,16 +652,16 @@ function pintarConsigna(m, t, idx, a){
       const marcada = Array.isArray(dada) ? dada[j] : null;
       card.appendChild(el("div", {class: "parte"},
         el("p", {class: "rot", text: p.r || (j === 0 ? "Primera columna" : j === 1 ? "Segunda columna" : "Parte " + (j + 1))}),
-        botones(p.o, p.c, marcada, j)));
+        botones(p, marcada, j)));
     });
   } else {
-    card.appendChild(botones(q.o, q.c, dada, 0));
+    card.appendChild(botones(q, dada, 0));
   }
 
   if (lista) {
     const ok = correcta(q, dada);
-    const letras = q.partes ? q.partes.map(p => L[p.c]).join(" y ") : L[q.c];
-    const suyas = q.partes ? dada.map(x => L[x]).join(" y ") : L[dada];
+    const letras = q.partes ? q.partes.map(p => etiquetaOpcion(q, p, p.c)).join(" y ") : etiquetaOpcion(q, q, q.c);
+    const suyas = q.partes ? dada.map((x, j) => etiquetaOpcion(q, q.partes[j], x)).join(" y ") : etiquetaOpcion(q, q, dada);
     const caja = el("div", {class: "porque"},
       el("b", {class: ok ? "ok" : "bad"}, ico(ok ? "check-circulo" : "cruz"),
         el("span", {text: ok ? "Correcto: " + letras : "Incorrecto. Correcta: " + letras + " (marcaste " + suyas + ")"})),
@@ -779,7 +783,7 @@ document.addEventListener("keydown", ev => {
   if (ev.key === "ArrowRight") ir(base + (idx + 1 >= t.qs.length ? "fin" : idx + 2), true);
   else if (ev.key === "ArrowLeft" && idx > 0) ir(base + idx, true);
   else if (!q.partes) {
-    const i = L.indexOf(ev.key.toUpperCase());
+    const i = q.formato === "numeros" ? "12345678".indexOf(ev.key) : L.indexOf(ev.key.toUpperCase());
     const r = respuestas(t);
     if (i >= 0 && i < q.o.length && r[idx] === null) { r[idx] = i; guardar(); pintar(); }
   }

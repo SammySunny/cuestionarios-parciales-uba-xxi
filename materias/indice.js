@@ -19,5 +19,12 @@ var CATALOGO = [
     archivo: "materias/filosofia.js",
     icono: "templo",
     color: "#b69de8"
+  },
+  {
+    id: "ipc",
+    nombre: "IPC · Introducción al Pensamiento Científico",
+    archivo: "materias/ipc.js",
+    icono: "atomo",
+    color: "#67c4be"
   }
 ];

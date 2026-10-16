@@ -84,6 +84,8 @@ function revisarMateria(m, archivo){
           (porClave[q.k] = porClave[q.k] || []).push({q, aqui});
         }
         if (!q.p || !q.p.trim()) error(`${aqui}: enunciado vacío`);
+        if (q.contextoTitulo && !q.ctx) error(`${aqui}: tiene título de contexto sin el texto de referencia`);
+        if (q.formato && !["numeros", "texto"].includes(q.formato)) error(`${aqui}: formato de opciones desconocido`);
         if (!(q.pts > 0)) error(`${aqui}: puntaje inválido`);
         total += q.pts || 0;
         const bloques = q.partes ? q.partes : [q];
@@ -91,6 +93,7 @@ function revisarMateria(m, archivo){
         if (q.partes && q.partes.length < 2) error(`${aqui}: una consigna con partes necesita al menos dos`);
         bloques.forEach((b, j) => {
           const s = q.partes ? ` (parte ${j + 1})` : "";
+          if (b.formato && !["numeros", "texto"].includes(b.formato)) error(`${aqui}${s}: formato de opciones desconocido`);
           if (!Array.isArray(b.o) || b.o.length < 2 || b.o.length > 8) { error(`${aqui}${s}: tiene que tener entre 2 y 8 opciones`); return; }
           if (!Number.isInteger(b.c) || b.c < 0 || b.c >= b.o.length) error(`${aqui}${s}: la respuesta c=${b.c} está fuera de las opciones`);
           b.o.forEach((o, k) => { if (!o || !o.trim()) error(`${aqui}${s}: opción ${k + 1} vacía`); });
