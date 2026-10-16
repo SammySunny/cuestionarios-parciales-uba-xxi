@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#12161c"/>
+  <g id="dibujo">
+    <rect x="108" y="96" width="296" height="320" rx="34" fill="#1d2530" stroke="#2f3a48" stroke-width="6"/>
+    <rect x="146" y="140" width="220" height="22" rx="11" fill="#8e99a6"/>
+    <rect x="146" y="178" width="150" height="22" rx="11" fill="#5d6876"/>
+    <rect x="146" y="234" width="220" height="44" rx="14" fill="#232c38" stroke="#3a4656" stroke-width="5"/>
+    <rect x="146" y="294" width="220" height="44" rx="14" fill="#17322a" stroke="#6cc497" stroke-width="5"/>
+    <path d="M168 316 l14 14 l26 -28" fill="none" stroke="#6cc497" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="224" y="310" width="112" height="12" rx="6" fill="#6cc497"/>
+    <rect x="176" y="250" width="160" height="12" rx="6" fill="#5d6876"/>
+    <rect x="146" y="354" width="220" height="30" rx="12" fill="#232c38" stroke="#3a4656" stroke-width="5" opacity=".6"/>
+  </g>
+</svg>

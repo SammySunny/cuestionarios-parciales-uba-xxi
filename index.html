@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cuestionarios Parciales UBA XXI</title>
+<meta name="description" content="Practicá con parciales reales de UBA XXI: respondé, mirá la corrección y por qué cada opción es correcta o no.">
+<meta name="theme-color" content="#12161c">
+<meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Parciales UBA XXI">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="iconos/icono.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="iconos/apple-touch-icon.png">
+<style>
+/* ---------- colores: todo oscuro, sin blancos puros ---------- */
+:root{
+  --paper:#12161c; --surface:#1a2029; --surface-2:#202833;
+  --ink:#d6dce3; --ink-soft:#8d98a5; --ink-faint:#5f6a77;
+  --line:#2a3340; --line-soft:#222a35;
+  --pick:#86a6e0; --pick-soft:#1d2a42;
+  --ok:#6cc497; --ok-soft:#16302a;
+  --bad:#e3897e; --bad-soft:#36211f;
+  --note:#d4bf7d; --note-soft:#28241a;
+  --serif:Georgia, "Noto Serif", "Iowan Old Style", "Times New Roman", serif;
+  --sans:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Helvetica, Arial, sans-serif;
+  --tam:17px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+html{background:var(--paper)}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:var(--sans); font-size:var(--tam); line-height:1.5;
+  -webkit-text-size-adjust:100%; -webkit-tap-highlight-color:transparent;
+}
+button{font:inherit;color:inherit}
+.wrap{
+  max-width:740px;margin:0 auto;
+  padding:calc(12px + env(safe-area-inset-top)) calc(14px + env(safe-area-inset-right)) calc(96px + env(safe-area-inset-bottom)) calc(14px + env(safe-area-inset-left));
+}
+
+/* ---------- barra superior ---------- */
+.barra{display:flex;align-items:center;gap:8px;min-height:40px;margin-bottom:10px}
+.volver{
+  background:none;border:none;color:var(--pick);cursor:pointer;padding:6px 4px;
+  font-size:.92rem;display:flex;align-items:center;gap:4px;max-width:60%;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.volver[hidden]{display:none}
+.barra .esp{flex:1}
+.tam{display:flex;gap:4px}
+.tam button{
+  background:var(--surface);border:1px solid var(--line);color:var(--ink-soft);
+  border-radius:8px;padding:4px 9px;cursor:pointer;font-size:.8rem;line-height:1.4;
+}
+.tam button:disabled{opacity:.35;cursor:default}
+
+h1{font-family:var(--serif);font-weight:600;font-size:1.42rem;line-height:1.22;margin:0 0 4px}
+.sub{margin:0 0 16px;color:var(--ink-soft);font-size:.88rem}
+.aviso-tema{margin:-6px 0 14px;color:var(--note);font-size:.82rem;line-height:1.4}
+
+/* ---------- listas (materias y exámenes) ---------- */
+.lista{display:flex;flex-direction:column;gap:10px}
+.item{
+  display:block;width:100%;text-align:left;cursor:pointer;
+  background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 15px;
+}
+.item:hover{border-color:var(--pick)}
+.item .t{font-family:var(--serif);font-size:1.12rem;font-weight:600;margin:0 0 2px}
+.item .d{color:var(--ink-soft);font-size:.85rem;margin:0}
+.examen{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:13px 14px}
+.examen .t{font-family:var(--serif);font-size:1.06rem;font-weight:600;margin:0}
+.examen .d{color:var(--ink-soft);font-size:.83rem;margin:2px 0 10px}
+.temas{display:flex;flex-wrap:wrap;gap:7px}
+.temas button{
+  cursor:pointer;font-size:.88rem;padding:7px 12px;border-radius:999px;
+  background:var(--surface-2);border:1px solid var(--line);color:var(--ink);
+  display:flex;gap:7px;align-items:baseline;
+}
+.temas button:hover{border-color:var(--pick)}
+.temas small{font-size:.75rem;color:var(--ink-soft)}
+.temas button.ok{border-color:var(--ok)} .temas button.ok small{color:var(--ok)}
+.temas button.bad{border-color:var(--bad)} .temas button.bad small{color:var(--bad)}
+
+/* ---------- grilla de ejercicios ---------- */
+.grilla{display:grid;grid-template-columns:repeat(auto-fill,minmax(46px,1fr));gap:6px;margin:0 0 14px}
+.grilla button{
+  font-size:.82rem;padding:8px 0;border-radius:8px;cursor:pointer;
+  background:var(--surface);border:1px solid var(--line);color:var(--ink-soft);
+}
+.grilla button.ok{background:var(--ok-soft);border-color:var(--ok);color:var(--ok)}
+.grilla button.bad{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+.grilla button.parcial{border-color:var(--pick);color:var(--pick)}
+.grilla button.now{outline:2px solid var(--pick);outline-offset:1px;color:var(--ink)}
+.grilla button.fin{font-size:.75rem}
+
+/* ---------- tarjeta de la consigna ---------- */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:15px 14px}
+.meta{display:flex;justify-content:space-between;gap:10px;align-items:baseline;color:var(--ink-soft);font-size:.8rem;margin-bottom:9px}
+.ctx{margin:0 0 13px;border:1px solid var(--line-soft);background:var(--surface-2);border-radius:9px;padding:0 12px}
+.ctx summary{cursor:pointer;color:var(--ink-soft);font-size:.82rem;padding:9px 0;list-style-position:inside}
+.ctx p{margin:0 0 11px;font-family:var(--serif);font-size:.95rem;line-height:1.45;color:var(--ink)}
+.enun{font-family:var(--serif);font-size:1.05rem;line-height:1.45;margin:0 0 14px}
+.ayuda{color:var(--ink-soft);font-size:.8rem;margin:-6px 0 12px}
+.parte{margin:0 0 14px}
+.parte:last-of-type{margin-bottom:0}
+.rot{font-size:.84rem;font-weight:600;color:var(--ink-soft);margin:0 0 7px}
+.ops{display:flex;flex-direction:column;gap:7px}
+.op{
+  display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;
+  font-family:var(--serif);font-size:.97rem;line-height:1.42;
+  background:var(--surface-2);color:var(--ink);border:1px solid var(--line);
+  border-radius:9px;padding:10px 12px;cursor:pointer;
+}
+.op:hover:not(:disabled){border-color:var(--pick)}
+.op:disabled{cursor:default}
+.op .l{font-family:var(--sans);font-size:.8rem;font-weight:600;color:var(--ink-soft);min-width:1.1em;padding-top:.15em}
+.op.sel{background:var(--pick-soft);border-color:var(--pick)}
+.op.sel .l{color:var(--pick)}
+.op.ok{background:var(--ok-soft);border-color:var(--ok)}
+.op.ok .l{color:var(--ok)}
+.op.bad{background:var(--bad-soft);border-color:var(--bad)}
+.op.bad .l{color:var(--bad)}
+.op.resto{opacity:.72}
+.porque{margin-top:14px;border-left:3px solid var(--note);background:var(--note-soft);border-radius:0 8px 8px 0;padding:11px 13px;font-size:.93rem}
+.porque b{display:block;font-size:.8rem;letter-spacing:.02em;margin-bottom:4px}
+.porque b.ok{color:var(--ok)} .porque b.bad{color:var(--bad)}
+.dudosa{margin-top:10px;font-size:.84rem;color:var(--note);border-top:1px dashed var(--line);padding-top:9px}
+.nav{display:flex;gap:8px;margin-top:16px}
+.nav button{
+  flex:1;font-size:.95rem;padding:12px;border-radius:10px;cursor:pointer;
+  background:var(--surface-2);border:1px solid var(--line);color:var(--ink);
+}
+.nav button.main{background:var(--pick-soft);border-color:var(--pick);color:var(--ink)}
+.nav button:disabled{opacity:.4;cursor:default}
+
+/* ---------- resultado ---------- */
+.score{text-align:center;padding:24px 16px}
+.score .n{font-family:var(--serif);font-size:3.3rem;line-height:1;margin:0}
+.score .n small{font-size:1.15rem;color:var(--ink-soft)}
+.score .verd{font-family:var(--serif);font-size:1.1rem;margin:10px 0 0}
+.score .verd.ok{color:var(--ok)} .score .verd.bad{color:var(--bad)}
+.score p{color:var(--ink-soft);margin:8px 0 0;font-size:.92rem}
+
+/* ---------- pie, avisos ---------- */
+footer{margin-top:20px;color:var(--ink-faint);font-size:.78rem;line-height:1.5}
+footer p{margin:0 0 6px}
+.enlace{font-size:.8rem;background:none;border:none;color:var(--pick);cursor:pointer;padding:0;text-decoration:underline}
+.enlace[hidden]{display:none}
+.error{color:var(--bad)}
+.aviso-nueva{
+  position:fixed;left:0;right:0;bottom:0;z-index:10;
+  background:var(--surface-2);border-top:1px solid var(--pick);
+  padding:12px calc(16px + env(safe-area-inset-right)) calc(12px + env(safe-area-inset-bottom)) calc(16px + env(safe-area-inset-left));
+  display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;font-size:.92rem;
+}
+.aviso-nueva[hidden]{display:none}
+.aviso-nueva button{border-radius:9px;padding:8px 15px;cursor:pointer;border:1px solid var(--line);background:var(--surface)}
+.aviso-nueva button.main{background:var(--pick-soft);border-color:var(--pick)}
+.ayuda-inst{margin-top:10px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--ink-soft);font-size:.85rem}
+.ayuda-inst[hidden]{display:none}
+:focus-visible{outline:2px solid var(--pick);outline-offset:2px}
+@media (max-width:420px){ .enun{font-size:1rem} .op{font-size:.94rem} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="barra">
+    <button class="volver" id="volver" hidden></button>
+    <span class="esp"></span>
+    <div class="tam" aria-label="Tamaño de letra">
+      <button id="tam-menos" aria-label="Achicar la letra">A−</button>
+      <button id="tam-mas" aria-label="Agrandar la letra">A+</button>
+    </div>
+  </div>
+  <main id="vista"></main>
+  <footer id="pie"></footer>
+</div>
+
+<div class="aviso-nueva" id="aviso-nueva" role="status" hidden>
+  <span>Hay una versión nueva con cambios en los cuestionarios.</span>
+  <button class="main" id="btn-actualizar">Actualizar</button>
+  <button id="btn-despues">Después</button>
+</div>
+
+<script src="materias/indice.js"></script>
+<script>
+"use strict";
+/* ============================================================
+   CUESTIONARIOS PARCIALES UBA XXI
+   ------------------------------------------------------------
+   Los datos no están acá: cada materia vive en materias/<id>.js y
+   se registra llamando a registrarMateria({...}). La lista de
+   materias está en materias/indice.js.
+
+   Pantallas (en la dirección, después del #):
+     #/                         lista de materias
+     #/filosofia                exámenes y temas de la materia
+     #/filosofia/<examen>/<tema>/<n>   ejercicio n (o "fin" = resultado)
+
+   Todo el texto que viene de los parciales se inserta con
+   textContent, nunca con innerHTML.
+   ============================================================ */
+
+const L = "ABCDEFGH";
+const CLAVE = "cuestionarios-uba-xxi";           // NO CAMBIAR: ahí está guardado el progreso
+const MATERIAS = {};                              // id → datos, a medida que se cargan
+const cargando = {};                              // id → promesa de carga
+
+/* ---------- datos guardados en el dispositivo ---------- */
+let GUARDADO = {resp: {}, tam: 0};
+try {
+  const v = JSON.parse(localStorage.getItem(CLAVE));
+  if (v && typeof v === "object") {
+    if (v.resp && typeof v.resp === "object") GUARDADO.resp = v.resp;
+    if (Number.isInteger(v.tam)) GUARDADO.tam = v.tam;
+  }
+} catch(e) {}
+function guardar(){
+  try { localStorage.setItem(CLAVE, JSON.stringify(GUARDADO)); } catch(e) {}
+}
+
+/* ---------- registro y carga de materias ---------- */
+function registrarMateria(m){
+  MATERIAS[m.id] = m;
+  m.examenes.forEach(ex => ex.temas.forEach(t => { t._ex = ex; t._clave = m.id + "/" + ex.id + "/" + t.id; }));
+}
+function cargarMateria(id){
+  if (MATERIAS[id]) return Promise.resolve(MATERIAS[id]);
+  if (cargando[id]) return cargando[id];
+  const info = CATALOGO.find(c => c.id === id);
+  if (!info) return Promise.reject(new Error("No existe la materia " + id));
+  cargando[id] = new Promise((ok, mal) => {
+    const s = document.createElement("script");
+    s.src = info.archivo;
+    s.onload = () => MATERIAS[id] ? ok(MATERIAS[id]) : mal(new Error("El archivo no registró la materia"));
+    s.onerror = () => { delete cargando[id]; s.remove(); mal(new Error("No se pudo cargar " + info.archivo)); };
+    document.head.appendChild(s);
+  });
+  return cargando[id];
+}
+
+/* ---------- respuestas ----------
+   Por cada tema se guarda un array con una entrada por consigna:
+     null                 sin responder
+     número               consigna simple: índice elegido
+     [número|null, …]     consigna con columnas: índice elegido en cada una
+   Al cargar se reconcilia con los datos actuales: lo que no calza se reinicia,
+   así una corrección de opciones nunca deja una respuesta apuntando a la nada. */
+const vacia = () => null;
+function valida(q, r){
+  if (r === null) return true;
+  if (q.partes) return Array.isArray(r) && r.length === q.partes.length &&
+    r.every((x, j) => x === null || (Number.isInteger(x) && x >= 0 && x < q.partes[j].o.length));
+  return Number.isInteger(r) && r >= 0 && r < q.o.length;
+}
+function respuestas(t){
+  let r = GUARDADO.resp[t._clave];
+  if (!Array.isArray(r) || r.length !== t.qs.length) r = t.qs.map(vacia);
+  else r = r.map((x, i) => valida(t.qs[i], x) ? x : null);
+  GUARDADO.resp[t._clave] = r;
+  return r;
+}
+const completa = (q, r) => r !== null && (!q.partes || r.every(x => x !== null));
+const correcta = (q, r) => completa(q, r) && (q.partes ? q.partes.every((p, j) => r[j] === p.c) : r === q.c);
+function resumen(t){
+  const r = respuestas(t);
+  let hechas = 0, bien = 0, puntos = 0, total = 0;
+  t.qs.forEach((q, i) => {
+    total += q.pts;
+    if (completa(q, r[i])) { hechas++; if (correcta(q, r[i])) { bien++; puntos += q.pts; } }
+  });
+  return {hechas, bien, puntos, total, n: t.qs.length, nota: total ? puntos * 10 / total : 0};
+}
+const num = x => (Math.round(x * 100) / 100).toString().replace(".", ",");
+const ptsTxt = p => num(p) + (p === 1 ? " punto" : " puntos");
+const etiqueta = (q, i) => q.e || String(i + 1);
+
+/* ---------- utilidades de DOM ---------- */
+function el(tag, props, ...hijos){
+  const e = document.createElement(tag);
+  if (props) for (const k in props) {
+    if (k === "class") e.className = props[k];
+    else if (k === "text") e.textContent = props[k];
+    else if (k.startsWith("on")) e[k] = props[k];
+    else if (props[k] !== null && props[k] !== false) e.setAttribute(k, props[k]);
+  }
+  hijos.flat().forEach(h => { if (h != null) e.appendChild(typeof h === "string" ? document.createTextNode(h) : h); });
+  return e;
+}
+const $vista = document.getElementById("vista");
+const $pie = document.getElementById("pie");
+const $volver = document.getElementById("volver");
+
+function ir(hash, reemplazar){
+  if (reemplazar) { history.replaceState(null, "", hash); pintar(); }
+  else location.hash = hash;
+}
+/* Pantallas recorridas en esta sesión (sólo el nivel: inicio, materia o tema).
+   Sirve para que "‹ volver" use el historial cuando la pantalla de arriba es la
+   anterior: así el botón atrás del teléfono sigue siendo coherente. */
+const pila = [];
+const nivel = h => h.replace(/^#\/?/, "").split("/").filter(Boolean).slice(0, 3).join("/");
+function barra(texto, hash){
+  if (!texto) { $volver.hidden = true; return; }
+  $volver.hidden = false;
+  $volver.textContent = "‹ " + texto;
+  $volver.onclick = () => {
+    if (pila.length >= 2 && pila[pila.length - 2] === nivel(hash)) history.back(); else ir(hash);
+  };
+}
+
+/* ---------- pantallas ---------- */
+let ultimaRuta = null;
+function pintar(){
+  const partes = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean).map(decodeURIComponent);
+  const n = nivel(location.hash);
+  if (pila.length >= 2 && pila[pila.length - 2] === n) pila.pop();
+  else if (pila[pila.length - 1] !== n) pila.push(n);
+  // al cambiar de pantalla o de ejercicio se sube; al responder, no (para ver la explicación)
+  const mover = partes.join("/") !== ultimaRuta;
+  ultimaRuta = partes.join("/");
+  $pie.innerHTML = "";
+  if (!partes.length) { pintarInicio(); if (mover) window.scrollTo(0, 0); return; }
+  cargarMateria(partes[0]).then(m => {
+    if (partes.length < 3) pintarMateria(m);
+    else {
+      const ex = m.examenes.find(e => e.id === partes[1]);
+      const t = ex && ex.temas.find(t => t.id === partes[2]);
+      if (!t) return ir("#/" + m.id, true);
+      pintarTema(m, t, partes[3]);
+    }
+    if (mover) window.scrollTo(0, 0);
+  }).catch(err => {
+    barra("Materias", "#/");
+    $vista.innerHTML = "";
+    $vista.appendChild(el("p", {class: "error", text: err.message}));
+  });
+}
+
+function pintarInicio(){
+  barra(null);
+  document.title = "Cuestionarios Parciales UBA XXI";
+  $vista.innerHTML = "";
+  $vista.appendChild(el("h1", {text: "Cuestionarios Parciales UBA XXI"}));
+  $vista.appendChild(el("p", {class: "sub", text: "Parciales reales para practicar. Elegí una materia."}));
+  const lista = el("div", {class: "lista"});
+  CATALOGO.forEach(c => {
+    const d = el("p", {class: "d", text: "…"});
+    lista.appendChild(el("button", {class: "item", onclick: () => ir("#/" + c.id)},
+      el("p", {class: "t", text: c.nombre}), d));
+    cargarMateria(c.id).then(m => {
+      const temas = m.examenes.reduce((a, e) => a.concat(e.temas), []);
+      const hechos = temas.filter(t => { const s = resumen(t); return s.hechas === s.n; }).length;
+      d.textContent = m.examenes.length + (m.examenes.length === 1 ? " examen · " : " exámenes · ") +
+        temas.length + " temas · " + hechos + " completos";
+    }).catch(() => { d.textContent = "No se pudo cargar"; });
+  });
+  $vista.appendChild(lista);
+  pieGeneral();
+}
+
+function pintarMateria(m){
+  barra("Materias", "#/");
+  document.title = m.nombre + " · Parciales UBA XXI";
+  $vista.innerHTML = "";
+  $vista.appendChild(el("h1", {text: m.nombre}));
+  if (m.detalle) $vista.appendChild(el("p", {class: "sub", text: m.detalle}));
+  const lista = el("div", {class: "lista"});
+  m.examenes.forEach(ex => {
+    const temas = el("div", {class: "temas"});
+    ex.temas.forEach(t => {
+      const s = resumen(t);
+      let estado = "", cls = "";
+      if (s.hechas === s.n) { estado = num(s.nota); cls = s.nota >= 4 ? "ok" : "bad"; }
+      else if (s.hechas) estado = s.hechas + "/" + s.n;
+      temas.appendChild(el("button", {class: cls, onclick: () => ir("#/" + [m.id, ex.id, t.id, primeraPendiente(t)].join("/"))},
+        t.n, estado ? el("small", {text: estado}) : null));
+    });
+    lista.appendChild(el("section", {class: "examen"},
+      el("p", {class: "t", text: ex.nombre}),
+      ex.detalle ? el("p", {class: "d", text: ex.detalle}) : el("p", {class: "d"}),
+      temas));
+  });
+  $vista.appendChild(lista);
+  pieGeneral();
+}
+function primeraPendiente(t){
+  const r = respuestas(t);
+  const i = t.qs.findIndex((q, i) => !completa(q, r[i]));
+  return i < 0 ? "fin" : String(i + 1);
+}
+
+function pintarTema(m, t, pos){
+  const ex = t._ex;
+  const r = respuestas(t);
+  let idx = pos === "fin" ? t.qs.length : Math.max(0, Math.min(t.qs.length, (parseInt(pos, 10) || 1) - 1));
+  const base = "#/" + [m.id, ex.id, t.id].join("/");
+  const a = i => ir(base + "/" + (i >= t.qs.length ? "fin" : i + 1), true);
+
+  barra(m.nombre, "#/" + m.id);
+  document.title = t.n + " · " + ex.nombre;
+  $vista.innerHTML = "";
+  $vista.appendChild(el("h1", {text: ex.nombre + " · " + t.n}));
+  const s = resumen(t);
+  $vista.appendChild(el("p", {class: "sub", text: m.nombre + " · " + s.n + " ejercicios · " + s.hechas + (s.hechas === 1 ? " respondido" : " respondidos")}));
+  if (t.aviso) $vista.appendChild(el("p", {class: "aviso-tema", text: t.aviso}));
+
+  // grilla
+  const g = el("div", {class: "grilla"});
+  t.qs.forEach((q, i) => {
+    let cls = "";
+    if (completa(q, r[i])) cls = correcta(q, r[i]) ? "ok" : "bad";
+    else if (r[i] !== null) cls = "parcial";
+    if (i === idx) cls += " now";
+    g.appendChild(el("button", {class: cls, onclick: () => a(i), "aria-label": "Ejercicio " + etiqueta(q, i), text: etiqueta(q, i)}));
+  });
+  g.appendChild(el("button", {class: "fin" + (idx === t.qs.length ? " now" : ""), onclick: () => a(t.qs.length), text: "Nota"}));
+  $vista.appendChild(g);
+
+  if (idx >= t.qs.length) pintarResultado(m, t, a);
+  else pintarConsigna(m, t, idx, a);
+
+  $pie.appendChild(el("p", {}, el("button", {class: "enlace", text: "Borrar las respuestas de este tema", onclick: () => {
+    if (!confirm("¿Borrar todas las respuestas de " + t.n + "?")) return;
+    GUARDADO.resp[t._clave] = t.qs.map(vacia); guardar(); a(0);
+  }})));
+}
+
+function pintarConsigna(m, t, idx, a){
+  const q = t.qs[idx], r = respuestas(t), dada = r[idx];
+  const lista = completa(q, dada);
+  const card = el("div", {class: "card"});
+  card.appendChild(el("div", {class: "meta"},
+    el("span", {text: "Ejercicio " + etiqueta(q, idx) + (q.u ? " · " + q.u : "")}),
+    el("span", {text: ptsTxt(q.pts)})));
+
+  if (q.ctx) {
+    const grupo = t.qs.filter(x => x.ctx === q.ctx).map(x => etiqueta(x, t.qs.indexOf(x)));
+    const det = el("details", {class: "ctx"},
+      el("summary", {text: "Texto para " + (grupo.length > 1 ? "los ejercicios " + grupo.slice(0, -1).join(", ") + " y " + grupo[grupo.length - 1] : "este ejercicio")}),
+      ...q.ctx.split(/\n\s*\n/).map(p => el("p", {text: p})));
+    if (!lista) det.open = true;
+    card.appendChild(det);
+  }
+  card.appendChild(el("p", {class: "enun", text: q.p}));
+
+  const elegir = (j, i) => {
+    if (q.partes) {
+      const v = Array.isArray(r[idx]) ? r[idx].slice() : q.partes.map(() => null);
+      v[j] = i; r[idx] = v;
+    } else r[idx] = i;
+    guardar(); a(idx);
+  };
+  const botones = (o, c, marcada, j) => el("div", {class: "ops"}, o.map((txt, i) => {
+    const b = el("button", {class: "op"}, el("span", {class: "l", text: L[i] + "."}), el("span", {class: "t", text: txt}));
+    if (lista) {
+      b.disabled = true;
+      b.className = "op " + (i === c ? "ok" : i === marcada ? "bad" : "resto");
+    } else {
+      if (i === marcada) b.className = "op sel";
+      b.onclick = () => elegir(j, i);
+    }
+    return b;
+  }));
+
+  if (q.partes) {
+    if (!lista) card.appendChild(el("p", {class: "ayuda", text: "Elegí una opción en cada " + (q.partes.length === 2 ? "una de las dos partes" : "parte") + ". Se corrige al completar todas: no hay puntaje parcial."}));
+    q.partes.forEach((p, j) => {
+      const marcada = Array.isArray(dada) ? dada[j] : null;
+      card.appendChild(el("div", {class: "parte"},
+        el("p", {class: "rot", text: p.r || (j === 0 ? "Primera columna" : j === 1 ? "Segunda columna" : "Parte " + (j + 1))}),
+        botones(p.o, p.c, marcada, j)));
+    });
+  } else {
+    card.appendChild(botones(q.o, q.c, dada, 0));
+  }
+
+  if (lista) {
+    const ok = correcta(q, dada);
+    const letras = q.partes ? q.partes.map(p => L[p.c]).join(" y ") : L[q.c];
+    const suyas = q.partes ? dada.map(x => L[x]).join(" y ") : L[dada];
+    const caja = el("div", {class: "porque"},
+      el("b", {class: ok ? "ok" : "bad", text: ok ? "Correcto: " + letras : "Incorrecto. Correcta: " + letras + " (marcaste " + suyas + ")"}),
+      el("span", {text: (m.notas && m.notas[q.k]) || ""}));
+    card.appendChild(caja);
+    if (q.d) card.appendChild(el("div", {class: "dudosa", text: typeof q.d === "string" ? q.d :
+      "Clave a confirmar: el parcial original no traía esta respuesta marcada y se dedujo de la bibliografía. Si podés, verificala con la cátedra o con tus apuntes."}));
+  }
+
+  const nav = el("div", {class: "nav"},
+    el("button", {text: "Anterior", disabled: idx === 0, onclick: () => a(idx - 1)}),
+    el("button", {class: "main", text: idx === t.qs.length - 1 ? "Ver nota" : "Siguiente", onclick: () => a(idx + 1)}));
+  card.appendChild(nav);
+  $vista.appendChild(card);
+}
+
+function pintarResultado(m, t, a){
+  const s = resumen(t);
+  const card = el("div", {class: "card score"});
+  card.appendChild(el("p", {class: "n"}, num(s.nota), el("small", {text: " / 10"})));
+  const verd = s.hechas < s.n ? ["", "Todavía hay ejercicios sin responder"]
+    : s.nota >= 7 ? ["ok", "Promoción (7 o más)"]
+    : s.nota >= 4 ? ["ok", "Aprobado"] : ["bad", "No alcanza el 4"];
+  card.appendChild(el("p", {class: "verd " + verd[0], text: verd[1]}));
+  card.appendChild(el("p", {text: s.bien + " de " + s.n + " ejercicios bien · " + num(s.puntos) + " de " + num(s.total) + " puntos" +
+    (s.hechas < s.n ? " · " + (s.n - s.hechas) + " sin responder" : "")}));
+
+  const ex = t._ex, i = ex.temas.indexOf(t);
+  const sig = ex.temas[i + 1];
+  const nav = el("div", {class: "nav"},
+    el("button", {text: "Revisar", onclick: () => a(0)}),
+    sig ? el("button", {class: "main", text: "Ir a " + sig.n, onclick: () => ir("#/" + [m.id, ex.id, sig.id, primeraPendiente(sig)].join("/"))})
+        : el("button", {class: "main", text: "Volver a " + m.nombre, onclick: () => ir("#/" + m.id)}));
+  card.appendChild(nav);
+  $vista.appendChild(card);
+}
+
+/* ---------- pie de las pantallas generales ---------- */
+const INST = {evento: null, ios: /iphone|ipad|ipod/i.test(navigator.userAgent),
+  instalada: matchMedia("(display-mode: standalone)").matches || navigator.standalone === true};
+function pieGeneral(){
+  $pie.appendChild(el("p", {text: "Parciales de ejemplo publicados en Altillo.com. Las explicaciones son material de estudio y no reemplazan la corrección oficial de la cátedra. Tu progreso se guarda solo en este dispositivo."}));
+  if (INST.instalada || !(INST.evento || INST.ios)) return;
+  const ayuda = el("div", {class: "ayuda-inst", hidden: "",
+    text: "En iPhone: abrí esta página en Safari, tocá el botón Compartir y elegí «Agregar a inicio»."});
+  $pie.appendChild(el("p", {}, el("button", {class: "enlace", text: "Instalar la app en este dispositivo", onclick: () => {
+    if (INST.evento) {
+      const ev = INST.evento; INST.evento = null;
+      ev.prompt(); ev.userChoice.finally(() => pintar());
+    } else ayuda.hidden = !ayuda.hidden;
+  }})));
+  $pie.appendChild(ayuda);
+}
+window.addEventListener("beforeinstallprompt", ev => { ev.preventDefault(); INST.evento = ev; if (!location.hash.split("/")[2]) pintar(); });
+window.addEventListener("appinstalled", () => { INST.instalada = true; INST.evento = null; pintar(); });
+
+/* ---------- tamaño de letra ---------- */
+const TAMS = [15, 17, 19, 21];
+function aplicarTam(){
+  const i = Math.max(-1, Math.min(2, GUARDADO.tam)) + 1;
+  document.documentElement.style.setProperty("--tam", TAMS[i] + "px");
+  document.getElementById("tam-menos").disabled = i === 0;
+  document.getElementById("tam-mas").disabled = i === TAMS.length - 1;
+}
+document.getElementById("tam-menos").onclick = () => { GUARDADO.tam = Math.max(-1, GUARDADO.tam - 1); guardar(); aplicarTam(); };
+document.getElementById("tam-mas").onclick = () => { GUARDADO.tam = Math.min(2, GUARDADO.tam + 1); guardar(); aplicarTam(); };
+
+/* ---------- teclado (en la computadora) ---------- */
+document.addEventListener("keydown", ev => {
+  if (ev.ctrlKey || ev.metaKey || ev.altKey) return;
+  const partes = location.hash.replace(/^#\/?/, "").split("/");
+  if (partes.length < 4 || partes[3] === "fin") return;
+  const m = MATERIAS[partes[0]];
+  const ex = m && m.examenes.find(e => e.id === partes[1]);
+  const t = ex && ex.temas.find(t => t.id === partes[2]);
+  if (!t) return;
+  const idx = (parseInt(partes[3], 10) || 1) - 1, q = t.qs[idx];
+  const base = "#/" + partes.slice(0, 3).join("/") + "/";
+  if (ev.key === "ArrowRight") ir(base + (idx + 1 >= t.qs.length ? "fin" : idx + 2), true);
+  else if (ev.key === "ArrowLeft" && idx > 0) ir(base + idx, true);
+  else if (!q.partes) {
+    const i = L.indexOf(ev.key.toUpperCase());
+    const r = respuestas(t);
+    if (i >= 0 && i < q.o.length && r[idx] === null) { r[idx] = i; guardar(); pintar(); }
+  }
+});
+
+/* ---------- arranque ---------- */
+window.addEventListener("hashchange", pintar);
+aplicarTam();
+pintar();
+
+/* ============================================================
+   app instalable: funciona sin internet y avisa si hay versión nueva
+   ============================================================ */
+(function(){
+  if (!("serviceWorker" in navigator) || !/^https?:$/.test(location.protocol)) return;
+  const aviso = document.getElementById("aviso-nueva");
+  let esperando = null, pidio = false, recargando = false;
+  const mostrar = sw => { esperando = sw; aviso.hidden = false; };
+  document.getElementById("btn-actualizar").onclick = () => {
+    if (!esperando) return location.reload();
+    document.getElementById("btn-actualizar").disabled = true;
+    pidio = true;
+    esperando.postMessage({tipo: "activar"});
+  };
+  document.getElementById("btn-despues").onclick = () => { aviso.hidden = true; };
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (!pidio || recargando) return;
+    recargando = true;
+    location.reload();
+  });
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").then(reg => {
+      if (reg.waiting && navigator.serviceWorker.controller) mostrar(reg.waiting);
+      reg.addEventListener("updatefound", () => {
+        const nuevo = reg.installing;
+        if (!nuevo) return;
+        nuevo.addEventListener("statechange", () => {
+          if (nuevo.state === "installed" && navigator.serviceWorker.controller) mostrar(nuevo);
+        });
+      });
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "visible") reg.update().catch(() => {});
+      });
+    }).catch(() => {});
+  });
+})();
+</script>
+</body>
+</html>
