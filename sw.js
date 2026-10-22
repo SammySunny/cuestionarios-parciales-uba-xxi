@@ -3,10 +3,11 @@
 
    CADA VEZ QUE CAMBIES ALGO (una materia, index.html, íconos…), SUBÍ ESTE NÚMERO.
    Así los teléfonos detectan la versión nueva y muestran el aviso "Actualizar". */
-const VERSION = "2026-10-16.9";
+const VERSION = "2026-10-22.1";
 
 /* la lista de materias sale de materias/indice.js: no hace falta repetirla acá */
 importScripts("materias/indice.js");
+importScripts("resumenes/indice.js");
 
 const PREFIJO = "cuestionarios-uba-xxi-";
 const CACHE = PREFIJO + VERSION;
@@ -16,12 +17,13 @@ const ARCHIVOS = [
   "./index.html",
   "./manifest.webmanifest",
   "./materias/indice.js",
+  "./resumenes/indice.js",
   "./iconos/icono.svg",
   "./iconos/icono-192.png",
   "./iconos/icono-512.png",
   "./iconos/icono-maskable-512.png",
   "./iconos/apple-touch-icon.png"
-].concat(CATALOGO.map(m => "./" + m.archivo));
+].concat(CATALOGO.map(m => "./" + m.archivo), RESUMENES.map(r => "./" + r.archivo));
 
 self.addEventListener("install", ev => {
   // cache:"reload" saltea la caché HTTP, para no guardar una copia vieja de una materia
@@ -68,7 +70,7 @@ self.addEventListener("fetch", ev => {
     caches.open(CACHE).then(c =>
       c.match(req, {ignoreSearch: true}).then(guardado => {
         if (guardado) return guardado;
-        if (req.mode === "navigate") {
+        if (req.mode === "navigate" && !url.pathname.toLowerCase().endsWith(".pdf")) {
           return c.match("./index.html").then(idx => idx || fetch(req));
         }
         return fetch(req);

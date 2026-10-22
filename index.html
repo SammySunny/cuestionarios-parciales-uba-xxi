@@ -156,6 +156,8 @@ footer{margin-top:20px;color:var(--ink-faint);font-size:.78rem;line-height:1.5}
 footer p{margin:0 0 6px}
 .enlace{display:inline-flex;gap:5px;align-items:center;font-size:.8rem;background:none;border:none;color:var(--pick);cursor:pointer;padding:0;text-decoration:underline}
 .enlace[hidden]{display:none}
+.acciones-resumen{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:16px}
+.acciones-resumen .enlace{min-height:44px;font-size:.95rem}
 .limpieza{margin-top:18px}
 .limpieza button{
   display:inline-flex;align-items:center;gap:6px;font-size:.8rem;padding:8px 11px;
@@ -286,6 +288,7 @@ footer p{margin:0 0 6px}
 </div>
 
 <script src="materias/indice.js"></script>
+<script src="resumenes/indice.js"></script>
 <script>
 "use strict";
 /* ============================================================
@@ -511,7 +514,8 @@ function pintar(){
   $pie.innerHTML = "";
   if (!partes.length) { pintarInicio(); if (mover) window.scrollTo(0, 0); return; }
   cargarMateria(partes[0]).then(m => {
-    if (partes[1] === "parcial" && partes.length === 3) pintarMateria(m, Number(partes[2]));
+    if (partes[1] === "resumenes") pintarResumenes(m, partes[2] === undefined ? undefined : Number(partes[2]));
+    else if (partes[1] === "parcial" && partes.length === 3) pintarMateria(m, Number(partes[2]));
     else if (partes.length < 3) pintarMateria(m);
     else {
       const ex = m.examenes.find(e => e.id === partes[1]);
@@ -649,6 +653,7 @@ function pintarMateria(m, numero){
         ico("adelante", "chev")), info.color));
     });
     $vista.appendChild(lista);
+    accesoResumenes(m);
     pieGeneral();
     return;
   }
@@ -669,6 +674,49 @@ function pintarMateria(m, numero){
       temas));
   });
   $vista.appendChild(lista);
+  accesoResumenes(m, numero);
+  pieGeneral();
+}
+function accesoResumenes(m, numero){
+  const disponibles = RESUMENES.filter(r => r.materia === m.id && (numero === undefined || r.parcial === numero));
+  $vista.appendChild(el("h2", {class: "seccion", text: "Material de estudio"}));
+  $vista.appendChild(el("button", {class: "item materia", onclick: () => ir("#/" + m.id + "/resumenes" + (numero === undefined ? "" : "/" + numero))},
+    el("span", {class: "icobox"}, ico("libro")),
+    el("span", {class: "cuerpo"}, el("span", {class: "t", text: "Resúmenes"}),
+      el("span", {class: "d", text: disponibles.length ? disponibles.length + " PDF para leer o descargar" : "Todavía no hay resúmenes disponibles"})),
+    ico("adelante", "chev")));
+}
+function pintarResumenes(m, numero){
+  const todos = RESUMENES.filter(r => r.materia === m.id);
+  const parciales = [...new Set(todos.map(r => r.parcial))].sort();
+  if (numero !== undefined && ![1, 2].includes(numero)) return ir("#/" + m.id + "/resumenes", true);
+  barra(m.sigla || m.nombre, "#/" + m.id + (numero === undefined ? "" : "/resumenes"));
+  document.title = "Resúmenes · " + (m.sigla || m.nombre);
+  $vista.innerHTML = "";
+  $vista.appendChild(el("h1", {text: "Resúmenes · " + (m.sigla || m.nombre)}));
+  if (numero === undefined && parciales.length) {
+    $vista.appendChild(el("h2", {class: "seccion", text: "Elegí el parcial"}));
+    $vista.appendChild(el("div", {class: "lista"}, parciales.map(n => el("button", {class: "item", onclick: () => ir("#/" + m.id + "/resumenes/" + n)},
+      el("span", {class: "cuerpo"}, el("span", {class: "t", text: rotuloParcial(n)}),
+        el("span", {class: "d", text: todos.filter(r => r.parcial === n).length + " resúmenes en PDF"})), ico("adelante", "chev")))));
+  } else {
+    const disponibles = todos.filter(r => numero === undefined || r.parcial === numero);
+    if (numero !== undefined) $vista.appendChild(el("h2", {class: "seccion", text: rotuloParcial(numero)}));
+    if (!disponibles.length) $vista.appendChild(el("p", {class: "sub", text: "Todavía no hay resúmenes disponibles"}));
+    else {
+      $vista.appendChild(el("p", {class: "sub", text: "Distintas formas de estudiar el mismo temario. Los PDF también están disponibles sin conexión una vez guardada la app."}));
+      const lista = el("div", {class: "lista"});
+      disponibles.forEach(r => lista.appendChild(el("section", {class: "examen"},
+        el("h3", {class: "t", text: r.nombre}),
+        el("p", {class: "d", text: r.detalle}),
+        el("p", {text: r.descripcion}),
+        el("p", {class: "d", text: r.paginas + " páginas · PDF · " + r.formato}),
+        el("div", {class: "acciones-resumen"},
+          el("a", {class: "enlace", href: r.archivo, target: "_blank", rel: "noopener", "aria-label": "Abrir PDF: " + r.nombre}, "Abrir PDF"),
+          el("a", {class: "enlace", href: r.archivo, download: r.archivo.split("/").pop(), "aria-label": "Descargar: " + r.nombre}, "Descargar")))));
+      $vista.appendChild(lista);
+    }
+  }
   pieGeneral();
 }
 function primeraPendiente(t){

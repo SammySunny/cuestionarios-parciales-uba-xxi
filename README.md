@@ -87,6 +87,23 @@ El **Tema 13 oral de septiembre de ICSE 2025** conserva sus 16 preguntas de 0,50
 
 La **pregunta 11 del Tema 14 de abril de ICSE 2025** se corrigió de E a G (B y C): democracia procedimental y mínima. La corrección y la clave de origen quedan registradas. Otras erratas cronológicas y una repetición de dos distractores en el HTML se conservaron con avisos; el verificador solo permite esa repetición documentada cuando no duplica la respuesta correcta.
 
+## Resúmenes por materia
+
+Cada materia tiene un acceso **Resúmenes**, organizado por parcial. La ruta
+`#/ipc/resumenes/2` muestra los cuatro PDF del segundo parcial de IPC
+(Cátedra A · Buacar, capítulos 10 a 15): Resumen en texto, Guía explicada con
+ejemplos, Cuadro sinóptico para repasar y Repaso visual para celular.
+Cada tarjeta permite abrir el PDF en otra pestaña o descargarlo. Los archivos
+se guardan junto con la app para consultarlos sin conexión. Las materias o
+parciales sin material muestran un mensaje de disponibilidad.
+
+Las fuentes están en `../resumenes/<materia>/<parcial>/`. Para agregar material,
+copiar los PDF a `app/resumenes/<id-materia>/<parcial>/` (desde la carpeta
+Facultad), registrar nombre, descripción, materia, parcial, páginas, formato y
+ruta en `resumenes/indice.js`, subir `VERSION` en `sw.js` y correr el verificador.
+El service worker toma del catálogo los archivos que debe guardar. Los nuevos
+archivos fuente se incorporan mediante una actualización de la app.
+
 ## IPC — Introducción al Pensamiento Científico
 
 Se organiza por fecha de examen y cátedra, con los temas dentro de cada examen:

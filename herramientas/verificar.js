@@ -167,11 +167,33 @@ function revisarMateria(m, archivo){
   console.log(`${m.id}: ${(m.examenes || []).length} exámenes, ${nt} temas, ${nq} consignas, ${Object.keys(notas).length} explicaciones, ${comparadas} comparaciones cruzadas`);
 }
 
+/* ---------- catálogo de resúmenes y PDF locales ---------- */
+vm.runInContext(leer("resumenes/indice.js"), ctx, {filename: "resumenes/indice.js"});
+const resumenes = ctx.RESUMENES;
+const idsResumen = new Set();
+for (const r of resumenes) {
+  const aqui = `resumen ${r.id}`;
+  if (!r.id || idsResumen.has(r.id)) error(`${aqui}: id vacío o repetido`);
+  idsResumen.add(r.id);
+  if (!idsMateria.has(r.materia)) error(`${aqui}: materia desconocida`);
+  if (![1, 2].includes(r.parcial)) error(`${aqui}: parcial inválido`);
+  for (const campo of ["nombre", "descripcion", "detalle", "formato"])
+    if (typeof r[campo] !== "string" || !r[campo].trim()) error(`${aqui}: falta ${campo}`);
+  if (!Number.isInteger(r.paginas) || r.paginas < 1) error(`${aqui}: páginas inválidas`);
+  if (typeof r.archivo !== "string" || !/^resumenes\/[a-z0-9_/-]+\.pdf$/i.test(r.archivo) || r.archivo.includes("..")) {
+    error(`${aqui}: ruta PDF local inválida`); continue;
+  }
+  const ruta = path.join(RAIZ, r.archivo);
+  if (!fs.existsSync(ruta)) error(`${aqui}: no existe ${r.archivo}`);
+  else if (fs.readFileSync(ruta).subarray(0, 5).toString() !== "%PDF-") error(`${aqui}: no es un PDF`);
+}
+console.log(`resúmenes: ${resumenes.length} PDF locales`);
+
 /* ---------- sin URLs remotas ----------
    Única excepción: enlaces salientes que la persona abre a mano (no recursos
    que la app descarga). Solo se aceptan en index.html y con este texto exacto. */
 const ENLACES_EXTERNOS = ["https://www.instagram.com/mondschatten.artesanias?exln=MWM2cGRiemNkcjd0bQ=="];
-const archivosTexto = ["index.html", "sw.js", "manifest.webmanifest", "materias/indice.js"].concat(CATALOGO.map(c => c.archivo));
+const archivosTexto = ["index.html", "sw.js", "manifest.webmanifest", "materias/indice.js", "resumenes/indice.js"].concat(CATALOGO.map(c => c.archivo));
 for (const f of archivosTexto) {
   if (!fs.existsSync(path.join(RAIZ, f))) continue;
   let s = leer(f);
