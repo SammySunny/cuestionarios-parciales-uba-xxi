@@ -353,6 +353,8 @@ function cargarMateria(id){
 const vacia = () => null;
 function valida(q, r){
   if (r === null) return true;
+  if (q.elegir) return Array.isArray(r) && r.length >= 1 && r.length <= q.elegir && new Set(r).size === r.length &&
+    r.every(x => Number.isInteger(x) && x >= 0 && x < q.o.length);
   if (q.partes) return Array.isArray(r) && r.length === q.partes.length &&
     r.every((x, j) => x === null || (Number.isInteger(x) && x >= 0 && x < q.partes[j].o.length));
   return Number.isInteger(r) && r >= 0 && r < q.o.length;
@@ -364,9 +366,13 @@ function respuestas(t){
   GUARDADO.resp[t._clave] = r;
   return r;
 }
-const completa = (q, r) => r !== null && (!q.partes || r.every(x => x !== null));
-const indiceCorrecto = (b, i) => (b.aceptadas || [b.c]).includes(i);
-const correcta = (q, r) => completa(q, r) && (q.partes ? q.partes.every((p, j) => indiceCorrecto(p, r[j])) : indiceCorrecto(q, r));
+/* Consigna «elegir varias» (q.elegir = cuántas, q.correctas = índices):
+   la respuesta es la lista de opciones marcadas y se corrige al completar
+   la cantidad pedida. Vale solo si coinciden todas, en cualquier orden. */
+const completa = (q, r) => r !== null && (q.elegir ? r.length === q.elegir : (!q.partes || r.every(x => x !== null)));
+const indiceCorrecto = (b, i) => (b.correctas || b.aceptadas || [b.c]).includes(i);
+const correcta = (q, r) => completa(q, r) && (q.elegir ? r.every(i => q.correctas.includes(i))
+  : q.partes ? q.partes.every((p, j) => indiceCorrecto(p, r[j])) : indiceCorrecto(q, r));
 function resumen(t){
   const r = respuestas(t);
   let hechas = 0, bien = 0, puntos = 0, total = 0;
@@ -381,7 +387,8 @@ const ptsTxt = p => num(p) + (p === 1 ? " punto" : " puntos");
 const etiqueta = (q, i) => q.e || String(i + 1);
 const etiquetaOpcion = (q, b, i) => b.formato === "texto" ? b.o[i]
   : (b.formato || q.formato) === "numeros" ? String(i + 1) : L[i];
-const etiquetaCorrectas = (q, b) => (b.aceptadas || [b.c]).map(i => etiquetaOpcion(q, b, i)).join(" o ");
+const etiquetaCorrectas = (q, b) => b.correctas ? b.correctas.map(i => etiquetaOpcion(q, b, i)).join(" y ")
+  : (b.aceptadas || [b.c]).map(i => etiquetaOpcion(q, b, i)).join(" o ");
 const parcialDe = ex => ex.parcial || 2;
 const parcialesDe = m => [...new Set(m.examenes.map(parcialDe))].sort();
 const rotuloParcial = n => n === 1 ? "1er parcial" : "2do parcial";
@@ -732,7 +739,11 @@ function pintarConsigna(m, t, idx, a){
   }
 
   const elegir = (j, i) => {
-    if (q.partes) {
+    if (q.elegir) {
+      const v = Array.isArray(r[idx]) ? r[idx].filter(x => x !== i) : [];
+      if (v.length === (Array.isArray(r[idx]) ? r[idx].length : 0)) v.push(i);   // no estaba: se marca
+      r[idx] = v.length ? v.sort((x, y) => x - y) : null;
+    } else if (q.partes) {
       const v = Array.isArray(r[idx]) ? r[idx].slice() : q.partes.map(() => null);
       v[j] = i; r[idx] = v;
     } else r[idx] = i;
@@ -744,9 +755,11 @@ function pintarConsigna(m, t, idx, a){
       el("span", {class: "t", text: txt}));
     if (lista) {
       b.disabled = true;
-      b.className = "op " + (indiceCorrecto(bloque, i) ? "ok" : i === marcada ? "bad" : "resto");
+      const elegida = Array.isArray(marcada) ? marcada.includes(i) : i === marcada;
+      b.className = "op " + (indiceCorrecto(bloque, i) ? "ok" : elegida ? "bad" : "resto");
     } else {
-      if (i === marcada) b.className = "op sel";
+      if (Array.isArray(marcada) ? marcada.includes(i) : i === marcada) b.className = "op sel";
+      if (q.elegir) b.setAttribute("aria-pressed", String(b.className.includes("sel")));
       b.onclick = () => elegir(j, i);
     }
     return b;
@@ -760,6 +773,10 @@ function pintarConsigna(m, t, idx, a){
         el("p", {class: "rot", text: p.r || (j === 0 ? "Primera columna" : j === 1 ? "Segunda columna" : "Parte " + (j + 1))}),
         botones(p, marcada, j)));
     });
+  } else if (q.elegir) {
+    if (!lista) card.appendChild(el("p", {class: "ayuda", text: "Marcá " + (q.elegir === 2 ? "dos opciones" : q.elegir + " opciones") +
+      ". Se corrige al marcar la " + (q.elegir === 2 ? "segunda" : "última") + "; antes podés desmarcar tocando de nuevo. No hay puntaje parcial."}));
+    card.appendChild(botones(q, Array.isArray(dada) ? dada : [], 0));
   } else {
     card.appendChild(botones(q, dada, 0));
   }
@@ -767,7 +784,8 @@ function pintarConsigna(m, t, idx, a){
   if (lista) {
     const ok = correcta(q, dada);
     const letras = q.partes ? q.partes.map(p => etiquetaCorrectas(q, p)).join(" y ") : etiquetaCorrectas(q, q);
-    const suyas = q.partes ? dada.map((x, j) => etiquetaOpcion(q, q.partes[j], x)).join(" y ") : etiquetaOpcion(q, q, dada);
+    const suyas = q.elegir ? dada.map(x => etiquetaOpcion(q, q, x)).join(" y ")
+      : q.partes ? dada.map((x, j) => etiquetaOpcion(q, q.partes[j], x)).join(" y ") : etiquetaOpcion(q, q, dada);
     const caja = el("div", {class: "porque"},
       el("b", {class: ok ? "ok" : "bad"}, ico(ok ? "check-circulo" : "cruz"),
         el("span", {text: ok ? "Correcto: " + letras : "Incorrecto. Correcta: " + letras + " (marcaste " + suyas + ")"})),
@@ -881,7 +899,12 @@ document.addEventListener("keydown", ev => {
   else if (!q.partes) {
     const i = q.formato === "numeros" ? "12345678".indexOf(ev.key) : L.indexOf(ev.key.toUpperCase());
     const r = respuestas(t);
-    if (i >= 0 && i < q.o.length && r[idx] === null) { r[idx] = i; guardar(); pintar(); }
+    if (i < 0 || i >= q.o.length || completa(q, r[idx])) return;
+    if (q.elegir) {
+      const v = (r[idx] || []).includes(i) ? r[idx].filter(x => x !== i) : (r[idx] || []).concat(i);
+      r[idx] = v.length ? v.sort((x, y) => x - y) : null;
+      guardar(); pintar();
+    } else if (r[idx] === null) { r[idx] = i; guardar(); pintar(); }
   }
 });
 

@@ -55,6 +55,7 @@ registrarMateria({
 
 - `c` es el índice de la correcta empezando en 0 (0 = A). La letra se calcula al mostrarla.
 - `aceptadas: [2, 3]` permite varias respuestas válidas cuando el material las autoriza; debe incluir la respuesta principal `c`.
+- `elegir: 2` con `correctas: [3, 4]` (sin `c`) pide marcar dos opciones de una misma lista. Se pueden desmarcar antes de completar; se corrige al marcar la segunda y vale el puntaje solo si ambas son correctas, en cualquier orden. La respuesta se guarda como la lista ordenada de índices marcados.
 - `pista` agrega una ayuda desplegable antes de responder.
 - `k` apunta a la explicación en `notas`. Si la misma consigna aparece en varios temas, usa la misma `k` y se explica una sola vez. Por eso las explicaciones no nombran letras.
 - `notaEspecifica: true` identifica una explicación importada ligada al orden fijo de las opciones de esa pregunta. Puede mencionar sus letras o números; no se debe reutilizar con opciones reordenadas.
@@ -92,6 +93,7 @@ Se organiza por fecha de examen y cátedra, con los temas dentro de cada examen:
 
 | Fecha | Examen y cátedra | Temas | Ejercicios por tema |
 | --- | --- | --- | --- |
+| 29/05/2026 | 2º parcial · A, Buacar | 1–8 | 10 |
 | 30/10/2025 | Recuperatorio del 2º parcial · A, Buacar | 1–2 | 10 |
 | 21/10/2025 | 2º parcial · C, Gimeno | 1–3 | 20 |
 | 30/05/2025 | 2º parcial · A, Buacar | 1–8 | 10 |
@@ -100,9 +102,11 @@ Se organiza por fecha de examen y cátedra, con los temas dentro de cada examen:
 | 31/05/2024 | 2º parcial · A, Buacar | 1–8 | 10 |
 | 02/06/2023 | 2º parcial · A, Buacar | 1–8 | 10 |
 
-Son 41 temas y 480 ejercicios, con 221 explicaciones reutilizadas. Las claves y explicaciones provienen de los documentos resueltos. En Buacar se conserva el puntaje de 1 por ejercicio, sin puntaje parcial en los de dos partes; en Gimeno se asignó 0,50 por consigna al no indicarse puntaje en los documentos. Las preguntas de hipótesis fundamental y auxiliar incluyen aclaraciones adicionales para distinguirlas de los resultados y consecuencias observacionales.
+Son 49 temas y 560 ejercicios. Las claves y explicaciones provienen de los documentos resueltos. En Buacar se conserva el puntaje de 1 por ejercicio, sin puntaje parcial en los de dos partes; en Gimeno se asignó 0,50 por consigna al no indicarse puntaje en los documentos. Las preguntas de hipótesis fundamental y auxiliar incluyen aclaraciones adicionales para distinguirlas de los resultados y consecuencias observacionales.
 
 Cada tema registra su archivo de origen en `fuente` y, para los PDF, el rango de `paginas`. `IPC_2025_I (copia 1).docx` es idéntico a `IPC_2025_I.docx` y se cargó una sola vez. Los documentos originales permanecen en `../materias_uba_xxi/IPC/2º parciales/`.
+
+En el 2º parcial del 29/05/2026 (`IPC_2026_A.pdf` a `IPC_2026_H.pdf`, Temas 1 a 8), la clave sale de la grilla de respuestas y del resaltado de cada documento, que coinciden en los 80 ejercicios; las explicaciones son las del texto en rojo. El ejercicio 10 pide marcar dos opciones y usa `elegir`/`correctas`. Los ejercicios que remiten al caso del ejercicio 1 lo incluyen como «Caso de referencia · ejercicio 1».
 
 Las explicaciones que mencionan números de opciones se mantienen vinculadas a su orden original: si se reordenan esas opciones, también se deben revisar esas referencias en la explicación.
 

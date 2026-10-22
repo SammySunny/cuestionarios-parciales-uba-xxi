@@ -3,6 +3,7 @@
    Los primeros parciales se importaron de los HTML de la carpeta de la materia.
    fuente conserva el archivo original; d indica una revisión o aclaración.
    aceptadas permite las respuestas alternativas autorizadas por la fuente.
+   elegir/correctas: consignas donde hay que marcar varias opciones (todas bien).
    totalEsperado conserva el puntaje de formatos especiales, como el oral.
    No cambiar ids: identifican el progreso de cada persona. */
 registrarMateria({
@@ -410,7 +411,55 @@ registrarMateria({
     "ipc-p1-30068b109bbb5848": "Lo que separa a un enunciado de cualquier otra forma de lenguaje es su valor veritativo. Fijate la diferencia con la B, que es la confusión típica: no importa si todavía no sabemos si es verdadero o falso, como pasa con una hipótesis; lo que importa es que tenga la CAPACIDAD de serlo, porque describe cómo es el mundo. La A describe otros actos de habla y la C inventa una rigidez que no existe: un mismo enunciado admite muchas formulaciones.",
     "ipc-p1-1c88d1c40557cbb2": "Ad populum: se justifica en que varias personas creen en la veracidad del enunciado. Compará con la consigna del ad verecundiam: allá el peso lo daba el prestigio de una autoridad; acá lo da la cantidad de gente que lo cree. El hombre de paja sería distorsionar la posición del otro para refutarla más fácil.",
     "ipc-p1-cffb03f4039572ae": "Métrico, también llamado cuantitativo o de magnitudes. Las magnitudes expresan propiedades que las cosas ejemplifican según un más y un menos, y están ligadas a medir mediante instrumentos: el proceso de medición en conjunto es una representación cuantitativa de la magnitud. La trampa está en el enunciado: «ansiedad moderada» sería comparativo, pero lo que se pregunta es el puntaje 25, que es el valor numérico.",
-    "ipc-p1-593e3e2a97837235": "El epistemólogo pone en tela de juicio el conocimiento ya obtenido y examina sus criterios de validación; el metodólogo no cuestiona el conocimiento aceptado, sino que busca estrategias para incrementarlo. Klimovsky llega a decir que la metodología, en cierto modo, es posterior a la epistemología. La C invierte exactamente los roles."
+    "ipc-p1-593e3e2a97837235": "El epistemólogo pone en tela de juicio el conocimiento ya obtenido y examina sus criterios de validación; el metodólogo no cuestiona el conocimiento aceptado, sino que busca estrategias para incrementarlo. Klimovsky llega a decir que la metodología, en cierto modo, es posterior a la epistemología. La C invierte exactamente los roles.",
+    "ipc-2026-p2-29d3f9a5b09b8d3d": "En este ejercicio se pide que identifiques la hipótesis fundamental del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis fundamental es aquella que guía la investigación y que es puesta a prueba en el experimento.",
+    "ipc-2026-p2-a003a04cdfefe3d5": "En este ejercicio se pide que determines si el enunciado es verdadero o falso de acuerdo con el proceso de confirmación de las hipótesis científicas. Recordá que es posible afirmar la falsedad de una hipótesis a partir de una consecuencia observacional gracias a la regla de inferencia Modus Tollens, pero es imposible decir que una hipótesis científica es verdadera a partir de la verificación de su consecuencia observacional, porque el razonamiento por detrás es la Falacia de Afirmación del Consecuente.",
+    "ipc-2026-p2-4a9f34919ccc161e": "Una explicación nomológica deductiva da cuenta de un fenómeno particular (Juan experimentó somnolencia) a partir de una ley (Todas las personas que consumen antihistamínicos experimentan somnolencia) y las condiciones de aplicación de la ley (Juan tomo antihistamínicos esta mañana). Las leyes en este tipo de explicación son enunciados generales universales que valen para todos los casos y el fenómeno a explicar es uno de los casos que cae bajo el alcance de la ley. En este ejercicio pedimos una explicación (Juan experimentó somnolencia) y no una predicción (Juan estará somnoliento durante todo el día).",
+    "ipc-2026-p2-39a73e705ab28949": "En este ejercicio se pide que determines si el enunciado es verdadero o falso de acuerdo con el falsacionismo. Recordá que para esta posición el progreso científico nunca se detiene y siempre nos encontramos contrastando las teorías, puesto que en cualquier momento podríamos hallar evidencia que las refute. Para esta posición, el punto clave del progreso científico es formular conjeturas (hipótesis) y descartar aquellas que hayan resultado refutadas en la contrastación. Tené en cuenta que, para el falsacionismo, no podemos probar que hemos arribado a la verdad de las teorías científicas pero podemos someterlas a puestas a prueba rigurosas y conservar provisoriamente aquellas que resisten, hasta el momento, los intentos de refutación.",
+    "ipc-2026-p2-ca89832c8116553d": "Este ejercicio pide analizar el párrafo e identificar qué concepto de Kuhn ejemplifica. El caso corresponde a la ciencia normal, ya que, cuando la comunidad científica adopta un paradigma, se compromete con un conjunto de supuestos teóricos, metodológicos y metafísicos que orientan la definición de problemas y sus modos de resolución. En este sentido, el párrafo que guía la consigna presenta a la física newtoniana como una etapa de estabilidad disciplinar, en la que los modelos ejemplares permiten resolver los problemas que plantea el paradigma; consolidando y expandiendo, de este modo, su alcance explicativo.",
+    "ipc-2026-p2-c11444d4c9fa9072": "Este ejercicio pide determinar si el enunciado es verdadero o falso según la epistemología de Kuhn y justificar la respuesta. En este caso, el enunciado es verdadero porque la preciencia corresponde a una etapa previa a la constitución de la ciencia normal, en la que aún no se ha consolidado un paradigma capaz de organizar la investigación. En este período coexisten enfoques rivales sin un marco común que establezca criterios compartidos para definir problemas, métodos y estándares de evaluación. Precisamente por esta ausencia de acuerdos estables todavía no puede hablarse de una matriz disciplinar compartida que estructure la práctica científica.",
+    "ipc-2026-p2-b503a68b986d6e3d": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio se trata de la manifestación que llamamos \"Omisiones selectivas en la historia de la ciencia\" o \"efecto Matilda\": la revisión crítica de la historia de la ciencia por parte del feminismo ha permitido detectar que, en muchos casos, el trabajo de una científica es omitido o directamente atribuido a un varón, en general cercano. De esta manera, se invisibilizan los aportes que las mujeres realizan al conocimiento científico, reforzando la idea de que las mujeres no pueden o no quieren hacer ciencia. En este caso, el trabajo de Nettie Stevens no fue reconocido y valorado de igual forma que el de su colega masculino y fue invisibilizado en materiales de difusión y enseñanza de la ciencia.",
+    "ipc-2026-p2-d5b0da8970b3cbab": "Este ejercicio pide identificar cuál es la afirmación sostenida por la teoría feminista del punto de vista y rechazada por el empirismo feminista. En este caso, la opción correcta es aquella que atribuye a las mujeres un privilegio epistémico derivado de su situación social. Según esta corriente, las mujeres poseen un estilo cognitivo relacional, concreto e intuitivo que les permite advertir regularidades del sistema patriarcal inaccesibles para el estilo analítico y abstracto atribuido a los varones. En cambio, el empirismo feminista rechaza esta afirmación. Para esta corriente, la objetividad surge de la interacción crítica intersubjetiva dentro de una comunidad de conocimiento regulada por normas que garantizan igualdad de autoridad intelectual y espacios públicos para la crítica.",
+    "ipc-2026-p2-a69458a790d69a74": "Este ejercicio pide identificar y fundamentar la posición del practicismo respecto de la financiación de los proyectos científicos a través de un caso dado, que debe evaluase según esta posición. La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde ese punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, el desarrollo mencionado contribuye directamente a estos objetivos.",
+    "ipc-2026-p2-7ff37c6253efb0b0": "En este ejercicio se pide que determines cuales de las opciones expresan juicios de hecho. Las respuestas correctas son los enunciados 4 y 5 ya que son las que presentan enunciados descriptivos, es decir, afirmaciones que nos dicen como son las cosas, esto es, que se refieren a estados de cosas, situaciones o eventos sobre los cuales se predican ciertas características y, por eso mismo, pueden ser examinados en términos de verdad o falsedad -la cual quedará determinada a través de una contrastación empírica-. El resto de las opciones presentan juicios de valor, esto es, afirmaciones valorativas (también llamadas normativas o evaluativas) que expresan la evaluación de un cierto fenómeno y por eso mismo, no se los suele evaluar en terminos veritativos ya que su verdad o falsedad no puede determinarse de forma empírica.",
+    "ipc-2026-p2-87c64d0978721bcf": "Una explicación nomológica deductiva da cuenta de un fenómeno particular (Juan experimentó somnolencia) a partir de una ley (Todas las personas que consumen antihistamínicos experimentan somnolencia) y las condiciones de aplicación de la ley (Juan tomó antihistamínicos esta mañana). Las leyes en este tipo de explicación son enunciados generales universales que valen para todos los casos y el fenómeno a explicar es uno de los casos que cae bajo el alcance de la ley. En este ejercicio pedimos una explicación de un fenómeno ocurrido (Juan experimentó somnolencia) y no una predicción (Juan estará somnoliento durante todo el día).",
+    "ipc-2026-p2-b8e2b8dc0a5d3a9c": "Este ejercicio pide identificar y fundamentar la posición del practicismo respecto de la financiación de los proyectos científicos a través de un caso dado, que debe evaluase según esta posición. La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad y contribuir a resolver problemas vinculados al desarrollo económico y social del país. El caso propuesto satisface estas condiciones, ya que consiste en una aplicación de la ciencia que tiene por objetivo una reutilización de la yerba mate usada para obtener un producto con valor comercial. La opción 4 es la única que apoya la financiación del proyecto fundándose en su potencial económico en consonancia con la posición del practicismo, en el caso de las otras dos opciones, una rechaza su financiamiento y la otra lo aprueba, pero apoyándose en razones que contradicen la posición del practicismo.",
+    "ipc-2026-p2-6850c228f1af9b10": "En este ejercicio se pide que determines cuáles de las opciones expresan juicios de hecho. Las respuestas correctas son los enunciados 4 y 5 ya que son las que presentan enunciados descriptivos, es decir, afirmaciones que nos dicen cómo son las cosas, esto es, que se refieren a estados de cosas, situaciones o eventos sobre los cuales se predican ciertas características y, por eso mismo, pueden ser examinados en términos de verdad o falsedad -la cual quedará determinada a través de una contrastación empírica-. El resto de las opciones presentan juicios de valor, esto es, afirmaciones valorativas (también llamadas normativas o evaluativas) que expresan la evaluación de un cierto fenómeno y por eso mismo, no se los suele evaluar en términos veritativos ya que su verdad o falsedad no puede determinarse de forma empírica.",
+    "ipc-2026-p2-6db0ebad0518ab02": "En este ejercicio se pide que identifiques la hipótesis auxiliar del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis auxiliar es una hipótesis que cuenta con apoyo independiente previo y que se utiliza en la contrastación como conocimiento presupuesto para poder deducir la consecuencia observacional.",
+    "ipc-2026-p2-2374148fe63554bb": "En el caso dado, el fenómeno esperable descripto por la consecuencia observacional se produjo. Recordá que la Falacia de Afirmación del Consecuente es la forma de argumento con la que se reconstruye la confirmación de hipótesis. Es decir que, cuando se verifica la consecuencia observacional (CO), se obtiene como conclusión la afirmación del antecedente de la primera premisa (compuesto por la hipótesis fundamental junto con la/s hipótesis auxiliar/es que se asumieron como conocimiento presupuesto en la contrastación).",
+    "ipc-2026-p2-8f4ee30bae56925e": "Una explicación inductivo estadística da cuenta de un fenómeno particular (Lucas tuvo dificultades para recordar contenidos durante su examen final) a partir de una ley (La mayoría de las personas que presentan niveles altos de cortisol experimentan dificultades para recordar contenidos durante una evaluación) y las condiciones de aplicación de la ley (Las pruebas de saliva mostraron que Lucas tenía niveles de cortisol muy elevados antes de entrar al aula). Las leyes en este tipo de explicación no son universales sino probabilísticas, de modo que no abarcan todos los casos. En el ejercicio pedimos una explicación y no una predicción.",
+    "ipc-2026-p2-427b2eec7e56d923": "En este ejercicio debiste considerar un enunciado sobre el papel de la inducción en la justificación de hipótesis según el confirmacionismo. La respuesta correcta es que no podemos verificar toda hipótesis universal, puesto que algunas de ellas se refieren a infinitos individuos. La verificación de esas hipótesis requeriría examinar infinitos casos y construir un argumento inductivo con infinitas premisas. Por esa razón, no tenemos manera de verificarlas (es decir, de probar su verdad de manera concluyente) ni inductivamente, ni deductivamente. No obstante, según el confirmacionismo, (o inductivismo crítico), la inducción nos permite asignar a las hipótesis universales irrestrictas un determinado grado de probabilidad, que dependerá de la cantidad de casos favorables efectivamente hallados en la contrastación.",
+    "ipc-2026-p2-eaf9ac9e5574e2ae": "Este ejercicio pide analizar el párrafo e identificar qué concepto de Kuhn ejemplifica. La respuesta correcta es \"anomalía\", ya que el fragmento propuesto describe problemas persistentes que el modelo geocéntrico no logra explicar satisfactoriamente, incluso cuando se aplican ajustes para tratar de resolverlos. Precisamente, en Kuhn, una anomalía es un fenómeno persistente que no encaja en las predicciones o supuestos del paradigma vigente. A diferencia de los enigmas, las anomalías generan dudas sobre la capacidad de las herramientas teóricas, metodológicas o metafísicas del paradigma para resolver el problema y, aunque inicialmente no provocan un cambio de paradigma, su acumulación puede generar tensiones que desencadenen un período de crisis.",
+    "ipc-2026-p2-5d771b5c97609532": "Este ejercicio pide determinar si el enunciado es verdadero o falso según la epistemología de Kuhn y justificar la respuesta. En este caso, el enunciado es falso porque según Kuhn, un paradigma o matriz disciplinar no se reduce a una única teoría científica sino que es una noción más amplia que expresa una forma compartida de ver el mundo propia de una comunidad científica. En tanto matriz disciplinar, el paradigma articula distintos tipos de compromisos teóricos, metodológicos y metafísicos, así como un conjunto de valores, que orientan la investigación científica y hacen posible la práctica de la ciencia normal.",
+    "ipc-2026-p2-49dc6fc09d82f5fb": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio, se trata de la manifestación que llamamos \"aplicaciones sexistas\": los intereses y el bienestar de las mujeres no son tenidos en cuenta a la hora de diseñar e implementar soluciones científicas y tecnológicas, dando lugar a aplicaciones de la ciencia o la tecnología que llegan a ser perjudiciales para las mujeres (y otros grupos). En el caso de este ejemplo, eso ocurre con la puesta a prueba de medicamentos y la prevención de sus efectos secundarios.",
+    "ipc-2026-p2-4c28979d389a4747": "Este ejercicio pide identificar cuál es la afirmación sostenida por el empirismo feminista y rechazada por la teoría feminista del punto de vista. En este caso, la opción correcta es la que sostiene que la objetividad científica surge de la interacción crítica en el seno de una comunidad científica plural y permite visibilizar y cuestionar los sesgos de género. En cambio, la teoría feminista del punto de vista rechaza esta afirmación, ya que atribuye a la situación social de las mujeres un privilegio epistémico para conocer aspectos del sistema patriarcal inaccesibles para los grupos dominantes.",
+    "ipc-2026-p2-c919b776965b18bf": "Este ejercicio pide identificar y fundamentar la posición del cientificismo respecto de la financiación de los proyectos científicos a través de un caso dado, que debe evaluarse según esta posición. La perspectiva cientificista afirma que se debe priorizar el financiamiento de la ciencia básica, ya que la producción de conocimiento científico tiene valor intrínseco. El financiamiento de la ciencia no debe estar regido por las necesidades económicas o las demandas sociales inmediatas. En el caso propuesto, se trata de un proyecto de ciencia básica, por lo que no es necesario prever las aplicaciones inmediatas.",
+    "ipc-2026-p2-6a0a1bc3d5979481": "En este ejercicio se pide que determines cuáles de las opciones expresan juicios de valor. Las respuestas correctas son las opciones 2 y 4 ya que allí se plantean afirmaciones valorativas (también llamadas normativas o evaluativas) que expresan la evaluación de un cierto fenómeno. El resto de las opciones presentan juicios de hecho, es decir, afirmaciones que nos dicen como son las cosas, esto es, enunciados que se refieren a estados de cosas, situaciones o eventos sobre los cuales se predican ciertas características y, por eso mismo, pueden ser examinados en términos de verdad o falsedad -la cual quedará determinada a través de contrastación empírica-.",
+    "ipc-2026-p2-864e2f49931af289": "En el caso dado, el fenómeno esperable descripto por la consecuencia observacional se produjo. Recordá que la Falacia de afirmación del consecuente es la forma de argumento con la que se reconstruye la confirmación de hipótesis. Es decir que, cuando se verifica la consecuencia observacional (CO), se obtiene como conclusión la afirmación del antecedente de la primera premisa (compuesto por la hipótesis fundamental junto con la/s hipótesis auxiliar/es que se asumieron como conocimiento presupuesto en la contrastación).",
+    "ipc-2026-p2-f43bf737694f74bb": "En este ejercicio se pide que determines cuáles de las opciones expresan juicios de valor. Las respuestas correctas son las opciones 2 y 3 ya que allí se plantean afirmaciones valorativas (también llamadas normativas o evaluativas) que expresan la evaluación de un cierto fenómeno. El resto de las opciones presentan juicios de hecho, es decir, afirmaciones que nos dicen como son las cosas, esto es, enunciados que se refieren a estados de cosas, situaciones o eventos sobre los cuales se predican ciertas características y, por eso mismo, pueden ser examinados en términos de verdad o falsedad -la cual quedará determinada a través de contrastación empírica-.",
+    "ipc-2026-p2-b86a066340b2f5da": "En este ejercicio se pide que identifiques la consecuencia observacional del caso de investigación presentado. Para ello, es importante tener en cuenta que la consecuencia observacional es un enunciado empírico básico que expresa lo que cabe esperar a la luz de la hipótesis fundamental, dadas las condiciones iniciales en las que se lleva a cabo el experimento y la hipótesis auxiliar que se asume.",
+    "ipc-2026-p2-62eed260dd0bb7db": "En este ejercicio se pide que determines si el enunciado es verdadero o falso de acuerdo con el proceso de confirmación de las hipótesis científicas. Recordá que es imposible decir que una hipótesis científica es verdadera a partir de la verificación de su consecuencia observacional porque el razonamiento tiene forma de la Falacia de Afirmación del consecuente.",
+    "ipc-2026-p2-339435398142615a": "Una explicación nomológica deductiva da cuenta de un fenómeno particular (Ana presentó una fuerte crisis de estornudos y picazón en los ojos) a partir de una ley (Todas las personas que tienen alergia severa al polen presentan, en su presencia, estornudos y picazón en los ojos) y las condiciones de aplicación de la ley (Ana, que es alérgica al polen, estuvo en contacto con el polen de unos pinos). Las leyes en este tipo de explicación son enunciados generales universales que valen para todos los casos y el fenómeno a explicar es uno de los casos que cae bajo el alcance de la ley. En este ejercicio pedimos una explicación (Ana presentó una fuerte crisis de estornudos y picazón en los ojos) y no una predicción (Ana tendrá una crisis de estornudos).",
+    "ipc-2026-p2-462aa2beff542974": "En este ejercicio se pide que determines si un enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. De acuerdo con esta corriente, para que un enunciado pertenezca al ámbito de la ciencia empírica debe ser falsable, esto es, debe ser posible formular contra él enunciados básicos que funcionen como falsadores potenciales. Recordá que los falsadores potenciales son enunciados observacionales, existenciales, singulares, lógicamente posibles e incompatibles con la hipótesis (en este caso, el enunciado dado en la consigna). Esto último -la incompatibilidad- significa que no pueden ser verdaderos a la vez, la hipótesis y el enunciado básico falsador. El enunciado mencionado en este ejercicio no pertenece a la ciencia empírica puesto, que debido a los términos que emplea, no es posible formular falsadores potenciales en términos observacionales.",
+    "ipc-2026-p2-860e8ed031aee5bf": "Este ejercicio pide analizar el párrafo e identificar qué concepto de Kuhn ejemplifica. En este caso el período corresponde a una etapa previa a la constitución de la ciencia normal, en la que todavía no se ha consolidado un marco común capaz de orientar la investigación. El caso de la alquimia medieval y renacentista muestra un campo de estudio en formación, caracterizado por la coexistencia de enfoques diversos y por la ausencia de criterios compartidos para definir métodos, problemas y estándares de evaluación científica.",
+    "ipc-2026-p2-980c2b4814579686": "Este ejercicio pide determinar si el enunciado es verdadero o falso según la epistemología de Kuhn y justificar la respuesta. En este caso el enunciado es verdadero, porque durante la ciencia normal la comunidad científica trabaja a partir de compromisos conceptuales, teóricos y metodológicos compartidos que orientan la investigación y definen el marco en el que se explican los fenómenos que el paradigma aborda. De este modo, al aplicarse a nuevas áreas y generar soluciones a los problemas, el paradigma se consolida y amplía su alcance explicativo, produciendo así una acumulación de conocimiento sobre la naturaleza que el paradigma muestra.",
+    "ipc-2026-p2-9393e5917522bd03": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio se trata de la manifestación que llamamos \"exclusión y marginalización\": las historiadoras, sociólogas y antropólogas feministas han mostrado que a lo largo de la historia las mujeres han sido privadas de la posibilidad de formarse y ejercer la actividad científica. En ocasiones, esta exclusión se da de manera explícita y legal, como las prohibiciones para estudiar en la universidad y ejercer la actividad científica. También hay formas de exclusión menos explícitas, como la creencia social en que hay carreras \"de varones\" y \"de mujeres\". E incluso en los casos en los que las mujeres logran acceder sin trabas a la carrera científica, es frecuente que padezcan otras formas de marginalización: por ejemplo, progresar académicamente menos que sus pares varones aun con los mismos méritos. En este ejemplo se ve explícitamente esta manifestación con el impedimento hacia las mujeres en cuestión de realizar sus propias observaciones en los telescopios, lo que hubiera permitido hacer sus descubrimientos de primera mano, y también con la inferioridad de sus salarios respecto de sus colegas masculinos.",
+    "ipc-2026-p2-add09525aba56d28": "Este ejercicio pide identificar cuál es la afirmación sostenida por el empirismo feminista y rechazada por el postmodernismo feminista. La afirmación correcta es la que sostiene que la objetividad científica surge de la interacción crítica en el seno de una comunidad científica plural regulada por normas que permiten visibilizar y cuestionar los sesgos de género. En cambio, el postmodernismo feminista rechaza esta afirmación, ya que considera que no es factible alcanzar una representación única y objetiva de la realidad. Para esta corriente, el conocimiento es siempre contingente y las teorías científicas son solo distintos relatos o narraciones cuya aceptación constituye, en última instancia, un ejercicio de poder y no el resultado de un procedimiento que garantice la objetividad.",
+    "ipc-2026-p2-25ab921a808ff85c": "Este ejercicio pide identificar y fundamentar la posición del cientificismo respecto de la financiación de los proyectos científicos a través de un caso dado, que debe evaluase según esta posición. La perspectiva cientificista afirma que se debe priorizar el financiamiento de la ciencia básica, ya que la producción de conocimiento científico tiene valor intrínseco. El financiamiento de la ciencia no debe estar regido por las necesidades económicas o las demandas sociales inmediatas. En el caso propuesto, se trata de un proyecto de ciencia básica, por lo que no es necesario prever las aplicaciones inmediatas.",
+    "ipc-2026-p2-5590fd5789025fe5": "En este ejercicio se pide que determines cuáles de las opciones expresan juicios de valor. Las respuestas correctas son las opciones 2 y 4 ya que allí se plantean afirmaciones valorativas (también llamadas normativas o evaluativas) que expresan la evaluación de un cierto fenómeno. El resto de las opciones presentan juicios de hecho, es decir, afirmaciones que nos dicen cómo son las cosas, esto es, enunciados que se refieren a estados de cosas, situaciones o eventos sobre los cuales se predican ciertas características y, por eso mismo, pueden ser examinados en términos de verdad o falsedad -la cual quedará determinada a través de contrastación empírica-.",
+    "ipc-2026-p2-edf9838f1a030730": "En este ejercicio se pide que determines si el enunciado es verdadero o falso de acuerdo con el proceso de confirmación de las hipótesis científicas. Recordá que es imposible decir que una hipótesis científica es verdadera a partir de la verificación de su consecuencia observacional porque el razonamiento tiene forma de la Falacia de Afirmación del Consecuente.",
+    "ipc-2026-p2-efd4bd3fc4ae3f06": "En este ejercicio se pide que identifiques la hipótesis auxiliar del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis auxiliar es una hipótesis que cuenta con apoyo independiente previo y que se utiliza en la contrastación como conocimiento presupuesto para poder deducir la consecuencia observacional.",
+    "ipc-2026-p2-d93cc78c714e9097": "En el caso dado, el fenómeno esperable descripto por la consecuencia observacional se produjo. Recordá que la Falacia de afirmación del consecuente es la forma de argumento con la que se reconstruye la confirmación de hipótesis. Es decir que, cuando se verifica la consecuencia observacional (CO), se obtiene como conclusión la afirmación del antecedente de la primera premisa (compuesto por la hipótesis fundamental junto con la/s hipótesis auxiliar/es que se asumieron como conocimiento presupuesto en la contrastación).",
+    "ipc-2026-p2-684679384d732caf": "Una explicación inductivo estadística da cuenta de un fenómeno particular (Mario fue diagnosticado con epicondilitis lateral) a partir de una ley (La mayoría de las personas que realizan movimientos repetitivos con la muñeca desarrollan epicondilitis lateral) y las condiciones de aplicación de la ley (Mario estuvo usando intensivamente el mouse de la computadora durante varios días). Las leyes en este tipo de explicación no son universales sino probabilísticas, de modo que no abarcan todos los casos. En el ejercicio pedimos una explicación (Mario fue diagnosticado con epicondilitis lateral) y no una predicción (Mario tendrá epicondilitis lateral).",
+    "ipc-2026-p2-0429c0d4d2f6618c": "En este ejercicio debiste considerar, desde el punto de vista del confirmacionismo, un enunciado acerca de un aspecto central del progreso de la ciencia: el incremento en el grado de confirmación de las teorías. Según el confirmacionismo, el aumento progresivo del grado de confirmación (probabilidad o apoyo inductivo) de las teorías a medida que se acumula evidencia empírica favorable es una señal de progreso científico.",
+    "ipc-2026-p2-84b5399fd2a74a4f": "Este ejercicio pide analizar el párrafo e identificar qué concepto de Kuhn ejemplifica. El caso descrito corresponde a la inconmensurabilidad lingüística, ya que esta se produce cuando un cambio de paradigma transforma los marcos conceptuales dentro de los cuales los conceptos científicos adquieren su significado. El contraste entre la física aristotélica y la newtoniana muestra que términos como “movimiento” y “reposo”, aunque se conservan, designan realidades distintas en cada teoría: en la física aristotélica el movimiento se entiende en relación con los lugares naturales, mientras que en la física newtoniana se define mediante estados dinámicos y la acción de fuerzas. Este cambio impide una traducción directa entre ambos enfoques y constituye precisamente un caso de inconmensurabilidad entre paradigmas.",
+    "ipc-2026-p2-512bf64eed6b641a": "Este ejercicio pide determinar si el enunciado es verdadero o falso según la epistemología de Kuhn y justificar la respuesta. En este caso, el enunciado es falso porque, según Kuhn, la aparición de anomalías no genera automáticamente una crisis del paradigma sino solo cuando las anomalías se acumulan de manera significativa y no pueden ser explicadas dentro del paradimga vigente.",
+    "ipc-2026-p2-3b756eba9abf9b89": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio se trata de la manifestación que llamamos \"conceptualizaciones sexistas\": la crítica feminista de la historia de la ciencia permite detectar que, en muchos casos, el sexismo está presente en los propios conceptos que integran las hipótesis que, a su vez, constituyen las teorías. El modo en que se determina el significado de un concepto afecta toda la red de contenido informativo que conforma la teoría. Cuando el sexismo afecta la conceptualización, ese efecto se propaga en las diversas manifestaciones del discurso científico. En este caso, el mismo concepto de \"hormona masculina\" como opuesto a otra \"femenina\" permite derivar la premisa de \"personalidades opuestas\" que sería una de sus conscuencias. Los conceptos en sí mismos están atravesados, entonces, por el sexismo.",
+    "ipc-2026-p2-4385d6f42e119069": "Este ejercicio pide identificar cuál es la afirmación sostenida por el postmodernismo feminista y rechazada por el empirismo feminista. En este caso, la afirmación correcta es la que sostiene que las teorías científicas no son descripciones objetivas de la realidad, sino relatos cuya aceptación depende de relaciones de poder, por lo cual no es posible alcanzar una representación única y objetiva de lo real. El empirismo feminista rechaza esta posición, porque sostiene que la objetividad científica puede construirse mediante la interacción crítica intersubjetiva dentro de comunidades reguladas por normas.",
+    "ipc-2026-p2-6b51e888093f8c3b": "Este ejercicio pide identificar y fundamentar la posición del practicismo respecto de la financiación de los proyectos científicos a través de un caso dado, que debe evaluase según esta posición. La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde ese punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, el desarrollo mencionado contribuye directamente a estos objetivos.",
+    "ipc-2026-p2-d5f0f21d849d85af": "En este ejercicio se pide que determines cuáles de las opciones expresan juicios de valor. Las respuestas correctas son las opciones 2 y 3 ya que allí se plantean afirmaciones valorativas (también llamadas normativas o evaluativas) que expresan la evaluación de un cierto fenómeno. El resto de las opciones presentan juicios de hecho, es decir, afirmaciones que nos dicen cómo son las cosas, esto es, enunciados que se refieren a estados de cosas, situaciones o eventos sobre los cuales se predican ciertas características y, por eso mismo, pueden ser examinados en términos de verdad o falsedad -la cual quedará determinada a través de contrastación empírica-.",
+    "ipc-2026-p2-c7dbe106297bba9d": "Una explicación inductivo estadística da cuenta de un fenómeno particular (Mario fue diagnosticado con epicondilitis lateral) a partir de una ley (La mayoría de las personas que realizan movimientos repetitivos con la muñeca desarrollan epicondilitis lateral) y las condiciones de aplicación de la ley (Mario estuvo usando intensivamente el mouse de la computadora durante varios días). Las leyes en este tipo de explicación no son universales sino probabilísticas, de modo que no abarcan todos los casos. En el ejercicio pedimos una explicación y no una predicción.",
+    "ipc-2026-p2-03c2d79d9bd7ed72": "Este ejercicio pide determinar si el enunciado es verdadero o falso según la epistemología de Kuhn y justificar la respuesta. En este caso, el enunciado es falso porque, según Kuhn, la aparición de anomalías no genera automáticamente una crisis del paradigma sino solo cuando las anomalías se acumulan de manera significativa y no pueden ser explicadas dentro del paradigma vigente."
   },
   "examenes": [
     {
@@ -3424,6 +3473,2080 @@ registrarMateria({
           ]
         }
       ]
+    },
+    {
+      "id": "buacar-2026-05-29",
+      "nombre": "2º parcial · 29/05/2026",
+      "catedra": "A · Buacar, Natalia",
+      "fecha": "2026-05-29",
+      "detalle": "Cátedra A · Buacar, Natalia. 10 ejercicios de 1 punto. Sin puntaje parcial.",
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "IPC_2026_A.pdf",
+          "paginas": 6,
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas y en el ejercicio 10 hay que marcar las dos opciones correctas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identificá la hipótesis fundamental.\n\nExiste una creencia extendida en el diseño de oficinas que sostiene que la influencia de la iluminación sobre el rendimiento laboral depende exclusivamente de la intensidad lumínica (a más brillo, más alerta), independientemente del color de la fuente. Sin embargo, una corriente de investigadores postula que lo que influye en los procesos atencionales es el espectro cromático. En particular, un grupo de investigadores propuso que la exposición a luz azul de onda corta mejora el rendimiento en tareas que requieren atención sostenida, esto es, tareas que requieren mantener la atención durante un período de tiempo. En un estudio seleccionaron a 40 estudiantes y los dividieron en dos grupos. El grupo A realizó tareas bajo una luminaria de color azul (de onda corta), mientras que el grupo B lo hizo bajo una luz ámbar (de mayor longitud de onda). Ambas luces LED se calibraron a la misma intensidad lumínica (50 lux). Se utilizó como indicador de los niveles de atención el desempeño de los estudiantes en el Test de Eriksen. Este test consiste en una tarea computarizada donde el sujeto debe identificar la dirección de una flecha central rodeada de distractores, para lo cual se requiere atención sostenida. Los individuos del grupo A tuvieron un mejor desempeño en el test de Eriksen.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Los participantes del grupo A tendrán un mejor desempeño en el Test de Eriksen que los del grupo B.",
+                    "La exposición a luz azul de longitud de onda corta incrementa el rendimiento en tareas que requieren atención sostenida.",
+                    "La tarea del test de Eriksen requiere atención sostenida.",
+                    "El rendimiento laboral de los empleados de oficinas mejora si se utilizan luces de colores para la iluminación.",
+                    "50 lux es una intensidad lumínica elevada.",
+                    "Los dos grupos tendrán el mismo desempeño en el Test de Eriksen."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Indicá por qué el enunciado que elegiste en A como hipótesis fundamental funciona como tal en el caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado general que se pone a prueba en la investigación.",
+                    "Porque es un enunciado singular o muestral que describe un fenómeno observable que debería suceder en caso de que la hipótesis fuera verdadera.",
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-2026-p2-29d3f9a5b09b8d3d",
+              "notaEspecifica": true
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa.\n\nCuando el resultado de la contrastación empírica es favorable, la hipótesis puesta a prueba se considera verdadera.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque es imposible probar mediante experimentos la falsedad de las hipótesis empíricas.",
+                    "Porque el razonamiento que permite reconstruir la verificación de la consecuencia observacional es la Falacia de afirmación del antecedente.",
+                    "Porque la forma de razonamiento que permite reconstruir el resultado favorable es la Falacia de afirmación del consecuente.",
+                    "Porque a partir de la contrastación con resultado favorable podemos tener certeza sobre la verdad de una hipótesis científica."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-a003a04cdfefe3d5",
+              "notaEspecifica": true
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Juan experimentó somnolencia.\n\nCompletá la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Juan tomó antihistamínicos esta mañana.",
+                    "Todas las personas que consumen antihistamínicos experimentan somnolencia.",
+                    "La mayoría de las personas que consumen antihistamínicos experimentan somnolencia.",
+                    "Si Juan duerme pocas horas entonces experimenta somnolencia.",
+                    "Juan estará somnoliento durante todo el día.",
+                    "Juan se acostó muy tarde y durmió pocas horas."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Juan tomó antihistamínicos esta mañana.",
+                    "Todas las personas que consumen antihistamínicos experimentan somnolencia.",
+                    "La mayoría de las personas que consumen antihistamínicos experimentan somnolencia.",
+                    "Si Juan duerme pocas horas entonces experimenta somnolencia.",
+                    "Juan estará somnoliento durante todo el día.",
+                    "Juan se acostó muy tarde y durmió pocas horas."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-2026-p2-4a9f34919ccc161e",
+              "notaEspecifica": true
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la posición del FALSACIONISMO de Popper.\n\nEl progreso científico se detiene cuando una teoría alcanza un grado de corroboración elevado que indica que ya no necesita ser contrastada.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque al alcanzar un alto grado de corroboración empírica dejamos de buscar nuevos casos de aplicación.",
+                    "Porque, dado que no tenemos manera de saber que hemos arribado a la verdad, la contrastación nunca finaliza y el progreso continúa indefinidamente.",
+                    "Porque, si la teoría alcanzó un grado de corroboración suficiente, los científicos acuerdan descartar la necesidad de buscar más evidencia para refutarla.",
+                    "Porque, aunque la teoría reciba un alto grado de probabilidad, después de superar intentos de refutación, la contrastación continúa."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-2026-p2-39a73e705ab28949",
+              "notaEspecifica": true
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná qué concepto de la epistemología de Kuhn se ejemplifica en el siguiente párrafo.\n\nDurante décadas, la comunidad científica dedicada a la física trabajó dentro del marco de la teoría newtoniana. En ese contexto, resolvió con éxito los problemas relativos al movimiento de los cuerpos y extendió la aplicación de sus leyes a nuevos casos.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Ciencia Normal",
+                    "Anomalía",
+                    "Progreso no acumulativo",
+                    "Preciencia"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque la actividad científica se centra en la resolución de problemas cuya solución exige modificar gradualmente los principios teóricos del paradigma newtoniano.",
+                    "Porque la investigación en física se organizó en torno a la resolución de enigmas, habiendo adoptado la teoría de Newton como paradigmática.",
+                    "Porque surgen problemas que desafían al paradigma newtoniano, al aparecer fenómenos que no pueden ser explicados por sus principios y leyes.",
+                    "Porque, aunque resolvía los problemas del movimiento de los cuerpos, posteriormente Einstein demostró que la teoría de Newton era falsa y no describía correctamente la naturaleza."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-2026-p2-ca89832c8116553d",
+              "notaEspecifica": true
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la epistemología de Kuhn.\n\nLa preciencia se caracteriza por la inexistencia de una matriz disciplinar compartida.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque aun con teorías rivales, en la preciencia los investigadores forman una comunidad científica unificada que guía el desarrollo del área.",
+                    "Porque la preciencia es el período en el que la comunidad científica ha perdido confianza en el paradigma.",
+                    "Porque en la etapa de preciencia no existen acuerdos estables sobre los problemas relevantes, los métodos legítimos ni los criterios de evaluación.",
+                    "Porque incluso en la preciencia los investigadores ya siguen un conjunto de reglas y métodos gracias a los cuales pueden contrastar sus teorías."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-c11444d4c9fa9072",
+              "notaEspecifica": true
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé el siguiente caso y determiná de qué tipo de manifestación del androcentrismo y sexismo en ciencia se trata.\n\nA principios del siglo XX, la genetista Nettie Stevens, tras estudiar los escarabajos Tenebrio molitor, descubrió que la determinación del sexo dependía de los cromosomas (X e Y). Casi simultáneamente, el influyente biólogo Edmund Beecher Wilson llegó a conclusiones similares. Sin embargo, durante décadas los libros de texto y la comunidad científica atribuyeron el descubrimiento exclusivamente a Wilson, relegando el trabajo de Stevens a una mera asistencia técnica, a pesar de que sus pruebas experimentales habían sido más completas y definitivas.",
+              "o": [
+                "Exclusión y marginalización.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Teorías sexistas.",
+                "Aplicaciones sexistas."
+              ],
+              "c": 1,
+              "k": "ipc-2026-p2-b503a68b986d6e3d",
+              "notaEspecifica": true
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indicá cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "La objetividad científica es el resultado de la interacción crítica entre los diversos miembros de una comunidad de conocimiento regulada por normas para detectar sesgos de género.",
+                "Dado que la opresión se manifiesta de maneras diversas según la etnia, la clase o la identidad sexual, no puede afirmarse que existe una perspectiva propia de las mujeres.",
+                "El estilo cognitivo femenino, por ser relacional y concreto, permite percibir el mundo de una manera que resulta inaccesible para el estilo analítico y abstracto de los varones.",
+                "La idea de que existe algo que es “la mujer” debe abandonarse y ser reemplazada por los múltiples rasgos que componen la pluralidad de identidades de los sujetos cognoscentes."
+              ],
+              "c": 2,
+              "k": "ipc-2026-p2-d5b0da8970b3cbab",
+              "notaEspecifica": true
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé la siguiente caracterización de un proyecto de investigación y decidí si el practicismo daría prioridad al financiamiento del mismo y por qué.\n\nEl investigador del Conicet Martín Palazzolo y su equipo en el Instituto de Biología Agrícola de Mendoza trabajan en un proyecto que busca validar en laboratorio un proceso que convierta la yerba mate usada en bioaceite con potencial comercial. La clave es la pirólisis, una técnica de degradación térmica en ausencia de oxígeno que permite transformar la biomasa.",
+              "o": [
+                "No, porque según el practicismo se deben priorizar los proyectos que desarrollen la ciencia básica, ya que esta nos permite comprender el mundo y es la base sin la cual no es posible lograr aplicaciones prácticas.",
+                "Sí, porque el proyecto de Palazzolo tiene un importante potencial económico, ya que permitiría obtener un producto con valor comercial a partir de una materia vegetal que comunmente se desecha.",
+                "Sí, porque según el practicismo se debe dar total libertad a los investigadores sin subordinarlos a objetivos económicos o sociales.",
+                "No, porque la transformación de la yerba mate usada en aceite está fundada en conocimientos proporcionados por la ciencia pura los cuales deben ser siempre priorizados."
+              ],
+              "c": 1,
+              "k": "ipc-2026-p2-a69458a790d69a74",
+              "notaEspecifica": true
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dados los siguientes enunciados, identificá los dos que expresan juicios de hecho.",
+              "o": [
+                "Es inaceptable restringir derechos políticos en nombre de la estabilidad institucional.",
+                "La democracia es el mejor sistema político para garantizar la justicia social.",
+                "Para sostener una democracia activa es justo requerir el compromiso de la ciudadanía.",
+                "Los sistemas democráticos adoptan distintas formas institucionales según su contexto histórico.",
+                "En muchas democracias representativas, las autoridades políticas son elegidas mediante elecciones obligatorias."
+              ],
+              "elegir": 2,
+              "correctas": [
+                3,
+                4
+              ],
+              "k": "ipc-2026-p2-7ff37c6253efb0b0",
+              "notaEspecifica": true
+            }
+          ]
+        },
+        {
+          "id": "t2",
+          "n": "Tema 2",
+          "fuente": "IPC_2026_B.pdf",
+          "paginas": 6,
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas y en el ejercicio 10 hay que marcar las dos opciones correctas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identificá la hipótesis fundamental.\n\nExiste una creencia extendida en el diseño de oficinas que sostiene que la influencia de la iluminación sobre el rendimiento laboral depende exclusivamente de la intensidad lumínica (a más brillo, más alerta), independientemente del color de la fuente. Sin embargo, una corriente de investigadores postula que lo que influye en los procesos atencionales es el espectro cromático. En particular, un grupo de investigadores propuso que la exposición a luz azul de onda corta mejora el rendimiento en tareas que requieren atención sostenida, esto es, tareas que requieren mantener la atención durante un período de tiempo. En un estudio seleccionaron a 40 estudiantes y los dividieron en dos grupos. El grupo A realizó tareas bajo una luminaria de color azul (de onda corta), mientras que el grupo B lo hizo bajo una luz ámbar (de mayor longitud de onda). Ambas luces LED se calibraron a la misma intensidad lumínica (50 lux). Se utilizó como indicador de los niveles de atención el desempeño de los estudiantes en el Test de Eriksen. Este test consiste en una tarea computarizada donde el sujeto debe identificar la dirección de una flecha central rodeada de distractores, para lo cual se requiere atención sostenida. Los individuos del grupo A tuvieron un mejor desempeño en el test de Eriksen.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "La tarea del test de Eriksen requiere atención sostenida.",
+                    "50 lux es una intensidad lumínica elevada.",
+                    "Los participantes del grupo A tendrán un mejor desempeño en el Test de Eriksen que los del grupo B.",
+                    "El rendimiento laboral de los empleados de oficinas mejora si se utilizan luces de colores para la iluminación.",
+                    "La exposición a luz azul de longitud de onda corta incrementa el rendimiento en tareas que requieren atención sostenida.",
+                    "Los dos grupos tendrán el mismo desempeño en el Test de Eriksen."
+                  ],
+                  "c": 4
+                },
+                {
+                  "r": "B. Indicá por qué el enunciado que elegiste en A como hipótesis fundamental funciona como tal en el caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado singular o muestral que describe un fenómeno observable que debería suceder en caso de que la hipótesis fuera verdadera.",
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional.",
+                    "Porque es un enunciado general que se pone a prueba en la investigación."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-2026-p2-29d3f9a5b09b8d3d",
+              "notaEspecifica": true
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa.\n\nCuando el resultado de la contrastación empírica es favorable, la hipótesis puesta a prueba se considera verdadera.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque la forma de razonamiento que permite reconstruir el resultado favorable es la Falacia de afirmación del consecuente.",
+                    "Porque el razonamiento que permite reconstruir la verificación de la consecuencia observacional es la Falacia de afirmación del antecedente.",
+                    "Porque es imposible probar mediante experimentos la falsedad de las hipótesis empíricas.",
+                    "Porque a partir de la contrastación con resultado favorable podemos tener certeza sobre la verdad de una hipótesis científica."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-2026-p2-a003a04cdfefe3d5",
+              "notaEspecifica": true
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el explanandum: Juan experimentó somnolencia.\n\nCompletá la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Si Juan duerme pocas horas entonces experimenta somnolencia.",
+                    "La mayoría de las personas que consumen antihistamínicos experimentan somnolencia.",
+                    "Juan tomó antihistamínicos esta mañana.",
+                    "Juan se acostó muy tarde y durmió pocas horas.",
+                    "Juan estará somnoliento durante todo el día.",
+                    "Todas las personas que consumen antihistamínicos experimentan somnolencia."
+                  ],
+                  "c": 5
+                },
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Si Juan duerme pocas horas entonces experimenta somnolencia.",
+                    "La mayoría de las personas que consumen antihistamínicos experimentan somnolencia.",
+                    "Juan tomó antihistamínicos esta mañana.",
+                    "Juan se acostó muy tarde y durmió pocas horas.",
+                    "Juan estará somnoliento durante todo el día.",
+                    "Todas las personas que consumen antihistamínicos experimentan somnolencia."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-87c64d0978721bcf",
+              "notaEspecifica": true
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la posición del FALSACIONISMO de Popper.\n\nEl progreso científico se detiene cuando una teoría alcanza un grado de corroboración elevado que indica que ya no necesita ser contrastada.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque al alcanzar un alto grado de corroboración empírica dejamos de buscar nuevos casos de aplicación.",
+                    "Porque, aunque la teoría reciba un alto grado de probabilidad, después de superar intentos de refutación, la contrastación continúa.",
+                    "Porque, si la teoría alcanzó un grado de corroboración suficiente, los científicos acuerdan descartar la necesidad de buscar más evidencia para refutarla.",
+                    "Porque, dado que no tenemos manera de saber que hemos arribado a la verdad, la contrastación nunca finaliza y el progreso continúa indefinidamente."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-2026-p2-39a73e705ab28949",
+              "notaEspecifica": true
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná qué concepto de la epistemología de Kuhn se ejemplifica en el siguiente párrafo.\n\nDurante décadas, la comunidad científica dedicada a la física trabajó dentro del marco de la teoría newtoniana. En ese contexto, resolvió con éxito los problemas relativos al movimiento de los cuerpos y extendió la aplicación de sus leyes a nuevos casos.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Progreso no acumulativo",
+                    "Ciencia Normal",
+                    "Preciencia",
+                    "Anomalía"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque la actividad científica se centra en la resolución de problemas cuya solución exige modificar gradualmente los principios teóricos del paradigma newtoniano.",
+                    "Porque surgen problemas que desafían al paradigma newtoniano, al aparecer fenómenos que no pueden ser explicados por sus principios y leyes.",
+                    "Porque la investigación en física se organizó en torno a la resolución de enigmas, habiendo adoptado la teoría de Newton como paradigmática.",
+                    "Porque, aunque resolvía los problemas del movimiento de los cuerpos, posteriormente Einstein demostró que la teoría de Newton era falsa y no describía correctamente la naturaleza."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-ca89832c8116553d",
+              "notaEspecifica": true
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la epistemología de Kuhn.\n\nLa preciencia se caracteriza por la inexistencia de una matriz disciplinar compartida.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque incluso en la preciencia los investigadores ya siguen un conjunto de reglas y métodos gracias a los cuales pueden contrastar sus teorías.",
+                    "Porque la preciencia es el período en el que la comunidad científica ha perdido confianza en el paradigma.",
+                    "Porque en la etapa de preciencia no existen acuerdos estables sobre los problemas relevantes, los métodos legítimos ni los criterios de evaluación.",
+                    "Porque aun con teorías rivales, en la preciencia los investigadores forman una comunidad científica unificada que guía el desarrollo del área."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-c11444d4c9fa9072",
+              "notaEspecifica": true
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé el siguiente caso y determiná de qué tipo de manifestación del androcentrismo y sexismo en ciencia se trata.\n\nA principios del siglo XX, la genetista Nettie Stevens, tras estudiar los escarabajos Tenebrio molitor, descubrió que la determinación del sexo dependía de los cromosomas (X e Y). Casi simultáneamente, el influyente biólogo Edmund Beecher Wilson llegó a conclusiones similares. Sin embargo, durante décadas los libros de texto y la comunidad científica atribuyeron el descubrimiento exclusivamente a Wilson, relegando el trabajo de Stevens a una mera asistencia técnica, a pesar de que sus pruebas experimentales habían sido más completas y definitivas.",
+              "o": [
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Exclusión y marginalización.",
+                "Teorías sexistas.",
+                "Aplicaciones sexistas."
+              ],
+              "c": 0,
+              "k": "ipc-2026-p2-b503a68b986d6e3d",
+              "notaEspecifica": true
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indicá cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "La objetividad científica es el resultado de la interacción crítica entre los diversos miembros de una comunidad de conocimiento regulada por normas para detectar sesgos de género.",
+                "Dado que la opresión se manifiesta de maneras diversas según la etnia, la clase o la identidad sexual, no puede afirmarse que existe una perspectiva propia de las mujeres.",
+                "La idea de que existe algo que es “la mujer” debe abandonarse y ser reemplazada por los múltiples rasgos que componen la pluralidad de identidades de los sujetos cognoscentes.",
+                "El estilo cognitivo femenino, por ser relacional y concreto, permite percibir el mundo de una manera que resulta inaccesible para el estilo analítico y abstracto de los varones."
+              ],
+              "c": 3,
+              "k": "ipc-2026-p2-d5b0da8970b3cbab",
+              "notaEspecifica": true
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé la siguiente caracterización de un proyecto de investigación y decidí si el practicismo daría prioridad al financiamiento del mismo y por qué.\n\nEl investigador del Conicet Martín Palazzolo y su equipo en el Instituto de Biología Agrícola de Mendoza trabajan en un proyecto que busca validar en laboratorio un proceso que convierta la yerba mate usada en bioaceite con potencial comercial. La clave es la pirólisis, una técnica de degradación térmica en ausencia de oxígeno que permite transformar la biomasa.",
+              "o": [
+                "No, porque según el practicismo se deben priorizar los proyectos que desarrollen la ciencia básica, ya que esta nos permite comprender el mundo y es la base sin la cual no es posible lograr aplicaciones prácticas.",
+                "Sí, porque según el practicismo se debe dar total libertad a los investigadores sin subordinarlos a objetivos económicos o sociales.",
+                "No, porque la transformación de la yerba mate usada en aceite está fundada en conocimientos proporcionados por la ciencia pura los cuales deben ser siempre priorizados.",
+                "Sí, porque el proyecto de Palazzolo tiene un importante potencial económico, ya que permitiría obtener un producto con valor comercial a partir de una materia vegetal que comunmente se desecha."
+              ],
+              "c": 3,
+              "k": "ipc-2026-p2-b8e2b8dc0a5d3a9c",
+              "notaEspecifica": true
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dados los siguientes enunciados, identificá los dos que expresan juicios de hecho.",
+              "o": [
+                "Es inaceptable restringir derechos políticos en nombre de la estabilidad institucional.",
+                "Para sostener una democracia activa es justo requerir el compromiso de la ciudadanía.",
+                "La democracia es el mejor sistema político para garantizar la justicia social.",
+                "En muchas democracias representativas, las autoridades políticas son elegidas mediante elecciones obligatorias.",
+                "Los sistemas democráticos adoptan distintas formas institucionales según su contexto histórico."
+              ],
+              "elegir": 2,
+              "correctas": [
+                3,
+                4
+              ],
+              "k": "ipc-2026-p2-6850c228f1af9b10",
+              "notaEspecifica": true
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "IPC_2026_C.pdf",
+          "paginas": 6,
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas y en el ejercicio 10 hay que marcar las dos opciones correctas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identificá la hipótesis auxiliar.\n\n¿Escuchar música de Mozart tiene efectos cognitivos? En 1993, la psicóloga Frances Rauscher propuso que la exposición a la música de Mozart mejora el razonamiento visual-espacial. Para probarlo, dividió a estudiantes en tres grupos: durante 10 minutos el primer grupo escuchó a Mozart, el segundo escuchó instrucciones de relajación y el tercero permaneció en silencio. Pasados los 10 minutos, los investigadores evaluaron a los participantes con el test de Stanford-Binet. Este test incluye tareas como armar rompecabezas, encajar formas geométricas y completar patrones visuales, que requieren razonamiento visual-espacial. Los resultados mostraron que el grupo que escuchó a Mozart obtuvo puntuaciones significativamente más altas que los otros dos grupos.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "La resolución de las tareas del test de Stanford-Binet requiere razonamiento visual-espacial.",
+                    "La exposición a la música de Mozart mejora el razonamiento visual-espacial.",
+                    "Los estudiantes que escucharon a Mozart obtendrán mayores puntajes en el test de Stanford-Binet que los grupos de relajación y silencio.",
+                    "La exposición a música de Mozart aumenta el coeficiente intelectual de forma permanente.",
+                    "El grupo que permaneció en silencio alcanzará un mayor nivel de concentración.",
+                    "Los estudiantes con mayor nivel de razonamiento visual-espacial prefieren estar en silencio durante el trabajo intelectual."
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Indicá por qué el enunciado que elegiste en A como hipótesis auxiliar funciona como tal en el caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado singular o muestral que se deduce de la hipótesis y describe un hecho que debería suceder en caso de que la hipótesis fuera verdadera.",
+                    "Porque es un enunciado singular que no se pone a prueba en la investigación.",
+                    "Porque es un enunciado general que describe el fenómeno que se investiga.",
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-2026-p2-6db0ebad0518ab02",
+              "notaEspecifica": true
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la forma de argumento que se presenta a continuación corresponde a la contrastación de hipótesis relatada en el ejercicio 1.\n\nSi (HF y HA) entonces CO\nCO\nHF y HA",
+              "partes": [
+                {
+                  "r": "A. ¿Corresponde?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque los estudiantes que escucharon a Mozart no obtuvieron mayores puntajes en el referido test que los otros grupos.",
+                    "Porque cuando la consecuencia observacional es falsa, se concluye la conjunción de la verdad de HF y la falsedad de HA.",
+                    "Porque cuando la consecuencia observacional es verdadera, se concluye la conjunción de HF y HA por la Falacia de afirmación del consecuente.",
+                    "Porque se aplicó la forma de argumento denominada \"Falacia de negación del antecedente\", en la que se concluye que la CO ha sido verificada."
+                  ],
+                  "c": 2
+                }
+              ],
+              "ctx": "Caso del ejercicio 1:\n\n¿Escuchar música de Mozart tiene efectos cognitivos? En 1993, la psicóloga Frances Rauscher propuso que la exposición a la música de Mozart mejora el razonamiento visual-espacial. Para probarlo, dividió a estudiantes en tres grupos: durante 10 minutos el primer grupo escuchó a Mozart, el segundo escuchó instrucciones de relajación y el tercero permaneció en silencio. Pasados los 10 minutos, los investigadores evaluaron a los participantes con el test de Stanford-Binet. Este test incluye tareas como armar rompecabezas, encajar formas geométricas y completar patrones visuales, que requieren razonamiento visual-espacial. Los resultados mostraron que el grupo que escuchó a Mozart obtuvo puntuaciones significativamente más altas que los otros dos grupos.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "k": "ipc-2026-p2-2374148fe63554bb",
+              "notaEspecifica": true
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dada la ley: La mayoría de las personas que presentan niveles altos de cortisol experimentan dificultades para recordar contenidos durante una evaluación.\n\nCompletá la siguiente explicación de modo que resulte una explicación inductivo estadística.",
+              "partes": [
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Lucas se bloqueará durante el examen final.",
+                    "Las pruebas de saliva mostraron que Lucas tenía niveles de cortisol muy elevados antes de entrar al aula.",
+                    "Lucas no puede concentrarse durante el examen.",
+                    "Lucas se acostó muy tarde y durmió pocas horas.",
+                    "Lucas tuvo dificultades para recordar contenidos durante su examen final.",
+                    "Si Lucas duerme pocas horas entonces no puede concentrarse durante el examen."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "E. Explanandum",
+                  "o": [
+                    "Lucas se bloqueará durante el examen final.",
+                    "Las pruebas de saliva mostraron que Lucas tenía niveles de cortisol muy elevados antes de entrar al aula.",
+                    "Lucas no puede concentrarse durante el examen.",
+                    "Lucas se acostó muy tarde y durmió pocas horas.",
+                    "Lucas tuvo dificultades para recordar contenidos durante su examen final.",
+                    "Si Lucas duerme pocas horas entonces no puede concentrarse durante el examen."
+                  ],
+                  "c": 4
+                }
+              ],
+              "k": "ipc-2026-p2-8f4ee30bae56925e",
+              "notaEspecifica": true
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la posición del CONFIRMACIONISMO (o inductivismo crítico) de Hempel.\n\nLa inducción permite probar de forma definitiva la verdad de todas las hipótesis universales.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque, dado que todos los casos del conjunto mencionado por las hipótesis universales son semejantes, la inducción nos da certeza sobre su verdad.",
+                    "Porque no todas la hipótesis universales pueden ser verificadas ya que algunas de ellas se refieren a un número infinito de casos.",
+                    "Porque la deducción es el único método que nos permite probar de forma definitiva la verdad de todas las hipótesis universales.",
+                    "Porque en la justificación de hipótesis universales la inducción no cumple ninguna función."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-2026-p2-427b2eec7e56d923",
+              "notaEspecifica": true
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná qué concepto de la epistemología de Kuhn se ejemplifica en el siguiente párrafo.\n\nCiertas observaciones astronómicas no podían ser explicadas adecuadamente por el modelo geocéntrico, aun cuando se introducían ajustes y correcciones cada vez más complejas.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Revolución científica",
+                    "Enigma",
+                    "Preciencia",
+                    "Anomalía"
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque el geocentrismo no logró consolidarse como un paradigma científico, haciendo que se disuelva la comunidad científica y se generen nuevamente escuelas heterogéneas.",
+                    "Porque el geocentrismo, al dejar de ofrecer soluciones satisfactorias a los problemas empíricos, perdió su capacidad explicativa y fue reemplazado por un nuevo paradigma.",
+                    "Porque se trata de fenómenos empíricos persistentes que no logran integrarse satisfactoriamente en el paradigma geocéntrico, erosionando la confianza en su capacidad explicativa.",
+                    "Porque el paradigma anterior fue reemplazado por uno nuevo incompatible con él, que reorganizó la investigación científica y modificó los criterios de explicación aceptados."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-eaf9ac9e5574e2ae",
+              "notaEspecifica": true
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la epistemología de Kuhn.\n\nUn paradigma, entendido como matriz disciplinar, está compuesto por un único componente: una teoría científica que orienta la investigación.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque el paradigma, como matriz disciplinar, es la teoría que se impone sobre las demás por su mayor éxito explicativo y predictivo.",
+                    "Porque las teorías científicas pueden formularse y evaluarse con independencia del paradigma y la comunidad científica.",
+                    "Porque cualquier teoría científica que logre explicar un fenómeno se convierte automáticamente en paradigma dominante.",
+                    "Porque el paradigma no se reduce a una teoría, sino que incluye problemas, métodos y supuestos metafísicos compartidos."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-2026-p2-5d771b5c97609532",
+              "notaEspecifica": true
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé el siguiente caso y determiná de qué tipo de manifestación del androcentrismo y sexismo en ciencia se trata.\n\nDurante gran parte del siglo XIX y XX, la mayoría de los ensayos clínicos para probar la eficacia y seguridad de nuevos medicamentos –incluyendo fármacos para el colesterol o la hipertensión– se realizaron exclusivamente en hombres jóvenes de peso promedio. Se argumentaba que el ciclo hormonal femenino introducía \"variables confusas\" que complicaban los resultados. Como consecuencia, muchas mujeres sufrieron efectos secundarios graves o dosis inadecuadas al utilizar fármacos que nunca habían sido probados de forma adecuada para cuerpos femeninos.",
+              "o": [
+                "Techo de cristal.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Aplicaciones sexistas.",
+                "Exclusión y marginalización."
+              ],
+              "c": 2,
+              "k": "ipc-2026-p2-49dc6fc09d82f5fb",
+              "notaEspecifica": true
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indicá cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por la teoría feminista del punto de vista.",
+              "o": [
+                "La situación social de las mujeres les otorga un privilegio epistémico superior para percibir y comprender las regularidades del sistema patriarcal.",
+                "El concepto de \"la mujer\" debe ser eliminado del discurso científico para que se reconozca la pluralidad de identidades contingentes que se entrecruzan en los sujetos.",
+                "La aceptabilidad de las teorías depende de los resultados de la contrastación empirica, que elimina por sí misma todos los sesgos de género y valores que pueden perturbar la investigación.",
+                "La interacción crítica en el seno de una comunidad científica plural es el fundamento de la objetividad científica y permite identificar y cuestionar los sesgos de género."
+              ],
+              "c": 3,
+              "k": "ipc-2026-p2-4c28979d389a4747",
+              "notaEspecifica": true
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé la siguiente caracterización de un proyecto de investigación y decidí si el cientificismo daría prioridad al financiamiento del mismo y por qué.\n\nTomás Pedernera, investigador del Conicet, forma parte del grupo de Paleobiología y Paleoecología que estudia los restos fósiles de plantas que habitaron la Tierra en el pasado. En una entrevista reciente para la publicación virtual Unidiversidad, Pedernera subraya que conocer la historia de la vida en la Tierra nos ayuda a comprender cómo fueron los procesos evolutivos.",
+              "o": [
+                "No, porque el estudio de los restos fósiles de las plantas que habitaron la tierra en el pasado no contribuye al desarrollo la capacidad crítica de la ciudadanía, que debe ser el objetivo prioritario de la financiación.",
+                "Sí, porque el estudio de los restos fósiles de plantas es útil dentro de la exploración petrolera, permitiendo identificar rocas y así datar los yacimientos.",
+                "Sí, porque el conocimiento de la historia evolutiva de la vida en la Tierra es una investigación en ciencia básica que debe priorizarse, aunque no tenga en lo inmediato una aplicación práctica.",
+                "No, porque el estudio de los restos fósiles de plantas no contribuye al desarrollo ecónomico del país, objetivo que debe ser prioritario en la asignación de recursos."
+              ],
+              "c": 2,
+              "k": "ipc-2026-p2-c919b776965b18bf",
+              "notaEspecifica": true
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dados los siguientes enunciados, identificá los dos que expresan juicios de valor.",
+              "o": [
+                "Algunas tecnologías han tenido consecuencias no previstas para las sociedades durante su implementación.",
+                "La evaluación de los riesgos tecnológicos no debe limitarse exclusivamente a criterios tecno-científicos.",
+                "El uso de smartphones ha incrementado la rapidez de comunicación entre personas y organizaciones en contextos urbanos desde 2010.",
+                "Investigar sin considerar los posibles usos sociales del conocimiento es una forma de ejercicio profesional irresponsable.",
+                "Investigaciones científicas en física y química han permitido el desarrollo de nuevas tecnologías, como baterías de mayor duración."
+              ],
+              "elegir": 2,
+              "correctas": [
+                1,
+                3
+              ],
+              "k": "ipc-2026-p2-6a0a1bc3d5979481",
+              "notaEspecifica": true
+            }
+          ]
+        },
+        {
+          "id": "t4",
+          "n": "Tema 4",
+          "fuente": "IPC_2026_D.pdf",
+          "paginas": 6,
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas y en el ejercicio 10 hay que marcar las dos opciones correctas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identificá la hipótesis auxiliar.\n\n¿Escuchar música de Mozart tiene efectos cognitivos? En 1993, la psicóloga Frances Rauscher propuso que la exposición a la música de Mozart mejora el razonamiento visual-espacial. Para probarlo, dividió a estudiantes en tres grupos: durante 10 minutos el primer grupo escuchó a Mozart, el segundo escuchó instrucciones de relajación y el tercero permaneció en silencio. Pasados los 10 minutos, los investigadores evaluaron a los participantes con el test de Stanford-Binet. Este test incluye tareas como armar rompecabezas, encajar formas geométricas y completar patrones visuales, que requieren razonamiento visual-espacial. Los resultados mostraron que el grupo que escuchó a Mozart obtuvo puntuaciones significativamente más altas que los otros dos grupos.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Los estudiantes que escucharon a Mozart obtendrán mayores puntajes en el test de Stanford-Binet que los grupos de relajación y silencio.",
+                    "La resolución de las tareas del test de Stanford-Binet requiere razonamiento visual-espacial.",
+                    "La exposición a la música de Mozart mejora el razonamiento visual-espacial.",
+                    "Los estudiantes con mayor nivel de razonamiento visual-espacial prefieren estar en silencio durante el trabajo intelectual.",
+                    "El grupo que permaneció en silencio alcanzará un mayor nivel de concentración.",
+                    "La exposición a música de Mozart aumenta el coeficiente intelectual de forma permanente."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Indicá por qué el enunciado que elegiste en A como hipótesis auxiliar funciona como tal en el caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado singular o muestral que se deduce de la hipótesis y describe un hecho que debería suceder en caso de que la hipótesis fuera verdadera.",
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional.",
+                    "Porque es un enunciado singular que no se pone a prueba en la investigación.",
+                    "Porque es un enunciado general que describe el fenómeno que se investiga."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-2026-p2-6db0ebad0518ab02",
+              "notaEspecifica": true
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la forma de argumento que se presenta a continuación corresponde a la contrastación de hipótesis relatada en el ejercicio 1.\n\nSi (HF y HA) entonces CO\nCO\nHF y HA",
+              "partes": [
+                {
+                  "r": "A. ¿Corresponde?",
+                  "formato": "texto",
+                  "o": [
+                    "Sí",
+                    "No"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque cuando la consecuencia observacional es falsa, se concluye la conjunción de la verdad de HF y la falsedad de HA.",
+                    "Porque los estudiantes que escucharon a Mozart no obtuvieron mayores puntajes en el referido test que los otros grupos.",
+                    "Porque se aplicó la forma de argumento denominada \"Falacia de negación del antecedente\", en la que se concluye que la CO ha sido verificada.",
+                    "Porque cuando la consecuencia observacional es verdadera, se concluye la conjunción de HF y HA por la Falacia de afirmación del consecuente."
+                  ],
+                  "c": 3
+                }
+              ],
+              "ctx": "Caso del ejercicio 1:\n\n¿Escuchar música de Mozart tiene efectos cognitivos? En 1993, la psicóloga Frances Rauscher propuso que la exposición a la música de Mozart mejora el razonamiento visual-espacial. Para probarlo, dividió a estudiantes en tres grupos: durante 10 minutos el primer grupo escuchó a Mozart, el segundo escuchó instrucciones de relajación y el tercero permaneció en silencio. Pasados los 10 minutos, los investigadores evaluaron a los participantes con el test de Stanford-Binet. Este test incluye tareas como armar rompecabezas, encajar formas geométricas y completar patrones visuales, que requieren razonamiento visual-espacial. Los resultados mostraron que el grupo que escuchó a Mozart obtuvo puntuaciones significativamente más altas que los otros dos grupos.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "k": "ipc-2026-p2-864e2f49931af289",
+              "notaEspecifica": true
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dada la ley: La mayoría de las personas que presentan niveles altos de cortisol experimentan dificultades para recordar contenidos durante una evaluación.\n\nCompletá la siguiente explicación de modo que resulte una explicación inductivo estadística.",
+              "partes": [
+                {
+                  "r": "CA. Condición antecedente",
+                  "o": [
+                    "Lucas tuvo dificultades para recordar contenidos durante su examen final.",
+                    "Las pruebas de saliva mostraron que Lucas tenía niveles de cortisol muy elevados antes de entrar al aula.",
+                    "Lucas no puede concentrarse durante el examen.",
+                    "Si Lucas duerme pocas horas entonces no puede concentrarse durante el examen.",
+                    "Lucas se bloqueará durante el examen final.",
+                    "Lucas se acostó muy tarde y durmió pocas horas."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "E. Explanandum",
+                  "o": [
+                    "Lucas tuvo dificultades para recordar contenidos durante su examen final.",
+                    "Las pruebas de saliva mostraron que Lucas tenía niveles de cortisol muy elevados antes de entrar al aula.",
+                    "Lucas no puede concentrarse durante el examen.",
+                    "Si Lucas duerme pocas horas entonces no puede concentrarse durante el examen.",
+                    "Lucas se bloqueará durante el examen final.",
+                    "Lucas se acostó muy tarde y durmió pocas horas."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-2026-p2-8f4ee30bae56925e",
+              "notaEspecifica": true
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la posición del CONFIRMACIONISMO (o inductivismo crítico) de Hempel.\n\nLa inducción permite probar de forma definitiva la verdad de todas las hipótesis universales.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque la deducción es el único método que nos permite probar de forma definitiva la verdad de todas las hipótesis universales.",
+                    "Porque, dado que todos los casos del conjunto mencionado por las hipótesis universales son semejantes, la inducción nos da certeza sobre su verdad.",
+                    "Porque no todas la hipótesis universales pueden ser verificadas ya que algunas de ellas se refieren a un número infinito de casos.",
+                    "Porque en la justificación de hipótesis universales la inducción no cumple ninguna función."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-427b2eec7e56d923",
+              "notaEspecifica": true
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná qué concepto de la epistemología de Kuhn se ejemplifica en el siguiente párrafo.\n\nCiertas observaciones astronómicas no podían ser explicadas adecuadamente por el modelo geocéntrico, aun cuando se introducían ajustes y correcciones cada vez más complejas.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Revolución científica",
+                    "Enigma",
+                    "Preciencia",
+                    "Anomalía"
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque el geocentrismo no logró consolidarse como un paradigma científico, haciendo que se disuelva la comunidad científica y se generen nuevamente escuelas heterogéneas.",
+                    "Porque el geocentrismo, al dejar de ofrecer soluciones satisfactorias a los problemas empíricos, perdió su capacidad explicativa y fue reemplazado por un nuevo paradigma.",
+                    "Porque el paradigma anterior fue reemplazado por uno nuevo incompatible con él, que reorganizó la investigación científica y modificó los criterios de explicación aceptados.",
+                    "Porque se trata de fenómenos empíricos persistentes que no logran integrarse satisfactoriamente en el paradigma geocéntrico, erosionando la confianza en su capacidad explicativa."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-2026-p2-eaf9ac9e5574e2ae",
+              "notaEspecifica": true
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la epistemología de Kuhn.\n\nUn paradigma, entendido como matriz disciplinar, está compuesto por un único componente: una teoría científica que orienta la investigación.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque cualquier teoría científica que logre explicar un fenómeno se convierte automáticamente en paradigma dominante.",
+                    "Porque el paradigma, como matriz disciplinar, es la teoría que se impone sobre las demás por su mayor éxito explicativo y predictivo.",
+                    "Porque el paradigma no se reduce a una teoría, sino que incluye problemas, métodos y supuestos metafísicos compartidos.",
+                    "Porque las teorías científicas pueden formularse y evaluarse con independencia del paradigma y la comunidad científica."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-5d771b5c97609532",
+              "notaEspecifica": true
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé el siguiente caso y determiná de qué tipo de manifestación del androcentrismo y sexismo en ciencia se trata.\n\nDurante gran parte del siglo XIX y XX, la mayoría de los ensayos clínicos para probar la eficacia y seguridad de nuevos medicamentos –incluyendo fármacos para el colesterol o la hipertensión– se realizaron exclusivamente en hombres jóvenes de peso promedio. Se argumentaba que el ciclo hormonal femenino introducía \"variables confusas\" que complicaban los resultados. Como consecuencia, muchas mujeres sufrieron efectos secundarios graves o dosis inadecuadas al utilizar fármacos que nunca habían sido probados de forma adecuada para cuerpos femeninos.",
+              "o": [
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Techo de cristal.",
+                "Exclusión y marginalización.",
+                "Aplicaciones sexistas."
+              ],
+              "c": 3,
+              "k": "ipc-2026-p2-49dc6fc09d82f5fb",
+              "notaEspecifica": true
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indicá cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por la teoría feminista del punto de vista.",
+              "o": [
+                "La interacción crítica en el seno de una comunidad científica plural es el fundamento de la objetividad científica y permite identificar y cuestionar los sesgos de género.",
+                "El concepto de \"la mujer\" debe ser eliminado del discurso científico para que se reconozca la pluralidad de identidades contingentes que se entrecruzan en los sujetos.",
+                "La aceptabilidad de las teorías depende de los resultados de la contrastación empirica, que elimina por sí misma todos los sesgos de género y valores que pueden perturbar la investigación.",
+                "La situación social de las mujeres les otorga un privilegio epistémico superior para percibir y comprender las regularidades del sistema patriarcal."
+              ],
+              "c": 0,
+              "k": "ipc-2026-p2-4c28979d389a4747",
+              "notaEspecifica": true
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé la siguiente caracterización de un proyecto de investigación y decidí si el cientificismo daría prioridad al financiamiento del mismo y por qué.\n\nTomás Pedernera, investigador del Conicet, forma parte del grupo de Paleobiología y Paleoecología que estudia los restos fósiles de plantas que habitaron la Tierra en el pasado. En una entrevista reciente para la publicación virtual Unidiversidad, Pedernera subraya que conocer la historia de la vida en la Tierra nos ayuda a comprender cómo fueron los procesos evolutivos.",
+              "o": [
+                "Sí, porque el estudio de los restos fósiles de plantas es útil dentro de la exploración petrolera, permitiendo identificar rocas y así datar los yacimientos.",
+                "No, porque el estudio de los restos fósiles de las plantas que habitaron la tierra en el pasado no contribuye al desarrollo la capacidad crítica de la ciudadanía, que debe ser el objetivo prioritario de la financiación.",
+                "Sí, porque el conocimiento de la historia evolutiva de la vida en la Tierra es una investigación en ciencia básica que debe priorizarse, aunque no tenga en lo inmediato una aplicación práctica.",
+                "No, porque el estudio de los restos fósiles de plantas no contribuye al desarrollo ecónomico del país, objetivo que debe ser prioritario en la asignación de recursos."
+              ],
+              "c": 2,
+              "k": "ipc-2026-p2-c919b776965b18bf",
+              "notaEspecifica": true
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dados los siguientes enunciados, identificá los dos que expresan juicios de valor.",
+              "o": [
+                "Investigaciones científicas en física y química han permitido el desarrollo de nuevas tecnologías, como baterías de mayor duración.",
+                "La evaluación de los riesgos tecnológicos no debe limitarse exclusivamente a criterios tecno-científicos.",
+                "Investigar sin considerar los posibles usos sociales del conocimiento es una forma de ejercicio profesional irresponsable.",
+                "El uso de smartphones ha incrementado la rapidez de comunicación entre personas y organizaciones en contextos urbanos desde 2010.",
+                "Algunas tecnologías han tenido consecuencias no previstas para las sociedades durante su implementación."
+              ],
+              "elegir": 2,
+              "correctas": [
+                1,
+                2
+              ],
+              "k": "ipc-2026-p2-f43bf737694f74bb",
+              "notaEspecifica": true
+            }
+          ]
+        },
+        {
+          "id": "t5",
+          "n": "Tema 5",
+          "fuente": "IPC_2026_E.pdf",
+          "paginas": 6,
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas y en el ejercicio 10 hay que marcar las dos opciones correctas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identificá la consecuencia observacional.\n\nEn los años 90 existía una fuerte creencia en la comunidad médica según la cual la ingesta diaria de suplementos de Vitamina E, debido a sus propiedades antioxidantes, podía evitar la oxidación del colesterol en las arterias (una de las principales causas de ataque cardíaco). Para evaluar esto, se llevó a cabo un estudio clínico con casi 10.000 pacientes con alto riesgo cardiovascular. Se dividió a los pacientes en dos grupos: un grupo recibió 250mg de Vitamina E diariamente, mientras que el otro recibió un placebo (una pastilla sin componentes activos). Los científicos asumieron que la reducción de la oxidación del colesterol en las arterias se manifiesta directamente en una menor incidencia de infartos. Tras 4 años y 6 meses de seguimiento de los pacientes, no hubo diferencias significativas en el número de ataques cardíacos entre ambos grupos.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "El grupo de pacientes que consume Vitamina E tendrá una tasa significativamente menor de ataques cardíacos que el grupo que consume el placebo.",
+                    "La reducción de la oxidación del colesterol en las arterias produce una menor incidencia de infartos.",
+                    "La ingesta diaria de suplementos de Vitamina E reduce la oxidación del colesterol en las arterias.",
+                    "Los dos grupos de pacientes presentarán la misma tasa de ataques cardíacos.",
+                    "El placebo tiene los mismos componentes químicos activos que el suplemento de Vitamina E.",
+                    "El exceso de Vitamina E es la causa principal de las obstrucciones arteriales en adultos."
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Indicá por qué el enunciado que elegiste en A como consecuencia observacional funciona como tal en el caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado que se deduce de la hipótesis, es singular o muestral y describe un fenómeno esperable si la hipótesis fuera verdadera.",
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la hipótesis fundamental.",
+                    "Porque es un enunciado singular que plantea el problema científico que se encuentra bajo investigación."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-2026-p2-b86a066340b2f5da",
+              "notaEspecifica": true
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa.\n\nEs posible tener certeza sobre la verdad de una hipótesis general a partir de la verificación de sus consecuencias observacionales.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque la verdad de las hipótesis generales puede demostrarse concluyentemente evaluando un número elevado de casos empíricos.",
+                    "Porque la contrastación de las hipótesis generales con resultados favorables emplea una forma válida de razonamiento.",
+                    "Porque la puesta a prueba de las hipótesis generales con resultados favorables emplea una forma inválida de razonamiento.",
+                    "Porque las consecuencias observacionales funcionan como premisas que prueban deductivamente la verdad de las hipótesis contrastadas."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-62eed260dd0bb7db",
+              "notaEspecifica": true
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dada la condición antecedente: Ana, que es alérgica al polen, estuvo en contacto con el polen de unos pinos.\n\nCompletá la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Ana tendrá una crisis de estornudos.",
+                    "Todas las personas que tienen alergia severa al polen presentan, en su presencia, estornudos y picazón en los ojos.",
+                    "La mayoría de las personas que tienen alergia severa al polen desarrollan estornudos y picazón en los ojos en presencia de polen.",
+                    "Si Ana está resfriada entonces tiene una crisis de estornudos.",
+                    "Ana presentó una fuerte crisis de estornudos y picazón en los ojos.",
+                    "Ana tiene un resfrío severo."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "E. Explanandum",
+                  "o": [
+                    "Ana tendrá una crisis de estornudos.",
+                    "Todas las personas que tienen alergia severa al polen presentan, en su presencia, estornudos y picazón en los ojos.",
+                    "La mayoría de las personas que tienen alergia severa al polen desarrollan estornudos y picazón en los ojos en presencia de polen.",
+                    "Si Ana está resfriada entonces tiene una crisis de estornudos.",
+                    "Ana presentó una fuerte crisis de estornudos y picazón en los ojos.",
+                    "Ana tiene un resfrío severo."
+                  ],
+                  "c": 4
+                }
+              ],
+              "k": "ipc-2026-p2-339435398142615a",
+              "notaEspecifica": true
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la posición del FALSACIONISMO de Popper.\n\nEl enunciado \"La conducta moral humana se explica por la actividad del alma\" no pertenece al ámbito de la ciencia empírica.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque no pueden formularse enunciados observacionales, singulares y existenciales que puedan funcionar como sus falsadores potenciales.",
+                    "Porque si podemos traducir los términos del enunciado a conceptos observacionales, entonces pertenece al ámbito de la ciencia empírica.",
+                    "Porque sólo los enunciados que hayan sido contrastados y verificados pertenecen al ámbito de la ciencia empírica.",
+                    "Porque pueden deducirse enunciados generales observacionales que funcionen como falsadores potenciales."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-2026-p2-462aa2beff542974",
+              "notaEspecifica": true
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná qué concepto de la epistemología de Kuhn se ejemplifica en el siguiente párrafo.\n\nLos orígenes de la química moderna pueden rastrearse en la alquimia medieval y renacentista, período en el cual no existían acuerdos claros sobre métodos ni sobre cuáles eran los problemas relevantes.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Anomalía",
+                    "Crisis",
+                    "Preciencia",
+                    "Revolución científica"
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque la alquimia medieval y la renacentista eran dos paradigmas incompatibles en competencia.",
+                    "Porque un paradigma basado en la alquimia perdió su capacidad para orientar la investigación, generando una situación de incertidumbre teórica generalizada.",
+                    "Porque durante el predominio de la alquimia medieval y renacentista no existía aún un paradigma capaz de organizar de manera estable la práctica científica.",
+                    "Porque los problemas que investigaron los alquimistas medievales y renacentistas no podían resolverse sin un cambio de paradigma."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-860e8ed031aee5bf",
+              "notaEspecifica": true
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la epistemología de Kuhn.\n\nEn el período de ciencia normal el progreso científico es acumulativo.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque el progreso científico tiene lugar en las revoluciones científicas, cuando se rompe con las tradiciones heredadas; y no en la ciencia normal, donde el paradigma es aceptado sin cuestionamientos.",
+                    "Porque aun cuando el conocimiento depende del paradigma, todas las verdades establecidas en los períodos de ciencia normal se mantienen cuando se pasa de un paradigma a otro.",
+                    "Porque, en la ciencia normal, los científicos resuelven enigmas dentro de un paradigma aceptado y, al hacerlo, incrementan la comprensión de la naturaleza que se logra a la luz de ese paradigma.",
+                    "Porque el progreso científico resulta imposible en cualquier instancia, dado que, según Kuhn, no hay verdades absolutas y todo está mediado por el paradigma."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-980c2b4814579686",
+              "notaEspecifica": true
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé el siguiente caso y determiná de qué tipo de manifestación del androcentrismo y sexismo en ciencia se trata.\n\nA finales del siglo XIX, en el Observatorio de Harvard, Edward Pickering contrató a un grupo de mujeres (conocidas como \"las computadoras de Harvard\") para realizar el tedioso trabajo de analizar y catalogar miles de placas fotográficas de estrellas. Aunque realizaron descubrimientos fundamentales –como la relación período-luminosidad de las Cefeidas de Henrietta Leavitt–, estas científicas tenían prohibido el acceso a los telescopios para realizar sus propias observaciones y recibían un salario menor al de cualquier técnico varón con formación igual o inferior.",
+              "o": [
+                "Exclusión y marginalización.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Teorías sexistas.",
+                "Aplicaciones sexistas."
+              ],
+              "c": 0,
+              "k": "ipc-2026-p2-9393e5917522bd03",
+              "notaEspecifica": true
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indicá cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por el postmodernismo feminista.",
+              "o": [
+                "El privilegio epistémico derivado de la situación social de las mujeres les permite acceder a un conocimiento más profundo de las regularidades del sistema patriarcal que resultan invisibles para los grupos dominantes.",
+                "La interacción crítica en el seno de una comunidad científica plural es el fundamento de la objetividad científica y permite identificar y cuestionar los sesgos de género.",
+                "Para reconocer la pluralidad de identidades contingentes que se entrecruzan en los sujetos debe evitarse el uso de categorías universales como \"la mujer\".",
+                "La validación de teorías sobre las diferencias de género es un proceso puramente lógico y empírico en el que los valores sociales de la comunidad no desempeñan ningún papel."
+              ],
+              "c": 1,
+              "k": "ipc-2026-p2-add09525aba56d28",
+              "notaEspecifica": true
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé la siguiente caracterización de un proyecto de investigación y decidí si el cientificismo daría prioridad al financiamiento del mismo y por qué.\n\nUn proyecto en bioantropología coordinado por Rodrigo Nores, investigador del Conicet, con la colaboración de la Universidad de Harvard, tiene como objetivo investigar un linaje genético propio del centro de Argentina, hasta el momento desconocido. La información obtenida en este estudio permitirá entender cuestiones cruciales relativas al poblamiento de Sudamérica, así como también los desplazamientos y procesos de mestizaje.",
+              "o": [
+                "Sí, porque la descripción de los distintos linajes genéticos que componen la población permite adoptar estrategias para prevenir y tratar enfermedades hereditarias.",
+                "No, porque el estudio de los procesos de poblamiento y mestizaje no contribuye a resolver los problemas prácticos que afectan a las sociedades sudamericanas.",
+                "Sí, porque comprender los procesos de poblamiento y mestizaje de Sudamérica es valioso en sí mismo mas allá de cualquier aplicación práctica.",
+                "No, porque el estudio de los linajes géneticos y procesos poblacionales del pasado no satisface demandas actuales de la sociedad."
+              ],
+              "c": 2,
+              "k": "ipc-2026-p2-25ab921a808ff85c",
+              "notaEspecifica": true
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dados los siguientes enunciados, identificá los dos que expresan juicios de valor.",
+              "o": [
+                "La medición del impacto ambiental de las actividades humanas requiere recolectar y analizar datos empíricos.",
+                "La falta de regulaciones ambientales es una política injusta que favorece los intereses de algunos particulares por sobre el bienestar común.",
+                "Las actividades humanas han modificado los ecosistemas y la biodiversidad.",
+                "Es inaceptable causar daños ambientales, cualquiera sean, en nombre del crecimiento y/o desarrollo económico.",
+                "Los efectos concretos del cambio climático sobre el nivel del mar pueden ser estudiados mediante modelos climáticos computacionales."
+              ],
+              "elegir": 2,
+              "correctas": [
+                1,
+                3
+              ],
+              "k": "ipc-2026-p2-5590fd5789025fe5",
+              "notaEspecifica": true
+            }
+          ]
+        },
+        {
+          "id": "t6",
+          "n": "Tema 6",
+          "fuente": "IPC_2026_F.pdf",
+          "paginas": 6,
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas y en el ejercicio 10 hay que marcar las dos opciones correctas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identificá la consecuencia observacional.\n\nEn los años 90 existía una fuerte creencia en la comunidad médica según la cual la ingesta diaria de suplementos de Vitamina E, debido a sus propiedades antioxidantes, podía evitar la oxidación del colesterol en las arterias (una de las principales causas de ataque cardíaco). Para evaluar esto, se llevó a cabo un estudio clínico con casi 10.000 pacientes con alto riesgo cardiovascular. Se dividió a los pacientes en dos grupos: un grupo recibió 250mg de Vitamina E diariamente, mientras que el otro recibió un placebo (una pastilla sin componentes activos). Los científicos asumieron que la reducción de la oxidación del colesterol en las arterias se manifiesta directamente en una menor incidencia de infartos. Tras 4 años y 6 meses de seguimiento de los pacientes, no hubo diferencias significativas en el número de ataques cardíacos entre ambos grupos.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "El grupo de pacientes que consume Vitamina E tendrá una tasa significativamente menor de ataques cardíacos que el grupo que consume el placebo.",
+                    "La ingesta diaria de suplementos de Vitamina E reduce la oxidación del colesterol en las arterias.",
+                    "La reducción de la oxidación del colesterol en las arterias produce una menor incidencia de infartos.",
+                    "Los dos grupos de pacientes presentarán la misma tasa de ataques cardíacos.",
+                    "El placebo tiene los mismos componentes químicos activos que el suplemento de Vitamina E.",
+                    "El exceso de Vitamina E es la causa principal de las obstrucciones arteriales en adultos."
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Indicá por qué el enunciado que elegiste en A como consecuencia observacional funciona como tal en el caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado singular que plantea el problema científico que se encuentra bajo investigación.",
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la hipótesis fundamental.",
+                    "Porque es un enunciado que se deduce de la hipótesis, es singular o muestral y describe un fenómeno esperable si la hipótesis fuera verdadera."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-2026-p2-b86a066340b2f5da",
+              "notaEspecifica": true
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa.\n\nEs posible tener certeza sobre la verdad de una hipótesis general a partir de la verificación de sus consecuencias observacionales.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque la puesta a prueba de las hipótesis generales con resultados favorables emplea una forma inválida de razonamiento.",
+                    "Porque la contrastación de las hipótesis generales con resultados favorables emplea una forma válida de razonamiento.",
+                    "Porque la verdad de las hipótesis generales puede demostrarse concluyentemente evaluando un número elevado de casos empíricos.",
+                    "Porque las consecuencias observacionales funcionan como premisas que prueban deductivamente la verdad de las hipótesis contrastadas."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-2026-p2-edf9838f1a030730",
+              "notaEspecifica": true
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dada la condición antecedente: Ana, que es alérgica al polen, estuvo en contacto con el polen de unos pinos.\n\nCompletá la siguiente explicación de modo que resulte una explicación nomológico deductiva.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Ana tendrá una crisis de estornudos.",
+                    "Todas las personas que tienen alergia severa al polen presentan, en su presencia, estornudos y picazón en los ojos.",
+                    "Ana presentó una fuerte crisis de estornudos y picazón en los ojos.",
+                    "Si Ana está resfriada entonces tiene una crisis de estornudos.",
+                    "La mayoría de las personas que tienen alergia severa al polen desarrollan estornudos y picazón en los ojos en presencia de polen.",
+                    "Ana tiene un resfrío severo."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "E. Explanandum",
+                  "o": [
+                    "Ana tendrá una crisis de estornudos.",
+                    "Todas las personas que tienen alergia severa al polen presentan, en su presencia, estornudos y picazón en los ojos.",
+                    "Ana presentó una fuerte crisis de estornudos y picazón en los ojos.",
+                    "Si Ana está resfriada entonces tiene una crisis de estornudos.",
+                    "La mayoría de las personas que tienen alergia severa al polen desarrollan estornudos y picazón en los ojos en presencia de polen.",
+                    "Ana tiene un resfrío severo."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-339435398142615a",
+              "notaEspecifica": true
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la posición del FALSACIONISMO de Popper.\n\nEl enunciado \"La conducta moral humana se explica por la actividad del alma\" no pertenece al ámbito de la ciencia empírica.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque sólo los enunciados que hayan sido contrastados y verificados pertenecen al ámbito de la ciencia empírica.",
+                    "Porque no pueden formularse enunciados observacionales, singulares y existenciales que puedan funcionar como sus falsadores potenciales.",
+                    "Porque pueden deducirse enunciados generales observacionales que funcionen como falsadores potenciales.",
+                    "Porque si podemos traducir los términos del enunciado a conceptos observacionales, entonces pertenece al ámbito de la ciencia empírica."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-2026-p2-462aa2beff542974",
+              "notaEspecifica": true
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná qué concepto de la epistemología de Kuhn se ejemplifica en el siguiente párrafo.\n\nLos orígenes de la química moderna pueden rastrearse en la alquimia medieval y renacentista, período en el cual no existían acuerdos claros sobre métodos ni sobre cuáles eran los problemas relevantes.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Crisis",
+                    "Preciencia",
+                    "Anomalía",
+                    "Revolución científica"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque durante el predominio de la alquimia medieval y renacentista no existía aún un paradigma capaz de organizar de manera estable la práctica científica.",
+                    "Porque un paradigma basado en la alquimia perdió su capacidad para orientar la investigación, generando una situación de incertidumbre teórica generalizada.",
+                    "Porque la alquimia medieval y la renacentista eran dos paradigmas incompatibles en competencia.",
+                    "Porque los problemas que investigaron los alquimistas medievales y renacentistas no podían resolverse sin un cambio de paradigma."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-2026-p2-860e8ed031aee5bf",
+              "notaEspecifica": true
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la epistemología de Kuhn.\n\nEn el período de ciencia normal el progreso científico es acumulativo.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque el progreso científico resulta imposible en cualquier instancia, dado que, según Kuhn, no hay verdades absolutas y todo está mediado por el paradigma.",
+                    "Porque aun cuando el conocimiento depende del paradigma, todas las verdades establecidas en los períodos de ciencia normal se mantienen cuando se pasa de un paradigma a otro.",
+                    "Porque el progreso científico tiene lugar en las revoluciones científicas, cuando se rompe con las tradiciones heredadas; y no en la ciencia normal, donde el paradigma es aceptado sin cuestionamientos.",
+                    "Porque, en la ciencia normal, los científicos resuelven enigmas dentro de un paradigma aceptado y, al hacerlo, incrementan la comprensión de la naturaleza que se logra a la luz de ese paradigma."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-2026-p2-980c2b4814579686",
+              "notaEspecifica": true
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé el siguiente caso y determiná de qué tipo de manifestación del androcentrismo y sexismo en ciencia se trata.\n\nA finales del siglo XIX, en el Observatorio de Harvard, Edward Pickering contrató a un grupo de mujeres (conocidas como \"las computadoras de Harvard\") para realizar el tedioso trabajo de analizar y catalogar miles de placas fotográficas de estrellas. Aunque realizaron descubrimientos fundamentales –como la relación período-luminosidad de las Cefeidas de Henrietta Leavitt–, estas científicas tenían prohibido el acceso a los telescopios para realizar sus propias observaciones y recibían un salario menor al de cualquier técnico varón con formación igual o inferior.",
+              "o": [
+                "Teorías sexistas.",
+                "Aplicaciones sexistas.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda.",
+                "Exclusión y marginalización."
+              ],
+              "c": 3,
+              "k": "ipc-2026-p2-9393e5917522bd03",
+              "notaEspecifica": true
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indicá cuál de las siguientes afirmaciones expresa una tesis sostenida por el empirismo feminista y, a la vez, rechazada por el postmodernismo feminista.",
+              "o": [
+                "La interacción crítica en el seno de una comunidad científica plural es el fundamento de la objetividad científica y permite identificar y cuestionar los sesgos de género.",
+                "Para reconocer la pluralidad de identidades contingentes que se entrecruzan en los sujetos debe evitarse el uso de categorías universales como \"la mujer\".",
+                "El privilegio epistémico derivado de la situación social de las mujeres les permite acceder a un conocimiento más profundo de las regularidades del sistema patriarcal que resultan invisibles para los grupos dominantes.",
+                "La validación de teorías sobre las diferencias de género es un proceso puramente lógico y empírico en el que los valores sociales de la comunidad no desempeñan ningún papel."
+              ],
+              "c": 0,
+              "k": "ipc-2026-p2-add09525aba56d28",
+              "notaEspecifica": true
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé la siguiente caracterización de un proyecto de investigación y decidí si el cientificismo daría prioridad al financiamiento del mismo y por qué.\n\nUn proyecto en bioantropología coordinado por Rodrigo Nores, investigador del Conicet, con la colaboración de la Universidad de Harvard, tiene como objetivo investigar un linaje genético propio del centro de Argentina, hasta el momento desconocido. La información obtenida en este estudio permitirá entender cuestiones cruciales relativas al poblamiento de Sudamérica, así como también los desplazamientos y procesos de mestizaje.",
+              "o": [
+                "Sí, porque la descripción de los distintos linajes genéticos que componen la población permite adoptar estrategias para prevenir y tratar enfermedades hereditarias.",
+                "Sí, porque comprender los procesos de poblamiento y mestizaje de Sudamérica es valioso en sí mismo mas allá de cualquier aplicación práctica.",
+                "No, porque el estudio de los procesos de poblamiento y mestizaje no contribuye a resolver los problemas prácticos que afectan a las sociedades sudamericanas.",
+                "No, porque el estudio de los linajes géneticos y procesos poblacionales del pasado no satisface demandas actuales de la sociedad."
+              ],
+              "c": 1,
+              "k": "ipc-2026-p2-25ab921a808ff85c",
+              "notaEspecifica": true
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dados los siguientes enunciados, identificá los dos que expresan juicios de valor.",
+              "o": [
+                "La medición del impacto ambiental de las actividades humanas requiere recolectar y analizar datos empíricos.",
+                "La falta de regulaciones ambientales es una política injusta que favorece los intereses de algunos particulares por sobre el bienestar común.",
+                "Es inaceptable causar daños ambientales, cualquiera sean, en nombre del crecimiento y/o desarrollo económico.",
+                "Las actividades humanas han modificado los ecosistemas y la biodiversidad.",
+                "Los efectos concretos del cambio climático sobre el nivel del mar pueden ser estudiados mediante modelos climáticos computacionales."
+              ],
+              "elegir": 2,
+              "correctas": [
+                1,
+                2
+              ],
+              "k": "ipc-2026-p2-f43bf737694f74bb",
+              "notaEspecifica": true
+            }
+          ]
+        },
+        {
+          "id": "t7",
+          "n": "Tema 7",
+          "fuente": "IPC_2026_G.pdf",
+          "paginas": 6,
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas y en el ejercicio 10 hay que marcar las dos opciones correctas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identificá la hipótesis auxiliar.\n\nEn 1928, Alexander Fleming observó que en una de sus placas de Petri con bacterias Staphylococcus, había crecido accidentalmente un hongo (Penicillium notatum) y que alrededor de este hongo no crecían bacterias. Fleming planteó que el hongo produce una sustancia química que mata a las bacterias. Para probarlo, cultivó el hongo en un caldo líquido, lo filtró y luego colocó gotas de ese líquido en placas de cultivos de diversas variedades de bacterias Staphylococcus. Fleming asumió que el proceso de filtrado no altera las propiedades químicas de las sustancias producidas por el hongo. Pasadas 12 horas, las áreas donde se había colocado el \"jugo de hongo\" presentaban zonas sin crecimiento bacteriano.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Algunas bacterias son resistentes al hongo Penicillium.",
+                    "El filtrado de Penicillium notatum cultivado en caldo líquido preserva las propiedades químicas de las sustancias producidas por ese hongo.",
+                    "Las placas de cultivo de bacterias Staphylococcus que reciban el filtrado de Penicillium notatum presentarán zonas claras sin crecimiento bacteriano.",
+                    "El hongo Penicillium segrega una sustancia que mata a las bacterias Staphylococcus.",
+                    "El proceso de filtrado elimina cualquier sustancia activa producida por el hongo.",
+                    "El crecimiento de las bacterias Staphylococcus en las zonas tratadas con el filtrado de Penicillium será igual al de las zonas no tratadas."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Indicá por qué el enunciado que elegiste en A como hipótesis auxiliar funciona como tal en el caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado general que se pone a prueba en la investigación.",
+                    "Porque es un enunciado general necesario para la deducción de la consecuencia observacional y que cuenta con apoyo empírico independiente.",
+                    "Porque es un enunciado singular o muestral que se deduce de la hipótesis y describe un hecho que debería suceder suponiendo que la hipótesis fuera verdadera."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-efd4bd3fc4ae3f06",
+              "notaEspecifica": true
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná cuál de las formas de argumento que se presentan a continuación corresponde a la contrastación de hipótesis relatada en el ejercicio 1.\n\nForma de argumento 1:\nSi (HF y HA), entonces NO CO\nCO\nHF y HA\n\nForma de argumento 2:\nSi (HF y HA) entonces CO\nCO\nHF y HA",
+              "partes": [
+                {
+                  "r": "A. Forma de argumento",
+                  "formato": "texto",
+                  "o": [
+                    "Forma de argumento 1",
+                    "Forma de argumento 2"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque se aplicó una forma de argumento en la que la verdad de las premisas garantiza la verdad de la conclusión.",
+                    "Porque cuando la consecuencia observacional resulta verdadera, se concluye la conjunción de la falsedad de HA y la verdad de HF.",
+                    "Porque cuando la consecuencia observacional resulta verdadera, se concluye la conjunción de HF y HA.",
+                    "Porque las placas de cultivo bacteriano que recibieron el \"jugo de hongo\" no presentaron zonas claras sin crecimiento bacteriano."
+                  ],
+                  "c": 2
+                }
+              ],
+              "ctx": "Caso del ejercicio 1:\n\nEn 1928, Alexander Fleming observó que en una de sus placas de Petri con bacterias Staphylococcus, había crecido accidentalmente un hongo (Penicillium notatum) y que alrededor de este hongo no crecían bacterias. Fleming planteó que el hongo produce una sustancia química que mata a las bacterias. Para probarlo, cultivó el hongo en un caldo líquido, lo filtró y luego colocó gotas de ese líquido en placas de cultivos de diversas variedades de bacterias Staphylococcus. Fleming asumió que el proceso de filtrado no altera las propiedades químicas de las sustancias producidas por el hongo. Pasadas 12 horas, las áreas donde se había colocado el \"jugo de hongo\" presentaban zonas sin crecimiento bacteriano.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "k": "ipc-2026-p2-d93cc78c714e9097",
+              "notaEspecifica": true
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dada la condición antecedente: Mario estuvo usando intensivamente el mouse de la computadora durante varios días.\n\nCompletá la siguiente explicación de modo que resulte una explicación inductivo estadística.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Mario fue diagnosticado con epicondilitis lateral.",
+                    "Todas las personas que realizan movimientos repetitivos con la muñeca desarrollan epicondilitis lateral.",
+                    "La mayoría de las personas que realizan movimientos repetitivos con la muñeca desarrollan epicondilitis lateral.",
+                    "Mario se golpeó la muñeca.",
+                    "Si Mario sufre un golpe en la muñeca entonces desarrolla epicondilitis lateral.",
+                    "Mario tendrá epicondilitis lateral."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "E. Explanandum",
+                  "o": [
+                    "Mario fue diagnosticado con epicondilitis lateral.",
+                    "Todas las personas que realizan movimientos repetitivos con la muñeca desarrollan epicondilitis lateral.",
+                    "La mayoría de las personas que realizan movimientos repetitivos con la muñeca desarrollan epicondilitis lateral.",
+                    "Mario se golpeó la muñeca.",
+                    "Si Mario sufre un golpe en la muñeca entonces desarrolla epicondilitis lateral.",
+                    "Mario tendrá epicondilitis lateral."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-2026-p2-684679384d732caf",
+              "notaEspecifica": true
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la posición del CONFIRMACIONISMO (o inductivismo crítico) de Hempel.\n\nEl incremento acumulativo del grado de confirmación que la evidencia empírica proporciona a las teorías es un indicador del progreso científico.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque la ciencia no progresa de manera acumulativa sino a través de revoluciones científicas que eliminan totalmente las teorías previamente confirmadas.",
+                    "Porque la ciencia progresa en la medida en que las sucesivas contrastaciones empíricas de las teorías permitan probar de manera concluyente su verdad.",
+                    "Porque el progreso científico no depende de la acumulación de datos empíricos sino de que la metodología permita eliminar teorías falsas y conservar provisoriamente sólo las corroboradas.",
+                    "Porque cuantas más instancias confirmatorias posee una teoría, mayor es su grado de apoyo empírico y, por lo tanto, mayor el progreso científico."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-2026-p2-0429c0d4d2f6618c",
+              "notaEspecifica": true
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná qué concepto de la epistemología de Kuhn se ejemplifica en el siguiente párrafo.\n\nLos defensores del modelo aristotélico y los del modelo newtoniano utilizaban términos como “movimiento” o “reposo”, pero en la física aristotélica el movimiento se entendía como una tendencia hacia un lugar natural, mientras que en la física newtoniana, que no reconoce lugares naturales, se lo definía en términos de la variación del estado de movimiento bajo la acción de fuerzas.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Preciencia",
+                    "Anomalía",
+                    "Inconmensurabilidad",
+                    "Enigma"
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque las divergencias en el significado de términos fundamentales como “movimiento” o “reposo” evidenciaban que aún no se había alcanzado una definición genuinamente científica.",
+                    "Porque un mismo término, como “movimiento” o “reposo”, adquiere su significado en función del paradigma en el que opera, generando significados distintos que dificultan la traducción y la comunicación entre paradigmas.",
+                    "Porque las distintas definiciones de “movimiento” y “reposo” generaban problemas para explicar ciertos fenómenos dentro del marco aristotélico.",
+                    "Porque las diferencias de significado en los términos \"movimiento\" y \"reposo\" generaron problemas que desafiaron a los cientificos en la busqueda de una clarificación adecuada del concepto."
+                  ],
+                  "c": 1
+                }
+              ],
+              "k": "ipc-2026-p2-84b5399fd2a74a4f",
+              "notaEspecifica": true
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la epistemología de Kuhn.\n\nLa aparición de anomalías genera necesariamente una crisis del paradigma.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque la aparición de anomalías indica el fracaso del paradigma, desencadenando así una crisis que exige su reemplazo.",
+                    "Porque las anomalías son problemas que se resuelven en el contexto de la ciencia normal y, consecuentemente, no ponen en cuestión al paradigma.",
+                    "Porque algunas anomalías pueden ser encauzadas dentro de la ciencia normal haciendo que no se ponga en cuestión el paradigma vigente.",
+                    "Porque para que se produzca una anomalía el paradigma ya debe estar en una etapa de crisis que permita reconocerla."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-512bf64eed6b641a",
+              "notaEspecifica": true
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé el siguiente caso y determiná de qué tipo de manifestación del androcentrismo y sexismo en ciencia se trata.\n\nDurante los inicios de la endocrinología a principios del siglo XX, los científicos etiquetaron la testosterona como la \"hormona masculina\" y al estrógeno como la \"hormona femenina\". A pesar de que pronto se descubrió que ambas hormonas están presentes en ambos sexos, la investigación se estructuró bajo la premisa de que eran sustancias antagónicas que definían personalidades opuestas: la testosterona se asoció con la actividad, la agresión y el intelecto, mientras que el estrógeno se vinculó con la pasividad y la emocionalidad. Este marco interpretativo condicionó durante décadas la comprensión de la fisiología humana.",
+              "o": [
+                "Conceptualizaciones sexistas.",
+                "Aplicaciones sexistas.",
+                "Exclusión y marginalización.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda."
+              ],
+              "c": 0,
+              "k": "ipc-2026-p2-3b756eba9abf9b89",
+              "notaEspecifica": true
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indicá cuál de las siguientes afirmaciones expresa una tesis sostenida por el postmodernismo feminista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "El uso de la categoría \"las mujeres\" en referencia a ese colectivo es necesario para identificar las fuerzas sociales que actúan negativamente contra ellas.",
+                "Las teorías científicas son relatos cuya aceptación se concreta exclusivamente mediante un ejercicio de poder, por lo cual no es factible alcanzar una representación objetiva de la realidad.",
+                "La situación social de las mujeres como grupo oprimido les otorga un modo especial de acceso epistémico que les permite percibir y comprender de manera privilegiada las regularidades fundamentales del sistema patriarcal.",
+                "La objetividad no es resultado de la neutralidad de un científico individual, sino que surge de la interacción crítica intersubjetiva entre los miembros de una comunidad de conocimiento regulada por normas."
+              ],
+              "c": 1,
+              "k": "ipc-2026-p2-4385d6f42e119069",
+              "notaEspecifica": true
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé la siguiente caracterización de un proyecto de investigación y decidí si el practicismo daría prioridad al financiamiento del mismo y por qué.\n\nEspecialistas del Instituto de Ciencias e Ingeniería de la Computación (ICIC, Conicet–UNS) trabajan en un proyecto para desarrollar una herramienta basada en inteligencia artificial (IA) que permita detectar y monitorear a pacientes con múltiples enfermedades crónicas en el ámbito hospitalario. El objetivo es mejorar la gestión clínica y el seguimiento médico de este grupo de pacientes.",
+              "o": [
+                "No, porque la investigación científica no debe supeditarse a las demandas y urgencias de la sociedad sino orientarse a la búsqueda de conocimiento fundado sobre diferentes parcelas de la realidad.",
+                "No, porque se deben priorizar investigaciones en matemática pura y lógica ya que es la base sobre la cual se desarrollan los sistemas de IA.",
+                "Sí, porque el proyecto de los especialistas del ICIC contiene puntos de vista éticos que son importantes para el desarrollo de políticas públicas en el área de la salud.",
+                "Sí, porque el proyecto de los especialistas del ICIC responde a una demanda de la sociedad en lo que respecta a mejorar la gestión clínica y seguimiento de los pacientes con múltiples enfermedades crónicas."
+              ],
+              "c": 3,
+              "k": "ipc-2026-p2-6b51e888093f8c3b",
+              "notaEspecifica": true
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dados los siguientes enunciados, identificá los dos que expresan juicios de valor.",
+              "o": [
+                "En muchas ciudades del mundo, el acceso a la educación y el empleo sigue siendo desigual entre distintos barrios y grupos sociales.",
+                "Se deben articular cuanto antes políticas públicas capaces de reducir las desigualdades sociales estructurales.",
+                "Inferir que una práctica es legítima por el solo hecho de haber sido frecuente es moralmente inadecuado.",
+                "El análisis histórico permite identificar distintas formas de organización social y política.",
+                "Las ciencias sociales estudian las causas y consecuencias de la desigualdad."
+              ],
+              "elegir": 2,
+              "correctas": [
+                1,
+                2
+              ],
+              "k": "ipc-2026-p2-d5f0f21d849d85af",
+              "notaEspecifica": true
+            }
+          ]
+        },
+        {
+          "id": "t8",
+          "n": "Tema 8",
+          "fuente": "IPC_2026_H.pdf",
+          "paginas": 6,
+          "aviso": "Claves y explicaciones del documento resuelto. Cada ejercicio vale 1 punto; en los de dos partes deben estar bien ambas respuestas y en el ejercicio 10 hay que marcar las dos opciones correctas.",
+          "qs": [
+            {
+              "e": "1",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dado el siguiente caso de investigación, identificá la hipótesis auxiliar.\n\nEn 1928, Alexander Fleming observó que en una de sus placas de Petri con bacterias Staphylococcus, había crecido accidentalmente un hongo (Penicillium notatum) y que alrededor de este hongo no crecían bacterias. Fleming planteó que el hongo produce una sustancia química que mata a las bacterias. Para probarlo, cultivó el hongo en un caldo líquido, lo filtró y luego colocó gotas de ese líquido en placas de cultivos de diversas variedades de bacterias Staphylococcus. Fleming asumió que el proceso de filtrado no altera las propiedades químicas de las sustancias producidas por el hongo. Pasadas 12 horas, las áreas donde se había colocado el \"jugo de hongo\" presentaban zonas sin crecimiento bacteriano.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Algunas bacterias son resistentes al hongo Penicillium.",
+                    "El filtrado de Penicillium notatum cultivado en caldo líquido preserva las propiedades químicas de las sustancias producidas por ese hongo.",
+                    "Las placas de cultivo de bacterias Staphylococcus que reciban el filtrado de Penicillium notatum presentarán zonas claras sin crecimiento bacteriano.",
+                    "El crecimiento de las bacterias Staphylococcus en las zonas tratadas con el filtrado de Penicillium será igual al de las zonas no tratadas.",
+                    "El proceso de filtrado elimina cualquier sustancia activa producida por el hongo.",
+                    "El hongo Penicillium segrega una sustancia que mata a las bacterias Staphylococcus."
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Indicá por qué el enunciado que elegiste en A como hipótesis auxiliar funciona como tal en el caso de investigación.",
+                  "o": [
+                    "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+                    "Porque es un enunciado general que se pone a prueba en la investigación.",
+                    "Porque es un enunciado singular o muestral que se deduce de la hipótesis y describe un hecho que debería suceder suponiendo que la hipótesis fuera verdadera.",
+                    "Porque es un enunciado general necesario para la deducción de la consecuencia observacional y que cuenta con apoyo empírico independiente."
+                  ],
+                  "c": 3
+                }
+              ],
+              "k": "ipc-2026-p2-efd4bd3fc4ae3f06",
+              "notaEspecifica": true
+            },
+            {
+              "e": "2",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná cuál de las formas de argumento que se presentan a continuación corresponde a la contrastación de hipótesis relatada en el ejercicio 1.\n\nForma de argumento 1:\nSi (HF y HA), entonces NO CO\nCO\nHF y HA\n\nForma de argumento 2:\nSi (HF y HA) entonces CO\nCO\nHF y HA",
+              "partes": [
+                {
+                  "r": "A. Forma de argumento",
+                  "formato": "texto",
+                  "o": [
+                    "Forma de argumento 1",
+                    "Forma de argumento 2"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque se aplicó una forma de argumento en la que la verdad de las premisas garantiza la verdad de la conclusión.",
+                    "Porque cuando la consecuencia observacional resulta verdadera, se concluye la conjunción de HF y HA.",
+                    "Porque cuando la consecuencia observacional resulta verdadera, se concluye la conjunción de la falsedad de HA y la verdad de HF.",
+                    "Porque las placas de cultivo bacteriano que recibieron el \"jugo de hongo\" no presentaron zonas claras sin crecimiento bacteriano."
+                  ],
+                  "c": 1
+                }
+              ],
+              "ctx": "Caso del ejercicio 1:\n\nEn 1928, Alexander Fleming observó que en una de sus placas de Petri con bacterias Staphylococcus, había crecido accidentalmente un hongo (Penicillium notatum) y que alrededor de este hongo no crecían bacterias. Fleming planteó que el hongo produce una sustancia química que mata a las bacterias. Para probarlo, cultivó el hongo en un caldo líquido, lo filtró y luego colocó gotas de ese líquido en placas de cultivos de diversas variedades de bacterias Staphylococcus. Fleming asumió que el proceso de filtrado no altera las propiedades químicas de las sustancias producidas por el hongo. Pasadas 12 horas, las áreas donde se había colocado el \"jugo de hongo\" presentaban zonas sin crecimiento bacteriano.",
+              "contextoTitulo": "Caso de referencia · ejercicio 1",
+              "k": "ipc-2026-p2-d93cc78c714e9097",
+              "notaEspecifica": true
+            },
+            {
+              "e": "3",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dada la condición antecedente: Mario estuvo usando intensivamente el mouse de la computadora durante varios días.\n\nCompletá la siguiente explicación de modo que resulte una explicación inductivo estadística.",
+              "partes": [
+                {
+                  "r": "L. Ley",
+                  "o": [
+                    "Si Mario sufre un golpe en la muñeca entonces desarrolla epicondilitis lateral.",
+                    "Todas las personas que realizan movimientos repetitivos con la muñeca desarrollan epicondilitis lateral.",
+                    "La mayoría de las personas que realizan movimientos repetitivos con la muñeca desarrollan epicondilitis lateral.",
+                    "Mario se golpeó la muñeca.",
+                    "Mario fue diagnosticado con epicondilitis lateral.",
+                    "Mario tendrá epicondilitis lateral."
+                  ],
+                  "c": 2
+                },
+                {
+                  "r": "E. Explanandum",
+                  "o": [
+                    "Si Mario sufre un golpe en la muñeca entonces desarrolla epicondilitis lateral.",
+                    "Todas las personas que realizan movimientos repetitivos con la muñeca desarrollan epicondilitis lateral.",
+                    "La mayoría de las personas que realizan movimientos repetitivos con la muñeca desarrollan epicondilitis lateral.",
+                    "Mario se golpeó la muñeca.",
+                    "Mario fue diagnosticado con epicondilitis lateral.",
+                    "Mario tendrá epicondilitis lateral."
+                  ],
+                  "c": 4
+                }
+              ],
+              "k": "ipc-2026-p2-c7dbe106297bba9d",
+              "notaEspecifica": true
+            },
+            {
+              "e": "4",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la posición del CONFIRMACIONISMO (o inductivismo crítico) de Hempel.\n\nEl incremento acumulativo del grado de confirmación que la evidencia empírica proporciona a las teorías es un indicador del progreso científico.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 0
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque cuantas más instancias confirmatorias posee una teoría, mayor es su grado de apoyo empírico y, por lo tanto, mayor el progreso científico.",
+                    "Porque la ciencia progresa en la medida en que las sucesivas contrastaciones empíricas de las teorías permitan probar de manera concluyente su verdad.",
+                    "Porque la ciencia no progresa de manera acumulativa sino a través de revoluciones científicas que eliminan totalmente las teorías previamente confirmadas.",
+                    "Porque el progreso científico no depende de la acumulación de datos empíricos sino de que la metodología permita eliminar teorías falsas y conservar provisoriamente sólo las corroboradas."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-2026-p2-0429c0d4d2f6618c",
+              "notaEspecifica": true
+            },
+            {
+              "e": "5",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná qué concepto de la epistemología de Kuhn se ejemplifica en el siguiente párrafo.\n\nLos defensores del modelo aristotélico y los del modelo newtoniano utilizaban términos como “movimiento” o “reposo”, pero en la física aristotélica el movimiento se entendía como una tendencia hacia un lugar natural, mientras que en la física newtoniana, que no reconoce lugares naturales, se lo definía en términos de la variación del estado de movimiento bajo la acción de fuerzas.",
+              "partes": [
+                {
+                  "r": "A. Respuesta",
+                  "o": [
+                    "Preciencia",
+                    "Anomalía",
+                    "Enigma",
+                    "Inconmensurabilidad"
+                  ],
+                  "c": 3
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque las divergencias en el significado de términos fundamentales como “movimiento” o “reposo” evidenciaban que aún no se había alcanzado una definición genuinamente científica.",
+                    "Porque las distintas definiciones de “movimiento” y “reposo” generaban problemas para explicar ciertos fenómenos dentro del marco aristotélico.",
+                    "Porque un mismo término, como “movimiento” o “reposo”, adquiere su significado en función del paradigma en el que opera, generando significados distintos que dificultan la traducción y la comunicación entre paradigmas.",
+                    "Porque las diferencias de significado en los términos \"movimiento\" y \"reposo\" generaron problemas que desafiaron a los cientificos en la busqueda de una clarificación adecuada del concepto."
+                  ],
+                  "c": 2
+                }
+              ],
+              "k": "ipc-2026-p2-84b5399fd2a74a4f",
+              "notaEspecifica": true
+            },
+            {
+              "e": "6",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Determiná si la siguiente afirmación es verdadera o falsa según la epistemología de Kuhn.\n\nLa aparición de anomalías genera necesariamente una crisis del paradigma.",
+              "partes": [
+                {
+                  "r": "A. ¿Verdadera o falsa?",
+                  "formato": "texto",
+                  "o": [
+                    "Verdadera",
+                    "Falsa"
+                  ],
+                  "c": 1
+                },
+                {
+                  "r": "B. Elegí la opción que justifica tu respuesta.",
+                  "o": [
+                    "Porque algunas anomalías pueden ser encauzadas dentro de la ciencia normal haciendo que no se ponga en cuestión el paradigma vigente.",
+                    "Porque la aparición de anomalías indica el fracaso del paradigma, desencadenando así una crisis que exige su reemplazo.",
+                    "Porque las anomalías son problemas que se resuelven en el contexto de la ciencia normal y, consecuentemente, no ponen en cuestión al paradigma.",
+                    "Porque para que se produzca una anomalía el paradigma ya debe estar en una etapa de crisis que permita reconocerla."
+                  ],
+                  "c": 0
+                }
+              ],
+              "k": "ipc-2026-p2-03c2d79d9bd7ed72",
+              "notaEspecifica": true
+            },
+            {
+              "e": "7",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé el siguiente caso y determiná de qué tipo de manifestación del androcentrismo y sexismo en ciencia se trata.\n\nDurante los inicios de la endocrinología a principios del siglo XX, los científicos etiquetaron la testosterona como la \"hormona masculina\" y al estrógeno como la \"hormona femenina\". A pesar de que pronto se descubrió que ambas hormonas están presentes en ambos sexos, la investigación se estructuró bajo la premisa de que eran sustancias antagónicas que definían personalidades opuestas: la testosterona se asoció con la actividad, la agresión y el intelecto, mientras que el estrógeno se vinculó con la pasividad y la emocionalidad. Este marco interpretativo condicionó durante décadas la comprensión de la fisiología humana.",
+              "o": [
+                "Exclusión y marginalización.",
+                "Aplicaciones sexistas.",
+                "Conceptualizaciones sexistas.",
+                "Omisiones selectivas en la historia de la ciencia/efecto Matilda."
+              ],
+              "c": 2,
+              "k": "ipc-2026-p2-3b756eba9abf9b89",
+              "notaEspecifica": true
+            },
+            {
+              "e": "8",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Indicá cuál de las siguientes afirmaciones expresa una tesis sostenida por el postmodernismo feminista y, a la vez, rechazada por el empirismo feminista.",
+              "o": [
+                "La objetividad no es resultado de la neutralidad de un científico individual, sino que surge de la interacción crítica intersubjetiva entre los miembros de una comunidad de conocimiento regulada por normas.",
+                "La situación social de las mujeres como grupo oprimido les otorga un modo especial de acceso epistémico que les permite percibir y comprender de manera privilegiada las regularidades fundamentales del sistema patriarcal.",
+                "Las teorías científicas son relatos cuya aceptación se concreta exclusivamente mediante un ejercicio de poder, por lo cual no es factible alcanzar una representación objetiva de la realidad.",
+                "El uso de la categoría \"las mujeres\" en referencia a ese colectivo es necesario para identificar las fuerzas sociales que actúan negativamente contra ellas."
+              ],
+              "c": 2,
+              "k": "ipc-2026-p2-4385d6f42e119069",
+              "notaEspecifica": true
+            },
+            {
+              "e": "9",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Leé la siguiente caracterización de un proyecto de investigación y decidí si el practicismo daría prioridad al financiamiento del mismo y por qué.\n\nEspecialistas del Instituto de Ciencias e Ingeniería de la Computación (ICIC, Conicet–UNS) trabajan en un proyecto para desarrollar una herramienta basada en inteligencia artificial (IA) que permita detectar y monitorear a pacientes con múltiples enfermedades crónicas en el ámbito hospitalario. El objetivo es mejorar la gestión clínica y el seguimiento médico de este grupo de pacientes.",
+              "o": [
+                "Sí, porque el proyecto de los especialistas del ICIC responde a una demanda de la sociedad en lo que respecta a mejorar la gestión clínica y seguimiento de los pacientes con múltiples enfermedades crónicas.",
+                "No, porque se deben priorizar investigaciones en matemática pura y lógica ya que es la base sobre la cual se desarrollan los sistemas de IA.",
+                "No, porque la investigación científica no debe supeditarse a las demandas y urgencias de la sociedad sino orientarse a la búsqueda de conocimiento fundado sobre diferentes parcelas de la realidad.",
+                "Sí, porque el proyecto de los especialistas del ICIC contiene puntos de vista éticos que son importantes para el desarrollo de políticas públicas en el área de la salud."
+              ],
+              "c": 0,
+              "k": "ipc-2026-p2-6b51e888093f8c3b",
+              "notaEspecifica": true
+            },
+            {
+              "e": "10",
+              "pts": 1,
+              "formato": "numeros",
+              "p": "Dados los siguientes enunciados, identificá los dos que expresan juicios de valor.",
+              "o": [
+                "El análisis histórico permite identificar distintas formas de organización social y política.",
+                "Inferir que una práctica es legítima por el solo hecho de haber sido frecuente es moralmente inadecuado.",
+                "Se deben articular cuanto antes políticas públicas capaces de reducir las desigualdades sociales estructurales.",
+                "En muchas ciudades del mundo, el acceso a la educación y el empleo sigue siendo desigual entre distintos barrios y grupos sociales.",
+                "Las ciencias sociales estudian las causas y consecuencias de la desigualdad."
+              ],
+              "elegir": 2,
+              "correctas": [
+                1,
+                2
+              ],
+              "k": "ipc-2026-p2-d5f0f21d849d85af",
+              "notaEspecifica": true
+            }
+          ]
+        }
+      ],
+      "parcial": 2
     },
     {
       "id": "buacar-2025-10-30-recup",

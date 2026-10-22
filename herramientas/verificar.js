@@ -7,7 +7,8 @@
    Revisa:
    - que cada materia del índice exista y se registre bien;
    - ids únicos de examen y de tema (con ellos se guarda el progreso);
-   - que cada respuesta c apunte a una opción que existe;
+   - que cada respuesta c apunte a una opción que existe (o, en las
+     consignas «elegir N», que correctas traiga N índices válidos);
    - que cada clave k tenga su explicación y que no sobren explicaciones;
    - que los puntajes de cada tema sumen 10;
    - consistencia cruzada: si una consigna aparece en varios temas con
@@ -37,7 +38,7 @@ function contenidoOpcion(b, i){
   return refs.map(l => norm(b.o["ABCDEFGH".indexOf(l)]));
 }
 const bancoAfirmaciones = b => b.o.filter(o => !esCombinacion(o)).map(norm).sort().join(" | ");
-const soluciones = b => (b.aceptadas || [b.c]).map(i => contenidoOpcion(b, i).sort().join(" | ")).sort().join(" || ");
+const soluciones = b => b.correctas ? b.correctas.map(i => norm(b.o[i])).sort().join(" + ") : (b.aceptadas || [b.c]).map(i => contenidoOpcion(b, i).sort().join(" | ")).sort().join(" || ");
 
 /* ---------- cargar índice y materias ---------- */
 const ctx = {};
@@ -107,7 +108,17 @@ function revisarMateria(m, archivo){
           const s = q.partes ? ` (parte ${j + 1})` : "";
           if (b.formato && !["numeros", "texto"].includes(b.formato)) error(`${aqui}${s}: formato de opciones desconocido`);
           if (!Array.isArray(b.o) || b.o.length < 2 || b.o.length > 8) { error(`${aqui}${s}: tiene que tener entre 2 y 8 opciones`); return; }
-          if (!Number.isInteger(b.c) || b.c < 0 || b.c >= b.o.length) error(`${aqui}${s}: la respuesta c=${b.c} está fuera de las opciones`);
+          if (q.elegir !== undefined) {
+            if (q.partes) error(`${aqui}: «elegir» no se combina con partes`);
+            if (b.c !== undefined || b.aceptadas) error(`${aqui}: con «elegir» la respuesta va en correctas, no en c ni aceptadas`);
+            if (!Number.isInteger(q.elegir) || q.elegir < 2 || q.elegir >= b.o.length) error(`${aqui}: elegir=${q.elegir} inválido`);
+            const cs = b.correctas;
+            if (!Array.isArray(cs) || cs.length !== q.elegir || new Set(cs).size !== cs.length ||
+                cs.some(c => !Number.isInteger(c) || c < 0 || c >= b.o.length) || cs.some((c, n) => n && c <= cs[n - 1]))
+              error(`${aqui}: correctas tiene que traer ${q.elegir} índices distintos, válidos y ordenados`);
+            if (b.o.some(esCombinacion)) error(`${aqui}: «elegir» no admite opciones combinadas`);
+          } else if (b.correctas) error(`${aqui}${s}: correctas sin elegir`);
+          else if (!Number.isInteger(b.c) || b.c < 0 || b.c >= b.o.length) error(`${aqui}${s}: la respuesta c=${b.c} está fuera de las opciones`);
           if (b.aceptadas && (!Array.isArray(b.aceptadas) || !b.aceptadas.includes(b.c) || new Set(b.aceptadas).size !== b.aceptadas.length || b.aceptadas.some(c => !Number.isInteger(c) || c < 0 || c >= b.o.length))) error(`${aqui}${s}: respuestas alternativas inválidas`);
           b.o.forEach((o, k) => { if (!o || !o.trim()) error(`${aqui}${s}: opción ${k + 1} vacía`); });
           b.o.forEach((o, k) => {
