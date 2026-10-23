@@ -91,7 +91,7 @@ La **pregunta 11 del Tema 14 de abril de ICSE 2025** se corrigió de E a G (B y 
 
 Cada materia tiene un acceso **Resúmenes**, organizado por parcial. La ruta
 `#/ipc/resumenes/2` muestra los cuatro PDF del segundo parcial de IPC
-(Cátedra A · Buacar, capítulos 10 a 15): Resumen en texto, Guía explicada con
+(Cátedra A · Buacar, capítulos 10 a 15): Resumen desarrollado en texto, Guía explicada con
 ejemplos, Cuadro sinóptico para repasar y Repaso visual para celular.
 Cada tarjeta permite abrir el PDF en otra pestaña o descargarlo. Los archivos
 se guardan junto con la app para consultarlos sin conexión. Las materias o
@@ -103,6 +103,35 @@ Facultad), registrar nombre, descripción, materia, parcial, páginas, formato y
 ruta en `resumenes/indice.js`, subir `VERSION` en `sw.js` y correr el verificador.
 El service worker toma del catálogo los archivos que debe guardar. Los nuevos
 archivos fuente se incorporan mediante una actualización de la app.
+
+### Revisión de IPC del 23/10/2026
+
+Los cuatro formatos se regeneran desde una misma fuente editable de **32 fichas**:
+`herramientas/ipc/contenido.json`. Incluyen criterios para justificar respuestas,
+ejemplos resueltos, confusiones frecuentes, referencias y un mapa del examen de
+mayo de 2026. El texto ocupa 19 páginas; la guía, 23; el cuadro horizontal, 19;
+y el cuadro móvil, 71 páginas pequeñas (360 × 720 pt, texto de 13,5 pt).
+La versión móvil distribuye la misma información en más páginas para preservar
+el tamaño de letra; no es un recorte de los otros formatos.
+
+La revisión se contrastó con programa, cronograma y bibliografía oficiales 2026,
+seis guías del Campus con sus devoluciones (semanas 6–10), cinco mapas conceptuales
+y el banco local de Buacar. `herramientas/ipc/cobertura.json` relaciona las **80
+consignas de 2026** con fichas y criterios de resolución, y registra exigencias
+históricas adicionales. La comprobación automática valida la integridad de esa
+relación; la correspondencia conceptual fue revisada editorialmente.
+
+El cronograma **2C2026** sitúa los capítulos 10–15 en el segundo parcial.
+Darwin/Lamarck se conservan como **complemento histórico identificado** porque
+aparecen en segundos parciales de 2025; no se presentan como parte del núcleo
+del segundo parcial de la cursada actual. Los materiales siguen siendo de
+**Buacar**, no un resumen de las otras cátedras cargadas en la app.
+
+Se corrigieron reglas engañosas de clasificación por palabras clave, el alcance
+de la refutación con auxiliares, un ejemplo deductivamente insuficiente y la
+definición de inconmensurabilidad local. Se ampliaron categorías de sexismo,
+comparaciones feministas, premisas normativas, integridad y criterios de
+financiación. Fuentes, generación y controles: [`herramientas/ipc/README.md`](herramientas/ipc/README.md).
 
 ## IPC — Introducción al Pensamiento Científico
 

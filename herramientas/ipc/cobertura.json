@@ -1,0 +1,84 @@
+{
+  "examen": "buacar-2026-05-29",
+  "fecha_revision": "2026-10-23",
+  "criterio": "Correspondencia editorial entre la habilidad exigida y las fichas que permiten fundamentarla. No es una prueba automática de corrección filosófica ni una predicción de exámenes futuros.",
+  "pares": [
+    {
+      "temas": ["t1", "t2"],
+      "fuentes": ["IPC_2026_A.pdf", "IPC_2026_B.pdf"],
+      "ejercicios": {
+        "1": {"fichas": ["roles", "caso"], "criterio": "HF sobre luz azul: relación general puesta a prueba, distinta de la HA del test y de la CO muestral."},
+        "2": {"fichas": ["asimetria"], "criterio": "Resultado favorable no acredita verdad: afirmación del consecuente."},
+        "3": {"fichas": ["explicacion", "armar-explicacion"], "criterio": "Ley universal sobre antihistamínicos y condición pertinente; no seleccionar una predicción futura."},
+        "4": {"fichas": ["popper", "clasicas"], "criterio": "Las contrastaciones no terminan por corroborar una teoría; conocimiento provisional."},
+        "5": {"fichas": ["paradigma", "etapas"], "criterio": "La física newtoniana como marco compartido de resolución de problemas corresponde a ciencia normal."},
+        "6": {"fichas": ["paradigma", "etapas"], "criterio": "Preciencia sin matriz disciplinar compartida."},
+        "7": {"fichas": ["sexismo-instituciones"], "criterio": "Nettie Stevens: omisión selectiva o efecto Matilda, no exclusión de acceso al trabajo científico."},
+        "8": {"fichas": ["punto-vista", "empirismo-feminista"], "criterio": "Identificar la tesis cognitiva atribuida al punto de vista y rechazada por el empirismo; no generalizarla como hecho biológico."},
+        "9": {"fichas": ["politica", "prioridades"], "criterio": "Bioaceite de yerba: priorización practicista por aplicación y aporte económico directo."},
+        "10": {"fichas": ["hechos-valores"], "criterio": "Seleccionar dos juicios descriptivos; describir lo que ocurre no equivale a aprobarlo."}
+      }
+    },
+    {
+      "temas": ["t3", "t4"],
+      "fuentes": ["IPC_2026_C.pdf", "IPC_2026_D.pdf"],
+      "ejercicios": {
+        "1": {"fichas": ["roles"], "criterio": "HA Stanford-Binet: apoyo independiente y función de conectar test con razonamiento visual-espacial."},
+        "2": {"fichas": ["asimetria"], "criterio": "Reconstruir el resultado favorable del experimento de Mozart como afirmación del consecuente."},
+        "3": {"fichas": ["explicacion", "armar-explicacion"], "criterio": "Explicación estadística: cortisol y memoria; distinguir ley probabilística de universal."},
+        "4": {"fichas": ["hempel", "alcance", "clasicas"], "criterio": "No se verifica toda hipótesis universal por inducción; clase irrestricta y apoyo probable."},
+        "5": {"fichas": ["etapas"], "criterio": "Problemas resistentes del geocentrismo: anomalía; no implica por sí sola revolución."},
+        "6": {"fichas": ["paradigma"], "criterio": "Paradigma es más amplio que una única teoría."},
+        "7": {"fichas": ["sexismo-instituciones"], "criterio": "Medicamentos ensayados solo en varones: aplicaciones sexistas."},
+        "8": {"fichas": ["empirismo-feminista", "punto-vista"], "criterio": "Objetividad por crítica intersubjetiva en comunidad plural, frente a privilegio epistémico por posición social."},
+        "9": {"fichas": ["politica", "prioridades"], "criterio": "Paleobiología sin uso inmediato: prioridad cientificista por valor del conocimiento básico."},
+        "10": {"fichas": ["hechos-valores"], "criterio": "Dos valores, incluso con evaluación como «irresponsable» y sin una obligación explícita."}
+      }
+    },
+    {
+      "temas": ["t5", "t6"],
+      "fuentes": ["IPC_2026_E.pdf", "IPC_2026_F.pdf"],
+      "ejercicios": {
+        "1": {"fichas": ["roles", "caso"], "criterio": "CO sobre menos infartos: distinguir la predicción de los resultados efectivamente observados."},
+        "2": {"fichas": ["asimetria"], "criterio": "Verificar la consecuencia no demuestra la verdad de HF."},
+        "3": {"fichas": ["explicacion", "armar-explicacion"], "criterio": "Explicación deductiva de alergia: ley universal y condición que incluye alergia y contacto con polen."},
+        "4": {"fichas": ["popper", "clasicas"], "criterio": "Enunciado con «alma»: no hay falsador observacional; distinguir metafísico de teórico empíricamente controlable."},
+        "5": {"fichas": ["etapas"], "criterio": "Alquimia y ausencia de criterios compartidos: preciencia."},
+        "6": {"fichas": ["etapas", "inconmensurabilidad"], "criterio": "Progreso acumulativo durante ciencia normal, no trasladarlo automáticamente a revoluciones."},
+        "7": {"fichas": ["sexismo-instituciones"], "criterio": "Astrónomas de Harvard: barreras, salarios y recursos; exclusión y marginación."},
+        "8": {"fichas": ["empirismo-feminista", "posmodernismo"], "criterio": "Objetividad comunitaria sostenida por el empirismo y rechazada por el posmodernismo."},
+        "9": {"fichas": ["politica", "prioridades"], "criterio": "Linaje y poblamiento: proyecto básico que el cientificismo puede financiar sin aplicación inmediata."},
+        "10": {"fichas": ["hechos-valores"], "criterio": "Seleccionar las dos evaluaciones, no los enunciados sobre estados de cosas."}
+      }
+    },
+    {
+      "temas": ["t7", "t8"],
+      "fuentes": ["IPC_2026_G.pdf", "IPC_2026_H.pdf"],
+      "ejercicios": {
+        "1": {"fichas": ["roles"], "criterio": "HA: el filtrado conserva las propiedades de las sustancias del hongo; función de supuesto independiente."},
+        "2": {"fichas": ["asimetria"], "criterio": "Elegir la forma de afirmación del consecuente correspondiente al resultado favorable."},
+        "3": {"fichas": ["explicacion", "armar-explicacion"], "criterio": "Ley estadística y condición pertinente sobre movimientos repetitivos para explicar epicondilitis."},
+        "4": {"fichas": ["hempel", "clasicas"], "criterio": "Incremento del grado de confirmación como progreso según el confirmacionismo."},
+        "5": {"fichas": ["inconmensurabilidad"], "criterio": "Movimiento y reposo en Aristóteles y Newton: cambio de significado, inconmensurabilidad lingüística."},
+        "6": {"fichas": ["etapas"], "criterio": "Una anomalía no desencadena automáticamente una crisis."},
+        "7": {"fichas": ["sexismo-conceptos"], "criterio": "Hormonas masculinas/femeninas y personalidades opuestas: conceptualización sexista."},
+        "8": {"fichas": ["posmodernismo", "empirismo-feminista"], "criterio": "Teorías como relatos atravesados por poder frente a objetividad construida por crítica."},
+        "9": {"fichas": ["politica", "prioridades"], "criterio": "IA para gestión clínica: prioridad practicista por resolver un problema concreto."},
+        "10": {"fichas": ["hechos-valores"], "criterio": "Dos juicios valorativos: detectar expresiones como moralmente inadecuado."}
+      }
+    }
+  ],
+  "historicos": [
+    {"examen": "30/05/2025", "referencia": "T1–2 y T5, ejercicio 3", "fichas": ["evolucion-historicos"], "necesidad": "Distinguir mecanismos darwiniano y lamarckiano; selección sexual."},
+    {"examen": "30/10/2025, recuperatorio", "referencia": "T1, ejercicios 1–2", "fichas": ["roles"], "necesidad": "HA que conecta ecografía y gravedad; justificar respaldo y función."},
+    {"examen": "25/10/2024", "referencia": "T1 y T3, ejercicio 3", "fichas": ["asimetria", "hempel", "popper"], "necesidad": "Resultado favorable interpretado como confirmación o corroboración según corriente."},
+    {"examen": "31/05/2024", "referencia": "T7, ejercicio 3", "fichas": ["asimetria"], "necesidad": "Refutación y diferencia entre esquema simplificado y conjunto de supuestos."},
+    {"examen": "30/05/2025", "referencia": "T1 y T5, ejercicio 4", "fichas": ["clasicas", "popper"], "necesidad": "Enunciados formales y probabilísticos en la demarcación popperiana del curso."},
+    {"examen": "02/06/2023", "referencia": "T1, ejercicio 4", "fichas": ["clasicas"], "necesidad": "Tautología sin falsadores potenciales."},
+    {"examen": "30/10/2025, recuperatorio", "referencia": "T1, ejercicio 6", "fichas": ["inconmensurabilidad"], "necesidad": "Cambio de significado entre paradigmas."},
+    {"examen": "02/06/2023", "referencia": "T1 y T3, ejercicio 8", "fichas": ["punto-vista", "posmodernismo"], "necesidad": "Perspectiva común de opresión frente a diversidad interseccional."},
+    {"examen": "31/05/2024", "referencia": "T1 y T3, ejercicio 9", "fichas": ["politica", "prioridades"], "necesidad": "Una corriente puede no priorizar el proyecto; justificar la decisión, no solo financiarlo."},
+    {"examen": "31/05/2024", "referencia": "T7, ejercicio 10, caso Pernkopf", "fichas": ["argumento-normativo", "etica-investigacion"], "necesidad": "Premisa normativa pertinente sobre conocimiento obtenido con métodos contrarios a normas éticas."},
+    {"examen": "30/10/2025, recuperatorio", "referencia": "T1, ejercicio 10", "fichas": ["argumento-normativo"], "necesidad": "Seleccionar la norma que permite obtener la conclusión, no cualquier juicio de valor."}
+  ]
+}

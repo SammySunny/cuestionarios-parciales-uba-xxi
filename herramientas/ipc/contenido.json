@@ -1,0 +1,432 @@
+{
+  "revision": "2026-10-23",
+  "alcance": "IPC · Cátedra A, Buacar · Segundo parcial · Unidades 3 y 4, capítulos 10 a 15",
+  "fichas": [
+    {
+      "id": "niveles", "capitulo": "10", "titulo": "Vocabulario y niveles de enunciados",
+      "idea": "Para clasificar un enunciado, mirá primero su vocabulario y después el alcance de lo que afirma.",
+      "ramas": [
+        ["Términos", "Los lógicos conectan expresiones. Los no lógicos pueden ser observacionales (rojo, mesa) o teóricos (gen, electrón): estos últimos no son perceptibles directamente."],
+        ["Nivel 1", "Empíricos básicos: vocabulario observacional y un individuo o muestra finita y accesible. «Los 40 participantes resolvieron el test» es muestral, aunque incluya muchas personas."],
+        ["Nivel 2", "Generalizaciones empíricas: vocabulario observacional sobre clases abiertas, infinitas o inaccesibles. Pueden ser universales, existenciales o estadísticas."],
+        ["Nivel 3", "Enunciados teóricos: contienen al menos un término teórico. Puros: solo vocabulario teórico y lógico. Mixtos: enlazan lo teórico con lo observable (reglas de correspondencia)."]
+      ],
+      "ejemplo": "«Pablo tiene la piel amarilla»: nivel 1. «El color de los ojos depende de genes»: teórico mixto. «El locus es una posición sobre un cromosoma»: teórico puro.",
+      "cuidado": "«Todos» no garantiza nivel 2; una muestra delimitada puede ser nivel 1. «Este» no garantiza nivel 1 si aparece vocabulario teórico.",
+      "fuentes": ["G6: ejercicios 1–3 y 6–8"]
+    },
+    {
+      "id": "alcance", "capitulo": "10", "titulo": "Universales, existenciales y estadísticas",
+      "idea": "El alcance de una afirmación determina qué tipo de evidencia puede apoyarla o entrar en conflicto con ella.",
+      "ramas": [
+        ["Universal irrestricta", "Afirma algo sin excepción sobre una clase abierta. No se verifica recorriendo algunos casos; un contraejemplo puede refutarla. «Ningún A es B» también es universal: equivale a «Todos los A no son B»."],
+        ["Existencial", "Afirma que existe al menos un caso. Un caso favorable puede verificarla; no encontrarlo en una cantidad limitada de observaciones no prueba su falsedad."],
+        ["Estadística", "Atribuye una frecuencia o probabilidad. Una excepción individual no la contradice necesariamente. No confundir una probabilidad general con un porcentaje de una muestra cerrada."],
+        ["Concepción clásica", "Los enunciados empíricos básicos forman la base de contrastación. Para el positivismo se verifican por observación; para Popper su aceptación es intersubjetiva y revisable."]
+      ],
+      "ejemplo": "«El 50 % de estos 40 participantes aprobó»: enunciado muestral. «El 50 % de las personas de ese tipo aprueba»: generalización estadística.",
+      "cuidado": "Una fórmula como «todos» o «el 50 %» no reemplaza el análisis de la clase a la que se refiere.",
+      "fuentes": ["G6: ejercicios 2, 4 y 5", "G7: ejercicios 23–24"]
+    },
+    {
+      "id": "metodo", "capitulo": "10", "titulo": "Teorías, método y contextos",
+      "idea": "Las teorías no son listas de datos: son sistemas de enunciados vinculados por relaciones inferenciales.",
+      "ramas": [
+        ["Sistema axiomático interpretado", "Algunos enunciados funcionan como puntos de partida y permiten deducir otros. La interpretación conecta el sistema con un dominio de fenómenos."],
+        ["Método hipotético-deductivo", "Plantear un problema → proponer una hipótesis → deducir una consecuencia observacional → contrastarla con la experiencia."],
+        ["Descubrimiento", "Cómo se generan las hipótesis: intervienen creatividad y factores históricos o psicológicos. Para la filosofía clásica no hay reglas mecánicas que produzcan hipótesis por sí solas."],
+        ["Justificación", "Cómo se evalúan las hipótesis con argumentos y evidencia. La filosofía clásica separa este contexto del descubrimiento; Kuhn cuestiona una separación tajante."]
+      ],
+      "ejemplo": "Observar un problema puede motivar una hipótesis, pero acumular observaciones sin una pregunta previa no indica por sí solo qué casos son relevantes.",
+      "cuidado": "En la práctica pueden contrastarse hipótesis sobre sucesos históricos no observables directamente. La guía usa la unión antigua de los continentes: no toda hipótesis científica tiene que ser una universal.",
+      "fuentes": ["G6: ejercicios 1 y 11", "G7: ejercicios 8–9 y 20"]
+    },
+    {
+      "id": "roles", "capitulo": "10", "titulo": "HF, HA, CI y CO: identificar y justificar",
+      "idea": "Clasificá cada enunciado por el papel que cumple en esta investigación, no solamente por su tema o su tiempo verbal.",
+      "ramas": [
+        ["HF · Fundamental", "La respuesta que guía la investigación y se somete a prueba. En los casos de 2026 es un enunciado general; no es la descripción de lo que ocurrió con un grupo."],
+        ["HA · Auxiliar", "Conocimiento presupuesto, con apoyo independiente, necesario para deducir la predicción. Puede vincular una propiedad con su indicador o asegurar el funcionamiento de una técnica; no se investiga como HF en ese caso."],
+        ["CI · Iniciales", "Circunstancias particulares de observación o experimentación: grupos, tratamiento, lugar, momento y condiciones controladas. Se expresan mediante enunciados empíricos básicos."],
+        ["CO · Observacional", "Enunciado singular o muestral, observable, que expresa lo esperable si se cumplen HF, HA y CI. Es la predicción a contrastar, no una nueva hipótesis general."]
+      ],
+      "ejemplo": "En el caso Mozart de 2026, «El test Stanford-Binet requiere razonamiento visual-espacial» es HA: conecta el desempeño medido con la capacidad investigada y se acepta con respaldo previo.",
+      "cuidado": "En una pregunta de dos partes hay que acertar la clasificación y su fundamento. «Fue aceptada» es insuficiente para distinguir una HA de la HF.",
+      "fuentes": ["G6: ejercicios 10–13", "2026: T3–4 y T7–8, ejercicio 1"]
+    },
+    {
+      "id": "caso", "capitulo": "10", "titulo": "Un experimento completo, paso a paso",
+      "idea": "El caso de luz azul de 2026 permite distinguir la hipótesis general, los supuestos y el resultado del experimento.",
+      "ramas": [
+        ["HF", "La exposición a luz azul de onda corta mejora el rendimiento en tareas de atención sostenida. Esa es la relación general que se quiere evaluar."],
+        ["HA y CI", "HA: resolver el test de Eriksen requiere atención sostenida. CI: 40 estudiantes distribuidos en dos grupos, luz azul o ámbar, con igual intensidad de 50 lux."],
+        ["CO", "El grupo con luz azul tendrá mejor desempeño en el test que el grupo con luz ámbar. Se refiere a esos grupos y permite confrontar la predicción con los datos."],
+        ["Resultado", "El texto relata que el grupo azul tuvo mejor desempeño. Es evidencia favorable a la predicción, no una demostración de verdad de la HF."]
+      ],
+      "ejemplo": "En el caso de vitamina E se esperaba menos infartos en el grupo tratado. Aunque el resultado observado no coincida, esa expectativa sigue siendo la CO que se dedujo para poner a prueba la hipótesis.",
+      "cuidado": "No elijas como CO el resultado real solo porque aparece al final del relato. Primero reconstruí qué se esperaba observar.",
+      "fuentes": ["2026: T1–2 y T5–6, ejercicios 1–2", "G6: ejercicios 11–15"]
+    },
+    {
+      "id": "asimetria", "capitulo": "10", "titulo": "Asimetría: resultado favorable y adverso",
+      "idea": "Una consecuencia verdadera no prueba la verdad de lo que la predice. Una consecuencia falsa sí entra en conflicto lógico con el conjunto de supuestos.",
+      "ramas": [
+        ["Resultado favorable", "Si (HF ∧ HA ∧ CI), entonces CO. Ocurre CO. Concluir HF ∧ HA ∧ CI sería afirmar el consecuente: un esquema inválido, no una prueba de verdad."],
+        ["Resultado adverso", "Si (HF ∧ HA ∧ CI), entonces CO. No ocurre CO. Por Modus Tollens se concluye: no es cierto (HF ∧ HA ∧ CI). Es un razonamiento válido."],
+        ["Qué queda refutado", "La conjunción falla: al menos uno de sus componentes es falso. No se identifica automáticamente a HF como responsable; podrían fallar auxiliares o condiciones."],
+        ["Lectura del parcial", "Cuando el ejercicio simplifica a H → CO y ¬CO, corresponde ¬H. En la reconstrucción con auxiliares, conservá la conclusión sobre el conjunto."]
+      ],
+      "ejemplo": "Si llueve, se moja la vereda. La vereda está mojada. No se deduce que llovió: también pudieron regarla. El error lógico es el mismo del resultado favorable tomado como prueba definitiva.",
+      "cuidado": "Un argumento inválido no implica que su conclusión sea falsa: implica que las premisas no garantizan su verdad.",
+      "fuentes": ["G6: ejercicios 9, 14 y 15", "2026: todos los temas, ejercicio 2"]
+    },
+    {
+      "id": "otras-hipotesis", "capitulo": "10", "titulo": "Hipótesis derivadas y ad hoc",
+      "idea": "No toda hipótesis incorporada a una prueba cumple el mismo papel ni tiene el mismo respaldo.",
+      "ramas": [
+        ["Derivada", "Se obtiene deductivamente de la hipótesis fundamental, sola o con auxiliares. No se toma como punto de partida independiente."],
+        ["Auxiliar", "Se acepta por apoyo previo e independiente y permite realizar la contrastación. Ejemplo: una relación conocida entre un indicador y una propiedad."],
+        ["Ad hoc", "Se propone exclusivamente para salvar la hipótesis ante un resultado adverso, cuestionando una auxiliar o una condición. El problema es la protección sin control independiente."],
+        ["Evaluación", "Un resultado adverso obliga a examinar los supuestos de la prueba. Revisar una condición no es automáticamente ilegítimo: importa si hay evidencia independiente del defecto."]
+      ],
+      "ejemplo": "«El tratamiento no funcionó porque la muestra estaba contaminada». Si se inventa solo para evitar la refutación, es una salida ad hoc; si un análisis independiente acredita contaminación, cambia la situación.",
+      "cuidado": "No confundir una hipótesis derivada general con una CO particular. La CO describe lo observable en la prueba concreta.",
+      "fuentes": ["G6: segunda aproximación a la contrastación y ejercicio 10", "Capítulo 10 del temario"]
+    },
+    {
+      "id": "explicacion", "capitulo": "11", "titulo": "Explicación: componentes y modelos",
+      "idea": "En el modelo de cobertura legal, explicar es dar cuenta de un hecho o regularidad mediante leyes y condiciones pertinentes.",
+      "ramas": [
+        ["Componentes", "Explanandum: enunciado del fenómeno cuya ocurrencia se conoce. Explanans: leyes y condiciones antecedentes que permiten dar cuenta de él."],
+        ["Nomológico-deductiva", "Incluye leyes universales y un argumento deductivo válido. Si el explanans es verdadero, el explanandum se sigue necesariamente."],
+        ["Estadístico-inductiva", "Incluye una ley estadística y un argumento inductivo. El explanans hace probable el fenómeno, sin garantizar que ocurra."],
+        ["Explicar o predecir", "Tienen una estructura común. En la explicación el hecho ya es conocido; en la predicción se lo anticipa. Describir, en cambio, enumera características sin dar cuenta de por qué ocurren."]
+      ],
+      "ejemplo": "«La mayoría de quienes tienen cortisol elevado presenta dificultades de memoria» + «Lucas tenía cortisol elevado» apoyan una explicación estadística de sus dificultades, no una deducción necesaria.",
+      "cuidado": "No toda explicación científica es una causa mecánica. El criterio del modelo es la relación explicativa mediante leyes, no solo que aparezca la palabra «porque».",
+      "fuentes": ["G7: ejercicios 28–35", "2026: todos los temas, ejercicio 3"]
+    },
+    {
+      "id": "armar-explicacion", "capitulo": "11", "titulo": "Elegir ley y condición antecedente",
+      "idea": "Leé primero el explanandum y el tipo de explicación solicitado. Después seleccioná las premisas que realmente permiten explicarlo.",
+      "ramas": [
+        ["1 · Ley", "Si se pide nomológico-deductiva, elegí una universal; si se pide estadístico-inductiva, una estadística. Un condicional sobre Juan no sustituye por sí solo una ley general."],
+        ["2 · Condición", "Debe describir que el individuo o caso cumple el antecedente de esa ley. No basta que la información sea verdadera o trate del mismo tema."],
+        ["3 · Pertinencia", "Excluí datos irrelevantes y conclusiones futuras cuando se pide explicar un hecho ocurrido. El explanans debe tener contenido empírico y sostener la inferencia solicitada."],
+        ["Caso 2026", "En el ejercicio: ley propuesta «Todos los que consumen antihistamínicos experimentan somnolencia»; condición «Juan tomó antihistamínicos»; explanandum «Juan experimentó somnolencia»."]
+      ],
+      "ejemplo": "Si el hecho es una crisis por alergia al polen, la condición pertinente es la alergia de Ana y su contacto con polen. Que haya dormido poco no aplica esa ley.",
+      "cuidado": "Las leyes de los ejercicios se usan como premisas del modelo, no como recomendaciones médicas ni afirmaciones universales verificadas por este resumen.",
+      "fuentes": ["G7: ejercicios 30–35", "2026: T1–2 y T5–6, ejercicio 3"]
+    },
+    {
+      "id": "hempel", "capitulo": "11", "titulo": "Positivismo lógico: Hempel y Carnap",
+      "idea": "La reconstrucción clásica busca analizar la ciencia con herramientas lógicas y una conexión controlable con la experiencia.",
+      "ramas": [
+        ["Demarcación y sentido", "Un enunciado empírico debe estar formulado en lenguaje observacional o ser traducible a él. El criterio también pretende discriminar lo cognitivamente significativo de los sinsentidos metafísicos."],
+        ["Términos teóricos", "No se rechaza una teoría por hablar de electrones o genes: debe poder conectarse con la observación. Teórico no equivale a metafísico."],
+        ["Confirmación", "Las universales irrestrictas no se verifican de modo concluyente. Los resultados favorables brindan apoyo inductivo y aumentan el grado de confirmación o probabilidad, según la reconstrucción del curso."],
+        ["Progreso", "Acumulativo: teorías nuevas conservan contenido confirmado de las anteriores, corrigen errores y amplían su alcance. Aumentar el grado de confirmación es una señal de progreso."]
+      ],
+      "ejemplo": "«No se probó definitivamente su verdad» no basta para excluir una hipótesis: tampoco las universales científicas se prueban definitivamente. La cuestión es si admite control empírico.",
+      "cuidado": "Para esta corriente, la metafísica se rechaza por falta de contenido empírico, no porque se haya demostrado que sus afirmaciones son falsas.",
+      "fuentes": ["G7: ejercicios 2–12 y 26–27", "2026: T3–4 y T7–8, ejercicio 4"]
+    },
+    {
+      "id": "popper", "capitulo": "11", "titulo": "Popper: falsable, falsada y corroborada",
+      "idea": "La falsabilidad distingue ciencia empírica y no ciencia; no determina por sí sola verdad, falsedad o sentido.",
+      "ramas": [
+        ["Falsador potencial", "Enunciado básico, singular y observacional, lógicamente posible e incompatible con la hipótesis. Ambos no pueden ser verdaderos a la vez."],
+        ["Falsabilidad", "Basta poder formular un falsador posible; no hace falta haber realizado el experimento. Una teoría puede ser falsable y todavía no estar falsada."],
+        ["Falsación", "Supone aceptar un enunciado básico incompatible tras el control correspondiente. Con auxiliares, hay que considerar el conjunto contrastado."],
+        ["Corroboración", "Una teoría supera intentos exigentes de refutación y se conserva provisoriamente. No queda probada, ni probable, ni con baja probabilidad garantizada de futura refutación."]
+      ],
+      "ejemplo": "Para «Todos los mamíferos tienen sangre caliente», un animal particular que sea mamífero y no tenga sangre caliente sería falsador. «Este mamífero tiene sangre caliente» no es incompatible.",
+      "cuidado": "Para Popper, no científico no significa necesariamente carente de sentido. Su criterio no cumple la función de significatividad del positivismo.",
+      "fuentes": ["G7: ejercicios 14–22", "2026: T1–2 y T5–6, ejercicio 4"]
+    },
+    {
+      "id": "clasicas", "capitulo": "11", "titulo": "Claves para comparar las posturas clásicas",
+      "idea": "Separá justificación, demarcación y progreso: una respuesta sobre uno de esos problemas no sustituye a otra.",
+      "ramas": [
+        ["Inducción", "Popper la rechaza: justificar por experiencia un principio universal de uniformidad vuelve a usar inducción y resulta circular. El confirmacionismo sí admite apoyo inductivo, sin certeza."],
+        ["Enunciados básicos", "Positivismo: observación de casos finitos y accesibles. Popper: aceptación por acuerdo intersubjetivo, siempre revisable; las vivencias privadas no son premisas lógicas."],
+        ["No falsables en el curso", "Tautologías y enunciados formales; metafísicos sin control observacional; probabilísticos que no prohíben un resultado singular. Esto no equivale a negar el uso de pruebas estadísticas en ciencia."],
+        ["Progreso y acuerdos", "Popper: conjeturas y refutaciones, alejamiento del error, sin acumulación de probabilidades. Ambas posturas clásicas distinguen descubrimiento y justificación y reconstruyen racionalmente la contrastación."]
+      ],
+      "ejemplo": "«Llueve o no llueve» no prohíbe ninguna observación. «La probabilidad de éxito es 0,9» no queda lógicamente refutada por un único fracaso. «El alma es inmortal» no ofrece un falsador observacional.",
+      "cuidado": "Confirmada no significa verificada. Corroborada no significa probablemente verdadera. Falsable no significa falsa.",
+      "fuentes": ["G7: ejercicios 13–27", "Parciales Buacar 2023–2026: demarcación y justificación"]
+    },
+    {
+      "id": "paradigma", "capitulo": "12", "titulo": "Kuhn: paradigma, matriz y ejemplares",
+      "idea": "Kuhn amplía la unidad de análisis: de teorías aisladas a los compromisos compartidos de una comunidad científica.",
+      "ramas": [
+        ["Giro historicista", "El análisis lógico no basta: importan historia y factores sociales. La observación tiene carga teórica; no existe una base empírica neutral que dirima automáticamente entre paradigmas."],
+        ["Matriz disciplinar", "Paradigma en sentido amplio: compromisos teóricos y metafísicos, generalizaciones simbólicas, modelos y valores que orientan la investigación."],
+        ["Ejemplares", "Soluciones exitosas de problemas concretos que se aprenden y usan como modelos para reconocer y resolver otros. No son meras leyes universales."],
+        ["Racionalidad contextual", "La evaluación de la ciencia debe considerar cómo evolucionan sus criterios en el tiempo: análisis diacrónico, no solo sincrónico. Un paradigma no es simplemente una teoría más grande."]
+      ],
+      "ejemplo": "Aprender cómo se resolvió un problema mecánico puede enseñar a identificar y resolver otros semejantes: ese caso resuelto funciona como ejemplar.",
+      "cuidado": "El paradigma incluye instrumentos, prácticas y valores: no es solo una colección de enunciados a la que se atribuya verdad o falsedad como a una hipótesis.",
+      "fuentes": ["G8: ejercicios 1–9 y 12", "2026: T3–4, ejercicio 6"]
+    },
+    {
+      "id": "etapas", "capitulo": "12", "titulo": "Preciencia, ciencia normal, crisis y revolución",
+      "idea": "La aparición de un problema no produce por sí sola una revolución ni obliga a abandonar un paradigma.",
+      "ramas": [
+        ["Preciencia", "Escuelas rivales discuten fundamentos, métodos y problemas sin un marco compartido. El curso no las equipara automáticamente a varios paradigmas consolidados."],
+        ["Ciencia normal", "La comunidad trabaja bajo un paradigma y resuelve enigmas, confiando en sus recursos. Acumula soluciones. Convive con dificultades y anomalías sin abandonar inmediatamente el marco."],
+        ["Crisis", "Anomalías persistentes, graves y relevantes debilitan la confianza; se cuestionan fundamentos y surgen alternativas. Crisis todavía no equivale a reemplazo consumado."],
+        ["Revolución", "Se sustituye el paradigma por otro. Hay cambio discontinuo, no simple incorporación del nuevo al anterior. Comienza otra ciencia normal; no toda crisis termina necesariamente en revolución."]
+      ],
+      "ejemplo": "La física newtoniana como marco estable: ciencia normal. La alquimia con escuelas y criterios divergentes: preciencia. Las dificultades resistentes del geocentrismo: anomalías; no prueban por sí solas una crisis.",
+      "cuidado": "Enigma = problema abordable con los recursos del paradigma. Anomalía = dificultad resistente a esos recursos. No todo enigma sin resolver es ya una anomalía decisiva.",
+      "fuentes": ["G8: ejercicios 8–12", "2026: todos los temas, ejercicios 5–6"]
+    },
+    {
+      "id": "inconmensurabilidad", "capitulo": "12", "titulo": "Inconmensurabilidad: reconocer cada tipo",
+      "idea": "La transición entre paradigmas puede transformar conceptos, percepción y modos de investigar; no hay una medida neutral automática común a todo.",
+      "ramas": [
+        ["Lingüística", "Los mismos términos no conservan íntegramente su significado entre paradigmas. Ejemplo del parcial: movimiento y reposo en la física aristotélica y la newtoniana."],
+        ["Perceptual", "El marco condiciona cómo se organiza lo observado. Kuhn lo compara con cambios gestálticos: mirar lo mismo y verlo de otra manera."],
+        ["Metodológico-instrumental", "Cambian problemas, procedimientos y funciones de instrumentos. Una herramienta heredada puede adquirir otra función en el nuevo marco."],
+        ["Evolución de la noción", "Las formulaciones posteriores reconocen traducción y comunicación parciales. Ciertos grupos de términos taxonómicos no se traducen íntegramente: «local» refiere al alcance limitado de esa dificultad, no a teorías del mismo paradigma."]
+      ],
+      "ejemplo": "«Planeta» designa conjuntos diferentes en los modelos ptolemaico y copernicano. Conservar la palabra no conserva su red de significado.",
+      "cuidado": "Inconmensurabilidad no significa ausencia de toda comunicación. Dentro de la ciencia normal hay progreso acumulativo; entre paradigmas, cambio no simplemente acumulativo.",
+      "fuentes": ["G8: ejercicios 13–18", "2026: T7–8, ejercicio 5"]
+    },
+    {
+      "id": "situado", "capitulo": "13", "titulo": "Conocimiento situado y sesgos de género",
+      "idea": "Quien conoce está situado en relaciones sociales e históricas. Eso influye en sus problemas, conceptos y formas de interpretar.",
+      "ramas": [
+        ["Género", "Construcción social sobre diferencias sexuales; no una explicación natural automática de capacidades o roles. La situación también involucra clase, raza, etnia y otras relaciones."],
+        ["Androcentrismo", "Tomar la experiencia masculina como medida universal de lo humano. Puede hacer invisible la diversidad de experiencias y necesidades."],
+        ["Sexismo", "Discriminación o infravaloración por sexo o género. Puede operar en instituciones, conceptos, teorías y aplicaciones, no solo en opiniones individuales."],
+        ["Lo común a las corrientes", "Cuestionan la supuesta neutralidad del sujeto cognoscente. No afirman que toda mujer tenga siempre razón ni que todo varón produzca conocimiento falso."]
+      ],
+      "ejemplo": "Una investigación que toma un único grupo como representante universal puede omitir preguntas relevantes para otros grupos, aun sin declarar una intención discriminatoria.",
+      "cuidado": "Conocimiento situado no equivale por sí solo a «todas las opiniones valen lo mismo». Las corrientes difieren en cómo entienden objetividad y privilegio epistémico.",
+      "fuentes": ["G9: ejercicios 7–14", "Programa 2026: unidad 3"]
+    },
+    {
+      "id": "sexismo-instituciones", "capitulo": "13", "titulo": "Sexismo: omisión, exclusión y aplicaciones",
+      "idea": "Para clasificar un caso, identificá qué mecanismo está destacando el relato. Puede haber más de uno, pero la consigna apunta al rasgo central.",
+      "ramas": [
+        ["Omisiones selectivas", "Se invisibilizan aportes o se atribuyen a otros. Efecto Matilda: falta de reconocimiento de contribuciones de mujeres y otras identidades. Indicio: autoría o reconocimiento borrado."],
+        ["Exclusión y marginación", "Barreras de acceso, formación, cargos, salario o uso de recursos. Indicio: se impide investigar o se restringe la participación en condiciones de igualdad."],
+        ["Aplicaciones sexistas", "Usos o desarrollos científicos que ignoran necesidades y perjudican a las mujeres u otros grupos. Indicio: una solución o ensayo no contempla sus efectos para esos grupos."]
+      ],
+      "ejemplo": "2026: Nettie Stevens invisibilizada → omisión. Astrónomas con salarios menores y sin acceso al telescopio → marginación. Medicamentos ensayados solo en varones → aplicaciones sexistas.",
+      "cuidado": "No todo caso de discriminación se responde con «exclusión». Si el problema central es borrar un descubrimiento ya realizado, la categoría pertinente es omisión.",
+      "fuentes": ["G9: ejercicios 1–5", "2026: T1–6, ejercicio 7"]
+    },
+    {
+      "id": "sexismo-conceptos", "capitulo": "13", "titulo": "Sexismo: estereotipos, conceptos y teorías",
+      "idea": "Otros sesgos actúan dentro del contenido del conocimiento, no solo en quién puede acceder a la ciencia.",
+      "ramas": [
+        ["Estereotipia sexista", "Asocia sin fundamento rasgos biológicos con conductas o roles sociales. Ejemplo: presentar carreras científicas como naturalmente masculinas."],
+        ["Conceptualizaciones sexistas", "El sesgo está incorporado en cómo se define o clasifica algo. Ejemplo de 2026: hormonas «masculinas» y «femeninas» usadas para derivar personalidades opuestas."],
+        ["Teorías sexistas", "Una explicación científica reproduce o justifica prejuicios sobre capacidades o roles. Ejemplo de la guía: supuesta inhabilidad biológica de las mujeres para la actividad pública."],
+        ["Cómo distinguir", "¿Se asigna un rol por estereotipo? ¿Se define una categoría sesgada? ¿Se construye una explicación de desigualdad? La respuesta debe corresponder al mecanismo descrito."]
+      ],
+      "ejemplo": "Clasificar esqueletos con una división binaria que no admite casos indeterminados puede sesgar los conceptos de la investigación arqueológica; no es un caso de autoría omitida.",
+      "cuidado": "Las seis manifestaciones se relacionan. Evitá usar «sexista» como única justificación: explicá qué elemento del caso permite elegir la categoría.",
+      "fuentes": ["G9: ejercicios 1–6", "2026: T7–8, ejercicio 7"]
+    },
+    {
+      "id": "punto-vista", "capitulo": "13", "titulo": "Teoría feminista del punto de vista",
+      "idea": "Atribuye una ventaja epistémica a la perspectiva de quienes experimentan la opresión: permite advertir aspectos que el grupo dominante no reconoce.",
+      "ramas": [
+        ["Fundamento", "La posición social de las mujeres permitiría reconocer regularidades del sistema patriarcal y comunicar desigualdades que las afectan directamente."],
+        ["Comparación", "Frente al posmodernismo, admite una perspectiva compartida vinculada a la experiencia de opresión. Frente al empirismo, sitúa el privilegio en una perspectiva social, no en el procedimiento crítico comunitario."],
+        ["Formulación de 2026", "El parcial atribuye a esta corriente un estilo cognitivo femenino «relacional y concreto», contrapuesto al «analítico y abstracto» atribuido a los varones. Hay que reconocer esa tesis como posición evaluada."],
+        ["Crítica de esencialismo", "Hablar de una experiencia o estilo común puede ignorar las diferencias entre mujeres, la historia y otras situaciones de opresión."]
+      ],
+      "ejemplo": "Una afirmación que presenta la experiencia de subordinación como fuente de acceso privilegiado a relaciones patriarcales corresponde al punto de vista, no al empirismo feminista.",
+      "cuidado": "La formulación cognitiva del parcial se expone como tesis atribuida a una corriente; no como un hecho biológico sobre capacidades naturales de mujeres y varones.",
+      "fuentes": ["G9: ejercicios 9–15", "2026: T1–2, ejercicio 8; PDF A, opción y devolución"]
+    },
+    {
+      "id": "empirismo-feminista", "capitulo": "13", "titulo": "Empirismo feminista y objetividad",
+      "idea": "Defiende una objetividad construida mediante la interacción crítica de una comunidad plural, conservando el papel de la lógica y la evidencia.",
+      "ramas": [
+        ["Sujeto del conocimiento", "No es un individuo aislado: es la comunidad cuyos integrantes confrontan perspectivas y detectan supuestos sesgados."],
+        ["Valores y crítica", "La objetividad no consiste simplemente en eliminar valores, sino en explicitarlos y someterlos a crítica intersubjetiva. Se requieren espacios públicos de discusión e igualdad de autoridad intelectual."],
+        ["Diferencias", "Rechaza que el privilegio epistémico provenga por sí solo de un estilo femenino; también rechaza que las teorías sean solo relatos de poder sin posibilidad de objetividad."],
+        ["Paradojas discutidas", "La del sesgo objeta introducir valores feministas para corregir sesgos; la de construcción social pregunta cómo cambiar una ciencia surgida de una sociedad sexista. La respuesta mantiene crítica social, lógica y evidencia conjuntamente."]
+      ],
+      "ejemplo": "Revisar en una comunidad plural por qué un estudio excluyó a mujeres y modificar su diseño a partir de evidencia y discusión corresponde al empirismo feminista.",
+      "cuidado": "No lo reduzcas a «aplicar mejor el mismo método»: la diversidad, los valores explicitados y la organización de la crítica también son parte de su propuesta.",
+      "fuentes": ["G9: ejercicios 9–14", "2026: T3–8, ejercicio 8"]
+    },
+    {
+      "id": "posmodernismo", "capitulo": "13", "titulo": "Feminismo posmodernista: comparar tesis",
+      "idea": "Cuestiona una identidad universal de «mujer» y una representación única y objetiva de la realidad independiente de relaciones de poder.",
+      "ramas": [
+        ["Conocimiento", "Presenta las teorías como narraciones cuyo lenguaje y aceptación están ligados al poder. El conocimiento es contingente y está situado históricamente."],
+        ["Identidades", "Los sujetos son intersecciones de género, clase, raza, etnia, nacionalidad y otros rasgos. «Mujer» y «varón» no son esencias homogéneas ni invariables."],
+        ["Crítica", "Abandonar toda identidad común puede debilitar la posibilidad de reconocer opresiones compartidas y organizar una acción política colectiva."],
+        ["Regla comparativa", "Perspectiva privilegiada por opresión → punto de vista. Objetividad mediante crítica comunitaria → empirismo. Relatos, poder y rechazo de una representación objetiva única → posmodernismo."]
+      ],
+      "ejemplo": "Si la consigna pide una tesis aceptada por el posmodernismo y rechazada por el empirismo, buscá la imposibilidad de una representación única y objetiva, no el conocimiento situado que comparten.",
+      "cuidado": "Una idea compartida por varias corrientes no sirve para responder qué afirma una y rechaza otra. Leé ambas condiciones de la consigna.",
+      "fuentes": ["G9: ejercicios 9–15", "2026: T5–8, ejercicio 8"]
+    },
+    {
+      "id": "hechos-valores", "capitulo": "14", "titulo": "Juicios de hecho y de valor",
+      "idea": "La distinción depende de qué se afirma: describir una situación o evaluarla. No depende de si la oración habla de ciencia, ética o política.",
+      "ramas": [
+        ["Hecho", "Describe un estado de cosas evaluable en términos de verdad o falsedad. Puede ser falso, desconocido o describir una conducta moralmente problemática y seguir siendo descriptivo."],
+        ["Valor", "Evalúa, recomienda o prescribe: correcto, injusto, irresponsable, deseable, gran aporte, debe. No hace falta que aparezca la palabra «debe». La contrastación empírica por sí sola no decide la valoración."],
+        ["Cita de una valoración", "«El comité considera injusta la medida» puede informar un hecho sobre lo que piensa el comité. No equivale sin más a afirmar que la medida es injusta."],
+        ["Selección múltiple", "En 2026 se piden dos opciones. Analizá cada una por separado y verificá que las dos pertenezcan a la categoría solicitada."]
+      ],
+      "ejemplo": "«El laboratorio ocultó resultados»: hecho. «Ocultarlos fue irresponsable»: valor. «Debemos priorizar la inversión en salud»: valor. «La inversión aumentó este año»: hecho.",
+      "cuidado": "«Descriptivo» no significa moralmente aceptable. «Valorativo» no significa arbitrario ni imposible de discutir con razones.",
+      "fuentes": ["G10E: ejercicio 1", "2026: todos los temas, ejercicio 10"]
+    },
+    {
+      "id": "argumento-normativo", "capitulo": "14", "titulo": "Completar un argumento normativo",
+      "idea": "Los parciales históricos piden seleccionar la norma que, junto con el hecho del caso, permite obtener una conclusión valorativa particular.",
+      "ramas": [
+        ["Estructura", "Premisa normativa general + premisa descriptiva del caso → conclusión normativa particular. Identificá qué condición conecta la norma con ese hecho."],
+        ["Pertinencia", "Entre varias valoraciones, elegí la que justifica exactamente la conclusión. Una frase puede ser moral o normativa y aun así no completar ese argumento."],
+        ["Falacia naturalista", "Pasar directamente de que algo ocurre a que debe ocurrir, sin una premisa normativa que lo sostenga. «Siempre hubo pobreza» no basta para concluir «está bien que la haya»."],
+        ["No adhesión automática", "Reconstruir un argumento permite evaluar su estructura. No obliga a aceptar como propia su premisa moral ni acredita la verdad de los hechos del relato."]
+      ],
+      "ejemplo": "Norma: «No se deben divulgar resultados obtenidos violando normas éticas». Hecho: «Este estudio los obtuvo así». Conclusión: «No se deben divulgar estos resultados». La norma es la premisa que faltaba.",
+      "cuidado": "En un ejercicio no elijas solo por estar de acuerdo con una valoración: comprobá si permite inferir la conclusión pedida.",
+      "fuentes": ["G10E: ejercicios 2–4", "2023–2025 y recuperatorio 2025: ejercicio 10"]
+    },
+    {
+      "id": "integridad", "capitulo": "14", "titulo": "Integridad científica: identificar problemas",
+      "idea": "Honestidad y rigor son valores de la práctica científica. Sus mecanismos institucionales ayudan a sostenerlos, pero también pueden fallar.",
+      "ramas": [
+        ["Revisión por pares", "Especialistas evalúan la calidad de un trabajo. No garantiza infalibilidad: puede no detectar errores o fraude y también excluir contribuciones valiosas."],
+        ["Incentivos perversos", "Presión por publicar, prestigio o cantidad de artículos que favorece conductas contrarias al rigor. Distinguí el incentivo del mecanismo de evaluación que falla."],
+        ["Conflicto de intereses", "El interés del financiador o del investigador puede interferir con el reporte y la evaluación. Ocultar resultados desfavorables por conveniencia económica es un caso típico."],
+        ["Otros desafíos", "La carrera por difundir resultados preliminares puede favorecer apropiación o publicación apresurada. Propiedad intelectual, acceso y financiación plantean problemas sobre circulación del conocimiento."]
+      ],
+      "ejemplo": "Una empresa impide publicar un resultado negativo de su producto: conflicto de intereses. Una revista acepta un trabajo sin evaluar su calidad: problema de revisión. Publicar por presión profesional: incentivo perverso.",
+      "cuidado": "Investigar con honestidad no basta para que el experimento sea éticamente aceptable: también importan sus daños y fines.",
+      "fuentes": ["G10E: ejercicios 5–6", "Mapa oficial de dimensión ético-política"]
+    },
+    {
+      "id": "etica-investigacion", "capitulo": "14", "titulo": "Ética de la investigación y participantes",
+      "idea": "La ampliación del conocimiento no justifica cualquier procedimiento. Hay que considerar derechos, consentimiento y daños.",
+      "ramas": [
+        ["Consentimiento", "Debe ser informado y libre. La mera aceptación no resuelve todos los problemas: dependencia económica o incentivos pueden comprometer la libertad de participar."],
+        ["Daños", "Importan tanto los físicos como los psicológicos. Engañar, manipular o negar tratamientos plantea problemas aunque se informen honestamente los resultados a colegas."],
+        ["Datos personales", "Entregar datos a una plataforma no equivale a consentir cualquier uso científico. Hay que considerar privacidad y finalidad de la investigación."],
+        ["Casos de la guía", "Tuskegee: engaño y privación de tratamiento para sífilis. Milgram: engaño y daño psicológico. Propuestas de exposición pagada a un virus: riesgo e influencia de la necesidad económica."]
+      ],
+      "ejemplo": "«Los voluntarios aceptaron» no es una justificación ética suficiente si no conocían riesgos o estaban sometidos a condiciones que impedían decidir libremente.",
+      "cuidado": "No confundas integridad al publicar con ética del procedimiento: un informe honesto puede describir una investigación moralmente inaceptable.",
+      "fuentes": ["G10E: ejercicio 6", "Capítulo 14 del temario"]
+    },
+    {
+      "id": "responsabilidad", "capitulo": "14", "titulo": "Cientificismo y anticientificismo: usos",
+      "idea": "Este debate trata de neutralidad y responsabilidad por los usos del conocimiento, no directamente de qué proyecto recibe financiación.",
+      "ramas": [
+        ["Cientificismo del curso", "Distingue producción de conocimiento y uso tecnológico. La ciencia básica y aplicada se presentan como valorativamente neutrales; la responsabilidad por usos dañinos recae en quienes aplican y deciden."],
+        ["Ciencia martillo", "Metáfora: el conocimiento sería una herramienta que puede usarse bien o mal. Su producción no cargaría automáticamente con la valoración moral del uso."],
+        ["Anticientificismo", "Cuestiona separar una esfera neutral de otra comprometida con valores. La tecnociencia entrelaza investigación, tecnología e intereses políticos y económicos."],
+        ["Responsabilidad compartida", "Desde esta crítica, los científicos participan de la responsabilidad por fines, riesgos y consecuencias junto con otros actores. No se afirma que sean los únicos responsables."]
+      ],
+      "ejemplo": "Ante plaguicidas que dañan polinizadores: «solo responden quienes los usan» expresa la separación cientificista. Evaluar el proceso tecnocientífico y sus intereses en conjunto expresa la crítica anticientificista.",
+      "cuidado": "Anticientificismo no significa aquí rechazo de todo conocimiento científico. Cientificismo en ética y en financiación son discusiones relacionadas, pero no idénticas.",
+      "fuentes": ["G10E: ejercicios 7–10", "Programa 2026: unidad 4"]
+    },
+    {
+      "id": "democracia", "capitulo": "14", "titulo": "Ciencia y democracia",
+      "idea": "Una investigación puede ser técnicamente evaluable y, a la vez, plantear consecuencias públicas que requieren deliberación ética y política.",
+      "ramas": [
+        ["Asimetría epistémica", "En los debates del capítulo, creencias previas pueden orientar hipótesis e interpretación hacia una conclusión esperada. Hay que examinar supuestos y sesgos."],
+        ["Asimetría política", "Los grupos sociales no soportan del mismo modo los efectos de una investigación: resultados estigmatizantes pueden perjudicar especialmente a sectores desfavorecidos."],
+        ["Evaluación ampliada", "Cuando están en juego valores democráticos, no basta considerar solo la calidad técnica. Importan el debate público y las voces de los grupos afectados."],
+        ["Hechos y valores", "Las preguntas elegidas y los usos previstos pueden involucrar valores. Reconocerlo no autoriza a sustituir la evidencia por cualquier opinión."]
+      ],
+      "ejemplo": "Un estudio que atribuye desigualdades sociales a diferencias biológicas requiere examinar evidencia, supuestos y efectos sobre quienes podrían quedar estigmatizados.",
+      "cuidado": "La crítica ética no se reduce a «no estudiar temas incómodos». Exige evaluar procedimientos, justificaciones, consecuencias y participación.",
+      "fuentes": ["Mapa oficial de dimensión ético-política", "Capítulo 14: ciencia y democracia; resúmenes locales cotejados"]
+    },
+    {
+      "id": "politica", "capitulo": "15", "titulo": "Política científica: básica, aplicada y tecnología",
+      "idea": "La política científica es una política pública: decisiones del Estado sobre desarrollo científico, recursos y prioridades, atravesadas por relaciones de poder.",
+      "ramas": [
+        ["Ciencia básica", "Busca comprender fenómenos sin exigir una aplicación práctica inmediata. Puede tener beneficios futuros y valor explicativo por sí misma."],
+        ["Ciencia aplicada", "Orienta conocimiento a resolver un problema concreto: sanitario, ambiental, productivo u otro. No toda investigación sobre salud es aplicada."],
+        ["Tecnología", "Diseña o produce procedimientos, artefactos e intervenciones. Su relación con la ciencia puede concebirse linealmente o como interacción estrecha, según la postura."],
+        ["Criterio de lectura", "Identificá el objetivo del proyecto, no su disciplina ni el prestigio de quienes participan. Después elegí la postura que lo priorizaría y la razón correspondiente."]
+      ],
+      "ejemplo": "Estudiar cómo funciona una proteína tumoral: básica. Usar ese conocimiento para desarrollar un tratamiento: aplicada. Ambos tratan cáncer, pero tienen objetivos diferentes.",
+      "cuidado": "Una opción que financia el proyecto con una justificación de otra corriente puede ser incorrecta, aunque coincida la decisión de financiar.",
+      "fuentes": ["G10P: ejercicios 1 y 4–13", "2026: todos los temas, ejercicio 9"]
+    },
+    {
+      "id": "prioridades", "capitulo": "15", "titulo": "Financiar: cientificismo o practicismo",
+      "idea": "La diferencia es qué se prioriza y por qué, especialmente cuando los recursos son escasos; no qué tipo de ciencia se prohíbe.",
+      "ramas": [
+        ["Cientificismo", "Prioriza ciencia básica, conocimiento valioso en sí mismo y autonomía investigadora. Defiende beneficios futuros y la relación básica → aplicada → tecnología."],
+        ["Críticas al cientificismo", "Los resultados pueden tardar y competir por recursos con necesidades urgentes. Desatender la articulación con aplicaciones locales puede favorecer dependencia o emigración científica."],
+        ["Practicismo", "Prioriza investigación aplicada con beneficios directos para necesidades económicas y sociales. En países con recursos limitados, esas urgencias orientarían la financiación."],
+        ["Críticas al practicismo", "Descuidar ciencia básica puede aumentar la dependencia de conocimientos externos y limitar autonomía y creatividad. El cientificismo también invoca beneficios prácticos, pero a largo plazo."]
+      ],
+      "ejemplo": "2026: reutilizar yerba para producir bioaceite o aplicar IA a gestión clínica → razón practicista. Estudiar paleobiología o poblamiento sin aplicación inmediata → razón cientificista.",
+      "cuidado": "También pueden preguntar por qué una postura no priorizaría un proyecto. Buscá impacto directo frente a valor del conocimiento o utilidad futura.",
+      "fuentes": ["G10P: ejercicios 2 y 4–13", "2026: ejercicio 9; históricos 2024–2025"]
+    },
+    {
+      "id": "humanidades", "capitulo": "15", "titulo": "Humanidades: cuatro argumentos diferentes",
+      "idea": "La guía oficial no limita este debate a Nussbaum: pide reconocer distintas justificaciones del valor de las humanidades.",
+      "ramas": [
+        ["Stanley Fish", "Destaca el valor intrínseco de las humanidades, apreciable por quienes las practican, y cuestiona que se justifiquen por efectos sociales generales."],
+        ["Harry Elam", "Las producciones artísticas y culturales pueden contribuir a la resistencia frente a la opresión y motorizar cambios sociales."],
+        ["Federico Vasen", "Las humanidades aportan al análisis ético, social y legal de la investigación y la innovación. La bioética permite reconocer esa contribución."],
+        ["Martha Nussbaum", "Artes, humanidades y ciencias sociales desarrollan crítica, empatía y pensamiento autónomo. Sostienen ciudadanía y democracia; no son adornos prescindibles."]
+      ],
+      "ejemplo": "Estudiar cómo una institución define a las personas consideradas peligrosas puede revelar relaciones sociales y formar una mirada crítica: justificación humanista.",
+      "cuidado": "«Humanidades = Nussbaum» es insuficiente para las actividades oficiales. Distinguir valor intrínseco, cambio social, evaluación ética y formación ciudadana.",
+      "fuentes": ["G10P: ejercicios 3 y 10–11"]
+    },
+    {
+      "id": "sistema", "capitulo": "15", "titulo": "Financiación e instituciones científicas",
+      "idea": "Las prioridades se concretan mediante instituciones, presupuestos e interacciones entre Estado, universidades, organismos y empresas.",
+      "ramas": [
+        ["Organización", "El sistema argentino incluye universidades y organismos públicos de investigación como CONICET, junto con otros actores. Financiar, ejecutar y evaluar investigación son funciones que pueden distribuirse entre instituciones."],
+        ["Estado y sector privado", "La guía propone discutir ventajas y límites de cada fuente de financiación. El interés comercial puede orientar qué se investiga y qué resultados se difunden; la financiación estatal también implica decisiones de prioridades."],
+        ["Hitos", "Proyecto Manhattan: investigación de gran escala vinculada a objetivos estatales y militares. Informe de Vannevar Bush de 1945: apoyo estatal a ciencia básica y autonomía investigadora, dentro del relato histórico del capítulo."],
+        ["Cómo estudiar", "Comprendé relaciones entre fines, recursos y responsabilidad. No tomes nombres administrativos o porcentajes del libro de 2022 como datos automáticamente vigentes en 2026."]
+      ],
+      "ejemplo": "Ocultar datos de un fármaco porque no conviene comercialmente conecta financiación, conflictos de intereses, difusión de resultados y responsabilidad científica.",
+      "cuidado": "Privado no significa siempre perjudicial ni estatal siempre neutral. Hay que fundamentar ventajas, límites y mecanismos en cada caso.",
+      "fuentes": ["G10P: introducción y reflexión final", "Bibliografía oficial 2026: capítulo 15"]
+    },
+    {
+      "id": "evolucion-historicos", "capitulo": "Complemento", "titulo": "Darwin y Lamarck: parciales históricos",
+      "idea": "El cronograma 2C2026 ubica evolución antes del primer parcial. Este complemento se conserva porque aparece en segundos parciales de Buacar de 2025.",
+      "ramas": [
+        ["Creacionismo y fijismo", "Explican especies por creación y las consideran esencialmente invariables. No equivalen a una teoría de transformación evolutiva."],
+        ["Lamarck", "Cambios de ambiente y necesidades → uso o desuso de órganos → modificación durante la vida → herencia de caracteres adquiridos, según el esquema evaluado."],
+        ["Darwin", "Variaciones heredables previas + diferencias de supervivencia o reproducción → selección y cambio de frecuencias en generaciones. No hay mejora dirigida por la necesidad ni progreso necesario."],
+        ["Selección sexual", "Un rasgo puede aumentar el éxito reproductivo aunque tenga costos de supervivencia. No se explica solo por vivir más tiempo."]
+      ],
+      "ejemplo": "Búhos: «ver mejor por ejercitar la vista y transmitir esa mejora» → Lamarck. «Ya había variaciones heredables; quienes veían mejor dejaron más descendencia» → Darwin.",
+      "cuidado": "No explicar el origen de una variación darwiniana por el esfuerzo, la voluntad o una necesidad del individuo. Los individuos no evolucionan por decidir adaptarse.",
+      "fuentes": ["Buacar 30/05/2025: T1–2 y T5, ejercicio 3", "Cronograma oficial 2C2026: semana 5"]
+    }
+  ],
+  "fuentes": [
+    ["Programa", "Programa analítico de Buacar, 2026. Unidades 3 y 4.", "https://www.ubaxxicampusvirtual.uba.ar/pluginfile.php/1250630/mod_resource/content/5/Programa_campus%20UBA%20XXI_2026.pdf"],
+    ["Cronograma", "Cronograma 2C2026. Semanas 6–10: segundo parcial; semana 5: evolución.", "https://www.ubaxxicampusvirtual.uba.ar/pluginfile.php/1280310/mod_resource/content/1/MODIFICADO%20RECU%202%20C%202026_Cronograma_IPC_formato_nuevo.pdf"],
+    ["Bibliografía", "Desenredando la ciencia (2022), capítulos 10–15 y presentaciones de partes tercera y cuarta.", "https://www.ubaxxicampusvirtual.uba.ar/pluginfile.php/1250632/mod_resource/content/7/Bibliograf%C3%ADa_campus%20UBA%20XXI_%202026.pdf"],
+    ["G6", "Semana 6: estructura de las teorías y contrastación. Ejercicios y respuestas.", "https://www.ubaxxicampusvirtual.uba.ar/mod/resource/view.php?id=202207"],
+    ["G7", "Semana 7: positivismo y falsacionismo, incluida explicación científica. Ejercicios y respuestas.", "https://www.ubaxxicampusvirtual.uba.ar/mod/resource/view.php?id=202219"],
+    ["G8", "Semana 8: Kuhn. Ejercicios y respuestas.", "https://www.ubaxxicampusvirtual.uba.ar/mod/resource/view.php?id=202230"],
+    ["G9", "Semana 9: filosofía feminista. Ejercicios y respuestas.", "https://www.ubaxxicampusvirtual.uba.ar/mod/resource/view.php?id=202247"],
+    ["G10E", "Semana 10: dimensión ética. Ejercicios y respuestas.", "https://www.ubaxxicampusvirtual.uba.ar/mod/resource/view.php?id=202259"],
+    ["G10P", "Semana 10: políticas científicas. Ejercicios y respuestas.", "https://www.ubaxxicampusvirtual.uba.ar/mod/resource/view.php?id=202261"]
+  ]
+}

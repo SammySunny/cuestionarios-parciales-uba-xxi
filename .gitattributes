@@ -1,0 +1,2 @@
+# Los PDF generados son archivos binarios, aunque sus primeras páginas sean ASCII.
+*.pdf binary
