@@ -1,5 +1,6 @@
 /* Cuestionarios UBA XXI. Datos separados de la interfaz.
    parcial: 1 o 2 organiza la selección sin modificar los ids guardados.
+   tipo: "final" separa las instancias finales; no se combina con parcial.
    Los primeros parciales se importaron de los HTML de la carpeta de la materia.
    fuente conserva el archivo original; d indica una revisión o aclaración.
    aceptadas permite las respuestas alternativas autorizadas por la fuente.
@@ -9,7 +10,7 @@ registrarMateria({
   "id": "icse",
   "sigla": "ICSE",
   "nombre": "ICSE · Introducción al Conocimiento de la Sociedad y el Estado",
-  "detalle": "Primeros y segundos parciales, organizados por fecha, cátedra y tema.",
+  "detalle": "Primeros y segundos parciales e instancias finales, organizados por fecha, cátedra y tema.",
   "notas": {
     "icse-sorteo-atenas": "Linares recuerda que en la Atenas clásica el sorteo era una institución central de la democracia: se utilizaba para seleccionar integrantes de órganos de gobierno y jurados. No todo se resolvía mediante elecciones. Las referencias a parlamentarios y a una corte suprema trasladan instituciones modernas a la Antigüedad; la exclusión de esclavos es un límite histórico de la ciudadanía ateniense, pero no vuelve falsa la afirmación sobre el uso del sorteo.",
     "icse-woke-religion": "La pregunta pide reconstruir la crítica de Quintana Paz, no adoptar una definición neutral de todos los movimientos que se llaman woke. Según su interpretación, esa cultura retoma elementos morales como la compasión por la víctima, pero transforma su sentido y reemplaza el perdón por la humillación pública. Por eso no es correcto decir que simplemente conserva la tradición judeocristiana, que carece de toda moral reconocible o que se basa exclusivamente en evidencias científicas.",
@@ -277,7 +278,89 @@ registrarMateria({
     "icse-p1-valdez-1880-identidad": "Hacia 1880, con la inmigración masiva, el temor a la disolución de la sociedad y de la nacionalidad cobró una importancia inusitada, y el Estado asumió la construcción de la identidad nacional con escuela pública, servicio militar y símbolos patrios. El INCAA y el Pacto de Mayo son anacronismos.",
     "icse-p1-poliarquia-origen": "El concepto de poliarquía es de la segunda posguerra y sirvió para definir y disputar el significado de la democracia frente al bloque oriental soviético, no frente al Eje, que para entonces ya había sido derrotado.",
     "icse-p1-federal-arquitectura": "En un Estado federal cada provincia tiene su propia arquitectura de gobierno, con Ejecutivo, Legislativo y Judicial separados e independientes del gobierno central. Que la competencia política ocurra en más de un nivel es justamente lo propio del federalismo.",
-    "icse-p1-acciones-sociales-weber": "Weber distingue cuatro tipos de acción social: la tradicional, la afectiva, la racional con arreglo a fines y la racional con arreglo a valores. \"Con arreglo a tácticas\" no existe en la clasificación."
+    "icse-p1-acciones-sociales-weber": "Weber distingue cuatro tipos de acción social: la tradicional, la afectiva, la racional con arreglo a fines y la racional con arreglo a valores. \"Con arreglo a tácticas\" no existe en la clasificación.",
+    "icse-2026-p2-72b0226afd673c52": "Romero explica que Menem desistió del balotaje de 2003 ante una derrota previsible: el rechazo que despertaba podía reunir a gran parte de los demás votantes en favor de Kirchner. Este llegó a la presidencia sin disputarse la segunda vuelta. No ganó un balotaje ni obtuvo el 42 % en la primera vuelta, y la consigna no atribuye la renuncia a un pacto de impunidad con Duhalde.",
+    "icse-2026-p2-ae0201c3d38f33ac": "La crítica de Pedrosa y Federico apunta al desajuste entre el orden internacional surgido de la Segunda Guerra Mundial y el mundo actual. El veto conserva un privilegio de las potencias vencedoras que se cuestiona desde la equidad. No fue derogado tras la invasión de Ucrania, y la existencia de acuerdos entre potencias no basta para demostrar su legitimidad.",
+    "icse-2026-p2-8fd99b2f02c0af8e": "Linares distingue las ventajas del sorteo de la posibilidad de reemplazar con él todas las elecciones. Cuando se seleccionan pocos cargos, la mayoría de los ciudadanos no puede elegir ni influir en quién los ocupa. La igualdad de probabilidades no elimina ese límite, y las experiencias deliberativas no prueban que se hayan sustituido íntegramente los parlamentos nacionales.",
+    "icse-2026-p2-bec3772a1f56bafa": "La afirmación reconstruye el argumento libertario de Nozick tal como lo presenta Montero: cobrar impuestos redistributivos equivale a apropiarse de parte del trabajo de alguien para beneficiar a otros. Es una posición filosófica que se pide reconocer, no una definición neutral de toda tributación. Nozick no defiende aquí la redistribución progresiva ni la provisión universal de servicios propia del liberalismo igualitario.",
+    "icse-2026-p2-73380db01d8235f5": "En la lectura de Gulich, siguiendo a Bunge, la inteligencia es una propiedad emergente de un sistema nervioso material en interacción con otros. Que sea emergente no la vuelve mística ni ajena al estudio científico. Tampoco equivale a reducirla a una reacción química aislada: importa la organización y la interacción del sistema.",
+    "icse-2026-p2-861bb8bcca123b31": "Bernardini explica el edadismo por factores sociales y culturales: miedo a la muerte, exaltación de la juventud, valoración económica de la productividad e institucionalización de las personas mayores. El deterioro físico no es su causa suficiente. La mayor presencia de mujeres en edades avanzadas tampoco reemplaza esa explicación, y la discriminación no desapareció por las políticas de inclusión.",
+    "icse-2026-p2-d18de859228ebf03": "En la interpretación de Pimentel, Han presenta la esperanza como una disposición activa capaz de resistir la resignación y la desesperanza. Por eso puede tener una dimensión política. No se la describe como espera pasiva ni se afirma que exija abandonar por completo las plataformas digitales.",
+    "icse-2026-p2-23265277e7122817": "Leiras vincula la etapa constituyente con el desplazamiento de los partidos tradicionales y la aprobación de un nuevo orden constitucional mediante referéndum. La grilla reúne esas dos transformaciones. No describe una negociación constituyente protagonizada por Acción Democrática y COPEI ni una decisión final de la Corte que negara el carácter supraconstitucional de la Asamblea.",
+    "icse-2026-p2-9bc654cd86b6fa7e": "La explicación de Chaguaceda y Viera combina el manejo autónomo de importantes recursos por GAESA con la circulación de sus dirigentes hacia cargos centrales del gobierno y del Partido Comunista. Eso muestra la articulación del poder militar, económico y político. No se lo presenta como un conglomerado privado ordinario ni como un mecanismo de distribución equitativa de beneficios turísticos.",
+    "icse-2026-p2-4d1312924b3b90ff": "Povse señala una combinación de condiciones políticas: el acercamiento de gobiernos de la llamada marea rosa y el espacio dejado por la retirada estadounidense. El argumento no reduce el avance chino al comercio ni supone una derogación de la Doctrina Monroe por el Congreso de Estados Unidos.",
+    "icse-2026-p2-b3a243209ca1f6c1": "El intento reeleccionista de Menem debilitó a Duhalde y profundizó el enfrentamiento interno del peronismo. Según Romero, el partido llegó dividido y sin un liderazgo consolidado a la elección de 1999. No fue una candidatura avalada exitosamente por la Corte ni se explica el resultado por una alianza formal del menemismo con De la Rúa.",
+    "icse-2026-p2-dc5b0471f705b9e3": "Romero destaca las restricciones económicas heredadas por la Alianza: la convertibilidad limitaba la política monetaria, la sobrevaluación perjudicaba la competitividad y el déficit superaba lo previsto. La grilla selecciona esa explicación económica. Las alternativas agregan un retiro inmediato del FMI, un bloqueo absoluto desde el primer día o una vicepresidencia de Cavallo que no existió.",
+    "icse-2026-p2-34432673e06d2517": "El círculo vicioso relaciona ajuste, recesión y déficit: reducir salarios, partidas e inversión contraía la actividad; al caer la recaudación, se exigían nuevos recortes. No se trata de un blindaje que hubiera reactivado de manera sostenida la economía ni de un ajuste de López Murphy ampliamente respaldado electoralmente.",
+    "icse-2026-p2-28dddb4ace3e4d14": "Romero relaciona el intento de flexibilizar la convertibilidad con una señal de insolvencia y el déficit cero con recortes de salarios, jubilaciones y transferencias. La escasez de recursos provinciales llevó a emitir cuasimonedas. El megacanje no solucionó la deuda ni permitió sostener el régimen tres años más; las medidas tampoco detuvieron exitosamente la desconfianza.",
+    "icse-2026-p2-ff6dbf72b0c994b1": "El voto en blanco y la anulación expresaron un rechazo amplio a la representación política. También crecieron fuerzas como la izquierda y el ARI, que canalizaron parte del descontento. No hubo una recuperación electoral de la UCR ni una desaparición inminente del peronismo: esas alternativas invierten el panorama que describe Romero.",
+    "icse-2026-p2-1f62f527bed7ced8": "Romero no reduce la profundidad del derrumbe a la economía: también evalúa las decisiones de De la Rúa. Hasta cierto momento no había una voluntad generalizada de derribarlo, pero el presidente no logró sumar a otras fuerzas ni compartir las responsabilidades políticas. Una mayor habilidad podía haber moderado el colapso; no hubo una elección presidencial anticipada convocada por él ni una coalición intacta hasta octubre.",
+    "icse-2026-p2-806c3fe06d14b1df": "La estética del clic privilegia la inmediatez, la repetición y las métricas de interacción sobre la contemplación y la profundidad. Pimentel aplica esa crítica tanto a contenidos breves de plataformas como a usos de realidad aumentada orientados al impacto. No presenta a Han celebrando TikTok ni proponiendo esa tecnología como única salida para los museos.",
+    "icse-2026-p2-f9bfe4b342a18e93": "En el argumento de Gulich, producir texto mediante predicciones sobre patrones lingüísticos no equivale a comprender el mundo ni demuestra inteligencia artificial general. La distinción no depende de una prohibición del Congreso estadounidense ni de una supuesta decisión de OpenAI de retirar una inteligencia general ya existente. La limitación absoluta a texto tampoco es el fundamento seleccionado por la grilla.",
+    "icse-2026-p2-2b810e072a52f67b": "Pedrosa y Federico señalan que el mundo posterior a 1945 incorporó actores no estatales con una cantidad, escala y poder inéditos. Por eso el sistema de gobernanza necesita ser repensado. Esto no implica que los Estados hayan desaparecido o que el derecho internacional haya sido formalmente derogado; tampoco India se convirtió en miembro permanente del Consejo de Seguridad.",
+    "icse-2026-p2-332b25cec44880c9": "Romero reconoce una combinación de espontaneidad social e intervención política local en los saqueos de diciembre de 2001. Atribuirlos exclusivamente a la desesperación o a una coordinación nacional piquetera elimina esa combinación. La existencia de represión no prueba ausencia de organización, y el corralito no explica por sí solo toda la dinámica de los sectores más pobres.",
+    "icse-2026-p2-d4702297bcb8e80c": "La diversidad cognitiva aportada por el sorteo tiene límites: ninguna asamblea puede incluir todas las perspectivas específicas que requiere cada problema complejo. Reconocer ese límite no significa que los ciudadanos carezcan necesariamente de capacidad para deliberar ni que deban excluirse por falta de formación técnica.",
+    "icse-2026-p2-2c55d8a5eaffcbd5": "La relación se describe como una complementariedad: Cavallo organizaba y conducía el equipo económico, mientras Menem gestionaba las resistencias políticas, en especial dentro del peronismo. Esa cooperación los potenciaba. No equivale a un presidente meramente protocolar ni a un ministro subordinado sin autonomía desde el comienzo.",
+    "icse-2026-p2-34a1ae4c34748dca": "La recuperación no se atribuye exclusivamente a Lavagna: también incidieron el precio internacional de la soja y las nuevas condiciones posteriores a la convertibilidad. La capacidad del ministro fue un factor, no una causa única. Las otras alternativas exageran su autonomía causal o presentan al FMI como diseñador de un programa aceptado íntegramente.",
+    "icse-2026-p2-1a2822fd58c38507": "La crisis del Tequila expuso la dependencia de capitales externos y la vulnerabilidad de una economía atada a la convertibilidad. Que el gobierno consiguiera asistencia financiera no demuestra fortaleza estructural. La explicación seleccionada por la grilla se centra en esa exposición a las oscilaciones internacionales, no en negar las particularidades del caso argentino.",
+    "icse-2026-p2-2fd90b206cda1161": "El alineamiento con Estados Unidos tuvo expresiones concretas: salida del Movimiento de Países No Alineados, clausura del Proyecto Cóndor y participación militar internacional. No fue solo retórica diplomática ni una política de autonomía tradicional. Los vínculos personales con presidentes estadounidenses no supusieron el ingreso argentino como miembro permanente del Consejo de Seguridad.",
+    "icse-2026-p2-0210b9a8cd945a31": "Según el análisis de Leiras, la legitimidad electoral fue cuestionada por la proclamación sin documentación que la respaldara y por las actas reunidas por la oposición. En la variante que lo incluye, también se señala la exclusión de Machado tras ganar las primarias. La opción sobre un voto exterior masivo no forma parte de la explicación válida; las combinaciones deben evaluarse según el texto de cada tema.",
+    "icse-2026-p2-67fb9371bedec32c": "La explicación reúne vulnerabilidad económica y responsabilidad política. La recesión y el déficit restringían las salidas, mientras De la Rúa no construía un liderazgo capaz de reunir a la coalición y a otras fuerzas. El corralito no fue una solución exitosa ni el FMI retiró todo apoyo desde el inicio de la gestión.",
+    "icse-2026-p2-6b07c71b3136102a": "Romero combina la inestabilidad financiera internacional iniciada en Asia con el impacto regional de la devaluación brasileña. La convertibilidad impedía usar la devaluación para recuperar competitividad. No corresponde reemplazar esos factores por un retiro del FMI que ya hubiera provocado el colapso bancario antes del fin del mandato de Menem.",
+    "icse-2026-p2-f2ff7c94c6fa618e": "La crítica de Montero distingue la defensa liberal de los derechos individuales del rechazo absoluto de la autoridad estatal. La referencia a Locke sostiene que una autoridad común permite garantizar los derechos naturales. El anarcocapitalismo no se caracteriza por priorizar la igualdad sobre la libertad ni por abolir la propiedad privada.",
+    "icse-2026-p2-28f0f04a60f9a8c2": "Bernardini muestra que el comienzo de la vejez es percibido de manera distinta según quién responde. Los jóvenes lo sitúan antes que las personas de mayor edad, y también aparecen diferencias entre mujeres y hombres. Los datos de la consigna no sostienen un consenso europeo uniforme ni una explicación principalmente basada en el nivel educativo.",
+    "icse-2026-p2-d0b4b91021992ec5": "Romero describe efectos desiguales de la transformación económica: cierres y desempleo en parte de la industria, consolidación de grandes grupos y cambios tecnológicos y organizativos en el agro. No fueron solo las pequeñas empresas las perjudicadas ni se trasladó toda la industria automotriz a Brasil. La respuesta combina los procesos industrial y agrario.",
+    "icse-2026-p2-2d107147b649e983": "Povse vincula el financiamiento chino con compromisos políticos y con una mayor afinidad en las votaciones internacionales. Ese argumento no equivale a afirmar que los swaps eliminaron la dependencia del dólar o del FMI. La exigencia general de contratar exclusivamente tecnología y mano de obra china tampoco integra la combinación que selecciona la grilla.",
+    "icse-2026-p2-d2b03d7109b1ca30": "Federico, siguiendo a Cortés Conde, desplaza la explicación desde la falta de recursos hacia las instituciones. Recursos naturales y población educada no bastan si no existen acuerdos y reglas duraderos para sostener el crecimiento. La consigna no propone una inferioridad natural del país ni una explicación basada en que los argentinos no valoren el progreso.",
+    "icse-2026-p2-f49764bb1d87bfee": "Chaguaceda y Viera cuestionan la autonomía efectiva de la Asamblea: su actividad es reducida, formaliza decisiones previas y no ejerce una iniciativa legislativa real en el sentido señalado por el texto. La crítica no requiere afirmar que todos sus integrantes sean militares o que no exista ningún mecanismo electoral en su selección.",
+    "icse-2026-p2-665b26a85ceb6836": "En la lectura de Pimentel, la venta millonaria de la obra de Beeple ilustra un desplazamiento desde la contemplación hacia la transacción y la especulación digital. La posibilidad técnica de certificar obras no es, en esta consigna, la tesis crítica de Han. Tampoco se presenta a los NFT como una resistencia celebrada por él ni como una solución de la fugacidad.",
+    "icse-2026-p2-d048bc1b49ca3bf7": "Gulich recupera las Tres Leyes como reglas de seguridad de una herramienta: no dañar a quien la usa, cumplir su función mientras sea segura y preservarse salvo conflicto con prioridades superiores. Su relevancia ética no prueba que ya estén incorporadas en armas autónomas. Tampoco implica que Asimov las diseñara específicamente para la actual AGI o que deban ser un marco legal internacional.",
+    "icse-2026-p2-a47c31263726e7fd": "El Swiftgate se presenta como una manifestación de una trama de tráfico de influencias y corrupción, no como una excepción aislada que el gobierno resolvió por sí mismo. La frase atribuida a Manzano en la consigna refuerza esa lectura. No se explica la designación de Cavallo como una auditoría del círculo presidencial.",
+    "icse-2026-p2-e4a8474b433147da": "Las privatizaciones tenían varios objetivos políticos y económicos: obtener fondos, demostrar capacidad de reforma, enviar señales a acreedores y reacomodar a contratistas. Por eso es falsa la reducción a una finalidad fiscal exclusiva. Garantizar rentabilidad a compradores no equivale a demostrar que la renta volviera íntegramente al Estado mediante impuestos.",
+    "icse-2026-p2-68aec91aba3954c6": "La respuesta que prioriza la grilla identifica un mecanismo estructural: la convertibilidad aumentaba la dependencia de capitales externos volátiles y amplificaba las crisis internacionales. El dato del desempleo no reemplaza esa explicación causal. Superar la emergencia con asistencia del FMI tampoco vuelve sólido al modelo ni elimina su vulnerabilidad.",
+    "icse-2026-p2-03d6347ce17d0c48": "La afirmación invierte el reparto de tareas descripto por Romero: Menem conservaba la conducción política y delegaba la administración en colaboradores capaces. No se dedicaba principalmente a la gestión cotidiana mientras Cavallo decidía toda la estrategia política, ni centralizaba personalmente cada función administrativa.",
+    "icse-2026-p2-7ba8923cc4b1f70d": "Romero distingue la fortaleza electoral y comunicacional del FREPASO de su debilidad organizativa. El liderazgo de Chacho Álvarez no se tradujo en una implantación territorial sólida ni en una estructura institucional consolidada. Eso no significa que nunca obtuviera buenos resultados o que se disolviera antes de integrar la Alianza.",
+    "icse-2026-p2-ef0daf3b9e975b0a": "Las tensiones dentro de la UCR llevaron a Alfonsín a tomar distancia de De la Rúa y a explorar un gobierno de unidad nacional que pudiera iniciar la salida de la convertibilidad. No fue un apoyo incondicional hasta el final. Tampoco la consigna identifica esa búsqueda con un plan coordinado para forzar la renuncia presidencial.",
+    "icse-2026-p2-6bd98bf412b23e26": "La política de Di Tella dejó en suspenso la disputa de soberanía para negociar cuestiones prácticas, como la pesca, dentro del alineamiento occidental. Eso no significó recuperar la soberanía, reconocer definitivamente la administración británica ni conseguir un reconocimiento británico de soberanía argentina diferido cien años.",
+    "icse-2026-p2-0416e72d6980e829": "La crítica de Povse combina la asimetría del intercambio estudiantil con el papel de los institutos Confucio y su vínculo con el Estado y la cultura política del Partido Comunista Chino. Se trata de la influencia atribuida por el autor, no de que China financie la totalidad de las investigaciones sobre el país en el CONICET. La respuesta correcta reúne tres afirmaciones en una sola alternativa.",
+    "icse-2026-p2-427a8902705f5a12": "Federico explica que los acuerdos corporativos pueden beneficiar a grupos organizados sin favorecer al conjunto de la sociedad. La protección de intereses particulares, la exclusión de otros y la limitación de la competencia ayudan a entender ese resultado. No se afirma una eliminación total de los mecanismos de mercado equivalente a un régimen colectivista.",
+    "icse-2026-p2-52c73181b1f33f62": "Chaguaceda y Viera cuestionan al régimen cubano desde varias perspectivas democráticas, incluida la socialista. Su crítica combina la concentración familiar y militar del poder con la administración de demandas sociales en nombre de sectores excluidos, sin participación autónoma de estos. No presentan el centralismo como debate genuino ni a Gramsci y Macpherson avalando ese modelo concreto.",
+    "icse-2026-p2-04fab9dc93f03f55": "En la tipología de Leiras, la permanencia de Maduro se vincula con unas Fuerzas Armadas integradas al gobierno y al régimen, cuyos intereses favorecen su continuidad. La lealtad aparece como estrategia de supervivencia, no como valor independiente de esos incentivos. Las alternativas que trasladan los desenlaces de Bolivia o Chile no describen ese escenario.",
+    "icse-2026-p2-7080f37a9497bebb": "Bernardini cuestiona que se reduzca la autonomía de las personas mayores mientras se educa a la infancia para ejercerla. También examina una institucionalización que identifica automáticamente vejez y dependencia. La exclusión no se explica principalmente por enfermedades crónicas ni por jubilaciones diseñadas solo para mujeres.",
+    "icse-2026-p2-dd1cfcfb3c70fcc3": "Romero señala la amplitud de los indultos de Menem: alcanzaron a militares procesados, jefes guerrilleros, responsables de Malvinas y luego integrantes de las Juntas condenados. Hubo fuerte oposición social, no consenso general. No se los presenta como condición negociada para reprimir a Seineldín ni como una justificación de la obediencia debida por Balza.",
+    "icse-2026-p2-d5c25eaa4aee491a": "Montero distingue el liberalismo igualitario, que considera salud, educación y protección frente al desempleo como cuestiones de justicia, de la posición libertaria sobre el Estado. El igualitarismo puede reconocer los costos de regulaciones excesivas para financiar el bienestar. No debe confundirse libertarismo con abolición de todo Estado ni suponerse acuerdo entre ambas corrientes sobre servicios universales.",
+    "icse-2026-p2-e27364b63f8cd0f4": "Gulich distingue las neuronas biológicas de los elementos de las redes artificiales y, siguiendo a Bunge, vincula el pensamiento con sistemas neurales plásticos. Una analogía de diseño no garantiza las mismas propiedades emergentes. El éxito de los modelos lingüísticos no demuestra por sí mismo AGI, ni la consigna atribuye a Bunge una demostración específica sobre creatividad y juicios morales.",
+    "icse-2026-p2-3e28f369a064275e": "Pimentel contrapone el diagnóstico de Han sobre la desmaterialización de relaciones y experiencias con la posibilidad de renovación creativa que encuentra Harari. No se invierten sus posiciones ni se atribuye a Harari el propósito de eliminar todo arte tradicional. La diferencia es de interpretación y orientación ante el horizonte tecnológico.",
+    "icse-2026-p2-cc7255dcb0b3157c": "Pedrosa y Federico sostienen que las transformaciones posteriores a 1989 obligan a revisar las categorías con que describimos la política global. Distinguir relaciones entre Estados de procesos que atraviesan sus fronteras ayuda a reconocer nuevos actores. Esto no supone que los Estados se hayan vuelto irrelevantes ni que sean los únicos actores capaces de intervenir.",
+    "icse-2026-p2-7fd9adf557602889": "La igualdad de probabilidades del sorteo no garantiza, por sí sola, una representación política suficiente cuando se eligen pocas personas. Linares no lo invalida en todo contexto: cuestiona convertir esa ventaja en un argumento universal. Tampoco el sorteo elimina automáticamente el clientelismo o las demás limitaciones de representación.",
+    "icse-2026-p2-d6d7b4b265288d2a": "La afirmación pide reconstruir la posición de Montero: relaciona la mayor libertad económica con una riqueza promedio superior en la comparación entre países. No se reduce esa tesis a una preferencia subjetiva ni se presenta a la Unión Soviética como economía socialista de mercado exitosa. Se evalúa el argumento del autor, no una equivalencia entre riqueza e igualdad distributiva.",
+    "icse-2026-p2-64b587b725eee397": "Gulich distingue los modelos simplificados de neuronas artificiales de una simulación físico-química completa de una neurona real. La consigna ilustra la exigencia de memoria y el costo adicional de modelar la electroquímica. La limitación es de complejidad material y computacional, no una prueba de que la inteligencia sea inmaterial.",
+    "icse-2026-p2-beae4a2327e6aba2": "Bernardini cuestiona la adecuación de un esquema de jubilación con bases históricas del siglo XIX a una población mucho más longeva. Que originalmente pocas personas llegaran al retiro no prueba su adecuación actual. La consigna tampoco propone eliminar el retiro tomando una charla de Jane Fonda como demostración.",
+    "icse-2026-p2-e5981d00bf87cefb": "En la lectura de Pimentel, Harari no considera que el desenlace tecnológico esté fijado de antemano: importa construir marcos éticos que orienten su poder hacia fines humanos. Eso no supone neutralidad automática de los algoritmos ni garantiza que solo se usen con fines creativos. Tampoco equivale a un pesimismo que niegue toda posibilidad de imaginar futuros.",
+    "icse-2026-p2-d0b8d53c6d253b7f": "Federico explica que los grupos con más recursos de organización y presión pueden obtener privilegios frente a sectores menos representados. El corporativismo no garantiza automáticamente igualdad de voz ni elimina las desigualdades mediante la intervención estatal. La crítica tampoco se limita al poder de sindicatos afines al gobierno.",
+    "icse-2026-p2-3fb7ae6637cf8fd3": "Leiras señala una paradoja: los recursos y acuerdos que dieron estabilidad al sistema de Punto Fijo también cerraron espacios a nuevos actores. La exclusión erosionó su legitimidad. No se atribuye al diseño electoral una apertura general a nuevas fuerzas ni se sostiene que la cooperación institucional evitara las crisis de los años ochenta y noventa.",
+    "icse-2026-p2-65148f757925799a": "Chaguaceda y Viera cuestionan tanto la primacía del Partido Comunista sobre los órganos estatales como la falta de fundamento del monopolio partidario en las tradiciones que invoca. No describen una Asamblea autónoma ni una participación efectiva de las bases que equilibre a la cúpula. La respuesta debe reunir las dos críticas, no sus contrarios.",
+    "icse-2026-p2-c6b12aef1c167cea": "Romero relaciona los primeros cortes de ruta con localidades muy afectadas por los despidos de YPF. La respuesta estatal combinó represión y negociaciones con planes transitorios, que podían aliviar y a la vez reproducir los reclamos. El movimiento no nació exclusivamente en el conurbano ni estuvo libre de enfrentamientos.",
+    "icse-2026-p2-e9b080d8281c91f9": "El Pacto de Olivos combinó la aceptación de la reelección con cambios que buscaban limitar la discrecionalidad presidencial. Alfonsín lo justificó frente al riesgo de una reforma impulsada sin consenso opositor. No tuvo el respaldo entusiasta de toda la oposición ni supuso un fracaso electoral general del Frente Grande en 1994.",
+    "icse-2026-p2-a5d63c8d2a5652bf": "La consigna pregunta por las vulnerabilidades que dejó la convertibilidad: crecimiento de la deuda, dependencia de capitales volátiles y rigidez cambiaria frente a la pérdida de competitividad. La estabilización de precios es un logro del régimen, pero no explica esas vulnerabilidades. La grilla prioriza la combinación de los problemas estructurales y no afirma desempleo bajo o superávit permanente.",
+    "icse-2026-p2-17c997a760b0fcbd": "La grilla vincula la contención social mediante el Plan Jefes y Jefas de Hogar con la mejora del precio internacional de la soja. Romero no explica la estabilización por una legitimidad electoral propia de Duhalde ni por un apoyo incondicional del FMI. La respuesta combina una política social con una condición económica externa favorable.",
+    "icse-2026-p2-f9dd8aece20be432": "La apertura y la reconversión tecnológica alteraron el empleo industrial: muchas empresas cerraron y otras se modernizaron o incorporaron capital extranjero. Eso no equivale a conservar altos niveles de empleo ni a una reducción automática de la desocupación. La respuesta reúne el impacto laboral y la transformación del tejido empresarial.",
+    "icse-2026-p2-8c9ca0c30fb9c90c": "Romero relaciona el fracaso de la Alianza con la ruptura profundizada por la renuncia de Álvarez y con la falta de liderazgo de De la Rúa para articular sus tendencias internas. No supone que el peronismo bloqueara cualquier acuerdo desde el comienzo ni que el FMI negara todo apoyo desde el primer día.",
+    "icse-2026-p2-123b771fe2ab5598": "El giro que destaca Romero es el abandono del estatismo y la adopción de privatizaciones, aprovechando el debilitamiento de resistencias tras la hiperinflación. No describe una continuidad del discurso económico clásico ni un proceso necesariamente gradual. El apoyo del establishment no se explica por los antecedentes de una campaña peronista tradicional.",
+    "icse-2026-p2-a55578eb84ca464b": "En el planteo de Povse, las llamadas comisarías clandestinas ejemplifican una influencia que excede el intercambio cultural y educativo. No se afirma una autorización general de gobiernos latinoamericanos para aplicar leyes del Partido Comunista dentro de las universidades ni una diáspora totalmente desvinculada de ese partido. Se pide reconocer el ejemplo que el autor utiliza.",
+    "icse-2026-p2-f2805afac8b29a32": "La crisis del Tequila expuso la dependencia de capitales externos y la vulnerabilidad de una economía atada a la convertibilidad. Que el gobierno consiguiera asistencia financiera no demuestra fortaleza estructural. La explicación seleccionada por la grilla se centra en esa exposición a las oscilaciones internacionales, no en negar las particularidades del caso argentino.",
+    "icse-2026-p2-42ef6a7136e5c695": "Romero reconoce una combinación de espontaneidad social e intervención política local en los saqueos de diciembre de 2001. Atribuirlos exclusivamente a la desesperación o a una coordinación nacional piquetera elimina esa combinación. La existencia de represión no prueba ausencia de organización, y el corralito no explica por sí solo toda la dinámica de los sectores más pobres.",
+    "icse-2026-p2-65b61901afd243cc": "Federico, siguiendo a Cortés Conde, desplaza la explicación desde la falta de recursos hacia las instituciones. Recursos naturales y población educada no bastan si no existen acuerdos y reglas duraderos para sostener el crecimiento. La consigna no propone una inferioridad natural del país ni una explicación basada en que los argentinos no valoren el progreso.",
+    "icse-2026-p2-2c5dff93138b5679": "Romero describe efectos desiguales de la transformación económica: cierres y desempleo en parte de la industria, consolidación de grandes grupos y cambios tecnológicos y organizativos en el agro. No fueron solo las pequeñas empresas las perjudicadas ni se trasladó toda la industria automotriz a Brasil. La respuesta combina los procesos industrial y agrario.",
+    "icse-2026-p2-849572a23a4b15a1": "La afirmación invierte el reparto de tareas descripto por Romero: Menem conservaba la conducción política y delegaba la administración en colaboradores capaces. No se dedicaba principalmente a la gestión cotidiana mientras Cavallo decidía toda la estrategia política, ni centralizaba personalmente cada función administrativa.",
+    "icse-2026-p2-806a4094bba17954": "Romero señala la amplitud de los indultos de Menem: alcanzaron a militares procesados, jefes guerrilleros, responsables de Malvinas y luego integrantes de las Juntas condenados. Hubo fuerte oposición social, no consenso general. No se los presenta como condición negociada para reprimir a Seineldín ni como una justificación de la obediencia debida por Balza.",
+    "icse-2026-p2-6e6530411657af22": "Pedrosa y Federico sostienen que las transformaciones posteriores a 1989 obligan a revisar las categorías con que describimos la política global. Distinguir relaciones entre Estados de procesos que atraviesan sus fronteras ayuda a reconocer nuevos actores. Esto no supone que los Estados se hayan vuelto irrelevantes ni que sean los únicos actores capaces de intervenir.",
+    "icse-2026-p2-d21f3b86576ac2ac": "Romero relaciona los primeros cortes de ruta con localidades muy afectadas por los despidos de YPF. La respuesta estatal combinó represión y negociaciones con planes transitorios, que podían aliviar y a la vez reproducir los reclamos. El movimiento no nació exclusivamente en el conurbano ni estuvo libre de enfrentamientos.",
+    "icse-2026-p2-1eb5bab067ac3a99": "El Pacto de Olivos combinó la aceptación de la reelección con cambios que buscaban limitar la discrecionalidad presidencial. Alfonsín lo justificó frente al riesgo de una reforma impulsada sin consenso opositor. No tuvo el respaldo entusiasta de toda la oposición ni supuso un fracaso electoral general del Frente Grande en 1994.",
+    "icse-2026-p2-84dd47dcd0abf8cc": "La consigna pregunta por las vulnerabilidades que dejó la convertibilidad: crecimiento de la deuda, dependencia de capitales volátiles y rigidez cambiaria frente a la pérdida de competitividad. La estabilización de precios es un logro del régimen, pero no explica esas vulnerabilidades. La grilla prioriza la combinación de los problemas estructurales y no afirma desempleo bajo o superávit permanente.",
+    "icse-2026-final-4fa0c422cbbd3b76": "Pedrosa, Deich y Yannuzzi distinguen el uso analítico del lenguaje académico de los usos afectivos e identitarios que pueden predominar en contextos informales. Reafirmar una postura no equivale a precisar conceptos y discutir argumentos. Esto no supone que el lenguaje cotidiano sea siempre más preciso ni que ambos contextos tengan objetivos idénticos.",
+    "icse-2026-final-85334404126d75dd": "Romero destaca el predominio radical y peronista después de 1983 y los espacios menores ocupados por la UCeDé a la derecha y el Partido Intransigente a la izquierda. El PRO y el kirchnerismo corresponden a procesos políticos posteriores: incluirlos en ese mapa de 1983 es un anacronismo.",
+    "icse-2026-final-a009f267d229993b": "Los mecanismos pertinentes son el Foro China-CELAC y la búsqueda de reconocimiento diplomático de países que todavía reconocen a Taiwán. El Foro de San Pablo reúne fuerzas políticas y no es un foro diplomático entre China y gobiernos latinoamericanos. Por eso se corrige la combinación indicada por la grilla original; la alternativa sobre Venezuela tampoco expresa el objetivo diplomático que se pregunta."
   },
   "examenes": [
     {
@@ -11723,6 +11806,2337 @@ registrarMateria({
       ]
     },
     {
+      "id": "pedrosa-2026-06-05-p2",
+      "nombre": "2º parcial · 05/06/2026",
+      "fecha": "2026-06-05",
+      "catedra": "A · Fernando Pedrosa",
+      "detalle": "Cátedra A · Pedrosa. 8 temas de 18 preguntas; las primeras 16 valen 0,50 y las dos últimas 1 punto. Sin puntaje parcial.",
+      "parcial": 2,
+      "temas": [
+        {
+          "id": "t1",
+          "n": "Tema 1",
+          "fuente": "ICSE_2026_A.pdf",
+          "paginas": [
+            1,
+            5
+          ],
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Luis A. Romero, el ex presidente Carlos Menem renunció a competir en la segunda vuelta electoral de 2003 porque sabía que perdería, lo que benefició a su directo competidor, Néstor Kirchner, al darle la posibilidad de llegar a la presidencia sin realizar el balotaje.",
+              "o": [
+                "Es verdadero, porque la resistencia social que despertaba Menem era suficiente para unir a buena parte del resto de los votantes en su contra.",
+                "Es falso, porque Kirchner ganó el balotaje con amplia mayoría al contar con el apoyo unificado de todos los sectores opositores a Menem.",
+                "Es verdadero, porque el entonces presidente Eduardo Duhalde negoció con Menem su renuncia al balotaje a cambio de garantizarle impunidad judicial.",
+                "Es falso, porque Kirchner obtuvo el 42% en primera vuelta, diferencia suficiente para ganar sin segunda vuelta."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-72b0226afd673c52"
+            },
+            {
+              "e": "2",
+              "p": "Según Fernando Pedrosa y Antonio Federico, el poder de veto en el Consejo de Seguridad de la Organización de las Naciones Unidas (ONU) sigue siendo una medida razonable y legítima en el mundo actual.",
+              "o": [
+                "Es verdadero, porque los cinco miembros permanentes siguen siendo las potencias más relevantes y sus intereses coinciden en mantener algún tipo de equilibrio global que sostenga el status quo actual.",
+                "Es falso, porque se basa en el resultado de una guerra concluida hace ocho décadas y perpetúa un desequilibrio que carece de legitimidad desde una perspectiva de equidad.",
+                "Es verdadero, porque el Consejo de Seguridad demostró su eficacia al autorizar intervenciones exitosas en los Balcanes, Haití y Sudán del Sur.",
+                "Es falso, porque el veto fue formalmente derogado por la Asamblea General tras la invasión rusa a Ucrania en 2022."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-ae0201c3d38f33ac"
+            },
+            {
+              "e": "3",
+              "p": "Según Sebastián Linares, el sorteo puede reemplazar completamente a las elecciones como mecanismo de selección de gobernantes en una democracia moderna.",
+              "o": [
+                "Es verdadero, porque garantiza igualdad de trato, diversidad cognitiva y elimina la corrupción y el clientelismo.",
+                "Es falso, porque viola el principio de igualdad política al excluir a quienes no son seleccionados.",
+                "Es verdadero, porque las experiencias de Suiza y Uruguay demostraron que las asambleas sorteadas reemplazaron exitosamente al parlamento en la toma de decisiones nacionales.",
+                "Es falso, porque cuando los cargos sorteados son pocos, los ciudadanos no pueden influir ni elegir quién los ocupa, lo que lo descarta como reemplazo total."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-2026-p2-8fd99b2f02c0af8e"
+            },
+            {
+              "e": "4",
+              "p": "Según Julio Montero, el filósofo Robert Nozick considera que la redistribución del ingreso por parte del Estado es una forma de esclavitud.",
+              "o": [
+                "Es verdadero, porque Nozick sostiene que si el Estado cobra impuestos se apropia de horas de trabajo de las personas obligándolas a trabajar para beneficio de otros, de manera similar a lo que ocurría con los esclavos.",
+                "Es falso, porque Nozick defiende una política impositiva progresiva que garantice condiciones dignas a todos los miembros de la sociedad.",
+                "Es verdadero, porque Locke ya había demostrado mucho tiempo antes, que todo impuesto viola el principio de autopropiedad y debe ser considerado una forma de servidumbre involuntaria.",
+                "Es falso, porque Nozick reconoce que los impuestos son legítimos siempre que financien servicios públicos universales como salud y educación."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-bec3772a1f56bafa"
+            },
+            {
+              "e": "5",
+              "p": "Según Damián Gulich, la inteligencia humana es una propiedad mística e inmaterial del cerebro que no puede explicarse desde una perspectiva científica materialista.",
+              "o": [
+                "Es verdadero, porque el lóbulo frontal del cerebro genera propiedades que trascienden lo puramente biológico y no pueden ser estudiadas por la física ni la filosofía materialista.",
+                "Es falso, porque siguiendo al filósofo Mario Bunge, la inteligencia humana es una propiedad emergente del sistema nervioso humano interactuante con otros, con particular protagonismo del lóbulo frontal, y no requiere de misticismo alguno.",
+                "Es verdadero, porque la complejidad del sistema nervioso demuestra que ninguna computadora podrá jamás aproximarse a la inteligencia humana, lo que confirma su naturaleza no material.",
+                "Es falso, porque el filósofo Mario Bunge demostró que la conciencia humana es producto exclusivo de procesos químicos cerebrales, sin ningún componente sistémico ni emergente."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-73380db01d8235f5"
+            },
+            {
+              "e": "6",
+              "p": "Diego Bernardini afirma que el edadismo surge principalmente del deterioro físico que experimentan las personas mayores.",
+              "o": [
+                "Es verdadero, porque las enfermedades crónicas y las limitaciones físicas generan dependencia, que es la causa central de la discriminación por edad en la sociedad.",
+                "Es falso, porque el edadismo surge de cuatro factores: el miedo a la muerte, la exaltación de la juventud, la valoración económica de la productividad y la institucionalización de las personas mayores.",
+                "Es verdadero, porque la feminización del envejecimiento, al concentrarse en las mujeres, refuerza los estereotipos sobre la vejez como etapa de decadencia y dependencia.",
+                "Es falso, porque el edadismo desapareció en las sociedades modernas gracias a políticas de inclusión similares a las implementadas para mujeres y personas con discapacidad."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-861bb8bcca123b31"
+            },
+            {
+              "e": "7",
+              "p": "Según Diego Pimentel, para Han la esperanza juega un rol activo como forma de resistencia frente a la superficialidad de la era digital.",
+              "o": [
+                "Es falso, porque Han considera que la esperanza es irrelevante en el debate sobre la digitalización, centrando su crítica exclusivamente en el análisis económico del mercado del arte.",
+                "Es falso, porque para Han la esperanza es un sentimiento pasivo que no puede resistir el avance de la digitalización y la pérdida de lo tangible.",
+                "Es verdadero, porque Han propone que la esperanza solo puede surgir del rechazo total a las plataformas digitales y el retorno a las formas de arte tradicionales y materiales.",
+                "Es verdadero, porque para Han la esperanza no es un sentimiento pasivo sino un acto político que desafía el dominio de la desesperanza y la resignación."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-2026-p2-d18de859228ebf03"
+            },
+            {
+              "e": "8",
+              "p": "Según Santiago Leiras, la etapa constituyente de la Revolución Bolivariana (1999-2001) implicó una transformación radical del sistema político venezolano. Esto es así porque:",
+              "o": [
+                "Se redujo a un papel casi testimonial a quienes habían sido actores estratégicos como los partidos políticos Acción Democrática y Comité de Organización Política Electoral Independiente (COPEI) durante el ciclo democrático precedente de cuatro décadas.",
+                "La nueva constitución bolivariana fue aprobada en referéndum con el 71,37% de los votos, el mismo día en que quedaron disueltos el Congreso y la Corte Suprema de Justicia.",
+                "Los partidos Acción Democrática y el Comité de Organización Política Electoral Independiente (COPEI), aunque debilitados, participaron activamente en la Asamblea Constituyente y negociaron las reformas con el chavismo.",
+                "Finalmente, la Corte Suprema terminó negando el carácter supraconstitucional –es decir, por encima de la constitución– de la Asamblea Constituyente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-23265277e7122817"
+            },
+            {
+              "e": "9",
+              "p": "Según Armando Chaguaceda y Eloy Viera, el Grupo de Administración Empresarial S.A. (GAESA) ilustra cómo la cúpula militar cubana fusionó el poder económico con el político. Esto es así porque:",
+              "o": [
+                "Fue creado por Fidel Castro para distribuir los beneficios económicos del turismo entre la población cubana de manera equitativa.",
+                "Fue creado como herramienta para atraer inversión extranjera, operando bajo las mismas reglas del mercado internacional que cualquier conglomerado empresarial privado.",
+                "Actúa de manera autónoma con su propio presupuesto e instituciones financieras separadas del Banco Central, gestionando enormes fondos sin depender del sistema de planificación estatal.",
+                "Sus principales dirigentes pasaron de conducir empresas de GAESA a cargos clave en el gobierno y el Partido Comunista de Cuba.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-9bc654cd86b6fa7e"
+            },
+            {
+              "e": "10",
+              "p": "Según Max Povse, el avance de China en América Latina se explica por varios factores que operaron simultáneamente. Entre ellos:",
+              "o": [
+                "La afinidad antiimperialista de la llamada \"marea rosa\" llevó a ver al Partido Comunista Chino como aliado natural.",
+                "La Doctrina Monroe fue derogada por el Congreso estadounidense, eliminando los obstáculos para la expansión china.",
+                "China avanzó exclusivamente a través del comercio, ya que los países obtuvieron superávits que incentivaron el acercamiento.",
+                "La retirada de Estados Unidos dejó un vacío que China aprovechó con la esperanza de convertirse en el nuevo hegemón.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la B."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-4d1312924b3b90ff"
+            },
+            {
+              "e": "11",
+              "p": "Según Romero, el intento de Menem de lograr una nueva reelección en 1999 fracasó, pero no fue inocuo para el peronismo. Esto fue así porque:",
+              "o": [
+                "Menem logró herir políticamente a Eduardo Duhalde —su primer vicepresidente—, quien debió acentuar su perfil opositor al gobierno que integraba y presentar propuestas que cuestionaban la convertibilidad.",
+                "Menem logró el respaldo de la Corte Suprema para su proyecto de reelección, lo que prolongó el conflicto interno del partido hasta las elecciones de 1999 donde fue derrotado.",
+                "El peronismo llegó a la elección de 1999 sin un líder consolidado, enfrascado en el conflicto entre Menem y Duhalde, y fue derrotado.",
+                "Una parte del peronismo menemista, previendo la derrota y opuestos a Duhalde, se alió con el radical Fernando De la Rúa.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-b3a243209ca1f6c1"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, el gobierno de la Alianza recibió una economía en crisis que condicionó severamente su margen de acción. Esto fue así porque:",
+              "o": [
+                "La convertibilidad sancionada en la presidencia de Menem limitaba la acción estatal en materia monetaria y el peso sobrevaluado dificultaba competir en los mercados mundiales, mientras el déficit fiscal era mayor al previsto.",
+                "El FMI retiró su apoyo a la Argentina desde el día que se inició la gestión de De la Rúa, lo que precipitó la fuga de capitales y aceleró el colapso de la convertibilidad antes de 2001.",
+                "El peronismo, con mayoría en el Senado y la mayoría de las provincias, bloqueó sistemáticamente todas las iniciativas económicas del gobierno de la Alianza desde el mismo inicio.",
+                "Domingo Cavallo fue designado vicepresidente para garantizar la continuidad de la convertibilidad y la confianza de los inversores.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-dc5b0471f705b9e3"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, las políticas aplicadas para sostener la convertibilidad durante el gobierno de la Alianza generaron un círculo vicioso. Esto fue así porque:",
+              "o": [
+                "El entonces ministro de economía Ricardo López Murphy logró reducir el déficit con un drástico recorte de gastos que fue ampliamente respaldado por la sociedad en las elecciones, pero no por los gobernadores provinciales.",
+                "El blindaje acordado con el Fondo Monetario Internacional a fines de 2000 reactivó la economía y la confianza externa, pero generó mayor endeudamiento, reiniciando el ciclo de ajustes y recesión.",
+                "Las medidas de ajuste fiscal congelaron salarios, suprimieron partidas y achicaron la inversión, profundizando la recesión y el descontento.",
+                "La recesión reducía los ingresos provenientes de los impuestos, lo que agravaba el déficit y exigía nuevos ajustes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-34432673e06d2517"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, las medidas desesperadas del ministro Cavallo durante el gobierno de la Alianza para evitar la cesación de pagos, agravaron la crisis en lugar de resolverla. Esto fue así porque:",
+              "o": [
+                "El intento de flexibilizar la convertibilidad combinando dólares con euros tuvo un resultado catastrófico, ya que el Estado estaba admitiendo que la insolvencia estaba cercana.",
+                "El llamado megacanje con los acreedores redujo la deuda externa y generó un alivio fiscal que permitió sostener la convertibilidad por tres años más.",
+                "La solución no ortodoxa de Cavallo de cerrar importaciones y reactivar exportaciones fue exitosa en reducir la fuga de dólares, aunque no alcanzó para revertir la desconfianza de los inversores.",
+                "El presupuesto de \"déficit cero\" anunciado en julio de 2001 implicó recortes de sueldos y jubilaciones y reducción de transferencias a las provincias, que emitieron las llamadas “cuasi monedas” para pagar salarios.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-28dddb4ace3e4d14"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, las elecciones legislativas de octubre de 2001 reflejaron una crisis profunda de representación política. Esto fue así porque:",
+              "o": [
+                "La crisis de representación se expresó en que el peronismo perdió más de la mitad de sus votos históricos y estuvo a punto de desaparecer como fuerza política nacional.",
+                "Un 22% de los votantes votó en blanco o anuló su voto en lo que se llamó el \"voto bronca\", expresando una disconformidad generalizada con el conjunto de los políticos.",
+                "Los partidos de izquierda y Afirmación para una República Igualitaria (ARI) de Elisa Carrió obtuvieron buenos resultados, canalizando el descontento de quienes rechazaban tanto al oficialismo como al peronismo.",
+                "La UCR obtuvo un resultado electoral sorprendentemente positivo que le permitió recuperar la iniciativa política frente al peronismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-ff6dbf72b0c994b1"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, la crisis de diciembre de 2001 pudo haber tenido una forma y profundidad diferentes según las decisiones del gobierno del entonces presidente De la Rúa. Esto fue así porque:",
+              "o": [
+                "De la Rúa logró mantener cohesionada la coalición oficialista hasta las elecciones legislativas de octubre de 2001, pero la derrota electoral producto del acuerdo con la ultraderecha en la Ciudad de Buenos Aires precipitó su ruptura.",
+                "Al menos hasta octubre de 2001 nadie se propuso deliberadamente derribarlo, pero De la Rúa no intentó sumar otras fuerzas políticas ni hacerlas copartícipes del derrumbe que se avizoraba.",
+                "De la Rúa convocó anticipadamente a elecciones presidenciales para obtener una nueva legitimidad que le permitiera enfrentar la crisis con mayor respaldo ciudadano y eso lo condujo a la derrota.",
+                "De haber poseído mayor habilidad política, De la Rúa quizás hubiera podido morigerar el derrumbe institucional y político, y hacer copartícipes del colapso a quienes también eran responsables.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la D y la A.",
+                "Las opciones correctas son la D y la C."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-1f62f527bed7ced8"
+            },
+            {
+              "e": "17",
+              "p": "Según Diego Pimentel, Byung-Chul Han critica la \"estética del clic\" como una amenaza a la profundidad artística en la era digital. Esto es así porque:",
+              "o": [
+                "Plataformas como TikTok modelan la creatividad según métricas de inmediatez y viralidad, fragmentando el contenido artístico en piezas breves, repetibles y descartables que sacrifican la profundidad.",
+                "La realidad aumentada (RA), al priorizar el impacto visual y las métricas de interacción en espacios como museos, se alinea con esa lógica del clic que Han denuncia como amenaza a la profundidad artística.",
+                "Han celebra plataformas como TikTok porque democratizan el acceso al arte y permiten que cualquier persona sea creadora, ampliando así la diversidad cultural.",
+                "Han propone que los museos adopten la realidad aumentada como única forma de resistir la desmaterialización del arte y recuperar la profundidad perdida en la era digital.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 4,
+              "pts": 1,
+              "k": "icse-2026-p2-806c3fe06d14b1df"
+            },
+            {
+              "e": "18",
+              "p": "Según Damián Gulich, los modelos de lenguaje extenso como ChatGPT no constituyen una forma de inteligencia artificial general (AGI). Esto es así porque:",
+              "o": [
+                "ChatGPT no constituye una AGI porque su funcionamiento se basa en predicciones matemáticas sobre patrones del lenguaje humano, no en un entendimiento real del mundo.",
+                "ChatGPT no constituye una AGI porque sus creadores de OpenAI decidieron limitarlo deliberadamente para evitar riesgos éticos asociados a una inteligencia artificial sin restricciones.",
+                "ChatGPT no constituye una AGI porque el Congreso de Estados Unidos lo reguló en 2023 prohibiendo explícitamente que los modelos de lenguaje sean clasificados como inteligencia general.",
+                "ChatGPT no constituye una AGI porque su arquitectura de red neuronal fue diseñada exclusivamente para procesar texto, sin capacidad de aprender de nuevos datos una vez completado su entrenamiento.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "icse-2026-p2-f9bfe4b342a18e93"
+            }
+          ],
+          "aviso": "Claves de la grilla del PDF original. Explicaciones elaboradas para estudiar, no correcciones oficiales. Las opciones combinadas se responden con una sola alternativa. Cada tema suma 10 puntos."
+        },
+        {
+          "id": "t2",
+          "n": "Tema 2",
+          "fuente": "ICSE_2026_B.pdf",
+          "paginas": [
+            1,
+            5
+          ],
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Sebastián Linares, el sorteo puede reemplazar completamente a las elecciones como mecanismo de selección de gobernantes en una democracia moderna.",
+              "o": [
+                "Es falso, porque viola el principio de igualdad política al excluir a quienes no son seleccionados.",
+                "Es verdadero, porque garantiza igualdad de trato, diversidad cognitiva y elimina la corrupción y el clientelismo.",
+                "Es falso, porque cuando los cargos sorteados son pocos, los ciudadanos no pueden influir ni elegir quién los ocupa, lo que lo descarta como reemplazo total.",
+                "Es verdadero, porque las experiencias de Suiza y Uruguay demostraron que las asambleas sorteadas reemplazaron exitosamente al parlamento en la toma de decisiones nacionales."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-2026-p2-8fd99b2f02c0af8e"
+            },
+            {
+              "e": "2",
+              "p": "Según Fernando Pedrosa y Antonio Federico, el poder de veto en el Consejo de Seguridad de la Organización de las Naciones Unidas (ONU) sigue siendo una medida razonable y legítima en el mundo actual.",
+              "o": [
+                "Es falso, porque se basa en el resultado de una guerra concluida hace ocho décadas y perpetúa un desequilibrio que carece de legitimidad desde una perspectiva de equidad.",
+                "Es falso, porque el veto fue formalmente derogado por la Asamblea General tras la invasión rusa a Ucrania en 2022.",
+                "Es verdadero, porque el Consejo demostró su eficacia al autorizar intervenciones exitosas en los Balcanes, Haití y Sudán del Sur.",
+                "Es verdadero, porque los cinco miembros permanentes siguen siendo las potencias más relevantes y sus intereses coinciden en mantener algún tipo de equilibrio global que sostenga el status quo actual."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-ae0201c3d38f33ac"
+            },
+            {
+              "e": "3",
+              "p": "Según Diego Pimentel, para Han la esperanza juega un rol activo como forma de resistencia frente a la superficialidad de la era digital.",
+              "o": [
+                "Es falso, porque para Han la esperanza es un sentimiento pasivo que no puede resistir el avance de la digitalización y la pérdida de lo tangible.",
+                "Es verdadero, porque para Han la esperanza no es un sentimiento pasivo sino un acto político que desafía el dominio de la desesperanza y la resignación.",
+                "Es verdadero, porque Han propone que la esperanza solo puede surgir del rechazo total a las plataformas digitales y el retorno a las formas de arte tradicionales y materiales.",
+                "Es falso, porque Han considera que la esperanza es irrelevante en el debate sobre la digitalización, centrando su crítica exclusivamente en el análisis económico del mercado del arte."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-d18de859228ebf03"
+            },
+            {
+              "e": "4",
+              "p": "Diego Bernardini afirma que el edadismo surge principalmente del deterioro físico que experimentan las personas mayores.",
+              "o": [
+                "Es verdadero, porque la feminización del envejecimiento, al concentrarse en las mujeres, refuerza los estereotipos sobre la vejez como etapa de decadencia y dependencia.",
+                "Es verdadero, porque las enfermedades crónicas y las limitaciones físicas generan dependencia, que es la causa central de la discriminación por edad en la sociedad.",
+                "Es falso, porque el edadismo surge de cuatro factores: el miedo a la muerte, la exaltación de la juventud, la valoración económica de la productividad y la institucionalización de las personas mayores.",
+                "Es falso, porque el edadismo desapareció en las sociedades modernas gracias a políticas de inclusión similares a las implementadas para mujeres y personas con discapacidad."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-2026-p2-861bb8bcca123b31"
+            },
+            {
+              "e": "5",
+              "p": "Según Damián Gulich, la inteligencia humana es una propiedad mística e inmaterial del cerebro que no puede explicarse desde una perspectiva científica materialista.",
+              "o": [
+                "Es falso, porque siguiendo al filósofo Mario Bunge, la inteligencia humana es una propiedad emergente del sistema nervioso humano interactuante con otros, con particular protagonismo del lóbulo frontal, y no requiere de misticismo alguno",
+                "Es verdadero, porque el lóbulo frontal del cerebro genera propiedades que trascienden lo puramente biológico y no pueden ser estudiadas por la física ni la filosofía materialista.",
+                "Es falso, porque el filósofo Mario Bunge demostró que la conciencia humana es producto exclusivo de procesos químicos cerebrales, sin ningún componente sistémico ni emergente.",
+                "Es verdadero, porque la complejidad del sistema nervioso demuestra que ninguna computadora podrá jamás aproximarse a la inteligencia humana, lo que confirma su naturaleza no material."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-73380db01d8235f5"
+            },
+            {
+              "e": "6",
+              "p": "Según Luis A. Romero, el ex presidente Carlos Menem renunció a competir en la segunda vuelta electoral de 2003 porque sabía que perdería, lo que benefició a su directo competidor, Néstor Kirchner, al darle la posibilidad de llegar a la presidencia sin realizar el balotaje.",
+              "o": [
+                "Es falso, porque Kirchner obtuvo el 42% en primera vuelta, diferencia suficiente para ganar sin segunda vuelta.",
+                "Es verdadero, porque el entonces presidente Eduardo Duhalde negoció con Menem su renuncia al balotaje a cambio de garantizarle impunidad judicial.",
+                "Es falso, porque Kirchner ganó el balotaje con amplia mayoría al contar con el apoyo unificado de todos los sectores opositores a Menem.",
+                "Es verdadero, porque la resistencia social que despertaba Menem era suficiente para unir a buena parte del resto de los votantes en su contra."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-2026-p2-72b0226afd673c52"
+            },
+            {
+              "e": "7",
+              "p": "Según Julio Montero, el filósofo Robert Nozick considera que la redistribución del ingreso por parte del Estado es una forma de esclavitud.",
+              "o": [
+                "Es falso, porque Nozick defiende una política impositiva progresiva que garantice condiciones dignas a todos los miembros de la sociedad.",
+                "Es verdadero, porque Locke ya había demostrado mucho tiempo antes, que todo impuesto viola el principio de autopropiedad y debe ser considerado una forma de servidumbre involuntaria.",
+                "Es falso, porque Nozick reconoce que los impuestos son legítimos siempre que financien servicios públicos universales como salud y educación.",
+                "Es verdadero, porque Nozick sostiene que si el Estado cobra impuestos se apropia de horas de trabajo de las personas obligándolas a trabajar para beneficio de otros, de manera similar a lo que ocurría con los esclavos."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-2026-p2-bec3772a1f56bafa"
+            },
+            {
+              "e": "8",
+              "p": "Según Romero, las elecciones legislativas de octubre de 2001 reflejaron una crisis profunda de representación política. Esto fue así porque:",
+              "o": [
+                "Los partidos de izquierda y Afirmación para una República Igualitaria (ARI) de Elisa Carrió obtuvieron buenos resultados, canalizando el descontento de quienes rechazaban tanto al oficialismo como al peronismo.",
+                "Un 22% de los votantes votó en blanco o anuló su voto en lo que se llamó el \"voto bronca\", expresando una disconformidad generalizada con el conjunto de los políticos.",
+                "La UCR obtuvo un resultado electoral sorprendentemente positivo que le permitió recuperar la iniciativa política frente al peronismo.",
+                "La crisis de representación se expresó en que el peronismo perdió más de la mitad de sus votos históricos y estuvo a punto de desaparecer como fuerza política nacional.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-ff6dbf72b0c994b1"
+            },
+            {
+              "e": "9",
+              "p": "Según Romero, las políticas aplicadas para sostener la convertibilidad durante el gobierno de la Alianza generaron un círculo vicioso. Esto fue así porque:",
+              "o": [
+                "Las medidas de ajuste fiscal congelaron salarios, suprimieron partidas y achicaron la inversión, profundizando la recesión y el descontento.",
+                "El entonces ministro de economía Ricardo López Murphy logró reducir el déficit con un drástico recorte de gastos que fue ampliamente respaldado por la sociedad en las elecciones, pero no por los gobernadores provinciales.",
+                "El blindaje acordado con el Fondo Monetario Internacional (FMI) a fines de 2000 reactivó la economía y la confianza externa, pero generó mayor endeudamiento, reiniciando el ciclo de ajustes y recesión.",
+                "La recesión reducía los ingresos provenientes de los impuestos, lo que agravaba el déficit y exigía nuevos ajustes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-34432673e06d2517"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, el intento de Menem de lograr una nueva reelección en 1999 fracasó, pero no fue inocuo para el peronismo. Esto fue así porque:",
+              "o": [
+                "Menem logró herir políticamente a Eduardo Duhalde —su primer vicepresidente—, quien debió acentuar su perfil opositor al gobierno que integraba y presentar propuestas que cuestionaban la convertibilidad.",
+                "El peronismo llegó a la elección de 1999 sin un líder consolidado, enfrascado en el conflicto entre Menem y Duhalde, y fue derrotado.",
+                "Menem logró el respaldo de la Corte Suprema para su proyecto de reelección, lo que prolongó el conflicto interno del partido hasta las elecciones de 1999 donde fue derrotado.",
+                "Una parte del peronismo menemista, previendo la derrota y opuestos a Duhalde, se alió con el radical Fernando De la Rúa.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-b3a243209ca1f6c1"
+            },
+            {
+              "e": "11",
+              "p": "Según Armando Chaguaceda y Eloy Viera, el Grupo de Administración Empresarial S.A. (GAESA) ilustra cómo la cúpula militar cubana fusionó el poder económico con el político. Esto es así porque:",
+              "o": [
+                "Actúa de manera autónoma con su propio presupuesto e instituciones financieras separadas del Banco Central, gestionando enormes fondos sin depender del sistema de planificación estatal.",
+                "Fue creado como herramienta para atraer inversión extranjera, operando bajo las mismas reglas del mercado internacional que cualquier conglomerado empresarial privado.",
+                "Fue creado por Fidel Castro para distribuir los beneficios económicos del turismo entre la población cubana de manera equitativa.",
+                "Sus principales dirigentes pasaron de conducir empresas de GAESA a cargos clave en el gobierno y el Partido Comunista de Cuba.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-9bc654cd86b6fa7e"
+            },
+            {
+              "e": "12",
+              "p": "Según Max Povse, el avance de China en América Latina se explica por varios factores que operaron simultáneamente. Entre ellos:",
+              "o": [
+                "China avanzó exclusivamente a través del comercio, ya que los países obtuvieron superávits que incentivaron el acercamiento.",
+                "La retirada de Estados Unidos dejó un vacío que China aprovechó con la esperanza de convertirse en el nuevo hegemón.",
+                "La afinidad antiimperialista de la llamada \"marea rosa\" llevó a ver al Partido Comunista Chino como aliado natural.",
+                "La Doctrina Monroe fue derogada por el Congreso estadounidense, eliminando los obstáculos para la expansión china.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la B."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-4d1312924b3b90ff"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, el gobierno de la Alianza recibió una economía en crisis que condicionó severamente su margen de acción. Esto fue así porque:",
+              "o": [
+                "El peronismo, con mayoría en el Senado y la mayoría de las provincias, bloqueó sistemáticamente todas las iniciativas económicas del gobierno de la Alianza desde el mismo inicio.",
+                "Domingo Cavallo fue designado vicepresidente para garantizar la continuidad de la convertibilidad y la confianza de los inversores.",
+                "La convertibilidad sancionada en la presidencia de Menem limitaba la acción estatal en materia monetaria y el peso sobrevaluado dificultaba competir en los mercados mundiales, mientras el déficit fiscal era mayor al previsto.",
+                "El FMI retiró su apoyo a la Argentina desde el día que se inició la gestión de De la Rúa, lo que precipitó la fuga de capitales y aceleró el colapso de la convertibilidad antes de 2001.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-2026-p2-dc5b0471f705b9e3"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, las medidas desesperadas del ministro Cavallo durante el gobierno de la Alianza para evitar la cesación de pagos, agravaron la crisis en lugar de resolverla. Esto fue así porque:",
+              "o": [
+                "La solución no ortodoxa de Cavallo de cerrar importaciones y reactivar exportaciones fue exitosa en reducir la fuga de dólares, aunque no alcanzó para revertir la desconfianza de los inversores.",
+                "El intento de flexibilizar la convertibilidad combinando dólares con euros tuvo un resultado catastrófico, ya que el Estado estaba admitiendo que la insolvencia estaba cercana.",
+                "El llamado megacanje con los acreedores redujo la deuda externa y generó un alivio fiscal que permitió sostener la convertibilidad por tres años más.",
+                "El presupuesto de \"déficit cero\" anunciado en julio de 2001 implicó recortes de sueldos y jubilaciones y reducción de transferencias a las provincias, que emitieron las llamadas “cuasi monedas” para pagar salarios.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-28dddb4ace3e4d14"
+            },
+            {
+              "e": "15",
+              "p": "Según Santiago Leiras, la etapa constituyente de la Revolución Bolivariana (1999-2001) implicó una transformación radical del sistema político venezolano. Esto es así porque:",
+              "o": [
+                "Finalmente, la Corte Suprema terminó negando el carácter supraconstitucional –es decir, por encima de la constitución– de la Asamblea Constituyente.",
+                "La nueva constitución bolivariana fue aprobada en referéndum con el 71,37% de los votos, el mismo día en que quedaron disueltos el Congreso y la Corte Suprema de Justicia.",
+                "Se redujo a un papel casi testimonial a quienes habían sido actores estratégicos como los partidos políticos Acción Democrática y Comité de Organización Política Electoral Independiente (COPEI) durante el ciclo democrático precedente de cuatro décadas.",
+                "Los partidos Acción Democrática y el Comité de Organización Política Electoral Independiente (COPEI), aunque debilitados, participaron activamente en la Asamblea Constituyente y negociaron las reformas con el chavismo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-23265277e7122817"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, la crisis de diciembre de 2001 pudo haber tenido una forma y profundidad diferentes según las decisiones del gobierno del entonces presidente De la Rúa. Esto fue así porque:",
+              "o": [
+                "De la Rúa logró mantener cohesionada la coalición oficialista hasta las elecciones legislativas de octubre de 2001, pero la derrota electoral producto del acuerdo con la ultraderecha en la Ciudad de Buenos Aires precipitó su ruptura.",
+                "Al menos hasta octubre de 2001 nadie se propuso deliberadamente derribarlo, pero De la Rúa no intentó sumar otras fuerzas políticas ni hacerlas copartícipes del derrumbe que se avizoraba.",
+                "De la Rúa convocó anticipadamente a elecciones presidenciales para obtener una nueva legitimidad que le permitiera enfrentar la crisis con mayor respaldo ciudadano y eso lo condujo a la derrota.",
+                "De haber poseído mayor habilidad política, De la Rúa quizás hubiera podido morigerar el derrumbe institucional y político, y hacer copartícipes del colapso a quienes también eran responsables.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la D y la A.",
+                "Las opciones correctas son la D y la C."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "d": "La portada asigna 0,50 puntos a las primeras 16 consignas y 1 punto a las dos últimas. Se sigue ese criterio para sumar 10; el rótulo de esta consigna indica 1 punto por error.",
+              "k": "icse-2026-p2-1f62f527bed7ced8"
+            },
+            {
+              "e": "17",
+              "p": "Según Damián Gulich, los modelos de lenguaje extenso como ChatGPT no constituyen una forma de inteligencia artificial general (AGI). Esto es así porque:",
+              "o": [
+                "ChatGPT no constituye una AGI porque sus creadores de OpenAI decidieron limitarlo deliberadamente para evitar riesgos éticos asociados a una inteligencia artificial sin restricciones.",
+                "ChatGPT no constituye una AGI porque el Congreso de Estados Unidos lo reguló en 2023 prohibiendo explícitamente que los modelos de lenguaje sean clasificados como inteligencia general.",
+                "ChatGPT no constituye una AGI porque su funcionamiento se basa en predicciones matemáticas sobre patrones del lenguaje humano, no en un entendimiento real del mundo.",
+                "ChatGPT no constituye una AGI porque su arquitectura de red neuronal fue diseñada exclusivamente para procesar texto, sin capacidad de aprender de nuevos datos una vez completado su entrenamiento.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "icse-2026-p2-f9bfe4b342a18e93"
+            },
+            {
+              "e": "18",
+              "p": "Según Diego Pimentel, Byung-Chul Han critica la \"estética del clic\" como una amenaza a la profundidad artística en la era digital. Esto es así porque:",
+              "o": [
+                "Plataformas como TikTok modelan la creatividad según métricas de inmediatez y viralidad, fragmentando el contenido artístico en piezas breves, repetibles y descartables que sacrifican la profundidad.",
+                "Han celebra plataformas como TikTok porque democratizan el acceso al arte y permiten que cualquier persona sea creadora, ampliando así la diversidad cultural.",
+                "Han propone que los museos adopten la realidad aumentada como única forma de resistir la desmaterialización del arte y recuperar la profundidad perdida en la era digital.",
+                "La realidad aumentada (RA), al priorizar el impacto visual y las métricas de interacción en espacios como museos, se alinea con esa lógica del clic que Han denuncia como amenaza a la profundidad artística.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-2026-p2-806c3fe06d14b1df"
+            }
+          ],
+          "aviso": "Claves de la grilla del PDF original. Explicaciones elaboradas para estudiar, no correcciones oficiales. Las opciones combinadas se responden con una sola alternativa. Cada tema suma 10 puntos."
+        },
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "ICSE_2026_C.pdf",
+          "paginas": [
+            1,
+            5
+          ],
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Fernando Pedrosa y Antonio Federico, el sistema de gobernanza global creado en 1945 sigue siendo adecuado para resolver los problemas del mundo actual.",
+              "o": [
+                "Es verdadero, porque aunque surgieron nuevos actores transnacionales, los Estados nacionales siguen siendo los únicos capaces de negociar y aplicar soluciones a escala global.",
+                "Es falso porque, si bien los actores no estatales siempre existieron, nunca lo hicieron en tal cantidad, escala o poder real.",
+                "Es verdadero, porque la Organización de las Naciones Unidas (ONU) se modernizó exitosamente incorporando a nuevas potencias como China e India como miembros permanentes del Consejo de Seguridad.",
+                "Es falso, porque la invasión rusa de Ucrania demostró que el derecho internacional ya no tiene ninguna vigencia y que las reglas de 1945 fueron formalmente derogadas."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-2b810e072a52f67b"
+            },
+            {
+              "e": "2",
+              "p": "Según Luis A. Romero, los saqueos del 18 y 19 de diciembre de 2001 en el Gran Buenos Aires (conurbano) fueron un fenómeno espontáneo de sectores populares desesperados por la crisis económica.",
+              "o": [
+                "Es falso, porque, aunque hubo una parte de espontaneidad, también los estimularon dirigentes peronistas locales con intención de darle el último empujón al gobierno radical.",
+                "Es verdadero, porque las fuerzas policiales reprimieron duramente los saqueos en todos los locales comerciales, lo que demuestra que no hubo ningún tipo de organización política detrás.",
+                "Es verdadero, porque el llamado “corralito” había dejado sin la posibilidad de obtener dinero en efectivo a las familias más pobres, que no tenían otra alternativa que tomar los alimentos de los supermercados para sobrevivir.",
+                "Es falso, porque fueron organizados íntegramente por las organizaciones piqueteras, que coordinaron los saqueos como parte de su plan de acción nacional de ese mes de diciembre."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-332b25cec44880c9"
+            },
+            {
+              "e": "3",
+              "p": "Según Sebastián Linares, la diversidad cognitiva que el sorteo puede aportar a las decisiones políticas no tiene límites significativos.",
+              "o": [
+                "Es verdadero, porque el sorteo garantiza que estén presentes todos los enfoques necesarios para resolver cualquier problema político.",
+                "Es verdadero, porque la asamblea irlandesa de 2012 demostró que los sorteados resuelven temas constitucionales mejor que un parlamento.",
+                "Es falso, porque una asamblea sorteada nunca puede incluir todas las perspectivas específicas que cada problema complejo requiere.",
+                "Es falso, porque los ciudadanos sorteados carecen de formación técnica para deliberar sobre temas complejos."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-2026-p2-d4702297bcb8e80c"
+            },
+            {
+              "e": "4",
+              "p": "Según Romero, la relación entre el presidente Carlos Menem y su ministro de Economía, Domingo Cavallo, fue de mutua dependencia durante los primeros años de gobierno.",
+              "o": [
+                "Es verdadero, porque Cavallo condujo el equipo económico con coherencia y disciplina mientras Menem se encargaba de lidiar con los viejos peronistas, potenciándose recíprocamente.",
+                "Es falso, porque Menem impuso su liderazgo sobre Cavallo desde el inicio, subordinando las decisiones económicas a sus necesidades políticas y electorales.",
+                "Es verdadero, porque Cavallo concentró tanto el poder político como el económico, relegando a Menem a un rol meramente protocolar durante esos años.",
+                "Es falso, porque la relación fue conflictiva desde el comienzo, ya que Cavallo denunció públicamente la corrupción del círculo presidencial antes de asumir como ministro."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-2c55d8a5eaffcbd5"
+            },
+            {
+              "e": "5",
+              "p": "Según Romero, la recuperación económica durante el gobierno de Eduardo Duhalde se debió exclusivamente a la pericia de su ministro de Economía, Roberto Lavagna.",
+              "o": [
+                "Es verdadero, porque Lavagna negoció exitosamente con el FMI y los bancos, generando las condiciones para la recuperación.",
+                "Es falso, porque además de la pericia de Lavagna, influyeron decisivamente la mejora inesperada del precio internacional de la soja y las condiciones creadas por la salida de la convertibilidad.",
+                "Es verdadero, porque Lavagna impuso el congelamiento de tarifas y una retención del 23,5% a las exportaciones, generando el superávit fiscal que sostuvo la recuperación.",
+                "Es falso, porque fue el FMI quien diseñó el plan que Lavagna implementó a cambio de reformas que el gobierno aceptó en su totalidad."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-34a1ae4c34748dca"
+            },
+            {
+              "e": "6",
+              "p": "Según Romero, la crisis originada en el llamado \"efecto Tequila\" de 1995 demostró que la convertibilidad había tornado extremadamente fuerte la economía argentina.",
+              "o": [
+                "Es verdadero, porque el gobierno superó la crisis rápida y eficientemente con apoyo del FMI, lo que confirmó la solidez del modelo económico implementado.",
+                "Es falso, porque por la convertibilidad la economía se había tornado extremadamente dependiente de capitales externos volátiles, y cualquier oscilación global producía efectos locales desastrosos.",
+                "Es verdadero, porque la crisis afectó a toda América Latina por igual, lo que demuestra que no fue consecuencia del modelo económico argentino.",
+                "Es falso, porque el gobierno apenas superó la crisis con apoyo del FMI en un proceso lento y con múltiples obstáculos."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-1a2822fd58c38507"
+            },
+            {
+              "e": "7",
+              "p": "Según Romero, el alineamiento de Argentina con Estados Unidos durante el gobierno de Menem fue una política exterior activa que implicó decisiones concretas y no solo declaraciones diplomáticas.",
+              "o": [
+                "Es verdadero, porque Argentina abandonó el Movimiento de Países No Alineados, clausuró el Proyecto Cóndor de misiles y envió tropas al Golfo Pérsico y a la ex Yugoslavia.",
+                "Es falso, porque las relaciones \"carnales\" fueron solo retórica del canciller Di Tella sin traducción en medidas concretas de política exterior.",
+                "Es verdadero, porque Menem estableció vínculos personales con los presidentes George Bush y Bill Clinton que le permitieron obtener apoyo para ingresar al Consejo de Seguridad de la Organización de las Naciones Unidas (ONU).",
+                "Es falso, porque Menem priorizó el Mercosur como eje de la política exterior, manteniendo una posición autónoma respecto a Estados Unidos, propia de la tradición peronista."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-2fd90b206cda1161"
+            },
+            {
+              "e": "8",
+              "p": "Según Santiago Leiras, las elecciones presidenciales venezolanas de 2024 estuvieron marcadas por condiciones que cuestionaron su legitimidad. Esto fue así porque:",
+              "o": [
+                "El Consejo Electoral proclamó a Nicolás Maduro ganador sin documentación que avalara el resultado.",
+                "María Corina Machado ganó las primarias con el 92% pero fue excluida como candidata.",
+                "La oposición recopiló actas que daban el triunfo a su candidato Edmundo González Urrutia con el 67%.",
+                "El voto en el extranjero fue masivo y poco organizado.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-0210b9a8cd945a31"
+            },
+            {
+              "e": "9",
+              "p": "Según Romero, la crisis de diciembre de 2001 tuvo causas económicas estructurales, pero también responsabilidades políticas concretas. Esto fue así porque:",
+              "o": [
+                "El corralito fue una medida exitosa que evitó el colapso bancario. En cambio, fue la declaración del estado de sitio lo que desencadenó el estallido.",
+                "Desde 1999, la economía mostraba un déficit fiscal insostenible y la recesión profundizaba la crisis sin margen para revertirla.",
+                "De la Rúa careció del liderazgo para mantener unida a la Alianza y sumar otras fuerzas que compartieran la responsabilidad del colapso.",
+                "El FMI retiró su apoyo desde el inicio de la gestión, haciendo inevitable el derrumbe independientemente de las decisiones políticas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-67fb9371bedec32c"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, la crisis económica de fines del gobierno de Menem tuvo causas tanto externas como internas. Esto fue así porque:",
+              "o": [
+                "La devaluación de Brasil alteró las relaciones comerciales del Mercosur y generó caída de exportaciones e importaciones masivas, mientras que la convertibilidad impedía devaluar para corregir el desequilibrio.",
+                "El FMI retiró su apoyo al gobierno argentino tras la devaluación brasileña, lo que aceleró la fuga de capitales y precipitó el colapso del sistema bancario antes del fin del mandato.",
+                "La devaluación de Tailandia en 1997 desencadenó una serie de derrumbes globales que minaron la confianza en las economías emergentes y reorientaron las inversiones hacia mercados más seguros.",
+                "La crisis asiática de 1997 obligó al FMI a retirar su apoyo financiero a la Argentina, lo que aceleró la fuga de capitales y precipitó el colapso del sistema bancario antes del fin del mandato de Menem.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-6b07c71b3136102a"
+            },
+            {
+              "e": "11",
+              "p": "Según Julio Montero, el anarco-capitalismo no puede considerarse una corriente dentro de la tradición liberal. Esto es así porque:",
+              "o": [
+                "Comparte la defensa de los derechos individuales con el liberalismo, pero se aparta de su tradición al rechazar por completo la autoridad estatal.",
+                "Al priorizar la igualdad por sobre la libertad individual, se aleja del núcleo conceptual que todos los liberales comparten.",
+                "Fueron los propios liberales quienes refutaron el anarquismo: Locke sostenía que los individuos solo pueden gozar plenamente de sus derechos naturales bajo una autoridad común.",
+                "El anarco-capitalismo, al rechazar el Estado, niega también la propiedad privada, alejándose del núcleo conceptual que todos los liberales comparten.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-f2ff7c94c6fa618e"
+            },
+            {
+              "e": "12",
+              "p": "Según Diego Bernardini, la percepción sobre cuándo comienza la vejez varía según la edad y la cultura. Esto es así porque:",
+              "o": [
+                "En Europa existe un consenso cultural homogéneo que sitúa el inicio de la vejez en los 65 años.",
+                "Los menores de 30 años la sitúan alrededor de los 60, mientras quienes tienen 65 o más la ubican recién a los 74.",
+                "Las mujeres ubican el inicio de la vejez en los 70 años, mientras los hombres lo sitúan en los 66.",
+                "La percepción varía principalmente por el nivel educativo. Las personas más instruidas sitúan el inicio de la vejez más tarde.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-28f0f04a60f9a8c2"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, la transformación económica argentina durante los años noventa tuvo perdedores tanto como ganadores. Esto fue así porque:",
+              "o": [
+                "El sector industrial orientado al mercado interno sufrió cierres masivos y desempleo, mientras los grandes grupos nacionales aprovecharon las privatizaciones y el Mercosur para consolidarse.",
+                "El mundo agrario se transformó a través de nuevas tecnologías como semillas transgénicas, glifosato y pooles de siembra, expandiendo la frontera productiva más allá de la pampa húmeda.",
+                "Las pequeñas y medianas empresas fueron las únicas perjudicadas, mientras las grandes empresas estatales se beneficiaron de los subsidios a las exportaciones.",
+                "Las automotrices cerraron sus plantas locales y trasladaron su producción íntegramente a Brasil bajo el amparo del Mercosur.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la B."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-d0b4b91021992ec5"
+            },
+            {
+              "e": "14",
+              "p": "Según Max Povse, China utiliza los préstamos que otorga como instrumento de influencia política sobre los gobiernos latinoamericanos. Esto es así porque:",
+              "o": [
+                "Los préstamos suelen ser condicionales a acuerdos políticos como la firma de memorándums o el retiro del reconocimiento diplomático a Taiwán.",
+                "Los swaps de monedas entre bancos centrales permitieron a los países latinoamericanos independizarse del dólar y del Fondo Monetario Internacional.",
+                "Los préstamos chinos incluyen cláusulas que obligan a los países receptores a comprar exclusivamente tecnología y mano de obra china para los proyectos financiados.",
+                "Los países que reciben más financiamiento chino tienden a votar más en sintonía con China en las Naciones Unidas.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D"
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-2d107147b649e983"
+            },
+            {
+              "e": "15",
+              "p": "Según Federico, la declinación económica argentina no se explica por carencias en recursos o capital humano. Esto es así porque:",
+              "o": [
+                "La comparación con otros países demuestra que Argentina nunca tuvo ventajas competitivas en recursos naturales ni en capital humano respecto a sus vecinos regionales.",
+                "Siguiendo al especialista Roberto Cortés Conde, Argentina tiene recursos naturales positivos y población educada, por lo que las causas deben buscarse en el sistema institucional.",
+                "La inflación y el déficit recurrentes demuestran que el problema es cultural: los argentinos no valoran el progreso material.",
+                "Argentina no aprendió a acordar y sostener marcos institucionales duraderos que provean bases para el crecimiento de largo plazo.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-d2b03d7109b1ca30"
+            },
+            {
+              "e": "16",
+              "p": "Según Armando Chaguaceda y Eloy Viera, la Asamblea Nacional del Poder Popular cubana no funciona como un parlamento real. Esto es así porque:",
+              "o": [
+                "Se reúne solo dos veces al año, carece de profesionalización y sus integrantes no muestran iniciativa más allá de formalizar decisiones tomadas de antemano por el Partido Comunista.",
+                "Sus diputados son designados directamente por el Buró Político del Partido Comunista, sin ningún mecanismo electoral que intervenga en su selección.",
+                "En más de cuarenta años, ningún diputado utilizó su iniciativa legislativa para presentar un proyecto de ley y solicitar su debate.",
+                "Está integrada exclusivamente por militares y burócratas del Partido Comunista, sin representación alguna de delegados electos por la ciudadanía.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-f49764bb1d87bfee"
+            },
+            {
+              "e": "17",
+              "p": "Según Diego Pimentel, la aparición de los tokens no fungibles (NFT) ilustra la tensión que Byung-chul Han identifica entre el valor artístico y la lógica especulativa del mercado digital.",
+              "o": [
+                "La obra de Beeple alcanzó 69 millones de dólares y simboliza cómo los NFT inscriben al arte en la economía de lo fugaz, donde el valor depende más de la transacción que de la contemplación.",
+                "Los NFT democratizaron el acceso al arte al permitir que cualquier persona certifique y comercialice obras digitales mediante la tecnología blockchain.",
+                "Han celebra los NFT como una forma de resistencia poética frente a la desmaterialización del arte en la era digital.",
+                "La tecnología blockchain resolvió el problema de la fugacidad que Han critica al garantizar la permanencia y la autenticidad de las obras digitales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "icse-2026-p2-665b26a85ceb6836"
+            },
+            {
+              "e": "18",
+              "p": "Según Damián Gulich, las Tres Leyes de la Robótica de Isaac Asimov siguen siendo relevantes para pensar los dilemas éticos de la inteligencia artificial actual. Esto es así porque:",
+              "o": [
+                "La militarización de la inteligencia artificial demuestra que las Tres Leyes ya fueron incorporadas en los sistemas de armas autónomas actuales.",
+                "Asimov diseñó específicamente las Tres Leyes para sistemas de inteligencia artificial general (AGI), es decir, máquinas capaces de realizar cualquier tarea intelectual humana de forma autónoma.",
+                "Las Tres Leyes son, en esencia, reglas básicas de seguridad para cualquier herramienta: ser segura para el usuario, cumplir su función salvo que se torne peligrosa y preservarse salvo conflicto con las dos reglas anteriores.",
+                "Gulich sostiene que las Tres Leyes deben ser adoptadas como marco legal internacional para regular el desarrollo de la inteligencia artificial.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "icse-2026-p2-d048bc1b49ca3bf7"
+            }
+          ],
+          "aviso": "Claves de la grilla del PDF original. Explicaciones elaboradas para estudiar, no correcciones oficiales. Las opciones combinadas se responden con una sola alternativa. Cada tema suma 10 puntos."
+        },
+        {
+          "id": "t4",
+          "n": "Tema 4",
+          "fuente": "ICSE_2026_D.pdf",
+          "paginas": [
+            1,
+            5
+          ],
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Luis A. Romero, la crisis originada en el llamado \"efecto Tequila\" de 1995 demostró que la convertibilidad había tornado extremadamente fuerte la economía argentina.",
+              "o": [
+                "Es falso, porque por la convertibilidad la economía se había tornado extremadamente dependiente de capitales externos volátiles, y cualquier oscilación global producía efectos locales desastrosos.",
+                "Es verdadero, porque el gobierno superó la crisis rápida y eficientemente con apoyo del FMI, lo que confirmó la solidez del m odelo económico implementado.",
+                "Es falso, porque el gobierno apenas superó la crisis con apoyo del FMI en un proceso lento y con múltiples obstáculos.",
+                "Es verdadero, porque la crisis afectó a toda América Latina por igual, lo que demuestra que no fue consecuencia del modelo económico argentino."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-f2805afac8b29a32"
+            },
+            {
+              "e": "2",
+              "p": "Según Romero, el alineamiento de Argentina con Estados Unidos durante el gobierno de Menem fue una política exterior activa que implicó decisiones concretas y no solo declaraciones diplomáticas.",
+              "o": [
+                "Es falso, porque Menem priorizó el Mercosur como eje de la política exterior, manteniendo una posición autónoma respecto a Estados Unidos propia de la tradición peronista.",
+                "Es verdadero, porque Argentina abandonó el Movimiento de Países No Alineados, clausuró el Proyecto Cóndor de misiles y envió tropas al Golfo Pérsico y a la ex Yugoslavia.",
+                "Es falso, porque las relaciones \"carnales\" fueron solo retórica del canciller Di Tella sin traducción en medidas concretas de política exterior.",
+                "Es verdadero, porque Menem estableció vínculos personales con los presidentes George Bush y Bill Clinton que le permitieron obtener apoyo para ingresar al Consejo de Seguridad de la Organización de las Naciones Unidas (ONU)."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-2fd90b206cda1161"
+            },
+            {
+              "e": "3",
+              "p": "Según Fernando Pedrosa y Antonio Federico, el sistema de gobernanza global creado en 1945 sigue siendo adecuado para resolver los problemas del mundo actual.",
+              "o": [
+                "Es verdadero, porque, aunque surgieron nuevos actores transnacionales, los Estados nacionales siguen siendo los únicos capaces de negociar y aplicar soluciones a escala global.",
+                "Es falso, porque la invasión rusa de Ucrania demostró que el derecho internacional ya no tiene ninguna vigencia y que las reglas de 1945 fueron formalmente derogadas.",
+                "Es verdadero, porque la Organización de las Naciones Unidas (ONU) se modernizó exitosamente incorporando a nuevas potencias como China e India como miembros permanentes del Consejo de Seguridad.",
+                "Es falso porque, si bien los actores no estatales siempre existieron, nunca lo hicieron en tal cantidad, escala o poder real."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-2026-p2-2b810e072a52f67b"
+            },
+            {
+              "e": "4",
+              "p": "Según Romero, la recuperación económica durante el gobierno de Eduardo Duhalde se debió exclusivamente a la pericia de su ministro de Economía Roberto Lavagna.",
+              "o": [
+                "Es falso, porque fue el FMI quien diseñó el plan que Lavagna implementó a cambio de reformas que el gobierno aceptó en su totalidad.",
+                "Es verdadero, porque Lavagna impuso el congelamiento de tarifas y una retención del 23,5% a las exportaciones, generando el superávit fiscal que sostuvo la recuperación.",
+                "Es falso, porque además de la pericia de Lavagna, influyó decisivamente la mejora inesperada del precio internacional de la soja y las condiciones creadas por la salida de la convertibilidad.",
+                "Es verdadero, porque Lavagna negoció exitosamente con el FMI y los bancos, generando las condiciones para la recuperación."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-2026-p2-34a1ae4c34748dca"
+            },
+            {
+              "e": "5",
+              "p": "Según Romero, la relación entre el presidente Carlos Menem y su ministro de Economía, Domingo Cavallo, fue de mutua dependencia durante los primeros años de gobierno.",
+              "o": [
+                "Es falso, porque la relación fue conflictiva desde el comienzo, ya que Cavallo denunció públicamente la corrupción del círculo presidencial antes de asumir como ministro.",
+                "Es verdadero, porque Cavallo concentró tanto el poder político como el económico, relegando a Menem a un rol meramente protocolar durante esos años.",
+                "Es falso, porque Menem impuso su liderazgo sobre Cavallo desde el inicio, subordinando las decisiones económicas a sus necesidades políticas y electorales.",
+                "Es verdadero, porque Cavallo condujo el equipo económico con coherencia y disciplina mientras Menem se encargaba de lidiar con los viejos peronistas, potenciándose recíprocamente."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-2026-p2-2c55d8a5eaffcbd5"
+            },
+            {
+              "e": "6",
+              "p": "Según Sebastián Linares, la diversidad cognitiva que el sorteo puede aportar a las decisiones políticas no tiene límites significativos.",
+              "o": [
+                "Es falso, porque una asamblea sorteada nunca puede incluir todas las perspectivas específicas que cada problema complejo requiere.",
+                "Es verdadero, porque el sorteo garantiza que estén presentes todos los enfoques necesarios para resolver cualquier problema político.",
+                "Es falso, porque los ciudadanos sorteados carecen de formación técnica para deliberar sobre temas complejos.",
+                "Es verdadero, porque la asamblea irlandesa de 2012 demostró que los sorteados resuelven temas constitucionales mejor que un parlamento."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-d4702297bcb8e80c"
+            },
+            {
+              "e": "7",
+              "p": "Según Romero, los saqueos del 18 y 19 de diciembre de 2001 en el Gran Buenos Aires (conurbano) fueron un fenómeno espontáneo de sectores populares desesperados por la crisis económica.",
+              "o": [
+                "Es falso, porque fueron organizados íntegramente por las organizaciones piqueteras, que coordinaron los saqueos como parte de su plan de acción nacional de aquel mes de diciembre.",
+                "Es falso, porque, aunque hubo una parte de espontaneidad, también los estimularon dirigentes peronistas locales con intención de darle el último empujón al gobierno radical.",
+                "Es verdadero, porque las fuerzas policiales reprimieron duramente los saqueos en todos los locales comerciales, lo que demuestra que no hubo ningún tipo de organización política detrás.",
+                "Es verdadero, porque el llamado “corralito” había dejado sin la posibilidad de obtener dinero en efectivo a las familias más pobres, que no tenían otra alternativa que tomar los alimentos de los supermercados para sobrevivir."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-42ef6a7136e5c695"
+            },
+            {
+              "e": "8",
+              "p": "Según Armando Chaguaceda y Eloy Viera, la Asamblea Nacional del Poder Popular cubana no funciona como un parlamento real. Esto es así porque:",
+              "o": [
+                "Sus diputados son designados directamente por el Buró Político del Partido Comunista, sin ningún mecanismo electoral que intervenga en su selección.",
+                "Está integrada exclusivamente por militares y burócratas del Partido Comunista, sin representación alguna de delegados electos por la ciudadanía.",
+                "En más de cuarenta años, ningún diputado utilizó su iniciativa legislativa para presentar un proyecto de ley y solicitar su debate.",
+                "Se reúne solo dos veces al año, carece de profesionalización y sus integrantes no muestran iniciativa más allá de formalizar decisiones tomadas de antemano por el Partido Comunista.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-f49764bb1d87bfee"
+            },
+            {
+              "e": "9",
+              "p": "Según Antonio Federico, la declinación económica argentina no se explica por carencias en recursos o capital humano. Esto es así porque:",
+              "o": [
+                "La inflación y el déficit recurrentes demuestran que el problema es cultural: los argentinos no valoran el progreso material.",
+                "Siguiendo al especialista Roberto Cortés Conde, Argentina tiene recursos naturales positivos y población educada, por lo que las causas deben buscarse en el sistema institucional.",
+                "Argentina no aprendió a acordar y sostener marcos institucionales duraderos que provean bases para el crecimiento de largo plazo.",
+                "La comparación con otros países demuestra que Argentina nunca tuvo ventajas competitivas en recursos naturales ni en capital humano respecto a sus vecinos regionales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-65b61901afd243cc"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, la transformación económica argentina durante los años noventa tuvo tanto perdedores como ganadores. Esto fue así porque:",
+              "o": [
+                "El sector industrial orientado al mercado interno sufrió cierres masivos y desempleo, mientras que los grandes grupos nacionales aprovecharon las privatizaciones y el Mercosur para consolidarse.",
+                "Las automotrices cerraron sus plantas locales y trasladaron su producción íntegramente a Brasil bajo el amparo del Mercosur.",
+                "El mundo agrario se transformó a través de nuevas tecnologías como semillas transgénicas, glifosato y pooles de siembra, expandiendo la frontera productiva más allá de la pampa húmeda.",
+                "Las pequeñas y medianas empresas fueron las únicas perjudicadas, mientras que las grandes empresas estatales se beneficiaron de los subsidios a las exportaciones.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la B."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-2c5dff93138b5679"
+            },
+            {
+              "e": "11",
+              "p": "Según Diego Bernardini, la percepción sobre cuándo comienza la vejez varía según la edad y la cultura. Esto es así porque:",
+              "o": [
+                "Las mujeres ubican el inicio de la vejez en los 70 años, mientras los hombres lo sitúan en los 66.",
+                "Los menores de 30 años la sitúan alrededor de los 60, mientras quienes tienen 65 o más la ubican recién a los 74.",
+                "La percepción varía principalmente por el nivel educativo. Las personas más instruidas sitúan el inicio de la vejez más tarde.",
+                "En Europa existe un consenso cultural homogéneo que sitúa el inicio de la vejez en los 65 años.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-28f0f04a60f9a8c2"
+            },
+            {
+              "e": "12",
+              "p": "Según Julio Montero, el anarco-capitalismo no puede considerarse una corriente dentro de la tradición liberal. Esto es así porque:",
+              "o": [
+                "Al priorizar la igualdad por sobre la libertad individual, se aleja del núcleo conceptual que todos los liberales comparten.",
+                "El anarco-capitalismo, al rechazar el Estado, niega también la propiedad privada, alejándose del núcleo conceptual que todos los liberales comparten.",
+                "Fueron los propios liberales quienes refutaron el anarquismo: Locke sostenía que los individuos solo pueden gozar plenamente de sus derechos naturales bajo una autoridad común.",
+                "Comparte la defensa de los derechos individuales con el liberalismo, pero se aparta de su tradición al rechazar por completo la autoridad estatal.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-f2ff7c94c6fa618e"
+            },
+            {
+              "e": "13",
+              "p": "Según Max Povse, China utiliza los préstamos que otorga como instrumento de influencia política sobre los gobiernos latinoamericanos. Esto es así porque:",
+              "o": [
+                "Los préstamos suelen ser condicionales a acuerdos políticos como la firma de memorándums o el retiro del reconocimiento diplomático a Taiwán.",
+                "Los países que reciben más financiamiento chino tienden a votar más en sintonía con China en las Naciones Unidas.",
+                "Los swaps de monedas entre bancos centrales permitieron a los países latinoamericanos independizarse del dólar y del Fondo Monetario Internacional.",
+                "Los préstamos chinos incluyen cláusulas que obligan a los países receptores a comprar exclusivamente tecnología y mano de obra china para los proyectos financiados.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la C y la D"
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-2d107147b649e983"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, la crisis económica de fines del gobierno de Menem tuvo causas tanto externas como internas. Esto fue así porque:",
+              "o": [
+                "La crisis asiática de 1997 obligó al FMI a retirar su apoyo financiero a la Argentina, lo que aceleró la fuga de capitales y precipitó el colapso del sistema bancario antes del fin del mandato de Menem.",
+                "La devaluación de Brasil alteró las relaciones comerciales del Mercosur y generó caída de exportaciones e importaciones masivas, mientras que la convertibilidad impedía devaluar para corregir el desequilibrio.",
+                "La devaluación de Tailandia en 1997 desencadenó una serie de derrumbes globales que minaron la confianza en las economías emergentes y reorientaron las inversiones hacia mercados más seguros.",
+                "El FMI retiró su apoyo al gobierno argentino tras la devaluación brasileña, lo que aceleró la fuga de capitales y precipitó el colapso del sistema bancario antes del fin del mandato.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-6b07c71b3136102a"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, la crisis de diciembre de 2001 tuvo causas económicas estructurales, pero también responsabilidades políticas concretas. Esto fue así porque:",
+              "o": [
+                "Desde 1999 la economía mostraba un déficit fiscal insostenible y la recesión profundizaba la crisis sin que hubiera margen para revertirla.",
+                "El corralito fue una medida exitosa que evitó el colapso bancario. En cambio, fue la declaración del estado de sitio lo que desencadenó el estallido.",
+                "El FMI retiró su apoyo desde el inicio de la gestión, haciendo inevitable el derrumbe independientemente de las decisiones políticas.",
+                "De la Rúa careció del liderazgo para mantener unida a la Alianza y sumar otras fuerzas que compartieran la responsabilidad del colapso.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-67fb9371bedec32c"
+            },
+            {
+              "e": "16",
+              "p": "Según Santiago Leiras, las elecciones presidenciales venezolanas de 2024 estuvieron marcadas por condiciones que cuestionaron su legitimidad. Esto fue así porque:",
+              "o": [
+                "El Consejo Electoral proclamó a Nicolás Maduro ganador sin documentación que avalara el resultado.",
+                "María Corina Machado perdió las elecciones primarias, pero reclamó ser incluida como candidata.",
+                "La oposición recopiló actas que daban el triunfo a su candidato Edmundo González Urrutia con el 67%.",
+                "El voto en el extranjero fue masivo, pero poco organizado y la mayoría fue impugnado por el Consejo Electoral.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-0210b9a8cd945a31"
+            },
+            {
+              "e": "17",
+              "p": "Según Damián Gulich, las Tres Leyes de la Robótica de Isaac Asimov siguen siendo relevantes para pensar los dilemas éticos de la inteligencia artificial actual. Esto es así porque:",
+              "o": [
+                "Gulich sostiene que las Tres Leyes deben ser adoptadas como marco legal internacional para regular el desarrollo de la inteligencia artificial.",
+                "Las Tres Leyes son, en esencia, reglas básicas de seguridad para cualquier herramienta: ser segura para el usuario, cumplir su función salvo que se torne peligrosa y preservarse salvo conflicto con las dos reglas anteriores.",
+                "Asimov diseñó específicamente las Tres Leyes para sistemas de inteligencia artificial general (AGI), es decir, máquinas capaces de realizar cualquier tarea intelectual humana de forma autónoma.",
+                "La militarización de la inteligencia artificial demuestra que las Tres Leyes ya fueron incorporadas en los sistemas de armas autónomas actuales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "icse-2026-p2-d048bc1b49ca3bf7"
+            },
+            {
+              "e": "18",
+              "p": "Según Diego Pimentel, la aparición de los tokens no fungibles (NFT) ilustra la tensión que Byung-chul Han identifica entre el valor artístico y la lógica especulativa del mercado digital.",
+              "o": [
+                "Los NFT democratizaron el acceso al arte al permitir que cualquier persona certifique y comercialice obras digitales mediante la tecnología blockchain.",
+                "La tecnología blockchain resolvió el problema de la fugacidad que Han critica al garantizar la permanencia y la autenticidad de las obras digitales.",
+                "La obra de Beeple alcanzó 69 millones de dólares y simboliza cómo los NFT inscriben al arte en la economía de lo fugaz, donde el valor depende más de la transacción que de la contemplación.",
+                "Han celebra los NFT como una forma de resistencia poética frente a la desmaterialización del arte en la era digital.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "icse-2026-p2-665b26a85ceb6836"
+            }
+          ],
+          "aviso": "Claves de la grilla del PDF original. Explicaciones elaboradas para estudiar, no correcciones oficiales. Las opciones combinadas se responden con una sola alternativa. Cada tema suma 10 puntos."
+        },
+        {
+          "id": "t5",
+          "n": "Tema 5",
+          "fuente": "ICSE_2026_E.pdf",
+          "paginas": [
+            1,
+            5
+          ],
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Luis A. Romero, el escándalo producido por el llamado Swiftgate reveló que la corrupción en el gobierno de Carlos Menem era una práctica institucionalizada y no un hecho aislado.",
+              "o": [
+                "Es falso, porque el Swiftgate fue un caso excepcional que el propio gobierno investigó y sancionó sin intervención de terceros.",
+                "Es verdadero, porque el tráfico de influencias era bien conocido y el diputado peronista José Luis Manzano llegó a reconocerlo públicamente con la frase \"yo robo para la Corona\".",
+                "Es falso, porque Romero muestra que la corrupción existió, pero nunca logró integrarse con la estructura partidaria del peronismo.",
+                "Es verdadero, porque Domingo Cavallo fue designado ministro precisamente para auditar y transparentar las operaciones del círculo presidencial involucrado en el escándalo."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-a47c31263726e7fd"
+            },
+            {
+              "e": "2",
+              "p": "Según Romero, la privatización de ENTEL (Empresa Nacional de Telecomunicaciones) y Aerolíneas Argentinas en la década de los años 90 fue diseñada solo con el objetivo de maximizar los ingresos fiscales del Estado y reducir sus gastos.",
+              "o": [
+                "Es verdadero, porque la venta de esas empresas públicas permitió eliminar el déficit fiscal de manera rápida y sostenida durante el gobierno de Menem.",
+                "Es falso, porque, aunque obtener dinero para el fisco era uno de los objetivos, las privatizaciones también buscaban demostrar capacidad reformista, dar señales a los acreedores y compensar a los contratistas que perdían sus prebendas.",
+                "Es verdadero, porque al asegurar a los nuevos dueños de las empresas un aumento de tarifas y una situación casi monopólica, el Estado garantizó una renta que luego recuperó vía impuestos.",
+                "Es falso, porque Romero muestra que las privatizaciones fracasaron en su objetivo fiscal, ya que los títulos de deuda aceptados a valor nominal por el ministro Cavallo, resultaron activos de dudoso cobro para el Estado."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-e4a8474b433147da"
+            },
+            {
+              "e": "3",
+              "p": "Según Romero, la crisis originada en el llamado \"efecto Tequila\" de 1995 demostró que el programa neoliberal había dejado a la economía argentina estructuralmente vulnerable.",
+              "o": [
+                "Es falso, porque el gobierno superó la crisis rápida y eficientemente con apoyo del FMI, lo que demostró la solidez del modelo económico implementado.",
+                "Es falso, porque la crisis del Tequila afectó a toda América Latina por igual y no tuvo relación con las decisiones de política económica tomadas por el gobierno de Menem.",
+                "Es verdadero, porque la ley de convertibilidad hizo a la economía extremadamente dependiente de capitales externos volátiles, amplificando cualquier crisis global.",
+                "Es verdadero, porque la desocupación trepó al 18% durante la crisis, y no cedió en parte por las reformas estructurales implementadas por el gobierno de Menem."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-2026-p2-68aec91aba3954c6"
+            },
+            {
+              "e": "4",
+              "p": "Según Romero, el estilo de gobierno de Menem se caracterizó por delegar las decisiones políticas estratégicas en un círculo de técnicos de confianza mientras él se concentraba en la gestión administrativa y cotidiana del gobierno.",
+              "o": [
+                "Es falso, porque Menem se concentró en la política y delegó la administración en colaboradores de destacada capacidad.",
+                "Es verdadero, porque Cavallo asumió el liderazgo político mientras Menem se dedicaba a las relaciones exteriores y la imagen presidencial.",
+                "Es falso, porque Menem centralizó tanto las decisiones políticas como la gestión administrativa sin delegar ninguna función relevante.",
+                "Es verdadero, porque Menem delegó esas decisiones en Cavallo, quien concentró tanto el poder político como la gestión económica."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-03d6347ce17d0c48"
+            },
+            {
+              "e": "5",
+              "p": "Según Romero, el Frente País Solidario -partido político de centro izquierda conocido por sus siglas FREPASO- logró convertirse en una fuerza política sólida gracias a su fuerte inserción territorial y su estructura institucional bien consolidada.",
+              "o": [
+                "Es verdadero, porque la suma de disidentes peronistas, del radicalismo y varios grupos de izquierda le dio una base territorial extensa.",
+                "Es falso, porque el FREPASO nunca logró consolidarse como fuerza electoral, ya que su candidato José O Bordón se alejó de sus filas tras las elecciones de 1995 y el partido se disolvió antes de conformar la Alianza.",
+                "Es verdadero, porque los triunfos de Graciela Fernández Meijide en la Capital Federal y en la provincia de Buenos Aires demostraron un sólido arraigo territorial a nivel nacional.",
+                "Es falso, porque fue una fuerza sin gran inserción territorial ni estructura institucional clara, cuya fortaleza residía en el liderazgo del dirigente porteño Chacho Álvarez y su manejo de las nuevas técnicas de comunicación."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-2026-p2-7ba8923cc4b1f70d"
+            },
+            {
+              "e": "6",
+              "p": "Según Romero, por razones profundas o mezquinas, la Unión Cívica Radical (UCR) tuvo fricciones cada vez más fuertes con el grupo que rodeaba al entonces presidente Fernando De la Rúa, que también pertenecía al histórico partido.",
+              "o": [
+                "Es verdadero, porque el expresidente radical Raúl Alfonsín fue tomando distancia del presidente y comenzó a explorar la alternativa de un gobierno de unidad nacional capaz de iniciar el abandono de la convertibilidad.",
+                "Es falso, porque Alfonsín respaldó incondicionalmente a De la Rúa hasta su renuncia, priorizando la unidad de la UCR por sobre sus diferencias con la conducción del gobierno.",
+                "Es verdadero, porque Alfonsín organizó junto a los gobernadores peronistas una estrategia coordinada para forzar la renuncia de De la Rúa y convocar a elecciones anticipadas.",
+                "Es falso, porque fue Chacho Álvarez quien encabezó la oposición interna dentro de la Alianza, mientras Alfonsín se mantuvo al margen de los conflictos internos."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-ef0daf3b9e975b0a"
+            },
+            {
+              "e": "7",
+              "p": "Según Romero, los saqueos del 18 y 19 de diciembre de 2001 en el Gran Buenos Aires (conurbano) fueron un fenómeno espontáneo de sectores populares desesperados por la crisis económica.",
+              "o": [
+                "Es verdadero, porque el llamado “corralito” había dejado sin la posibilidad de obtener dinero en efectivo a las familias más pobres, que no tenían otra alternativa que tomar los alimentos de los supermercados para sobrevivir.",
+                "Es falso, porque, aunque hubo una parte de espontaneidad, también los estimularon dirigentes peronistas locales con intención de darle el último empujón al gobierno radical.",
+                "Es verdadero, porque las fuerzas policiales reprimieron duramente los saqueos en todos los locales comerciales, lo que demuestra que no hubo ningún tipo de organización política detrás.",
+                "Es falso, porque fueron organizados íntegramente por las organizaciones piqueteras, que coordinaron los saqueos como parte de su plan de acción nacional de aquel mes de diciembre."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-42ef6a7136e5c695"
+            },
+            {
+              "e": "8",
+              "p": "Según Romero, la política exterior de Menem respecto a las Islas Malvinas implicó un cambio significativo respecto a la postura tradicional argentina. Esto fue así porque:",
+              "o": [
+                "El entonces canciller Guido Di Tella negoció con Inglaterra postergando la cuestión de la soberanía para resolver en cambio las disputas sobre derechos pesqueros, en el marco de una política de alineamiento con las potencias occidentales.",
+                "Menem recuperó la soberanía sobre los derechos pesqueros alrededor de las islas a cambio de reconocer formalmente la administración británica del archipiélago.",
+                "Argentina abandonó el Movimiento de Países No Alineados y clausuró el Proyecto Cóndor de misiles, lo que le permitió negociar con Gran Bretaña desde una posición de mayor fortaleza militar.",
+                "El entonces canciller Guido Di Tella logró que Gran Bretaña reconociera la soberanía argentina sobre las islas a cambio de postergar su ejercicio efectivo por un período de cien años, lo que fue rechazado por el congreso.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-6bd98bf412b23e26"
+            },
+            {
+              "e": "9",
+              "p": "Según Max Povse, los mecanismos de intercambio educativo que China implementó en América Latina tienen un componente de influencia ideológica que va más allá del simple programa académico. Esto es así porque:",
+              "o": [
+                "Las becas son bilaterales pero viajan muchos más estudiantes latinoamericanos a China que al revés, lo que refuerza la capacidad de adoctrinamiento según las pautas del Partido Comunista Chino.",
+                "Los institutos Confucio están organizados desde el Estado chino y, no solo tienen a su cargo la enseñanza del chino mandarín, sino también de la cultura china, entre la que suelen incluir la cultura política del Partido Comunista Chino.",
+                "Los institutos Confucio solo pueden funcionar dentro de universidades locales, pero responden al Partido Comunista Chino, lo que genera serias dudas sobre su independencia académica",
+                "China financia la totalidad de los centros internacionales de investigación dedicados a su país en el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) argentino, ejerciendo así un control directo sobre la agenda científica nacional.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-0416e72d6980e829"
+            },
+            {
+              "e": "10",
+              "p": "Según Antonio Federico, el corporativismo se consolidó en Argentina, pero resultó perjudicial para la sociedad. Esto es así porque:",
+              "o": [
+                "Fue auspicioso para algunos grupos que celebraban un Estado fuerte en protección de sus intereses, pero no para el conjunto de la sociedad en términos de crecimiento económico.",
+                "Fue perjudicial porque eliminó totalmente los mecanismos de mercado y concentró todas las decisiones económicas en el burócrata estatal, como también ocurrió en los regímenes colectivistas.",
+                "Promovió estabilidad, pero generó desigualdades cuando los grupos más poderosos excluyeron a otros y limitaron la competencia.",
+                "Al favorecer acuerdos entre élites y proteger determinados intereses contra los \"fallos de mercado\", benefició a unos pocos mientras frenó el crecimiento del conjunto.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-427a8902705f5a12"
+            },
+            {
+              "e": "11",
+              "p": "Según Chaguaceda y Viera, el régimen cubano no puede calificarse como democrático desde ninguna perspectiva teórica, porque:",
+              "o": [
+                "Presenta deficiencias tanto desde una perspectiva liberal como republicana o socialista, siendo en la práctica una autocracia dominada por un núcleo familiar y militar.",
+                "El centralismo democrático garantiza un debate genuino entre las bases del partido antes de cada decisión, aunque es menos eficiente a la hora de que los resultados se traduzcan en políticas concretas.",
+                "El socialismo de Estado cubano no introduce las identidades y demandas excluidas dentro de la política, sino que las expropia y administra en nombre de los humildes, lo que lo aleja también del supuesto ideal socialista.",
+                "Pensadores socialistas como Gramsci y Macpherson reconocieron que el modelo cubano representa la mejor expresión práctica de una democracia socialista desde abajo.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-52c73181b1f33f62"
+            },
+            {
+              "e": "12",
+              "p": "Según Santiago Leiras, Venezuela bajo la presidencia de Nicolás Maduro representa el escenario de mantenimiento del statu quo dentro de su tipología sobre desenlaces institucionales. Esto es así porque",
+              "o": [
+                "En ese esquema, las Fuerzas Armadas eran parte del gobierno, el Estado y el régimen, y su lealtad se sostenía en concesiones de negocios privados que garantizaban la supervivencia del liderazgo de Maduro.",
+                "Las Fuerzas Armadas se insubordinaron al poder político en 2019, generando un equilibrio inestable similar al de Chile ese mismo año.",
+                "La oposición logró una alta organización y movilización y las Fuerzas Armadas bolivarianas se negaron a reprimir, derivando en una \"sugerencia de renuncia\" al entonces presidente Maduro similar al caso del líder boliviano Evo Morales.",
+                "En ese esquema, la lealtad de las Fuerzas Armadas no era un valor en sí mismo sino una estrategia de supervivencia.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-04fab9dc93f03f55"
+            },
+            {
+              "e": "13",
+              "p": "Según Diego Bernardini, las personas mayores han quedado rezagadas en las políticas de inclusión. Esto es así porque:",
+              "o": [
+                "A medida que envejecen, se las despoja de su capacidad de decisión, a diferencia de la infancia donde se educa para alcanzar la madurez.",
+                "La institucionalización responde a una mirada edadista que ve la vejez como dependencia.",
+                "Las enfermedades crónicas son la principal causa de su exclusión social.",
+                "La feminización del envejecimiento llevó a diseñar jubilaciones exclusivamente para mujeres.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-7080f37a9497bebb"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, la crisis de diciembre de 2001 tuvo causas económicas estructurales, pero también responsabilidades políticas concretas. Esto fue así porque:",
+              "o": [
+                "El FMI retiró su apoyo desde el inicio de la gestión, los que originó un fuerte debate en el congreso que el oficialismo no logró reconducir.",
+                "Desde 1999 la economía mostraba un déficit fiscal insostenible y la recesión profundizaba la crisis sin que hubiera respuestas políticas adecuadas.",
+                "De la Rúa careció del liderazgo para mantener unida a la Alianza y sumar otras fuerzas que compartieran la responsabilidad del colapso.",
+                "El llamado “corralito” fue una medida exitosa que evitó el colapso bancario, pero fue la declaración del estado de sitio lo que desencadenó el estallido.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-67fb9371bedec32c"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, los indultos de Menem cerraron de modo inesperado el proceso iniciado en 1983 respecto a la cuestión militar, porque:",
+              "o": [
+                "Menem indultó a militares procesados, jefes guerrilleros y responsables de Malvinas, y luego a los integrantes de las Juntas condenados en 1985, pese a la fuerte movilización en contra.",
+                "Los indultos generaron un amplio consenso entre los partidos políticos, que los apoyaron para cerrar la etapa de la dictadura.",
+                "El indulto fue la condición negociada para que el Ejército acatara la orden de reprimir la sublevación del coronel Seineldín.",
+                "El jefe del Ejército, Martín Balza, respaldó públicamente los indultos argumentando que la obediencia debida justificaba los actos cometidos durante la dictadura.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-dd1cfcfb3c70fcc3"
+            },
+            {
+              "e": "16",
+              "p": "Según Julio Montero, el liberalismo igualitario se diferencia del libertarismo en su concepción del rol del Estado. Esto es así porque:",
+              "o": [
+                "El liberalismo igualitario defiende que la salud, educación y el seguro de desempleo son cuestiones de justicia, no de caridad.",
+                "Los libertarios proponen abolir el Estado y reemplazarlo por agencias privadas.",
+                "El liberalismo igualitario reconoce que las regulaciones excesivas atentan contra el financiamiento del Estado de bienestar.",
+                "Los libertarios coinciden con los igualitarios en garantizar educación y salud universales.",
+                "Las opciones correctas son A y B.",
+                "Las opciones correctas son A y C.",
+                "Las opciones correctas son B y C.",
+                "Las opciones correctas son C y D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-d5c25eaa4aee491a"
+            },
+            {
+              "e": "17",
+              "p": "Según Damián Gulich, las redes neuronales artificiales tienen limitaciones estructurales que impiden equipararlas a la inteligencia humana. Esto es así porque:",
+              "o": [
+                "Los elementos básicos del cerebro —las neuronas reales— son radicalmente diferentes a los de las redes neuronales artificiales, por lo que las propiedades emergentes de esos dos sistemas no serán las mismas.",
+                "Según el filósofo Mario Bunge, las computadoras no piensan, ya que solo lo pueden hacer los animales dotados de sistemas neurales plásticos.",
+                "Los modelos de lenguaje como ChatGPT demostraron que la inteligencia artificial general ya es alcanzable con suficiente poder de cómputo y datos de entrenamiento.",
+                "El filósofo Mario Bunge demostró que la inteligencia artificial superará a la natural en tareas algorítmicas, pero nunca podrá reemplazarla en creatividad ni en juicios morales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 1,
+              "k": "icse-2026-p2-e27364b63f8cd0f4"
+            },
+            {
+              "e": "18",
+              "p": "Según Diego Pimentel, Han y Harari representan posiciones opuestas frente al impacto de la tecnología en el arte y la cultura.",
+              "o": [
+                "Han describe la digitalización como el paso de un mundo de \"cosas\" a uno de \"no-cosas\" que desmaterializa las relaciones humanas, mientras Harari encuentra en ese mismo horizonte la promesa de un renacimiento creativo.",
+                "Han celebra la música electrónica como la expresión más pura del arte digital, mientras Harari advierte que los algoritmos destruyen la creatividad humana reduciéndola a patrones repetitivos.",
+                "Han critica cómo la digitalización cambia nuestra forma de vivir, mientras Harari propone eliminar toda forma de arte tradicional para abrazar plenamente la creatividad algorítmica.",
+                "Harari sostiene que la tecnología aleja al individuo de su dimensión espiritual, mientras Han propone el arte digital como única salida a la alienación contemporánea.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "icse-2026-p2-3e28f369a064275e"
+            }
+          ],
+          "aviso": "Claves de la grilla del PDF original. Explicaciones elaboradas para estudiar, no correcciones oficiales. Las opciones combinadas se responden con una sola alternativa. Cada tema suma 10 puntos."
+        },
+        {
+          "id": "t6",
+          "n": "Tema 6",
+          "fuente": "ICSE_2026_F.pdf",
+          "paginas": [
+            1,
+            5
+          ],
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Luis A. Romero, el escándalo producido por el llamado Swiftgate reveló que la corrupción en el gobierno de Carlos Menem era una práctica institucionalizada y no un hecho aislado.",
+              "o": [
+                "Es falso, porque el Swiftgate fue un caso excepcional que el propio gobierno investigó y sancionó sin intervención de terceros.",
+                "Es verdadero, porque el tráfico de influencias era bien conocido y el diputado peronista José Luis Manzano llegó a reconocerlo públicamente con la frase \"yo robo para la Corona\".",
+                "Es falso, porque Romero muestra que la corrupción existió, pero nunca logró integrarse con la estructura partidaria del peronismo.",
+                "Es verdadero, porque Domingo Cavallo fue designado ministro precisamente para auditar y transparentar las operaciones del círculo presidencial involucrado en el escándalo."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-a47c31263726e7fd"
+            },
+            {
+              "e": "2",
+              "p": "Según Romero, los saqueos del 18 y 19 de diciembre de 2001 en el Gran Buenos Aires (conurbano) fueron un fenómeno espontáneo de sectores populares desesperados por la crisis económica.",
+              "o": [
+                "Es falso, porque aunque hubo una parte de espontaneidad, también los estimularon dirigentes peronistas locales con intención de darle el último empujón al gobierno radical.",
+                "Es verdadero, porque las fuerzas policiales reprimieron duramente los saqueos en todos los locales comerciales, lo que demuestra que no hubo ningún tipo de organización política detrás.",
+                "Es verdadero, porque el llamado “corralito” había dejado sin la posibilidad de obtener dinero en efectivo a las familias más pobres, que no tenían otra alternativa que tomar los alimentos de los supermercados para sobrevivir.",
+                "Es falso, porque fueron organizados íntegramente por las organizaciones piqueteras, que coordinaron los saqueos como parte de su plan de acción nacional de aquel mes de diciembre."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-42ef6a7136e5c695"
+            },
+            {
+              "e": "3",
+              "p": "Según Romero, por razones profundas o mezquinas, la Unión Cívica Radical (UCR) tuvo fricciones cada vez más fuertes con el grupo que rodeaba al entonces presidente Fernando De la Rúa, que también pertenecía al histórico partido.",
+              "o": [
+                "Es falso, porque fue Néstor Kirchner el líder opositor dentro de la Alianza, mientras Alfonsín se mantuvo al margen de esos conflictos.",
+                "Es falso, porque el expresidente radical Raúl Alfonsín respaldó incondicionalmente al también radical De la Rúa hasta su renuncia, priorizando la unidad de la UCR por sobre sus diferencias con la conducción del gobierno.",
+                "Es verdadero, porque Alfonsín fue tomando distancia del entonces presidente De la Rúa y comenzó a explorar la alternativa de un gobierno de unidad nacional capaz de iniciar el abandono de la convertibilidad.",
+                "Es verdadero, porque Alfonsín organizó junto a los gobernadores peronistas una estrategia coordinada para forzar la renuncia de De la Rúa y convocar a elecciones anticipadas."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-2026-p2-ef0daf3b9e975b0a"
+            },
+            {
+              "e": "4",
+              "p": "Según Romero, el Frente País Solidario –partido político de centro izquierda conocido por sus siglas FREPASO- logró convertirse en una fuerza política sólida gracias a su fuerte inserción territorial y su estructura institucional bien consolidada.",
+              "o": [
+                "Es verdadero, porque los triunfos de Graciela Fernández Meijide en la Capital Federal y en la provincia de Buenos Aires demostraron un sólido arraigo territorial a nivel nacional.",
+                "Es falso, porque fue una fuerza sin gran inserción territorial ni estructura institucional clara, cuya fortaleza residía en el liderazgo del dirigente porteño Chacho Álvarez y su manejo de las nuevas técnicas de comunicación.",
+                "Es falso, porque el FREPASO nunca logró consolidarse como fuerza electoral, ya que su candidato José O. Bordón se alejó de sus filas tras las elecciones de 1995 y el partido se disolvió antes de conformar la Alianza.",
+                "Es verdadero, porque la suma de disidentes peronistas, del radicalismo y varios grupos de izquierda le dio una base territorial extensa."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-7ba8923cc4b1f70d"
+            },
+            {
+              "e": "5",
+              "p": "Según Romero, el estilo de gobierno de Carlos Menem se caracterizó por delegar las decisiones políticas estratégicas en un círculo de técnicos de confianza mientras él se concentraba en la gestión administrativa y cotidiana del gobierno.",
+              "o": [
+                "Es verdadero, porque Menem delegó esas decisiones en Cavallo, quien concentró tanto el poder político como la gestión económica.",
+                "Es verdadero, porque Cavallo asumió el liderazgo político y Menem se dedicaba a las relaciones exteriores y la imagen presidencial.",
+                "Es falso, porque Menem centralizó tanto las decisiones políticas como la gestión administrativa sin delegar ninguna función relevante.",
+                "Es falso, porque Menem se concentró en la política y delegó la administración en colaboradores de destacada capacidad."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-2026-p2-849572a23a4b15a1"
+            },
+            {
+              "e": "6",
+              "p": "Según Romero, la crisis originada en el llamado \"efecto Tequila\" de 1995 demostró que el programa neoliberal había dejado a la economía argentina estructuralmente vulnerable.",
+              "o": [
+                "Es verdadero, porque la ley de convertibilidad hizo a la economía extremadamente dependiente de capitales externos volátiles, amplificando cualquier crisis global.",
+                "Es verdadero, porque la desocupación trepó al 18% durante la crisis, y no cedió en parte por las reformas estructurales implementadas por el gobierno de Menem.",
+                "Es falso, porque la crisis del Tequila afectó a toda América Latina por igual y no tuvo relación con las decisiones de política económica tomadas por el gobierno de Menem.",
+                "Es falso, porque el gobierno superó la crisis rápida y eficientemente con apoyo del FMI, lo que demostró la solidez del modelo económico implementado."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-68aec91aba3954c6"
+            },
+            {
+              "e": "7",
+              "p": "Según Romero, la privatización de ENTEL (Empresa Nacional de Telecomunicaciones) y Aerolíneas Argentinas en la década de los años 90 fue diseñada solo con el objetivo de maximizar los ingresos fiscales del Estado y reducir sus gastos.",
+              "o": [
+                "Es falso, porque Romero muestra que las privatizaciones fracasaron en su objetivo fiscal, ya que los títulos de deuda aceptados a valor nominal resultaron activos de dudoso cobro para el Estado.",
+                "Es verdadero, porque la venta de esas empresas públicas permitió eliminar el déficit fiscal de manera rápida y sostenida durante el gobierno de Menem.",
+                "Es falso, porque, aunque obtener dinero para el fisco era uno de los objetivos, las privatizaciones también buscaban demostrar capacidad reformista, dar señales a los acreedores y compensar a los contratistas que perdían sus prebendas.",
+                "Es verdadero, porque al asegurar a los nuevos dueños de las empresas un aumento de tarifas y una situación casi monopólica, el Estado garantizó una renta que luego recuperó vía impuestos."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-2026-p2-e4a8474b433147da"
+            },
+            {
+              "e": "8",
+              "p": "Según Santiago Leiras, Venezuela bajo la presidencia de Nicolás Maduro representa el escenario de mantenimiento del statu quo dentro de su tipología sobre desenlaces institucionales. Esto es así porque",
+              "o": [
+                "Las Fuerzas Armadas se insubordinaron al poder político en 2019, generando un equilibrio inestable similar al de Chile ese mismo año.",
+                "En ese esquema, las Fuerzas Armadas son parte del gobierno, el Estado y el régimen, y su lealtad se sostenía en concesiones de negocios privados que garantizaban la supervivencia del liderazgo de Maduro.",
+                "La oposición logró una alta organización y movilización y las Fuerzas Armadas bolivarianas se negaron a reprimir, derivando en una \"sugerencia de renuncia\" al entonces presidente Maduro similar al caso del líder boliviano Evo Morales.",
+                "En ese esquema, la lealtad de las Fuerzas Armadas no era un valor en sí mismo sino una estrategia de supervivencia.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-04fab9dc93f03f55"
+            },
+            {
+              "e": "9",
+              "p": "Según Romero, la crisis de diciembre de 2001 tuvo causas económicas estructurales, pero también responsabilidades políticas concretas. Esto fue así porque:",
+              "o": [
+                "El corralito fue una medida exitosa que evitó el colapso bancario. En cambio, fue la declaración del estado de sitio lo que desencadenó el estallido.",
+                "Desde 1999 la economía mostraba un déficit fiscal insostenible y la recesión profundizaba la crisis sin que hubiera margen para revertirla.",
+                "De la Rúa careció del liderazgo para mantener unida a la Alianza y sumar otras fuerzas que compartieran la responsabilidad del colapso.",
+                "El FMI retiró su apoyo desde el inicio de la gestión, haciendo inevitable el derrumbe independientemente de las decisiones políticas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-67fb9371bedec32c"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, los indultos de Menem cerraron de modo inesperado el proceso iniciado en 1983 respecto a la cuestión militar. Esto es así porque:",
+              "o": [
+                "Indultó a militares procesados, jefes guerrilleros y responsables de Malvinas, y luego a los integrantes de las Juntas condenados en 1985, pese a la fuerte movilización en contra.",
+                "Los indultos fueron bien recibidos por toda la sociedad como un gesto de reconciliación necesario para consolidar la democracia.",
+                "El indulto fue la condición negociada para que el Ejército acatara la orden de reprimir la sublevación del coronel Seineldín.",
+                "El jefe del Ejército, Martín Balza, respaldó públicamente los indultos argumentando que la obediencia debida justificaba los actos cometidos durante la dictadura.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D. ."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-806a4094bba17954"
+            },
+            {
+              "e": "11",
+              "p": "Según Julio Montero, el liberalismo igualitario se diferencia del libertarismo en su concepción del rol del Estado. Esto es así porque:",
+              "o": [
+                "El liberalismo igualitario defiende que la salud, educación y el seguro de desempleo son cuestiones de justicia, no de caridad.",
+                "Los libertarios proponen abolir el Estado y reemplazarlo por agencias privadas.",
+                "El liberalismo igualitario reconoce que las regulaciones excesivas atentan contra el financiamiento del Estado de bienestar.",
+                "Los libertarios coinciden con los igualitarios en garantizar educación y salud universales.",
+                "Las opciones correctas son A y B.",
+                "Las opciones correctas son A y C.",
+                "Las opciones correctas son B y C.",
+                "Las opciones correctas son C y D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-d5c25eaa4aee491a"
+            },
+            {
+              "e": "12",
+              "p": "Según Diego Bernardini, las personas mayores han quedado rezagadas en las políticas de inclusión. Esto es así porque:",
+              "o": [
+                "A medida que envejecen, se las despoja de su capacidad de decisión, a diferencia de la infancia donde se educa para alcanzar la madurez.",
+                "La institucionalización responde a una mirada edadista que ve la vejez como dependencia.",
+                "Las enfermedades crónicas son la principal causa de su exclusión social.",
+                "La feminización del envejecimiento llevó a diseñar jubilaciones exclusivamente para mujeres.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-7080f37a9497bebb"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, la política exterior de Menem respecto a las Islas Malvinas implicó un cambio significativo respecto a la postura tradicional argentina. Esto fue así porque:",
+              "o": [
+                "Argentina abandonó el Movimiento de Países No Alineados y clausuró el Proyecto Cóndor de misiles, lo que le permitió negociar con Gran Bretaña desde una posición de mayor fortaleza militar.",
+                "El entonces canciller Guido Di Tella negoció con Inglaterra postergando la cuestión de la soberanía para resolver en cambio las disputas sobre derechos pesqueros, en el marco de una política de alineamiento con las potencias occidentales.",
+                "Menem recuperó la soberanía sobre los derechos pesqueros a cambio de reconocer la administración británica del archipiélago.",
+                "El entonces canciller Guido Di Tella logró que Gran Bretaña reconociera la soberanía argentina sobre las islas a cambio de postergar su ejercicio efectivo por un período de cien años, lo que fue rechazado por el congreso.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-6bd98bf412b23e26"
+            },
+            {
+              "e": "14",
+              "p": "Según Max Povse, los mecanismos de intercambio educativo que China implementó en América Latina tienen un componente de influencia ideológica que va más allá del simple programa académico. Esto es así porque:",
+              "o": [
+                "Los institutos Confucio están organizados desde el Estado chino y, no solo tienen a su cargo la enseñanza del chino mandarín, sino también de la cultura china, entre la que suelen incluir la cultura política del Partido Comunista Chino.",
+                "Las becas son bilaterales pero viajan muchos más estudiantes latinoamericanos a China que al revés, lo que refuerza la capacidad de adoctrinamiento según las pautas del Partido Comunista Chino.",
+                "China financia la totalidad de los centros internacionales de investigación dedicados a su país en el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) argentino, ejerciendo así un control directo sobre la agenda científica nacional.",
+                "Los institutos Confucio solo pueden funcionar dentro de universidades locales, pero responden al Partido Comunista Chino, lo que genera serias dudas sobre su independencia académica",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la B y la D.",
+                "Las opciones correctas son la A, la B y la C."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-0416e72d6980e829"
+            },
+            {
+              "e": "15",
+              "p": "Según Antonio Federico, el corporativismo se consolidó en Argentina, pero resultó perjudicial para la sociedad. Esto es así porque:",
+              "o": [
+                "Promovió estabilidad, pero generó desigualdades cuando los grupos más poderosos excluyeron a otros y limitaron la competencia.",
+                "Al favorecer acuerdos entre élites y proteger determinados intereses contra los \"fallos de mercado\", benefició a unos pocos mientras frenó el crecimiento del conjunto.",
+                "Fue auspicioso para algunos grupos que celebraban un Estado fuerte en protección de sus intereses, pero no para el conjunto de la sociedad en términos de crecimiento económico.",
+                "Fue perjudicial porque eliminó totalmente los mecanismos de mercado y concentró todas las decisiones económicas en el burócrata estatal, como también ocurrió en los regímenes colectivistas.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-427a8902705f5a12"
+            },
+            {
+              "e": "16",
+              "p": "Según Chaguaceda y Viera, el régimen cubano no puede calificarse como democrático desde ninguna perspectiva teórica, porque:",
+              "o": [
+                "Presenta deficiencias tanto desde una perspectiva liberal como republicana o socialista, siendo en la práctica una autocracia dominada por un núcleo familiar y militar.",
+                "Pensadores socialistas como Gramsci y Macpherson reconocieron que el modelo cubano representa la mejor expresión práctica de una democracia socialista desde abajo.",
+                "El centralismo democrático garantiza un debate genuino entre las bases del partido antes de cada decisión, aunque es menos eficiente a la hora de que los resultados se traduzcan en políticas concretas.",
+                "El socialismo de Estado cubano no introduce las identidades y demandas excluidas dentro de la política, sino que las expropia y administra en nombre de los humildes, lo que lo aleja también del supuesto ideal socialista.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-52c73181b1f33f62"
+            },
+            {
+              "e": "17",
+              "p": "Según Diego Pimentel, Han y Harari representan posiciones opuestas frente al impacto de la tecnología en el arte y la cultura.",
+              "o": [
+                "Harari sostiene que la tecnología aleja al individuo de su dimensión espiritual, mientras Han propone el arte digital como única salida a la alienación contemporánea.",
+                "Han describe la digitalización como el paso de un mundo de \"cosas\" a uno de \"no-cosas\" que desmaterializa las relaciones humanas, mientras Harari encuentra en ese mismo horizonte la promesa de un renacimiento creativo.",
+                "Han celebra la música electrónica como la expresión más pura del arte digital, mientras Harari advierte que los algoritmos destruyen la creatividad humana reduciéndola a patrones repetitivos.",
+                "Han critica cómo la digitalización cambia nuestra forma de vivir, mientras Harari propone eliminar toda forma de arte tradicional para abrazar plenamente la creatividad algorítmica.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "icse-2026-p2-3e28f369a064275e"
+            },
+            {
+              "e": "18",
+              "p": "Según Damián Gulich, las redes neuronales artificiales tienen limitaciones estructurales que impiden equipararlas a la inteligencia humana. Esto es así porque:",
+              "o": [
+                "Los modelos de lenguaje como ChatGPT demostraron que la inteligencia artificial general ya es alcanzable con suficiente poder de cómputo y datos de entrenamiento.",
+                "Según el filósofo Mario Bunge, las computadoras no piensan, ya que solo lo pueden hacer los animales dotados de sistemas neurales plásticos.",
+                "Los elementos básicos del cerebro —las neuronas reales— son radicalmente diferentes a los de las redes neuronales artificiales, por lo que las propiedades emergentes de esos dos sistemas no serán las mismas.",
+                "Bunge demostró que la inteligencia artificial superará a la natural en tareas algorítmicas, pero nunca podrá reemplazarla en creatividad ni en juicios morales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 1,
+              "k": "icse-2026-p2-e27364b63f8cd0f4"
+            }
+          ],
+          "aviso": "Claves de la grilla del PDF original. Explicaciones elaboradas para estudiar, no correcciones oficiales. Las opciones combinadas se responden con una sola alternativa. Cada tema suma 10 puntos."
+        },
+        {
+          "id": "t7",
+          "n": "Tema 7",
+          "fuente": "ICSE_2026_G.pdf",
+          "paginas": [
+            1,
+            5
+          ],
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Fernando Pedrosa y Antonio Federico, la distinción entre \"internacional\" y \"transnacional\" es irrelevante para comprender la política global del siglo XXI.",
+              "o": [
+                "Es verdadero, porque tras la caída del muro de Berlín, el accionar de los Estados nacionales ya no se considera relevante en la política mundial.",
+                "Es falso, porque la transformación post 1989 fue de tal magnitud que exige repensar incluso las categorías con las que nombramos a los actores globales.",
+                "Es verdadero, porque la expansión del capitalismo y los mercados globales ya disolvió la diferencia entre actores estatales y no estatales.",
+                "Es falso, porque los Estados siguen siendo los únicos capaces de resolver los problemas globales y por eso tienen voto en la ONU."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-cc7255dcb0b3157c"
+            },
+            {
+              "e": "2",
+              "p": "Según Sebastián Linares Lejarraga, las razones ligadas a la igualdad política para usar el sorteo en la selección de cargos públicos son válidas en cualquier situación o contexto.",
+              "o": [
+                "Es falso, porque la igualdad política que garantiza el sorteo no es suficiente cuando pocas personas logran ocupar cargos de representación.",
+                "Es verdadero, porque el sorteo garantiza igualdad política en cualquier contexto al dar a toda persona la misma probabilidad de acceder a un cargo.",
+                "Es falso, porque el sorteo es inválido en democracias ya que no respeta el principio de igualdad política y, sobre todo, el de capacidad probada.",
+                "Es verdadero, porque el efecto sanitizante del sorteo elimina el clientelismo independientemente del contexto en que se aplique."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-7fd9adf557602889"
+            },
+            {
+              "e": "3",
+              "p": "Según Julio Montero, la creencia de que las economías de mercado son más eficientes a la hora de producir riqueza cuenta con un amplio respaldo empírico.",
+              "o": [
+                "Es falso, porque las creencias son cuestiones de gustos y preferencias ideológicas y por lo tanto personales y subjetivas.",
+                "Es falso, porque es sabido que la economía de mercado genera riqueza, pero para pocos, lo que a largo plazo no la hace eficiente.",
+                "Es verdadero, porque incluso las experiencias socialistas de mercado, como la Unión Soviética, acabaron dando mayor calidad de vida a sus ciudadanos.",
+                "Es verdadero, porque los países con mayor libertad económica son en promedio mucho más ricos que los países económicamente oprimidos."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-2026-p2-d6d7b4b265288d2a"
+            },
+            {
+              "e": "4",
+              "p": "Según Damián Gulich, simular una neurona humana con fidelidad físico-química completa en una computadora actual es una tarea perfectamente alcanzable con la tecnología disponible.",
+              "o": [
+                "Es verdadero, porque el perceptrón de Rosenblatt ya demostró que con pocos números e instrucciones se puede calcular el comportamiento neuronal en cualquier computadora.",
+                "Es verdadero, porque los modelos de neurona artificial actuales, organizados en capas interconectadas, logran reproducir fielmente la electroquímica de la neurona real.",
+                "Es falso, porque simular solo la posición de los átomos de una neurona requeriría aproximadamente 149 GB de memoria, y modelar su electroquímica demandaría aún mucho más.",
+                "Es falso, porque el lóbulo frontal humano no puede ser reproducido por ningún sistema informático ya que la inteligencia es una propiedad no materialista del cerebro."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-2026-p2-64b587b725eee397"
+            },
+            {
+              "e": "5",
+              "p": "Según Diego Bernardini, el sistema de jubilación actual sigue siendo adecuado para la población mayor contemporánea.",
+              "o": [
+                "Es verdadero, porque el sistema fue diseñado con criterios de largo plazo que anticiparon el aumento de la esperanza de vida.",
+                "Es verdadero, porque antes solo el 1% llegaba a la edad de jubilarse, lo que demuestra que el sistema fue pensado para una minoría sostenible.",
+                "Es falso, porque su base es la misma desde el siglo XIX, cuando solo el 1% llegaba a jubilarse, y hoy la esperanza de vida aumentó más de 30 años.",
+                "Es falso, porque Jane Fonda demostró en su charla TEDx que el retiro debe eliminarse como etapa del ciclo de vida."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-2026-p2-beae4a2327e6aba2"
+            },
+            {
+              "e": "6",
+              "p": "Según Diego Pimentel, la postura de Harari frente al avance tecnológico evita caer en el pesimismo absoluto.",
+              "o": [
+                "Es verdadero, porque para Harari la clave está en construir marcos éticos que canalicen el poder tecnológico hacia fines que enriquezcan la experiencia humana.",
+                "Es verdadero, porque Harari demuestra que los algoritmos son neutrales y pueden usarse exclusivamente para fines creativos y artísticos eludiendo el odio y la violencia.",
+                "Es falso, porque Harari advierte que el control algorítmico destruye inevitablemente la capacidad humana de imaginar futuros posibles.",
+                "Es falso, porque para Harari la IA reemplaza la creatividad humana reduciendo el arte a un conjunto de datos manipulables."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-e5981d00bf87cefb"
+            },
+            {
+              "e": "7",
+              "p": "Según Antonio Federico, el corporativismo puede generar desigualdades al favorecer a los grupos de interés más poderosos por sobre otros sectores de la sociedad.",
+              "o": [
+                "Es verdadero, porque los grupos con mayor capacidad de organización y presión pueden obtener privilegios y beneficios estatales por encima de otros sectores menos representados.",
+                "Es falso, porque el corporativismo garantiza automáticamente una representación equilibrada e igualitaria de todos los sectores sociales.",
+                "Es falso, porque Federico sostiene que el corporativismo elimina las desigualdades económicas mediante la intervención coordinada del Estado.",
+                "Es verdadero, porque el corporativismo reemplaza la representación política por una estructura económica controlada por los sindicatos afines al poder de turno."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-d0b8d53c6d253b7f"
+            },
+            {
+              "e": "8",
+              "p": "Según Santiago Leiras, los factores que consolidaron la democracia del Pacto de Punto Fijo fueron paradójicamente los mismos que generaron su crisis. Esto fue así porque:",
+              "o": [
+                "La renta petrolera, la cooperación entre líderes y la fortaleza partidaria garantizaron la gobernabilidad pero impidieron una mayor democratización.",
+                "El diseño electoral con tarjeta de colores partidarios facilitó el acceso de nuevos partidos a los cargos de gobierno y oxigenó la democracia.",
+                "Actores como asociaciones vecinales y nuevos partidos fueron excluidos de la vida política, erosionando la legitimidad del sistema.",
+                "La cooperación entre Fuerzas Armadas, sindicatos e Iglesia fue tan intensa que resultó suficiente para evitar las crisis de los años 80 y 90.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-3fb7ae6637cf8fd3"
+            },
+            {
+              "e": "9",
+              "p": "Según Armando Chaguaceda y Eloy Viera, el régimen cubano no puede considerarse democrático ni siquiera en sus propios términos socialistas. Esto es así porque:",
+              "o": [
+                "El Partido Comunista tiene más poder que el Estado, ya que toma todas las decisiones clave por encima del Consejo de Estado y del Consejo de Ministros.",
+                "El monopolio del Partido Comunista como única organización legal no tiene respaldo ni en los escritos de Carlos Marx ni en el pensamiento del héroe nacional, José Martí.",
+                "La Asamblea Nacional del Poder Popular funciona como un parlamento activo que delibera y legisla con autonomía respecto al Partido Comunista.",
+                "El centralismo democrático garantiza que las bases del partido participen activamente en las decisiones, equilibrando el poder de la cúpula dirigente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-65148f757925799a"
+            },
+            {
+              "e": "10",
+              "p": "Según Luis A. Romero, el surgimiento de los \"piqueteros\" durante el gobierno de Carlos Menem respondió a condiciones sociales y económicas muy específicas. Esto fue así porque:",
+              "o": [
+                "Los primeros cortes de ruta surgieron en Cutral Có, Tartagal y General Mosconi, localidades donde YPF era central en la vida comunitaria y cuyos trabajadores despedidos encabezaron la protesta.",
+                "Las organizaciones piqueteras nacieron exclusivamente en el Gran Buenos Aires (conurbano), donde la tradición sindical peronista les dio una estructura organizada desde el comienzo.",
+                "El gobierno respondió a los cortes de ruta tanto con represión como con negociaciones que incluían planes de empleo transitorios, lo que aliviaba momentáneamente el conflicto, pero a la vez generaba nuevos reclamos.",
+                "La movilización piquetera fue desde el inicio pacífica y organizada, evitando cualquier tipo de confrontación con las fuerzas de seguridad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-c6b12aef1c167cea"
+            },
+            {
+              "e": "11",
+              "p": "Según Romero, el Pacto de Olivos fue un acuerdo entre Carlos Menem y Raúl Alfonsín para habilitar la reforma constitucional en 1994. Esto fue así porque:",
+              "o": [
+                "La UCR aceptó la cláusula de reelección a cambio de modificaciones que buscaban reducir la discrecionalidad presidencial, como la creación del cargo de jefe de Gabinete y el Consejo de la Magistratura.",
+                "El acuerdo fue apoyado con entusiasmo por toda la oposición, que reconoció los beneficios institucionales de la reforma para la modernización del sistema político.",
+                "Alfonsín justificó el pacto con Menem señalando que era el mejor camino ante los riesgos de una reforma impulsada por el presidente peronista sin consenso opositor.",
+                "El Frente Grande, surgido como fuerza opositora a la reforma, obtuvo muy malos resultados en las elecciones de convencionales de 1994 y no logró influir en la Convención Constituyente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-e9b080d8281c91f9"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, la convertibilidad estabilizó la economía argentina, pero dejó un legado de vulnerabilidades estructurales. Esto fue así porque:",
+              "o": [
+                "Terminó con la inflación y reactivó la economía.",
+                "La deuda externa creció y el país dependía de capitales externos volátiles.",
+                "El peso sobrevaluado hacía imposible devaluar para competir en los mercados internacionales.",
+                "Redujo el desempleo y generó superávit fiscal permanente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-a5d63c8d2a5652bf"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, el gobierno de Eduardo Duhalde logró estabilizar la crisis política y económica de 2002 pese a sus limitaciones políticas. Esto fue así porque:",
+              "o": [
+                "Contaba con sólida legitimidad electoral, lo que le facilitó imponer medidas drásticas sin resistencia social ni judicial.",
+                "La creación del Plan Jefes y Jefas de Hogar, con cobertura universal financiada por el Banco Mundial y el BID, contribuyó a contener el conflicto social.",
+                "La mejora inesperada del precio internacional de la soja generó ingresos fiscales que fueron pilares de la recuperación económica.",
+                "El FMI apoyó incondicionalmente las medidas del gobierno, facilitando la refinanciación de la deuda sin exigir reformas.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-17c997a760b0fcbd"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, la crisis de diciembre de 2001 tuvo causas económicas estructurales, pero también responsabilidades políticas concretas. Esto fue así porque:",
+              "o": [
+                "El \"corralito\" fue la causa principal de la crisis, ya que generó la corrida bancaria que derrumbó la convertibilidad.",
+                "Los datos económicos de 1999 ya indicaban que el derrumbe fiscal era inevitable salvo un cambio importante en las condiciones externas.",
+                "De la Rúa no intentó sumar a otras fuerzas políticas para hacer copartícipes del derrumbe a quienes también eran responsables.",
+                "El FMI y Estados Unidos apoyaron activamente al gobierno de De la Rúa, lo que prolongó innecesariamente la agonía de la convertibilidad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-67fb9371bedec32c"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero el nuevo modelo económico iniciado por el peronismo en los años noventa transformó profundamente la estructura laboral del país. Esto fue así porque:",
+              "o": [
+                "La reconversión tecnológica y la apertura de la economía impactaron fuertemente en el empleo industrial.",
+                "Muchas empresas medianas y pequeñas cerraron, mientras que otras se adaptaron con capital extranjero o modernización.",
+                "El nuevo esquema neoliberal logró mantener altos niveles de empleo gracias al crecimiento exportador.",
+                "La desocupación fue disminuyendo a medida que se consolidaba el modelo de privatización estatal.",
+                "Las opciones correctas son A y B.",
+                "Las opciones correctas son A y C.",
+                "Las opciones correctas son B y C.",
+                "Las opciones correctas son C y D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-f9dd8aece20be432"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, el gobierno de la Alianza fracasó tanto en lo económico como en lo político. Esto fue así porque:",
+              "o": [
+                "La renuncia del vicepresidente Álvarez tras el escándalo de las coimas en el Senado desencadenó una crisis interna que desarticuló la coalición de gobierno.",
+                "El peronismo obstaculizó sistemáticamente al gobierno desde el inicio, impidiendo cualquier posibilidad de acuerdo político o económico.",
+                "De la Rúa carecía del liderazgo necesario para combinar las tendencias divergentes dentro de la Alianza, lo que agudizó los conflictos internos.",
+                "El FMI retiró su apoyo al gobierno argentino desde el inicio de la gestión, lo que imposibilitó cualquier intento de sostener la convertibilidad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-8c9ca0c30fb9c90c"
+            },
+            {
+              "e": "17",
+              "p": "Según Romero, Menem realizó un giro ideológico radical respecto a la tradición peronista para llevar adelante sus reformas. Esto fue así porque:",
+              "o": [
+                "Mantuvo el discurso estatista del peronismo clásico combinándolo con medidas de apertura para no alienar a las bases del movimiento.",
+                "Abjuró del estatismo, proclamó las privatizaciones y se burló de quienes \"se habían quedado en el 45\", aprovechando que la hiperinflación había allanado las resistencias.",
+                "El establishment económico lo apoyó desde el inicio gracias a sus antecedentes y campaña electoral de estilo peronista tradicional.",
+                "La hiperinflación lo obligó a aplicar las reformas de manera gradual, calibrando tiempos y resguardando las transiciones.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "icse-2026-p2-123b771fe2ab5598"
+            },
+            {
+              "e": "18",
+              "p": "Según Max Povse, China ejerce una influencia política informal sobre su diáspora en América Latina que va más allá de la cultura y la educación. Esto se observa en que:",
+              "o": [
+                "Los institutos Confucio operan dentro de las universidades latinoamericanas aplicando libremente la normativa del Partido Comunista Chino (PCC) con el aval de los gobiernos locales.",
+                "China mantiene \"comisarías\" clandestinas en ciudades como Buenos Aires y Río de Janeiro para aplicar leyes chinas sobre su diáspora en territorio extranjero.",
+                "Los medios chinos como Xinhua y CGTN son usados por miembros de la diáspora en chino mandarín para que las autoridades del país receptor no puedan monitorear sus contenidos.",
+                "La diáspora china se integró plenamente en los sistemas políticos latinoamericanos sin intervención del Partido Comunista Chino (PCC)",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "icse-2026-p2-a55578eb84ca464b"
+            }
+          ],
+          "aviso": "Claves de la grilla del PDF original. Explicaciones elaboradas para estudiar, no correcciones oficiales. Las opciones combinadas se responden con una sola alternativa. Cada tema suma 10 puntos. La página 5 dice «1º parcial» por error: la portada y el talón lo identifican como 2º parcial."
+        },
+        {
+          "id": "t8",
+          "n": "Tema 8",
+          "fuente": "ICSE_2026_H.pdf",
+          "paginas": [
+            1,
+            5
+          ],
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Sebastián Linares Lejarraga, las razones ligadas a la igualdad política para usar el sorteo en la selección de cargos públicos son válidas en cualquier situación o contexto.",
+              "o": [
+                "Es verdadero, porque el efecto sanitizante del sorteo elimina el clientelismo independientemente del contexto en que se aplique.",
+                "Es falso, porque la igualdad política que garantiza el sorteo no es suficiente cuando pocas personas logran ocupar cargos de representación.",
+                "Es verdadero, porque el sorteo garantiza igualdad política en cualquier contexto al dar a toda persona la misma probabilidad de acceder a un cargo.",
+                "Es falso, porque el sorteo es inválido en democracias ya que no respeta el principio de igualdad política y, sobre todo, el de capacidad probada."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-7fd9adf557602889"
+            },
+            {
+              "e": "2",
+              "p": "Según Antonio Federico, el corporativismo puede generar desigualdades al favorecer a los grupos de interés más poderosos por sobre otros sectores de la sociedad.",
+              "o": [
+                "Es falso, porque el corporativismo garantiza automáticamente una representación equilibrada e igualitaria de todos los sectores sociales.",
+                "Es verdadero, porque los grupos con mayor capacidad de organización y presión pueden obtener privilegios y beneficios estatales por encima de otros sectores menos representados.",
+                "Es falso, porque Federico sostiene que el corporativismo elimina las desigualdades económicas mediante la intervención coordinada del Estado.",
+                "Es verdadero, porque el corporativismo reemplaza la representación política por una estructura económica controlada por los sindicatos afines al poder de turno."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-d0b8d53c6d253b7f"
+            },
+            {
+              "e": "3",
+              "p": "Según Julio Montero, la creencia de que las economías de mercado son más eficientes a la hora de producir riqueza cuenta con un amplio respaldo empírico.",
+              "o": [
+                "Es verdadero, porque los países con mayor libertad económica son en promedio mucho más ricos que los países económicamente oprimidos.",
+                "Es falso, porque las creencias son cuestiones de gustos y preferencias ideológicas y por lo tanto personales y subjetivas.",
+                "Es falso, porque es sabido que la economía de mercado genera riqueza, pero para pocos, lo que a largo plazo no la hace eficiente.",
+                "Es verdadero, porque incluso las experiencias socialistas de mercado, como la Unión Soviética, acabaron dando mayor calidad de vida a sus ciudadanos."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-d6d7b4b265288d2a"
+            },
+            {
+              "e": "4",
+              "p": "Según Diego Pimentel, la postura de Harari frente al avance tecnológico evita caer en el pesimismo absoluto.",
+              "o": [
+                "Es falso, porque para Harari la IA reemplaza la creatividad humana reduciendo el arte a un conjunto de datos manipulables.",
+                "Es verdadero, porque para Harari la clave está en construir marcos éticos que canalicen el poder tecnológico hacia fines que enriquezcan la experiencia humana.",
+                "Es verdadero, porque Harari demuestra que los algoritmos son neutrales y pueden usarse exclusivamente para fines creativos y artísticos eludiendo el odio y la violencia.",
+                "Es falso, porque Harari advierte que el control algorítmico destruye inevitablemente la capacidad humana de imaginar futuros posibles."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-e5981d00bf87cefb"
+            },
+            {
+              "e": "5",
+              "p": "Según Damián Gulich, simular una neurona humana con fidelidad físico-química completa en una computadora actual es una tarea perfectamente alcanzable con la tecnología disponible.",
+              "o": [
+                "Es verdadero, porque el perceptrón de Rosenblatt ya demostró que con pocos números e instrucciones se puede calcular el comportamiento neuronal en cualquier computadora.",
+                "Es verdadero, porque los modelos de neurona artificial actuales, organizados en capas interconectadas, logran reproducir fielmente la electroquímica de la neurona real.",
+                "Es falso, porque el lóbulo frontal humano no puede ser reproducido por ningún sistema informático ya que la inteligencia es una propiedad no materialista del cerebro.",
+                "Es falso, porque simular solo la posición de los átomos de una neurona requeriría aproximadamente 149 GB de memoria, y modelar su electroquímica demandaría aún mucho más."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-2026-p2-64b587b725eee397"
+            },
+            {
+              "e": "6",
+              "p": "Según Diego Bernardini, el sistema de jubilación actual sigue siendo adecuado para la población mayor contemporánea.",
+              "o": [
+                "Es falso, porque Jane Fonda demostró en su charla TEDx que el retiro debe eliminarse como etapa del ciclo de vida.",
+                "Es verdadero, porque el sistema fue diseñado con criterios de largo plazo que anticiparon el aumento de la esperanza de vida.",
+                "Es verdadero, porque antes solo el 1% llegaba a la edad de jubilarse, lo que demuestra que el sistema fue pensado para una minoría sostenible.",
+                "Es falso, porque su base es la misma desde el siglo XIX, cuando solo el 1% llegaba a jubilarse, y hoy la esperanza de vida aumentó más de 30 años."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-2026-p2-beae4a2327e6aba2"
+            },
+            {
+              "e": "7",
+              "p": "Según Fernando Pedrosa y Federico, la distinción entre \"internacional\" y \"transnacional\" es irrelevante para comprender la política global del siglo XXI.",
+              "o": [
+                "Es falso, porque los Estados siguen siendo los únicos capaces de resolver los problemas globales y por eso tienen voto en la ONU.",
+                "Es verdadero, porque lo único relevante es el accionar de los Estados nacionales, que siguen siendo los actores centrales de la política mundial.",
+                "Es falso, porque la transformación post 1989 fue de tal magnitud que exige repensar incluso las categorías con las que nombramos a los actores globales.",
+                "Es verdadero, porque tras la caída del muro de Berlín, el accionar de los Estados nacionales ya no se considera relevante en la política mundial."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-2026-p2-6e6530411657af22"
+            },
+            {
+              "e": "8",
+              "p": "Según Luis A. Romero, el surgimiento de los \"piqueteros\" durante el gobierno de Menem respondió a condiciones sociales y económicas muy específicas. Esto fue así porque:",
+              "o": [
+                "La movilización piquetera fue desde el inicio pacífica y organizada, evitando cualquier tipo de confrontación con las fuerzas de seguridad.",
+                "Los primeros cortes de ruta surgieron en Cutral Có, Tartagal y General Mosconi, localidades donde YPF era central en la vida comunitaria y cuyos trabajadores despedidos encabezaron la protesta.",
+                "Las organizaciones piqueteras nacieron en el Gran Buenos Aires (conurbano), donde la tradición sindical peronista les dio una estructura organizada desde el comienzo.",
+                "El gobierno respondió a los cortes de ruta tanto con represión como con negociaciones que incluían planes de empleo transitorios, lo que aliviaba momentáneamente el conflicto, pero generaba nuevos reclamos.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la A.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-d21f3b86576ac2ac"
+            },
+            {
+              "e": "9",
+              "p": "Según Armando Chaguaceda y Eloy Viera, el régimen cubano no puede considerarse democrático ni siquiera en sus propios términos socialistas. Esto es así porque:",
+              "o": [
+                "El Partido Comunista tiene más poder que el Estado, ya que toma todas las decisiones clave por encima del Consejo de Estado y del Consejo de Ministros.",
+                "El monopolio del Partido Comunista como única organización legal no tiene respaldo ni en los escritos de Carlos Marx ni en el pensamiento del héroe nacional, José Martí.",
+                "La Asamblea Nacional del Poder Popular funciona como un parlamento activo que delibera y legisla con autonomía respecto al Partido Comunista.",
+                "El centralismo democrático garantiza que las bases del partido participen activamente en las decisiones, equilibrando el poder de la cúpula dirigente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-65148f757925799a"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, el Pacto de Olivos fue un acuerdo entre el peronista Carlos Menem y el radical Raúl Alfonsín para habilitar la reforma constitucional en 1994. Esto fue así porque:",
+              "o": [
+                "El Frente Grande, surgido como fuerza opositora a la reforma, obtuvo muy malos resultados en las elecciones de convencionales de 1994 y no logró representación en la Convención Constituyente.",
+                "La UCR aceptó la cláusula de reelección a cambio de modificaciones que buscaban reducir la discrecionalidad presidencial, como la creación del cargo de jefe de Gabinete y el Consejo de la Magistratura.",
+                "El acuerdo fue apoyado con entusiasmo por toda la oposición, que reconoció los beneficios institucionales de la reforma para la modernización del sistema político.",
+                "Alfonsín justificó el pacto con Menem señalando que era el mejor camino ante los riesgos de una reforma impulsada por el presidente peronista sin consenso opositor.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la A.",
+                "Las opciones correctas son la B y la A.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-1eb5bab067ac3a99"
+            },
+            {
+              "e": "11",
+              "p": "Según Santiago Leiras, los factores que consolidaron la democracia del Pacto de Punto Fijo fueron paradójicamente los mismos que generaron su crisis. Esto fue así porque:",
+              "o": [
+                "La cooperación entre Fuerzas Armadas, sindicatos e Iglesia fue tan intensa que resultó suficiente para evitar las crisis de los 80´ y 90´.",
+                "La renta petrolera, la cooperación entre líderes y la fortaleza partidaria garantizaron la gobernabilidad pero impidieron una mayor democratización.",
+                "El diseño electoral con tarjeta de colores partidarios facilitó el acceso de nuevos partidos a los cargos de gobierno y oxigenó la democracia.",
+                "Actores como asociaciones vecinales y nuevos partidos fueron excluidos de la vida política, erosionando la legitimidad del sistema.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la A.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-3fb7ae6637cf8fd3"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, la convertibilidad logró estabilizar la economía argentina, pero dejó un legado de vulnerabilidades estructurales. Esto fue así porque:",
+              "o": [
+                "Redujo el desempleo y generó superávit fiscal permanente.",
+                "Terminó con la inflación y reactivó la economía.",
+                "La deuda externa creció y el país dependía de capitales externos volátiles.",
+                "El peso sobrevaluado hacía imposible devaluar para competir en los mercados internacionales.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B y la A.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-84dd47dcd0abf8cc"
+            },
+            {
+              "e": "13",
+              "p": "Según Romero, el gobierno de Eduardo Duhalde logró estabilizar la crisis política y económica de 2002 pese a sus limitaciones políticas. Esto fue así porque:",
+              "o": [
+                "El FMI apoyó incondicionalmente las medidas del gobierno, facilitando la refinanciación de la deuda sin exigir reformas.",
+                "Contaba con sólida legitimidad electoral, lo que le facilitó imponer medidas drásticas sin resistencia social ni judicial.",
+                "La creación del Plan Jefes y Jefas de Hogar, con cobertura universal financiada por el Banco Mundial y el BID, contribuyó a contener el conflicto social.",
+                "La mejora inesperada del precio internacional de la soja generó ingresos fiscales que fueron pilares de la recuperación económica.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la A.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-17c997a760b0fcbd"
+            },
+            {
+              "e": "14",
+              "p": "Según Romero, la crisis de diciembre de 2001 tuvo causas económicas estructurales, pero también responsabilidades políticas concretas. Esto fue así porque:",
+              "o": [
+                "El \"corralito\" fue la causa principal de la crisis, ya que generó la corrida bancaria que derrumbó la convertibilidad.",
+                "Los datos económicos de 1999 ya indicaban que el derrumbe fiscal era inevitable salvo un cambio importante en las condiciones externas.",
+                "De la Rúa no intentó sumar a otras fuerzas políticas para hacer copartícipes del derrumbe a quienes también eran responsables.",
+                "El FMI y Estados Unidos apoyaron activamente al gobierno de Fernando De la Rúa, lo que prolongó innecesariamente la agonía de la convertibilidad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-67fb9371bedec32c"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, el gobierno de la Alianza fracasó tanto en lo económico como en lo político. Esto fue así porque:",
+              "o": [
+                "El FMI retiró su apoyo al gobierno argentino desde el inicio de la gestión, lo que imposibilitó cualquier intento de sostener la convertibilidad.",
+                "La renuncia del vicepresidente Álvarez tras el escándalo de las coimas en el Senado desencadenó una crisis interna que desarticuló la coalición de gobierno.",
+                "El peronismo obstaculizó sistemáticamente al gobierno desde el inicio, impidiendo cualquier posibilidad de acuerdo político o económico.",
+                "De la Rúa carecía del liderazgo necesario para combinar las tendencias divergentes dentro de la Alianza, lo que agudizó los conflictos internos.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la A.",
+                "Las opciones correctas son la D y la A."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-8c9ca0c30fb9c90c"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero el nuevo modelo económico iniciado por el peronismo en los años noventa transformó profundamente la estructura laboral del país. Esto fue así porque:",
+              "o": [
+                "La reconversión tecnológica y la apertura de la economía impactaron fuertemente en el empleo industrial.",
+                "Muchas empresas medianas y pequeñas cerraron, mientras que otras se adaptaron con capital extranjero o modernización.",
+                "El nuevo esquema neoliberal logró mantener altos niveles de empleo gracias al crecimiento exportador.",
+                "La desocupación fue disminuyendo a medida que se consolidaba el modelo de privatización estatal.",
+                "Las opciones correctas son A y B.",
+                "Las opciones correctas son A y C.",
+                "Las opciones correctas son B y C.",
+                "Las opciones correctas son C y D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-f9dd8aece20be432"
+            },
+            {
+              "e": "17",
+              "p": "Según Max Povse, China ejerce una influencia política informal sobre su diáspora en América Latina que va más allá de la cultura y la educación. Esto se observa en que:",
+              "o": [
+                "Los institutos Confucio operan dentro de las universidades latinoamericanas aplicando libremente la normativa del Partido Comunista Chino (PCC) con aval de los gobiernos locales.",
+                "La diáspora china se integró plenamente en los sistemas políticos latinoamericanos sin intervención del Partido Comunista Chino (PCC).",
+                "Los medios chinos como Xinhua y CGTN son usados por miembros de la diáspora en chino mandarín para que las autoridades del país receptor no puedan monitorear sus contenidos.",
+                "China mantiene \"comisarías\" clandestinas en ciudades como Buenos Aires y Río de Janeiro para aplicar leyes chinas sobre su diáspora en territorio extranjero.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "icse-2026-p2-a55578eb84ca464b"
+            },
+            {
+              "e": "18",
+              "p": "Según Romero, Menem realizó un giro ideológico radical respecto a la tradición peronista para llevar adelante sus reformas. Esto fue así porque:",
+              "o": [
+                "Abjuró del estatismo, proclamó las privatizaciones y se burló de quienes \"se habían quedado en el 45\", aprovechando que la hiperinflación había allanado las resistencias.",
+                "El establishment económico lo apoyó desde el inicio gracias a sus antecedentes y campaña electoral de estilo peronista tradicional.",
+                "Mantuvo el discurso estatista del peronismo clásico combinándolo con medidas de apertura para no alienar a las bases del movimiento.",
+                "La hiperinflación lo obligó a aplicar las reformas de manera gradual, calibrando tiempos y resguardando las transiciones.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 0,
+              "pts": 1,
+              "k": "icse-2026-p2-123b771fe2ab5598"
+            }
+          ],
+          "aviso": "Claves de la grilla del PDF original. Explicaciones elaboradas para estudiar, no correcciones oficiales. Las opciones combinadas se responden con una sola alternativa. Cada tema suma 10 puntos."
+        }
+      ]
+    },
+    {
       "id": "pedrosa-2025-10-31-p2",
       "nombre": "2º parcial · 31/10/2025",
       "fecha": "2025-10-31",
@@ -14578,6 +16992,891 @@ registrarMateria({
         }
       ],
       "parcial": 2
+    },
+    {
+      "id": "pedrosa-2026-07-17-final",
+      "tipo": "final",
+      "nombre": "Examen final · 17/07/2026",
+      "fecha": "2026-07-17",
+      "catedra": "A · Fernando Pedrosa",
+      "detalle": "Cátedra A · Pedrosa. Temas 3, 4 y 5; 18 preguntas por tema, 16 de 0,50 y 2 de 1 punto. Sin puntaje parcial.",
+      "temas": [
+        {
+          "id": "t3",
+          "n": "Tema 3",
+          "fuente": "Final_A.pdf",
+          "paginas": [
+            1,
+            5
+          ],
+          "qs": [
+            {
+              "e": "1",
+              "p": "Max Povse afirma que es muy importante entender qué es lo mismo un cambio de gobierno que un cambio de régimen político.",
+              "o": [
+                "Es verdadero, porque no puede haber un mismo gobierno que transite regímenes políticos diferentes.",
+                "Es verdadero, porque cuando cambia el presidente necesariamente cambia el régimen.",
+                "Es falso, porque un régimen puede mantenerse, aunque cambie el gobierno.",
+                "Es falso, porque para que haya un cambio de régimen no debe cambiar el gobierno."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimen"
+            },
+            {
+              "e": "2",
+              "p": "Según Patricio Gómez Talavera, existe una distinción temporal importante entre Estado y gobierno",
+              "o": [
+                "Es falso, porque los miembros del gobierno no tienen un mandato temporalmente determinado, a diferencia de los encargados de administrar la estructura burocrática del Estado que asumen con un mandato fijo de una cierta cantidad de años.",
+                "Es verdadero, porque el Estado es una estructura de existencia permanente, aunque puede cambiar en sus formas.",
+                "Es verdadero, porque el gobierno es una estructura de existencia permanente, aunque puede cambiar en sus formas.",
+                "Es falso, porque los miembros del Estado tienen un mandato temporalmente determinado, tras el cual deberán dejar sus puestos a nuevos encargados de administrar la estructura burocrática del gobierno."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-estado-gobierno"
+            },
+            {
+              "e": "3",
+              "p": "Según Nadia Yannuzzi, persona y ciudadano son conceptos equivalentes que pueden usarse indistintamente en el análisis político y social.",
+              "o": [
+                "Es falso, porque ser ciudadano implica una suma de derechos que cada Estado otorga y garantiza, mientras que los derechos humanos corresponden a toda persona por el simple hecho de existir.",
+                "Es verdadero, porque la ciudadanía es el derecho a tener derechos y, por lo tanto, toda persona que posee derechos humanos es automáticamente ciudadana de algún Estado.",
+                "Es verdadero, porque toda persona tiene derechos humanos por el simple hecho de existir y el Estado los reconoce automáticamente al nacer.",
+                "Es falso, porque la ciudadanía es un privilegio que solo otorgan los Estados democráticos, quedando excluidas las personas que viven bajo regímenes autoritarios."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-persona-ciudadano"
+            },
+            {
+              "e": "4",
+              "p": "Nicolás Simone afirma que la democracia representativa se alcanza cuando los ciudadanos eligen a un pequeño grupo de personas para que tomen decisiones en su nombre.",
+              "o": [
+                "Es falso, porque la democracia representativa busca oponerse al poder de pequeños grupos sobre el pueblo.",
+                "Es falso, porque la democracia representativa se alcanza cuando los ciudadanos toman en su poder las grandes decisiones del Estado.",
+                "Es verdadero, porque la democracia representativa se alcanza cuando los ciudadanos eligen a otros para que diseñen un gobierno que exprese la voluntad de la mayoría.",
+                "Es verdadero, porque la democracia representativa se alcanza cuando un grupo de personas a partir de la democracia directa diseñan un gobierno que exprese la voluntad de la mayoría."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-dem-representativa"
+            },
+            {
+              "e": "5",
+              "p": "Según Pedrosa, Deich y Yannuzzi, el uso académico y el uso cotidiano del lenguaje persiguen los mismos objetivos comunicativos.",
+              "o": [
+                "Es verdadero, porque en ambos contextos las palabras funcionan como herramientas de análisis que buscan precisar conceptos y debatir ideas con rigor.",
+                "Es falso, porque en contextos informales las palabras funcionan más como disparadores afectivos o marcas identitarias que buscan reafirmar una postura, no discutirla.",
+                "Es verdadero, porque la democratización de la palabra permitió que el lenguaje académico se popularizara y llegara a contextos de la vida cotidiana.",
+                "Es falso, porque el lenguaje cotidiano es siempre más preciso que el académico, ya que surge de la experiencia directa y no de abstracciones teóricas."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-final-4fa0c422cbbd3b76"
+            },
+            {
+              "e": "6",
+              "p": "Según Luis A. Romero, con la represión en la última dictadura surgieron en el propio Ejército verdaderos señores de la guerra, que casi no reconocían ninguna autoridad sobre sí.",
+              "o": [
+                "Es verdadero, porque en torno a la Marina, en especial con el Brigadier Agosti a la cabeza, se constituyó la facción interna más fuerte, pero que distaba de ser hegemónica.",
+                "Es falso, porque aun con diferencias, la verticalidad típica de la estructura militar se mantuvo incluso en el final de la dictadura.",
+                "Es falso, porque las tendencias centrífugas y la anarquía que se derivaban de la división del poder entre las tres fuerzas, finalizaron al crearse una instancia superior a todas ellas que resolvía los conflictos: el consejo superior de las Fuerzas Armadas.",
+                "Es verdadero, porque las tendencias centrífugas y la anarquía que se derivaban de la estricta división del poder entre las tres fuerzas, impidieron la existencia de una instancia superior a ellas que dirimiera los conflictos."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-senores-guerra"
+            },
+            {
+              "e": "7",
+              "p": "Según Romero, la primera cuestión oscura que abría el llamado “Proceso de Reorganización Nacional”, comenzado en marzo de 1976, era dónde residía realmente el poder.",
+              "o": [
+                "Es falso, porque el poder residía en la Junta de comandantes que centralizaba las funciones de ejecutivas, legislativas y judiciales a lo largo de todo el país.",
+                "Es verdadero, porque el “Proceso de Reorganización Nacional” supuso la existencia de un Estado terrorista, visible y público, encargado tanto de la represión como de las políticas sociales, culturales y hasta económicas.",
+                "Es verdadero, porque la autoridad del presidente –al principio el primero entre sus pares, y luego ni siquiera eso- resultó controlada y limitada por los jefes de las tres armas.",
+                "Es falso, porque la tradición política del país era fuertemente presidencialista, y además la unidad de mando fue siempre uno de los principios de las Fuerzas Armadas, por eso la autoridad del presidente nunca fue discutida ni revisada por sus pares militares."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-proceso-poder"
+            },
+            {
+              "e": "8",
+              "p": "Según Romero, a mediados de 1982, los militares debían enfrentarse con la evidencia de su fracaso como administradores de un país desquiciado y como conductores de una guerra absurda. Esto fue así porque:",
+              "o": [
+                "Debían contemplar a sus antiguos aliados, como los otrora disciplinados jueces, llevando a juicio a oficiales acusados de corrupción.",
+                "Debían contemplar a sus antiguos aliados –los empresarios, la Iglesia, Estados Unidos–, ganados por la nueva fe democrática.",
+                "Los Montoneros habían sobrevivido sin mayores daños en su estructura política, financiera e, incluso, armada.",
+                "La Junta militar se dio cuenta que el triunfo del peronismo era inevitable, como efectivamente ocurrió en 1983.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-militares-1982"
+            },
+            {
+              "e": "9",
+              "p": "Según Armando Chaguaceda y Eloy Viera, el Grupo de Administración Empresarial S.A. (GAESA) ilustra cómo la cúpula militar cubana fusionó el poder económico con el político. Esto es así porque:",
+              "o": [
+                "Fue creado por Fidel Castro para distribuir los beneficios económicos del turismo entre la población cubana de manera equitativa.",
+                "Fue creado como herramienta para atraer inversión extranjera, operando bajo las mismas reglas del mercado internacional que cualquier conglomerado empresarial privado.",
+                "Actúa de manera autónoma con su propio presupuesto e instituciones financieras separadas del Banco Central, gestionando enormes fondos sin depender del sistema de planificación estatal.",
+                "Sus principales dirigentes pasaron de conducir empresas de GAESA a cargos clave en el gobierno y el Partido Comunista de Cuba.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-9bc654cd86b6fa7e"
+            },
+            {
+              "e": "10",
+              "p": "Según Max Povse, el avance de China en América Latina se explica por varios factores que operaron simultáneamente. Entre ellos:",
+              "o": [
+                "La afinidad antiimperialista de la llamada \"marea rosa\" llevó a ver al Partido Comunista Chino como aliado natural.",
+                "La Doctrina Monroe fue derogada por el Congreso estadounidense, eliminando los obstáculos para la expansión china.",
+                "Que China avanzó exclusivamente a través del comercio, ya que los países obtuvieron superávits que incentivaron el acercamiento.",
+                "La retirada de Estados Unidos dejó un vacío que China aprovechó con la esperanza de convertirse en el nuevo hegemón.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la B."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-4d1312924b3b90ff"
+            },
+            {
+              "e": "11",
+              "p": "Según Romero, el gobierno de la Alianza recibió una economía que condicionó severamente su margen de acción. Esto fue así porque:",
+              "o": [
+                "La convertibilidad sancionada en la presidencia de Menem limitaba la acción estatal en materia monetaria y el peso sobrevaluado dificultaba competir en los mercados mundiales, mientras el déficit fiscal era mayor al previsto.",
+                "El FMI retiró su apoyo a la Argentina desde el día que se inició la gestión de De la Rúa, lo que precipitó la fuga de capitales y aceleró el colapso de la convertibilidad antes de 2001.",
+                "El peronismo, con mayoría en diputados bloqueó sistemáticamente todas las iniciativas económicas del gobierno de la Alianza desde el mismo inicio de la presidencia de De la Rúa.",
+                "Domingo Cavallo fue designado vicepresidente para garantizar la continuidad de la convertibilidad y la confianza de los inversores.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-dc5b0471f705b9e3"
+            },
+            {
+              "e": "12",
+              "p": "Romero afirma que, al asumir la presidencia en 1983, el poder que administraba el presidente Alfonsín era a la vez grande y escaso. Esto se observaba en varias características del recién electo gobierno radical, entre ellas:",
+              "o": [
+                "Que por el impactante número de votos que había alcanzado en las elecciones de 1983, los seguidores del presidente Alfonsín controlaban la mayoría del Senado por primera vez desde 1928.",
+                "Que el radicalismo había alcanzado en 1983 una proporción de votos solo comparable con los grandes triunfos plebiscitarios de Yrigoyen o Perón.",
+                "Que, si bien el liderazgo de Alfonsín en su partido era fuerte, la Unión Cívica Radical constituía una fuerza no demasiado homogénea que incluso, en ocasiones, llegó a obstaculizar la tarea del presidente en la transición.",
+                "Que el radicalismo no tenía mayoría en la Cámara de Diputados, pero había triunfado en el interior tradicional.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la C, la D y la A."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-poder-grande-escaso"
+            },
+            {
+              "e": "13",
+              "p": "Según Santiago Leiras, la etapa constituyente de la Revolución Bolivariana (1999-2001) implicó una transformación radical del sistema político venezolano. Esto es así porque:",
+              "o": [
+                "Se redujo a un papel casi testimonial a quienes habían sido actores estratégicos como los partidos políticos Acción Democrática y Comité de Organización Política Electoral Independiente (COPEI) durante el ciclo democrático precedente de cuatro décadas.",
+                "La nueva constitución bolivariana fue aprobada en referéndum con el 71,37% de los votos, el mismo día en que quedaron disueltos el Congreso y la Corte Suprema de Justicia.",
+                "Los partidos Acción Democrática y el Comité de Organización Política Electoral Independiente (COPEI), aunque debilitados, participaron activamente en la Asamblea Constituyente y negociaron las reformas con el chavismo.",
+                "Finalmente, la Corte Suprema terminó negando el carácter supraconstitucional –es decir, por encima de la constitución– de la Asamblea Constituyente.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-23265277e7122817"
+            },
+            {
+              "e": "14",
+              "p": "Romero explica que el programa económico de 1976 buscó reducir las funciones del Estado en sintonía con las tendencias del mundo capitalista de la época, pero ese intento de reforma estructural encontró fuertes resistencias que le impidieron llegar a fondo. Entre ellas:",
+              "o": [
+                "El peronismo y el radicalismo convocaron una serie de actos públicos para rechazar el paquete económico que tuvieron gran impacto.",
+                "Muchos empresarios que lo acompañaban combinaban un genérico liberalismo declarativo con la convicción de que el Estado debía proteger y subvencionar a cada uno de ellos.",
+                "Entre los militares, había muchos que adherían a las ideas nacionalistas y dirigistas, y otros que aspiraban, más simplemente, a sumarse a los beneficiarios del reparto estatal.",
+                "Las encuestas preelectorales y la cercanía del acto electoral potenciaron el rechazo popular a las medidas económicas del gobierno y generaron una fuerte reacción de los militares para que el ministro de Economía suspendiera el plan de ajuste.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-resistencias-achicar-estado"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, con la vuelta de la democracia a partir de 1983, radicales y peronistas cosecharon amplios apoyos y dejaron poco espacio para otros partidos. A la derecha, como siempre, fue difícil unificar las fuerzas. Esto se vio en que:",
+              "o": [
+                "A la derecha, como siempre, fue difícil unificar las fuerzas. Entre ellas, se destacó la Unión del Centro Democrático predicó el liberalismo económico ortodoxo, pero sus mejores frutos vendrían años después.",
+                "A la derecha, como siempre, fue difícil unificar las fuerzas. Entre ellas se destacó el PRO, liderado por Mauricio Macri predicó el liberalismo económico moderado, pero sus mejores frutos vendrían años después.",
+                "A la izquierda, el Partido Intransigente logró reunir un amplio y heterogéneo espectro de simpatizantes.",
+                "A la izquierda, el kirchnerismo logró reunir un amplio y heterogéneo espectro de simpatizantes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-final-85334404126d75dd"
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, algunos de los acontecimientos más importantes de la transición en Argentina fueron los ocurridos en la Semana Santa de 1987, cuando un levantamiento militar puso a prueba la estabilidad democrática. Eso fue así porque:",
+              "o": [
+                "Fue una sublevación de sectores militares que exigían el fin de los juicios contra los oficiales involucrados en la represión durante la dictadura militar que había terminado algunos años antes.",
+                "El levantamiento fue sofocado inmediatamente con una intervención militar ordenada por el presidente Alfonsín, sin necesidad de mayores negociaciones.",
+                "Fue un intento de golpe de Estado exitoso que obligó a Raúl Alfonsín a renunciar antes de completar su mandato.",
+                "Fue un punto de inflexión en la relación entre el Gobierno y los militares, desembocando luego en la sanción de la Ley de Obediencia Debida.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-semana-santa"
+            },
+            {
+              "e": "17",
+              "p": "Según Damián Gulich, las Tres Leyes de la Robótica de Isaac Asimov siguen siendo relevantes para pensar los dilemas éticos de la inteligencia artificial actual. Esto es así porque:",
+              "o": [
+                "Gulich sostiene que las Tres Leyes deben ser adoptadas como marco legal internacional para regular el desarrollo de la inteligencia artificial.",
+                "Las Tres Leyes son, en esencia, reglas básicas de seguridad para cualquier herramienta: ser segura para el usuario, cumplir su función salvo que se torne peligrosa y preservarse salvo conflicto con las dos reglas anteriores.",
+                "Asimov diseñó específicamente las Tres Leyes para sistemas de inteligencia artificial general (AGI), es decir, máquinas capaces de realizar cualquier tarea intelectual humana de forma autónoma.",
+                "La militarización de la inteligencia artificial demuestra que las Tres Leyes ya fueron incorporadas en los sistemas de armas autónomas actuales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "icse-2026-p2-d048bc1b49ca3bf7"
+            },
+            {
+              "e": "18",
+              "p": "Según Ariel Sribman Mittelman, algunos de los elementos constitutivos del Estado liberal en sus inicios son:",
+              "o": [
+                "El gobierno representativo.",
+                "La división de poderes.",
+                "Las Fuerzas Armadas.",
+                "El liberalismo económico.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 7,
+              "pts": 1,
+              "k": "icse-p1-estado-liberal"
+            }
+          ],
+          "fuentesAdicionales": [
+            "Final_D.pdf"
+          ],
+          "aviso": "Examen final del 17/07/2026. Claves de las grillas originales, salvo la corrección indicada en la consigna 15 del Tema 4. Explicaciones de estudio elaboradas o reutilizadas de otros cuestionarios. Cada tema suma 10 puntos; las opciones combinadas se responden con una sola alternativa. Final_D.pdf es una copia idéntica de Final_A.pdf y se incorporó una sola vez."
+        },
+        {
+          "id": "t4",
+          "n": "Tema 4",
+          "fuente": "Final_B.pdf",
+          "paginas": [
+            1,
+            5
+          ],
+          "qs": [
+            {
+              "e": "1",
+              "p": "Nicolás Simone afirma que la democracia representativa se alcanza cuando los ciudadanos eligen a un pequeño grupo de personas para que tomen decisiones en su nombre.",
+              "o": [
+                "Es verdadero, porque la democracia representativa se alcanza cuando los ciudadanos eligen a otros para que diseñen un gobierno que exprese la voluntad de la mayoría.",
+                "Es falso, porque la democracia representativa busca oponerse al poder de pequeños grupos sobre el pueblo.",
+                "Es verdadero, porque la democracia representativa se alcanza cuando un grupo de personas a partir de la democracia directa diseñan un gobierno que exprese la voluntad de la mayoría.",
+                "Es falso, porque la democracia representativa se alcanza cuando los ciudadanos toman en su poder las grandes decisiones del Estado."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-dem-representativa"
+            },
+            {
+              "e": "2",
+              "p": "Según Luis A. Romero, con la represión en la última dictadura surgieron en el propio Ejército verdaderos señores de la guerra, que casi no reconocían ninguna autoridad sobre sí.",
+              "o": [
+                "Es falso, porque las tendencias centrífugas y la anarquía que se derivaban de la división del poder entre las tres fuerzas, finalizaron al crearse una instancia superior a todas ellas que resolvía los conflictos: el consejo superior de las Fuerzas Armadas.",
+                "Es falso, porque aun con diferencias, la verticalidad típica de la estructura militar se mantuvo incluso en el final de la dictadura.",
+                "Es verdadero, porque las tendencias centrífugas y la anarquía que se derivaban de la estricta división del poder entre las tres fuerzas, impidieron la existencia de una instancia superior a ellas que dirimiera los conflictos.",
+                "Es verdadero, porque en torno a la Marina, en especial con el Brigadier Agosti a la cabeza, se constituyó la facción interna más fuerte, pero que distaba de ser hegemónica."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-senores-guerra"
+            },
+            {
+              "e": "3",
+              "p": "Según Patricio Gómez Talavera, existe una distinción temporal importante entre Estado y gobierno",
+              "o": [
+                "Es verdadero, porque el Estado es una estructura de existencia permanente, aunque puede cambiar en sus formas.",
+                "Es verdadero, porque el gobierno es una estructura de existencia permanente, aunque puede cambiar en sus formas.",
+                "Es falso, porque los miembros del Estado tienen un mandato temporalmente determinado, tras el cual deberán dejar sus puestos a nuevos encargados de administrar la estructura burocrática del gobierno.",
+                "Es falso, porque los miembros del gobierno no tienen un mandato temporalmente determinado, a diferencia de los encargados de administrar la estructura burocrática del Estado que asumen con un mandato fijo de una cierta cantidad de años."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-estado-gobierno"
+            },
+            {
+              "e": "4",
+              "p": "Según Nadia Yannuzzi, persona y ciudadano son conceptos equivalentes que pueden usarse indistintamente en el análisis político y social.",
+              "o": [
+                "Es falso, porque la ciudadanía es un privilegio que solo otorgan los Estados democráticos, quedando excluidas las personas que viven bajo regímenes autoritarios.",
+                "Es verdadero, porque la ciudadanía es el derecho a tener derechos y, por lo tanto, toda persona que posee derechos humanos es automáticamente ciudadana de algún Estado.",
+                "Es verdadero, porque toda persona tiene derechos humanos por el simple hecho de existir y el Estado los reconoce automáticamente al nacer.",
+                "Es falso, porque ser ciudadano implica una suma de derechos que cada Estado otorga y garantiza, mientras que los derechos humanos corresponden a toda persona por el simple hecho de existir."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-persona-ciudadano"
+            },
+            {
+              "e": "5",
+              "p": "Según Romero, la primera cuestión oscura que abría el llamado “Proceso de Reorganización Nacional”, comenzado en marzo de 1976, era dónde residía realmente el poder.",
+              "o": [
+                "Es verdadero, porque el “Proceso de Reorganización Nacional” supuso la existencia de un Estado terrorista, visible y público, encargado tanto de la represión como de las políticas sociales, culturales y hasta económicas.",
+                "Es verdadero, porque la autoridad del presidente –al principio el primero entre sus pares, y luego ni siquiera eso- resultó controlada y limitada por los jefes de las tres armas.",
+                "Es falso, porque el poder residía en la Junta de comandantes que centralizaba las funciones de ejecutivas, legislativas y judiciales a lo largo de todo el país.",
+                "Es falso, porque la tradición política del país era fuertemente presidencialista, y además la unidad de mando fue siempre uno de los principios de las Fuerzas Armadas, por eso la autoridad del presidente nunca fue discutida ni revisada por sus pares militares."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-proceso-poder"
+            },
+            {
+              "e": "6",
+              "p": "Según Pedrosa, Deich y Yannuzzi, el uso académico y el uso cotidiano del lenguaje persiguen los mismos objetivos comunicativos.",
+              "o": [
+                "Es falso, porque el lenguaje cotidiano es siempre más preciso que el académico, ya que surge de la experiencia directa y no de abstracciones teóricas.",
+                "Es verdadero, porque en ambos contextos las palabras funcionan como herramientas de análisis que buscan precisar conceptos y debatir ideas con rigor.",
+                "Es verdadero, porque la democratización de la palabra permitió que el lenguaje académico se popularizara y llegara a la vida cotidiana.",
+                "Es falso, porque en contextos informales las palabras funcionan más como disparadores afectivos o marcas identitarias que buscan reafirmar una postura, no discutirla."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-2026-final-4fa0c422cbbd3b76"
+            },
+            {
+              "e": "7",
+              "p": "Max Povse afirma que es muy importante entender qué es lo mismo un cambio de gobierno que un cambio de régimen político.",
+              "o": [
+                "Es verdadero, porque cuando cambia el presidente necesariamente cambia el régimen.",
+                "Es falso, porque un régimen puede mantenerse, aunque cambie el gobierno.",
+                "Es verdadero, porque no puede haber un mismo gobierno que transite regímenes políticos diferentes.",
+                "Es falso, porque para que haya un cambio de régimen no debe cambiar el gobierno."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-povse-regimen"
+            },
+            {
+              "e": "8",
+              "p": "Según Romero, a mediados de 1982, los militares debían enfrentarse con la evidencia de su fracaso como administradores de un país desquiciado y como conductores de una guerra absurda. Esto fue así porque:",
+              "o": [
+                "Debían contemplar a sus antiguos aliados, como los otrora disciplinados jueces, llevando a juicio a oficiales acusados de corrupción.",
+                "Los Montoneros habían sobrevivido sin mayores daños en su estructura política, financiera e, incluso, armada.",
+                "Debían contemplar a sus antiguos aliados –los empresarios, la Iglesia, Estados Unidos–, ganados por la nueva fe democrática.",
+                "La Junta militar se dio cuenta que el triunfo del peronismo era inevitable, como efectivamente ocurrió en 1983.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-p1-militares-1982"
+            },
+            {
+              "e": "9",
+              "p": "Según Armando Chaguaceda y Eloy Viera, el Grupo de Administración Empresarial S.A. (GAESA) ilustra cómo la cúpula militar cubana fusionó el poder económico con el político. Esto es así porque:",
+              "o": [
+                "Actúa de manera autónoma con su propio presupuesto e instituciones financieras separadas del Banco Central, gestionando enormes fondos sin depender del sistema de planificación estatal.",
+                "Fue creado como herramienta para atraer inversión extranjera, operando bajo las mismas reglas del mercado internacional que cualquier conglomerado empresarial privado.",
+                "Fue creado por Fidel Castro para distribuir los beneficios económicos del turismo entre la población cubana de manera equitativa.",
+                "Sus principales dirigentes pasaron de conducir empresas de GAESA a cargos clave en el gobierno y el Partido Comunista de Cuba.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-9bc654cd86b6fa7e"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, con la vuelta de la democracia a partir de 1983, radicales y peronistas cosecharon amplios apoyos y dejaron poco espacio para otros partidos. A la derecha, como siempre, fue difícil unificar las fuerzas. Esto se vio en que:",
+              "o": [
+                "A la derecha, como siempre, fue difícil unificar las fuerzas. Entre ellas, se destacó la Unión del Centro Democrático predicó el liberalismo económico ortodoxo, pero sus mejores frutos vendrían años después.",
+                "A la derecha, como siempre, fue difícil unificar las fuerzas. Entre ellas se destacó el PRO, liderado por Mauricio Macri predicó el liberalismo económico moderado, pero sus mejores frutos vendrían años después.",
+                "A la izquierda, el Partido Intransigente logró reunir un amplio y heterogéneo espectro de simpatizantes.",
+                "A la izquierda, el kirchnerismo logró reunir un amplio y heterogéneo espectro de simpatizantes.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-final-85334404126d75dd"
+            },
+            {
+              "e": "11",
+              "p": "Según Romero, el gobierno de la Alianza recibió una economía que condicionó severamente su margen de acción. Esto fue así porque:",
+              "o": [
+                "El FMI retiró su apoyo a la Argentina desde el día que se inició la gestión de De la Rúa, lo que precipitó la fuga de capitales y aceleró el colapso de la convertibilidad antes de 2001.",
+                "Domingo Cavallo fue designado vicepresidente para garantizar la continuidad de la convertibilidad y la confianza de los inversores.",
+                "La convertibilidad sancionada en la presidencia de Menem limitaba la acción estatal en materia monetaria y el peso sobrevaluado dificultaba competir en los mercados mundiales, mientras el déficit fiscal era mayor al previsto.",
+                "El peronismo, con mayoría en diputados bloqueó sistemáticamente todas las iniciativas económicas del gobierno de la Alianza desde el mismo inicio de la presidencia de De la Rúa.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-2026-p2-dc5b0471f705b9e3"
+            },
+            {
+              "e": "12",
+              "p": "Romero afirma que, al asumir la presidencia en 1983, el poder que administraba el presidente Alfonsín era a la vez grande y escaso. Esto se observaba en varias características del recién electo gobierno radical, entre ellas:",
+              "o": [
+                "Que el radicalismo no tenía mayoría en la Cámara de Diputados, pero había triunfado en el interior tradicional.",
+                "Que, si bien el liderazgo de Alfonsín en su partido era fuerte, la Unión Cívica Radical constituía una fuerza no demasiado homogénea que incluso, en ocasiones, llegó a obstaculizar la tarea del presidente en la transición.",
+                "Que por el impactante número de votos que había alcanzado en las elecciones de 1983, los seguidores del presidente Alfonsín controlaban la mayoría del Senado por primera vez desde 1928.",
+                "Que el radicalismo había alcanzado en 1983 una proporción de votos solo comparable con los grandes triunfos plebiscitarios de Yrigoyen o Perón",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C, la D y la A."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-alfonsin-poder-grande-escaso"
+            },
+            {
+              "e": "13",
+              "p": "Romero explica que el programa económico de 1976 buscó reducir las funciones del Estado en sintonía con las tendencias del mundo capitalista de la época, pero ese intento de reforma estructural encontró fuertes resistencias que le impidieron llegar a fondo. Entre ellas:",
+              "o": [
+                "Entre los militares, había muchos que adherían a las ideas nacionalistas y dirigistas, y otros que aspiraban, más simplemente, a sumarse a los beneficiarios del reparto estatal.",
+                "Muchos empresarios que lo acompañaban combinaban un genérico liberalismo declarativo con la convicción de que el Estado debía proteger y subvencionar a cada uno de ellos.",
+                "Las encuestas preelectorales y la cercanía del acto electoral potenciaron el rechazo popular a las medidas económicas del gobierno y generaron una fuerte reacción de los militares para que el ministro de Economía suspendiera el plan de ajuste.",
+                "El peronismo y el radicalismo convocaron una serie de actos públicos para rechazar el paquete económico que tuvieron gran impacto.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-resistencias-achicar-estado"
+            },
+            {
+              "e": "14",
+              "p": "Según Santiago Leiras, la etapa constituyente de la Revolución Bolivariana (1999-2001) implicó una transformación radical del sistema político venezolano. Esto es así porque:",
+              "o": [
+                "Los partidos Acción Democrática y el Comité de Organización Política Electoral Independiente (COPEI), aunque debilitados, participaron activamente en la Asamblea Constituyente y negociaron las reformas con el chavismo.",
+                "Finalmente, la Corte Suprema terminó negando el carácter supraconstitucional –es decir, por encima de la constitución– de la Asamblea Constituyente.",
+                "Se redujo a un papel casi testimonial a quienes habían sido actores estratégicos como los partidos políticos Acción Democrática y Comité de Organización Política Electoral Independiente (COPEI) durante el ciclo democrático precedente de cuatro décadas.",
+                "La nueva constitución bolivariana fue aprobada en referéndum con el 71,37% de los votos, el mismo día en que quedaron disueltos el Congreso y la Corte Suprema de Justicia.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-2026-p2-23265277e7122817"
+            },
+            {
+              "e": "15",
+              "p": "Según Max Povse, además de los modos informales de influencia, el gobierno chino utiliza también los mecanismos diplomáticos tradicionales para resaltar el acercamiento con los países latinoamericanos. Entre ellos:",
+              "o": [
+                "El Foro China-CELAC, que reúne periódicamente a los ministros de diferentes áreas de todos los países latinoamericanos y caribeños con su contraparte china.",
+                "El Foro de San Pablo que reúne periódicamente a los ministros de diferentes áreas de todos los países latinoamericanos y caribeños con su contraparte china.",
+                "De manera bilateral, los esfuerzos chinos se concentran en lograr el reconocimiento diplomático por parte de aquellos países de la región que siguen reconociendo al gobierno de la República de China en Taiwán.",
+                "De manera bilateral, los esfuerzos chinos se concentran en lograr el desconocimiento diplomático por parte de aquellos países de la región que siguen reconociendo al gobierno de Delcy Rodríguez en Venezuela.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la A.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-final-a009f267d229993b",
+              "claveFuente": "E",
+              "d": "La grilla del PDF marca E (A y B), pero el Foro de San Pablo no es un mecanismo diplomático chino. Se usa G (A y C): Foro China-CELAC y reconocimiento diplomático frente a Taiwán. Corrección de estudio; se conserva la clave original en claveFuente."
+            },
+            {
+              "e": "16",
+              "p": "Según Romero, algunos de los acontecimientos más importantes de la transición en Argentina fueron los ocurridos en la Semana Santa de 1987, cuando un levantamiento militar puso a prueba la estabilidad democrática. Eso fue así porque:",
+              "o": [
+                "Fue una sublevación de sectores militares que exigían el fin de los juicios contra los oficiales involucrados en la represión durante la dictadura militar que había terminado algunos años antes.",
+                "Fue un punto de inflexión en la relación entre el Gobierno y los militares, desembocando luego en la sanción de la Ley de Obediencia Debida.",
+                "Fue un intento de golpe de Estado exitoso que obligó a Raúl Alfonsín a renunciar antes de completar su mandato.",
+                "El levantamiento fue sofocado inmediatamente con una intervención militar ordenada por el presidente Alfonsín, sin necesidad de mayores negociaciones.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-p1-semana-santa"
+            },
+            {
+              "e": "17",
+              "p": "Según Ariel Sribman Mitellman, algunos de los elementos constitutivos del Estado liberal en sus inicios son:",
+              "o": [
+                "El gobierno representativo.",
+                "La división de poderes.",
+                "El liberalismo económico.",
+                "Las Fuerzas Armadas.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A la B y la C.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 6,
+              "pts": 1,
+              "k": "icse-p1-estado-liberal"
+            },
+            {
+              "e": "18",
+              "p": "Según Damián Gulich, las Tres Leyes de la Robótica de Isaac Asimov siguen siendo relevantes para pensar los dilemas éticos de la inteligencia artificial actual. Esto es así porque:",
+              "o": [
+                "La militarización de la inteligencia artificial demuestra que las Tres Leyes ya fueron incorporadas en los sistemas de armas autónomas actuales.",
+                "Gulich sostiene que las Tres Leyes deben ser adoptadas como marco legal internacional para regular el desarrollo de la inteligencia artificial.",
+                "Asimov diseñó específicamente las Tres Leyes para sistemas de inteligencia artificial general (AGI), es decir, máquinas capaces de realizar cualquier tarea intelectual humana de forma autónoma.",
+                "Las Tres Leyes son, en esencia, reglas básicas de seguridad para cualquier herramienta: ser segura para el usuario, cumplir su función salvo que se torne peligrosa y preservarse salvo conflicto con las dos reglas anteriores.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 3,
+              "pts": 1,
+              "k": "icse-2026-p2-d048bc1b49ca3bf7"
+            }
+          ],
+          "aviso": "Examen final del 17/07/2026. Claves de las grillas originales, salvo la corrección indicada en la consigna 15 del Tema 4. Explicaciones de estudio elaboradas o reutilizadas de otros cuestionarios. Cada tema suma 10 puntos; las opciones combinadas se responden con una sola alternativa."
+        },
+        {
+          "id": "t5",
+          "n": "Tema 5",
+          "fuente": "Final_C.pdf",
+          "paginas": [
+            1,
+            5
+          ],
+          "qs": [
+            {
+              "e": "1",
+              "p": "Según Alejandro Lamarque, los elementos centrales de la conceptualización de Lemkin sobre el genocidio se refieren a un rasgo distintivo presente tanto en la Edad Media como en el Antiguo Régimen.",
+              "o": [
+                "Es falso, porque los elementos centrales de la conceptualización de Lemkin sobre el genocidio se refieren a un rasgo distintivo que se presenta solo después de la Segunda Guerra Mundial.",
+                "Es falso, porque el rasgo distintivo se presenta con las Modernidades y es un uso instrumental y planificado de la violencia para eliminar grupos enteros de poblaciones.",
+                "Es verdadero, porque el genocidio como herramienta criminal se remonta a los orígenes de la humanidad.",
+                "Es verdadero, porque el rasgo distintivo que se presenta desde el Antiguo Régimen es el uso instrumental y planificado de la violencia para eliminar grupos enteros de grupos religiosos."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-lemkin-genocidio"
+            },
+            {
+              "e": "2",
+              "p": "Florencia Deich afirma que existe un tipo de golpe de Estado que ocurre cuando un gobierno originalmente democrático se perpetúa en el poder más allá de lo legalmente permitido.",
+              "o": [
+                "Es falso, porque Deich reserva el concepto de golpe de Estado exclusivamente para las acciones lideradas por militares o grupos económicos.",
+                "Es falso, porque nunca un gobierno democrático puede convertirse en golpista.",
+                "Es verdadero, porque en Argentina se han producido numerosos golpes de Estado de este tipo, impulsados por gobernantes civiles que buscaban mantenerse en el poder más tiempo del previsto constitucionalmente.",
+                "Es verdadero, porque se trata de un autogolpe de Estado: un presidente que había sido elegido por la vía democrática se convierte en un dictador."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-autogolpe"
+            },
+            {
+              "e": "3",
+              "p": "Según Nicolás Simone, las elecciones en clave de poliarquía suceden cuando la oferta electoral –es decir, las opciones entre las cuales los ciudadanos pueden elegir– expresa las distintas miradas de una sociedad y no está limitada por el poder del Estado.",
+              "o": [
+                "Es falso, porque el Estado no debe intervenir en las conductas sociales mientras sean legales.",
+                "Es verdadero, porque la transparencia en una elección no solo se garantiza a través del resultado, sino también desde la oferta de candidatos.",
+                "Es falso, porque la transparencia en una elección sólo se garantiza a través de resultados transparentes más que interviniendo en la oferta de candidatos.",
+                "Es verdadero, porque el Estado es el pueblo organizado y su función es conseguir una representación de toda la sociedad a través de las elecciones."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-p1-elecciones-oferta"
+            },
+            {
+              "e": "4",
+              "p": "Según Sofía Pirsch, en los Estados unitarios existe una unificación vertical en la toma de decisiones, es decir, la concentración del poder en una administración central.",
+              "o": [
+                "Es verdadero, porque los sistemas unitarios son las versiones constitucionales de los regímenes no democráticos.",
+                "Es falso, porque el sistema federal no tiene nada que ver con las características del régimen político autoritario.",
+                "Es falso, porque la verticalidad de la toma de decisiones es una cuestión de la poliarquía no del federalismo.",
+                "Es verdadero, porque esa administración central designa delegados regionales o bien ejerce directamente el poder local."
+              ],
+              "c": 3,
+              "pts": 0.5,
+              "k": "icse-p1-estados-unitarios"
+            },
+            {
+              "e": "5",
+              "p": "Mariano Statello retoma una definición de terrorismo que pone el énfasis en el impacto material que provoca su accionar en una sociedad o algún segmento de la misma antes que en cuestiones más psicológicas como ansiedad o miedo.",
+              "o": [
+                "Es verdadero, porque la violencia material sin sentido es el único objetivo de los grupos terroristas.",
+                "Es verdadero, porque lo más temido del terrorismo son los daños físicos concretos ocasionados intencionadamente a personas o cosas.",
+                "Es falso, porque el terrorismo excede con creces sus consecuencias materiales.",
+                "Es falso, porque el terrorismo se basa en la espectacularidad de sus ataques materiales más que en el impacto psíquico."
+              ],
+              "c": 2,
+              "pts": 0.5,
+              "k": "icse-p1-terrorismo-material"
+            },
+            {
+              "e": "6",
+              "p": "Según Verónica Beyreuther, en la Antigüedad, la dictadura era un régimen establecido por normas consensuadas.",
+              "o": [
+                "Es verdadero, porque, a diferencia de las versiones contemporáneas, había acuerdo en respetar un plazo de finalización que estaba previamente determinado.",
+                "Es falso, porque la dictadura es un régimen político que comenzó a denominarse así en el siglo XX con la aparición de los fascismos europeos (Mussolini, Franco y Hitler).",
+                "Es verdadero, porque los griegos de la Antigüedad clásica fueron los inventores de la dictadura en tanto régimen político tal como lo conocemos hoy.",
+                "Es falso, porque nunca una dictadura fue producto de normas consensuadas."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-p1-dictadura-antiguedad"
+            },
+            {
+              "e": "7",
+              "p": "Según Romero, los saqueos del 18 y 19 de diciembre de 2001 en el Gran Buenos Aires (conurbano) fueron un fenómeno espontáneo de sectores populares desesperados por la crisis económica.",
+              "o": [
+                "Es falso, porque fueron organizados íntegramente por las organizaciones piqueteras, que coordinaron los saqueos como parte de su plan de acción nacional de aquel mes de diciembre.",
+                "Es falso, porque, aunque hubo una parte de espontaneidad, también los estimularon dirigentes peronistas locales con intención de darle el último empujón al gobierno radical.",
+                "Es verdadero, porque las fuerzas policiales reprimieron duramente los saqueos en todos los locales comerciales, lo que demuestra que no hubo ningún tipo de organización política detrás.",
+                "Es verdadero, porque el llamado “corralito” había dejado sin la posibilidad de obtener dinero en efectivo a las familias más pobres, que no tenían otra alternativa que tomar los alimentos de los supermercados para sobrevivir."
+              ],
+              "c": 1,
+              "pts": 0.5,
+              "k": "icse-2026-p2-42ef6a7136e5c695"
+            },
+            {
+              "e": "8",
+              "p": "Según Armando Chaguaceda y Eloy Viera, la Asamblea Nacional del Poder Popular cubana no funciona como un parlamento real. Esto es así porque:",
+              "o": [
+                "Sus diputados son designados directamente por el Buró Político del Partido Comunista, sin ningún mecanismo electoral que intervenga en su selección.",
+                "Está integrada exclusivamente por militares y burócratas del Partido Comunista, sin representación alguna de delegados electos por la ciudadanía.",
+                "En más de cuarenta años, ningún diputado utilizó su iniciativa legislativa para presentar un proyecto de ley y solicitar su debate.",
+                "Se reúne sólo dos veces al año, carece de profesionalización y sus integrantes no muestran iniciativa más allá de formalizar decisiones tomadas de antemano por el Partido Comunista.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la C."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-f49764bb1d87bfee"
+            },
+            {
+              "e": "9",
+              "p": "Según Antonio Federico, la declinación económica argentina no se explica por carencias en recursos o capital humano. Esto es así porque:",
+              "o": [
+                "La inflación y el déficit recurrentes demuestran que el problema es cultural: los argentinos no valoran el progreso material.",
+                "Siguiendo al especialista Roberto Cortés Conde, Argentina tiene recursos naturales positivos y población educada, por lo que las causas deben buscarse en el sistema institucional.",
+                "Argentina no aprendió a acordar y sostener marcos institucionales duraderos que provean bases para el crecimiento de largo plazo.",
+                "La comparación con otros países demuestra que Argentina nunca tuvo ventajas competitivas en recursos naturales ni en capital humano respecto a sus vecinos regionales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 5,
+              "pts": 0.5,
+              "k": "icse-2026-p2-65b61901afd243cc"
+            },
+            {
+              "e": "10",
+              "p": "Según Romero, la transformación económica argentina durante los años noventa tuvo tanto perdedores como ganadores. Esto fue así porque:",
+              "o": [
+                "El sector industrial orientado al mercado interno sufrió cierres masivos y desempleo, mientras que los grandes grupos nacionales aprovecharon las privatizaciones y el Mercosur para consolidarse.",
+                "Las automotrices cerraron sus plantas locales y trasladaron su producción íntegramente a Brasil bajo el amparo del Mercosur.",
+                "El mundo agrario se transformó a través de nuevas tecnologías como semillas transgénicas, glifosato y pooles de siembra, expandiendo la frontera productiva más allá de la pampa húmeda.",
+                "Las pequeñas y medianas empresas fueron las únicas perjudicadas, mientras que las grandes empresas estatales se beneficiaron de los subsidios a las exportaciones.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la B."
+              ],
+              "c": 4,
+              "pts": 0.5,
+              "k": "icse-2026-p2-2c5dff93138b5679"
+            },
+            {
+              "e": "11",
+              "p": "Según Romero, un sector de la Iglesia Católica, que de a poco empezaba a ser dominante internamente, comenzó a enfrentarse de manera creciente con el gobierno de Alfonsín y a asumir el papel de censor social con un discurso de combate. Esto fue así porque:",
+              "o": [
+                "Las máximas autoridades del Vaticano habían decidido dar una batalla por la integridad de la comunidad católica global que tenía su centro en lo cultural, punto en el cual, el gobierno de Alfonsín era particularmente activo.",
+                "Las máximas autoridades del Vaticano habían decidido dar una batalla por la integridad de la comunidad católica global que tenía su centro en las reformas religiosas progresistas propuestas por el Papa, punto en el cual el gobierno de Alfonsín era particularmente activo.",
+                "Afirmaban que la democracia resultaba ser el compendio de los males del siglo: la droga, el terrorismo, la pornografía o el aborto.",
+                "Afirmaban que el gobierno de Alfonsín vulneraba la democracia al no renovar su compromiso con los desposeídos.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A, la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-iglesia-alfonsin"
+            },
+            {
+              "e": "12",
+              "p": "Según Romero, la clave del programa económico presentado por Perón en mayo de 1973 residía en el pacto social con el que se procuraba solucionar el problema clásico de la economía: la capacidad de los distintos sectores, empeñados en la pelea por los recursos, para frenarse mutuamente. Para eso intentó:",
+              "o": [
+                "Apostar a la concertación, un mecanismo muy común en la tradición europea pero además muy fácil de incluir en su propia concepción de la comunidad organizada.",
+                "Obtener más poder personal y apelar a la autoridad como un mecanismo muy común en la tradición argentina y más en la peronista.",
+                "Aumentar la capacidad del Estado para estimular la puja distributiva en que estaban involucrados los distintos sectores sociales.",
+                "Disciplinar a los actores socio económicos combinando persuasión y autoridad.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la A y la D.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-p1-pacto-social-73"
+            },
+            {
+              "e": "13",
+              "p": "En 1985, el entonces presidente Raúl Alfonsín propuso un plan económico llamado “Austral”. Según Romero sus medidas apuntaban a:",
+              "o": [
+                "Crear las condiciones económicas para poder proyectar transformaciones más profundas.",
+                "Superar la coyuntura adversa y estabilizar la economía en el corto plazo a través de un programa de reformas por shock.",
+                "Aumentar la emisión monetaria y los gastos del Estado para reactivar el consumo y con esto a la economía.",
+                "Detener la inflación, el objetivo central, reduciendo las expectativas que la impulsaban.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A, la B y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-plan-austral"
+            },
+            {
+              "e": "14",
+              "p": "Según Laura Petrino, la historia argentina encuentra entre sus presidentes algunas figuras paradigmáticas del populismo. Estas son:",
+              "o": [
+                "El radical Raúl Alfonsín.",
+                "El peronista Héctor Cámpora.",
+                "El radical Hipólito Yrigoyen.",
+                "Juan Domingo Perón.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 7,
+              "pts": 0.5,
+              "k": "icse-p1-populismo-argentina"
+            },
+            {
+              "e": "15",
+              "p": "Según Romero, Menem realizó un giro ideológico radical respecto a la tradición peronista para llevar adelante sus reformas. Esto fue así porque:",
+              "o": [
+                "Renunció al estatismo, proclamó las privatizaciones y se burló de quienes \"se habían quedado en el 45\", aprovechando que la hiperinflación había allanado las resistencias.",
+                "La hiperinflación lo obligó a aplicar las reformas de manera gradual, calibrando tiempos y resguardando las transiciones.",
+                "El establishment económico lo apoyó desde el inicio gracias a sus antecedentes y campaña electoral de estilo peronista tradicional.",
+                "Mantuvo el discurso estatista del peronismo clásico combinándolo con medidas de apertura para no alienar a las bases del movimiento.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la C y la D.",
+                "Las opciones correctas son la A y la D."
+              ],
+              "c": 0,
+              "pts": 0.5,
+              "k": "icse-2026-p2-123b771fe2ab5598"
+            },
+            {
+              "e": "16",
+              "p": "Según Santiago Leiras, las elecciones presidenciales venezolanas de 2024 estuvieron marcadas por condiciones que cuestionaron su legitimidad. Esto fue así porque:",
+              "o": [
+                "El Consejo Electoral proclamó a Nicolás Maduro ganador sin documentación que avalara el resultado.",
+                "María Corina Machado perdió las elecciones primarias, pero reclamó ser incluida como candidata.",
+                "La oposición recopiló actas que daban el triunfo a su candidato Edmundo González Urrutia con el 67%.",
+                "El voto en el extranjero fue masivo, pero poco organizado y la mayoría fue impugnado por el Consejo Electoral.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la D.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 6,
+              "pts": 0.5,
+              "k": "icse-2026-p2-0210b9a8cd945a31"
+            },
+            {
+              "e": "17",
+              "p": "Según Damián Gulich, las Tres Leyes de la Robótica de Isaac Asimov siguen siendo relevantes para pensar los dilemas éticos de la inteligencia artificial actual. Esto es así porque:",
+              "o": [
+                "Gulich sostiene que las Tres Leyes deben ser adoptadas como marco legal internacional para regular el desarrollo de la inteligencia artificial.",
+                "Las Tres Leyes son, en esencia, reglas básicas de seguridad para cualquier herramienta: ser segura para el usuario, cumplir su función salvo que se torne peligrosa y preservarse salvo conflicto con las dos reglas anteriores.",
+                "Asimov diseñó específicamente las Tres Leyes para sistemas de inteligencia artificial general (AGI), es decir, máquinas capaces de realizar cualquier tarea intelectual humana de forma autónoma.",
+                "La militarización de la inteligencia artificial demuestra que las Tres Leyes ya fueron incorporadas en los sistemas de armas autónomas actuales.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 1,
+              "pts": 1,
+              "k": "icse-2026-p2-d048bc1b49ca3bf7"
+            },
+            {
+              "e": "18",
+              "p": "Según Diego Pimentel, la aparición de los tokens no fungibles (NFT) ilustra la tensión que Byung-chul Han identifica entre el valor artístico y la lógica especulativa del mercado digital.",
+              "o": [
+                "Los NFT democratizaron el acceso al arte al permitir que cualquier persona certifique y comercialice obras digitales mediante la tecnología blockchain.",
+                "La tecnología blockchain resolvió el problema de la fugacidad que Han critica al garantizar la permanencia y la autenticidad de las obras digitales.",
+                "La obra de Beeple alcanzó 69 millones de dólares y simboliza cómo los NFT inscriben al arte en la economía de lo fugaz, donde el valor depende más de la transacción que de la contemplación.",
+                "Han celebra los NFT como una forma de resistencia poética frente a la desmaterialización del arte en la era digital.",
+                "Las opciones correctas son la A y la B.",
+                "Las opciones correctas son la B y la C.",
+                "Las opciones correctas son la A y la C.",
+                "Las opciones correctas son la C y la D."
+              ],
+              "c": 2,
+              "pts": 1,
+              "k": "icse-2026-p2-665b26a85ceb6836"
+            }
+          ],
+          "aviso": "Examen final del 17/07/2026. Claves de las grillas originales, salvo la corrección indicada en la consigna 15 del Tema 4. Explicaciones de estudio elaboradas o reutilizadas de otros cuestionarios. Cada tema suma 10 puntos; las opciones combinadas se responden con una sola alternativa."
+        }
+      ]
     }
   ]
 });

@@ -66,11 +66,25 @@ registrarMateria({
 - `contextoTitulo` permite nombrar el bloque `ctx`, por ejemplo «Caso de referencia · ejercicio 1». Los ejercicios que remiten a otro deben traer el caso y las opciones que necesitan para poder responder sin volver atrás.
 - Los textos pueden escribirse entre comillas invertidas `` ` `` o como cadenas JSON con sus comillas escapadas.
 
-## Selección de parcial y primeros parciales
+## Selección de instancia y primeros parciales
 
-En IPC e ICSE se elige primero **1er parcial** o **2do parcial**. Cada examen declara `parcial: 1` o `parcial: 2`; si no se indica, se considera segundo parcial, para compatibilidad con el contenido anterior. Las materias con un solo tipo disponible, como Filosofía, abren directamente sus exámenes.
+Cada materia ofrece sus parciales disponibles y un apartado **Instancias Finales**.
+Los parciales declaran `parcial: 1` o `parcial: 2`; si no se indica, se considera
+segundo parcial, para compatibilidad con el contenido anterior. Un examen final
+declara `tipo: "final"` y no debe declarar `parcial`. El verificador rechaza las
+clasificaciones contradictorias. El apartado de finales permanece visible aun
+sin material y muestra «Todavía no hay exámenes finales disponibles».
 
-Los nuevos listados usan las rutas `#/ipc/parcial/1`, `#/ipc/parcial/2` y las equivalentes de ICSE. Los enlaces a ejercicios y las claves de almacenamiento de los segundos parciales se conservan.
+Los listados usan las rutas `#/ipc/parcial/1`, `#/ipc/parcial/2`, `#/ipc/finales`
+y sus equivalentes para las otras materias. Filosofía ahora muestra un selector
+entre su segundo parcial e Instancias Finales. Los enlaces a ejercicios y las
+claves de almacenamiento se conservan: una reclasificación solo cambia el
+listado y el destino de los botones de regreso, nunca los ids ni las respuestas.
+
+Se revisaron las cabeceras de las fuentes cargadas de IPC (PDF, DOCX y HTML) y
+las imágenes de Filosofía. No se identificó ningún examen final para trasladar:
+las mesas especial y combinada de Filosofía dicen explícitamente «2º parcial».
+Los materiales sin cabecera concluyente conservan su clasificación previa.
 
 Se agregaron **55 temas y 898 preguntas**, importados de los HTML de `materias_uba_xxi/<materia>/1º parciales/`:
 
@@ -157,6 +171,49 @@ En el 2º parcial del 29/05/2026 (`IPC_2026_A.pdf` a `IPC_2026_H.pdf`, Temas 1 a
 Las explicaciones que mencionan números de opciones se mantienen vinculadas a su orden original: si se reordenan esas opciones, también se deben revisar esas referencias en la explicación.
 
 ## ICSE — Introducción al Conocimiento de la Sociedad y el Estado
+
+### Instancias Finales
+
+El **examen final del 17/07/2026, Cátedra A · Fernando Pedrosa**, se encuentra en
+`#/icse/finales`, con **3 temas (3, 4 y 5) y 54 preguntas**. Se conserva la
+numeración original de los temas. Cada uno tiene 16 preguntas de 0,50 puntos y
+2 de 1 punto: total de 10, sin puntaje parcial. Sus ids de examen y tema son
+independientes de la clasificación para que el progreso tenga claves estables.
+
+Fuentes: `Final_A.pdf`, `Final_B.pdf` y `Final_C.pdf` de
+`../materias_uba_xxi/ICSE/Finales/`. `Final_D.pdf` es idéntico byte por byte a
+`Final_A.pdf` y se registra como fuente adicional del Tema 3, sin duplicarlo.
+Se cotejaron textos y grillas con PyMuPDF y Poppler. Se reutilizaron explicaciones
+compatibles de los primeros y segundos parciales y se redactaron 3 nuevas.
+
+En la consigna 15 del Tema 4 se corrige **E → G (A y C)**: la combinación válida
+incluye el Foro China-CELAC y el reconocimiento diplomático frente a Taiwán.
+El Foro de San Pablo no es un mecanismo diplomático chino. `claveFuente: "E"`
+conserva la respuesta de la grilla y `d` muestra la corrección y su motivo al
+responder. Las explicaciones son material de estudio, no correcciones oficiales.
+
+### Segundo parcial de 2026
+
+El **2º parcial del 05/06/2026, Cátedra A · Fernando Pedrosa**, incluye los
+**Temas 1 a 8: 144 preguntas y 79 explicaciones**. Cada tema tiene 18 consignas:
+las primeras 16 valen 0,50 y las dos últimas 1 punto; total de 10, sin puntaje
+parcial. Aparece primero en el listado de segundos parciales de ICSE.
+
+Fuentes: `ICSE_2026_A.pdf` a `ICSE_2026_H.pdf` en
+`../materias_uba_xxi/ICSE/2º parciales/`. Las claves se transcribieron de las
+grillas de portada. Los ocho archivos son temas distintos. Se cotejaron los
+textos y las 144 claves mediante dos extractores independientes (PyMuPDF y
+Poppler). Las explicaciones fueron redactadas para la app; los PDF no incluyen
+explicaciones desarrolladas y no se presentan como correcciones oficiales.
+
+Se conserva el orden original de opciones, incluidas las combinadas, que se
+responden con un solo botón. Las explicaciones no dependen de las letras.
+Se deja un aviso en la consigna 16 del Tema 2: su rótulo indica 1 punto, pero
+se sigue el criterio de la portada (0,50) para que el tema sume 10. El Tema 7
+aclara que el encabezado «1º parcial» de la página 5 es una errata, ya que
+portada y talón lo identifican como segundo parcial.
+
+### Segundo parcial de 2025
 
 Se incorporó el **2º parcial del 31/10/2025, Cátedra A · Fernando Pedrosa**, con **10 temas únicos, 176 preguntas y 68 explicaciones**:
 

@@ -302,6 +302,7 @@ footer p{margin:0 0 6px}
      #/                         lista de materias
      #/ipc                      selección de parcial (si hay más de uno)
      #/ipc/parcial/1            exámenes y temas del primer parcial
+     #/icse/finales             instancias finales, separadas de los parciales
      #/filosofia/<examen>/<tema>/<n>   ejercicio n (o "fin" = resultado)
 
    Todo el texto que viene de los parciales se inserta con
@@ -392,10 +393,13 @@ const etiquetaOpcion = (q, b, i) => b.formato === "texto" ? b.o[i]
   : (b.formato || q.formato) === "numeros" ? String(i + 1) : L[i];
 const etiquetaCorrectas = (q, b) => b.correctas ? b.correctas.map(i => etiquetaOpcion(q, b, i)).join(" y ")
   : (b.aceptadas || [b.c]).map(i => etiquetaOpcion(q, b, i)).join(" o ");
-const parcialDe = ex => ex.parcial || 2;
-const parcialesDe = m => [...new Set(m.examenes.map(parcialDe))].sort();
+const instanciaDe = ex => ex.tipo === "final" ? "final" : ex.parcial || 2;
+const parcialesDe = m => [...new Set(m.examenes.map(instanciaDe).filter(n => n !== "final"))].sort();
+const instanciasDe = m => parcialesDe(m).concat("final");
 const rotuloParcial = n => n === 1 ? "1er parcial" : "2do parcial";
-const rutaListado = (m, ex) => "#/" + m.id + (parcialesDe(m).length > 1 ? "/parcial/" + parcialDe(ex) : "");
+const rotuloInstancia = n => n === "final" ? "Instancias Finales" : rotuloParcial(n);
+const rutaInstancia = (m, n) => "#/" + m.id + (n === "final" ? "/finales" : "/parcial/" + n);
+const rutaListado = (m, ex) => rutaInstancia(m, instanciaDe(ex));
 
 /* ---------- utilidades de DOM ---------- */
 function el(tag, props, ...hijos){
@@ -515,6 +519,7 @@ function pintar(){
   if (!partes.length) { pintarInicio(); if (mover) window.scrollTo(0, 0); return; }
   cargarMateria(partes[0]).then(m => {
     if (partes[1] === "resumenes") pintarResumenes(m, partes[2] === undefined ? undefined : Number(partes[2]));
+    else if (partes[1] === "finales" && partes.length === 2) pintarMateria(m, "final");
     else if (partes[1] === "parcial" && partes.length === 3) pintarMateria(m, Number(partes[2]));
     else if (partes.length < 3) pintarMateria(m);
     else {
@@ -625,31 +630,31 @@ window.addEventListener("storage", ev => {
 });
 
 function pintarMateria(m, numero){
-  const parciales = parcialesDe(m);
-  if (numero !== undefined && !parciales.includes(numero)) return ir("#/" + m.id, true);
+  const instancias = instanciasDe(m);
+  if (numero !== undefined && !instancias.includes(numero)) return ir("#/" + m.id, true);
   barra(numero === undefined ? "Materias" : (m.sigla || m.nombre), numero === undefined ? "#/" : "#/" + m.id);
-  document.title = (numero === undefined ? m.nombre : rotuloParcial(numero) + " · " + (m.sigla || m.nombre)) + " · Parciales UBA XXI";
+  document.title = (numero === undefined ? m.nombre : rotuloInstancia(numero) + " · " + (m.sigla || m.nombre)) + " · Parciales UBA XXI";
   $vista.innerHTML = "";
   const info = CATALOGO.find(c => c.id === m.id) || {};
   $vista.appendChild(acento(el("div", {class: "cab-materia"},
     el("span", {class: "icobox"}, ico(info.icono)),
     el("div", {}, el("h1", {text: m.nombre}), m.detalle ? el("p", {class: "sub", text: m.detalle}) : null)), info.color));
   const lista = el("div", {class: "lista"});
-  if (numero === undefined && parciales.length > 1) {
-    $vista.appendChild(el("h2", {class: "seccion", text: "Elegí el parcial"}));
-    parciales.forEach(n => {
-      const examenes = m.examenes.filter(ex => parcialDe(ex) === n);
+  if (numero === undefined) {
+    $vista.appendChild(el("h2", {class: "seccion", text: "Elegí la instancia"}));
+    instancias.forEach(n => {
+      const examenes = m.examenes.filter(ex => instanciaDe(ex) === n);
       const temas = examenes.flatMap(ex => ex.temas);
       const hechas = temas.reduce((total, t) => total + resumen(t).hechas, 0);
       const total = temas.reduce((total, t) => total + t.qs.length, 0);
       const progreso = el("i");
       progreso.style.width = (total ? hechas * 100 / total : 0) + "%";
-      lista.appendChild(acento(el("button", {class: "item materia", onclick: () => ir("#/" + m.id + "/parcial/" + n)},
+      lista.appendChild(acento(el("button", {class: "item materia", onclick: () => ir(rutaInstancia(m, n))},
         el("span", {class: "icobox"}, ico("examen")),
         el("span", {class: "cuerpo"},
-          el("span", {class: "t", text: rotuloParcial(n)}),
-          el("span", {class: "d", text: temas.length + " temas · " + total + " preguntas · " + hechas + " respondidas"}),
-          el("span", {class: "prog", "aria-hidden": "true"}, progreso)),
+          el("span", {class: "t", text: rotuloInstancia(n)}),
+          el("span", {class: "d", text: temas.length ? temas.length + " temas · " + total + " preguntas · " + hechas + " respondidas" : "Todavía no hay exámenes finales disponibles"}),
+          temas.length ? el("span", {class: "prog", "aria-hidden": "true"}, progreso) : null),
         ico("adelante", "chev")), info.color));
     });
     $vista.appendChild(lista);
@@ -657,8 +662,10 @@ function pintarMateria(m, numero){
     pieGeneral();
     return;
   }
-  $vista.appendChild(el("h2", {class: "seccion", text: rotuloParcial(numero === undefined ? parciales[0] : numero)}));
-  m.examenes.filter(ex => numero === undefined || parcialDe(ex) === numero).forEach(ex => {
+  $vista.appendChild(el("h2", {class: "seccion", text: rotuloInstancia(numero)}));
+  const examenes = m.examenes.filter(ex => instanciaDe(ex) === numero);
+  if (!examenes.length) $vista.appendChild(el("p", {class: "sub", text: "Todavía no hay exámenes finales disponibles"}));
+  examenes.forEach(ex => {
     const temas = el("div", {class: "temas"});
     ex.temas.forEach(t => {
       const s = resumen(t);
@@ -674,7 +681,7 @@ function pintarMateria(m, numero){
       temas));
   });
   $vista.appendChild(lista);
-  accesoResumenes(m, numero);
+  if (numero !== "final") accesoResumenes(m, numero);
   pieGeneral();
 }
 function accesoResumenes(m, numero){
@@ -732,7 +739,7 @@ function pintarTema(m, t, pos){
   const base = "#/" + [m.id, ex.id, t.id].join("/");
   const a = i => ir(base + "/" + (i >= t.qs.length ? "fin" : i + 1), true);
 
-  barra((m.sigla || m.nombre) + (parcialesDe(m).length > 1 ? " · " + rotuloParcial(parcialDe(ex)) : ""), rutaListado(m, ex));
+  barra((m.sigla || m.nombre) + " · " + rotuloInstancia(instanciaDe(ex)), rutaListado(m, ex));
   document.title = t.n + " · " + ex.nombre;
   $vista.innerHTML = "";
   $vista.appendChild(el("h1", {text: ex.nombre + " · " + t.n}));
@@ -869,7 +876,7 @@ function pintarResultado(m, t, a){
   const nav = el("div", {class: "nav"},
     el("button", {onclick: () => a(0)}, ico("lupa"), "Revisar"),
     sig ? el("button", {class: "main", onclick: () => ir("#/" + [m.id, ex.id, sig.id, primeraPendiente(sig)].join("/"))}, "Ir a " + sig.n, ico("adelante"))
-        : el("button", {class: "main", onclick: () => ir(rutaListado(m, ex))}, "Volver a " + (parcialesDe(m).length > 1 ? rotuloParcial(parcialDe(ex)) : (m.sigla || m.nombre)), ico("adelante")));
+        : el("button", {class: "main", onclick: () => ir(rutaListado(m, ex))}, "Volver a " + rotuloInstancia(instanciaDe(ex)), ico("adelante")));
   card.appendChild(nav);
   $vista.appendChild(card);
 }

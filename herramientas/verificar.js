@@ -70,6 +70,8 @@ function revisarMateria(m, archivo){
   let nq = 0, nt = 0;
 
   for (const ex of m.examenes || []) {
+    if (ex.tipo !== undefined && ex.tipo !== "final") error(`${m.id}/${ex.id}: tipo debe ser final o no indicarse`);
+    if (ex.tipo === "final" && ex.parcial !== undefined) error(`${m.id}/${ex.id}: un final no puede declarar parcial`);
     if (ex.parcial !== undefined && ![1, 2].includes(ex.parcial)) error(`${m.id}/${ex.id}: parcial debe ser 1 o 2`);
     if (idsEx.has(ex.id)) error(`${m.id}: id de examen repetido "${ex.id}"`);
     idsEx.add(ex.id);
