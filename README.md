@@ -107,6 +107,9 @@ Cada materia tiene un acceso **Resúmenes**, organizado por parcial. La ruta
 `#/ipc/resumenes/2` muestra los cuatro PDF del segundo parcial de IPC
 (Cátedra A · Buacar, capítulos 10 a 15): Resumen desarrollado en texto, Guía explicada con
 ejemplos, Cuadro sinóptico para repasar y Repaso visual para celular.
+La ruta `#/icse/resumenes/2` muestra los PDF del segundo parcial de ICSE
+(Cátedra A · Pedrosa, semanas 6 a 10): Guía de estudio y ayuda memoria, y
+Cuadro sinóptico para repasar.
 Cada tarjeta permite abrir el PDF en otra pestaña o descargarlo. Los archivos
 se guardan junto con la app para consultarlos sin conexión. Las materias o
 parciales sin material muestran un mensaje de disponibilidad.

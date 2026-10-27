@@ -33,5 +33,21 @@ var RESUMENES = [
     detalle: "Buacar (A) · Caps. 10–15 · Revisión 23/10/2026 · Complemento histórico separado",
     paginas: 71, formato: "Vertical para celular · 360 × 720 pt",
     archivo: "resumenes/ipc/2do-parcial/Cuadro_Sinoptico_IPC_Celular.pdf"
+  },
+  {
+    id: "icse-p2-guia", materia: "icse", parcial: 2,
+    nombre: "Guía de estudio y ayuda memoria",
+    descripcion: "Explicaciones por tema, comparaciones, cadenas de causas y preguntas de práctica para repasar las semanas 6 a 10.",
+    detalle: "Cátedra A · Pedrosa · Semanas 6 a 10 · Incluye pendientes de cotejo señalados",
+    paginas: 22, formato: "A4 vertical",
+    archivo: "resumenes/icse/2do-parcial/Guia_Resumen_ICSE_2do_Parcial.pdf"
+  },
+  {
+    id: "icse-p2-cuadro", materia: "icse", parcial: 2,
+    nombre: "Cuadro sinóptico para repasar",
+    descripcion: "Autores, ideas clave y conexiones de las unidades 4 y 5 en un repaso visual breve.",
+    detalle: "Cátedra A · Pedrosa · Semanas 6 a 10 · Repaso rápido",
+    paginas: 4, formato: "A4 horizontal",
+    archivo: "resumenes/icse/2do-parcial/Cuadro_Sinoptico_ICSE_2do_Parcial.pdf"
   }
 ];

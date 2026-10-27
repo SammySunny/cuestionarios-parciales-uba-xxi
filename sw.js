@@ -3,7 +3,7 @@
 
    CADA VEZ QUE CAMBIES ALGO (una materia, index.html, íconos…), SUBÍ ESTE NÚMERO.
    Así los teléfonos detectan la versión nueva y muestran el aviso "Actualizar". */
-const VERSION = "2026-10-26.2";
+const VERSION = "2026-10-26.3";
 
 /* la lista de materias sale de materias/indice.js: no hace falta repetirla acá */
 importScripts("materias/indice.js");
